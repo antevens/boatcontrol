@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EW60-1A3-CL12D04
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP G5RL-K1A-E-DC12
+K Bistable (Latching) dual coil 16A 12V Relay
+F Omron
+$ENDCMP
+#
+#End Doc Library
