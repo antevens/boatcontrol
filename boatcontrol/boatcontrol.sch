@@ -413,26 +413,14 @@ Wire Wire Line
 Wire Wire Line
 	15350 3650 15350 4350
 Wire Wire Line
-	16250 9100 16250 6350
-Wire Wire Line
 	12550 6350 12550 9100
 Connection ~ 12550 9100
-Wire Wire Line
-	8950 9100 8950 6300
-Wire Wire Line
-	8950 9100 8300 9100
-Connection ~ 8950 9100
 Wire Wire Line
 	10650 5050 11150 5050
 Wire Wire Line
 	14250 5050 14850 5050
 Wire Wire Line
 	12550 9100 13200 9100
-Wire Wire Line
-	14500 6350 14500 9100
-Connection ~ 14500 9100
-Wire Wire Line
-	14500 9100 14600 9100
 Wire Wire Line
 	7000 5000 7550 5000
 Wire Wire Line
@@ -442,39 +430,14 @@ Wire Wire Line
 Wire Wire Line
 	14100 5050 14100 7000
 Wire Wire Line
-	14250 5050 14250 9100
+	14250 5050 14250 6350
 Connection ~ 14250 9100
-Wire Wire Line
-	14250 9100 14500 9100
-Wire Wire Line
-	10650 5050 10650 9100
-Connection ~ 10650 9100
-Wire Wire Line
-	10650 9100 10400 9100
 Wire Wire Line
 	9750 5000 10500 5000
 Wire Wire Line
-	7000 5000 7000 9100
-Wire Wire Line
-	17750 7000 14100 7000
-$Comp
-L Regulator_Linear:MC78L05_SO8 U?
-U 1 1 5E7F2C5A
-P 19000 6600
-F 0 "U?" H 19000 6842 50  0000 C CNN
-F 1 "MC78L05_SO8" H 19000 6751 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 19100 6800 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 19200 6600 50  0001 C CNN
-	1    19000 6600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	16250 9100 16700 9100
-Connection ~ 16250 9100
+	7000 5000 7000 6300
 Wire Wire Line
 	17750 5050 17750 6600
-Wire Wire Line
-	18700 6600 18600 6600
 Connection ~ 17750 6600
 Wire Wire Line
 	17750 6600 17750 7000
@@ -843,10 +806,7 @@ Wire Wire Line
 	17700 11800 14050 11800
 Connection ~ 14050 11800
 Wire Wire Line
-	18600 6600 18600 6000
-Connection ~ 18600 6600
-Wire Wire Line
-	18600 6600 17750 6600
+	18000 6600 17750 6600
 Connection ~ 17700 11800
 Wire Wire Line
 	17700 11800 17700 13600
@@ -933,8 +893,6 @@ Wire Wire Line
 	8300 9100 7600 9100
 Connection ~ 9000 9100
 Wire Wire Line
-	9000 9100 8950 9100
-Wire Wire Line
 	9000 9100 9000 9650
 Wire Wire Line
 	9700 9650 9700 9100
@@ -985,8 +943,6 @@ Wire Wire Line
 	16000 9650 16000 9100
 Connection ~ 16000 9100
 Wire Wire Line
-	16000 9100 16250 9100
-Wire Wire Line
 	16700 9650 16700 9100
 Connection ~ 16700 9100
 Wire Wire Line
@@ -1005,11 +961,11 @@ Wire Wire Line
 	18800 9650 18800 9100
 Connection ~ 18800 9100
 Wire Wire Line
-	18600 6000 32000 6000
+	18000 4400 20900 4400
 Wire Wire Line
 	17700 11800 32000 11800
 Wire Wire Line
-	32000 6000 32000 11800
+	32000 4400 32000 11800
 Wire Wire Line
 	31800 11650 16200 11650
 Wire Wire Line
@@ -1035,21 +991,6 @@ Wire Wire Line
 	22300 9650 22300 9100
 Connection ~ 22300 9100
 Wire Wire Line
-	19850 6600 19850 7000
-Wire Wire Line
-	19300 6600 19750 6600
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5E78CA07
-P 19850 6400
-F 0 "J?" V 19814 6480 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 19723 6480 50  0000 L CNN
-F 2 "" H 19850 6400 50  0001 C CNN
-F 3 "~" H 19850 6400 50  0001 C CNN
-	1    19850 6400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
 	20200 9100 19500 9100
 Connection ~ 20200 9100
 Connection ~ 19500 9100
@@ -1067,8 +1008,6 @@ Wire Wire Line
 	7600 6700 7600 6900
 Wire Wire Line
 	7600 6900 2200 6900
-Wire Wire Line
-	2200 6900 2200 9350
 Wire Wire Line
 	2900 9350 2900 6950
 Wire Wire Line
@@ -1088,8 +1027,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 7050 7900 6700
 Wire Wire Line
-	5000 9350 5000 7100
-Wire Wire Line
 	5000 7100 8000 7100
 Wire Wire Line
 	8000 7100 8000 6700
@@ -1101,8 +1038,6 @@ Wire Wire Line
 	5700 7150 5700 9350
 Wire Wire Line
 	6400 9350 6400 7200
-Wire Wire Line
-	7100 7250 7100 9350
 Wire Wire Line
 	7800 9350 7800 7300
 Wire Wire Line
@@ -1134,37 +1069,13 @@ Wire Wire Line
 Wire Wire Line
 	18300 8400 18300 9350
 Wire Wire Line
-	18800 9100 19500 9100
-Wire Wire Line
-	19000 6900 19000 7000
-Wire Wire Line
-	19000 7000 17750 7000
-Wire Wire Line
 	10500 5000 10500 7000
 Connection ~ 14100 7000
 Wire Wire Line
-	14100 7000 10800 7000
-Connection ~ 17750 7000
-Wire Wire Line
-	10650 9100 11100 9100
-Wire Wire Line
-	10800 6350 10800 7000
-Connection ~ 10800 7000
-Wire Wire Line
-	10800 7000 10500 7000
-Wire Wire Line
-	19850 7000 19000 7000
-Connection ~ 19000 7000
-Wire Wire Line
 	31800 9100 31800 7000
-Wire Wire Line
-	31800 7000 19850 7000
 Connection ~ 31800 9100
-Connection ~ 19850 7000
 Wire Wire Line
 	19000 8350 19000 9350
-Wire Wire Line
-	19700 8300 19700 9350
 Wire Wire Line
 	20400 8250 20400 9350
 Wire Wire Line
@@ -1327,13 +1238,6 @@ Wire Wire Line
 Wire Wire Line
 	19000 9950 19000 10900
 Wire Wire Line
-	7600 9100 7200 9100
-Wire Wire Line
-	7000 9100 7200 9100
-Connection ~ 7200 9100
-Wire Wire Line
-	7200 9100 7200 6300
-Wire Wire Line
 	6400 11150 9100 11150
 Wire Wire Line
 	9100 11150 9100 11950
@@ -1450,13 +1354,9 @@ Wire Wire Line
 Wire Wire Line
 	9900 9000 9900 9350
 Wire Wire Line
-	9650 6700 9650 9000
-Wire Wire Line
 	9750 6700 9750 8950
 Wire Wire Line
 	9750 8950 10600 8950
-Wire Wire Line
-	7100 9950 7100 11100
 Wire Wire Line
 	19700 9950 19700 10950
 Wire Wire Line
@@ -1528,19 +1428,11 @@ Wire Wire Line
 Wire Wire Line
 	13050 6750 13050 8300
 Wire Wire Line
-	13050 8300 19700 8300
-Wire Wire Line
 	13150 6750 13150 8250
-Wire Wire Line
-	13150 8250 20400 8250
 Wire Wire Line
 	13250 6750 13250 8200
 Wire Wire Line
-	13250 8200 21100 8200
-Wire Wire Line
 	13350 6750 13350 8150
-Wire Wire Line
-	13350 8150 21800 8150
 Wire Wire Line
 	22500 9350 22500 8100
 Wire Wire Line
@@ -1596,17 +1488,11 @@ Wire Wire Line
 Wire Wire Line
 	14800 6750 14800 8000
 Wire Wire Line
-	24100 8000 24100 9350
-Wire Wire Line
 	14800 8000 24100 8000
-Wire Wire Line
-	25000 9350 25000 7950
 Wire Wire Line
 	25000 7950 14900 7950
 Wire Wire Line
 	14900 7950 14900 6750
-Wire Wire Line
-	25900 9350 25900 7900
 Wire Wire Line
 	25900 7900 15000 7900
 Wire Wire Line
@@ -1615,8 +1501,6 @@ Wire Wire Line
 	15100 6750 15100 7850
 Wire Wire Line
 	15100 7850 26800 7850
-Wire Wire Line
-	26800 7850 26800 9350
 Wire Wire Line
 	27700 9350 27700 7800
 Wire Wire Line
@@ -2137,4 +2021,1665 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	1    29800 9600
 	0    1    1    0   
 $EndComp
+$Comp
+L BoatControl:TBL008V-1000-08BE J?
+U 1 1 5E708511
+P 30650 10650
+F 0 "J?" H 30542 10085 50  0000 C CNN
+F 1 "TBL008V-1000-08BE" H 30542 10176 50  0000 C CNN
+F 2 "CUI_TBL008V-1000-08BE" H 30650 10650 50  0001 L BNN
+F 3 "CUI" H 30650 10650 50  0001 L BNN
+F 4 "31.3mm" H 30650 10650 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 30650 10650 50  0001 L BNN "Field5"
+F 6 "" H 30650 10650 50  0001 L BNN "Field6"
+	1    30650 10650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	23500 11050 23550 11050
+Wire Wire Line
+	23500 10000 23500 11050
+Wire Wire Line
+	23550 10000 23550 11050
+Connection ~ 23550 11050
+Wire Wire Line
+	23550 11050 23600 11050
+Wire Wire Line
+	23600 10000 23600 11050
+Connection ~ 23600 11050
+Wire Wire Line
+	23600 11050 30250 11050
+Wire Wire Line
+	24400 10000 24400 10950
+Wire Wire Line
+	24400 10950 24450 10950
+Wire Wire Line
+	24450 10000 24450 10950
+Connection ~ 24450 10950
+Wire Wire Line
+	24450 10950 24500 10950
+Wire Wire Line
+	24500 10000 24500 10950
+Connection ~ 24500 10950
+Wire Wire Line
+	24500 10950 30250 10950
+Wire Wire Line
+	25300 10000 25300 10850
+Wire Wire Line
+	25300 10850 25350 10850
+Connection ~ 25350 10850
+Wire Wire Line
+	25350 10850 25400 10850
+Wire Wire Line
+	25350 10000 25350 10850
+Wire Wire Line
+	25400 10000 25400 10850
+Connection ~ 25400 10850
+Wire Wire Line
+	25400 10850 30250 10850
+Wire Wire Line
+	26200 10000 26200 10750
+Wire Wire Line
+	26200 10750 26250 10750
+Wire Wire Line
+	26250 10000 26250 10750
+Connection ~ 26250 10750
+Wire Wire Line
+	26250 10750 26300 10750
+Wire Wire Line
+	26300 10000 26300 10750
+Connection ~ 26300 10750
+Wire Wire Line
+	26300 10750 30250 10750
+Wire Wire Line
+	27100 10000 27100 10650
+Wire Wire Line
+	27100 10650 27150 10650
+Wire Wire Line
+	27150 10000 27150 10650
+Connection ~ 27150 10650
+Wire Wire Line
+	27150 10650 27200 10650
+Wire Wire Line
+	27200 10000 27200 10650
+Connection ~ 27200 10650
+Wire Wire Line
+	27200 10650 30250 10650
+Wire Wire Line
+	28000 10000 28000 10550
+Wire Wire Line
+	28000 10550 28050 10550
+Wire Wire Line
+	28050 10000 28050 10550
+Connection ~ 28050 10550
+Wire Wire Line
+	28050 10550 28100 10550
+Wire Wire Line
+	28100 10000 28100 10550
+Connection ~ 28100 10550
+Wire Wire Line
+	28100 10550 30250 10550
+Wire Wire Line
+	28900 10000 28900 10450
+Wire Wire Line
+	28900 10450 28950 10450
+Wire Wire Line
+	28950 10000 28950 10450
+Connection ~ 28950 10450
+Wire Wire Line
+	28950 10450 29000 10450
+Connection ~ 29000 10450
+Wire Wire Line
+	29000 10450 30250 10450
+Wire Wire Line
+	29000 10000 29000 10450
+Wire Wire Line
+	29800 10000 29800 10350
+Wire Wire Line
+	29800 10350 29850 10350
+Wire Wire Line
+	29850 10000 29850 10350
+Connection ~ 29850 10350
+Wire Wire Line
+	29850 10350 29900 10350
+Wire Wire Line
+	29900 10000 29900 10350
+Connection ~ 29900 10350
+Wire Wire Line
+	29900 10350 30250 10350
+$Comp
+L BoatControl:TBL008V-1000-02BE J?
+U 1 1 5EE490E7
+P 18350 6250
+F 0 "J?" V 18196 6122 50  0000 R CNN
+F 1 "TBL008V-1000-02BE (DC IN)" V 18650 6900 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 18350 6250 50  0001 L BNN
+F 3 "CUI" H 18350 6250 50  0001 L BNN
+F 4 "31.3mm" H 18350 6250 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 18350 6250 50  0001 L BNN "Field5"
+	1    18350 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:LM2679T-12 U2
+U 1 1 5F0112E1
+P 19900 6400
+F 0 "U2" H 19900 6770 50  0000 C CNN
+F 1 "LM2679T-12" H 19900 6679 50  0000 C CNN
+F 2 "TO127P457X1016X2052-7P" H 19900 6400 50  0001 L BNN
+F 3 "LM2679T-12" H 19900 6400 50  0001 L BNN
+F 4 "83F4664" H 19900 6400 50  0001 L BNN "Field4"
+F 5 "TO220-7" H 19900 6400 50  0001 L BNN "Field5"
+F 6 "National Semiconductor" H 19900 6400 50  0001 L BNN "Field6"
+F 7 "-" H 19900 6400 50  0001 L BNN "Field7"
+	1    19900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21150 6600 21250 6600
+Wire Wire Line
+	16000 9100 16250 9100
+Wire Wire Line
+	14100 7000 17750 7000
+Wire Wire Line
+	16250 6350 16250 9100
+Connection ~ 16250 9100
+Wire Wire Line
+	16250 9100 16700 9100
+$Comp
+L BoatControl:LM2679T-12 U1
+U 1 1 5F41B45D
+P 19900 5350
+F 0 "U1" H 19900 5720 50  0000 C CNN
+F 1 "LM2679T-12" H 19900 5629 50  0000 C CNN
+F 2 "TO127P457X1016X2052-7P" H 19900 5350 50  0001 L BNN
+F 3 "LM2679T-12" H 19900 5350 50  0001 L BNN
+F 4 "83F4664" H 19900 5350 50  0001 L BNN "Field4"
+F 5 "TO220-7" H 19900 5350 50  0001 L BNN "Field5"
+F 6 "National Semiconductor" H 19900 5350 50  0001 L BNN "Field6"
+F 7 "-" H 19900 5350 50  0001 L BNN "Field7"
+	1    19900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 7000 14100 7000
+Wire Wire Line
+	20800 5350 21250 5350
+Wire Wire Line
+	21250 5350 21250 5100
+Connection ~ 21250 4400
+Wire Wire Line
+	21250 4400 32000 4400
+Wire Wire Line
+	20800 6400 21250 6400
+Wire Wire Line
+	21250 6400 21250 5350
+Connection ~ 21250 5350
+Wire Wire Line
+	18800 9100 19500 9100
+Wire Wire Line
+	18000 4400 18000 6600
+Wire Wire Line
+	18950 6400 19000 6400
+$Comp
+L Device:D_Schottky D?
+U 1 1 5FD546AA
+P 21250 6550
+F 0 "D?" H 21250 6766 50  0000 C CNN
+F 1 "MBR2045CTF-G1" H 21250 6675 50  0000 C CNN
+F 2 "BoatControl:TO-220" H 21250 6550 50  0001 C CNN
+F 3 "~" H 21250 6550 50  0001 C CNN
+	1    21250 6550
+	0    1    1    0   
+$EndComp
+Connection ~ 21250 6400
+Wire Wire Line
+	21250 6700 21250 7000
+Connection ~ 21250 7000
+Wire Wire Line
+	21250 7000 21450 7000
+$Comp
+L Device:CP1 C?
+U 1 1 603AAA8B
+P 21450 6550
+F 0 "C?" H 21565 6596 50  0000 L CNN
+F 1 "UBT1H331MHD1TO" H 21565 6505 50  0000 L CNN
+F 2 "BoatControl:CAPPRD500W60D1000H1750" H 21450 6550 50  0001 C CNN
+F 3 "" H 21450 6550 50  0001 C CNN
+	1    21450 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21450 7000 21450 6700
+Connection ~ 21450 7000
+Wire Wire Line
+	21450 7000 31800 7000
+Wire Wire Line
+	21450 6400 21250 6400
+$Comp
+L BoatControl:1140-680K-RC L?
+U 1 1 6045269B
+P 21250 4800
+F 0 "L?" H 21330 4846 50  0000 L CNN
+F 1 "1140-680K-RC" H 21330 4755 50  0000 L CNN
+F 2 "INDRD2921W163D3810H2616P" H 21250 4800 50  0001 L BNN
+F 3 "Bourns" H 21250 4800 50  0001 L BNN
+	1    21250 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21250 4500 21250 4400
+Wire Wire Line
+	18950 5350 19000 5350
+$Comp
+L Device:CP1_Small C?
+U 1 1 60672C2A
+P 18350 5000
+F 0 "C?" V 18121 5000 50  0000 C CNN
+F 1 "UPV1H150MFD" V 18212 5000 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 18350 5000 50  0001 C CNN
+F 3 "~" H 18350 5000 50  0001 C CNN
+	1    18350 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 606C64CF
+P 18350 5250
+F 0 "C?" V 18121 5250 50  0000 C CNN
+F 1 "UPV1H150MFD" V 18212 5250 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 18350 5250 50  0001 C CNN
+F 3 "~" H 18350 5250 50  0001 C CNN
+	1    18350 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 606C82E9
+P 18350 5500
+F 0 "C?" V 18121 5500 50  0000 C CNN
+F 1 "UPV1H150MFD" V 18212 5500 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 18350 5500 50  0001 C CNN
+F 3 "~" H 18350 5500 50  0001 C CNN
+	1    18350 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18450 5500 18450 5250
+Wire Wire Line
+	18450 5250 18450 5000
+Connection ~ 18450 5250
+Wire Wire Line
+	18250 5000 18250 5250
+Connection ~ 18250 5250
+Wire Wire Line
+	18250 5250 18250 5500
+Wire Wire Line
+	18950 5350 18950 5850
+Connection ~ 18950 5850
+Wire Wire Line
+	18950 5850 18950 6400
+Wire Wire Line
+	18100 5250 18250 5250
+$Comp
+L Device:R_Small R?
+U 1 1 60FAD488
+P 20950 6850
+F 0 "R?" H 21009 6896 50  0000 L CNN
+F 1 "25KOhm" H 21009 6805 50  0000 L CNN
+F 2 "" H 20950 6850 50  0001 C CNN
+F 3 "~" H 20950 6850 50  0001 C CNN
+	1    20950 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20950 6750 20950 6600
+Wire Wire Line
+	20950 6600 20800 6600
+Wire Wire Line
+	20950 7000 20950 6950
+Connection ~ 20950 7000
+Wire Wire Line
+	20950 7000 21000 7000
+$Comp
+L Device:R_Small R?
+U 1 1 6104FAF4
+P 21000 5750
+F 0 "R?" H 21059 5796 50  0000 L CNN
+F 1 "25KOhm" H 21059 5705 50  0000 L CNN
+F 2 "" H 21000 5750 50  0001 C CNN
+F 3 "~" H 21000 5750 50  0001 C CNN
+	1    21000 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21000 7000 21000 5850
+Connection ~ 21000 7000
+Wire Wire Line
+	21000 7000 21250 7000
+Wire Wire Line
+	21000 5650 21000 5550
+Wire Wire Line
+	21000 5550 20800 5550
+$Comp
+L Device:C_Small C?
+U 1 1 6123B4BF
+P 18800 6500
+F 0 "C?" V 18571 6500 50  0000 C CNN
+F 1 "493-3389-ND" V 18662 6500 50  0000 C CNN
+F 2 "" H 18800 6500 50  0001 C CNN
+F 3 "~" H 18800 6500 50  0001 C CNN
+	1    18800 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61242B85
+P 18800 5450
+F 0 "C?" V 18571 5450 50  0000 C CNN
+F 1 "493-3389-ND" V 18662 5450 50  0000 C CNN
+F 2 "" H 18800 5450 50  0001 C CNN
+F 3 "~" H 18800 5450 50  0001 C CNN
+	1    18800 5450
+	0    1    1    0   
+$EndComp
+Connection ~ 18700 7000
+Wire Wire Line
+	20800 6500 20900 6500
+Wire Wire Line
+	20900 6500 20900 5450
+Connection ~ 20900 4400
+Wire Wire Line
+	20900 4400 21250 4400
+Wire Wire Line
+	20900 5450 20800 5450
+Connection ~ 20900 5450
+Wire Wire Line
+	20900 5450 20900 4400
+$Comp
+L BoatControl:TBL008V-1000-08BE J?
+U 1 1 6158AE85
+P 30600 8600
+F 0 "J?" H 30828 8696 50  0000 L CNN
+F 1 "TBL008V-1000-08BE" H 30828 8605 50  0000 L CNN
+F 2 "CUI_TBL008V-1000-08BE" H 30600 8600 50  0001 L BNN
+F 3 "CUI" H 30600 8600 50  0001 L BNN
+F 4 "31.3mm" H 30600 8600 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 30600 8600 50  0001 L BNN "Field5"
+F 6 "" H 30600 8600 50  0001 L BNN "Field6"
+	1    30600 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	30200 8900 29900 8900
+Wire Wire Line
+	29900 8900 29900 9200
+Wire Wire Line
+	29900 8900 29850 8900
+Wire Wire Line
+	29850 8900 29850 9200
+Connection ~ 29900 8900
+Wire Wire Line
+	29850 8900 29800 8900
+Wire Wire Line
+	29800 8900 29800 9200
+Connection ~ 29850 8900
+Wire Wire Line
+	30200 8800 29000 8800
+Wire Wire Line
+	29000 8800 29000 9200
+Wire Wire Line
+	28950 8800 29000 8800
+Connection ~ 29000 8800
+Wire Wire Line
+	28950 8800 28900 8800
+Wire Wire Line
+	28900 8800 28900 9200
+Connection ~ 28950 8800
+Wire Wire Line
+	28950 8800 28950 9200
+Wire Wire Line
+	30200 8700 28100 8700
+Wire Wire Line
+	28100 8700 28100 9200
+Wire Wire Line
+	28050 9200 28050 8700
+Wire Wire Line
+	28050 8700 28100 8700
+Connection ~ 28100 8700
+Wire Wire Line
+	28000 9150 28000 8700
+Wire Wire Line
+	28000 8700 28050 8700
+Connection ~ 28050 8700
+Wire Wire Line
+	30200 8600 27200 8600
+Wire Wire Line
+	27200 8600 27200 9200
+Wire Wire Line
+	27150 9200 27150 8600
+Wire Wire Line
+	27150 8600 27200 8600
+Connection ~ 27200 8600
+Wire Wire Line
+	27150 8600 27100 8600
+Wire Wire Line
+	27100 8600 27100 9200
+Connection ~ 27150 8600
+Wire Wire Line
+	30200 8500 26300 8500
+Wire Wire Line
+	26250 9200 26250 8500
+Wire Wire Line
+	26250 8500 26300 8500
+Connection ~ 26300 8500
+Wire Wire Line
+	26200 9200 26200 8500
+Wire Wire Line
+	26200 8500 26250 8500
+Connection ~ 26250 8500
+Wire Wire Line
+	30200 8400 25400 8400
+Wire Wire Line
+	25350 9200 25350 8400
+Wire Wire Line
+	25350 8400 25400 8400
+Connection ~ 25400 8400
+Wire Wire Line
+	25300 9200 25300 8400
+Wire Wire Line
+	25300 8400 25350 8400
+Connection ~ 25350 8400
+Wire Wire Line
+	24500 8300 30200 8300
+Wire Wire Line
+	24450 9200 24450 8300
+Wire Wire Line
+	24450 8300 24500 8300
+Connection ~ 24500 8300
+Wire Wire Line
+	24400 9200 24400 8300
+Wire Wire Line
+	24400 8300 24450 8300
+Connection ~ 24450 8300
+Wire Wire Line
+	30200 8200 23600 8200
+Wire Wire Line
+	23550 9200 23550 8200
+Wire Wire Line
+	23550 8200 23600 8200
+Connection ~ 23600 8200
+Wire Wire Line
+	23500 9200 23500 8200
+Wire Wire Line
+	23500 8200 23550 8200
+Connection ~ 23550 8200
+Wire Wire Line
+	18100 5250 18100 5650
+Wire Wire Line
+	18100 5850 18250 5850
+Connection ~ 18100 5850
+Wire Wire Line
+	18100 5850 18100 7000
+Connection ~ 18100 5650
+Wire Wire Line
+	18100 5650 18100 5850
+Wire Wire Line
+	18100 5650 18700 5650
+Wire Wire Line
+	18700 7000 20950 7000
+Wire Wire Line
+	18950 5350 18950 5250
+Wire Wire Line
+	18950 5250 18450 5250
+Connection ~ 18950 5350
+Wire Wire Line
+	19000 5450 18900 5450
+Wire Wire Line
+	18700 5450 18700 5650
+Connection ~ 18700 5650
+Wire Wire Line
+	18700 5650 19000 5650
+Wire Wire Line
+	18900 6500 19000 6500
+Wire Wire Line
+	18700 6500 18700 7000
+Wire Wire Line
+	18100 7000 18700 7000
+Wire Wire Line
+	18350 5850 18550 5850
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 63474D90
+P 800 8750
+F 0 "Q?" V 754 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 350 8350 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 800 8750 50  0001 C CNN
+F 3 "" H 800 8750 50  0001 C CNN
+	1    800  8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634DFD2C
+P 14300 7400
+F 0 "Q?" V 14254 7328 50  0000 L CNN
+F 1 "SchurterCircuitBreaker 8a 4404.0101" V 14050 6800 50  0000 L CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 14300 7400 50  0001 C CNN
+F 3 "" H 14300 7400 50  0001 C CNN
+	1    14300 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E008B
+P 13400 7800
+F 0 "Q?" V 13354 7272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 13445 7272 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 13400 7800 50  0001 C CNN
+F 3 "" H 13400 7800 50  0001 C CNN
+	1    13400 7800
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E229F
+P 1500 8750
+F 0 "Q?" V 1454 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 1150 9700 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 1500 8750 50  0001 C CNN
+F 3 "" H 1500 8750 50  0001 C CNN
+	1    1500 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E258A
+P 2200 8750
+F 0 "Q?" V 2154 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 1650 8950 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 2200 8750 50  0001 C CNN
+F 3 "" H 2200 8750 50  0001 C CNN
+	1    2200 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E29B1
+P 2900 8750
+F 0 "Q?" V 2854 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 2600 9000 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 2900 8750 50  0001 C CNN
+F 3 "" H 2900 8750 50  0001 C CNN
+	1    2900 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E2CC4
+P 3600 8750
+F 0 "Q?" V 3554 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 3200 9000 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 3600 8750 50  0001 C CNN
+F 3 "" H 3600 8750 50  0001 C CNN
+	1    3600 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E32D8
+P 4300 8750
+F 0 "Q?" V 4254 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 3800 9150 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 4300 8750 50  0001 C CNN
+F 3 "" H 4300 8750 50  0001 C CNN
+	1    4300 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E37F8
+P 5000 8750
+F 0 "Q?" V 4954 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 4400 8950 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 5000 8750 50  0001 C CNN
+F 3 "" H 5000 8750 50  0001 C CNN
+	1    5000 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB941
+P 5700 8750
+F 0 "Q?" V 5654 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a 4404.0096" V 5150 9100 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 5700 8750 50  0001 C CNN
+F 3 "" H 5700 8750 50  0001 C CNN
+	1    5700 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB94B
+P 6400 8750
+F 0 "Q?" V 6354 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 6100 9100 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 6400 8750 50  0001 C CNN
+F 3 "" H 6400 8750 50  0001 C CNN
+	1    6400 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB955
+P 7100 8750
+F 0 "Q?" V 7054 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 6700 9050 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 7100 8750 50  0001 C CNN
+F 3 "" H 7100 8750 50  0001 C CNN
+	1    7100 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB95F
+P 9200 8750
+F 0 "Q?" V 9154 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 9245 8222 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 9200 8750 50  0001 C CNN
+F 3 "" H 9200 8750 50  0001 C CNN
+	1    9200 8750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5000 7100 5000 9350
+Wire Wire Line
+	2200 6900 2200 9350
+NoConn ~ 5550 8200
+Wire Wire Line
+	9650 6700 9650 9000
+Wire Wire Line
+	9400 9000 9400 9350
+Wire Wire Line
+	9400 9350 9500 9350
+Connection ~ 9400 9350
+Wire Wire Line
+	8700 9000 8700 9350
+Wire Wire Line
+	8800 9350 8700 9350
+Connection ~ 8700 9350
+Wire Wire Line
+	8000 9000 8000 9350
+Wire Wire Line
+	8100 9350 8000 9350
+Connection ~ 8000 9350
+Wire Wire Line
+	7400 9350 7300 9350
+Wire Wire Line
+	7300 9000 7300 9350
+Connection ~ 7300 9350
+Wire Wire Line
+	6600 9000 6600 9350
+Wire Wire Line
+	6700 9350 6600 9350
+Connection ~ 6600 9350
+Wire Wire Line
+	6000 9350 5900 9350
+Wire Wire Line
+	5900 9000 5900 9350
+Connection ~ 5900 9350
+Wire Wire Line
+	5200 9000 5200 9350
+Wire Wire Line
+	5300 9350 5200 9350
+Connection ~ 5200 9350
+Wire Wire Line
+	4500 9000 4500 9350
+Wire Wire Line
+	4600 9350 4500 9350
+Connection ~ 4500 9350
+Wire Wire Line
+	3800 9000 3800 9350
+Wire Wire Line
+	3800 9350 3900 9350
+Connection ~ 3800 9350
+Wire Wire Line
+	3200 9350 3100 9350
+Wire Wire Line
+	3100 9350 3100 9000
+Connection ~ 3100 9350
+Wire Wire Line
+	2400 9000 2400 9350
+Wire Wire Line
+	2500 9350 2400 9350
+Connection ~ 2400 9350
+Wire Wire Line
+	1800 9350 1700 9350
+Wire Wire Line
+	1700 9350 1700 9000
+Connection ~ 1700 9350
+Wire Wire Line
+	1000 9000 1000 9350
+Wire Wire Line
+	1100 9350 1000 9350
+Connection ~ 1000 9350
+Wire Wire Line
+	10100 9350 10100 8700
+Wire Wire Line
+	10200 9350 10100 9350
+Connection ~ 10100 9350
+Wire Wire Line
+	10600 7850 10900 7850
+Wire Wire Line
+	10900 7850 10900 9350
+Wire Wire Line
+	10800 9350 10900 9350
+Connection ~ 10900 9350
+Wire Wire Line
+	11800 7300 11800 9000
+Wire Wire Line
+	11800 9000 11600 9000
+Wire Wire Line
+	11600 9000 11600 9350
+Wire Wire Line
+	11500 9350 11600 9350
+Connection ~ 11600 9350
+Wire Wire Line
+	3800 8500 4500 8500
+Connection ~ 4500 8500
+Wire Wire Line
+	4500 8500 5200 8500
+Connection ~ 5200 8500
+Wire Wire Line
+	7300 8500 8000 8500
+Connection ~ 8000 8500
+Wire Wire Line
+	8000 8500 8650 8500
+Wire Wire Line
+	18550 5850 18550 7100
+Connection ~ 18550 5850
+Wire Wire Line
+	18550 5850 18950 5850
+Wire Wire Line
+	12300 7300 12300 7100
+Connection ~ 12300 7100
+Wire Wire Line
+	12300 7100 10100 7100
+Connection ~ 12400 7100
+Wire Wire Line
+	12400 7100 12300 7100
+Wire Wire Line
+	12400 7100 12400 7600
+Wire Wire Line
+	12300 8100 12300 9350
+Wire Wire Line
+	12300 9350 12200 9350
+Connection ~ 12300 9350
+Wire Wire Line
+	13600 8050 13600 8850
+Wire Wire Line
+	13600 8850 13000 8850
+Wire Wire Line
+	13000 8850 13000 9350
+Wire Wire Line
+	12900 9350 13000 9350
+Connection ~ 13000 9350
+Wire Wire Line
+	13600 7550 13600 7100
+Connection ~ 13600 7100
+Wire Wire Line
+	13600 7100 12400 7100
+Wire Wire Line
+	14100 7150 14100 7100
+Connection ~ 14100 7100
+Wire Wire Line
+	14100 7100 13600 7100
+Wire Wire Line
+	13600 9350 13700 9350
+Wire Wire Line
+	13700 9350 13700 8050
+Wire Wire Line
+	13700 8050 14100 8050
+Wire Wire Line
+	14100 8050 14100 7650
+Connection ~ 13700 9350
+Wire Wire Line
+	15000 9350 15100 9350
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E5096
+P 19800 8800
+F 0 "Q?" V 19754 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 19600 9100 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 19800 8800 50  0001 C CNN
+F 3 "" H 19800 8800 50  0001 C CNN
+	1    19800 8800
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E4CCA
+P 20500 8800
+F 0 "Q?" V 20454 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 20200 9300 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 20500 8800 50  0001 C CNN
+F 3 "" H 20500 8800 50  0001 C CNN
+	1    20500 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	26800 7850 26800 9350
+Wire Wire Line
+	26300 8500 26300 9200
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E4968
+P 21200 8800
+F 0 "Q?" V 21154 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 20800 9200 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 21200 8800 50  0001 C CNN
+F 3 "" H 21200 8800 50  0001 C CNN
+	1    21200 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	25900 9350 25900 7900
+Wire Wire Line
+	25400 8400 25400 9200
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E465C
+P 21900 8800
+F 0 "Q?" V 21854 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 21700 9300 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 21900 8800 50  0001 C CNN
+F 3 "" H 21900 8800 50  0001 C CNN
+	1    21900 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	25000 9350 25000 7950
+Wire Wire Line
+	24500 9200 24500 8300
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E412A
+P 22600 8800
+F 0 "Q?" V 22554 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 22300 9150 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 22600 8800 50  0001 C CNN
+F 3 "" H 22600 8800 50  0001 C CNN
+	1    22600 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	24100 8000 24100 9350
+Wire Wire Line
+	23600 8200 23600 9200
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 63472B6D
+P 19100 8800
+F 0 "Q?" V 19054 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 16a 4404.0105" V 19300 9300 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 19100 8800 50  0001 C CNN
+F 3 "" H 19100 8800 50  0001 C CNN
+	1    19100 8800
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 63479735
+P 16300 8800
+F 0 "Q?" V 16254 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 10a 4404.0102" V 16000 9300 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 16300 8800 50  0001 C CNN
+F 3 "" H 16300 8800 50  0001 C CNN
+	1    16300 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12300 7600 12400 7600
+Wire Wire Line
+	12250 7600 12300 7600
+Connection ~ 12300 7600
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634E0E6F
+P 12500 7850
+F 0 "Q?" V 12454 7778 50  0000 L CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 12545 7778 50  0000 L CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 12500 7850 50  0001 C CNN
+F 3 "" H 12500 7850 50  0001 C CNN
+	1    12500 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB973
+P 12050 7100
+F 0 "Q?" H 12050 7165 50  0000 C CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" H 12050 7074 50  0000 C CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 12050 7100 50  0001 C CNN
+F 3 "" H 12050 7100 50  0001 C CNN
+	1    12050 7100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 7850 10100 8200
+Wire Wire Line
+	10100 7100 10100 7850
+Connection ~ 10100 7850
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB97D
+P 10350 7650
+F 0 "Q?" H 10350 7715 50  0000 C CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" H 10350 7624 50  0000 C CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 10350 7650 50  0001 C CNN
+F 3 "" H 10350 7650 50  0001 C CNN
+	1    10350 7650
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 8200
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634EB969
+P 9900 8450
+F 0 "Q?" V 9854 7922 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 9945 7922 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 9900 8450 50  0001 C CNN
+F 3 "" H 9900 8450 50  0001 C CNN
+	1    9900 8450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13050 8300 19700 8300
+Wire Wire Line
+	7100 7250 7100 9350
+Wire Wire Line
+	5200 8500 5900 8500
+Connection ~ 5900 8500
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 66DA0260
+P 7800 8750
+F 0 "Q?" V 7754 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 7300 9050 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 7800 8750 50  0001 C CNN
+F 3 "" H 7800 8750 50  0001 C CNN
+	1    7800 8750
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 66DA22F7
+P 8450 8750
+F 0 "Q?" V 8404 8222 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a 4404.0099" V 7850 9150 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 8450 8750 50  0001 C CNN
+F 3 "" H 8450 8750 50  0001 C CNN
+	1    8450 8750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9000 9100 9000 7400
+Wire Wire Line
+	9000 7400 8950 7400
+Wire Wire Line
+	8950 7400 8950 6300
+Wire Wire Line
+	8300 9100 9000 9100
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 671C74D7
+P 18400 8800
+F 0 "Q?" V 18354 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 12a 4404.0103" V 18100 9050 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 18400 8800 50  0001 C CNN
+F 3 "" H 18400 8800 50  0001 C CNN
+	1    18400 8800
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 671C9600
+P 15600 8900
+F 0 "Q?" V 15554 8372 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 10a 4404.0102" V 15300 9350 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 15600 8900 50  0001 C CNN
+F 3 "" H 15600 8900 50  0001 C CNN
+	1    15600 8900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	19700 8300 19700 9350
+Wire Wire Line
+	13150 8250 20400 8250
+Wire Wire Line
+	13350 8150 21800 8150
+Wire Wire Line
+	13250 8200 21100 8200
+Wire Wire Line
+	14300 9350 14400 9350
+Wire Wire Line
+	14100 7100 14400 7100
+Wire Wire Line
+	15800 9150 15800 9350
+Wire Wire Line
+	15700 9350 15800 9350
+Connection ~ 15800 9350
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 682BF8A1
+P 17700 8800
+F 0 "Q?" V 17654 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 12a 4404.0103" V 17250 9300 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 17700 8800 50  0001 C CNN
+F 3 "" H 17700 8800 50  0001 C CNN
+	1    17700 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10650 9100 10400 9100
+Connection ~ 10650 9100
+Wire Wire Line
+	10650 5050 10650 6350
+Wire Wire Line
+	10800 6350 10650 6350
+Connection ~ 10650 6350
+Wire Wire Line
+	10650 6350 10650 9100
+Wire Wire Line
+	10650 9100 11100 9100
+Connection ~ 14250 6350
+Wire Wire Line
+	14250 6350 14250 9100
+Wire Wire Line
+	14250 6350 14500 6350
+Wire Wire Line
+	14250 9100 14600 9100
+Wire Wire Line
+	7200 6300 7000 6300
+Connection ~ 7000 6300
+Wire Wire Line
+	7000 6300 7000 9100
+Wire Wire Line
+	7000 9100 7600 9100
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 688732CD
+P 14200 8950
+F 0 "Q?" V 14154 8422 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 8a 4404.0101" V 14400 9450 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 14200 8950 50  0001 C CNN
+F 3 "" H 14200 8950 50  0001 C CNN
+	1    14200 8950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14400 9200 14400 9350
+Connection ~ 14400 9350
+Wire Wire Line
+	14400 8700 14400 7100
+Connection ~ 14400 7100
+Wire Wire Line
+	15100 8650 15450 8650
+Wire Wire Line
+	15100 9150 15100 9350
+Connection ~ 15100 9350
+Connection ~ 3800 8500
+Wire Wire Line
+	3100 8500 3800 8500
+Connection ~ 3100 8500
+Wire Wire Line
+	2400 8500 3100 8500
+Connection ~ 2400 8500
+Wire Wire Line
+	1700 8500 2400 8500
+Connection ~ 1700 8500
+Wire Wire Line
+	1000 8500 1700 8500
+Wire Wire Line
+	5900 8200 5900 8500
+Wire Wire Line
+	5900 8200 9400 8200
+Wire Wire Line
+	7300 8500 6600 8500
+Connection ~ 7300 8500
+Wire Wire Line
+	9400 8500 9400 8200
+Connection ~ 9400 8200
+Wire Wire Line
+	9400 8200 10100 8200
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 692CB026
+P 17000 8800
+F 0 "Q?" V 16954 8272 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 10a 4404.0102" V 16600 9200 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 17000 8800 50  0001 C CNN
+F 3 "" H 17000 8800 50  0001 C CNN
+	1    17000 8800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	16500 9050 16500 9350
+Wire Wire Line
+	16400 9350 16500 9350
+Connection ~ 16500 9350
+Wire Wire Line
+	17200 9050 17200 9350
+Wire Wire Line
+	17100 9350 17200 9350
+Connection ~ 17200 9350
+$Comp
+L BoatControl:TBL008V-1000-02BE J?
+U 1 1 694E03E5
+P 16950 7450
+F 0 "J?" H 16842 7185 50  0000 C CNN
+F 1 "TBL008V-1000-02BE (AC IN)" H 17800 7500 50  0000 C CNN
+F 2 "CUI_TBL008V-1000-02BE" H 16950 7450 50  0001 L BNN
+F 3 "CUI" H 16950 7450 50  0001 L BNN
+F 4 "31.3mm" H 16950 7450 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 16950 7450 50  0001 L BNN "Field5"
+	1    16950 7450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	15800 8650 15800 7450
+Wire Wire Line
+	15800 7450 16500 7450
+Wire Wire Line
+	16500 8550 16500 7450
+Connection ~ 16500 7450
+Wire Wire Line
+	16500 7450 16550 7450
+Wire Wire Line
+	17200 8550 17200 7300
+Wire Wire Line
+	17200 7300 16500 7300
+Wire Wire Line
+	16500 7300 16500 7450
+$Comp
+L BoatControl:SchurterCircuitBreaker Q?
+U 1 1 634DEFBF
+P 14900 8900
+F 0 "Q?" V 14854 8372 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 10a 4404.00102" V 14700 9350 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 14900 8900 50  0001 C CNN
+F 3 "" H 14900 8900 50  0001 C CNN
+	1    14900 8900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14400 7100 17900 7100
+Wire Wire Line
+	15450 8650 15450 7450
+Wire Wire Line
+	15450 7450 15800 7450
+Connection ~ 15800 7450
+Wire Wire Line
+	22800 9050 22800 9350
+Wire Wire Line
+	22700 9350 22800 9350
+Connection ~ 22800 9350
+Wire Wire Line
+	22000 9350 22100 9350
+Wire Wire Line
+	22100 9350 22100 9050
+Connection ~ 22100 9350
+Wire Wire Line
+	22100 8550 22100 7300
+Wire Wire Line
+	22100 7300 17200 7300
+Connection ~ 17200 7300
+Wire Wire Line
+	22800 8500 22800 7300
+Wire Wire Line
+	22800 7300 22100 7300
+Connection ~ 22100 7300
+Wire Wire Line
+	21400 9050 21400 9350
+Wire Wire Line
+	21300 9350 21400 9350
+Connection ~ 21400 9350
+Wire Wire Line
+	20700 9050 20700 9350
+Wire Wire Line
+	20600 9350 20700 9350
+Connection ~ 20700 9350
+Wire Wire Line
+	20000 9050 20000 9350
+Wire Wire Line
+	19900 9350 20000 9350
+Connection ~ 20000 9350
+Wire Wire Line
+	19300 9050 19300 9350
+Wire Wire Line
+	19200 9350 19300 9350
+Connection ~ 19300 9350
+Wire Wire Line
+	18600 9050 18600 9350
+Wire Wire Line
+	18500 9350 18600 9350
+Connection ~ 18600 9350
+Wire Wire Line
+	17800 9350 17900 9350
+Wire Wire Line
+	17900 9050 17900 9350
+Connection ~ 17900 9350
+Wire Wire Line
+	17900 8550 17900 7100
+Connection ~ 17900 7100
+Wire Wire Line
+	17900 7100 18550 7100
+Wire Wire Line
+	18600 8550 18600 7100
+Wire Wire Line
+	18600 7100 18550 7100
+Connection ~ 18550 7100
+Wire Wire Line
+	19300 8550 19300 7100
+Wire Wire Line
+	19300 7100 18600 7100
+Connection ~ 18600 7100
+Wire Wire Line
+	20000 8550 20000 7100
+Connection ~ 19300 7100
+Wire Wire Line
+	20700 8550 20700 7100
+Wire Wire Line
+	19300 7100 20000 7100
+Connection ~ 20000 7100
+Wire Wire Line
+	20000 7100 20700 7100
+Wire Wire Line
+	21400 8550 21400 7100
+Wire Wire Line
+	21400 7100 20700 7100
+Connection ~ 20700 7100
+$Comp
+L BoatControl:TBL008V-1000-08BE J?
+U 1 1 6A5EE32F
+P 2350 12500
+F 0 "J?" V 2196 12072 50  0000 R CNN
+F 1 "TBL008V-1000-08BE" V 2287 12072 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-08BE" H 2350 12500 50  0001 L BNN
+F 3 "CUI" H 2350 12500 50  0001 L BNN
+F 4 "31.3mm" H 2350 12500 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 2350 12500 50  0001 L BNN "Field5"
+F 6 "" H 2350 12500 50  0001 L BNN "Field6"
+	1    2350 12500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1000 9950 1100 9950
+Connection ~ 1100 9950
+Wire Wire Line
+	2500 9950 2400 9950
+Wire Wire Line
+	2400 9950 2400 11750
+Wire Wire Line
+	2400 11750 2150 11750
+Wire Wire Line
+	2150 11750 2150 12100
+Connection ~ 2400 9950
+Wire Wire Line
+	1700 9950 1800 9950
+Wire Wire Line
+	1800 9950 1800 11750
+Wire Wire Line
+	1800 11750 2050 11750
+Wire Wire Line
+	2050 11750 2050 12100
+Connection ~ 1800 9950
+Wire Wire Line
+	1100 11800 1950 11800
+Wire Wire Line
+	1950 11800 1950 12100
+Wire Wire Line
+	1100 9950 1100 11800
+Wire Wire Line
+	3200 9950 3100 9950
+Wire Wire Line
+	3100 11800 2250 11800
+Wire Wire Line
+	2250 11800 2250 12100
+Wire Wire Line
+	3100 11800 3100 9950
+Connection ~ 3100 9950
+Wire Wire Line
+	3900 9950 3800 9950
+Wire Wire Line
+	2350 11850 2350 12100
+Wire Wire Line
+	3800 9950 3800 11850
+Wire Wire Line
+	3800 11850 2350 11850
+Connection ~ 3800 9950
+Wire Wire Line
+	4500 9950 4600 9950
+Wire Wire Line
+	4500 9950 4500 11900
+Wire Wire Line
+	4500 11900 2450 11900
+Wire Wire Line
+	2450 11900 2450 12100
+Connection ~ 4500 9950
+Wire Wire Line
+	5300 9950 5200 9950
+Wire Wire Line
+	5200 9950 5200 11950
+Wire Wire Line
+	5200 11950 2550 11950
+Wire Wire Line
+	2550 11950 2550 12100
+Connection ~ 5200 9950
+Wire Wire Line
+	6000 9950 5900 9950
+Wire Wire Line
+	5900 9950 5900 12000
+Wire Wire Line
+	5900 12000 2650 12000
+Wire Wire Line
+	2650 12000 2650 12100
+Connection ~ 5900 9950
+$Comp
+L BoatControl:TBL008V-1000-08BE J?
+U 1 1 6B6CF287
+P 10400 11000
+F 0 "J?" V 10246 10572 50  0000 R CNN
+F 1 "TBL008V-1000-08BE" V 10337 10572 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-08BE" H 10400 11000 50  0001 L BNN
+F 3 "CUI" H 10400 11000 50  0001 L BNN
+F 4 "31.3mm" H 10400 11000 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 10400 11000 50  0001 L BNN "Field5"
+F 6 "" H 10400 11000 50  0001 L BNN "Field6"
+	1    10400 11000
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6B6E6F90
+P 18250 6450
+F 0 "#PWR?" H 18250 6300 50  0001 C CNN
+F 1 "+12V" H 18265 6623 50  0000 C CNN
+F 2 "" H 18250 6450 50  0001 C CNN
+F 3 "" H 18250 6450 50  0001 C CNN
+	1    18250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 7450 8650 7450
+Wire Wire Line
+	8650 7450 8650 8500
+Connection ~ 15450 7450
+Connection ~ 8650 8500
+Wire Wire Line
+	14400 9950 14300 9950
+Wire Wire Line
+	14300 10300 14300 9950
+Connection ~ 14300 9950
+Wire Wire Line
+	14300 10300 10700 10300
+Wire Wire Line
+	10700 10300 10700 10600
+Wire Wire Line
+	13700 9950 13600 9950
+Wire Wire Line
+	13600 9950 13600 10250
+Wire Wire Line
+	13600 10250 10650 10250
+Wire Wire Line
+	10650 10250 10650 10600
+Wire Wire Line
+	10650 10600 10600 10600
+Connection ~ 13600 9950
+Wire Wire Line
+	13000 9950 12900 9950
+Wire Wire Line
+	12900 10200 10500 10200
+Wire Wire Line
+	10500 10200 10500 10600
+Wire Wire Line
+	12900 10200 12900 9950
+Connection ~ 12900 9950
+Wire Wire Line
+	12300 9950 12200 9950
+Wire Wire Line
+	12200 9950 12200 10150
+Wire Wire Line
+	12200 10150 10400 10150
+Wire Wire Line
+	10400 10150 10400 10600
+Connection ~ 12200 9950
+Wire Wire Line
+	11600 9950 11500 9950
+Wire Wire Line
+	11500 9950 11500 10100
+Wire Wire Line
+	11500 10100 10300 10100
+Wire Wire Line
+	10300 10100 10300 10600
+Connection ~ 11500 9950
+Wire Wire Line
+	10900 9950 10800 9950
+Wire Wire Line
+	10800 9950 10800 10050
+Wire Wire Line
+	10800 10050 10200 10050
+Wire Wire Line
+	10200 10050 10200 10600
+Connection ~ 10800 9950
+Wire Wire Line
+	10200 9950 10100 9950
+Wire Wire Line
+	10100 9950 10100 10600
+Connection ~ 10100 9950
+Wire Wire Line
+	9500 9950 9400 9950
+Wire Wire Line
+	9500 9950 9900 9950
+Wire Wire Line
+	10000 9950 10000 10600
+Connection ~ 9500 9950
+Connection ~ 9900 9950
+Wire Wire Line
+	9900 9950 10000 9950
+$Comp
+L BoatControl:TBL008V-1000-04BE J?
+U 1 1 6C452FB3
+P 7500 10750
+F 0 "J?" V 7346 10522 50  0000 R CNN
+F 1 "TBL008V-1000-04BE" V 7437 10522 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-04BE" H 7500 10750 50  0001 L BNN
+F 3 "CUI" H 7500 10750 50  0001 L BNN
+F 4 "31.3mm" H 7500 10750 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 7500 10750 50  0001 L BNN "Field5"
+	1    7500 10750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7100 9950 7100 11100
+Wire Wire Line
+	6600 9950 6700 9950
+Wire Wire Line
+	7300 9950 7400 9950
+Wire Wire Line
+	8100 9950 8000 9950
+Wire Wire Line
+	8800 9950 8700 9950
+Wire Wire Line
+	7400 9950 7400 10350
+Connection ~ 7400 9950
+Wire Wire Line
+	6700 9950 6700 10050
+Wire Wire Line
+	6700 10050 7300 10050
+Wire Wire Line
+	7300 10050 7300 10350
+Connection ~ 6700 9950
+Wire Wire Line
+	7500 10350 7500 10050
+Wire Wire Line
+	7500 10050 8000 10050
+Wire Wire Line
+	8000 10050 8000 9950
+Connection ~ 8000 9950
+Wire Wire Line
+	8700 9950 8700 10150
+Wire Wire Line
+	8700 10150 7600 10150
+Wire Wire Line
+	7600 10150 7600 10350
+Connection ~ 8700 9950
+$Comp
+L BoatControl:TBL008V-1000-06BE J?
+U 1 1 6CB7519E
+P 22600 12700
+F 0 "J?" V 22446 12372 50  0000 R CNN
+F 1 "TBL008V-1000-06BE" V 22537 12372 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-06BE" H 22600 12700 50  0001 L BNN
+F 3 "CUI" H 22600 12700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 22600 12700 50  0001 L BNN "Field5"
+F 5 "31.3mm" H 22600 12700 50  0001 L BNN "Field6"
+	1    22600 12700
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:TBL008V-1000-06BE J?
+U 1 1 6CB7F05D
+P 19350 12700
+F 0 "J?" V 19196 12372 50  0000 R CNN
+F 1 "TBL008V-1000-06BE" V 19287 12372 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-06BE" H 19350 12700 50  0001 L BNN
+F 3 "CUI" H 19350 12700 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 19350 12700 50  0001 L BNN "Field5"
+F 5 "31.3mm" H 19350 12700 50  0001 L BNN "Field6"
+	1    19350 12700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	22800 9950 22800 12300
+Wire Wire Line
+	22700 9950 22800 9950
+Connection ~ 22800 9950
+Wire Wire Line
+	22000 9950 22100 9950
+Wire Wire Line
+	22100 9950 22100 11850
+Wire Wire Line
+	22100 11850 22700 11850
+Wire Wire Line
+	22700 11850 22700 12300
+Connection ~ 22100 9950
+Wire Wire Line
+	21300 9950 21400 9950
+Wire Wire Line
+	20600 9950 20700 9950
+Wire Wire Line
+	15000 9950 15100 9950
+Wire Wire Line
+	17100 9950 17200 9950
+Wire Wire Line
+	16400 9950 16500 9950
+Wire Wire Line
+	15700 9950 15800 9950
+Wire Wire Line
+	15100 9950 15100 10600
+Wire Wire Line
+	15100 10600 21150 10600
+Wire Wire Line
+	21150 10600 21150 12250
+Wire Wire Line
+	21150 12250 22300 12250
+Wire Wire Line
+	22300 12250 22300 12300
+Connection ~ 15100 9950
+Wire Wire Line
+	15800 9950 15800 10550
+Wire Wire Line
+	15800 10550 21250 10550
+Wire Wire Line
+	21250 10550 21250 12200
+Wire Wire Line
+	21250 12200 22400 12200
+Wire Wire Line
+	22400 12200 22400 12300
+Connection ~ 15800 9950
+Wire Wire Line
+	16500 9950 16500 10500
+Wire Wire Line
+	16500 10500 21350 10500
+Wire Wire Line
+	21350 10500 21350 12150
+Wire Wire Line
+	21350 12150 22500 12150
+Wire Wire Line
+	22500 12150 22500 12300
+Connection ~ 16500 9950
+Wire Wire Line
+	17200 9950 17200 10450
+Wire Wire Line
+	17200 10450 21450 10450
+Wire Wire Line
+	21450 10450 21450 12100
+Wire Wire Line
+	21450 12100 22600 12100
+Wire Wire Line
+	22600 12100 22600 12300
+Connection ~ 17200 9950
+Wire Wire Line
+	17800 9950 17900 9950
+Wire Wire Line
+	18500 9950 18600 9950
+Wire Wire Line
+	19200 9950 19250 9950
+Wire Wire Line
+	19900 9950 20000 9950
+Wire Wire Line
+	19050 12300 19050 12250
+Wire Wire Line
+	17900 12250 17900 9950
+Wire Wire Line
+	17900 12250 19050 12250
+Connection ~ 17900 9950
+Wire Wire Line
+	18600 9950 18600 12200
+Wire Wire Line
+	18600 12200 19150 12200
+Wire Wire Line
+	19150 12200 19150 12300
+Connection ~ 18600 9950
+Wire Wire Line
+	21050 10400 21050 12250
+Wire Wire Line
+	21050 12250 19550 12250
+Wire Wire Line
+	19550 12250 19550 12300
+Wire Wire Line
+	21300 9950 21300 10400
+Connection ~ 21300 9950
+Wire Wire Line
+	21300 10400 21050 10400
+Wire Wire Line
+	20600 9950 20600 12200
+Wire Wire Line
+	20600 12200 19450 12200
+Wire Wire Line
+	19450 12200 19450 12300
+Connection ~ 20600 9950
+Wire Wire Line
+	19900 9950 19900 12150
+Wire Wire Line
+	19900 12150 19350 12150
+Wire Wire Line
+	19350 12150 19350 12300
+Connection ~ 19900 9950
+Wire Wire Line
+	19250 12300 19250 9950
+Connection ~ 19250 9950
+Wire Wire Line
+	19250 9950 19300 9950
 $EndSCHEMATC
