@@ -1,4 +1,4 @@
-update=3/10/2020 2:38:30 AM
+update=3/14/2020 6:11:42 AM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/antevens/Downloads/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
