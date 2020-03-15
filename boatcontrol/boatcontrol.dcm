@@ -9,4 +9,8 @@ K Bistable (Latching) dual coil 16A 12V Relay
 F Omron
 $ENDCMP
 #
+$CMP SS73100-047F
+F https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf
+$ENDCMP
+#
 #End Doc Library
