@@ -1,4 +1,4 @@
-16964827714839658
+16966412027224682
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -321,6 +321,13 @@ CUI_TBL008V-1000-08BE
 0
 24
 24
+BoatControl
+CUI_TBP01R2W-508-08BE
+
+
+0
+8
+8
 BoatControl
 CUI_TBP01R2W-508-16BE
 
