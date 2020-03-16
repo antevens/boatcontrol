@@ -1,4 +1,4 @@
-16966412027224682
+16969581500951301
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -336,6 +336,13 @@ CUI_TBP01R2W-508-16BE
 16
 16
 BoatControl
+DIP254P762X393-18
+
+
+0
+18
+18
+BoatControl
 DIP254P762X432-16P
 
 
@@ -362,7 +369,7 @@ STEWART_SS73100-047F
 
 0
 138
-105
+138
 BoatControl
 SW_PUSH_ESB30_DPDT
 FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf
@@ -370,6 +377,13 @@ switch DPDT footswitch
 0
 6
 6
+BoatControl
+Samtec_HLE-120-02-XXX-DV-BE-XX-XX
+
+
+0
+40
+40
 BoatControl
 SchurterCurcuitBreaker
 
@@ -396,8 +410,8 @@ TO-220
 
 
 0
-3
-3
+2
+2
 BoatControl
 TO127P457X1016X2052-7P
 

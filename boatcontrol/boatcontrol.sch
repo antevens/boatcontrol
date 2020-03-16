@@ -14,43 +14,43 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP11
 U 1 1 5E744763
 P 11250 12400
-F 0 "JP?" V 11204 12468 50  0000 L CNN
+F 0 "JP11" V 11204 12468 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11295 12468 50  0000 L CNN
-F 2 "" H 11250 12400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11250 12400 50  0001 C CNN
 F 3 "~" H 11250 12400 50  0001 C CNN
 	1    11250 12400
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP15
 U 1 1 5E744769
 P 11350 12650
-F 0 "JP?" V 11304 12718 50  0000 L CNN
+F 0 "JP15" V 11304 12718 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11395 12718 50  0000 L CNN
-F 2 "" H 11350 12650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11350 12650 50  0001 C CNN
 F 3 "~" H 11350 12650 50  0001 C CNN
 	1    11350 12650
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP7
 U 1 1 5F0CC3FE
 P 11150 12150
-F 0 "JP?" V 11104 12218 50  0000 L CNN
+F 0 "JP7" V 11104 12218 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 11195 12218 50  0000 L CNN
-F 2 "" H 11150 12150 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11150 12150 50  0001 C CNN
 F 3 "~" H 11150 12150 50  0001 C CNN
 	1    11150 12150
 	0    1    -1   0   
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-02BE J?
+L BoatControl:TBL008V-1000-02BE J8
 U 1 1 5EE490E7
 P 22950 15350
-F 0 "J?" V 22796 15222 50  0000 R CNN
+F 0 "J8" V 22796 15222 50  0000 R CNN
 F 1 "TBL008V-1000-02BE (DC IN)" V 23250 16000 50  0000 R CNN
 F 2 "CUI_TBL008V-1000-02BE" H 22950 15350 50  0001 L BNN
 F 3 "CUI" H 22950 15350 50  0001 L BNN
@@ -62,34 +62,34 @@ $EndComp
 $Comp
 L BoatControl:LM2679T-12 U1
 U 1 1 5F41B45D
-P 28500 5350
-F 0 "U1" H 28500 5400 50  0000 C CNN
-F 1 "LM2679T-12" H 28550 5200 50  0000 C CNN
-F 2 "TO127P457X1016X2052-7P" H 28500 5350 50  0001 L BNN
-F 3 "LM2679T-12" H 28500 5350 50  0001 L BNN
-F 4 "83F4664" H 28500 5350 50  0001 L BNN "Field4"
-F 5 "TO220-7" H 28500 5350 50  0001 L BNN "Field5"
-F 6 "National Semiconductor" H 28500 5350 50  0001 L BNN "Field6"
-F 7 "-" H 28500 5350 50  0001 L BNN "Field7"
-	1    28500 5350
+P 27100 3550
+F 0 "U1" H 27100 3600 50  0000 C CNN
+F 1 "LM2679T-12" H 27150 3400 50  0000 C CNN
+F 2 "TO127P457X1016X2052-7P" H 27100 3550 50  0001 L BNN
+F 3 "LM2679T-12" H 27100 3550 50  0001 L BNN
+F 4 "83F4664" H 27100 3550 50  0001 L BNN "Field4"
+F 5 "TO220-7" H 27100 3550 50  0001 L BNN "Field5"
+F 6 "National Semiconductor" H 27100 3550 50  0001 L BNN "Field6"
+F 7 "-" H 27100 3550 50  0001 L BNN "Field7"
+	1    27100 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:1140-680K-RC L1
+U 1 1 6045269B
+P 27100 5250
+F 0 "L1" V 27050 5200 50  0000 L CNN
+F 1 "1140-680K-RC" V 27200 4900 50  0000 L CNN
+F 2 "INDRD2921W163D3810H2616P" H 27100 5250 50  0001 L BNN
+F 3 "Bourns" H 27100 5250 50  0001 L BNN
+	1    27100 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:1140-680K-RC L?
-U 1 1 6045269B
-P 30200 5350
-F 0 "L?" V 30350 5250 50  0000 L CNN
-F 1 "1140-680K-RC" V 30100 5050 50  0000 L CNN
-F 2 "INDRD2921W163D3810H2616P" H 30200 5350 50  0001 L BNN
-F 3 "Bourns" H 30200 5350 50  0001 L BNN
-	1    30200 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q28
 U 1 1 671C9600
 P 19450 6250
-F 0 "Q?" V 19450 5900 50  0000 R CNN
+F 0 "Q28" V 19450 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 19700 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 19450 6250 50  0001 C CNN
 F 3 "" H 19450 6250 50  0001 C CNN
@@ -98,10 +98,10 @@ F 4 "4404.0102" V 19450 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-08BE J?
+L BoatControl:TBL008V-1000-08BE J12
 U 1 1 6B6CF287
 P 32250 11100
-F 0 "J?" V 32096 10672 50  0000 R CNN
+F 0 "J12" V 32096 10672 50  0000 R CNN
 F 1 "TBL008V-1000-08BE" V 32350 11550 50  0000 R CNN
 F 2 "CUI_TBL008V-1000-08BE" H 32250 11100 50  0001 L BNN
 F 3 "CUI" H 32250 11100 50  0001 L BNN
@@ -112,21 +112,21 @@ F 6 "" H 32250 11100 50  0001 L BNN "Field6"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D3
 U 1 1 770A88A6
 P 2600 16350
-F 0 "D?" H 2450 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 2600 16100 50  0000 C CNN
+F 0 "D3" H 2450 16550 50  0000 C CNN
+F 1 "MV5438" H 2600 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 2600 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 2600 16350 50  0001 C CNN
 	1    2600 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q24
 U 1 1 799675F5
 P 16750 6250
-F 0 "Q?" V 16750 5900 50  0000 R CNN
+F 0 "Q24" V 16750 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 17000 6400 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 16750 6250 50  0001 C CNN
 F 3 "" H 16750 6250 50  0001 C CNN
@@ -135,10 +135,10 @@ F 4 "4404.0099" V 16750 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q12
 U 1 1 79990F91
 P 8650 6250
-F 0 "Q?" V 8650 5900 50  0000 R CNN
+F 0 "Q12" V 8650 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 8900 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 8650 6250 50  0001 C CNN
 F 3 "" H 8650 6250 50  0001 C CNN
@@ -147,10 +147,10 @@ F 4 "4404.0102" V 8650 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q26
 U 1 1 79994324
 P 18100 6250
-F 0 "Q?" V 18100 5900 50  0000 R CNN
+F 0 "Q26" V 18100 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 18350 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 18100 6250 50  0001 C CNN
 F 3 "" H 18100 6250 50  0001 C CNN
@@ -159,10 +159,10 @@ F 4 "4404.0102" V 18100 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q10
 U 1 1 7999432F
 P 7300 6250
-F 0 "Q?" V 7300 5900 50  0000 R CNN
+F 0 "Q10" V 7300 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 7550 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 7300 6250 50  0001 C CNN
 F 3 "" H 7300 6250 50  0001 C CNN
@@ -171,10 +171,10 @@ F 4 "4404.0102" V 7300 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q32
 U 1 1 799B759D
 P 22150 6250
-F 0 "Q?" V 22150 5900 50  0000 R CNN
+F 0 "Q32" V 22150 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 22400 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 22150 6250 50  0001 C CNN
 F 3 "" H 22150 6250 50  0001 C CNN
@@ -183,10 +183,10 @@ F 4 "4404.0105" V 22150 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q30
 U 1 1 799D21C6
 P 20800 6250
-F 0 "Q?" V 20800 5900 50  0000 R CNN
+F 0 "Q30" V 20800 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 21050 6400 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 20800 6250 50  0001 C CNN
 F 3 "" H 20800 6250 50  0001 C CNN
@@ -195,10 +195,10 @@ F 4 "4404.0105" V 20800 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q16
 U 1 1 799D21D1
 P 11350 6250
-F 0 "Q?" V 11350 5900 50  0000 R CNN
+F 0 "Q16" V 11350 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 11600 6550 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 11350 6250 50  0001 C CNN
 F 3 "" H 11350 6250 50  0001 C CNN
@@ -207,10 +207,10 @@ F 4 "4404.0105" V 11350 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q14
 U 1 1 799ED30C
 P 10000 6250
-F 0 "Q?" V 10000 5900 50  0000 R CNN
+F 0 "Q14" V 10000 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 10250 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 10000 6250 50  0001 C CNN
 F 3 "" H 10000 6250 50  0001 C CNN
@@ -219,10 +219,10 @@ F 4 "4404.0105" V 10000 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K1
 U 1 1 61BB4D43
 P 1900 16350
-F 0 "K?" H 1950 16350 50  0000 L CNN
+F 0 "K1" H 1950 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 2150 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 2300 16500 50  0001 L BNN
 F 3 "Omron" H 2300 16600 50  0001 L BNN
@@ -230,10 +230,10 @@ F 3 "Omron" H 2300 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K3
 U 1 1 61BBC18A
 P 3250 16350
-F 0 "K?" H 3300 16350 50  0000 L CNN
+F 0 "K3" H 3300 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 3500 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 3650 16500 50  0001 L BNN
 F 3 "Omron" H 3650 16600 50  0001 L BNN
@@ -241,32 +241,32 @@ F 3 "Omron" H 3650 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U16
 U 1 1 7884A00B
 P 12400 14750
-F 0 "U?" V 12250 16300 50  0000 L CNN
+F 0 "U16" V 12250 16300 50  0000 L CNN
 F 1 "ULN2803A" V 12450 15600 50  0000 L CNN
-F 2 "" H 12450 14100 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 12450 14100 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12500 14550 50  0001 C CNN
 	1    12400 14750
 	0    -1   1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U8
 U 1 1 7884A027
 P 11500 14750
-F 0 "U?" V 11350 16300 50  0000 L CNN
+F 0 "U8" V 11350 16300 50  0000 L CNN
 F 1 "ULN2803A" V 11550 15600 50  0000 L CNN
-F 2 "" H 11550 14100 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 11550 14100 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11600 14550 50  0001 C CNN
 	1    11500 14750
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U12
 U 1 1 7884A031
 P 11950 13550
-F 0 "U?" V 11800 14500 50  0000 L CNN
+F 0 "U12" V 11800 14500 50  0000 L CNN
 F 1 "MCP23017_SO" V 11950 13300 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 12150 12550 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12150 12450 50  0001 L CNN
@@ -274,10 +274,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12150 1245
 	0    1    1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q18
 U 1 1 799675EA
 P 12700 6250
-F 0 "Q?" V 12700 5900 50  0000 R CNN
+F 0 "Q18" V 12700 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 12950 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 12700 6250 50  0001 C CNN
 F 3 "" H 12700 6250 50  0001 C CNN
@@ -286,10 +286,10 @@ F 4 "4404.0099" V 12700 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q22
 U 1 1 799675DF
 P 15400 6250
-F 0 "Q?" V 15400 5900 50  0000 R CNN
+F 0 "Q22" V 15400 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 15650 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 15400 6250 50  0001 C CNN
 F 3 "" H 15400 6250 50  0001 C CNN
@@ -298,10 +298,10 @@ F 4 "4404.0099" V 15400 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q8
 U 1 1 799675D4
 P 5950 6250
-F 0 "Q?" V 5950 5900 50  0000 R CNN
+F 0 "Q8" V 5950 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 6200 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 5950 6250 50  0001 C CNN
 F 3 "" H 5950 6250 50  0001 C CNN
@@ -310,10 +310,10 @@ F 4 "4404.0099" V 5950 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q2
 U 1 1 7994C461
 P 1900 6250
-F 0 "Q?" V 1900 5900 50  0000 R CNN
+F 0 "Q2" V 1900 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 2150 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 1900 6250 50  0001 C CNN
 F 3 "" H 1900 6250 50  0001 C CNN
@@ -322,10 +322,10 @@ F 4 "4404.0099" V 1900 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q6
 U 1 1 7994C456
 P 4600 6250
-F 0 "Q?" V 4600 5900 50  0000 R CNN
+F 0 "Q6" V 4600 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 4850 6550 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 4600 6250 50  0001 C CNN
 F 3 "" H 4600 6250 50  0001 C CNN
@@ -334,10 +334,10 @@ F 4 "4404.0099" V 4600 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q20
 U 1 1 799319C9
 P 14050 6250
-F 0 "Q?" V 14050 5900 50  0000 R CNN
+F 0 "Q20" V 14050 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 14300 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 14050 6250 50  0001 C CNN
 F 3 "" H 14050 6250 50  0001 C CNN
@@ -346,10 +346,10 @@ F 4 "4404.0099" V 14050 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q15
 U 1 1 798AC0D2
 P 11300 17150
-F 0 "Q?" V 11254 16622 50  0000 R CNN
+F 0 "Q15" V 11254 16622 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 10950 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 11300 17150 50  0001 C CNN
 F 3 "" H 11300 17150 50  0001 C CNN
@@ -358,10 +358,10 @@ F 4 "4404.0096" V 11300 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q13
 U 1 1 798AC0C7
 P 9950 17150
-F 0 "Q?" V 9950 16800 50  0000 R CNN
+F 0 "Q13" V 9950 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 9600 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 9950 17150 50  0001 C CNN
 F 3 "" H 9950 17150 50  0001 C CNN
@@ -370,10 +370,10 @@ F 4 "4404.0096" V 9950 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q11
 U 1 1 798AC0BC
 P 8600 17150
-F 0 "Q?" V 8600 16800 50  0000 R CNN
+F 0 "Q11" V 8600 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 8250 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 8600 17150 50  0001 C CNN
 F 3 "" H 8600 17150 50  0001 C CNN
@@ -382,10 +382,10 @@ F 4 "4404.0096" V 8600 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q5
 U 1 1 798AC0B1
 P 4550 17150
-F 0 "Q?" V 4550 16800 50  0000 R CNN
+F 0 "Q5" V 4550 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 4200 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 4550 17150 50  0001 C CNN
 F 3 "" H 4550 17150 50  0001 C CNN
@@ -394,10 +394,10 @@ F 4 "4404.0096" V 4550 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q7
 U 1 1 7988E57D
 P 5900 17150
-F 0 "Q?" V 5900 16800 50  0000 R CNN
+F 0 "Q7" V 5900 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 5550 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 5900 17150 50  0001 C CNN
 F 3 "" H 5900 17150 50  0001 C CNN
@@ -406,10 +406,10 @@ F 4 "4404.0096" V 5900 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q3
 U 1 1 7988BDB2
 P 3200 17150
-F 0 "Q?" V 3200 16800 50  0000 R CNN
+F 0 "Q3" V 3200 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 2850 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 3200 17150 50  0001 C CNN
 F 3 "" H 3200 17150 50  0001 C CNN
@@ -418,10 +418,10 @@ F 4 "4404.0096" V 3200 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U13
 U 1 1 5E744701
 P 11950 19450
-F 0 "U?" V 11904 20594 50  0000 L CNN
+F 0 "U13" V 11904 20594 50  0000 L CNN
 F 1 "MCP23017_SO" V 11950 19250 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 12150 18450 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12150 18350 50  0001 L CNN
@@ -429,21 +429,21 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12150 1835
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U9
 U 1 1 5E7446FB
 P 11500 18250
-F 0 "U?" V 11454 18680 50  0000 L CNN
-F 1 "ULN2803A" V 11550 19050 50  0000 L CNN
-F 2 "" H 11550 17600 50  0001 L CNN
+F 0 "U9" V 11500 18100 50  0000 L CNN
+F 1 "ULN2803A" V 11400 19100 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 11550 17600 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11600 18050 50  0001 C CNN
 	1    11500 18250
 	0    1    -1   0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q4
 U 1 1 634EB94B
 P 3250 6250
-F 0 "Q?" V 3250 5900 50  0000 R CNN
+F 0 "Q4" V 3250 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 3500 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 3250 6250 50  0001 C CNN
 F 3 "" H 3250 6250 50  0001 C CNN
@@ -452,10 +452,10 @@ F 4 "4404.0099" V 3250 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q1
 U 1 1 63474D90
 P 1850 17150
-F 0 "Q?" V 1850 16800 50  0000 R CNN
+F 0 "Q1" V 1850 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 1500 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 1850 17150 50  0001 C CNN
 F 3 "" H 1850 17150 50  0001 C CNN
@@ -464,10 +464,10 @@ F 4 "4404.0096" V 1850 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K17
 U 1 1 61CD78D5
 P 12700 16350
-F 0 "K?" H 12750 16350 50  0000 L CNN
+F 0 "K17" H 12750 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 12950 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 13100 16500 50  0001 L BNN
 F 3 "Omron" H 13100 16600 50  0001 L BNN
@@ -475,10 +475,10 @@ F 3 "Omron" H 13100 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K19
 U 1 1 61CD78DB
 P 14050 16350
-F 0 "K?" H 14100 16350 50  0000 L CNN
+F 0 "K19" H 14100 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 14300 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 14450 16500 50  0001 L BNN
 F 3 "Omron" H 14450 16600 50  0001 L BNN
@@ -486,10 +486,10 @@ F 3 "Omron" H 14450 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K21
 U 1 1 61CD78E1
 P 15400 16350
-F 0 "K?" H 15450 16350 50  0000 L CNN
+F 0 "K21" H 15450 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 15650 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 15800 16500 50  0001 L BNN
 F 3 "Omron" H 15800 16600 50  0001 L BNN
@@ -497,10 +497,10 @@ F 3 "Omron" H 15800 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K23
 U 1 1 61CD78E7
 P 16750 16350
-F 0 "K?" H 16800 16350 50  0000 L CNN
+F 0 "K23" H 16800 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 17000 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 17150 16500 50  0001 L BNN
 F 3 "Omron" H 17150 16600 50  0001 L BNN
@@ -508,10 +508,10 @@ F 3 "Omron" H 17150 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K25
 U 1 1 61CD78EE
 P 18100 16350
-F 0 "K?" H 18150 16350 50  0000 L CNN
+F 0 "K25" H 18150 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 18350 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 18500 16500 50  0001 L BNN
 F 3 "Omron" H 18500 16600 50  0001 L BNN
@@ -519,10 +519,10 @@ F 3 "Omron" H 18500 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K27
 U 1 1 61CD78F4
 P 19450 16350
-F 0 "K?" H 19500 16350 50  0000 L CNN
+F 0 "K27" H 19500 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 19700 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 19850 16500 50  0001 L BNN
 F 3 "Omron" H 19850 16600 50  0001 L BNN
@@ -530,10 +530,10 @@ F 3 "Omron" H 19850 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K30
 U 1 1 61CD78FA
 P 20800 16350
-F 0 "K?" H 20850 16350 50  0000 L CNN
+F 0 "K30" H 20850 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 21050 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 21200 16500 50  0001 L BNN
 F 3 "Omron" H 21200 16600 50  0001 L BNN
@@ -541,10 +541,10 @@ F 3 "Omron" H 21200 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K15
 U 1 1 61C84639
 P 11350 16350
-F 0 "K?" H 11400 16350 50  0000 L CNN
+F 0 "K15" H 11400 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 11600 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 11750 16500 50  0001 L BNN
 F 3 "Omron" H 11750 16600 50  0001 L BNN
@@ -552,10 +552,10 @@ F 3 "Omron" H 11750 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K13
 U 1 1 61C84633
 P 10000 16350
-F 0 "K?" H 10050 16350 50  0000 L CNN
+F 0 "K13" H 10050 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 10250 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 10400 16500 50  0001 L BNN
 F 3 "Omron" H 10400 16600 50  0001 L BNN
@@ -563,10 +563,10 @@ F 3 "Omron" H 10400 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K11
 U 1 1 61C8462D
 P 8650 16350
-F 0 "K?" H 8700 16350 50  0000 L CNN
+F 0 "K11" H 8700 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 8900 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 9050 16500 50  0001 L BNN
 F 3 "Omron" H 9050 16600 50  0001 L BNN
@@ -574,10 +574,10 @@ F 3 "Omron" H 9050 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K9
 U 1 1 61C84627
 P 7300 16350
-F 0 "K?" H 7350 16350 50  0000 L CNN
+F 0 "K9" H 7350 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 7550 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 7700 16500 50  0001 L BNN
 F 3 "Omron" H 7700 16600 50  0001 L BNN
@@ -585,10 +585,10 @@ F 3 "Omron" H 7700 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K7
 U 1 1 61C3D887
 P 5950 16350
-F 0 "K?" H 6000 16350 50  0000 L CNN
+F 0 "K7" H 6000 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 6200 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 6350 16500 50  0001 L BNN
 F 3 "Omron" H 6350 16600 50  0001 L BNN
@@ -596,10 +596,10 @@ F 3 "Omron" H 6350 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K5
 U 1 1 61C3D881
 P 4600 16350
-F 0 "K?" H 4650 16350 50  0000 L CNN
+F 0 "K5" H 4650 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 4850 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 5000 16500 50  0001 L BNN
 F 3 "Omron" H 5000 16600 50  0001 L BNN
@@ -607,10 +607,10 @@ F 3 "Omron" H 5000 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K33
 U 1 1 61CD7900
 P 22150 16350
-F 0 "K?" H 22200 16350 50  0000 L CNN
+F 0 "K33" H 22200 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 22400 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 22550 16500 50  0001 L BNN
 F 3 "Omron" H 22550 16600 50  0001 L BNN
@@ -618,164 +618,164 @@ F 3 "Omron" H 22550 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D5
 U 1 1 7A28CDC9
 P 3950 16350
-F 0 "D?" H 3800 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 3950 16100 50  0000 C CNN
+F 0 "D5" H 3800 16550 50  0000 C CNN
+F 1 "MV5438" H 3950 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 3950 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 3950 16350 50  0001 C CNN
 	1    3950 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D7
 U 1 1 7A28FBF7
 P 5300 16350
-F 0 "D?" H 5150 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 5300 16100 50  0000 C CNN
+F 0 "D7" H 5150 16550 50  0000 C CNN
+F 1 "MV5438" H 5300 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 5300 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 5300 16350 50  0001 C CNN
 	1    5300 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D9
 U 1 1 7A292F21
 P 6650 16350
-F 0 "D?" H 6500 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 6650 16100 50  0000 C CNN
+F 0 "D9" H 6500 16550 50  0000 C CNN
+F 1 "MV5438" H 6650 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6650 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 6650 16350 50  0001 C CNN
 	1    6650 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D11
 U 1 1 7A2957ED
 P 8000 16350
-F 0 "D?" H 7850 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 8000 16100 50  0000 C CNN
+F 0 "D11" H 7850 16550 50  0000 C CNN
+F 1 "MV5438" H 8000 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 8000 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 8000 16350 50  0001 C CNN
 	1    8000 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D15
 U 1 1 7A29A2A8
 P 10700 16350
-F 0 "D?" H 10550 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 10650 16100 50  0000 C CNN
+F 0 "D15" H 10550 16550 50  0000 C CNN
+F 1 "MV5438" H 10650 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 10700 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 10700 16350 50  0001 C CNN
 	1    10700 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D17
 U 1 1 7A29CAD2
 P 12050 16350
-F 0 "D?" H 11900 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 12000 16100 50  0000 C CNN
+F 0 "D17" H 11900 16550 50  0000 C CNN
+F 1 "MV5438" H 12000 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 12050 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 12050 16350 50  0001 C CNN
 	1    12050 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D19
 U 1 1 7A2A0F10
 P 13400 16350
-F 0 "D?" H 13250 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 13350 16100 50  0000 C CNN
+F 0 "D19" H 13250 16550 50  0000 C CNN
+F 1 "MV5438" H 13350 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 13400 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 13400 16350 50  0001 C CNN
 	1    13400 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D21
 U 1 1 7A2A3A70
 P 14750 16350
-F 0 "D?" H 14600 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 14700 16100 50  0000 C CNN
+F 0 "D21" H 14600 16550 50  0000 C CNN
+F 1 "MV5438" H 14700 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 14750 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 14750 16350 50  0001 C CNN
 	1    14750 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D23
 U 1 1 7A2A621B
 P 16100 16350
-F 0 "D?" H 15950 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 16050 16100 50  0000 C CNN
+F 0 "D23" H 15950 16550 50  0000 C CNN
+F 1 "MV5438" H 16050 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 16100 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 16100 16350 50  0001 C CNN
 	1    16100 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D25
 U 1 1 7A2A896D
 P 17450 16350
-F 0 "D?" H 17300 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 17400 16100 50  0000 C CNN
+F 0 "D25" H 17300 16550 50  0000 C CNN
+F 1 "MV5438" H 17400 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 17450 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 17450 16350 50  0001 C CNN
 	1    17450 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D27
 U 1 1 7A2AAE86
 P 18800 16350
-F 0 "D?" H 18650 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 18750 16100 50  0000 C CNN
+F 0 "D27" H 18650 16550 50  0000 C CNN
+F 1 "MV5438" H 18750 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 18800 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 18800 16350 50  0001 C CNN
 	1    18800 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D29
 U 1 1 7A2AD5DF
 P 20150 16350
-F 0 "D?" H 20000 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 20100 16100 50  0000 C CNN
+F 0 "D29" H 20000 16550 50  0000 C CNN
+F 1 "MV5438" H 20100 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20150 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20150 16350 50  0001 C CNN
 	1    20150 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D32
 U 1 1 7A2B255F
 P 21500 16350
-F 0 "D?" H 21350 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 21450 16100 50  0000 C CNN
+F 0 "D32" H 21350 16550 50  0000 C CNN
+F 1 "MV5438" H 21450 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 21500 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 21500 16350 50  0001 C CNN
 	1    21500 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U17
 U 1 1 5E7446F5
 P 12400 18250
-F 0 "U?" V 12354 18680 50  0000 L CNN
-F 1 "ULN2803A" V 12450 19050 50  0000 L CNN
-F 2 "" H 12450 17600 50  0001 L CNN
+F 0 "U17" V 12400 18050 50  0000 L CNN
+F 1 "ULN2803A" V 12300 19050 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 12450 17600 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12500 18050 50  0001 C CNN
 	1    12400 18250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW2
 U 1 1 7A37C888
 P 1250 17650
-F 0 "SW?" H 1250 17935 50  0000 C CNN
+F 0 "SW2" H 1250 17935 50  0000 C CNN
 F 1 " ESB30" H 1250 17844 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1250 17850 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 17850 50  0001 C CNN
@@ -783,10 +783,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW6
 U 1 1 7B2ABCC0
 P 2600 17600
-F 0 "SW?" H 2600 17885 50  0000 C CNN
+F 0 "SW6" H 2600 17885 50  0000 C CNN
 F 1 " ESB30" H 2600 17794 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2600 17800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 17800 50  0001 C CNN
@@ -794,10 +794,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW10
 U 1 1 7B38FF7F
 P 3950 17550
-F 0 "SW?" H 3950 17835 50  0000 C CNN
+F 0 "SW10" H 3950 17835 50  0000 C CNN
 F 1 " ESB30" H 3950 17744 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 3950 17750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 17750 50  0001 C CNN
@@ -805,10 +805,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW14
 U 1 1 7B3BE59B
 P 5300 17500
-F 0 "SW?" H 5300 17785 50  0000 C CNN
+F 0 "SW14" H 5300 17785 50  0000 C CNN
 F 1 " ESB30" H 5300 17694 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5300 17700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 17700 50  0001 C CNN
@@ -816,10 +816,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW18
 U 1 1 7B3ED85D
 P 6650 17450
-F 0 "SW?" H 6650 17735 50  0000 C CNN
+F 0 "SW18" H 6650 17735 50  0000 C CNN
 F 1 " ESB30" H 6650 17644 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6650 17650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 17650 50  0001 C CNN
@@ -827,10 +827,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q9
 U 1 1 7988E588
 P 7250 17150
-F 0 "Q?" V 7250 16800 50  0000 R CNN
+F 0 "Q9" V 7250 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 6900 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 7250 17150 50  0001 C CNN
 F 3 "" H 7250 17150 50  0001 C CNN
@@ -839,10 +839,10 @@ F 4 "4404.0096" V 7250 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW22
 U 1 1 7B44CB1F
 P 8000 17400
-F 0 "SW?" H 8000 17685 50  0000 C CNN
+F 0 "SW22" H 8000 17685 50  0000 C CNN
 F 1 " ESB30" H 8000 17594 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8000 17600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 17600 50  0001 C CNN
@@ -850,10 +850,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW26
 U 1 1 7B47C75F
 P 9350 17350
-F 0 "SW?" H 9350 17635 50  0000 C CNN
+F 0 "SW26" H 9350 17635 50  0000 C CNN
 F 1 " ESB30" H 9350 17544 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9350 17550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 17550 50  0001 C CNN
@@ -861,10 +861,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW30
 U 1 1 7B50EE59
 P 10700 17300
-F 0 "SW?" H 10700 17585 50  0000 C CNN
+F 0 "SW30" H 10700 17585 50  0000 C CNN
 F 1 " ESB30" H 10700 17494 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10700 17500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 17500 50  0001 C CNN
@@ -872,10 +872,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW34
 U 1 1 7BAAFBE7
 P 12050 17250
-F 0 "SW?" H 12050 17535 50  0000 C CNN
+F 0 "SW34" H 12050 17535 50  0000 C CNN
 F 1 " ESB30" H 12050 17444 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12050 17450 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 17450 50  0001 C CNN
@@ -883,10 +883,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW38
 U 1 1 7BC51F2C
 P 13400 17300
-F 0 "SW?" H 13400 17585 50  0000 C CNN
+F 0 "SW38" H 13400 17585 50  0000 C CNN
 F 1 " ESB30" H 13400 17494 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13400 17500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 17500 50  0001 C CNN
@@ -894,10 +894,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW42
 U 1 1 7BC83B18
 P 14750 17350
-F 0 "SW?" H 14750 17635 50  0000 C CNN
+F 0 "SW42" H 14750 17635 50  0000 C CNN
 F 1 " ESB30" H 14750 17544 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14750 17550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 17550 50  0001 C CNN
@@ -905,10 +905,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW46
 U 1 1 7BCB5B06
 P 16100 17400
-F 0 "SW?" H 16100 17685 50  0000 C CNN
+F 0 "SW46" H 16100 17685 50  0000 C CNN
 F 1 " ESB30" H 16100 17594 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16100 17600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 17600 50  0001 C CNN
@@ -916,10 +916,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW50
 U 1 1 7BCE7585
 P 17450 17450
-F 0 "SW?" H 17450 17735 50  0000 C CNN
+F 0 "SW50" H 17450 17735 50  0000 C CNN
 F 1 " ESB30" H 17450 17644 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17450 17650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 17650 50  0001 C CNN
@@ -927,10 +927,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW54
 U 1 1 7BD19575
 P 18800 17500
-F 0 "SW?" H 18800 17785 50  0000 C CNN
+F 0 "SW54" H 18800 17785 50  0000 C CNN
 F 1 " ESB30" H 18800 17694 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18800 17700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 17700 50  0001 C CNN
@@ -938,10 +938,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW60
 U 1 1 7BD4B566
 P 20150 17550
-F 0 "SW?" H 20150 17835 50  0000 C CNN
+F 0 "SW60" H 20150 17835 50  0000 C CNN
 F 1 " ESB30" H 20150 17744 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 17750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 17750 50  0001 C CNN
@@ -949,10 +949,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW64
 U 1 1 7BD7D262
 P 21500 17600
-F 0 "SW?" H 21500 17885 50  0000 C CNN
+F 0 "SW64" H 21500 17885 50  0000 C CNN
 F 1 " ESB30" H 21500 17794 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21500 17800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 17800 50  0001 C CNN
@@ -960,10 +960,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW37
 U 1 1 7D83DB9B
 P 13400 15600
-F 0 "SW?" H 13700 15450 50  0000 C CNN
+F 0 "SW37" H 13700 15450 50  0000 C CNN
 F 1 " ESB30" H 13050 15550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13400 15800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 15800 50  0001 C CNN
@@ -971,10 +971,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW41
 U 1 1 7D95807B
 P 14750 15550
-F 0 "SW?" H 15050 15400 50  0000 C CNN
+F 0 "SW41" H 15050 15400 50  0000 C CNN
 F 1 " ESB30" H 14400 15500 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14750 15750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 15750 50  0001 C CNN
@@ -982,10 +982,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW45
 U 1 1 7D9C52D1
 P 16100 15500
-F 0 "SW?" H 16400 15350 50  0000 C CNN
+F 0 "SW45" H 16400 15350 50  0000 C CNN
 F 1 " ESB30" H 15750 15450 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16100 15700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 15700 50  0001 C CNN
@@ -993,10 +993,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW49
 U 1 1 7DA1F12A
 P 17450 15450
-F 0 "SW?" H 17750 15300 50  0000 C CNN
+F 0 "SW49" H 17750 15300 50  0000 C CNN
 F 1 " ESB30" H 17100 15400 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17450 15650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 15650 50  0001 C CNN
@@ -1004,10 +1004,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW53
 U 1 1 7DA7918A
 P 18800 15400
-F 0 "SW?" H 19100 15250 50  0000 C CNN
+F 0 "SW53" H 19100 15250 50  0000 C CNN
 F 1 " ESB30" H 18450 15350 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18800 15600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 15600 50  0001 C CNN
@@ -1015,10 +1015,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW59
 U 1 1 7DAD2E89
 P 20150 15350
-F 0 "SW?" H 20450 15200 50  0000 C CNN
+F 0 "SW59" H 20450 15200 50  0000 C CNN
 F 1 " ESB30" H 19800 15300 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 15550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 15550 50  0001 C CNN
@@ -1026,10 +1026,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW33
 U 1 1 7E2D998F
 P 12050 15600
-F 0 "SW?" H 12350 15450 50  0000 C CNN
+F 0 "SW33" H 12350 15450 50  0000 C CNN
 F 1 " ESB30" H 11700 15550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12050 15800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 15800 50  0001 C CNN
@@ -1037,10 +1037,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW29
 U 1 1 7E3491D3
 P 10700 15600
-F 0 "SW?" H 11000 15450 50  0000 C CNN
+F 0 "SW29" H 11000 15450 50  0000 C CNN
 F 1 " ESB30" H 10350 15550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10700 15800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 15800 50  0001 C CNN
@@ -1048,10 +1048,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW25
 U 1 1 7E3B73DF
 P 9350 15550
-F 0 "SW?" H 9650 15400 50  0000 C CNN
+F 0 "SW25" H 9650 15400 50  0000 C CNN
 F 1 " ESB30" H 9000 15500 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9350 15750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 15750 50  0001 C CNN
@@ -1059,10 +1059,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW63
 U 1 1 7DB2CE18
 P 21500 15300
-F 0 "SW?" H 21800 15150 50  0000 C CNN
+F 0 "SW63" H 21800 15150 50  0000 C CNN
 F 1 " ESB30" H 21150 15250 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21500 15500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 15500 50  0001 C CNN
@@ -1070,10 +1070,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW21
 U 1 1 7E7A3189
 P 8000 15500
-F 0 "SW?" H 8300 15350 50  0000 C CNN
+F 0 "SW21" H 8300 15350 50  0000 C CNN
 F 1 " ESB30" H 7650 15450 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8000 15700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 15700 50  0001 C CNN
@@ -1081,10 +1081,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW17
 U 1 1 7E7A6721
 P 6650 15450
-F 0 "SW?" H 6950 15300 50  0000 C CNN
+F 0 "SW17" H 6950 15300 50  0000 C CNN
 F 1 " ESB30" H 6300 15400 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6650 15650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 15650 50  0001 C CNN
@@ -1092,10 +1092,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW13
 U 1 1 7E7A97C0
 P 5300 15400
-F 0 "SW?" H 5600 15250 50  0000 C CNN
+F 0 "SW13" H 5600 15250 50  0000 C CNN
 F 1 " ESB30" H 4950 15350 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5300 15600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 15600 50  0001 C CNN
@@ -1103,10 +1103,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW9
 U 1 1 7E9CD800
 P 3950 15350
-F 0 "SW?" H 4250 15200 50  0000 C CNN
+F 0 "SW9" H 4250 15200 50  0000 C CNN
 F 1 " ESB30" H 3600 15300 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 3950 15550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 15550 50  0001 C CNN
@@ -1114,10 +1114,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW5
 U 1 1 7E9D0F74
 P 2600 15300
-F 0 "SW?" H 2900 15150 50  0000 C CNN
+F 0 "SW5" H 2900 15150 50  0000 C CNN
 F 1 " ESB30" H 2250 15250 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2600 15500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 15500 50  0001 C CNN
@@ -1187,11 +1187,11 @@ Entry Wire Line
 Entry Wire Line
 	13100 15950 13200 16050
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D1
 U 1 1 7A3C405B
 P 1250 16350
-F 0 "D?" H 1100 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 1200 16100 50  0000 C CNN
+F 0 "D1" H 1100 16550 50  0000 C CNN
+F 1 "MV5438" H 1200 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 1250 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 1250 16350 50  0001 C CNN
 	1    1250 16350
@@ -1214,12 +1214,12 @@ Entry Wire Line
 Entry Wire Line
 	24400 15250 24500 15350
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN3
 U 1 1 63EAA9F6
 P 24200 15600
-F 0 "RN?" H 23650 15800 50  0000 L CNN
-F 1 "R_Pack08" V 23700 15400 50  0000 L CNN
-F 2 "" V 24675 15600 50  0001 C CNN
+F 0 "RN3" H 23650 15800 50  0000 L CNN
+F 1 "4116R-1-471" V 23600 15350 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 24675 15600 50  0001 C CNN
 F 3 "~" H 24200 15600 50  0001 C CNN
 	1    24200 15600
 	1    0    0    -1  
@@ -1479,12 +1479,12 @@ Entry Wire Line
 Entry Wire Line
 	25250 15250 25350 15350
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN7
 U 1 1 6690D611
 P 25050 15600
-F 0 "RN?" H 25400 15300 50  0000 L CNN
-F 1 "R_Pack08" V 25450 15400 50  0000 L CNN
-F 2 "" V 25525 15600 50  0001 C CNN
+F 0 "RN7" H 25400 15250 50  0000 L CNN
+F 1 "4116R-1-471" V 25450 15300 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 25525 15600 50  0001 C CNN
 F 3 "~" H 25050 15600 50  0001 C CNN
 	1    25050 15600
 	1    0    0    -1  
@@ -1558,12 +1558,12 @@ Entry Wire Line
 Entry Wire Line
 	24400 17450 24500 17350
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN4
 U 1 1 66F2948A
 P 24200 17100
-F 0 "RN?" H 23650 16900 50  0000 L CNN
-F 1 "R_Pack08" V 23700 16950 50  0000 L CNN
-F 2 "" V 24675 17100 50  0001 C CNN
+F 0 "RN4" H 23650 16900 50  0000 L CNN
+F 1 "4116R-1-471" V 23600 16850 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 24675 17100 50  0001 C CNN
 F 3 "~" H 24200 17100 50  0001 C CNN
 	1    24200 17100
 	1    0    0    1   
@@ -1615,12 +1615,12 @@ Entry Wire Line
 Entry Wire Line
 	25250 17450 25350 17350
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN8
 U 1 1 66F294B7
 P 25050 17100
-F 0 "RN?" H 25400 17400 50  0000 L CNN
-F 1 "R_Pack08" V 25450 16950 50  0000 L CNN
-F 2 "" V 25525 17100 50  0001 C CNN
+F 0 "RN8" H 25400 17400 50  0000 L CNN
+F 1 "4116R-1-471" V 25450 16800 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 25525 17100 50  0001 C CNN
 F 3 "~" H 25050 17100 50  0001 C CNN
 	1    25050 17100
 	1    0    0    1   
@@ -1660,44 +1660,44 @@ D16B1
 Text Label 23700 17450 3    50   ~ 0
 D1B1
 Text Label 23800 16750 1    50   ~ 0
-D2B1
+D2B2
 Text Label 23900 16750 1    50   ~ 0
-D3B1
+D3B2
 Text Label 24000 16750 1    50   ~ 0
-D4B1
+D4B2
 Text Label 24100 16750 1    50   ~ 0
-D5B1
+D5B2
 Text Label 24200 16750 1    50   ~ 0
-D6B1
+D6B2
 Text Label 24300 16750 1    50   ~ 0
-D7B1
+D7B2
 Text Label 24400 16750 1    50   ~ 0
-D8B1
+D8B2
 Text Label 24550 16750 1    50   ~ 0
-D9B1
+D9B2
 Text Label 24650 16750 1    50   ~ 0
-D10B1
+D10B2
 Text Label 24750 16750 1    50   ~ 0
-D11B1
+D11B2
 Text Label 24850 16750 1    50   ~ 0
-D12B1
+D12B2
 Text Label 24950 16750 1    50   ~ 0
-D13B1
+D13B2
 Text Label 25050 16750 1    50   ~ 0
-D14B1
+D14B2
 Text Label 25150 16750 1    50   ~ 0
-D15B1
+D15B2
 Text Label 25250 16750 1    50   ~ 0
-D16B1
+D16B2
 Text Label 23700 16750 1    50   ~ 0
-D1B1
+D1B2
 $Comp
-L BoatControl:SS73100-047F J?
+L BoatControl:SS73100-047F J3
 U 1 1 5E941411
 P 5100 14600
-F 0 "J?" V 5771 17777 50  0000 L CNN
+F 0 "J3" V 5771 17777 50  0000 L CNN
 F 1 "SS73100-047F" V 5680 17777 50  0000 L CNN
-F 2 "STEWART_SS73100-047F" H 5250 14300 50  0001 L BNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 5250 14300 50  0001 L BNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 14150 50  0001 L BNN
 F 4 "Stewart Connector" H 5300 13950 50  0001 L BNN "Field6"
 F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 14600 50  0001 C CNN "Dimensions"
@@ -1895,12 +1895,12 @@ Entry Wire Line
 Entry Wire Line
 	1350 17750 1450 17650
 $Comp
-L BoatControl:TB007-508-16BE J?
+L BoatControl:TB007-508-16BE J5
 U 1 1 68195FE3
 P 11850 22600
-F 0 "J?" V 11697 21770 50  0000 R CNN
+F 0 "J5" V 11697 21770 50  0000 R CNN
 F 1 "TB007-508-16BE" V 11950 22950 50  0000 R CNN
-F 2 "CUI_TB007-508-16BE" H 11850 22600 50  0001 L BNN
+F 2 "BoatControl:CUI_TBP01R2W-508-16BE" H 11850 22600 50  0001 L BNN
 F 3 "Manufacturer Recommendations" H 11850 22600 50  0001 L BNN
 F 4 "CUI" H 11850 22600 50  0001 L BNN "Field4"
 	1    11850 22600
@@ -2035,76 +2035,76 @@ XA16
 Text Label 9050 14750 0    50   ~ 0
 XB16
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP16
 U 1 1 6E6A91D9
 P 11350 20850
-F 0 "JP?" V 11304 20918 50  0000 L CNN
+F 0 "JP16" V 11304 20918 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11395 20918 50  0000 L CNN
-F 2 "" H 11350 20850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11350 20850 50  0001 C CNN
 F 3 "~" H 11350 20850 50  0001 C CNN
 	1    11350 20850
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP12
 U 1 1 6E6A91E3
 P 11250 20600
-F 0 "JP?" V 11204 20668 50  0000 L CNN
+F 0 "JP12" V 11204 20668 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 11295 20668 50  0000 L CNN
-F 2 "" H 11250 20600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11250 20600 50  0001 C CNN
 F 3 "~" H 11250 20600 50  0001 C CNN
 	1    11250 20600
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D13
 U 1 1 7A297BAB
 P 9350 16350
-F 0 "D?" H 9200 16550 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 9300 16100 50  0000 C CNN
+F 0 "D13" H 9200 16550 50  0000 C CNN
+F 1 "MV5438" H 9300 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 9350 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 9350 16350 50  0001 C CNN
 	1    9350 16350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP14
 U 1 1 70FC1563
 P 11300 11000
-F 0 "JP?" V 11254 11068 50  0000 L CNN
+F 0 "JP14" V 11254 11068 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11345 11068 50  0000 L CNN
-F 2 "" H 11300 11000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11300 11000 50  0001 C CNN
 F 3 "~" H 11300 11000 50  0001 C CNN
 	1    11300 11000
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP10
 U 1 1 70FC156D
 P 11200 11250
-F 0 "JP?" V 11154 11318 50  0000 L CNN
+F 0 "JP10" V 11154 11318 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11245 11318 50  0000 L CNN
-F 2 "" H 11200 11250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11200 11250 50  0001 C CNN
 F 3 "~" H 11200 11250 50  0001 C CNN
 	1    11200 11250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D4
 U 1 1 70FC1597
 P 2650 7050
-F 0 "D?" H 2450 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 2650 6800 50  0000 C CNN
+F 0 "D4" H 2450 6900 50  0000 C CNN
+F 1 "MV5438" H 2650 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 2650 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 2650 7050 50  0001 C CNN
 	1    2650 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K2
 U 1 1 70FC15AC
 P 1950 7050
-F 0 "K?" H 2000 7050 50  0000 L CNN
+F 0 "K2" H 2000 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 2150 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 2350 7200 50  0001 L BNN
 F 3 "Omron" H 2350 7300 50  0001 L BNN
@@ -2112,10 +2112,10 @@ F 3 "Omron" H 2350 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K4
 U 1 1 70FC15B6
 P 3300 7050
-F 0 "K?" H 3350 7050 50  0000 L CNN
+F 0 "K4" H 3350 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 3500 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 3700 7200 50  0001 L BNN
 F 3 "Omron" H 3700 7300 50  0001 L BNN
@@ -2123,32 +2123,32 @@ F 3 "Omron" H 3700 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U19
 U 1 1 70FC15C0
 P 12450 8650
-F 0 "U?" V 12404 9080 50  0000 L CNN
+F 0 "U19" V 12404 9080 50  0000 L CNN
 F 1 "ULN2803A" V 12500 9450 50  0000 L CNN
-F 2 "" H 12500 8000 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 12500 8000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12550 8450 50  0001 C CNN
 	1    12450 8650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U11
 U 1 1 70FC15DC
 P 11550 8650
-F 0 "U?" V 11504 9080 50  0000 L CNN
+F 0 "U11" V 11504 9080 50  0000 L CNN
 F 1 "ULN2803A" V 11600 9400 50  0000 L CNN
-F 2 "" H 11600 8000 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 11600 8000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11650 8450 50  0001 C CNN
 	1    11550 8650
 	0    1    -1   0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U15
 U 1 1 70FC15E6
 P 12000 9850
-F 0 "U?" V 12150 10800 50  0000 L CNN
+F 0 "U15" V 12150 10800 50  0000 L CNN
 F 1 "MCP23017_SO" V 12050 9600 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 12200 8850 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12200 8750 50  0001 L CNN
@@ -2156,32 +2156,32 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12200 8750
 	0    1    -1   0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U14
 U 1 1 70FC1674
 P 12000 3950
-F 0 "U?" V 11954 5094 50  0000 L CNN
-F 1 "MCP23017_SO" V 12045 5094 50  0000 L CNN
+F 0 "U14" V 11850 4900 50  0000 L CNN
+F 1 "MCP23017_SO" V 12000 3700 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 12200 2950 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12200 2850 50  0001 L CNN
 	1    12000 3950
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U10
 U 1 1 70FC167E
 P 11550 5150
-F 0 "U?" V 11504 5580 50  0000 L CNN
-F 1 "ULN2803A" V 11595 5580 50  0000 L CNN
-F 2 "" H 11600 4500 50  0001 L CNN
+F 0 "U10" V 11450 5000 50  0000 L CNN
+F 1 "ULN2803A" V 11600 4900 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 11600 4500 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11650 4950 50  0001 C CNN
 	1    11550 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K18
 U 1 1 70FC16B0
 P 12750 7050
-F 0 "K?" H 12800 7050 50  0000 L CNN
+F 0 "K18" H 12800 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 12950 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 13150 7200 50  0001 L BNN
 F 3 "Omron" H 13150 7300 50  0001 L BNN
@@ -2189,10 +2189,10 @@ F 3 "Omron" H 13150 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K20
 U 1 1 70FC16BA
 P 14100 7050
-F 0 "K?" H 14150 7050 50  0000 L CNN
+F 0 "K20" H 14150 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 14300 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 14500 7200 50  0001 L BNN
 F 3 "Omron" H 14500 7300 50  0001 L BNN
@@ -2200,10 +2200,10 @@ F 3 "Omron" H 14500 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K24
 U 1 1 70FC16CE
 P 16800 7050
-F 0 "K?" H 16850 7050 50  0000 L CNN
+F 0 "K24" H 16850 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 17000 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 17200 7200 50  0001 L BNN
 F 3 "Omron" H 17200 7300 50  0001 L BNN
@@ -2211,10 +2211,10 @@ F 3 "Omron" H 17200 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K26
 U 1 1 70FC16D8
 P 18150 7050
-F 0 "K?" H 18200 7050 50  0000 L CNN
+F 0 "K26" H 18200 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 18350 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 18550 7200 50  0001 L BNN
 F 3 "Omron" H 18550 7300 50  0001 L BNN
@@ -2222,10 +2222,10 @@ F 3 "Omron" H 18550 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K28
 U 1 1 70FC16E2
 P 19500 7050
-F 0 "K?" H 19550 7050 50  0000 L CNN
+F 0 "K28" H 19550 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 19700 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 19900 7200 50  0001 L BNN
 F 3 "Omron" H 19900 7300 50  0001 L BNN
@@ -2233,10 +2233,10 @@ F 3 "Omron" H 19900 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K31
 U 1 1 70FC16EC
 P 20850 7050
-F 0 "K?" H 20900 7050 50  0000 L CNN
+F 0 "K31" H 20900 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 21050 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 21250 7200 50  0001 L BNN
 F 3 "Omron" H 21250 7300 50  0001 L BNN
@@ -2244,10 +2244,10 @@ F 3 "Omron" H 21250 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K16
 U 1 1 70FC16F6
 P 11400 7050
-F 0 "K?" H 11450 7050 50  0000 L CNN
+F 0 "K16" H 11450 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 11600 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 11800 7200 50  0001 L BNN
 F 3 "Omron" H 11800 7300 50  0001 L BNN
@@ -2255,10 +2255,10 @@ F 3 "Omron" H 11800 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K14
 U 1 1 70FC1700
 P 10050 7050
-F 0 "K?" H 10100 7050 50  0000 L CNN
+F 0 "K14" H 10100 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 10250 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 10450 7200 50  0001 L BNN
 F 3 "Omron" H 10450 7300 50  0001 L BNN
@@ -2266,10 +2266,10 @@ F 3 "Omron" H 10450 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K12
 U 1 1 70FC170A
 P 8700 7050
-F 0 "K?" H 8750 7050 50  0000 L CNN
+F 0 "K12" H 8750 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 8900 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 9100 7200 50  0001 L BNN
 F 3 "Omron" H 9100 7300 50  0001 L BNN
@@ -2277,10 +2277,10 @@ F 3 "Omron" H 9100 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K10
 U 1 1 70FC1714
 P 7350 7050
-F 0 "K?" H 7400 7050 50  0000 L CNN
+F 0 "K10" H 7400 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 7600 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 7750 7200 50  0001 L BNN
 F 3 "Omron" H 7750 7300 50  0001 L BNN
@@ -2288,10 +2288,10 @@ F 3 "Omron" H 7750 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K8
 U 1 1 70FC171E
 P 6000 7050
-F 0 "K?" H 6050 7050 50  0000 L CNN
+F 0 "K8" H 6050 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 6250 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 6400 7200 50  0001 L BNN
 F 3 "Omron" H 6400 7300 50  0001 L BNN
@@ -2299,10 +2299,10 @@ F 3 "Omron" H 6400 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K6
 U 1 1 70FC1728
 P 4650 7050
-F 0 "K?" H 4700 7050 50  0000 L CNN
+F 0 "K6" H 4700 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 4300 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 5050 7200 50  0001 L BNN
 F 3 "Omron" H 5050 7300 50  0001 L BNN
@@ -2310,10 +2310,10 @@ F 3 "Omron" H 5050 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K34
 U 1 1 70FC1732
 P 22200 7050
-F 0 "K?" H 22250 7050 50  0000 L CNN
+F 0 "K34" H 22250 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 22400 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 22600 7200 50  0001 L BNN
 F 3 "Omron" H 22600 7300 50  0001 L BNN
@@ -2321,164 +2321,164 @@ F 3 "Omron" H 22600 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D6
 U 1 1 70FC173C
 P 4000 7050
-F 0 "D?" H 3800 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 4000 6800 50  0000 C CNN
+F 0 "D6" H 3800 6900 50  0000 C CNN
+F 1 "MV5438" H 4000 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 4000 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 4000 7050 50  0001 C CNN
 	1    4000 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D8
 U 1 1 70FC1746
 P 5350 7050
-F 0 "D?" H 5150 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 5350 6800 50  0000 C CNN
+F 0 "D8" H 5150 6900 50  0000 C CNN
+F 1 "MV5438" H 5350 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 5350 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 5350 7050 50  0001 C CNN
 	1    5350 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D10
 U 1 1 70FC1750
 P 6700 7050
-F 0 "D?" H 6500 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 6700 6800 50  0000 C CNN
+F 0 "D10" H 6500 6900 50  0000 C CNN
+F 1 "MV5438" H 6700 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6700 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 6700 7050 50  0001 C CNN
 	1    6700 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D12
 U 1 1 70FC175A
 P 8050 7050
-F 0 "D?" H 7850 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 8050 6800 50  0000 C CNN
+F 0 "D12" H 7850 6900 50  0000 C CNN
+F 1 "MV5438" H 8050 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 8050 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 8050 7050 50  0001 C CNN
 	1    8050 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D16
 U 1 1 70FC1764
 P 10750 7050
-F 0 "D?" H 10550 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 10700 6800 50  0000 C CNN
+F 0 "D16" H 10550 6900 50  0000 C CNN
+F 1 "MV5438" H 10700 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 10750 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 10750 7050 50  0001 C CNN
 	1    10750 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D18
 U 1 1 70FC176E
 P 12100 7050
-F 0 "D?" H 11900 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 12050 6800 50  0000 C CNN
+F 0 "D18" H 11900 6900 50  0000 C CNN
+F 1 "MV5438" H 12050 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 12100 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 12100 7050 50  0001 C CNN
 	1    12100 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D20
 U 1 1 70FC1778
 P 13450 7050
-F 0 "D?" H 13250 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 13400 6800 50  0000 C CNN
+F 0 "D20" H 13250 6900 50  0000 C CNN
+F 1 "MV5438" H 13400 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 13450 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 13450 7050 50  0001 C CNN
 	1    13450 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D22
 U 1 1 70FC1782
 P 14800 7050
-F 0 "D?" H 14800 7475 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 14750 6800 50  0000 C CNN
+F 0 "D22" H 14800 7475 50  0000 C CNN
+F 1 "MV5438" H 14750 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 14800 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 14800 7050 50  0001 C CNN
 	1    14800 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D24
 U 1 1 70FC178C
 P 16150 7050
-F 0 "D?" H 15950 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 16100 6800 50  0000 C CNN
+F 0 "D24" H 15950 6900 50  0000 C CNN
+F 1 "MV5438" H 16100 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 16150 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 16150 7050 50  0001 C CNN
 	1    16150 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D26
 U 1 1 70FC1796
 P 17500 7050
-F 0 "D?" H 17300 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 17450 6800 50  0000 C CNN
+F 0 "D26" H 17300 6900 50  0000 C CNN
+F 1 "MV5438" H 17450 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 17500 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 17500 7050 50  0001 C CNN
 	1    17500 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D28
 U 1 1 70FC17A0
 P 18850 7050
-F 0 "D?" H 18650 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 18800 6800 50  0000 C CNN
+F 0 "D28" H 18650 6900 50  0000 C CNN
+F 1 "MV5438" H 18800 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 18850 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 18850 7050 50  0001 C CNN
 	1    18850 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D30
 U 1 1 70FC17AA
 P 20200 7050
-F 0 "D?" H 20000 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 20150 6800 50  0000 C CNN
+F 0 "D30" H 20000 6900 50  0000 C CNN
+F 1 "MV5438" H 20150 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20200 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20200 7050 50  0001 C CNN
 	1    20200 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D33
 U 1 1 70FC17B4
 P 21550 7050
-F 0 "D?" H 21350 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 21500 6800 50  0000 C CNN
+F 0 "D33" H 21350 6900 50  0000 C CNN
+F 1 "MV5438" H 21500 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 21550 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 21550 7050 50  0001 C CNN
 	1    21550 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U18
 U 1 1 70FC188B
 P 12450 5150
-F 0 "U?" V 12404 5580 50  0000 L CNN
-F 1 "ULN2803A" V 12495 5580 50  0000 L CNN
-F 2 "" H 12500 4500 50  0001 L CNN
+F 0 "U18" V 12350 5000 50  0000 L CNN
+F 1 "ULN2803A" V 12500 4850 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 12500 4500 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12550 4950 50  0001 C CNN
 	1    12450 5150
 	0    -1   1    0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW3
 U 1 1 70FC1897
 P 1300 5750
-F 0 "SW?" H 1300 6035 50  0000 C CNN
+F 0 "SW3" H 1300 6035 50  0000 C CNN
 F 1 " ESB30" H 1300 5944 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1300 5950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 5950 50  0001 C CNN
@@ -2486,10 +2486,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 5
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW7
 U 1 1 70FC18A3
 P 2650 5800
-F 0 "SW?" H 2750 5900 50  0000 C CNN
+F 0 "SW7" H 2750 5900 50  0000 C CNN
 F 1 " ESB30" H 2650 5994 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2650 6000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 6000 50  0001 C CNN
@@ -2497,10 +2497,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW11
 U 1 1 70FC18B0
 P 4000 5850
-F 0 "SW?" H 4100 5950 50  0000 C CNN
+F 0 "SW11" H 4100 5950 50  0000 C CNN
 F 1 " ESB30" H 4000 6044 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 4000 6050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 6050 50  0001 C CNN
@@ -2508,10 +2508,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW15
 U 1 1 70FC18BA
 P 5350 5900
-F 0 "SW?" H 5450 6000 50  0000 C CNN
+F 0 "SW15" H 5450 6000 50  0000 C CNN
 F 1 " ESB30" H 5350 6094 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5350 6100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 6100 50  0001 C CNN
@@ -2519,10 +2519,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW19
 U 1 1 70FC18C4
 P 6700 5950
-F 0 "SW?" H 6800 6050 50  0000 C CNN
+F 0 "SW19" H 6800 6050 50  0000 C CNN
 F 1 " ESB30" H 6700 6144 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6700 6150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 6150 50  0001 C CNN
@@ -2530,10 +2530,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW23
 U 1 1 70FC18D9
 P 8050 6000
-F 0 "SW?" H 8150 6100 50  0000 C CNN
+F 0 "SW23" H 8150 6100 50  0000 C CNN
 F 1 " ESB30" H 8050 6194 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8050 6200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 6200 50  0001 C CNN
@@ -2541,10 +2541,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW27
 U 1 1 70FC18E4
 P 9400 6050
-F 0 "SW?" H 9500 6150 50  0000 C CNN
+F 0 "SW27" H 9500 6150 50  0000 C CNN
 F 1 " ESB30" H 9400 6244 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9400 6250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 6250 50  0001 C CNN
@@ -2552,10 +2552,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW31
 U 1 1 70FC18EF
 P 10750 6100
-F 0 "SW?" H 10850 6200 50  0000 C CNN
+F 0 "SW31" H 10850 6200 50  0000 C CNN
 F 1 " ESB30" H 10750 6294 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10750 6300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 6300 50  0001 C CNN
@@ -2563,10 +2563,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW35
 U 1 1 70FC1920
 P 12100 6150
-F 0 "SW?" H 12200 6250 50  0000 C CNN
+F 0 "SW35" H 12200 6250 50  0000 C CNN
 F 1 " ESB30" H 12100 6344 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12100 6350 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 6350 50  0001 C CNN
@@ -2574,10 +2574,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW39
 U 1 1 70FC1932
 P 13450 6100
-F 0 "SW?" H 13550 6200 50  0000 C CNN
+F 0 "SW39" H 13550 6200 50  0000 C CNN
 F 1 " ESB30" H 13450 6294 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13450 6300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 6300 50  0001 C CNN
@@ -2585,10 +2585,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW43
 U 1 1 70FC193C
 P 14800 6050
-F 0 "SW?" H 14900 6150 50  0000 C CNN
+F 0 "SW43" H 14900 6150 50  0000 C CNN
 F 1 " ESB30" H 14800 6244 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14800 6250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 6250 50  0001 C CNN
@@ -2596,10 +2596,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW47
 U 1 1 70FC1946
 P 16150 6000
-F 0 "SW?" H 16250 6100 50  0000 C CNN
+F 0 "SW47" H 16250 6100 50  0000 C CNN
 F 1 " ESB30" H 16150 6200 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16150 6200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 6200 50  0001 C CNN
@@ -2607,10 +2607,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW51
 U 1 1 70FC1950
 P 17500 5950
-F 0 "SW?" H 17600 6050 50  0000 C CNN
+F 0 "SW51" H 17600 6050 50  0000 C CNN
 F 1 " ESB30" H 17500 6150 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17500 6150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 6150 50  0001 C CNN
@@ -2618,10 +2618,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW55
 U 1 1 70FC195A
 P 18850 5900
-F 0 "SW?" H 18950 6000 50  0000 C CNN
+F 0 "SW55" H 18950 6000 50  0000 C CNN
 F 1 " ESB30" H 18850 6100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18850 6100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 6100 50  0001 C CNN
@@ -2629,10 +2629,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW61
 U 1 1 70FC1964
 P 20200 5850
-F 0 "SW?" H 20300 5950 50  0000 C CNN
+F 0 "SW61" H 20300 5950 50  0000 C CNN
 F 1 " ESB30" H 20200 6050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20200 6050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 6050 50  0001 C CNN
@@ -2640,10 +2640,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW65
 U 1 1 70FC196E
 P 21550 5800
-F 0 "SW?" H 21650 5900 50  0000 C CNN
+F 0 "SW65" H 21650 5900 50  0000 C CNN
 F 1 " ESB30" H 21550 6000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21550 6000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 6000 50  0001 C CNN
@@ -2651,10 +2651,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW40
 U 1 1 70FC1A1C
 P 13450 7800
-F 0 "SW?" H 13550 7900 50  0000 C CNN
+F 0 "SW40" H 13550 7900 50  0000 C CNN
 F 1 " ESB30" H 13100 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13450 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 8000 50  0001 C CNN
@@ -2662,10 +2662,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW44
 U 1 1 70FC1A2D
 P 14800 7850
-F 0 "SW?" H 14900 7950 50  0000 C CNN
+F 0 "SW44" H 14900 7950 50  0000 C CNN
 F 1 " ESB30" H 14450 7800 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14800 8050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 8050 50  0001 C CNN
@@ -2673,10 +2673,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW48
 U 1 1 70FC1A3B
 P 16150 7900
-F 0 "SW?" H 16250 8000 50  0000 C CNN
+F 0 "SW48" H 16250 8000 50  0000 C CNN
 F 1 " ESB30" H 15800 7850 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16150 8100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 8100 50  0001 C CNN
@@ -2684,10 +2684,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW52
 U 1 1 70FC1A45
 P 17500 7950
-F 0 "SW?" H 17600 8050 50  0000 C CNN
+F 0 "SW52" H 17600 8050 50  0000 C CNN
 F 1 " ESB30" H 17150 7900 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17500 8150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 8150 50  0001 C CNN
@@ -2695,10 +2695,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW56
 U 1 1 70FC1A4F
 P 18850 8000
-F 0 "SW?" H 18950 8100 50  0000 C CNN
+F 0 "SW56" H 18950 8100 50  0000 C CNN
 F 1 " ESB30" H 18500 7950 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18850 8200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 8200 50  0001 C CNN
@@ -2706,10 +2706,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW62
 U 1 1 70FC1A59
 P 20200 8050
-F 0 "SW?" H 20300 8150 50  0000 C CNN
+F 0 "SW62" H 20300 8150 50  0000 C CNN
 F 1 " ESB30" H 19850 8000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20200 8250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 8250 50  0001 C CNN
@@ -2717,10 +2717,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW36
 U 1 1 70FC1A7D
 P 12100 7800
-F 0 "SW?" H 12000 7900 50  0000 C CNN
+F 0 "SW36" H 12000 7900 50  0000 C CNN
 F 1 " ESB30" H 11750 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12100 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 8000 50  0001 C CNN
@@ -2728,10 +2728,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW32
 U 1 1 70FC1A8B
 P 10750 7800
-F 0 "SW?" H 10850 7900 50  0000 C CNN
+F 0 "SW32" H 10850 7900 50  0000 C CNN
 F 1 " ESB30" H 10400 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10750 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 8000 50  0001 C CNN
@@ -2739,10 +2739,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW28
 U 1 1 70FC1A99
 P 9400 7850
-F 0 "SW?" H 9500 7950 50  0000 C CNN
+F 0 "SW28" H 9500 7950 50  0000 C CNN
 F 1 " ESB30" H 9050 7800 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9400 8050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 8050 50  0001 C CNN
@@ -2750,10 +2750,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW66
 U 1 1 70FC1AA8
 P 21550 8100
-F 0 "SW?" H 21650 8200 50  0000 C CNN
+F 0 "SW66" H 21650 8200 50  0000 C CNN
 F 1 " ESB30" H 21200 8050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21550 8300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 8300 50  0001 C CNN
@@ -2761,10 +2761,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW24
 U 1 1 70FC1AC8
 P 8050 7900
-F 0 "SW?" H 8150 8000 50  0000 C CNN
+F 0 "SW24" H 8150 8000 50  0000 C CNN
 F 1 " ESB30" H 7700 7850 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8050 8100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 8100 50  0001 C CNN
@@ -2772,10 +2772,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW20
 U 1 1 70FC1AD3
 P 6700 7950
-F 0 "SW?" H 6800 8050 50  0000 C CNN
+F 0 "SW20" H 6800 8050 50  0000 C CNN
 F 1 " ESB30" H 6350 7900 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6700 8150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 8150 50  0001 C CNN
@@ -2783,10 +2783,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW16
 U 1 1 70FC1ADE
 P 5350 8000
-F 0 "SW?" H 5450 8100 50  0000 C CNN
+F 0 "SW16" H 5450 8100 50  0000 C CNN
 F 1 " ESB30" H 5000 7950 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5350 8200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 8200 50  0001 C CNN
@@ -2794,10 +2794,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW12
 U 1 1 70FC1AF3
 P 4000 8050
-F 0 "SW?" H 4100 8150 50  0000 C CNN
+F 0 "SW12" H 4100 8150 50  0000 C CNN
 F 1 " ESB30" H 3650 8000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 4000 8250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 8250 50  0001 C CNN
@@ -2805,10 +2805,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW8
 U 1 1 70FC1AFE
 P 2650 8100
-F 0 "SW?" H 2750 8200 50  0000 C CNN
+F 0 "SW8" H 2750 8200 50  0000 C CNN
 F 1 " ESB30" H 2300 8050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2650 8300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 8300 50  0001 C CNN
@@ -2816,10 +2816,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW4
 U 1 1 70FC1B09
 P 1300 8250
-F 0 "SW?" H 1400 8350 50  0000 C CNN
+F 0 "SW4" H 1400 8350 50  0000 C CNN
 F 1 " ESB30" H 950 8200 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1300 8450 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 8450 50  0001 C CNN
@@ -2889,11 +2889,11 @@ Entry Wire Line
 Entry Wire Line
 	13150 7450 13250 7350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D2
 U 1 1 70FC1BAA
 P 1300 7050
-F 0 "D?" H 1100 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 1250 6800 50  0000 C CNN
+F 0 "D2" H 1100 6900 50  0000 C CNN
+F 1 "MV5438" H 1250 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 1300 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 1300 7050 50  0001 C CNN
 	1    1300 7050
@@ -2916,12 +2916,12 @@ Entry Wire Line
 Entry Wire Line
 	24450 8150 24550 8050
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN6
 U 1 1 70FC1BBD
 P 24250 7800
-F 0 "RN?" H 23700 7600 50  0000 L CNN
-F 1 "R_Pack08" V 23750 7650 50  0000 L CNN
-F 2 "" V 24725 7800 50  0001 C CNN
+F 0 "RN6" H 23700 7600 50  0000 L CNN
+F 1 "4116R-1-471" V 23650 7550 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 24725 7800 50  0001 C CNN
 F 3 "~" H 24250 7800 50  0001 C CNN
 	1    24250 7800
 	1    0    0    1   
@@ -3006,12 +3006,6 @@ Entry Wire Line
 	21250 6650 21350 6750
 Entry Wire Line
 	21650 6650 21750 6750
-Text Label 1000 6650 0    50   ~ 0
-D1B1
-Text Label 1400 6650 0    50   ~ 0
-D1B2
-Text Label 1400 7450 0    50   ~ 0
-D1A2
 Text Label 2350 7450 0    50   ~ 0
 D2A1
 Text Label 2750 7450 0    50   ~ 0
@@ -3148,8 +3142,6 @@ Text Label 24350 8150 3    50   ~ 0
 D7A1
 Text Label 24450 8150 3    50   ~ 0
 D8A1
-Text Label 23750 7450 1    50   ~ 0
-D1A2
 Text Label 23850 7450 1    50   ~ 0
 D2A2
 Text Label 23950 7450 1    50   ~ 0
@@ -3181,12 +3173,12 @@ Entry Wire Line
 Entry Wire Line
 	25300 8150 25400 8050
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN10
 U 1 1 70FC1C68
 P 25100 7800
-F 0 "RN?" H 25450 8100 50  0000 L CNN
-F 1 "R_Pack08" V 25500 7650 50  0000 L CNN
-F 2 "" V 25575 7800 50  0001 C CNN
+F 0 "RN10" H 25450 8100 50  0000 L CNN
+F 1 "4116R-1-471" V 25500 7500 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 25575 7800 50  0001 C CNN
 F 3 "~" H 25100 7800 50  0001 C CNN
 	1    25100 7800
 	1    0    0    1   
@@ -3235,10 +3227,6 @@ Text Label 25000 7450 1    50   ~ 0
 D13A2
 Text Label 25100 7450 1    50   ~ 0
 D14A2
-Text Label 23750 8150 3    50   ~ 0
-D1A1
-Text Label 1000 7450 0    50   ~ 0
-D1A1
 Text Label 25200 7450 1    50   ~ 0
 D15A2
 Text Label 25300 7450 1    50   ~ 0
@@ -3259,17 +3247,6 @@ Entry Wire Line
 	24350 5950 24450 6050
 Entry Wire Line
 	24450 5950 24550 6050
-$Comp
-L Device:R_Pack08 RN?
-U 1 1 70FC1CA7
-P 24250 6300
-F 0 "RN?" H 23700 6500 50  0000 L CNN
-F 1 "R_Pack08" V 23750 6100 50  0000 L CNN
-F 2 "" V 24725 6300 50  0001 C CNN
-F 3 "~" H 24250 6300 50  0001 C CNN
-	1    24250 6300
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	23750 6650 23850 6550
 Entry Wire Line
@@ -3317,12 +3294,12 @@ Entry Wire Line
 Entry Wire Line
 	25300 5950 25400 6050
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN9
 U 1 1 70FC1CD8
 P 25100 6300
-F 0 "RN?" H 25450 6050 50  0000 L CNN
-F 1 "R_Pack08" V 25500 6150 50  0000 L CNN
-F 2 "" V 25575 6300 50  0001 C CNN
+F 0 "RN9" H 25450 6050 50  0000 L CNN
+F 1 "4116R-1-471" V 25500 6100 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 25575 6300 50  0001 C CNN
 F 3 "~" H 25100 6300 50  0001 C CNN
 	1    25100 6300
 	1    0    0    -1  
@@ -3362,37 +3339,33 @@ D16B1
 Text Label 23750 5950 1    50   ~ 0
 D1B1
 Text Label 23850 6650 3    50   ~ 0
-D2B1
+D2B2
 Text Label 23950 6650 3    50   ~ 0
-D3B1
+D3B2
 Text Label 24050 6650 3    50   ~ 0
-D4B1
+D4B2
 Text Label 24150 6650 3    50   ~ 0
-D5B1
+D5B2
 Text Label 24250 6650 3    50   ~ 0
-D6B1
+D6B2
 Text Label 24350 6650 3    50   ~ 0
-D7B1
+D7B2
 Text Label 24450 6650 3    50   ~ 0
-D8B1
+D8B2
 Text Label 24600 6650 3    50   ~ 0
-D9B1
+D9B2
 Text Label 24700 6650 3    50   ~ 0
-D10B1
+D10B2
 Text Label 24800 6650 3    50   ~ 0
-D11B1
+D11B2
 Text Label 24900 6650 3    50   ~ 0
-D12B1
+D12B2
 Text Label 25000 6650 3    50   ~ 0
-D13B1
+D13B2
 Text Label 25100 6650 3    50   ~ 0
-D14B1
-Text Label 25200 6650 3    50   ~ 0
-D15B1
-Text Label 25300 6650 3    50   ~ 0
-D16B1
+D14B2
 Text Label 23750 6650 3    50   ~ 0
-D1B1
+D1B2
 Entry Wire Line
 	21650 8000 21750 8100
 Entry Wire Line
@@ -3522,56 +3495,56 @@ YA15
 Text Label 21750 5800 0    50   ~ 0
 YA16
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP9
 U 1 1 70FC1F25
 P 11200 3050
-F 0 "JP?" V 11154 3118 50  0000 L CNN
+F 0 "JP9" V 11154 3118 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11245 3118 50  0000 L CNN
-F 2 "" H 11200 3050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11200 3050 50  0001 C CNN
 F 3 "~" H 11200 3050 50  0001 C CNN
 	1    11200 3050
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP17
 U 1 1 70FC1F2F
 P 11400 2550
-F 0 "JP?" V 11354 2618 50  0000 L CNN
+F 0 "JP17" V 11354 2618 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 11445 2618 50  0000 L CNN
-F 2 "" H 11400 2550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 11400 2550 50  0001 C CNN
 F 3 "~" H 11400 2550 50  0001 C CNN
 	1    11400 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP13
 U 1 1 70FC1F39
 P 11300 2800
-F 0 "JP?" V 11254 2868 50  0000 L CNN
+F 0 "JP13" V 11254 2868 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 11345 2868 50  0000 L CNN
-F 2 "" H 11300 2800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11300 2800 50  0001 C CNN
 F 3 "~" H 11300 2800 50  0001 C CNN
 	1    11300 2800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D14
 U 1 1 70FC1F47
 P 9400 7050
-F 0 "D?" H 9200 6900 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 9350 6800 50  0000 C CNN
+F 0 "D14" H 9200 6900 50  0000 C CNN
+F 1 "MV5438" H 9350 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 9400 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 9400 7050 50  0001 C CNN
 	1    9400 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP18
 U 1 1 70FC1577
 P 11400 10750
-F 0 "JP?" V 11354 10818 50  0000 L CNN
+F 0 "JP18" V 11354 10818 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 11445 10818 50  0000 L CNN
-F 2 "" H 11400 10750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11400 10750 50  0001 C CNN
 F 3 "~" H 11400 10750 50  0001 C CNN
 	1    11400 10750
 	0    1    1    0   
@@ -3645,10 +3618,10 @@ YB15
 Text Label 9050 13200 0    50   ~ 0
 YB16
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q17
 U 1 1 782065C9
 P 12650 17150
-F 0 "Q?" V 12650 16800 50  0000 R CNN
+F 0 "Q17" V 12650 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 12300 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 12650 17150 50  0001 C CNN
 F 3 "" H 12650 17150 50  0001 C CNN
@@ -3657,10 +3630,10 @@ F 4 "4404.0096" V 12650 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q19
 U 1 1 7820BD24
 P 14000 17150
-F 0 "Q?" V 14000 16800 50  0000 R CNN
+F 0 "Q19" V 14000 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 13650 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 14000 17150 50  0001 C CNN
 F 3 "" H 14000 17150 50  0001 C CNN
@@ -3669,10 +3642,10 @@ F 4 "4404.0096" V 14000 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q21
 U 1 1 7820C0B1
 P 15350 17150
-F 0 "Q?" V 15350 16800 50  0000 R CNN
+F 0 "Q21" V 15350 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 15000 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 15350 17150 50  0001 C CNN
 F 3 "" H 15350 17150 50  0001 C CNN
@@ -3681,10 +3654,10 @@ F 4 "4404.0096" V 15350 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q23
 U 1 1 7820C5C6
 P 16700 17150
-F 0 "Q?" V 16700 16850 50  0000 R CNN
+F 0 "Q23" V 16700 16850 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 16350 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 16700 17150 50  0001 C CNN
 F 3 "" H 16700 17150 50  0001 C CNN
@@ -3693,10 +3666,10 @@ F 4 "4404.0096" V 16700 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q25
 U 1 1 7820CAF7
 P 18050 17150
-F 0 "Q?" V 18050 16800 50  0000 R CNN
+F 0 "Q25" V 18050 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 17700 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 18050 17150 50  0001 C CNN
 F 3 "" H 18050 17150 50  0001 C CNN
@@ -3705,10 +3678,10 @@ F 4 "4404.0096" V 18050 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q27
 U 1 1 7820CF40
 P 19400 17150
-F 0 "Q?" V 19400 16800 50  0000 R CNN
+F 0 "Q27" V 19400 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 19050 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 19400 17150 50  0001 C CNN
 F 3 "" H 19400 17150 50  0001 C CNN
@@ -3717,10 +3690,10 @@ F 4 "4404.0096" V 19400 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q29
 U 1 1 7820DCC7
 P 20750 17150
-F 0 "Q?" V 20750 16800 50  0000 R CNN
+F 0 "Q29" V 20750 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 20400 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 20750 17150 50  0001 C CNN
 F 3 "" H 20750 17150 50  0001 C CNN
@@ -3729,10 +3702,10 @@ F 4 "4404.0096" V 20750 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q31
 U 1 1 7820E1C2
 P 22100 17150
-F 0 "Q?" V 22100 16800 50  0000 R CNN
+F 0 "Q31" V 22100 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 21750 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 22100 17150 50  0001 C CNN
 F 3 "" H 22100 17150 50  0001 C CNN
@@ -3741,10 +3714,10 @@ F 4 "4404.0096" V 22100 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:TBP01R2W-508-08BE J?
+L BoatControl:TBP01R2W-508-08BE J4
 U 1 1 785139B2
 P 11450 800
-F 0 "J?" V 11389 370 50  0000 R CNN
+F 0 "J4" V 11389 370 50  0000 R CNN
 F 1 "TBP01R2W-508-08BE" V 11700 1250 50  0000 R CNN
 F 2 "CUI_TBP01R2W-508-08BE" H 11450 800 50  0001 L BNN
 F 3 "CUI" H 11450 800 50  0001 L BNN
@@ -3754,10 +3727,10 @@ F 5 "AC" V 11450 800 50  0000 C CNN "Field5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BoatControl:TBP01R2W-508-08BE J?
+L BoatControl:TBP01R2W-508-08BE J6
 U 1 1 785188F5
 P 12450 800
-F 0 "J?" V 12389 370 50  0000 R CNN
+F 0 "J6" V 12389 370 50  0000 R CNN
 F 1 "TBP01R2W-508-08BE" V 12700 1250 50  0000 R CNN
 F 2 "CUI_TBP01R2W-508-08BE" H 12450 800 50  0001 L BNN
 F 3 "CUI" H 12450 800 50  0001 L BNN
@@ -3767,26 +3740,26 @@ F 5 "DC" V 12450 800 50  0000 C CNN "Field5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-02BE J?
+L BoatControl:TBL008V-1000-02BE J1
 U 1 1 7C2D8E61
-P 800 9300
-F 0 "J?" V 646 9172 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" H 1200 9600 50  0000 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 800 9300 50  0001 L BNN
-F 3 "CUI" H 800 9300 50  0001 L BNN
-F 4 "31.3mm" H 800 9300 50  0001 L BNN "Field4"
-F 5 "Manufacturer recommendations" H 800 9300 50  0001 L BNN "Field5"
-F 6 "AC" V 800 9300 50  0000 C CNN "Field6"
-	1    800  9300
+P 800 10500
+F 0 "J1" V 646 10372 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" H 1200 10800 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 800 10500 50  0001 L BNN
+F 3 "CUI" H 800 10500 50  0001 L BNN
+F 4 "31.3mm" H 800 10500 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendations" H 800 10500 50  0001 L BNN "Field5"
+F 6 "AC" V 800 10500 50  0000 C CNN "Field6"
+	1    800  10500
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U20
 U 1 1 7884A087
 P 22250 10600
-F 0 "U?" V 22204 11030 50  0000 L CNN
-F 1 "ULN2803A" V 22750 9850 50  0000 L CNN
-F 2 "" H 22300 9950 50  0001 L CNN
+F 0 "U20" V 22250 10400 50  0000 L CNN
+F 1 "ULN2803A" V 22100 10300 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 22300 9950 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 22350 10400 50  0001 C CNN
 	1    22250 10600
 	-1   0    0    1   
@@ -3808,11 +3781,11 @@ Entry Wire Line
 Entry Wire Line
 	21200 13450 21100 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D31
 U 1 1 830CF4CF
 P 20900 12900
-F 0 "D?" H 20900 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 20900 12650 50  0000 C CNN
+F 0 "D31" H 20900 13150 50  0000 C CNN
+F 1 "MV5438" H 20900 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20900 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20900 12900 50  0001 C CNN
 	1    20900 12900
@@ -3835,21 +3808,21 @@ Entry Wire Line
 Entry Wire Line
 	22800 13450 22700 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D34
 U 1 1 82DE6EE0
 P 22500 12900
-F 0 "D?" H 22500 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 22500 12650 50  0000 C CNN
+F 0 "D34" H 22500 13150 50  0000 C CNN
+F 1 "MV5438" H 22500 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 22500 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 22500 12900 50  0001 C CNN
 	1    22500 12900
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K32
 U 1 1 61F1D9DD
 P 21650 12850
-F 0 "K?" V 21679 13228 50  0000 L CNN
+F 0 "K32" V 21679 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 21450 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 21650 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 22650 13350 50  0001 L BNN
@@ -3873,11 +3846,11 @@ Entry Wire Line
 Entry Wire Line
 	24400 13450 24300 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D35
 U 1 1 81C53E44
 P 24100 12900
-F 0 "D?" H 24100 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 24100 12650 50  0000 C CNN
+F 0 "D35" H 24100 13150 50  0000 C CNN
+F 1 "MV5438" H 24100 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 24100 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 24100 12900 50  0001 C CNN
 	1    24100 12900
@@ -3900,11 +3873,11 @@ Entry Wire Line
 Entry Wire Line
 	26000 13450 25900 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D36
 U 1 1 8196FFD4
 P 25700 12900
-F 0 "D?" H 25700 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 25700 12650 50  0000 C CNN
+F 0 "D36" H 25700 13150 50  0000 C CNN
+F 1 "MV5438" H 25700 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 25700 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 25700 12900 50  0001 C CNN
 	1    25700 12900
@@ -3927,11 +3900,11 @@ Entry Wire Line
 Entry Wire Line
 	27600 13450 27500 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D38
 U 1 1 8167ACA7
 P 27300 12900
-F 0 "D?" H 27300 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 27300 12650 50  0000 C CNN
+F 0 "D38" H 27300 13150 50  0000 C CNN
+F 1 "MV5438" H 27300 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 27300 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 27300 12900 50  0001 C CNN
 	1    27300 12900
@@ -3954,11 +3927,11 @@ Entry Wire Line
 Entry Wire Line
 	29200 13450 29100 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D40
 U 1 1 81389A55
 P 28900 12900
-F 0 "D?" H 28900 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 28900 12650 50  0000 C CNN
+F 0 "D40" H 28900 13150 50  0000 C CNN
+F 1 "MV5438" H 28900 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 28900 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 28900 12900 50  0001 C CNN
 	1    28900 12900
@@ -3981,11 +3954,11 @@ Entry Wire Line
 Entry Wire Line
 	30800 13450 30700 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D41
 U 1 1 8108EF58
 P 30500 12900
-F 0 "D?" H 30500 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 30500 12650 50  0000 C CNN
+F 0 "D41" H 30500 13150 50  0000 C CNN
+F 1 "MV5438" H 30500 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 30500 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 30500 12900 50  0001 C CNN
 	1    30500 12900
@@ -4008,55 +3981,43 @@ Entry Wire Line
 Entry Wire Line
 	32400 13450 32300 13350
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D42
 U 1 1 7D178191
 P 32100 12900
-F 0 "D?" H 32100 13150 50  0000 C CNN
-F 1 "LED_Dual_ACA" H 32100 12650 50  0000 C CNN
+F 0 "D42" H 32100 13150 50  0000 C CNN
+F 1 "MV5438" H 32100 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 32100 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 32100 12900 50  0001 C CNN
 	1    32100 12900
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0101
 U 1 1 70FC158D
-P 22700 7650
-F 0 "#PWR?" H 22700 7500 50  0001 C CNN
-F 1 "+12V" H 22715 7823 50  0000 C CNN
-F 2 "" H 22700 7650 50  0001 C CNN
-F 3 "" H 22700 7650 50  0001 C CNN
-	1    22700 7650
-	1    0    0    1   
+P 22600 7400
+F 0 "#PWR0101" H 22600 7250 50  0001 C CNN
+F 1 "+12V" H 22615 7573 50  0000 C CNN
+F 2 "" H 22600 7400 50  0001 C CNN
+F 3 "" H 22600 7400 50  0001 C CNN
+	1    22600 7400
+	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-02BE J?
-U 1 1 70FC1583
-P 23000 8050
-F 0 "J?" V 22950 7950 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" V 23250 8500 50  0000 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 23000 8050 50  0001 L BNN
-F 3 "CUI" H 23000 8050 50  0001 L BNN
-F 4 "DC" V 23000 8050 50  0000 C CNN "Field4"
-	1    23000 8050
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U22
 U 1 1 7884A091
 P 24400 10600
-F 0 "U?" V 24354 11030 50  0000 L CNN
-F 1 "ULN2803A" V 24445 11030 50  0000 L CNN
-F 2 "" H 24450 9950 50  0001 L CNN
+F 0 "U22" V 24300 10400 50  0000 L CNN
+F 1 "ULN2803A" V 24450 10300 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 24450 9950 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 24500 10400 50  0001 C CNN
 	1    24400 10600
 	0    -1   1    0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U21
 U 1 1 7884A07D
 P 23950 9400
-F 0 "U?" V 23904 10544 50  0000 L CNN
+F 0 "U21" V 23904 10544 50  0000 L CNN
 F 1 "MCP23017_SO" V 23950 9200 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 24150 8400 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 24150 8300 50  0001 L CNN
@@ -4064,10 +4025,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 24150 8300
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K29
 U 1 1 61F1D9E3
 P 20050 12850
-F 0 "K?" V 20079 13228 50  0000 L CNN
+F 0 "K29" V 20079 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 19850 12400 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 20050 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 21050 13350 50  0001 L BNN
@@ -4075,10 +4036,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K35
 U 1 1 61EDA2B1
 P 23250 12850
-F 0 "K?" V 23279 13228 50  0000 L CNN
+F 0 "K35" V 23279 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 23050 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 23250 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 24250 13350 50  0001 L BNN
@@ -4086,10 +4047,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K36
 U 1 1 61EDA2AB
 P 24850 12850
-F 0 "K?" V 24879 13228 50  0000 L CNN
+F 0 "K36" V 24879 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 24650 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 24850 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 25850 13350 50  0001 L BNN
@@ -4097,10 +4058,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K37
 U 1 1 61E96AD3
 P 26450 12850
-F 0 "K?" V 26479 13228 50  0000 L CNN
+F 0 "K37" V 26479 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 26250 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 26450 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 27450 13350 50  0001 L BNN
@@ -4108,10 +4069,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K38
 U 1 1 61E96ACD
 P 28050 12850
-F 0 "K?" V 28079 13228 50  0000 L CNN
+F 0 "K38" V 28079 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 27850 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 28050 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 29050 13350 50  0001 L BNN
@@ -4119,10 +4080,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K39
 U 1 1 61E08D4C
 P 29650 12850
-F 0 "K?" V 29679 13228 50  0000 L CNN
+F 0 "K39" V 29679 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 29450 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 29650 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 30650 13350 50  0001 L BNN
@@ -4130,10 +4091,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K?
+L BoatControl:EW60-1A3-CL12D04 K40
 U 1 1 61DB5D3D
 P 31250 12850
-F 0 "K?" V 31279 13228 50  0000 L CNN
+F 0 "K40" V 31279 13228 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 31050 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 31250 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 32250 13350 50  0001 L BNN
@@ -4141,32 +4102,21 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 8B5E1A7B
-P 23450 7650
-F 0 "#PWR?" H 23450 7400 50  0001 C CNN
-F 1 "GND" H 23455 7477 50  0000 C CNN
-F 2 "" H 23450 7650 50  0001 C CNN
-F 3 "" H 23450 7650 50  0001 C CNN
-	1    23450 7650
-	1    0    0    -1  
+P 23050 7400
+F 0 "#PWR0102" H 23050 7150 50  0001 C CNN
+F 1 "GND" H 23055 7227 50  0000 C CNN
+F 2 "" H 23050 7400 50  0001 C CNN
+F 3 "" H 23050 7400 50  0001 C CNN
+	1    23050 7400
+	1    0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
-U 1 1 8BEF033C
-P 22600 15750
-F 0 "#PWR?" H 22600 15600 50  0001 C CNN
-F 1 "+12V" H 22615 15923 50  0000 C CNN
-F 2 "" H 22600 15750 50  0001 C CNN
-F 3 "" H 22600 15750 50  0001 C CNN
-	1    22600 15750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 8BEFC1CD
 P 23300 15750
-F 0 "#PWR?" H 23300 15500 50  0001 C CNN
+F 0 "#PWR0103" H 23300 15500 50  0001 C CNN
 F 1 "GND" H 23305 15577 50  0000 C CNN
 F 2 "" H 23300 15750 50  0001 C CNN
 F 3 "" H 23300 15750 50  0001 C CNN
@@ -4222,12 +4172,12 @@ Entry Wire Line
 Entry Wire Line
 	19400 12350 19300 12450
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN2
 U 1 1 8E72DC8D
 P 18900 12900
-F 0 "RN?" H 18300 13200 50  0000 L CNN
-F 1 "R_Pack08" V 18350 12750 50  0000 L CNN
-F 2 "" V 19375 12900 50  0001 C CNN
+F 0 "RN2" H 18300 13200 50  0000 L CNN
+F 1 "4116R-1-471" V 18400 12600 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 19375 12900 50  0001 C CNN
 F 3 "~" H 18900 12900 50  0001 C CNN
 	1    18900 12900
 	-1   0    0    1   
@@ -4249,10 +4199,10 @@ Entry Wire Line
 Entry Wire Line
 	19400 13450 19300 13350
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW80
 U 1 1 96E8E161
 P 31350 13750
-F 0 "SW?" H 31450 13850 50  0000 C CNN
+F 0 "SW80" H 31450 13850 50  0000 C CNN
 F 1 " ESB30" H 31350 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 31350 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 31350 13950 50  0001 C CNN
@@ -4262,10 +4212,10 @@ $EndComp
 Text Label 31550 13750 0    50   ~ 0
 YB16
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW78
 U 1 1 98E4055B
 P 29750 13750
-F 0 "SW?" H 29850 13850 50  0000 C CNN
+F 0 "SW78" H 29850 13850 50  0000 C CNN
 F 1 " ESB30" H 29750 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 29750 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 13950 50  0001 C CNN
@@ -4273,10 +4223,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW76
 U 1 1 99168AED
 P 28150 13750
-F 0 "SW?" H 28250 13850 50  0000 C CNN
+F 0 "SW76" H 28250 13850 50  0000 C CNN
 F 1 " ESB30" H 28150 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 28150 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 13950 50  0001 C CNN
@@ -4284,10 +4234,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW74
 U 1 1 99492717
 P 26550 13750
-F 0 "SW?" H 26650 13850 50  0000 C CNN
+F 0 "SW74" H 26650 13850 50  0000 C CNN
 F 1 " ESB30" H 26550 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 26550 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 13950 50  0001 C CNN
@@ -4295,10 +4245,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW72
 U 1 1 997BDA95
 P 24950 13750
-F 0 "SW?" H 25050 13850 50  0000 C CNN
+F 0 "SW72" H 25050 13850 50  0000 C CNN
 F 1 " ESB30" H 24950 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 24950 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 13950 50  0001 C CNN
@@ -4306,10 +4256,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW70
 U 1 1 99AEA523
 P 23350 13750
-F 0 "SW?" H 23450 13850 50  0000 C CNN
+F 0 "SW70" H 23450 13850 50  0000 C CNN
 F 1 " ESB30" H 23350 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 23350 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 13950 50  0001 C CNN
@@ -4317,10 +4267,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW68
 U 1 1 99E18A25
 P 21750 13750
-F 0 "SW?" H 21850 13850 50  0000 C CNN
+F 0 "SW68" H 21850 13850 50  0000 C CNN
 F 1 " ESB30" H 21750 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21750 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 13950 50  0001 C CNN
@@ -4328,10 +4278,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW58
 U 1 1 9A1498D3
 P 20150 13750
-F 0 "SW?" H 20250 13850 50  0000 C CNN
+F 0 "SW58" H 20250 13850 50  0000 C CNN
 F 1 " ESB30" H 20150 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 13950 50  0001 C CNN
@@ -4339,10 +4289,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW77
 U 1 1 9A7B80FB
 P 29750 12200
-F 0 "SW?" H 29850 12300 50  0000 C CNN
+F 0 "SW77" H 29850 12300 50  0000 C CNN
 F 1 " ESB30" H 29750 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 29750 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 12400 50  0001 C CNN
@@ -4350,10 +4300,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW75
 U 1 1 9A7B8108
 P 28150 12200
-F 0 "SW?" H 28250 12300 50  0000 C CNN
+F 0 "SW75" H 28250 12300 50  0000 C CNN
 F 1 " ESB30" H 28150 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 28150 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 12400 50  0001 C CNN
@@ -4361,10 +4311,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW73
 U 1 1 9A7B8115
 P 26550 12200
-F 0 "SW?" H 26650 12300 50  0000 C CNN
+F 0 "SW73" H 26650 12300 50  0000 C CNN
 F 1 " ESB30" H 26550 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 26550 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 12400 50  0001 C CNN
@@ -4372,10 +4322,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW71
 U 1 1 9A7B8122
 P 24950 12200
-F 0 "SW?" H 25050 12300 50  0000 C CNN
+F 0 "SW71" H 25050 12300 50  0000 C CNN
 F 1 " ESB30" H 24950 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 24950 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 12400 50  0001 C CNN
@@ -4383,10 +4333,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW69
 U 1 1 9A7B812F
 P 23350 12200
-F 0 "SW?" H 23450 12300 50  0000 C CNN
+F 0 "SW69" H 23450 12300 50  0000 C CNN
 F 1 " ESB30" H 23350 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 23350 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 12400 50  0001 C CNN
@@ -4394,10 +4344,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW67
 U 1 1 9A7B813C
 P 21750 12200
-F 0 "SW?" H 21850 12300 50  0000 C CNN
+F 0 "SW67" H 21850 12300 50  0000 C CNN
 F 1 " ESB30" H 21750 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21750 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 12400 50  0001 C CNN
@@ -4405,10 +4355,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW79
 U 1 1 9A7B80EE
 P 31350 12200
-F 0 "SW?" H 31450 12300 50  0000 C CNN
+F 0 "SW79" H 31450 12300 50  0000 C CNN
 F 1 " ESB30" H 31350 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 31350 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 31350 12400 50  0001 C CNN
@@ -4416,54 +4366,54 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 31350 
 	1    0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP20
 U 1 1 A57B219C
 P 25150 8600
-F 0 "JP?" H 25200 8550 50  0000 L CNN
+F 0 "JP20" H 25200 8550 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 24200 8650 50  0000 L CNN
-F 2 "" H 25150 8600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 25150 8600 50  0001 C CNN
 F 3 "~" H 25150 8600 50  0001 C CNN
 	1    25150 8600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP19
 U 1 1 A57B21A8
 P 25050 8700
-F 0 "JP?" H 25100 8650 50  0000 L CNN
+F 0 "JP19" H 25100 8650 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" H 24000 8750 50  0000 L CNN
-F 2 "" H 25050 8700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 25050 8700 50  0001 C CNN
 F 3 "~" H 25050 8700 50  0001 C CNN
 	1    25050 8700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP8
 U 1 1 A624AD8F
 P 11150 20350
-F 0 "JP?" V 11104 20418 50  0000 L CNN
+F 0 "JP8" V 11104 20418 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 11195 20418 50  0000 L CNN
-F 2 "" H 11150 20350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 11150 20350 50  0001 C CNN
 F 3 "~" H 11150 20350 50  0001 C CNN
 	1    11150 20350
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP21
 U 1 1 A624FC92
 P 25300 8500
-F 0 "JP?" H 25350 8450 50  0000 L CNN
+F 0 "JP21" H 25350 8450 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" H 24250 8550 50  0000 L CNN
-F 2 "" H 25300 8500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 25300 8500 50  0001 C CNN
 F 3 "~" H 25300 8500 50  0001 C CNN
 	1    25300 8500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW57
 U 1 1 A7E0A0FA
 P 20150 12200
-F 0 "SW?" H 20250 12300 50  0000 C CNN
+F 0 "SW57" H 20250 12300 50  0000 C CNN
 F 1 " ESB30" H 20150 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 12400 50  0001 C CNN
@@ -4649,10 +4599,10 @@ ZA7
 Text Label 31650 11800 0    50   ~ 0
 ZA8
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U3
 U 1 1 781075BB
 P 3700 9200
-F 0 "U?" V 3500 10150 50  0000 L CNN
+F 0 "U3" V 3500 10150 50  0000 L CNN
 F 1 "MCP23017_SO" V 3700 8950 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 3900 8200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3900 8100 50  0001 L CNN
@@ -4660,34 +4610,34 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3900 8100 
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U4
 U 1 1 78107595
 P 4200 10350
-F 0 "U?" V 4050 9600 50  0000 L CNN
+F 0 "U4" V 4050 9600 50  0000 L CNN
 F 1 "ULN2803A" V 4250 10100 50  0000 L CNN
-F 2 "" H 4250 9700 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 4250 9700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4300 10150 50  0001 C CNN
 	1    4200 10350
 	0    -1   1    0   
 $EndComp
 $Comp
-L RPi_Hat-rescue:RPi_GPIO J?
+L RPi_Hat-rescue:RPi_GPIO J7
 U 1 1 B9E969F9
-P 14300 10500
-F 0 "J?" H 15050 10787 60  0000 C CNN
-F 1 "RPi_GPIO" H 15050 10681 60  0000 C CNN
-F 2 "" H 14300 10500 60  0000 C CNN
-F 3 "" H 14300 10500 60  0000 C CNN
-	1    14300 10500
+P 13900 10550
+F 0 "J7" H 14650 10943 60  0000 C CNN
+F 1 "RPi_GPIO" H 14650 10837 60  0000 C CNN
+F 2 "BoatControl:Samtec_HLE-120-02-XXX-DV-BE-XX-XX" H 14650 10731 60  0000 C CNN
+F 3 "" H 13900 10550 60  0000 C CNN
+	1    13900 10550
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SS73100-047F J?
+L BoatControl:SS73100-047F J2
 U 1 1 A8523A49
 P 5100 12650
-F 0 "J?" V 5771 15827 50  0000 L CNN
+F 0 "J2" V 5771 15827 50  0000 L CNN
 F 1 "SS73100-047F" V 5680 15827 50  0000 L CNN
-F 2 "STEWART_SS73100-047F" H 5250 12350 50  0001 L BNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 5250 12350 50  0001 L BNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 12200 50  0001 L BNN
 F 4 "Stewart Connector" H 5300 12000 50  0001 L BNN "Field6"
 F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 12650 50  0001 C CNN "Dimensions"
@@ -4695,21 +4645,21 @@ F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U2
 U 1 1 781075B1
 P 3200 10350
-F 0 "U?" V 3050 9600 50  0000 L CNN
+F 0 "U2" V 3050 9600 50  0000 L CNN
 F 1 "ULN2803A" V 3250 10050 50  0000 L CNN
-F 2 "" H 3250 9700 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 3250 9700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 3300 10150 50  0001 C CNN
 	1    3200 10350
 	0    1    1    0   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SO U6
 U 1 1 CC7AB884
 P 7300 9200
-F 0 "U?" V 7100 10150 50  0000 L CNN
+F 0 "U6" V 7100 10150 50  0000 L CNN
 F 1 "MCP23017_SO" V 7350 8950 50  0000 L CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 7500 8200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7500 8100 50  0001 L CNN
@@ -4717,98 +4667,98 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7500 8100 
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U7
 U 1 1 CC7AB88E
 P 7800 10350
-F 0 "U?" V 7650 9600 50  0000 L CNN
+F 0 "U7" V 7650 9600 50  0000 L CNN
 F 1 "ULN2803A" V 7850 10100 50  0000 L CNN
-F 2 "" H 7850 9700 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 7850 9700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 7900 10150 50  0001 C CNN
 	1    7800 10350
 	0    -1   1    0   
 $EndComp
 $Comp
-L Transistor_Array:ULN2803A U?
+L Transistor_Array:ULN2803A U5
 U 1 1 CC7AB89B
 P 6800 10350
-F 0 "U?" V 6650 9650 50  0000 L CNN
+F 0 "U5" V 6650 9650 50  0000 L CNN
 F 1 "ULN2803A" V 6850 10050 50  0000 L CNN
-F 2 "" H 6850 9700 50  0001 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 6850 9700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6900 10150 50  0001 C CNN
 	1    6800 10350
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 CDE73120
 P 1650 9050
-F 0 "JP?" V 1604 9118 50  0000 L CNN
+F 0 "JP2" V 1604 9118 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 1695 9118 50  0000 L CNN
-F 2 "" H 1650 9050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1650 9050 50  0001 C CNN
 F 3 "~" H 1650 9050 50  0001 C CNN
 	1    1650 9050
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 CDE73114
 P 1750 8800
-F 0 "JP?" V 1704 8868 50  0000 L CNN
+F 0 "JP3" V 1704 8868 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 1795 8868 50  0000 L CNN
-F 2 "" H 1750 8800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1750 8800 50  0001 C CNN
 F 3 "~" H 1750 8800 50  0001 C CNN
 	1    1750 8800
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP4
 U 1 1 CF544B1A
 P 5500 8450
-F 0 "JP?" H 5450 8550 50  0000 L CNN
+F 0 "JP4" H 5450 8550 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" H 4600 8350 50  0000 L CNN
-F 2 "" H 5500 8450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5500 8450 50  0001 C CNN
 F 3 "~" H 5500 8450 50  0001 C CNN
 	1    5500 8450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP1
 U 1 1 D15C0144
 P 1550 9300
-F 0 "JP?" V 1504 9368 50  0000 L CNN
+F 0 "JP1" V 1504 9368 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" V 1595 9368 50  0000 L CNN
-F 2 "" H 1550 9300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 1550 9300 50  0001 C CNN
 F 3 "~" H 1550 9300 50  0001 C CNN
 	1    1550 9300
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP5
 U 1 1 D15C631A
 P 5750 8550
-F 0 "JP?" H 5700 8650 50  0000 L CNN
+F 0 "JP5" H 5700 8650 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" H 4850 8450 50  0000 L CNN
-F 2 "" H 5750 8550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5750 8550 50  0001 C CNN
 F 3 "~" H 5750 8550 50  0001 C CNN
 	1    5750 8550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP6
 U 1 1 D15CC40C
 P 6000 8650
-F 0 "JP?" H 5950 8750 50  0000 L CNN
+F 0 "JP6" H 5950 8750 50  0000 L CNN
 F 1 "SolderJumper_2_Bridged" H 5100 8550 50  0000 L CNN
-F 2 "" H 6000 8650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6000 8650 50  0001 C CNN
 F 3 "~" H 6000 8650 50  0001 C CNN
 	1    6000 8650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-08BE J?
+L BoatControl:TBL008V-1000-08BE J10
 U 1 1 D1F1C827
 P 26400 16050
-F 0 "J?" V 26246 15622 50  0000 R CNN
+F 0 "J10" V 26246 15622 50  0000 R CNN
 F 1 "TBL008V-1000-08BE" V 26500 16500 50  0000 R CNN
 F 2 "CUI_TBL008V-1000-08BE" H 26400 16050 50  0001 L BNN
 F 3 "CUI" H 26400 16050 50  0001 L BNN
@@ -5334,8 +5284,6 @@ Wire Wire Line
 Wire Wire Line
 	12800 17800 20350 17800
 Wire Wire Line
-	12900 17850 21700 17850
-Wire Wire Line
 	1050 17850 1050 17650
 Wire Wire Line
 	2400 17800 2400 17600
@@ -5366,9 +5314,6 @@ Wire Wire Line
 Wire Wire Line
 	21700 17600 21700 17800
 Connection ~ 21700 17600
-Wire Wire Line
-	21700 17800 21700 17850
-Connection ~ 21700 17800
 Wire Wire Line
 	20350 17800 20350 17750
 Wire Wire Line
@@ -5450,21 +5395,8 @@ Wire Wire Line
 Wire Wire Line
 	10900 16650 11250 16650
 Wire Wire Line
-	1550 15850 1450 15850
-Wire Wire Line
-	850  15850 850  18250
-Wire Wire Line
-	850  18250 10800 18250
-Connection ~ 1550 15850
-Wire Wire Line
-	21800 15850 23400 15850
-Wire Wire Line
-	23400 15850 23400 18250
-Wire Wire Line
-	23400 18250 13100 18250
+	21800 15850 23300 15850
 Connection ~ 21800 15850
-Wire Wire Line
-	11950 18700 10500 18700
 Wire Wire Line
 	10500 18700 10500 17500
 Connection ~ 10500 17500
@@ -5576,9 +5508,6 @@ Wire Wire Line
 Wire Wire Line
 	11950 15150 11950 14300
 Wire Wire Line
-	11950 14300 10950 14300
-Connection ~ 11950 14300
-Wire Wire Line
 	11950 15150 11850 15150
 Wire Wire Line
 	11950 15150 12100 15150
@@ -5658,8 +5587,6 @@ Connection ~ 14950 15750
 Connection ~ 14950 15550
 Wire Wire Line
 	20350 15200 20350 15350
-Wire Wire Line
-	11000 15150 1450 15150
 Wire Wire Line
 	11100 15150 11100 15200
 Wire Wire Line
@@ -5783,14 +5710,9 @@ Wire Wire Line
 Connection ~ 8200 15500
 Connection ~ 8200 15700
 Wire Wire Line
-	4150 15350 4150 15250
-Wire Wire Line
 	2800 15500 2800 16050
 Wire Wire Line
-	1450 15350 1450 15850
-Wire Wire Line
 	1450 15350 1450 15150
-Connection ~ 1450 15350
 Connection ~ 1450 15150
 Wire Wire Line
 	2800 15500 2800 15300
@@ -5799,7 +5721,6 @@ Connection ~ 2800 15300
 Wire Wire Line
 	4150 15550 4150 15350
 Connection ~ 4150 15550
-Connection ~ 4150 15350
 Wire Wire Line
 	1050 15150 1050 15350
 Wire Wire Line
@@ -5831,20 +5752,11 @@ Wire Wire Line
 Wire Wire Line
 	12850 17400 13150 17900
 Wire Wire Line
-	21300 18700 23550 18700
-Wire Wire Line
-	23550 18700 23550 14950
-Wire Wire Line
-	23550 14950 22200 14950
-Wire Wire Line
 	21300 14950 21300 15300
 Connection ~ 21300 18700
 Connection ~ 21300 15300
 Wire Wire Line
-	21300 14950 20600 14950
-Wire Wire Line
 	19950 14950 19950 15350
-Connection ~ 21300 14950
 Connection ~ 19950 15350
 Wire Wire Line
 	19950 14950 18600 14950
@@ -5858,8 +5770,6 @@ Wire Wire Line
 	17250 14950 17250 15450
 Connection ~ 18600 14950
 Connection ~ 17250 15450
-Wire Wire Line
-	17250 14950 16400 14950
 Wire Wire Line
 	15900 14950 15900 15500
 Connection ~ 17250 14950
@@ -5875,48 +5785,13 @@ Wire Wire Line
 Connection ~ 14550 14950
 Wire Wire Line
 	1050 18700 650  18700
-Wire Wire Line
-	650  14950 1050 14950
-Wire Wire Line
-	10500 14950 10500 15600
 Connection ~ 1050 18700
 Connection ~ 10500 15600
-Wire Wire Line
-	9150 15550 9150 14950
-Connection ~ 9150 15550
-Connection ~ 9150 14950
-Wire Wire Line
-	9150 14950 9300 14950
-Wire Wire Line
-	7800 15500 7800 14950
-Connection ~ 7800 15500
 Connection ~ 7800 14950
 Wire Wire Line
 	7800 14950 8000 14950
-Wire Wire Line
-	6450 15450 6450 14950
-Connection ~ 6450 15450
-Connection ~ 6450 14950
-Wire Wire Line
-	6450 14950 6500 14950
-Wire Wire Line
-	5100 15400 5100 14950
-Connection ~ 5100 15400
 Connection ~ 5100 14950
-Wire Wire Line
-	3750 15350 3750 14950
-Connection ~ 3750 15350
-Connection ~ 3750 14950
-Wire Wire Line
-	3750 14950 3800 14950
-Wire Wire Line
-	2400 15300 2400 14950
-Connection ~ 2400 15300
 Connection ~ 2400 14950
-Wire Wire Line
-	1050 15150 1050 14950
-Connection ~ 1050 15150
-Connection ~ 1050 14950
 Wire Wire Line
 	13800 15850 13800 14750
 Wire Wire Line
@@ -5932,10 +5807,7 @@ Connection ~ 10350 15850
 Wire Wire Line
 	10350 15850 11000 15850
 Wire Wire Line
-	13200 14300 13200 14950
-Wire Wire Line
 	11950 14300 13200 14300
-Connection ~ 13200 14950
 Wire Wire Line
 	11850 15600 11850 15150
 Connection ~ 11850 15600
@@ -6081,7 +5953,7 @@ Wire Wire Line
 Wire Wire Line
 	25350 15350 25350 15400
 Wire Wire Line
-	650  18700 650  14950
+	650  18700 650  15050
 Wire Wire Line
 	950  16050 1050 16050
 Wire Bus Line
@@ -6235,14 +6107,9 @@ Wire Wire Line
 	8900 14700 8900 14950
 Connection ~ 8900 14950
 Wire Wire Line
-	8900 14950 9150 14950
-Wire Wire Line
 	9300 14950 9300 13000
 Wire Wire Line
 	2000 13000 2000 13250
-Connection ~ 9300 14950
-Wire Wire Line
-	9300 14950 10500 14950
 Wire Wire Line
 	2200 13250 2200 13000
 Wire Wire Line
@@ -6615,11 +6482,6 @@ Wire Wire Line
 	11050 21650 2050 21650
 Wire Wire Line
 	2050 17400 2050 21650
-Connection ~ 1450 15850
-Wire Wire Line
-	1450 15850 850  15850
-Wire Wire Line
-	1450 15850 1450 16050
 Wire Wire Line
 	11350 12850 11350 12800
 Wire Wire Line
@@ -6638,8 +6500,6 @@ Wire Wire Line
 	2050 16050 2050 16000
 Wire Wire Line
 	2050 16000 3400 16000
-Wire Wire Line
-	22950 16000 22950 15750
 Connection ~ 2050 16050
 Wire Wire Line
 	2050 16050 2100 16050
@@ -6839,8 +6699,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 7050 1600 7550
 Wire Wire Line
-	1600 7550 2950 7550
-Wire Wire Line
 	21850 7550 21850 7050
 Wire Wire Line
 	21900 7050 21850 7050
@@ -6918,8 +6776,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 7550 8350 7050
 Connection ~ 8350 7550
-Wire Wire Line
-	8350 7550 9700 7550
 Connection ~ 8350 7050
 Wire Wire Line
 	7050 7050 7000 7050
@@ -6934,8 +6790,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 7550 5650 7050
 Connection ~ 5650 7550
-Wire Wire Line
-	5650 7550 7000 7550
 Connection ~ 5650 7050
 Wire Wire Line
 	4350 7050 4300 7050
@@ -6943,7 +6797,7 @@ Wire Wire Line
 	4300 7550 4300 7050
 Connection ~ 4300 7550
 Wire Wire Line
-	4300 7550 5650 7550
+	4300 7550 5100 7550
 Connection ~ 4300 7050
 Wire Wire Line
 	3000 7050 2950 7050
@@ -7373,15 +7227,9 @@ Wire Wire Line
 	10950 6750 10950 6100
 Wire Wire Line
 	10950 6750 11300 6750
-Wire Wire Line
-	1600 7550 1500 7550
-Wire Wire Line
-	900  7550 900  5150
-Wire Wire Line
-	900  5150 10850 5150
 Connection ~ 1600 7550
 Wire Wire Line
-	21850 7550 23450 7550
+	21850 7550 22250 7550
 Wire Wire Line
 	23450 7550 23450 5150
 Wire Wire Line
@@ -7707,10 +7555,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 7900 2850 7350
 Wire Wire Line
-	1500 8050 1500 7550
-Wire Wire Line
 	1500 8050 1500 8250
-Connection ~ 1500 8050
 Connection ~ 1500 8250
 Wire Wire Line
 	2850 7900 2850 8100
@@ -7754,8 +7599,6 @@ Wire Wire Line
 	21350 4700 23600 4700
 Wire Wire Line
 	23600 4700 23600 8450
-Wire Wire Line
-	23600 8450 21650 8450
 Wire Wire Line
 	21350 8450 21350 8100
 Connection ~ 21350 4700
@@ -7828,9 +7671,7 @@ Wire Wire Line
 Connection ~ 1100 8250
 Connection ~ 1100 8300
 Wire Wire Line
-	13850 7550 13850 8650
-Wire Wire Line
-	13850 8650 13150 8650
+	13850 7550 13850 8500
 Connection ~ 13850 7550
 Wire Wire Line
 	13850 7550 15100 7550
@@ -8172,11 +8013,6 @@ Wire Wire Line
 	3450 6000 3450 1800
 Wire Wire Line
 	2100 6000 2100 1750
-Connection ~ 1500 7550
-Wire Wire Line
-	1500 7550 900  7550
-Wire Wire Line
-	1500 7550 1500 7350
 Wire Wire Line
 	11400 10550 11400 10600
 Wire Wire Line
@@ -8195,8 +8031,6 @@ Wire Wire Line
 	2100 7350 2100 7400
 Wire Wire Line
 	2100 7400 3450 7400
-Wire Wire Line
-	23000 7400 23000 7650
 Connection ~ 2100 7350
 Wire Wire Line
 	2100 7350 2150 7350
@@ -8207,7 +8041,7 @@ Wire Wire Line
 	22350 7350 22400 7350
 Connection ~ 22350 7400
 Wire Wire Line
-	22350 7400 23000 7400
+	22350 7400 22600 7400
 Wire Wire Line
 	21000 7350 21000 7400
 Connection ~ 21000 7350
@@ -8391,8 +8225,6 @@ Wire Wire Line
 Connection ~ 10200 7400
 Wire Wire Line
 	2100 7400 800  7400
-Wire Wire Line
-	800  7400 800  8900
 Connection ~ 2100 7400
 Wire Wire Line
 	11300 1000 11250 1000
@@ -8649,7 +8481,6 @@ Wire Wire Line
 	29200 13200 29200 13000
 Wire Wire Line
 	29200 12600 29200 12800
-Connection ~ 28600 12900
 Wire Wire Line
 	28550 12900 28600 12900
 Wire Wire Line
@@ -8670,7 +8501,6 @@ Wire Wire Line
 	30800 13200 30800 13000
 Wire Wire Line
 	30800 12600 30800 12800
-Connection ~ 30200 12900
 Wire Wire Line
 	30150 12900 30200 12900
 Wire Wire Line
@@ -8707,7 +8537,6 @@ Wire Wire Line
 	32400 13200 32400 13000
 Wire Wire Line
 	32400 12600 32400 12800
-Connection ~ 31800 12900
 Wire Wire Line
 	31750 12900 31800 12900
 Wire Wire Line
@@ -8735,22 +8564,14 @@ Wire Wire Line
 Wire Wire Line
 	24050 10100 24200 10200
 Wire Wire Line
-	23450 7650 23100 7650
-Wire Wire Line
-	22700 7650 23000 7650
-Connection ~ 23000 7650
-Wire Wire Line
 	23300 15750 23050 15750
 Wire Wire Line
 	22600 15750 22950 15750
-Connection ~ 22950 15750
 Wire Wire Line
 	10550 8300 10550 9100
 Wire Wire Line
 	10550 9100 12000 9100
 Connection ~ 10550 8300
-Wire Wire Line
-	23450 5150 24350 5150
 Connection ~ 23450 5150
 Wire Wire Line
 	19300 13100 19300 13350
@@ -8792,35 +8613,12 @@ Wire Wire Line
 Connection ~ 31550 13250
 Wire Wire Line
 	31550 13250 31550 13000
-Connection ~ 23550 14950
 Wire Wire Line
-	30200 12900 30200 14950
-Connection ~ 30200 14950
+	27000 12900 27000 14850
 Wire Wire Line
-	28600 12900 28600 14950
-Connection ~ 28600 14950
+	25400 12900 25400 14850
 Wire Wire Line
-	28600 14950 30200 14950
-Wire Wire Line
-	27000 12900 27000 14950
-Connection ~ 27000 14950
-Wire Wire Line
-	27000 14950 28600 14950
-Wire Wire Line
-	25400 12900 25400 14950
-Connection ~ 25400 14950
-Wire Wire Line
-	25400 14950 27000 14950
-Wire Wire Line
-	22200 12900 22200 14950
-Connection ~ 22200 14950
-Wire Wire Line
-	22200 14950 21300 14950
-Wire Wire Line
-	20600 12900 20600 14950
-Connection ~ 20600 14950
-Wire Wire Line
-	20600 14950 19950 14950
+	22200 12900 22200 14850
 Wire Wire Line
 	31150 13750 31150 13900
 Connection ~ 31150 13750
@@ -8900,13 +8698,8 @@ Wire Wire Line
 	29950 12000 29950 12200
 Connection ~ 29950 12200
 Wire Wire Line
-	23800 12900 23800 14950
+	23800 12900 23800 14850
 Connection ~ 23800 12900
-Connection ~ 23800 14950
-Wire Wire Line
-	23800 14950 25400 14950
-Wire Wire Line
-	23550 14950 23800 14950
 Wire Wire Line
 	25150 11200 24500 11200
 Wire Wire Line
@@ -8932,12 +8725,7 @@ Wire Wire Line
 Wire Wire Line
 	24400 11200 23550 11200
 Wire Wire Line
-	32550 13900 32550 11900
-Wire Wire Line
-	32550 11900 31150 11900
-Wire Wire Line
 	21550 11900 21550 12000
-Connection ~ 31150 13900
 Connection ~ 21550 12000
 Wire Wire Line
 	23150 12000 23150 11900
@@ -8970,19 +8758,8 @@ Wire Wire Line
 Wire Wire Line
 	31150 12000 31150 11900
 Connection ~ 31150 12000
-Connection ~ 31150 11900
 Wire Wire Line
 	31150 11900 29550 11900
-Wire Wire Line
-	23400 15850 23400 13900
-Connection ~ 23400 15850
-Connection ~ 23400 13900
-Wire Wire Line
-	23400 13900 24750 13900
-Wire Wire Line
-	31800 12900 31800 14950
-Wire Wire Line
-	30200 14950 31800 14950
 Connection ~ 29550 13900
 Connection ~ 27950 13900
 Wire Wire Line
@@ -8994,8 +8771,6 @@ Connection ~ 24750 13900
 Wire Wire Line
 	24750 13900 26350 13900
 Connection ~ 23150 13900
-Wire Wire Line
-	23150 13900 23400 13900
 Connection ~ 21550 13900
 Wire Wire Line
 	21550 13900 23150 13900
@@ -9047,33 +8822,21 @@ Wire Wire Line
 	29950 13550 29950 13350
 Wire Wire Line
 	17300 14400 20350 14400
-Wire Wire Line
-	20350 14400 20350 13750
 Connection ~ 20350 13750
 Wire Wire Line
 	17200 14450 21950 14450
-Wire Wire Line
-	21950 14450 21950 13750
 Connection ~ 21950 13750
 Wire Wire Line
 	17100 14500 23550 14500
-Wire Wire Line
-	23550 14500 23550 13750
 Connection ~ 23550 13750
 Wire Wire Line
 	17000 14550 25150 14550
-Wire Wire Line
-	25150 14550 25150 13750
 Connection ~ 25150 13750
 Wire Wire Line
 	16900 14600 26750 14600
-Wire Wire Line
-	26750 14600 26750 13750
 Connection ~ 26750 13750
 Wire Wire Line
 	16800 14650 28350 14650
-Wire Wire Line
-	28350 14650 28350 13750
 Connection ~ 28350 13750
 Wire Wire Line
 	16700 14700 29950 14700
@@ -9081,12 +8844,6 @@ Connection ~ 29950 13750
 Wire Wire Line
 	16600 14750 31550 14750
 Connection ~ 31550 13750
-Connection ~ 16400 14950
-Wire Wire Line
-	16400 14950 15900 14950
-Wire Wire Line
-	32600 14950 31800 14950
-Connection ~ 31800 14950
 Wire Wire Line
 	2900 9900 2700 9950
 Wire Wire Line
@@ -9267,17 +9024,9 @@ Wire Wire Line
 	1700 13000 1800 13000
 Wire Bus Line
 	16200 12900 16200 11800
-Wire Bus Line
-	16200 11800 32550 11800
 Connection ~ 16200 12900
 Wire Wire Line
-	29950 14700 29950 13750
-Wire Wire Line
 	29550 13900 31150 13900
-Wire Wire Line
-	31550 14750 31550 13750
-Wire Wire Line
-	31150 13900 32550 13900
 Wire Bus Line
 	16200 12900 16200 14100
 Wire Wire Line
@@ -9310,10 +9059,6 @@ Wire Wire Line
 	16700 10200 16700 14700
 Wire Wire Line
 	16600 10100 21850 10100
-Wire Wire Line
-	16400 9900 16400 14950
-Wire Wire Line
-	16400 9900 22250 9900
 Wire Wire Line
 	24100 11000 24100 11050
 Connection ~ 1800 13000
@@ -9502,15 +9247,12 @@ Connection ~ 6900 13000
 Connection ~ 7100 13000
 Wire Wire Line
 	1800 13000 2000 13000
-Connection ~ 2000 14950
 Connection ~ 2200 14950
 Connection ~ 2600 14950
 Connection ~ 2900 14950
 Connection ~ 3100 14950
 Connection ~ 3300 14950
 Connection ~ 3500 14950
-Wire Wire Line
-	3500 14950 3750 14950
 Connection ~ 3800 14950
 Connection ~ 4000 14950
 Connection ~ 4200 14950
@@ -9522,8 +9264,6 @@ Connection ~ 5600 14950
 Connection ~ 5800 14950
 Connection ~ 6000 14950
 Connection ~ 6200 14950
-Wire Wire Line
-	6200 14950 6450 14950
 Connection ~ 6500 14950
 Connection ~ 6700 14950
 Connection ~ 6900 14950
@@ -9534,8 +9274,6 @@ Wire Wire Line
 	5100 14950 5300 14950
 Wire Wire Line
 	2400 14950 2600 14950
-Wire Wire Line
-	1050 14950 2000 14950
 Wire Wire Line
 	2000 14950 2200 14950
 Wire Wire Line
@@ -9856,9 +9594,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 9100 10550 9100
 Connection ~ 8650 9100
-Connection ~ 13250 9100
-Wire Wire Line
-	13250 9100 14150 9100
 Wire Wire Line
 	11050 7550 10400 7550
 Wire Wire Line
@@ -9919,9 +9654,7 @@ Wire Wire Line
 Wire Wire Line
 	16600 10100 16600 14750
 Wire Wire Line
-	25100 10600 32600 10600
-Wire Wire Line
-	32600 10600 32600 14950
+	25100 10600 27650 10600
 Wire Wire Line
 	24900 11000 31550 11000
 Wire Wire Line
@@ -10191,12 +9924,12 @@ D2B2
 Text Label 18550 12350 1    50   ~ 0
 D1B2
 $Comp
-L Device:R_Pack08 RN?
+L Device:R_Pack08 RN1
 U 1 1 8E72DCC6
 P 18050 12900
-F 0 "RN?" H 18500 12650 50  0000 L CNN
-F 1 "R_Pack08" V 18500 12750 50  0000 L CNN
-F 2 "" V 18525 12900 50  0001 C CNN
+F 0 "RN1" H 18500 12550 50  0000 L CNN
+F 1 "4116R-1-471" V 18500 12650 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 18525 12900 50  0001 C CNN
 F 3 "~" H 18050 12900 50  0001 C CNN
 	1    18050 12900
 	-1   0    0    1   
@@ -10216,10 +9949,10 @@ Wire Wire Line
 Wire Bus Line
 	17650 13450 17650 12350
 $Comp
-L Switch:SW_Push_Dual SW?
+L Switch:SW_Push_Dual SW1
 U 1 1 7E9D3C0B
 P 1250 15150
-F 0 "SW?" H 1550 15000 50  0000 C CNN
+F 0 "SW1" H 1550 15000 50  0000 C CNN
 F 1 " ESB30" H 900 15100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1250 15350 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 15350 50  0001 C CNN
@@ -10227,10 +9960,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K?
+L BoatControl:G5RL-K1A-E-DC12 K22
 U 1 1 70FC16C4
 P 15450 7050
-F 0 "K?" H 15500 7050 50  0000 L CNN
+F 0 "K22" H 15500 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 15650 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 15850 7200 50  0001 L BNN
 F 3 "Omron" H 15850 7300 50  0001 L BNN
@@ -10292,7 +10025,7 @@ Connection ~ 5600 9350
 Wire Wire Line
 	13100 9850 13100 11400
 Wire Wire Line
-	13100 11400 11400 11400
+	13100 11400 12050 11400
 Connection ~ 11300 11400
 Wire Wire Line
 	11400 10900 11400 11400
@@ -10302,7 +10035,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 13550 13050 12000
 Wire Wire Line
-	13050 12000 11350 12000
+	13050 12000 12050 12000
 Wire Wire Line
 	11250 12250 11250 12000
 Connection ~ 11250 12000
@@ -10340,318 +10073,855 @@ Wire Wire Line
 	11200 2400 11300 2400
 Connection ~ 11300 2400
 $Comp
-L BoatControl:LM2679T-5.0 U?
+L BoatControl:LM2679T-5.0 U23
 U 1 1 EE27C3B8
-P 28450 4250
-F 0 "U?" H 28500 4300 50  0000 C CNN
-F 1 "LM2679T-5.0" H 28450 4100 50  0000 C CNN
-F 2 "TO127P457X1016X2052-7P" H 27950 4350 50  0001 L BNN
-F 3 "LM2679T-5.0/NOPB" H 28150 4150 50  0001 L BNN
-F 4 "-" H 28450 4250 50  0001 L BNN "Field4"
-F 5 "41K4228" H 28300 3950 50  0001 L BNN "Field5"
-F 6 "TO220-7" H 28300 4050 50  0001 L BNN "Field6"
-F 7 "National Semiconductor" H 28050 4250 50  0001 L BNN "Field7"
-	1    28450 4250
+P 28200 3500
+F 0 "U23" H 28250 3550 50  0000 C CNN
+F 1 "LM2679T-5.0" H 28200 3350 50  0000 C CNN
+F 2 "TO127P457X1016X2052-7P" H 27700 3600 50  0001 L BNN
+F 3 "LM2679T-5.0/NOPB" H 27900 3400 50  0001 L BNN
+F 4 "-" H 28200 3500 50  0001 L BNN "Field4"
+F 5 "41K4228" H 28050 3200 50  0001 L BNN "Field5"
+F 6 "TO220-7" H 28050 3300 50  0001 L BNN "Field6"
+F 7 "National Semiconductor" H 27800 3500 50  0001 L BNN "Field7"
+	1    28200 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:1140-220K-RC L2
+U 1 1 EE2935FC
+P 28200 5250
+F 0 "L2" V 28150 5300 50  0000 R CNN
+F 1 "1140-220K-RC" V 28300 5500 50  0000 R CNN
+F 2 "INDRD2921W163D3810H2616P" H 28200 5250 50  0001 L BNN
+F 3 "Bourns" H 28300 5350 50  0001 L BNN
+	1    28200 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:1140-220K-RC L?
-U 1 1 EE2935FC
-P 30200 4250
-F 0 "L?" V 30350 4250 50  0000 R CNN
-F 1 "1140-220K-RC" V 30100 4550 50  0000 R CNN
-F 2 "" H 30200 4250 50  0001 L BNN
-F 3 "Bourns" H 30300 4350 50  0001 L BNN
-	1    30200 4250
+L power:+5V #PWR0104
+U 1 1 F43573A4
+P 28200 6150
+F 0 "#PWR0104" H 28200 6000 50  0001 C CNN
+F 1 "+5V" H 28215 6323 50  0000 C CNN
+F 2 "" H 28200 6150 50  0001 C CNN
+F 3 "" H 28200 6150 50  0001 C CNN
+	1    28200 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 F534C05E
+P 28650 1150
+F 0 "#PWR0105" H 28650 1000 50  0001 C CNN
+F 1 "+12V" H 28665 1323 50  0000 C CNN
+F 2 "" H 28650 1150 50  0001 C CNN
+F 3 "" H 28650 1150 50  0001 C CNN
+	1    28650 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D39
+U 1 1 F48B948D
+P 27800 4950
+F 0 "D39" V 27700 4900 50  0000 C CNN
+F 1 "MBR745" V 28050 4950 50  0000 C CNN
+F 2 "BoatControl:TO-220" H 27800 4950 50  0001 C CNN
+F 3 "~" H 27800 4950 50  0001 C CNN
+	1    27800 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D37
+U 1 1 FF7A1D30
+P 26700 4950
+F 0 "D37" V 26600 4900 50  0000 C CNN
+F 1 "MBR745" V 26950 4950 50  0000 C CNN
+F 2 "BoatControl:TO-220" H 26700 4950 50  0001 C CNN
+F 3 "~" H 26700 4950 50  0001 C CNN
+	1    26700 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C8
+U 1 1 FF7CD4D1
+P 28150 2100
+F 0 "C8" V 27921 2100 50  0000 C CNN
+F 1 "Illinois Capacitor " V 28012 2100 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 28150 2100 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 28150 2100 50  0001 C CNN
+F 4 "227AVG050MGBJ" V 28300 2100 50  0000 C CNN "Field4"
+F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 28150 2100 50  0001 C CNN "Field5"
+	1    28150 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	28250 2100 28650 2100
+Connection ~ 28650 2100
+Wire Wire Line
+	28650 2100 28650 2600
+Wire Wire Line
+	28050 2100 27650 2100
+Connection ~ 27650 2100
+Wire Wire Line
+	27650 2100 27650 1550
+$Comp
+L power:GND #PWR0106
+U 1 1 602AEA4D
+P 26550 1150
+F 0 "#PWR0106" H 26550 900 50  0001 C CNN
+F 1 "GND" H 26555 977 50  0000 C CNN
+F 2 "" H 26550 1150 50  0001 C CNN
+F 3 "" H 26550 1150 50  0001 C CNN
+	1    26550 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26800 2650 26550 2650
+Connection ~ 26550 2650
+Wire Wire Line
+	27100 2650 27550 2650
+Wire Wire Line
+	27900 2600 27650 2600
+Connection ~ 27650 2600
+Wire Wire Line
+	27650 2600 27650 2100
+Wire Wire Line
+	28200 2600 28650 2600
+$Comp
+L power:+12V #PWR0107
+U 1 1 63112B0F
+P 27100 6150
+F 0 "#PWR0107" H 27100 6000 50  0001 C CNN
+F 1 "+12V" H 27115 6323 50  0000 C CNN
+F 2 "" H 27100 6150 50  0001 C CNN
+F 3 "" H 27100 6150 50  0001 C CNN
+	1    27100 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26550 1150 26550 1250
+$Comp
+L Device:CP1_Small C4
+U 1 1 645F271A
+P 27050 2100
+F 0 "C4" V 26821 2100 50  0000 C CNN
+F 1 "Illinois Capacitor " V 26912 2100 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 27050 2100 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 27050 2100 50  0001 C CNN
+F 4 "227AVG050MGBJ" V 27200 2100 50  0000 C CNN "Field4"
+F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 27050 2100 50  0001 C CNN "Field5"
+	1    27050 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26950 2100 26550 2100
+Connection ~ 26550 2100
+Wire Wire Line
+	26550 2100 26550 2650
+$Comp
+L Device:CP1_Small C6
+U 1 1 6504B4A0
+P 27950 5550
+F 0 "C6" V 27721 5550 50  0000 C CNN
+F 1 "Illinois Capacitor " H 27900 5450 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 27950 5550 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 27950 5550 50  0001 C CNN
+F 4 "337AVG035MGBJ" V 28100 5550 50  0000 C CNN "Field4"
+F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 27950 5550 50  0001 C CNN "Field5"
+	1    27950 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 65064552
+P 26850 5550
+F 0 "C2" V 26621 5550 50  0000 C CNN
+F 1 "Illinois Capacitor " H 26800 5450 50  0000 C CNN
+F 2 "BoatControl:U1-E" H 26850 5550 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 26850 5550 50  0001 C CNN
+F 4 "337AVG035MGBJ" V 27000 5550 50  0000 C CNN "Field4"
+F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 26850 5550 50  0001 C CNN "Field5"
+	1    26850 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	28200 4400 28200 4950
+Connection ~ 27650 4950
+Wire Wire Line
+	27650 4950 27650 4750
+Wire Wire Line
+	27950 4950 28200 4950
+Connection ~ 28200 4950
+Connection ~ 26550 4950
+Wire Wire Line
+	26550 4950 26550 4750
+Wire Wire Line
+	26850 4950 27100 4950
+Wire Wire Line
+	27100 4450 27100 4950
+Connection ~ 27100 4950
+Wire Wire Line
+	26950 5550 27000 5550
+Wire Wire Line
+	28200 5550 28100 5550
+Wire Wire Line
+	27100 5550 27100 6150
+Connection ~ 27100 5550
+Wire Wire Line
+	28200 5550 28200 6150
+Connection ~ 28200 5550
+Wire Wire Line
+	27000 4450 27000 5550
+Connection ~ 27000 5550
+Wire Wire Line
+	27000 5550 27100 5550
+Wire Wire Line
+	28100 4400 28100 4500
+Connection ~ 28100 5550
+Wire Wire Line
+	28100 5550 28050 5550
+$Comp
+L Device:C_Small C5
+U 1 1 F05FD5D6
+P 27900 4750
+F 0 "C5" H 27800 4750 50  0000 C CNN
+F 1 "C315C102K1R5TA7301" V 29000 -2350 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 27900 4750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C315C102K1R5TA7301.pdf" H 27900 4750 50  0001 C CNN
+F 4 "CAP CER 1000PF 50V X7R RADIAL" V 27900 4750 50  0001 C CNN "Field4"
+	1    27900 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	27650 4950 27650 5550
+Wire Wire Line
+	27850 5550 27650 5550
+Connection ~ 27650 5550
+Wire Wire Line
+	27800 4750 27650 4750
+Connection ~ 27650 4750
+Wire Wire Line
+	27650 4750 27650 2600
+Wire Wire Line
+	28000 4400 28000 4750
+$Comp
+L Device:C_Small C1
+U 1 1 6EC9B132
+P 26800 4750
+F 0 "C1" H 26700 4750 50  0000 C CNN
+F 1 "C315C272K1R5TA" V 27900 -2350 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 26800 4750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C272K1R5TA.pdf" H 26800 4750 50  0001 C CNN
+F 4 "CAP CER 2700PF 100V X7R RADIAL" V 26800 4750 50  0001 C CNN "Field4"
+	1    26800 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26550 4950 26550 5150
+Wire Wire Line
+	26750 5550 26550 5550
+Wire Wire Line
+	26900 4450 26900 4750
+Wire Wire Line
+	26700 4750 26550 4750
+Connection ~ 26550 4750
+Wire Wire Line
+	26550 4750 26550 2650
+$Comp
+L Device:C_Small C7
+U 1 1 715F6AB2
+P 28100 2500
+F 0 "C7" V 28000 2500 50  0000 C CNN
+F 1 "C320C103K1R5TA" H 28100 2350 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 28100 2500 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 28100 2500 50  0001 C CNN
+F 4 "CAP CER 10000PF 100V X7R RADIAL" V 28100 2500 50  0001 C CNN "Field4"
+	1    28100 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	26800 4000 26850 4000
+Wire Wire Line
+	28200 4950 28500 4950
+Wire Wire Line
+	28500 4950 28500 2400
+Wire Wire Line
+	28500 2400 28100 2400
+$Comp
+L BoatControl:SchurterCircuitBreaker Q33
+U 1 1 72FBD2F1
+P 28850 1550
+F 0 "Q33" V 28850 1200 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a" V 28850 2500 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 28850 1550 50  0001 C CNN
+F 3 "" H 28850 1550 50  0001 C CNN
+F 4 "4404.0096" V 28850 1550 50  0001 C CNN "Manufacturer ID"
+	1    28850 1550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	28650 1800 28650 2100
+Wire Wire Line
+	26550 1550 27650 1550
+Connection ~ 26550 1550
+Wire Wire Line
+	26550 1550 26550 2100
+$Comp
+L BoatControl:TBL008V-1000-02BE J11
+U 1 1 74976505
+P 27800 850
+F 0 "J11" V 27750 750 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" V 28050 1300 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 27800 850 50  0001 L BNN
+F 3 "CUI" H 27800 850 50  0001 L BNN
+F 4 "DC" V 27800 850 50  0000 C CNN "Field4"
+	1    27800 850 
 	0    -1   -1   0   
 $EndComp
+Connection ~ 23600 8450
+Wire Wire Line
+	28200 8500 28200 8400
+Wire Wire Line
+	25450 8500 28200 8500
+Connection ~ 25450 8500
+Connection ~ 28200 6150
+Connection ~ 26550 5150
+Wire Wire Line
+	26550 5150 26550 5550
+Wire Wire Line
+	27650 5550 27650 9300
+Wire Wire Line
+	27100 6150 27100 8450
+Wire Wire Line
+	23600 8450 27100 8450
+Connection ~ 27100 6150
+Wire Wire Line
+	10500 15050 9150 15050
+Wire Wire Line
+	10500 15050 10500 15600
+Wire Wire Line
+	11000 15150 1450 15150
+Wire Wire Line
+	1050 15150 1050 15050
+Connection ~ 1050 15150
+Connection ~ 1050 15050
+Wire Wire Line
+	1050 15050 650  15050
+Wire Wire Line
+	2400 15300 2400 15050
+Connection ~ 2400 15300
+Connection ~ 2400 15050
+Wire Wire Line
+	2400 15050 1050 15050
+Wire Wire Line
+	3500 14950 3800 14950
+Wire Wire Line
+	5100 15400 5100 15050
+Connection ~ 5100 15400
+Connection ~ 5100 15050
+Wire Wire Line
+	6200 14950 6500 14950
+Wire Wire Line
+	6450 15450 6450 15050
+Connection ~ 6450 15450
+Connection ~ 6450 15050
+Wire Wire Line
+	6450 15050 5100 15050
+Wire Wire Line
+	7800 15500 7800 15050
+Connection ~ 7800 15500
+Connection ~ 7800 15050
+Wire Wire Line
+	7800 15050 6450 15050
+Wire Wire Line
+	8900 14950 9300 14950
+Wire Wire Line
+	9150 15550 9150 15050
+Connection ~ 9150 15550
+Connection ~ 9150 15050
+Wire Wire Line
+	9150 15050 7800 15050
+Wire Wire Line
+	1450 15350 1450 16050
+Connection ~ 1450 15350
+Wire Wire Line
+	2400 15050 3750 15050
+Wire Wire Line
+	4150 15250 4150 15350
+Connection ~ 4150 15350
+Wire Wire Line
+	3750 15350 3750 15050
+Connection ~ 3750 15350
+Connection ~ 3750 15050
+Wire Wire Line
+	3750 15050 5100 15050
+Wire Wire Line
+	23150 13900 24750 13900
+Wire Wire Line
+	22950 16000 22950 15750
+Connection ~ 22950 15750
 $Comp
-L power:+5V #PWR?
-U 1 1 F43573A4
-P 31100 4250
-F 0 "#PWR?" H 31100 4100 50  0001 C CNN
-F 1 "+5V" H 31115 4423 50  0000 C CNN
-F 2 "" H 31100 4250 50  0001 C CNN
-F 3 "" H 31100 4250 50  0001 C CNN
-	1    31100 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 F534C05E
-P 26100 3800
-F 0 "#PWR?" H 26100 3650 50  0001 C CNN
-F 1 "+12V" H 26115 3973 50  0000 C CNN
-F 2 "" H 26100 3800 50  0001 C CNN
-F 3 "" H 26100 3800 50  0001 C CNN
-	1    26100 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	24350 4950 24350 5150
-$Comp
-L Device:D_Schottky D?
-U 1 1 F48B948D
-P 29900 4650
-F 0 "D?" V 29800 4600 50  0000 C CNN
-F 1 "MBR2045CTF-G1" V 30150 4650 50  0000 C CNN
-F 2 "BoatControl:TO-220" H 29900 4650 50  0001 C CNN
-F 3 "~" H 29900 4650 50  0001 C CNN
-	1    29900 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 FF7A1D30
-P 29900 5750
-F 0 "D?" V 29800 5700 50  0000 C CNN
-F 1 "MBR2045CTF-G1" V 30150 5750 50  0000 C CNN
-F 2 "BoatControl:TO-220" H 29900 5750 50  0001 C CNN
-F 3 "~" H 29900 5750 50  0001 C CNN
-	1    29900 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 FF7CD4D1
-P 26950 4300
-F 0 "C?" V 26721 4300 50  0000 C CNN
-F 1 "Illinois Capacitor " V 26812 4300 50  0000 C CNN
-F 2 "BoatControl:U1-E" H 26950 4300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 26950 4300 50  0001 C CNN
-F 4 "227AVG050MGBJ" V 27100 4300 50  0000 C CNN "Field4"
-F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 26950 4300 50  0001 C CNN "Field5"
-	1    26950 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	26100 3800 26250 3800
-Wire Wire Line
-	26950 4200 26950 3800
-Connection ~ 26950 3800
-Wire Wire Line
-	26950 3800 27550 3800
-Wire Wire Line
-	26950 4400 26950 4800
-Connection ~ 26950 4800
-Wire Wire Line
-	26950 4800 26500 4800
-$Comp
-L power:GND #PWR?
-U 1 1 602AEA4D
-P 26100 5900
-F 0 "#PWR?" H 26100 5650 50  0001 C CNN
-F 1 "GND" H 26105 5727 50  0000 C CNN
-F 2 "" H 26100 5900 50  0001 C CNN
-F 3 "" H 26100 5900 50  0001 C CNN
-	1    26100 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	27600 5650 27600 5900
-Connection ~ 27600 5900
-Wire Wire Line
-	27600 5350 27600 4900
-Wire Wire Line
-	27550 4550 27550 4800
-Connection ~ 27550 4800
-Wire Wire Line
-	27550 4800 26950 4800
-Wire Wire Line
-	27550 4250 27550 3800
-$Comp
-L power:+12V #PWR?
-U 1 1 63112B0F
-P 31100 5350
-F 0 "#PWR?" H 31100 5200 50  0001 C CNN
-F 1 "+12V" H 31115 5523 50  0000 C CNN
-F 2 "" H 31100 5350 50  0001 C CNN
-F 3 "" H 31100 5350 50  0001 C CNN
-	1    31100 5350
+L power:+12V #PWR0108
+U 1 1 7DD9F474
+P 22600 15750
+F 0 "#PWR0108" H 22600 15600 50  0001 C CNN
+F 1 "+12V" H 22615 15923 50  0000 C CNN
+F 2 "" H 22600 15750 50  0001 C CNN
+F 3 "" H 22600 15750 50  0001 C CNN
+	1    22600 15750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	26100 5900 26500 5900
+	15900 14950 17250 14950
+Wire Wire Line
+	22250 9900 22250 7550
+Connection ~ 22250 7550
+Wire Wire Line
+	22250 7550 23450 7550
+Wire Wire Line
+	23450 5150 26550 5150
+Wire Wire Line
+	900  5150 10850 5150
+Wire Wire Line
+	900  7550 900  5150
+Wire Wire Line
+	8350 7550 8800 7550
+Wire Wire Line
+	8500 10350 8800 10350
+Wire Wire Line
+	8800 10350 8800 7550
+Connection ~ 8800 7550
+Wire Wire Line
+	8800 7550 9700 7550
+Wire Wire Line
+	6100 10350 5100 10350
+Wire Wire Line
+	900  7550 1600 7550
+Wire Wire Line
+	1500 7350 1500 8050
+Connection ~ 1500 8050
+Wire Wire Line
+	800  7400 800  10100
+Wire Wire Line
+	2500 10350 2500 9700
+Wire Wire Line
+	2500 9700 900  9700
+Wire Wire Line
+	900  9700 900  7550
+Connection ~ 900  7550
+Connection ~ 5100 7550
+Wire Wire Line
+	5100 7550 5650 7550
+Wire Wire Line
+	5100 7550 5100 10350
+Connection ~ 5100 10350
+Wire Wire Line
+	5100 10350 4900 10350
+Wire Wire Line
+	10850 13550 10350 13550
+Wire Wire Line
+	10350 13550 10350 14750
+Connection ~ 10350 14750
+Wire Wire Line
+	25050 9400 27650 9400
+Connection ~ 27650 9400
+Wire Wire Line
+	27650 9400 27650 10600
+Wire Wire Line
+	10900 3950 10850 3950
+Wire Wire Line
+	10850 3950 10850 5150
+Connection ~ 10850 5150
+Wire Wire Line
+	28100 4500 13100 4500
+Wire Wire Line
+	13100 4500 13100 3950
+Connection ~ 28100 4500
+Wire Wire Line
+	28100 4500 28100 5550
+Connection ~ 13100 3950
+Wire Wire Line
+	5650 7550 7000 7550
+Wire Wire Line
+	1600 7550 2950 7550
+Wire Wire Line
+	2600 7500 6200 7500
+Wire Wire Line
+	2600 7500 2600 9200
+Connection ~ 28200 7500
+Wire Wire Line
+	28200 7500 28200 6150
+Wire Wire Line
+	6200 9200 6200 7500
+Connection ~ 6200 7500
+Wire Wire Line
+	6200 7500 13200 7500
+Wire Wire Line
+	10400 9850 10900 9850
+Connection ~ 10400 8650
+Wire Wire Line
+	10400 8650 10400 9850
+Wire Wire Line
+	13200 7500 13200 9850
+Wire Wire Line
+	13200 9850 13100 9850
+Connection ~ 13200 7500
+Wire Wire Line
+	13200 7500 28200 7500
+Connection ~ 13100 9850
+Wire Wire Line
+	13050 21000 32600 21000
+Connection ~ 13050 21000
+Connection ~ 31150 11900
+Wire Wire Line
+	32500 11900 31150 11900
+Wire Wire Line
+	32500 8450 32500 11900
+Connection ~ 27650 10600
+Wire Wire Line
+	27650 10600 32550 10600
+Connection ~ 27100 8450
+Wire Wire Line
+	27100 8450 32500 8450
+Wire Wire Line
+	32600 8400 28200 8400
+Wire Wire Line
+	32600 8400 32600 21000
+Connection ~ 28200 8400
+Wire Wire Line
+	28200 8400 28200 7500
+Wire Wire Line
+	12050 12000 12050 11400
+Connection ~ 12050 12000
+Wire Wire Line
+	12050 12000 11350 12000
+Connection ~ 12050 11400
+Wire Wire Line
+	12050 11400 11400 11400
+Wire Wire Line
+	32500 11900 32500 13900
+Wire Wire Line
+	32500 13900 31150 13900
+Connection ~ 32500 11900
+Connection ~ 31150 13900
 $Comp
-L Device:CP1_Small C?
-U 1 1 645F271A
-P 26950 5400
-F 0 "C?" V 26721 5400 50  0000 C CNN
-F 1 "Illinois Capacitor " V 26812 5400 50  0000 C CNN
-F 2 "BoatControl:U1-E" H 26950 5400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 26950 5400 50  0001 C CNN
-F 4 "227AVG050MGBJ" V 27100 5400 50  0000 C CNN "Field4"
-F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 26950 5400 50  0001 C CNN "Field5"
-	1    26950 5400
+L Device:C_Small C3
+U 1 1 87A281E4
+P 27000 2550
+F 0 "C3" V 26900 2550 50  0000 C CNN
+F 1 "C320C103K1R5TA" H 27000 2400 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 27000 2550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 27000 2550 50  0001 C CNN
+F 4 "CAP CER 10000PF 100V X7R RADIAL" V 27000 2550 50  0001 C CNN "Field4"
+	1    27000 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	27000 2450 27400 2450
+Wire Wire Line
+	27400 2450 27400 4950
+Wire Wire Line
+	27400 4950 27100 4950
+Wire Wire Line
+	21300 18700 32500 18700
+Connection ~ 32500 13900
+Wire Wire Line
+	23300 15850 23300 18250
+Wire Wire Line
+	23300 18250 13300 18250
+Connection ~ 13200 14950
+Wire Wire Line
+	13200 14300 13200 14950
+Connection ~ 28600 12900
+Wire Wire Line
+	28600 12900 28600 14850
+Connection ~ 30200 12900
+Wire Wire Line
+	30200 12900 30200 14850
+Connection ~ 31800 12900
+Wire Wire Line
+	31800 12900 31800 14850
+Wire Wire Line
+	32550 10600 32550 14850
+Wire Wire Line
+	20600 12900 20600 14850
+Wire Wire Line
+	20600 14850 22200 14850
+Connection ~ 22200 14850
+Wire Wire Line
+	22200 14850 23800 14850
+Connection ~ 23800 14850
+Wire Wire Line
+	23800 14850 25400 14850
+Connection ~ 25400 14850
+Wire Wire Line
+	25400 14850 27000 14850
+Connection ~ 27000 14850
+Wire Wire Line
+	27000 14850 28600 14850
+Connection ~ 28600 14850
+Wire Wire Line
+	28600 14850 30200 14850
+Connection ~ 30200 14850
+Wire Wire Line
+	30200 14850 31800 14850
+Wire Wire Line
+	19950 14950 21300 14950
+Wire Wire Line
+	31800 14850 32550 14850
+Connection ~ 31800 14850
+Wire Wire Line
+	32500 14950 32500 13900
+Wire Wire Line
+	32500 18700 32500 14950
+Connection ~ 32500 14950
+Connection ~ 21300 14950
+Wire Wire Line
+	21300 14950 32500 14950
+Wire Wire Line
+	13300 18250 13300 21100
+Wire Wire Line
+	13300 21100 10800 21100
+Wire Wire Line
+	10800 21100 10800 19450
+Connection ~ 13300 18250
+Wire Wire Line
+	13300 18250 13100 18250
+Wire Wire Line
+	10500 18700 11950 18700
+Wire Wire Line
+	10850 19450 10800 19450
+Connection ~ 10800 19450
+Wire Wire Line
+	10800 19450 10800 18250
+Wire Wire Line
+	23300 18250 32550 18250
+Wire Wire Line
+	32550 18250 32550 14850
+Connection ~ 23300 18250
+Connection ~ 32550 14850
+Wire Wire Line
+	28650 1150 28650 1250
+Wire Wire Line
+	26550 1250 27700 1250
+Connection ~ 26550 1250
+Wire Wire Line
+	26550 1250 26550 1550
+Connection ~ 27700 1250
+Connection ~ 27800 1250
+Wire Wire Line
+	27800 1250 27700 1250
+Wire Wire Line
+	27800 1250 28650 1250
+Connection ~ 28650 1250
+Wire Wire Line
+	28650 1250 28650 1300
+Wire Wire Line
+	27150 2100 27550 2100
+Connection ~ 27550 2100
+Wire Wire Line
+	27550 2100 27550 2650
+Wire Wire Line
+	28650 1800 27550 1800
+Connection ~ 28650 1800
+Wire Wire Line
+	27550 1800 27550 2100
+$Comp
+L Device:R_Pack08 RN5
+U 1 1 70FC1CA7
+P 24250 6300
+F 0 "RN5" H 23700 6500 50  0000 L CNN
+F 1 "4116R-1-471" V 23650 6100 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 24725 6300 50  0001 C CNN
+F 3 "~" H 24250 6300 50  0001 C CNN
+	1    24250 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	26950 5300 26950 4900
-Connection ~ 26950 4900
+	8100 8500 9750 8500
 Wire Wire Line
-	26950 4900 27600 4900
+	12800 10550 12800 10650
 Wire Wire Line
-	26950 5500 26950 5900
-Connection ~ 26950 5900
+	12800 10650 13550 10650
 Wire Wire Line
-	26950 5900 27600 5900
+	13700 10750 13500 10750
+Wire Wire Line
+	12700 10550 12700 10750
+Wire Wire Line
+	12800 10650 12800 11800
+Wire Wire Line
+	12800 11800 12750 11800
+Wire Wire Line
+	9750 8500 9750 11800
+Connection ~ 12800 10650
+Wire Wire Line
+	8000 8500 8000 8450
+Wire Wire Line
+	8000 8450 9800 8450
+Wire Wire Line
+	9800 8450 9800 11750
+Wire Wire Line
+	9800 11750 12650 11750
+Wire Wire Line
+	12700 11750 12700 10750
+Connection ~ 12700 10750
+Wire Wire Line
+	9800 11750 5550 11750
+Wire Wire Line
+	5550 11750 5550 9450
+Wire Wire Line
+	5550 9450 4950 9450
+Wire Wire Line
+	4950 9450 4950 8400
+Wire Wire Line
+	4950 8400 4400 8400
+Wire Wire Line
+	4400 8400 4400 8500
+Connection ~ 9800 11750
+Wire Wire Line
+	4500 8500 4900 8500
+Wire Wire Line
+	4900 8500 4900 9500
+Wire Wire Line
+	4900 9500 5500 9500
+Wire Wire Line
+	5500 9500 5500 11800
+Wire Wire Line
+	5500 11800 9750 11800
+Connection ~ 9750 11800
+Wire Wire Line
+	12750 12850 12750 11800
+Connection ~ 12750 11800
+Wire Wire Line
+	12750 11800 9750 11800
+Wire Wire Line
+	12650 12850 12650 11750
+Connection ~ 12650 11750
+Wire Wire Line
+	12650 11750 12700 11750
+Wire Wire Line
+	23600 8450 21650 8450
 $Comp
-L Device:CP1_Small C?
-U 1 1 6504B4A0
-P 30500 4500
-F 0 "C?" V 30271 4500 50  0000 C CNN
-F 1 "Illinois Capacitor " V 30362 4500 50  0000 C CNN
-F 2 "BoatControl:U1-E" H 30500 4500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 30500 4500 50  0001 C CNN
-F 4 "337AVG035MGBJ" V 30650 4500 50  0000 C CNN "Field4"
-F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 30500 4500 50  0001 C CNN "Field5"
-	1    30500 4500
-	1    0    0    -1  
+L BoatControl:TBL008V-1000-02BE J9
+U 1 1 70FC1583
+P 22750 7000
+F 0 "J9" V 22700 6900 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" V 23000 7450 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 22750 7000 50  0001 L BNN
+F 3 "CUI" H 22750 7000 50  0001 L BNN
+F 4 "DC" V 22750 7000 50  0000 C CNN "Field4"
+	1    22750 7000
+	0    1    -1   0   
 $EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 65064552
-P 30500 5600
-F 0 "C?" V 30271 5600 50  0000 C CNN
-F 1 "Illinois Capacitor " V 30362 5600 50  0000 C CNN
-F 2 "BoatControl:U1-E" H 30500 5600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 30500 5600 50  0001 C CNN
-F 4 "337AVG035MGBJ" V 30650 5600 50  0000 C CNN "Field4"
-F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 30500 5600 50  0001 C CNN "Field5"
-	1    30500 5600
-	1    0    0    -1  
-$EndComp
+Connection ~ 22600 7400
 Wire Wire Line
-	29350 4250 29900 4250
-Connection ~ 29900 4800
+	22600 7400 22750 7400
 Wire Wire Line
-	29900 4800 29700 4800
+	22850 7400 23050 7400
 Wire Wire Line
-	29900 4500 29900 4250
-Connection ~ 29900 4250
-Connection ~ 29900 5900
+	13850 8500 13300 8500
 Wire Wire Line
-	29900 5900 29700 5900
+	13300 8500 13300 8650
 Wire Wire Line
-	29900 5600 29900 5350
+	13300 8650 13150 8650
 Wire Wire Line
-	29400 5350 29900 5350
-Connection ~ 29900 5350
+	13550 10650 13550 8600
 Wire Wire Line
-	30500 5500 30500 5450
+	13550 8600 23150 8600
 Wire Wire Line
-	30500 4250 30500 4350
+	23150 8600 23150 8700
+Connection ~ 13550 10650
 Wire Wire Line
-	30500 5350 31100 5350
-Connection ~ 30500 5350
+	13550 10650 13700 10650
 Wire Wire Line
-	30500 4250 31100 4250
-Connection ~ 30500 4250
+	13500 10750 13500 8550
 Wire Wire Line
-	29400 5450 30500 5450
-Connection ~ 30500 5450
+	13500 8550 23250 8550
 Wire Wire Line
-	30500 5450 30500 5350
+	23250 8550 23250 8700
+Connection ~ 13500 10750
 Wire Wire Line
-	29350 4350 30500 4350
-Connection ~ 30500 4350
+	13500 10750 12700 10750
 Wire Wire Line
-	30500 4350 30500 4400
-$Comp
-L Device:C_Small C?
-U 1 1 F05FD5D6
-P 29700 4550
-F 0 "C?" H 29600 4550 50  0000 C CNN
-F 1 "C315C102K1R5TA7301" V 30800 -2550 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 29700 4550 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C315C102K1R5TA7301.pdf" H 29700 4550 50  0001 C CNN
-F 4 "CAP CER 1000PF 50V X7R RADIAL" V 29700 4550 50  0001 C CNN "Field4"
-	1    29700 4550
-	1    0    0    -1  
-$EndComp
+	23150 3250 12800 3250
 Wire Wire Line
-	29900 4800 30500 4800
+	23150 3250 23150 8600
+Connection ~ 23150 8600
 Wire Wire Line
-	30500 4600 30500 4800
-Connection ~ 30500 4800
+	12700 3250 12700 3200
 Wire Wire Line
-	30500 4800 31100 4800
+	23250 3200 23250 8550
 Wire Wire Line
-	29700 4650 29700 4800
-Connection ~ 29700 4800
+	12700 3200 23250 3200
+Connection ~ 23250 8550
 Wire Wire Line
-	29700 4800 27550 4800
+	13550 10650 13550 15000
 Wire Wire Line
-	29350 4450 29700 4450
-$Comp
-L Device:C_Small C?
-U 1 1 6EC9B132
-P 29700 5650
-F 0 "C?" H 29600 5650 50  0000 C CNN
-F 1 "C315C272K1R5TA" V 30800 -1450 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 29700 5650 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C315C272K1R5TA.pdf" H 29700 5650 50  0001 C CNN
-F 4 "CAP CER 2700PF 100V X7R RADIAL" V 29700 5650 50  0001 C CNN "Field4"
-	1    29700 5650
-	1    0    0    -1  
-$EndComp
+	13550 15000 23500 15000
 Wire Wire Line
-	29900 5900 30500 5900
+	23500 15000 23500 20200
 Wire Wire Line
-	30500 5700 30500 5900
-Connection ~ 30500 5900
+	23500 20200 12750 20200
 Wire Wire Line
-	30500 5900 31100 5900
+	12750 20200 12750 20150
 Wire Wire Line
-	29400 5550 29700 5550
+	13500 10750 13500 15050
 Wire Wire Line
-	29700 5750 29700 5900
-Connection ~ 29700 5900
+	13500 15050 23450 15050
 Wire Wire Line
-	29700 5900 27600 5900
-$Comp
-L Device:C_Small C?
-U 1 1 715F6AB2
-P 27450 4350
-F 0 "C?" V 27350 4350 50  0000 C CNN
-F 1 "C320C103K1R5TA" V 28550 -2750 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 27450 4350 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 27450 4350 50  0001 C CNN
-F 4 "CAP CER 10000PF 100V X7R RADIAL" V 27450 4350 50  0001 C CNN "Field4"
-	1    27450 4350
-	0    1    1    0   
-$EndComp
+	23450 15050 23450 20250
 Wire Wire Line
-	28950 5650 28950 5600
+	23450 20250 12650 20250
 Wire Wire Line
-	29900 4250 29900 3950
+	12650 20250 12650 20150
 Wire Wire Line
-	29900 3950 27350 3950
+	22850 9250 15600 9250
+Connection ~ 22850 9250
 Wire Wire Line
-	27350 3950 27350 4350
-$Comp
-L BoatControl:SchurterCircuitBreaker Q?
-U 1 1 72FBD2F1
-P 26500 3600
-F 0 "Q?" V 26500 3250 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 3a" V 26150 3750 50  0000 R CNN
-F 2 "BoatControl:SchurterCurcuitBreaker" H 26500 3600 50  0001 C CNN
-F 3 "" H 26500 3600 50  0001 C CNN
-F 4 "4404.0096" V 26500 3600 50  0001 C CNN "Manufacturer ID"
-	1    26500 3600
-	-1   0    0    -1  
-$EndComp
+	15600 10750 15650 10750
 Wire Wire Line
-	26750 3800 26950 3800
+	15650 10750 15650 9300
 Wire Wire Line
-	26700 4900 26950 4900
+	15650 9300 27650 9300
+Connection ~ 27650 9300
 Wire Wire Line
-	26500 5900 26500 4800
-Connection ~ 26500 5900
+	27650 9300 27650 9400
 Wire Wire Line
-	26500 5900 26950 5900
+	15600 9250 15600 10550
+Connection ~ 15600 10550
 Wire Wire Line
-	26700 3800 26700 4900
+	15600 10550 15600 10650
+Wire Wire Line
+	20350 13750 20350 14400
+Wire Wire Line
+	21950 13750 21950 14450
+Wire Wire Line
+	23550 13750 23550 14500
+Wire Wire Line
+	25150 13750 25150 14550
+Wire Wire Line
+	26750 13750 26750 14600
+Wire Wire Line
+	28350 13750 28350 14650
+Wire Wire Line
+	29950 13750 29950 14700
+Wire Wire Line
+	31550 13750 31550 14750
+Wire Bus Line
+	16200 11800 31800 11800
+Wire Wire Line
+	7800 11000 7900 11000
+Wire Wire Line
+	7900 11000 7900 11300
+Wire Wire Line
+	6700 11000 6600 11000
+Wire Wire Line
+	6600 11000 6600 11300
+Wire Wire Line
+	6900 11000 7000 11000
+Wire Wire Line
+	7000 11000 7000 11300
 Wire Wire Line
 	31550 11000 31550 12000
 Wire Wire Line
@@ -10783,7 +11053,7 @@ Wire Bus Line
 Wire Bus Line
 	24600 13450 32400 13450
 Wire Bus Line
-	16200 14100 32550 14100
+	16200 14100 31700 14100
 Wire Bus Line
 	17650 13450 24550 13450
 Wire Bus Line
@@ -10818,4 +11088,20 @@ Wire Bus Line
 	950  16750 23650 16750
 Wire Bus Line
 	950  15950 23650 15950
+Text Label 25200 6650 3    50   ~ 0
+D15B2
+Text Label 25300 6650 3    50   ~ 0
+D16B2
+Text Label 1100 6750 0    50   ~ 0
+D1B1
+Text Label 1500 6750 0    50   ~ 0
+D1B2
+Text Label 23750 7450 1    50   ~ 0
+D1A2
+Text Label 23750 8150 3    50   ~ 0
+D1A1
+Text Label 1000 7450 0    50   ~ 0
+D1A1
+Text Label 1400 7450 0    50   ~ 0
+D1A2
 $EndSCHEMATC
