@@ -86,10 +86,10 @@ F 3 "Bourns" H 27100 5250 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q28
+L BoatControl:SchurterCircuitBreaker Q30
 U 1 1 671C9600
 P 19450 6250
-F 0 "Q28" V 19450 5900 50  0000 R CNN
+F 0 "Q30" V 19450 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 19700 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 19450 6250 50  0001 C CNN
 F 3 "" H 19450 6250 50  0001 C CNN
@@ -112,10 +112,10 @@ F 6 "" H 32250 11100 50  0001 L BNN "Field6"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D3
+L Device:LED_Dual_ACA D2
 U 1 1 770A88A6
 P 2600 16350
-F 0 "D3" H 2450 16550 50  0000 C CNN
+F 0 "D2" H 2450 16550 50  0000 C CNN
 F 1 "MV5438" H 2600 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 2600 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 2600 16350 50  0001 C CNN
@@ -123,10 +123,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q24
+L BoatControl:SchurterCircuitBreaker Q28
 U 1 1 799675F5
 P 16750 6250
-F 0 "Q24" V 16750 5900 50  0000 R CNN
+F 0 "Q28" V 16750 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 17000 6400 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 16750 6250 50  0001 C CNN
 F 3 "" H 16750 6250 50  0001 C CNN
@@ -135,10 +135,10 @@ F 4 "4404.0099" V 16750 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q12
+L BoatControl:SchurterCircuitBreaker Q22
 U 1 1 79990F91
 P 8650 6250
-F 0 "Q12" V 8650 5900 50  0000 R CNN
+F 0 "Q22" V 8650 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 8900 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 8650 6250 50  0001 C CNN
 F 3 "" H 8650 6250 50  0001 C CNN
@@ -147,27 +147,15 @@ F 4 "4404.0102" V 8650 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q26
+L BoatControl:SchurterCircuitBreaker Q29
 U 1 1 79994324
 P 18100 6250
-F 0 "Q26" V 18100 5900 50  0000 R CNN
+F 0 "Q29" V 18100 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 10a" V 18350 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 18100 6250 50  0001 C CNN
 F 3 "" H 18100 6250 50  0001 C CNN
 F 4 "4404.0102" V 18100 6250 50  0001 C CNN "Manufacturer ID"
 	1    18100 6250
-	0    -1   1    0   
-$EndComp
-$Comp
-L BoatControl:SchurterCircuitBreaker Q10
-U 1 1 7999432F
-P 7300 6250
-F 0 "Q10" V 7300 5900 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 10a" V 7550 6450 50  0000 R CNN
-F 2 "BoatControl:SchurterCurcuitBreaker" H 7300 6250 50  0001 C CNN
-F 3 "" H 7300 6250 50  0001 C CNN
-F 4 "4404.0102" V 7300 6250 50  0001 C CNN "Manufacturer ID"
-	1    7300 6250
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -183,10 +171,10 @@ F 4 "4404.0105" V 22150 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q30
+L BoatControl:SchurterCircuitBreaker Q31
 U 1 1 799D21C6
 P 20800 6250
-F 0 "Q30" V 20800 5900 50  0000 R CNN
+F 0 "Q31" V 20800 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 21050 6400 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 20800 6250 50  0001 C CNN
 F 3 "" H 20800 6250 50  0001 C CNN
@@ -195,10 +183,10 @@ F 4 "4404.0105" V 20800 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q16
+L BoatControl:SchurterCircuitBreaker Q24
 U 1 1 799D21D1
 P 11350 6250
-F 0 "Q16" V 11350 5900 50  0000 R CNN
+F 0 "Q24" V 11350 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 11600 6550 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 11350 6250 50  0001 C CNN
 F 3 "" H 11350 6250 50  0001 C CNN
@@ -207,10 +195,10 @@ F 4 "4404.0105" V 11350 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q14
+L BoatControl:SchurterCircuitBreaker Q23
 U 1 1 799ED30C
 P 10000 6250
-F 0 "Q14" V 10000 5900 50  0000 R CNN
+F 0 "Q23" V 10000 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 16a" V 10250 6350 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 10000 6250 50  0001 C CNN
 F 3 "" H 10000 6250 50  0001 C CNN
@@ -230,10 +218,10 @@ F 3 "Omron" H 2300 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K3
+L BoatControl:G5RL-K1A-E-DC12 K2
 U 1 1 61BBC18A
 P 3250 16350
-F 0 "K3" H 3300 16350 50  0000 L CNN
+F 0 "K2" H 3300 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 3500 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 3650 16500 50  0001 L BNN
 F 3 "Omron" H 3650 16600 50  0001 L BNN
@@ -274,10 +262,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 12150 1245
 	0    1    1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q18
+L BoatControl:SchurterCircuitBreaker Q25
 U 1 1 799675EA
 P 12700 6250
-F 0 "Q18" V 12700 5900 50  0000 R CNN
+F 0 "Q25" V 12700 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 12950 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 12700 6250 50  0001 C CNN
 F 3 "" H 12700 6250 50  0001 C CNN
@@ -286,10 +274,10 @@ F 4 "4404.0099" V 12700 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q22
+L BoatControl:SchurterCircuitBreaker Q27
 U 1 1 799675DF
 P 15400 6250
-F 0 "Q22" V 15400 5900 50  0000 R CNN
+F 0 "Q27" V 15400 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 15650 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 15400 6250 50  0001 C CNN
 F 3 "" H 15400 6250 50  0001 C CNN
@@ -298,10 +286,10 @@ F 4 "4404.0099" V 15400 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q8
+L BoatControl:SchurterCircuitBreaker Q20
 U 1 1 799675D4
 P 5950 6250
-F 0 "Q8" V 5950 5900 50  0000 R CNN
+F 0 "Q20" V 5950 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 6200 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 5950 6250 50  0001 C CNN
 F 3 "" H 5950 6250 50  0001 C CNN
@@ -310,10 +298,10 @@ F 4 "4404.0099" V 5950 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q2
+L BoatControl:SchurterCircuitBreaker Q17
 U 1 1 7994C461
 P 1900 6250
-F 0 "Q2" V 1900 5900 50  0000 R CNN
+F 0 "Q17" V 1900 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 2150 6450 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 1900 6250 50  0001 C CNN
 F 3 "" H 1900 6250 50  0001 C CNN
@@ -322,10 +310,10 @@ F 4 "4404.0099" V 1900 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q6
+L BoatControl:SchurterCircuitBreaker Q19
 U 1 1 7994C456
 P 4600 6250
-F 0 "Q6" V 4600 5900 50  0000 R CNN
+F 0 "Q19" V 4600 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 4850 6550 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 4600 6250 50  0001 C CNN
 F 3 "" H 4600 6250 50  0001 C CNN
@@ -334,10 +322,10 @@ F 4 "4404.0099" V 4600 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q20
+L BoatControl:SchurterCircuitBreaker Q26
 U 1 1 799319C9
 P 14050 6250
-F 0 "Q20" V 14050 5900 50  0000 R CNN
+F 0 "Q26" V 14050 5900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 6a" V 14300 6500 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 14050 6250 50  0001 C CNN
 F 3 "" H 14050 6250 50  0001 C CNN
@@ -346,10 +334,10 @@ F 4 "4404.0099" V 14050 6250 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q15
+L BoatControl:SchurterCircuitBreaker Q8
 U 1 1 798AC0D2
 P 11300 17150
-F 0 "Q15" V 11254 16622 50  0000 R CNN
+F 0 "Q8" V 11300 16850 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 10950 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 11300 17150 50  0001 C CNN
 F 3 "" H 11300 17150 50  0001 C CNN
@@ -358,10 +346,10 @@ F 4 "4404.0096" V 11300 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q13
+L BoatControl:SchurterCircuitBreaker Q7
 U 1 1 798AC0C7
 P 9950 17150
-F 0 "Q13" V 9950 16800 50  0000 R CNN
+F 0 "Q7" V 9950 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 9600 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 9950 17150 50  0001 C CNN
 F 3 "" H 9950 17150 50  0001 C CNN
@@ -370,10 +358,10 @@ F 4 "4404.0096" V 9950 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q11
+L BoatControl:SchurterCircuitBreaker Q6
 U 1 1 798AC0BC
 P 8600 17150
-F 0 "Q11" V 8600 16800 50  0000 R CNN
+F 0 "Q6" V 8600 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 8250 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 8600 17150 50  0001 C CNN
 F 3 "" H 8600 17150 50  0001 C CNN
@@ -382,10 +370,10 @@ F 4 "4404.0096" V 8600 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q5
+L BoatControl:SchurterCircuitBreaker Q3
 U 1 1 798AC0B1
 P 4550 17150
-F 0 "Q5" V 4550 16800 50  0000 R CNN
+F 0 "Q3" V 4550 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 4200 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 4550 17150 50  0001 C CNN
 F 3 "" H 4550 17150 50  0001 C CNN
@@ -394,10 +382,10 @@ F 4 "4404.0096" V 4550 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q7
+L BoatControl:SchurterCircuitBreaker Q4
 U 1 1 7988E57D
 P 5900 17150
-F 0 "Q7" V 5900 16800 50  0000 R CNN
+F 0 "Q4" V 5900 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 5550 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 5900 17150 50  0001 C CNN
 F 3 "" H 5900 17150 50  0001 C CNN
@@ -406,10 +394,10 @@ F 4 "4404.0096" V 5900 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q3
+L BoatControl:SchurterCircuitBreaker Q2
 U 1 1 7988BDB2
 P 3200 17150
-F 0 "Q3" V 3200 16800 50  0000 R CNN
+F 0 "Q2" V 3200 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 2850 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 3200 17150 50  0001 C CNN
 F 3 "" H 3200 17150 50  0001 C CNN
@@ -440,18 +428,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11600 18050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q4
-U 1 1 634EB94B
-P 3250 6250
-F 0 "Q4" V 3250 5900 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 6a" V 3500 6500 50  0000 R CNN
-F 2 "BoatControl:SchurterCurcuitBreaker" H 3250 6250 50  0001 C CNN
-F 3 "" H 3250 6250 50  0001 C CNN
-F 4 "4404.0099" V 3250 6250 50  0001 C CNN "Manufacturer ID"
-	1    3250 6250
-	0    -1   1    0   
-$EndComp
-$Comp
 L BoatControl:SchurterCircuitBreaker Q1
 U 1 1 63474D90
 P 1850 17150
@@ -464,10 +440,10 @@ F 4 "4404.0096" V 1850 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K17
+L BoatControl:G5RL-K1A-E-DC12 K9
 U 1 1 61CD78D5
 P 12700 16350
-F 0 "K17" H 12750 16350 50  0000 L CNN
+F 0 "K9" H 12750 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 12950 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 13100 16500 50  0001 L BNN
 F 3 "Omron" H 13100 16600 50  0001 L BNN
@@ -475,10 +451,10 @@ F 3 "Omron" H 13100 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K19
+L BoatControl:G5RL-K1A-E-DC12 K10
 U 1 1 61CD78DB
 P 14050 16350
-F 0 "K19" H 14100 16350 50  0000 L CNN
+F 0 "K10" H 14100 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 14300 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 14450 16500 50  0001 L BNN
 F 3 "Omron" H 14450 16600 50  0001 L BNN
@@ -486,10 +462,10 @@ F 3 "Omron" H 14450 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K21
+L BoatControl:G5RL-K1A-E-DC12 K11
 U 1 1 61CD78E1
 P 15400 16350
-F 0 "K21" H 15450 16350 50  0000 L CNN
+F 0 "K11" H 15450 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 15650 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 15800 16500 50  0001 L BNN
 F 3 "Omron" H 15800 16600 50  0001 L BNN
@@ -497,21 +473,21 @@ F 3 "Omron" H 15800 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K23
+L BoatControl:G5RL-K1A-E-DC12 K12
 U 1 1 61CD78E7
 P 16750 16350
-F 0 "K23" H 16800 16350 50  0000 L CNN
+F 0 "K12" H 16800 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 17000 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 17150 16500 50  0001 L BNN
 F 3 "Omron" H 17150 16600 50  0001 L BNN
 	1    16750 16350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K25
+L BoatControl:G5RL-K1A-E-DC12 K13
 U 1 1 61CD78EE
 P 18100 16350
-F 0 "K25" H 18150 16350 50  0000 L CNN
+F 0 "K13" H 18150 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 18350 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 18500 16500 50  0001 L BNN
 F 3 "Omron" H 18500 16600 50  0001 L BNN
@@ -519,10 +495,10 @@ F 3 "Omron" H 18500 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K27
+L BoatControl:G5RL-K1A-E-DC12 K14
 U 1 1 61CD78F4
 P 19450 16350
-F 0 "K27" H 19500 16350 50  0000 L CNN
+F 0 "K14" H 19500 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 19700 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 19850 16500 50  0001 L BNN
 F 3 "Omron" H 19850 16600 50  0001 L BNN
@@ -530,10 +506,10 @@ F 3 "Omron" H 19850 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K30
+L BoatControl:G5RL-K1A-E-DC12 K15
 U 1 1 61CD78FA
 P 20800 16350
-F 0 "K30" H 20850 16350 50  0000 L CNN
+F 0 "K15" H 20850 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 21050 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 21200 16500 50  0001 L BNN
 F 3 "Omron" H 21200 16600 50  0001 L BNN
@@ -541,10 +517,10 @@ F 3 "Omron" H 21200 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K15
+L BoatControl:G5RL-K1A-E-DC12 K8
 U 1 1 61C84639
 P 11350 16350
-F 0 "K15" H 11400 16350 50  0000 L CNN
+F 0 "K8" H 11400 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 11600 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 11750 16500 50  0001 L BNN
 F 3 "Omron" H 11750 16600 50  0001 L BNN
@@ -552,10 +528,10 @@ F 3 "Omron" H 11750 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K13
+L BoatControl:G5RL-K1A-E-DC12 K7
 U 1 1 61C84633
 P 10000 16350
-F 0 "K13" H 10050 16350 50  0000 L CNN
+F 0 "K7" H 10050 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 10250 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 10400 16500 50  0001 L BNN
 F 3 "Omron" H 10400 16600 50  0001 L BNN
@@ -563,10 +539,10 @@ F 3 "Omron" H 10400 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K11
+L BoatControl:G5RL-K1A-E-DC12 K6
 U 1 1 61C8462D
 P 8650 16350
-F 0 "K11" H 8700 16350 50  0000 L CNN
+F 0 "K6" H 8700 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 8900 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 9050 16500 50  0001 L BNN
 F 3 "Omron" H 9050 16600 50  0001 L BNN
@@ -574,10 +550,10 @@ F 3 "Omron" H 9050 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K9
+L BoatControl:G5RL-K1A-E-DC12 K5
 U 1 1 61C84627
 P 7300 16350
-F 0 "K9" H 7350 16350 50  0000 L CNN
+F 0 "K5" H 7350 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 7550 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 7700 16500 50  0001 L BNN
 F 3 "Omron" H 7700 16600 50  0001 L BNN
@@ -585,10 +561,10 @@ F 3 "Omron" H 7700 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K7
+L BoatControl:G5RL-K1A-E-DC12 K4
 U 1 1 61C3D887
 P 5950 16350
-F 0 "K7" H 6000 16350 50  0000 L CNN
+F 0 "K4" H 6000 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 6200 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 6350 16500 50  0001 L BNN
 F 3 "Omron" H 6350 16600 50  0001 L BNN
@@ -596,10 +572,10 @@ F 3 "Omron" H 6350 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K5
+L BoatControl:G5RL-K1A-E-DC12 K3
 U 1 1 61C3D881
 P 4600 16350
-F 0 "K5" H 4650 16350 50  0000 L CNN
+F 0 "K3" H 4650 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 4850 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 5000 16500 50  0001 L BNN
 F 3 "Omron" H 5000 16600 50  0001 L BNN
@@ -607,10 +583,10 @@ F 3 "Omron" H 5000 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K33
+L BoatControl:G5RL-K1A-E-DC12 K16
 U 1 1 61CD7900
 P 22150 16350
-F 0 "K33" H 22200 16350 50  0000 L CNN
+F 0 "K16" H 22200 16350 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 22400 16650 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 22550 16500 50  0001 L BNN
 F 3 "Omron" H 22550 16600 50  0001 L BNN
@@ -618,10 +594,10 @@ F 3 "Omron" H 22550 16600 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D5
+L Device:LED_Dual_ACA D3
 U 1 1 7A28CDC9
 P 3950 16350
-F 0 "D5" H 3800 16550 50  0000 C CNN
+F 0 "D3" H 3800 16550 50  0000 C CNN
 F 1 "MV5438" H 3950 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 3950 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 3950 16350 50  0001 C CNN
@@ -629,10 +605,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D7
+L Device:LED_Dual_ACA D4
 U 1 1 7A28FBF7
 P 5300 16350
-F 0 "D7" H 5150 16550 50  0000 C CNN
+F 0 "D4" H 5150 16550 50  0000 C CNN
 F 1 "MV5438" H 5300 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 5300 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 5300 16350 50  0001 C CNN
@@ -640,10 +616,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D9
+L Device:LED_Dual_ACA D5
 U 1 1 7A292F21
 P 6650 16350
-F 0 "D9" H 6500 16550 50  0000 C CNN
+F 0 "D5" H 6500 16550 50  0000 C CNN
 F 1 "MV5438" H 6650 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6650 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 6650 16350 50  0001 C CNN
@@ -651,10 +627,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D11
+L Device:LED_Dual_ACA D6
 U 1 1 7A2957ED
 P 8000 16350
-F 0 "D11" H 7850 16550 50  0000 C CNN
+F 0 "D6" H 7850 16550 50  0000 C CNN
 F 1 "MV5438" H 8000 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 8000 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 8000 16350 50  0001 C CNN
@@ -662,10 +638,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D15
+L Device:LED_Dual_ACA D8
 U 1 1 7A29A2A8
 P 10700 16350
-F 0 "D15" H 10550 16550 50  0000 C CNN
+F 0 "D8" H 10550 16550 50  0000 C CNN
 F 1 "MV5438" H 10650 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 10700 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 10700 16350 50  0001 C CNN
@@ -673,10 +649,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D17
+L Device:LED_Dual_ACA D9
 U 1 1 7A29CAD2
 P 12050 16350
-F 0 "D17" H 11900 16550 50  0000 C CNN
+F 0 "D9" H 11900 16550 50  0000 C CNN
 F 1 "MV5438" H 12000 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 12050 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 12050 16350 50  0001 C CNN
@@ -684,10 +660,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D19
+L Device:LED_Dual_ACA D10
 U 1 1 7A2A0F10
 P 13400 16350
-F 0 "D19" H 13250 16550 50  0000 C CNN
+F 0 "D10" H 13250 16550 50  0000 C CNN
 F 1 "MV5438" H 13350 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 13400 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 13400 16350 50  0001 C CNN
@@ -695,10 +671,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D21
+L Device:LED_Dual_ACA D11
 U 1 1 7A2A3A70
 P 14750 16350
-F 0 "D21" H 14600 16550 50  0000 C CNN
+F 0 "D11" H 14600 16550 50  0000 C CNN
 F 1 "MV5438" H 14700 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 14750 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 14750 16350 50  0001 C CNN
@@ -706,10 +682,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D23
+L Device:LED_Dual_ACA D12
 U 1 1 7A2A621B
 P 16100 16350
-F 0 "D23" H 15950 16550 50  0000 C CNN
+F 0 "D12" H 15950 16550 50  0000 C CNN
 F 1 "MV5438" H 16050 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 16100 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 16100 16350 50  0001 C CNN
@@ -717,10 +693,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D25
+L Device:LED_Dual_ACA D13
 U 1 1 7A2A896D
 P 17450 16350
-F 0 "D25" H 17300 16550 50  0000 C CNN
+F 0 "D13" H 17300 16550 50  0000 C CNN
 F 1 "MV5438" H 17400 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 17450 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 17450 16350 50  0001 C CNN
@@ -728,10 +704,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D27
+L Device:LED_Dual_ACA D14
 U 1 1 7A2AAE86
 P 18800 16350
-F 0 "D27" H 18650 16550 50  0000 C CNN
+F 0 "D14" H 18650 16550 50  0000 C CNN
 F 1 "MV5438" H 18750 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 18800 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 18800 16350 50  0001 C CNN
@@ -739,10 +715,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D29
+L Device:LED_Dual_ACA D15
 U 1 1 7A2AD5DF
 P 20150 16350
-F 0 "D29" H 20000 16550 50  0000 C CNN
+F 0 "D15" H 20000 16550 50  0000 C CNN
 F 1 "MV5438" H 20100 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20150 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20150 16350 50  0001 C CNN
@@ -750,10 +726,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D32
+L Device:LED_Dual_ACA D16
 U 1 1 7A2B255F
 P 21500 16350
-F 0 "D32" H 21350 16550 50  0000 C CNN
+F 0 "D16" H 21350 16550 50  0000 C CNN
 F 1 "MV5438" H 21450 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 21500 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 21500 16350 50  0001 C CNN
@@ -772,10 +748,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12500 18050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW2
+L Switch:SW_Push_Dual SW1B1
 U 1 1 7A37C888
 P 1250 17650
-F 0 "SW2" H 1250 17935 50  0000 C CNN
+F 0 "SW1B1" H 1250 17935 50  0000 C CNN
 F 1 " ESB30" H 1250 17844 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1250 17850 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 17850 50  0001 C CNN
@@ -783,10 +759,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW6
+L Switch:SW_Push_Dual SW2B1
 U 1 1 7B2ABCC0
 P 2600 17600
-F 0 "SW6" H 2600 17885 50  0000 C CNN
+F 0 "SW2B1" H 2600 17885 50  0000 C CNN
 F 1 " ESB30" H 2600 17794 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2600 17800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 17800 50  0001 C CNN
@@ -794,10 +770,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW10
+L Switch:SW_Push_Dual SW3B1
 U 1 1 7B38FF7F
 P 3950 17550
-F 0 "SW10" H 3950 17835 50  0000 C CNN
+F 0 "SW3B1" H 3950 17835 50  0000 C CNN
 F 1 " ESB30" H 3950 17744 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 3950 17750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 17750 50  0001 C CNN
@@ -805,10 +781,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW14
+L Switch:SW_Push_Dual SW4B1
 U 1 1 7B3BE59B
 P 5300 17500
-F 0 "SW14" H 5300 17785 50  0000 C CNN
+F 0 "SW4B1" H 5300 17785 50  0000 C CNN
 F 1 " ESB30" H 5300 17694 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5300 17700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 17700 50  0001 C CNN
@@ -816,21 +792,21 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW18
+L Switch:SW_Push_Dual SW5B1
 U 1 1 7B3ED85D
 P 6650 17450
-F 0 "SW18" H 6650 17735 50  0000 C CNN
-F 1 " ESB30" H 6650 17644 50  0000 C CNN
+F 0 "SW5B1" H 6650 17735 50  0000 C CNN
+F 1 " ESB3" H 6650 17644 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6650 17650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 17650 50  0001 C CNN
 	1    6650 17450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q9
+L BoatControl:SchurterCircuitBreaker Q5
 U 1 1 7988E588
 P 7250 17150
-F 0 "Q9" V 7250 16800 50  0000 R CNN
+F 0 "Q5" V 7250 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 6900 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 7250 17150 50  0001 C CNN
 F 3 "" H 7250 17150 50  0001 C CNN
@@ -839,10 +815,10 @@ F 4 "4404.0096" V 7250 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW22
+L Switch:SW_Push_Dual SW6B1
 U 1 1 7B44CB1F
 P 8000 17400
-F 0 "SW22" H 8000 17685 50  0000 C CNN
+F 0 "SW6B1" H 8000 17685 50  0000 C CNN
 F 1 " ESB30" H 8000 17594 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8000 17600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 17600 50  0001 C CNN
@@ -850,10 +826,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW26
+L Switch:SW_Push_Dual SW7B1
 U 1 1 7B47C75F
 P 9350 17350
-F 0 "SW26" H 9350 17635 50  0000 C CNN
+F 0 "SW7B1" H 9350 17635 50  0000 C CNN
 F 1 " ESB30" H 9350 17544 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9350 17550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 17550 50  0001 C CNN
@@ -861,10 +837,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW30
+L Switch:SW_Push_Dual SW8B1
 U 1 1 7B50EE59
 P 10700 17300
-F 0 "SW30" H 10700 17585 50  0000 C CNN
+F 0 "SW8B1" H 10700 17585 50  0000 C CNN
 F 1 " ESB30" H 10700 17494 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10700 17500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 17500 50  0001 C CNN
@@ -872,10 +848,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW34
+L Switch:SW_Push_Dual SW9B1
 U 1 1 7BAAFBE7
 P 12050 17250
-F 0 "SW34" H 12050 17535 50  0000 C CNN
+F 0 "SW9B1" H 12050 17535 50  0000 C CNN
 F 1 " ESB30" H 12050 17444 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12050 17450 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 17450 50  0001 C CNN
@@ -883,10 +859,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW38
+L Switch:SW_Push_Dual SW10B1
 U 1 1 7BC51F2C
 P 13400 17300
-F 0 "SW38" H 13400 17585 50  0000 C CNN
+F 0 "SW10B1" H 13400 17585 50  0000 C CNN
 F 1 " ESB30" H 13400 17494 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13400 17500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 17500 50  0001 C CNN
@@ -894,10 +870,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW42
+L Switch:SW_Push_Dual SW11B1
 U 1 1 7BC83B18
 P 14750 17350
-F 0 "SW42" H 14750 17635 50  0000 C CNN
+F 0 "SW11B1" H 14750 17635 50  0000 C CNN
 F 1 " ESB30" H 14750 17544 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14750 17550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 17550 50  0001 C CNN
@@ -905,10 +881,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW46
+L Switch:SW_Push_Dual SW12B1
 U 1 1 7BCB5B06
 P 16100 17400
-F 0 "SW46" H 16100 17685 50  0000 C CNN
+F 0 "SW12B1" H 16100 17685 50  0000 C CNN
 F 1 " ESB30" H 16100 17594 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16100 17600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 17600 50  0001 C CNN
@@ -916,10 +892,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW50
+L Switch:SW_Push_Dual SW13B1
 U 1 1 7BCE7585
 P 17450 17450
-F 0 "SW50" H 17450 17735 50  0000 C CNN
+F 0 "SW13B1" H 17450 17735 50  0000 C CNN
 F 1 " ESB30" H 17450 17644 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17450 17650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 17650 50  0001 C CNN
@@ -927,10 +903,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW54
+L Switch:SW_Push_Dual SW14B1
 U 1 1 7BD19575
 P 18800 17500
-F 0 "SW54" H 18800 17785 50  0000 C CNN
+F 0 "SW14B1" H 18800 17785 50  0000 C CNN
 F 1 " ESB30" H 18800 17694 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18800 17700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 17700 50  0001 C CNN
@@ -938,10 +914,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW60
+L Switch:SW_Push_Dual SW15B1
 U 1 1 7BD4B566
 P 20150 17550
-F 0 "SW60" H 20150 17835 50  0000 C CNN
+F 0 "SW15B1" H 20150 17835 50  0000 C CNN
 F 1 " ESB30" H 20150 17744 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 17750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 17750 50  0001 C CNN
@@ -949,10 +925,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW64
+L Switch:SW_Push_Dual SW16B1
 U 1 1 7BD7D262
 P 21500 17600
-F 0 "SW64" H 21500 17885 50  0000 C CNN
+F 0 "SW16B1" H 21500 17885 50  0000 C CNN
 F 1 " ESB30" H 21500 17794 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21500 17800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 17800 50  0001 C CNN
@@ -960,10 +936,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW37
+L Switch:SW_Push_Dual SW10A1
 U 1 1 7D83DB9B
 P 13400 15600
-F 0 "SW37" H 13700 15450 50  0000 C CNN
+F 0 "SW10A1" H 13700 15450 50  0000 C CNN
 F 1 " ESB30" H 13050 15550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13400 15800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 15800 50  0001 C CNN
@@ -971,10 +947,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW41
+L Switch:SW_Push_Dual SW11A1
 U 1 1 7D95807B
 P 14750 15550
-F 0 "SW41" H 15050 15400 50  0000 C CNN
+F 0 "SW11A1" H 15050 15400 50  0000 C CNN
 F 1 " ESB30" H 14400 15500 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14750 15750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 15750 50  0001 C CNN
@@ -982,10 +958,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14750 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW45
+L Switch:SW_Push_Dual SW12A1
 U 1 1 7D9C52D1
 P 16100 15500
-F 0 "SW45" H 16400 15350 50  0000 C CNN
+F 0 "SW12A1" H 16400 15350 50  0000 C CNN
 F 1 " ESB30" H 15750 15450 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16100 15700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 15700 50  0001 C CNN
@@ -993,10 +969,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16100 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW49
+L Switch:SW_Push_Dual SW13A1
 U 1 1 7DA1F12A
 P 17450 15450
-F 0 "SW49" H 17750 15300 50  0000 C CNN
+F 0 "SW13A1" H 17750 15300 50  0000 C CNN
 F 1 " ESB30" H 17100 15400 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17450 15650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 15650 50  0001 C CNN
@@ -1004,10 +980,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17450 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW53
+L Switch:SW_Push_Dual SW14A1
 U 1 1 7DA7918A
 P 18800 15400
-F 0 "SW53" H 19100 15250 50  0000 C CNN
+F 0 "SW14A1" H 19100 15250 50  0000 C CNN
 F 1 " ESB30" H 18450 15350 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18800 15600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 15600 50  0001 C CNN
@@ -1015,10 +991,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW59
+L Switch:SW_Push_Dual SW15A1
 U 1 1 7DAD2E89
 P 20150 15350
-F 0 "SW59" H 20450 15200 50  0000 C CNN
+F 0 "SW15A1" H 20450 15200 50  0000 C CNN
 F 1 " ESB30" H 19800 15300 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 15550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 15550 50  0001 C CNN
@@ -1026,10 +1002,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW33
+L Switch:SW_Push_Dual SW9A1
 U 1 1 7E2D998F
 P 12050 15600
-F 0 "SW33" H 12350 15450 50  0000 C CNN
+F 0 "SW9A1" H 12350 15450 50  0000 C CNN
 F 1 " ESB30" H 11700 15550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12050 15800 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 15800 50  0001 C CNN
@@ -1037,21 +1013,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12050 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW29
-U 1 1 7E3491D3
-P 10700 15600
-F 0 "SW29" H 11000 15450 50  0000 C CNN
-F 1 " ESB30" H 10350 15550 50  0000 C CNN
-F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10700 15800 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 15800 50  0001 C CNN
-	1    10700 15600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW25
+L Switch:SW_Push_Dual SW7A1
 U 1 1 7E3B73DF
 P 9350 15550
-F 0 "SW25" H 9650 15400 50  0000 C CNN
+F 0 "SW7A1" H 9650 15400 50  0000 C CNN
 F 1 " ESB30" H 9000 15500 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9350 15750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 15750 50  0001 C CNN
@@ -1059,10 +1024,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9350 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW63
+L Switch:SW_Push_Dual SW16A1
 U 1 1 7DB2CE18
 P 21500 15300
-F 0 "SW63" H 21800 15150 50  0000 C CNN
+F 0 "SW16A1" H 21800 15150 50  0000 C CNN
 F 1 " ESB30" H 21150 15250 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21500 15500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 15500 50  0001 C CNN
@@ -1070,10 +1035,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21500 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW21
+L Switch:SW_Push_Dual SW6A1
 U 1 1 7E7A3189
 P 8000 15500
-F 0 "SW21" H 8300 15350 50  0000 C CNN
+F 0 "SW6A1" H 8300 15350 50  0000 C CNN
 F 1 " ESB30" H 7650 15450 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8000 15700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 15700 50  0001 C CNN
@@ -1081,10 +1046,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8000 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW17
+L Switch:SW_Push_Dual SW5A1
 U 1 1 7E7A6721
 P 6650 15450
-F 0 "SW17" H 6950 15300 50  0000 C CNN
+F 0 "SW5A1" H 6950 15300 50  0000 C CNN
 F 1 " ESB30" H 6300 15400 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6650 15650 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 15650 50  0001 C CNN
@@ -1092,10 +1057,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6650 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW13
+L Switch:SW_Push_Dual SW4A1
 U 1 1 7E7A97C0
 P 5300 15400
-F 0 "SW13" H 5600 15250 50  0000 C CNN
+F 0 "SW4A1" H 5600 15250 50  0000 C CNN
 F 1 " ESB30" H 4950 15350 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5300 15600 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 15600 50  0001 C CNN
@@ -1103,10 +1068,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5300 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW9
+L Switch:SW_Push_Dual SW3A1
 U 1 1 7E9CD800
 P 3950 15350
-F 0 "SW9" H 4250 15200 50  0000 C CNN
+F 0 "SW3A1" H 4250 15200 50  0000 C CNN
 F 1 " ESB30" H 3600 15300 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 3950 15550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 15550 50  0001 C CNN
@@ -1114,10 +1079,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 3950 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW5
+L Switch:SW_Push_Dual SW2A1
 U 1 1 7E9D0F74
 P 2600 15300
-F 0 "SW5" H 2900 15150 50  0000 C CNN
+F 0 "SW2A1" H 2900 15150 50  0000 C CNN
 F 1 " ESB30" H 2250 15250 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2600 15500 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2600 15500 50  0001 C CNN
@@ -1304,164 +1269,158 @@ Entry Wire Line
 	21200 16750 21300 16650
 Entry Wire Line
 	21600 16750 21700 16650
-Text Label 950  16750 0    50   ~ 0
-D1B1
-Text Label 1350 16750 0    50   ~ 0
-D1B2
-Text Label 1350 15950 0    50   ~ 0
-D1A2
-Text Label 2300 15950 0    50   ~ 0
-D2A1
-Text Label 2700 15950 0    50   ~ 0
-D2A2
-Text Label 2300 16750 0    50   ~ 0
-D2B1
-Text Label 2700 16750 0    50   ~ 0
-D2B2
-Text Label 3650 15950 0    50   ~ 0
-D3A1
-Text Label 3650 16750 0    50   ~ 0
-D3B1
-Text Label 4050 15950 0    50   ~ 0
-D3A2
-Text Label 4050 16750 0    50   ~ 0
-D3B2
-Text Label 5000 15950 0    50   ~ 0
-D4A1
-Text Label 5400 15950 0    50   ~ 0
-D4A2
-Text Label 5000 16750 0    50   ~ 0
-D4B1
-Text Label 5400 16750 0    50   ~ 0
-B4B2
-Text Label 6350 15950 0    50   ~ 0
-D5A1
-Text Label 6750 15950 0    50   ~ 0
-D5A2
-Text Label 6350 16750 0    50   ~ 0
-D5B1
-Text Label 6750 16750 0    50   ~ 0
-D5B2
-Text Label 7700 15950 0    50   ~ 0
-D6A1
-Text Label 8100 15950 0    50   ~ 0
-D6A2
-Text Label 7700 16750 0    50   ~ 0
-D6B1
-Text Label 8100 16750 0    50   ~ 0
-D6B2
-Text Label 9050 15950 0    50   ~ 0
-D7A1
-Text Label 9450 15950 0    50   ~ 0
-D7A2
-Text Label 9050 16750 0    50   ~ 0
-D7B1
-Text Label 9450 16750 0    50   ~ 0
-D7B2
-Text Label 10400 15950 0    50   ~ 0
-D8A1
-Text Label 10800 15950 0    50   ~ 0
-D8A2
-Text Label 10400 16750 0    50   ~ 0
-D8B1
-Text Label 10800 16750 0    50   ~ 0
-D8B2
-Text Label 11750 15950 0    50   ~ 0
-D9A1
-Text Label 12150 15950 0    50   ~ 0
-D9A2
-Text Label 11750 16750 0    50   ~ 0
-D9B1
-Text Label 12150 16750 0    50   ~ 0
-D9B2
-Text Label 13100 15950 0    50   ~ 0
-D10A1
-Text Label 13100 16750 0    50   ~ 0
-D10B1
-Text Label 13500 16750 0    50   ~ 0
-D10B2
+Text Label 950  16450 0    50   ~ 0
+D1B
+Text Label 2300 16250 0    50   ~ 0
+D2A
+Text Label 3150 16050 0    50   ~ 0
+K2A
+Text Label 2300 16450 0    50   ~ 0
+D2B
+Text Label 3150 16650 0    50   ~ 0
+K2B
+Text Label 3650 16250 0    50   ~ 0
+D3A
+Text Label 3650 16450 0    50   ~ 0
+D3B
+Text Label 4500 16050 0    50   ~ 0
+K3A
+Text Label 4500 16650 0    50   ~ 0
+K3B
+Text Label 5000 16250 0    50   ~ 0
+D4A
+Text Label 5850 16050 0    50   ~ 0
+K4A
+Text Label 5000 16450 0    50   ~ 0
+D4B
+Text Label 5850 16650 0    50   ~ 0
+K4B
+Text Label 6350 16250 0    50   ~ 0
+D5A
+Text Label 7200 16050 0    50   ~ 0
+K5A
+Text Label 6350 16450 0    50   ~ 0
+D5B
+Text Label 7200 16650 0    50   ~ 0
+K5B
+Text Label 7700 16250 0    50   ~ 0
+D6A
+Text Label 8550 16050 0    50   ~ 0
+K6A
+Text Label 7700 16450 0    50   ~ 0
+D6B
+Text Label 8550 16650 0    50   ~ 0
+K6B
+Text Label 9050 16250 0    50   ~ 0
+D7A
+Text Label 9900 16050 0    50   ~ 0
+K7A
+Text Label 9050 16450 0    50   ~ 0
+D7B
+Text Label 9900 16650 0    50   ~ 0
+K7B
+Text Label 10400 16250 0    50   ~ 0
+D8A
+Text Label 11250 16050 0    50   ~ 0
+K8A
+Text Label 10400 16450 0    50   ~ 0
+D8B
+Text Label 11250 16650 0    50   ~ 0
+K8B
+Text Label 11750 16250 0    50   ~ 0
+D9A
+Text Label 12600 16050 0    50   ~ 0
+K9A
+Text Label 11750 16450 0    50   ~ 0
+D9B
+Text Label 12600 16650 0    50   ~ 0
+K9B
+Text Label 13100 16250 0    50   ~ 0
+D10A
+Text Label 13100 16450 0    50   ~ 0
+D10B
+Text Label 13950 16650 0    50   ~ 0
+K10B
 Entry Wire Line
 	13500 15950 13600 16050
-Text Label 13500 15950 0    50   ~ 0
-D10A2
-Text Label 14450 16750 0    50   ~ 0
-D11B1
-Text Label 14850 16750 0    50   ~ 0
-D11B2
-Text Label 14450 15950 0    50   ~ 0
-D11A1
-Text Label 14850 15950 0    50   ~ 0
-D11A2
-Text Label 15800 15950 0    50   ~ 0
-D12A1
-Text Label 16200 15950 0    50   ~ 0
-D12A2
-Text Label 15800 16750 0    50   ~ 0
-D12B1
-Text Label 16200 16750 0    50   ~ 0
-D12B2
-Text Label 17150 15950 0    50   ~ 0
-D13A1
-Text Label 17550 15950 0    50   ~ 0
-D13A2
-Text Label 17150 16750 0    50   ~ 0
-D13B1
-Text Label 17550 16750 0    50   ~ 0
-D13B2
-Text Label 18500 15950 0    50   ~ 0
-D14A1
-Text Label 18900 15950 0    50   ~ 0
-D14A2
-Text Label 18500 16750 0    50   ~ 0
-D14B1
-Text Label 18900 16750 0    50   ~ 0
-D14B2
-Text Label 19850 15950 0    50   ~ 0
-D15A1
-Text Label 20250 15950 0    50   ~ 0
-D15A2
-Text Label 19850 16750 0    50   ~ 0
-D15B1
-Text Label 20250 16750 0    50   ~ 0
-D15B2
-Text Label 21200 15950 0    50   ~ 0
-D16A1
-Text Label 21600 15950 0    50   ~ 0
-D16A2
-Text Label 21200 16750 0    50   ~ 0
-D16B1
-Text Label 21600 16750 0    50   ~ 0
-D16B2
-Text Label 23800 15250 1    50   ~ 0
-D2A1
-Text Label 23900 15250 1    50   ~ 0
-D3A1
-Text Label 24000 15250 1    50   ~ 0
-D4A1
-Text Label 24100 15250 1    50   ~ 0
-D5A1
-Text Label 24200 15250 1    50   ~ 0
-D6A1
-Text Label 24300 15250 1    50   ~ 0
-D7A1
-Text Label 24400 15250 1    50   ~ 0
-D8A1
-Text Label 23700 15950 3    50   ~ 0
-D1A2
-Text Label 23800 15950 3    50   ~ 0
-D2A2
-Text Label 23900 15950 3    50   ~ 0
-D3A2
-Text Label 24000 15950 3    50   ~ 0
-D4A2
-Text Label 24100 15950 3    50   ~ 0
-D5A2
-Text Label 24200 15950 3    50   ~ 0
-D6A2
-Text Label 24300 15950 3    50   ~ 0
-D7A2
-Text Label 24400 15950 3    50   ~ 0
-D8A2
+Text Label 13950 16050 0    50   ~ 0
+K10A
+Text Label 14450 16450 0    50   ~ 0
+D11B
+Text Label 15300 16650 0    50   ~ 0
+K11B
+Text Label 14450 16250 0    50   ~ 0
+D11A
+Text Label 15300 16050 0    50   ~ 0
+K11A
+Text Label 15800 16250 0    50   ~ 0
+D12A
+Text Label 16650 16050 0    50   ~ 0
+K12A
+Text Label 15800 16450 0    50   ~ 0
+D12B
+Text Label 16650 16650 0    50   ~ 0
+K12B
+Text Label 17150 16250 0    50   ~ 0
+D13A
+Text Label 18000 16050 0    50   ~ 0
+K13A
+Text Label 17150 16450 0    50   ~ 0
+D13B
+Text Label 18000 16650 0    50   ~ 0
+K13B
+Text Label 18500 16250 0    50   ~ 0
+D14A
+Text Label 19350 16050 0    50   ~ 0
+K14A
+Text Label 18500 16450 0    50   ~ 0
+D14B
+Text Label 19850 16250 0    50   ~ 0
+D15A
+Text Label 20700 16050 0    50   ~ 0
+K15A
+Text Label 19850 16450 0    50   ~ 0
+D15B
+Text Label 20700 16650 0    50   ~ 0
+K15B
+Text Label 21200 16250 0    50   ~ 0
+D16A
+Text Label 22050 16050 0    50   ~ 0
+K16A
+Text Label 21200 16450 0    50   ~ 0
+D16B
+Text Label 22050 16650 0    50   ~ 0
+K16B
+Text Label 23900 15400 1    50   ~ 0
+D9B
+Text Label 24000 15400 1    50   ~ 0
+D10A
+Text Label 24100 15400 1    50   ~ 0
+D10B
+Text Label 24200 15400 1    50   ~ 0
+D11A
+Text Label 24300 15400 1    50   ~ 0
+D11B
+Text Label 24400 15400 1    50   ~ 0
+D12A
+Text Label 24500 15400 1    50   ~ 0
+D12B
+Text Label 23800 15800 3    50   ~ 0
+K9A
+Text Label 23900 15800 3    50   ~ 0
+K9B
+Text Label 24000 15800 3    50   ~ 0
+K10A
+Text Label 24100 15800 3    50   ~ 0
+K10B
+Text Label 24200 15800 3    50   ~ 0
+K11A
+Text Label 24300 15800 3    50   ~ 0
+K11B
+Text Label 24400 15800 3    50   ~ 0
+K12A
+Text Label 24500 15800 3    50   ~ 0
+K12B
 Entry Wire Line
 	24550 15250 24650 15350
 Entry Wire Line
@@ -1505,42 +1464,34 @@ Entry Wire Line
 	25150 15950 25250 15850
 Entry Wire Line
 	25250 15950 25350 15850
-Text Label 24550 15250 1    50   ~ 0
-D9A1
-Text Label 24650 15250 1    50   ~ 0
-D10A1
-Text Label 24750 15250 1    50   ~ 0
-D11A1
-Text Label 24850 15250 1    50   ~ 0
-D12A1
-Text Label 24950 15250 1    50   ~ 0
-D13A1
-Text Label 25050 15250 1    50   ~ 0
-D14A1
-Text Label 25150 15250 1    50   ~ 0
-D15A1
-Text Label 25250 15250 1    50   ~ 0
-D16A1
-Text Label 24550 15950 3    50   ~ 0
-D9A2
-Text Label 24650 15950 3    50   ~ 0
-D10A2
-Text Label 24750 15950 3    50   ~ 0
-D11A2
-Text Label 24850 15950 3    50   ~ 0
-D12A2
-Text Label 24950 15950 3    50   ~ 0
-D13A2
-Text Label 25050 15950 3    50   ~ 0
-D14A2
-Text Label 23700 15250 1    50   ~ 0
-D1A1
-Text Label 950  15950 0    50   ~ 0
-D1A1
-Text Label 25150 15950 3    50   ~ 0
-D15A2
-Text Label 25250 15950 3    50   ~ 0
-D16A2
+Text Label 24650 15400 1    50   ~ 0
+D13A
+Text Label 24750 15400 1    50   ~ 0
+D13B
+Text Label 24850 15400 1    50   ~ 0
+D14A
+Text Label 24950 15400 1    50   ~ 0
+D14B
+Text Label 24650 15800 3    50   ~ 0
+K13A
+Text Label 24750 15800 3    50   ~ 0
+K13B
+Text Label 24850 15800 3    50   ~ 0
+K14A
+Text Label 24950 15800 3    50   ~ 0
+K14B
+Text Label 25050 15800 3    50   ~ 0
+K15A
+Text Label 25150 15800 3    50   ~ 0
+K15B
+Text Label 23800 15400 1    50   ~ 0
+D9A
+Text Label 950  16250 0    50   ~ 0
+D1A
+Text Label 25250 15800 3    50   ~ 0
+K16A
+Text Label 25350 15800 3    50   ~ 0
+K16B
 Entry Wire Line
 	23700 17450 23800 17350
 Entry Wire Line
@@ -1584,20 +1535,20 @@ Entry Wire Line
 	24300 16750 24400 16850
 Entry Wire Line
 	24400 16750 24500 16850
-Text Label 23800 17450 3    50   ~ 0
-D2B1
-Text Label 23900 17450 3    50   ~ 0
-D3B1
-Text Label 24000 17450 3    50   ~ 0
-D4B1
-Text Label 24100 17450 3    50   ~ 0
-D5B1
-Text Label 24200 17450 3    50   ~ 0
-D6B1
-Text Label 24300 17450 3    50   ~ 0
-D7B1
-Text Label 24400 17450 3    50   ~ 0
-D8B1
+Text Label 23900 17300 3    50   ~ 0
+D1B
+Text Label 24000 17300 3    50   ~ 0
+D2A
+Text Label 24100 17300 3    50   ~ 0
+D2B
+Text Label 24200 17300 3    50   ~ 0
+D3A
+Text Label 24300 17300 3    50   ~ 0
+D3B
+Text Label 24400 17300 3    50   ~ 0
+D4A
+Text Label 24500 17300 3    50   ~ 0
+D4B
 Entry Wire Line
 	24550 17450 24650 17350
 Entry Wire Line
@@ -1641,69 +1592,54 @@ Entry Wire Line
 	25150 16750 25250 16850
 Entry Wire Line
 	25250 16750 25350 16850
-Text Label 24550 17450 3    50   ~ 0
-D9B1
-Text Label 24650 17450 3    50   ~ 0
-D10B1
-Text Label 24750 17450 3    50   ~ 0
-D11B1
-Text Label 24850 17450 3    50   ~ 0
-D12B1
-Text Label 24950 17450 3    50   ~ 0
-D13B1
-Text Label 25050 17450 3    50   ~ 0
-D14B1
-Text Label 25150 17450 3    50   ~ 0
-D15B1
-Text Label 25250 17450 3    50   ~ 0
-D16B1
-Text Label 23700 17450 3    50   ~ 0
-D1B1
-Text Label 23800 16750 1    50   ~ 0
-D2B2
-Text Label 23900 16750 1    50   ~ 0
-D3B2
-Text Label 24000 16750 1    50   ~ 0
-D4B2
-Text Label 24100 16750 1    50   ~ 0
-D5B2
-Text Label 24200 16750 1    50   ~ 0
-D6B2
-Text Label 24300 16750 1    50   ~ 0
-D7B2
-Text Label 24400 16750 1    50   ~ 0
-D8B2
-Text Label 24550 16750 1    50   ~ 0
-D9B2
-Text Label 24650 16750 1    50   ~ 0
-D10B2
-Text Label 24750 16750 1    50   ~ 0
-D11B2
-Text Label 24850 16750 1    50   ~ 0
-D12B2
-Text Label 24950 16750 1    50   ~ 0
-D13B2
-Text Label 25050 16750 1    50   ~ 0
-D14B2
-Text Label 25150 16750 1    50   ~ 0
-D15B2
-Text Label 25250 16750 1    50   ~ 0
-D16B2
-Text Label 23700 16750 1    50   ~ 0
-D1B2
-$Comp
-L BoatControl:SS73100-047F J3
-U 1 1 5E941411
-P 5100 14600
-F 0 "J3" V 5771 17777 50  0000 L CNN
-F 1 "SS73100-047F" V 5680 17777 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 5250 14300 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 14150 50  0001 L BNN
-F 4 "Stewart Connector" H 5300 13950 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 14600 50  0001 C CNN "Dimensions"
-	1    5100 14600
-	0    -1   -1   0   
-$EndComp
+Text Label 24650 17300 3    50   ~ 0
+D5A
+Text Label 24750 17300 3    50   ~ 0
+D5B
+Text Label 24850 17300 3    50   ~ 0
+D6A
+Text Label 24950 17300 3    50   ~ 0
+D6B
+Text Label 25050 17300 3    50   ~ 0
+D7A
+Text Label 25150 17300 3    50   ~ 0
+D7B
+Text Label 25250 17300 3    50   ~ 0
+D8A
+Text Label 25350 17300 3    50   ~ 0
+D8B
+Text Label 23800 17300 3    50   ~ 0
+D1A
+Text Label 23900 16900 1    50   ~ 0
+K1B
+Text Label 24000 16900 1    50   ~ 0
+K2A
+Text Label 24100 16900 1    50   ~ 0
+K2B
+Text Label 24200 16900 1    50   ~ 0
+K3A
+Text Label 24300 16900 1    50   ~ 0
+K3B
+Text Label 24400 16900 1    50   ~ 0
+K4A
+Text Label 24500 16900 1    50   ~ 0
+K4B
+Text Label 24650 16900 1    50   ~ 0
+K5A
+Text Label 24750 16900 1    50   ~ 0
+K5B
+Text Label 24850 16900 1    50   ~ 0
+K6A
+Text Label 24950 16900 1    50   ~ 0
+K6B
+Text Label 25050 16900 1    50   ~ 0
+K7A
+Text Label 25250 16900 1    50   ~ 0
+K8A
+Text Label 25350 16900 1    50   ~ 0
+K8B
+Text Label 23800 16900 1    50   ~ 0
+K1A
 Entry Wire Line
 	2050 13100 2150 13200
 Entry Wire Line
@@ -1908,132 +1844,58 @@ F 4 "CUI" H 11850 22600 50  0001 L BNN "Field4"
 $EndComp
 Entry Wire Line
 	1350 15250 1450 15150
-Text Label 1450 15150 0    50   ~ 0
-XA1
-Text Label 2800 15300 0    50   ~ 0
-XA2
-Text Label 4150 15350 0    50   ~ 0
-XA3
-Text Label 5500 15400 0    50   ~ 0
-XA4
-Text Label 6850 15450 0    50   ~ 0
-XA5
-Text Label 8200 15500 0    50   ~ 0
-XA6
-Text Label 9550 15550 0    50   ~ 0
-XA7
-Text Label 10900 15600 0    50   ~ 0
-XA8
-Text Label 12250 15600 0    50   ~ 0
-XA9
-Text Label 13600 15600 0    50   ~ 0
-XA10
-Text Label 14950 15550 0    50   ~ 0
-XA11
-Text Label 16300 15500 0    50   ~ 0
-XA12
-Text Label 17650 15450 0    50   ~ 0
-XA13
-Text Label 19000 15400 0    50   ~ 0
-XA14
-Text Label 20350 15350 0    50   ~ 0
-X15
-Text Label 21700 15300 0    50   ~ 0
-X1A6
-Text Label 2150 14750 0    50   ~ 0
-XA1
-Text Label 2350 14750 0    50   ~ 0
-XB1
-Text Label 2550 14750 0    50   ~ 0
-XA2
-Text Label 2750 14750 0    50   ~ 0
-XB2
-Text Label 3050 14750 0    50   ~ 0
-XA3
-Text Label 3250 14750 0    50   ~ 0
-XB3
-Text Label 3450 14750 0    50   ~ 0
-XA4
-Text Label 3650 14750 0    50   ~ 0
-XB4
-Text Label 3950 14750 0    50   ~ 0
-XA5
-Text Label 4150 14750 0    50   ~ 0
-XB5
-Text Label 4350 14750 0    50   ~ 0
-XA6
-Text Label 4550 14750 0    50   ~ 0
-XB6
-Text Label 4850 14750 0    50   ~ 0
-XA7
-Text Label 5050 14750 0    50   ~ 0
-XB7
-Text Label 5250 14750 0    50   ~ 0
-XA8
-Text Label 5450 14750 0    50   ~ 0
-XB8
-Text Label 1450 17650 0    50   ~ 0
-XB1
-Text Label 2800 17600 0    50   ~ 0
-XB2
-Text Label 4150 17550 0    50   ~ 0
-XB3
-Text Label 5500 17500 0    50   ~ 0
-XB4
-Text Label 6850 17450 0    50   ~ 0
-XB5
-Text Label 8200 17400 0    50   ~ 0
-XB6
-Text Label 9550 17350 0    50   ~ 0
-XB7
-Text Label 10900 17300 0    50   ~ 0
-XB8
-Text Label 12250 17250 0    50   ~ 0
-XB9
-Text Label 13600 17300 0    50   ~ 0
-XB10
-Text Label 14950 17350 0    50   ~ 0
-XB11
-Text Label 16300 17400 0    50   ~ 0
-XB12
-Text Label 17650 17450 0    50   ~ 0
-XB13
-Text Label 19000 17500 0    50   ~ 0
-XB14
-Text Label 20350 17550 0    50   ~ 0
-XB15
-Text Label 21700 17600 0    50   ~ 0
-XB16
-Text Label 5750 14750 0    50   ~ 0
-XA9
-Text Label 5950 14750 0    50   ~ 0
-XB9
-Text Label 6150 14750 0    50   ~ 0
-XA10
-Text Label 6350 14750 0    50   ~ 0
-XB10
-Text Label 6650 14750 0    50   ~ 0
-XA11
-Text Label 7050 14750 0    50   ~ 0
-XA12
-Text Label 7250 14750 0    50   ~ 0
-XB12
-Text Label 7550 14750 0    50   ~ 0
-XA13
-Text Label 7750 14750 0    50   ~ 0
-XB13
-Text Label 7950 14750 0    50   ~ 0
-XA14
-Text Label 8150 14750 0    50   ~ 0
-XB14
-Text Label 8450 14750 0    50   ~ 0
-XB15
-Text Label 8650 14750 0    50   ~ 0
-XB15
-Text Label 8850 14750 0    50   ~ 0
-XA16
-Text Label 9050 14750 0    50   ~ 0
-XB16
+Text Label 2100 14700 3    50   ~ 0
+K1A
+Text Label 2500 14700 3    50   ~ 0
+K2A
+Text Label 2700 14700 3    50   ~ 0
+K2B
+Text Label 3000 14700 3    50   ~ 0
+K3A
+Text Label 3200 14700 3    50   ~ 0
+K3B
+Text Label 3400 14700 3    50   ~ 0
+K4A
+Text Label 3600 14700 3    50   ~ 0
+K4B
+Text Label 3900 14700 3    50   ~ 0
+K5A
+Text Label 4100 14700 3    50   ~ 0
+K5B
+Text Label 4500 14700 3    50   ~ 0
+K6B
+Text Label 4800 14700 3    50   ~ 0
+K7A
+Text Label 5000 14700 3    50   ~ 0
+K7B
+Text Label 5200 14700 3    50   ~ 0
+K8A
+Text Label 5400 14700 3    50   ~ 0
+K8B
+Text Label 5700 14700 3    50   ~ 0
+K9A
+Text Label 5900 14700 3    50   ~ 0
+K9B
+Text Label 6100 14700 3    50   ~ 0
+K10A
+Text Label 6300 14700 3    50   ~ 0
+K10B
+Text Label 6600 14700 3    50   ~ 0
+K11A
+Text Label 7000 14700 3    50   ~ 0
+K12A
+Text Label 7200 14700 3    50   ~ 0
+K12B
+Text Label 7500 14700 3    50   ~ 0
+K13A
+Text Label 7900 14700 3    50   ~ 0
+K14A
+Text Label 8600 14700 3    50   ~ 0
+K15B
+Text Label 8400 14700 3    50   ~ 0
+K15A
+Text Label 8800 14700 3    50   ~ 0
+K16A
 $Comp
 L Jumper:SolderJumper_2_Open JP16
 U 1 1 6E6A91D9
@@ -2057,10 +1919,10 @@ F 3 "~" H 11250 20600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D13
+L Device:LED_Dual_ACA D7
 U 1 1 7A297BAB
 P 9350 16350
-F 0 "D13" H 9200 16550 50  0000 C CNN
+F 0 "D7" H 9200 16550 50  0000 C CNN
 F 1 "MV5438" H 9300 16100 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 9350 16350 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 9350 16350 50  0001 C CNN
@@ -2090,10 +1952,10 @@ F 3 "~" H 11200 11250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D4
+L Device:LED_Dual_ACA D18
 U 1 1 70FC1597
 P 2650 7050
-F 0 "D4" H 2450 6900 50  0000 C CNN
+F 0 "D18" H 2450 6900 50  0000 C CNN
 F 1 "MV5438" H 2650 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 2650 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 2650 7050 50  0001 C CNN
@@ -2101,10 +1963,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K2
+L BoatControl:G5RL-K1A-E-DC12 K17
 U 1 1 70FC15AC
 P 1950 7050
-F 0 "K2" H 2000 7050 50  0000 L CNN
+F 0 "K17" H 2000 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 2150 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 2350 7200 50  0001 L BNN
 F 3 "Omron" H 2350 7300 50  0001 L BNN
@@ -2112,10 +1974,10 @@ F 3 "Omron" H 2350 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K4
+L BoatControl:G5RL-K1A-E-DC12 K18
 U 1 1 70FC15B6
 P 3300 7050
-F 0 "K4" H 3350 7050 50  0000 L CNN
+F 0 "K18" H 3350 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 3500 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 3700 7200 50  0001 L BNN
 F 3 "Omron" H 3700 7300 50  0001 L BNN
@@ -2178,10 +2040,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 11650 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K18
+L BoatControl:G5RL-K1A-E-DC12 K25
 U 1 1 70FC16B0
 P 12750 7050
-F 0 "K18" H 12800 7050 50  0000 L CNN
+F 0 "K25" H 12800 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 12950 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 13150 7200 50  0001 L BNN
 F 3 "Omron" H 13150 7300 50  0001 L BNN
@@ -2189,10 +2051,10 @@ F 3 "Omron" H 13150 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K20
+L BoatControl:G5RL-K1A-E-DC12 K26
 U 1 1 70FC16BA
 P 14100 7050
-F 0 "K20" H 14150 7050 50  0000 L CNN
+F 0 "K26" H 14150 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 14300 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 14500 7200 50  0001 L BNN
 F 3 "Omron" H 14500 7300 50  0001 L BNN
@@ -2200,10 +2062,10 @@ F 3 "Omron" H 14500 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K24
+L BoatControl:G5RL-K1A-E-DC12 K28
 U 1 1 70FC16CE
 P 16800 7050
-F 0 "K24" H 16850 7050 50  0000 L CNN
+F 0 "K28" H 16850 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 17000 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 17200 7200 50  0001 L BNN
 F 3 "Omron" H 17200 7300 50  0001 L BNN
@@ -2211,21 +2073,10 @@ F 3 "Omron" H 17200 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K26
-U 1 1 70FC16D8
-P 18150 7050
-F 0 "K26" H 18200 7050 50  0000 L CNN
-F 1 "G5RL-K1A-E-DC12" H 18350 6700 50  0000 L CNN
-F 2 "RELAY_G5RL-K1A-E-DC12" H 18550 7200 50  0001 L BNN
-F 3 "Omron" H 18550 7300 50  0001 L BNN
-	1    18150 7050
-	1    0    0    1   
-$EndComp
-$Comp
-L BoatControl:G5RL-K1A-E-DC12 K28
+L BoatControl:G5RL-K1A-E-DC12 K30
 U 1 1 70FC16E2
 P 19500 7050
-F 0 "K28" H 19550 7050 50  0000 L CNN
+F 0 "K30" H 19550 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 19700 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 19900 7200 50  0001 L BNN
 F 3 "Omron" H 19900 7300 50  0001 L BNN
@@ -2244,10 +2095,10 @@ F 3 "Omron" H 21250 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K16
+L BoatControl:G5RL-K1A-E-DC12 K24
 U 1 1 70FC16F6
 P 11400 7050
-F 0 "K16" H 11450 7050 50  0000 L CNN
+F 0 "K24" H 11450 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 11600 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 11800 7200 50  0001 L BNN
 F 3 "Omron" H 11800 7300 50  0001 L BNN
@@ -2255,10 +2106,10 @@ F 3 "Omron" H 11800 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K14
+L BoatControl:G5RL-K1A-E-DC12 K23
 U 1 1 70FC1700
 P 10050 7050
-F 0 "K14" H 10100 7050 50  0000 L CNN
+F 0 "K23" H 10100 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 10250 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 10450 7200 50  0001 L BNN
 F 3 "Omron" H 10450 7300 50  0001 L BNN
@@ -2266,10 +2117,10 @@ F 3 "Omron" H 10450 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K12
+L BoatControl:G5RL-K1A-E-DC12 K22
 U 1 1 70FC170A
 P 8700 7050
-F 0 "K12" H 8750 7050 50  0000 L CNN
+F 0 "K22" H 8750 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 8900 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 9100 7200 50  0001 L BNN
 F 3 "Omron" H 9100 7300 50  0001 L BNN
@@ -2277,10 +2128,10 @@ F 3 "Omron" H 9100 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K10
+L BoatControl:G5RL-K1A-E-DC12 K21
 U 1 1 70FC1714
 P 7350 7050
-F 0 "K10" H 7400 7050 50  0000 L CNN
+F 0 "K21" H 7400 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 7600 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 7750 7200 50  0001 L BNN
 F 3 "Omron" H 7750 7300 50  0001 L BNN
@@ -2288,10 +2139,10 @@ F 3 "Omron" H 7750 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K8
+L BoatControl:G5RL-K1A-E-DC12 K20
 U 1 1 70FC171E
 P 6000 7050
-F 0 "K8" H 6050 7050 50  0000 L CNN
+F 0 "K20" H 6050 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 6250 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 6400 7200 50  0001 L BNN
 F 3 "Omron" H 6400 7300 50  0001 L BNN
@@ -2299,21 +2150,21 @@ F 3 "Omron" H 6400 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K6
+L BoatControl:G5RL-K1A-E-DC12 K19
 U 1 1 70FC1728
 P 4650 7050
-F 0 "K6" H 4700 7050 50  0000 L CNN
-F 1 "G5RL-K1A-E-DC12" H 4300 6700 50  0000 L CNN
+F 0 "K19" H 4700 7050 50  0000 L CNN
+F 1 "G5RL-K1A-E-DC12" H 4850 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 5050 7200 50  0001 L BNN
 F 3 "Omron" H 5050 7300 50  0001 L BNN
 	1    4650 7050
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K34
+L BoatControl:G5RL-K1A-E-DC12 K32
 U 1 1 70FC1732
 P 22200 7050
-F 0 "K34" H 22250 7050 50  0000 L CNN
+F 0 "K32" H 22250 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 22400 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 22600 7200 50  0001 L BNN
 F 3 "Omron" H 22600 7300 50  0001 L BNN
@@ -2321,10 +2172,10 @@ F 3 "Omron" H 22600 7300 50  0001 L BNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D6
+L Device:LED_Dual_ACA D19
 U 1 1 70FC173C
 P 4000 7050
-F 0 "D6" H 3800 6900 50  0000 C CNN
+F 0 "D19" H 3800 6900 50  0000 C CNN
 F 1 "MV5438" H 4000 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 4000 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 4000 7050 50  0001 C CNN
@@ -2332,10 +2183,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D8
+L Device:LED_Dual_ACA D20
 U 1 1 70FC1746
 P 5350 7050
-F 0 "D8" H 5150 6900 50  0000 C CNN
+F 0 "D20" H 5150 6900 50  0000 C CNN
 F 1 "MV5438" H 5350 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 5350 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 5350 7050 50  0001 C CNN
@@ -2343,10 +2194,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D10
+L Device:LED_Dual_ACA D21
 U 1 1 70FC1750
 P 6700 7050
-F 0 "D10" H 6500 6900 50  0000 C CNN
+F 0 "D21" H 6500 6900 50  0000 C CNN
 F 1 "MV5438" H 6700 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6700 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 6700 7050 50  0001 C CNN
@@ -2354,10 +2205,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D12
+L Device:LED_Dual_ACA D22
 U 1 1 70FC175A
 P 8050 7050
-F 0 "D12" H 7850 6900 50  0000 C CNN
+F 0 "D22" H 7850 6900 50  0000 C CNN
 F 1 "MV5438" H 8050 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 8050 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 8050 7050 50  0001 C CNN
@@ -2365,10 +2216,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D16
+L Device:LED_Dual_ACA D24
 U 1 1 70FC1764
 P 10750 7050
-F 0 "D16" H 10550 6900 50  0000 C CNN
+F 0 "D24" H 10550 6900 50  0000 C CNN
 F 1 "MV5438" H 10700 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 10750 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 10750 7050 50  0001 C CNN
@@ -2376,10 +2227,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D18
+L Device:LED_Dual_ACA D25
 U 1 1 70FC176E
 P 12100 7050
-F 0 "D18" H 11900 6900 50  0000 C CNN
+F 0 "D25" H 11900 6900 50  0000 C CNN
 F 1 "MV5438" H 12050 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 12100 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 12100 7050 50  0001 C CNN
@@ -2387,10 +2238,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D20
+L Device:LED_Dual_ACA D26
 U 1 1 70FC1778
 P 13450 7050
-F 0 "D20" H 13250 6900 50  0000 C CNN
+F 0 "D26" H 13250 6900 50  0000 C CNN
 F 1 "MV5438" H 13400 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 13450 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 13450 7050 50  0001 C CNN
@@ -2398,10 +2249,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D22
+L Device:LED_Dual_ACA D27
 U 1 1 70FC1782
 P 14800 7050
-F 0 "D22" H 14800 7475 50  0000 C CNN
+F 0 "D27" H 14600 6900 50  0000 C CNN
 F 1 "MV5438" H 14750 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 14800 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 14800 7050 50  0001 C CNN
@@ -2409,10 +2260,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D24
+L Device:LED_Dual_ACA D28
 U 1 1 70FC178C
 P 16150 7050
-F 0 "D24" H 15950 6900 50  0000 C CNN
+F 0 "D28" H 15950 6900 50  0000 C CNN
 F 1 "MV5438" H 16100 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 16150 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 16150 7050 50  0001 C CNN
@@ -2420,10 +2271,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D26
+L Device:LED_Dual_ACA D29
 U 1 1 70FC1796
 P 17500 7050
-F 0 "D26" H 17300 6900 50  0000 C CNN
+F 0 "D29" H 17300 6900 50  0000 C CNN
 F 1 "MV5438" H 17450 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 17500 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 17500 7050 50  0001 C CNN
@@ -2431,10 +2282,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D28
+L Device:LED_Dual_ACA D30
 U 1 1 70FC17A0
 P 18850 7050
-F 0 "D28" H 18650 6900 50  0000 C CNN
+F 0 "D30" H 18650 6900 50  0000 C CNN
 F 1 "MV5438" H 18800 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 18850 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 18850 7050 50  0001 C CNN
@@ -2442,10 +2293,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D30
+L Device:LED_Dual_ACA D31
 U 1 1 70FC17AA
 P 20200 7050
-F 0 "D30" H 20000 6900 50  0000 C CNN
+F 0 "D31" H 20000 6900 50  0000 C CNN
 F 1 "MV5438" H 20150 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20200 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20200 7050 50  0001 C CNN
@@ -2453,10 +2304,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D33
+L Device:LED_Dual_ACA D32
 U 1 1 70FC17B4
 P 21550 7050
-F 0 "D33" H 21350 6900 50  0000 C CNN
+F 0 "D32" H 21350 6900 50  0000 C CNN
 F 1 "MV5438" H 21500 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 21550 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 21550 7050 50  0001 C CNN
@@ -2475,10 +2326,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 12550 4950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW3
+L Switch:SW_Push_Dual SW17B1
 U 1 1 70FC1897
 P 1300 5750
-F 0 "SW3" H 1300 6035 50  0000 C CNN
+F 0 "SW17B1" H 1300 6035 50  0000 C CNN
 F 1 " ESB30" H 1300 5944 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1300 5950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 5950 50  0001 C CNN
@@ -2486,10 +2337,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 5
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW7
+L Switch:SW_Push_Dual SW18B1
 U 1 1 70FC18A3
 P 2650 5800
-F 0 "SW7" H 2750 5900 50  0000 C CNN
+F 0 "SW18B1" H 2750 5900 50  0000 C CNN
 F 1 " ESB30" H 2650 5994 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2650 6000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 6000 50  0001 C CNN
@@ -2497,10 +2348,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW11
+L Switch:SW_Push_Dual SW19B1
 U 1 1 70FC18B0
 P 4000 5850
-F 0 "SW11" H 4100 5950 50  0000 C CNN
+F 0 "SW19B1" H 4100 5950 50  0000 C CNN
 F 1 " ESB30" H 4000 6044 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 4000 6050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 6050 50  0001 C CNN
@@ -2508,10 +2359,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW15
+L Switch:SW_Push_Dual SW20B1
 U 1 1 70FC18BA
 P 5350 5900
-F 0 "SW15" H 5450 6000 50  0000 C CNN
+F 0 "SW20B1" H 5450 6000 50  0000 C CNN
 F 1 " ESB30" H 5350 6094 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5350 6100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 6100 50  0001 C CNN
@@ -2519,10 +2370,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW19
+L Switch:SW_Push_Dual SW21B1
 U 1 1 70FC18C4
 P 6700 5950
-F 0 "SW19" H 6800 6050 50  0000 C CNN
+F 0 "SW21B1" H 6800 6050 50  0000 C CNN
 F 1 " ESB30" H 6700 6144 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6700 6150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 6150 50  0001 C CNN
@@ -2530,10 +2381,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW23
+L Switch:SW_Push_Dual SW22B1
 U 1 1 70FC18D9
 P 8050 6000
-F 0 "SW23" H 8150 6100 50  0000 C CNN
+F 0 "SW22B1" H 8150 6100 50  0000 C CNN
 F 1 " ESB30" H 8050 6194 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8050 6200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 6200 50  0001 C CNN
@@ -2541,10 +2392,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW27
+L Switch:SW_Push_Dual SW23B1
 U 1 1 70FC18E4
 P 9400 6050
-F 0 "SW27" H 9500 6150 50  0000 C CNN
+F 0 "SW23B1" H 9500 6150 50  0000 C CNN
 F 1 " ESB30" H 9400 6244 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9400 6250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 6250 50  0001 C CNN
@@ -2552,10 +2403,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 6
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW31
+L Switch:SW_Push_Dual SW24B1
 U 1 1 70FC18EF
 P 10750 6100
-F 0 "SW31" H 10850 6200 50  0000 C CNN
+F 0 "SW24B1" H 10850 6200 50  0000 C CNN
 F 1 " ESB30" H 10750 6294 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10750 6300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 6300 50  0001 C CNN
@@ -2563,10 +2414,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW35
+L Switch:SW_Push_Dual SW25B1
 U 1 1 70FC1920
 P 12100 6150
-F 0 "SW35" H 12200 6250 50  0000 C CNN
+F 0 "SW25B1" H 12200 6250 50  0000 C CNN
 F 1 " ESB30" H 12100 6344 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12100 6350 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 6350 50  0001 C CNN
@@ -2574,10 +2425,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW39
+L Switch:SW_Push_Dual SW26B1
 U 1 1 70FC1932
 P 13450 6100
-F 0 "SW39" H 13550 6200 50  0000 C CNN
+F 0 "SW26B1" H 13550 6200 50  0000 C CNN
 F 1 " ESB30" H 13450 6294 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13450 6300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 6300 50  0001 C CNN
@@ -2585,10 +2436,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW43
+L Switch:SW_Push_Dual SW27B1
 U 1 1 70FC193C
 P 14800 6050
-F 0 "SW43" H 14900 6150 50  0000 C CNN
+F 0 "SW27B1" H 14900 6150 50  0000 C CNN
 F 1 " ESB30" H 14800 6244 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14800 6250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 6250 50  0001 C CNN
@@ -2596,10 +2447,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW47
+L Switch:SW_Push_Dual SW28B1
 U 1 1 70FC1946
 P 16150 6000
-F 0 "SW47" H 16250 6100 50  0000 C CNN
+F 0 "SW28B1" H 16250 6100 50  0000 C CNN
 F 1 " ESB30" H 16150 6200 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16150 6200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 6200 50  0001 C CNN
@@ -2607,10 +2458,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW51
+L Switch:SW_Push_Dual SW29B1
 U 1 1 70FC1950
 P 17500 5950
-F 0 "SW51" H 17600 6050 50  0000 C CNN
+F 0 "SW29B1" H 17600 6050 50  0000 C CNN
 F 1 " ESB30" H 17500 6150 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17500 6150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 6150 50  0001 C CNN
@@ -2618,10 +2469,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW55
+L Switch:SW_Push_Dual SW30B1
 U 1 1 70FC195A
 P 18850 5900
-F 0 "SW55" H 18950 6000 50  0000 C CNN
+F 0 "SW30B1" H 18950 6000 50  0000 C CNN
 F 1 " ESB30" H 18850 6100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18850 6100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 6100 50  0001 C CNN
@@ -2629,10 +2480,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW61
+L Switch:SW_Push_Dual SW31
 U 1 1 70FC1964
 P 20200 5850
-F 0 "SW61" H 20300 5950 50  0000 C CNN
+F 0 "SW31" H 20300 5950 50  0000 C CNN
 F 1 " ESB30" H 20200 6050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20200 6050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 6050 50  0001 C CNN
@@ -2640,10 +2491,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW65
+L Switch:SW_Push_Dual SW32B1
 U 1 1 70FC196E
 P 21550 5800
-F 0 "SW65" H 21650 5900 50  0000 C CNN
+F 0 "SW32B1" H 21650 5900 50  0000 C CNN
 F 1 " ESB30" H 21550 6000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21550 6000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 6000 50  0001 C CNN
@@ -2651,10 +2502,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW40
+L Switch:SW_Push_Dual SW26A1
 U 1 1 70FC1A1C
 P 13450 7800
-F 0 "SW40" H 13550 7900 50  0000 C CNN
+F 0 "SW26A1" H 13550 7900 50  0000 C CNN
 F 1 " ESB30" H 13100 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 13450 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 8000 50  0001 C CNN
@@ -2662,10 +2513,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 13450 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW44
+L Switch:SW_Push_Dual SW27A1
 U 1 1 70FC1A2D
 P 14800 7850
-F 0 "SW44" H 14900 7950 50  0000 C CNN
+F 0 "SW27A1" H 14900 7950 50  0000 C CNN
 F 1 " ESB30" H 14450 7800 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 14800 8050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 8050 50  0001 C CNN
@@ -2673,10 +2524,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 14800 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW48
+L Switch:SW_Push_Dual SW28A1
 U 1 1 70FC1A3B
 P 16150 7900
-F 0 "SW48" H 16250 8000 50  0000 C CNN
+F 0 "SW28A1" H 16250 8000 50  0000 C CNN
 F 1 " ESB30" H 15800 7850 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 16150 8100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 8100 50  0001 C CNN
@@ -2684,10 +2535,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 16150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW52
+L Switch:SW_Push_Dual SW29A1
 U 1 1 70FC1A45
 P 17500 7950
-F 0 "SW52" H 17600 8050 50  0000 C CNN
+F 0 "SW29A1" H 17600 8050 50  0000 C CNN
 F 1 " ESB30" H 17150 7900 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 17500 8150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 8150 50  0001 C CNN
@@ -2695,10 +2546,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 17500 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW56
+L Switch:SW_Push_Dual SW30A1
 U 1 1 70FC1A4F
 P 18850 8000
-F 0 "SW56" H 18950 8100 50  0000 C CNN
+F 0 "SW30A1" H 18950 8100 50  0000 C CNN
 F 1 " ESB30" H 18500 7950 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 18850 8200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 8200 50  0001 C CNN
@@ -2706,10 +2557,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 18850 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW62
+L Switch:SW_Push_Dual SW21A2
 U 1 1 70FC1A59
 P 20200 8050
-F 0 "SW62" H 20300 8150 50  0000 C CNN
+F 0 "SW21A2" H 20300 8150 50  0000 C CNN
 F 1 " ESB30" H 19850 8000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20200 8250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 8250 50  0001 C CNN
@@ -2717,10 +2568,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20200 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW36
+L Switch:SW_Push_Dual SW25A1
 U 1 1 70FC1A7D
 P 12100 7800
-F 0 "SW36" H 12000 7900 50  0000 C CNN
+F 0 "SW25A1" H 12000 7900 50  0000 C CNN
 F 1 " ESB30" H 11750 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 12100 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 8000 50  0001 C CNN
@@ -2728,10 +2579,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 12100 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW32
+L Switch:SW_Push_Dual SW24A1
 U 1 1 70FC1A8B
 P 10750 7800
-F 0 "SW32" H 10850 7900 50  0000 C CNN
+F 0 "SW24A1" H 10850 7900 50  0000 C CNN
 F 1 " ESB30" H 10400 7750 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10750 8000 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 8000 50  0001 C CNN
@@ -2739,10 +2590,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW28
+L Switch:SW_Push_Dual SW23A1
 U 1 1 70FC1A99
 P 9400 7850
-F 0 "SW28" H 9500 7950 50  0000 C CNN
+F 0 "SW23A1" H 9500 7950 50  0000 C CNN
 F 1 " ESB30" H 9050 7800 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 9400 8050 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 8050 50  0001 C CNN
@@ -2750,10 +2601,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9400 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW66
+L Switch:SW_Push_Dual SW32A1
 U 1 1 70FC1AA8
 P 21550 8100
-F 0 "SW66" H 21650 8200 50  0000 C CNN
+F 0 "SW32A1" H 21650 8200 50  0000 C CNN
 F 1 " ESB30" H 21200 8050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21550 8300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 8300 50  0001 C CNN
@@ -2761,10 +2612,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW24
+L Switch:SW_Push_Dual SW22A1
 U 1 1 70FC1AC8
 P 8050 7900
-F 0 "SW24" H 8150 8000 50  0000 C CNN
+F 0 "SW22A1" H 8150 8000 50  0000 C CNN
 F 1 " ESB30" H 7700 7850 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 8050 8100 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 8100 50  0001 C CNN
@@ -2772,10 +2623,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 8050 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW20
+L Switch:SW_Push_Dual SW21A1
 U 1 1 70FC1AD3
 P 6700 7950
-F 0 "SW20" H 6800 8050 50  0000 C CNN
+F 0 "SW21A1" H 6800 8050 50  0000 C CNN
 F 1 " ESB30" H 6350 7900 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 6700 8150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 8150 50  0001 C CNN
@@ -2783,10 +2634,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 6700 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW16
+L Switch:SW_Push_Dual SW20A1
 U 1 1 70FC1ADE
 P 5350 8000
-F 0 "SW16" H 5450 8100 50  0000 C CNN
+F 0 "SW20A1" H 5450 8100 50  0000 C CNN
 F 1 " ESB30" H 5000 7950 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5350 8200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 8200 50  0001 C CNN
@@ -2794,10 +2645,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5350 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW12
+L Switch:SW_Push_Dual SW19A1
 U 1 1 70FC1AF3
 P 4000 8050
-F 0 "SW12" H 4100 8150 50  0000 C CNN
+F 0 "SW19A1" H 4100 8150 50  0000 C CNN
 F 1 " ESB30" H 3650 8000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 4000 8250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 8250 50  0001 C CNN
@@ -2805,10 +2656,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 4000 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW8
+L Switch:SW_Push_Dual SW18A1
 U 1 1 70FC1AFE
 P 2650 8100
-F 0 "SW8" H 2750 8200 50  0000 C CNN
+F 0 "SW18A1" H 2750 8200 50  0000 C CNN
 F 1 " ESB30" H 2300 8050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 2650 8300 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 8300 50  0001 C CNN
@@ -2816,10 +2667,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 2650 8
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW4
+L Switch:SW_Push_Dual SW17A1
 U 1 1 70FC1B09
 P 1300 8250
-F 0 "SW4" H 1400 8350 50  0000 C CNN
+F 0 "SW17A1" H 1400 8350 50  0000 C CNN
 F 1 " ESB30" H 950 8200 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1300 8450 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1300 8450 50  0001 C CNN
@@ -2889,10 +2740,10 @@ Entry Wire Line
 Entry Wire Line
 	13150 7450 13250 7350
 $Comp
-L Device:LED_Dual_ACA D2
+L Device:LED_Dual_ACA D17
 U 1 1 70FC1BAA
 P 1300 7050
-F 0 "D2" H 1100 6900 50  0000 C CNN
+F 0 "D17" H 1100 6900 50  0000 C CNN
 F 1 "MV5438" H 1250 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 1300 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 1300 7050 50  0001 C CNN
@@ -3006,156 +2857,152 @@ Entry Wire Line
 	21250 6650 21350 6750
 Entry Wire Line
 	21650 6650 21750 6750
-Text Label 2350 7450 0    50   ~ 0
-D2A1
-Text Label 2750 7450 0    50   ~ 0
-D2A2
-Text Label 2350 6650 0    50   ~ 0
-D2B1
-Text Label 2750 6650 0    50   ~ 0
-D2B2
-Text Label 3700 7450 0    50   ~ 0
-D3A1
-Text Label 3700 6650 0    50   ~ 0
-D3B1
-Text Label 4100 7450 0    50   ~ 0
-D3A2
-Text Label 4100 6650 0    50   ~ 0
-D3B2
-Text Label 5050 7450 0    50   ~ 0
-D4A1
-Text Label 5450 7450 0    50   ~ 0
-D4A2
-Text Label 5050 6650 0    50   ~ 0
-D4B1
-Text Label 5450 6650 0    50   ~ 0
-B4B2
-Text Label 6400 7450 0    50   ~ 0
-D5A1
-Text Label 6800 7450 0    50   ~ 0
-D5A2
-Text Label 6400 6650 0    50   ~ 0
-D5B1
-Text Label 6800 6650 0    50   ~ 0
-D5B2
-Text Label 7750 7450 0    50   ~ 0
-D6A1
-Text Label 8150 7450 0    50   ~ 0
-D6A2
-Text Label 7750 6650 0    50   ~ 0
-D6B1
-Text Label 8150 6650 0    50   ~ 0
-D6B2
-Text Label 9100 7450 0    50   ~ 0
-D7A1
-Text Label 9500 7450 0    50   ~ 0
-D7A2
-Text Label 9100 6650 0    50   ~ 0
-D7B1
-Text Label 9500 6650 0    50   ~ 0
-D7B2
-Text Label 10450 7450 0    50   ~ 0
-D8A1
-Text Label 10850 7450 0    50   ~ 0
-D8A2
-Text Label 10450 6650 0    50   ~ 0
-D8B1
-Text Label 10850 6650 0    50   ~ 0
-D8B2
-Text Label 11800 7450 0    50   ~ 0
-D9A1
-Text Label 12200 7450 0    50   ~ 0
-D9A2
-Text Label 11800 6650 0    50   ~ 0
-D9B1
-Text Label 12200 6650 0    50   ~ 0
-D9B2
-Text Label 13150 7450 0    50   ~ 0
-D10A1
-Text Label 13150 6650 0    50   ~ 0
-D10B1
-Text Label 13550 6650 0    50   ~ 0
-D10B2
+Text Label 2350 7150 0    50   ~ 0
+D18A
+Text Label 3200 7350 0    50   ~ 0
+K18A
+Text Label 2350 6950 0    50   ~ 0
+D18B
+Text Label 3200 6750 0    50   ~ 0
+K18B
+Text Label 3700 7150 0    50   ~ 0
+D19A
+Text Label 3700 6950 0    50   ~ 0
+D19B
+Text Label 4550 7350 0    50   ~ 0
+K19A
+Text Label 4550 6750 0    50   ~ 0
+K19B
+Text Label 5050 7150 0    50   ~ 0
+D20A
+Text Label 5900 7350 0    50   ~ 0
+K20A
+Text Label 5050 6950 0    50   ~ 0
+D20B
+Text Label 5900 6750 0    50   ~ 0
+K20B
+Text Label 6400 7150 0    50   ~ 0
+D21A
+Text Label 7250 7350 0    50   ~ 0
+K21A
+Text Label 6400 6950 0    50   ~ 0
+D21B
+Text Label 7250 6750 0    50   ~ 0
+K21B
+Text Label 7750 7150 0    50   ~ 0
+D22A
+Text Label 8600 7350 0    50   ~ 0
+K22A
+Text Label 7750 6950 0    50   ~ 0
+D22B
+Text Label 8600 6750 0    50   ~ 0
+K22B
+Text Label 9100 7150 0    50   ~ 0
+D23A
+Text Label 9950 7350 0    50   ~ 0
+K23A
+Text Label 9100 6950 0    50   ~ 0
+D23B
+Text Label 9950 6750 0    50   ~ 0
+K23B
+Text Label 10450 7150 0    50   ~ 0
+D24A
+Text Label 11300 7350 0    50   ~ 0
+K24A
+Text Label 10450 6950 0    50   ~ 0
+D24B
+Text Label 11300 6750 0    50   ~ 0
+K24B
+Text Label 11800 7150 0    50   ~ 0
+D25A
+Text Label 12650 7350 0    50   ~ 0
+K25A
+Text Label 11800 6950 0    50   ~ 0
+D25B
+Text Label 12650 6750 0    50   ~ 0
+K25B
+Text Label 13150 7150 0    50   ~ 0
+D26A
+Text Label 13150 6950 0    50   ~ 0
+D26B
+Text Label 14000 6750 0    50   ~ 0
+K26B
 Entry Wire Line
 	13550 7450 13650 7350
-Text Label 13550 7450 0    50   ~ 0
-D10A2
-Text Label 14500 6650 0    50   ~ 0
-D11B1
-Text Label 14900 6650 0    50   ~ 0
-D11B2
-Text Label 14500 7450 0    50   ~ 0
-D11A1
-Text Label 14900 7450 0    50   ~ 0
-D11A2
-Text Label 15850 7450 0    50   ~ 0
-D12A1
-Text Label 16250 7450 0    50   ~ 0
-D12A2
-Text Label 15850 6650 0    50   ~ 0
-D12B1
-Text Label 16250 6650 0    50   ~ 0
-D12B2
-Text Label 17200 7450 0    50   ~ 0
-D13A1
-Text Label 17600 7450 0    50   ~ 0
-D13A2
-Text Label 17200 6650 0    50   ~ 0
-D13B1
-Text Label 17600 6650 0    50   ~ 0
-D13B2
-Text Label 18550 7450 0    50   ~ 0
-D14A1
-Text Label 18950 7450 0    50   ~ 0
-D14A2
-Text Label 18550 6650 0    50   ~ 0
-D14B1
-Text Label 18950 6650 0    50   ~ 0
-D14B2
-Text Label 19900 7450 0    50   ~ 0
-D15A1
-Text Label 20300 7450 0    50   ~ 0
-D15A2
-Text Label 19900 6650 0    50   ~ 0
-D15B1
-Text Label 20300 6650 0    50   ~ 0
-D15B2
-Text Label 21250 7450 0    50   ~ 0
-D16A1
-Text Label 21650 7450 0    50   ~ 0
-D16A2
-Text Label 21250 6650 0    50   ~ 0
-D16B1
-Text Label 21650 6650 0    50   ~ 0
-D16B2
-Text Label 23850 8150 3    50   ~ 0
-D2A1
-Text Label 23950 8150 3    50   ~ 0
-D3A1
-Text Label 24050 8150 3    50   ~ 0
-D4A1
-Text Label 24150 8150 3    50   ~ 0
-D5A1
-Text Label 24250 8150 3    50   ~ 0
-D6A1
-Text Label 24350 8150 3    50   ~ 0
-D7A1
-Text Label 24450 8150 3    50   ~ 0
-D8A1
-Text Label 23850 7450 1    50   ~ 0
-D2A2
-Text Label 23950 7450 1    50   ~ 0
-D3A2
-Text Label 24050 7450 1    50   ~ 0
-D4A2
-Text Label 24150 7450 1    50   ~ 0
-D5A2
-Text Label 24250 7450 1    50   ~ 0
-D6A2
-Text Label 24350 7450 1    50   ~ 0
-D7A2
-Text Label 24450 7450 1    50   ~ 0
-D8A2
+Text Label 14000 7350 0    50   ~ 0
+K26A
+Text Label 14500 6950 0    50   ~ 0
+D27B
+Text Label 15350 6750 0    50   ~ 0
+K27B
+Text Label 14500 7150 0    50   ~ 0
+D27A
+Text Label 15350 7350 0    50   ~ 0
+K27A
+Text Label 15850 7150 0    50   ~ 0
+D12A
+Text Label 16700 7350 0    50   ~ 0
+K28A
+Text Label 15850 6950 0    50   ~ 0
+D28B
+Text Label 16700 6750 0    50   ~ 0
+K28B
+Text Label 17200 7150 0    50   ~ 0
+D29A
+Text Label 18050 7350 0    50   ~ 0
+K29A
+Text Label 17200 6950 0    50   ~ 0
+D29B
+Text Label 18550 7150 0    50   ~ 0
+D30A
+Text Label 19400 7350 0    50   ~ 0
+K30A
+Text Label 18550 6950 0    50   ~ 0
+D30B
+Text Label 19900 7150 0    50   ~ 0
+D31A
+Text Label 20750 7350 0    50   ~ 0
+K31A
+Text Label 19900 6950 0    50   ~ 0
+D31B
+Text Label 20750 6750 0    50   ~ 0
+K32B
+Text Label 21250 7150 0    50   ~ 0
+D32A
+Text Label 22100 7350 0    50   ~ 0
+K32A
+Text Label 21250 6950 0    50   ~ 0
+D32B
+Text Label 22100 6750 0    50   ~ 0
+K32B
+Text Label 23950 8000 3    50   ~ 0
+D17B
+Text Label 24050 8000 3    50   ~ 0
+D18A
+Text Label 24150 8000 3    50   ~ 0
+D18B
+Text Label 24250 8000 3    50   ~ 0
+D19A
+Text Label 24350 8000 3    50   ~ 0
+D19B
+Text Label 24450 8000 3    50   ~ 0
+D20A
+Text Label 24550 8000 3    50   ~ 0
+D20B
+Text Label 23950 7600 1    50   ~ 0
+K17B
+Text Label 24050 7600 1    50   ~ 0
+K18A
+Text Label 24150 7600 1    50   ~ 0
+K18B
+Text Label 24250 7600 1    50   ~ 0
+K19A
+Text Label 24350 7600 1    50   ~ 0
+K19B
+Text Label 24450 7600 1    50   ~ 0
+K20A
+Text Label 24550 7600 1    50   ~ 0
+K20B
 Entry Wire Line
 	24600 8150 24700 8050
 Entry Wire Line
@@ -3172,17 +3019,6 @@ Entry Wire Line
 	25200 8150 25300 8050
 Entry Wire Line
 	25300 8150 25400 8050
-$Comp
-L Device:R_Pack08 RN10
-U 1 1 70FC1C68
-P 25100 7800
-F 0 "RN10" H 25450 8100 50  0000 L CNN
-F 1 "4116R-1-471" V 25500 7500 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 25575 7800 50  0001 C CNN
-F 3 "~" H 25100 7800 50  0001 C CNN
-	1    25100 7800
-	1    0    0    1   
-$EndComp
 Entry Wire Line
 	24600 7450 24700 7550
 Entry Wire Line
@@ -3199,38 +3035,38 @@ Entry Wire Line
 	25200 7450 25300 7550
 Entry Wire Line
 	25300 7450 25400 7550
-Text Label 24600 8150 3    50   ~ 0
-D9A1
-Text Label 24700 8150 3    50   ~ 0
-D10A1
-Text Label 24800 8150 3    50   ~ 0
-D11A1
-Text Label 24900 8150 3    50   ~ 0
-D12A1
-Text Label 25000 8150 3    50   ~ 0
-D13A1
-Text Label 25100 8150 3    50   ~ 0
-D14A1
-Text Label 25200 8150 3    50   ~ 0
-D15A1
-Text Label 25300 8150 3    50   ~ 0
-D16A1
-Text Label 24600 7450 1    50   ~ 0
-D9A2
-Text Label 24700 7450 1    50   ~ 0
-D10A2
-Text Label 24800 7450 1    50   ~ 0
-D11A2
-Text Label 24900 7450 1    50   ~ 0
-D12A2
-Text Label 25000 7450 1    50   ~ 0
-D13A2
-Text Label 25100 7450 1    50   ~ 0
-D14A2
-Text Label 25200 7450 1    50   ~ 0
-D15A2
-Text Label 25300 7450 1    50   ~ 0
-D16A2
+Text Label 24700 8000 3    50   ~ 0
+D21A
+Text Label 24800 8000 3    50   ~ 0
+D21B
+Text Label 24900 8000 3    50   ~ 0
+D22A
+Text Label 25000 8000 3    50   ~ 0
+D22B
+Text Label 25100 8000 3    50   ~ 0
+D23A
+Text Label 25200 8000 3    50   ~ 0
+D23B
+Text Label 25300 8000 3    50   ~ 0
+D24A
+Text Label 25400 8000 3    50   ~ 0
+D24B
+Text Label 24700 7600 1    50   ~ 0
+K21A
+Text Label 24800 7600 1    50   ~ 0
+K21B
+Text Label 24900 7600 1    50   ~ 0
+K22A
+Text Label 25000 7600 1    50   ~ 0
+K22B
+Text Label 25100 7600 1    50   ~ 0
+K23A
+Text Label 25200 7600 1    50   ~ 0
+K23B
+Text Label 25300 7600 1    50   ~ 0
+K24A
+Text Label 25400 7600 1    50   ~ 0
+K24B
 Entry Wire Line
 	23750 5950 23850 6050
 Entry Wire Line
@@ -3263,20 +3099,20 @@ Entry Wire Line
 	24350 6650 24450 6550
 Entry Wire Line
 	24450 6650 24550 6550
-Text Label 23850 5950 1    50   ~ 0
-D2B1
-Text Label 23950 5950 1    50   ~ 0
-D3B1
-Text Label 24050 5950 1    50   ~ 0
-D4B1
-Text Label 24150 5950 1    50   ~ 0
-D5B1
-Text Label 24250 5950 1    50   ~ 0
-D6B1
-Text Label 24350 5950 1    50   ~ 0
-D7B1
-Text Label 24450 5950 1    50   ~ 0
-D8B1
+Text Label 23950 6100 1    50   ~ 0
+D25B
+Text Label 24050 6100 1    50   ~ 0
+D26A
+Text Label 24150 6100 1    50   ~ 0
+D26B
+Text Label 24250 6100 1    50   ~ 0
+D27A
+Text Label 24350 6100 1    50   ~ 0
+D27B
+Text Label 24450 6100 1    50   ~ 0
+D28A
+Text Label 24550 6100 1    50   ~ 0
+D28B
 Entry Wire Line
 	24600 5950 24700 6050
 Entry Wire Line
@@ -3320,52 +3156,48 @@ Entry Wire Line
 	25200 6650 25300 6550
 Entry Wire Line
 	25300 6650 25400 6550
-Text Label 24600 5950 1    50   ~ 0
-D9B1
-Text Label 24700 5950 1    50   ~ 0
-D10B1
-Text Label 24800 5950 1    50   ~ 0
-D11B1
-Text Label 24900 5950 1    50   ~ 0
-D12B1
-Text Label 25000 5950 1    50   ~ 0
-D13B1
-Text Label 25100 5950 1    50   ~ 0
-D14B1
-Text Label 25200 5950 1    50   ~ 0
-D15B1
-Text Label 25300 5950 1    50   ~ 0
-D16B1
-Text Label 23750 5950 1    50   ~ 0
-D1B1
-Text Label 23850 6650 3    50   ~ 0
-D2B2
-Text Label 23950 6650 3    50   ~ 0
-D3B2
-Text Label 24050 6650 3    50   ~ 0
-D4B2
-Text Label 24150 6650 3    50   ~ 0
-D5B2
-Text Label 24250 6650 3    50   ~ 0
-D6B2
-Text Label 24350 6650 3    50   ~ 0
-D7B2
-Text Label 24450 6650 3    50   ~ 0
-D8B2
-Text Label 24600 6650 3    50   ~ 0
-D9B2
-Text Label 24700 6650 3    50   ~ 0
-D10B2
-Text Label 24800 6650 3    50   ~ 0
-D11B2
-Text Label 24900 6650 3    50   ~ 0
-D12B2
-Text Label 25000 6650 3    50   ~ 0
-D13B2
-Text Label 25100 6650 3    50   ~ 0
-D14B2
-Text Label 23750 6650 3    50   ~ 0
-D1B2
+Text Label 24700 6100 1    50   ~ 0
+D29A
+Text Label 24800 6100 1    50   ~ 0
+D29B
+Text Label 24900 6100 1    50   ~ 0
+D30A
+Text Label 25000 6100 1    50   ~ 0
+D30B
+Text Label 25100 6100 1    50   ~ 0
+D31A
+Text Label 25200 6100 1    50   ~ 0
+D31B
+Text Label 25300 6100 1    50   ~ 0
+D32A
+Text Label 25400 6100 1    50   ~ 0
+D32B
+Text Label 23850 6100 1    50   ~ 0
+D25A
+Text Label 23950 6500 3    50   ~ 0
+K25B
+Text Label 24050 6500 3    50   ~ 0
+K26A
+Text Label 24150 6500 3    50   ~ 0
+K26B
+Text Label 24250 6500 3    50   ~ 0
+K27A
+Text Label 24350 6500 3    50   ~ 0
+K27B
+Text Label 24450 6500 3    50   ~ 0
+K28A
+Text Label 24550 6500 3    50   ~ 0
+K28B
+Text Label 24700 6500 3    50   ~ 0
+K29A
+Text Label 24800 6500 3    50   ~ 0
+K29B
+Text Label 24900 6500 3    50   ~ 0
+K30A
+Text Label 25000 6500 3    50   ~ 0
+K30B
+Text Label 23850 6500 3    50   ~ 0
+K25A
 Entry Wire Line
 	21650 8000 21750 8100
 Entry Wire Line
@@ -3430,70 +3262,6 @@ Entry Wire Line
 	1400 5650 1500 5750
 Entry Wire Line
 	1400 8150 1500 8250
-Text Label 1500 8250 0    50   ~ 0
-YB1
-Text Label 2850 8100 0    50   ~ 0
-YB2
-Text Label 4200 8050 0    50   ~ 0
-YB3
-Text Label 5550 8000 0    50   ~ 0
-YB4
-Text Label 6900 7950 0    50   ~ 0
-YB5
-Text Label 8250 7900 0    50   ~ 0
-YB6
-Text Label 9600 7850 0    50   ~ 0
-YB7
-Text Label 10950 7800 0    50   ~ 0
-YB8
-Text Label 12300 7800 0    50   ~ 0
-YB9
-Text Label 13650 7800 0    50   ~ 0
-YB10
-Text Label 15000 7850 0    50   ~ 0
-YB11
-Text Label 16350 7900 0    50   ~ 0
-YB12
-Text Label 17700 7950 0    50   ~ 0
-YB13
-Text Label 19050 8000 0    50   ~ 0
-YB14
-Text Label 20400 8050 0    50   ~ 0
-YB15
-Text Label 21750 8100 0    50   ~ 0
-YB16
-Text Label 1500 5750 0    50   ~ 0
-YA1
-Text Label 2850 5800 0    50   ~ 0
-YA2
-Text Label 4200 5850 0    50   ~ 0
-YA3
-Text Label 5550 5900 0    50   ~ 0
-YA4
-Text Label 6900 5950 0    50   ~ 0
-YA5
-Text Label 8250 6000 0    50   ~ 0
-YA6
-Text Label 9600 6050 0    50   ~ 0
-YA7
-Text Label 10950 6100 0    50   ~ 0
-YA8
-Text Label 12300 6150 0    50   ~ 0
-YA9
-Text Label 13650 6100 0    50   ~ 0
-YA10
-Text Label 15000 6050 0    50   ~ 0
-YA11
-Text Label 16350 6000 0    50   ~ 0
-YA12
-Text Label 17700 5950 0    50   ~ 0
-YA13
-Text Label 19050 5900 0    50   ~ 0
-YA14
-Text Label 20400 5850 0    50   ~ 0
-YA15
-Text Label 21750 5800 0    50   ~ 0
-YA16
 $Comp
 L Jumper:SolderJumper_2_Open JP9
 U 1 1 70FC1F25
@@ -3528,10 +3296,10 @@ F 3 "~" H 11300 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_ACA D14
+L Device:LED_Dual_ACA D23
 U 1 1 70FC1F47
 P 9400 7050
-F 0 "D14" H 9200 6900 50  0000 C CNN
+F 0 "D23" H 9200 6900 50  0000 C CNN
 F 1 "MV5438" H 9350 6800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 9400 7050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 9400 7050 50  0001 C CNN
@@ -3549,79 +3317,71 @@ F 3 "~" H 11400 10750 50  0001 C CNN
 	1    11400 10750
 	0    1    1    0   
 $EndComp
-Text Label 6850 14750 0    50   ~ 0
-XB11
-Text Label 2150 13200 0    50   ~ 0
-YA1
-Text Label 2550 13200 0    50   ~ 0
-YA2
+Text Label 6800 14700 3    50   ~ 0
+K11B
+Text Label 2150 13200 1    50   ~ 0
+K17A
+Text Label 2550 13200 1    50   ~ 0
+K18A
 Text Label 2100 13400 0    50   ~ 0
-YA3
-Text Label 3450 13200 0    50   ~ 0
-YA4
-Text Label 3950 13200 0    50   ~ 0
-YA5
-Text Label 4350 13200 0    50   ~ 0
-YA6
-Text Label 4850 13200 0    50   ~ 0
-YA7
-Text Label 5250 13200 0    50   ~ 0
-YA8
-Text Label 5750 13200 0    50   ~ 0
-YA9
-Text Label 6150 13200 0    50   ~ 0
-YA10
-Text Label 6650 13200 0    50   ~ 0
-YA11
-Text Label 7050 13200 0    50   ~ 0
-YA12
-Text Label 7550 13200 0    50   ~ 0
-YA13
-Text Label 7950 13200 0    50   ~ 0
-YA14
-Text Label 8450 13200 0    50   ~ 0
-YA15
-Text Label 8850 13200 0    50   ~ 0
-YA16
-Text Label 3050 13200 0    50   ~ 0
-YA3
-Text Label 2350 13200 0    50   ~ 0
-YB1
-Text Label 2750 13200 0    50   ~ 0
-YB2
-Text Label 3250 13200 0    50   ~ 0
-YB3
-Text Label 3650 13200 0    50   ~ 0
-YB4
-Text Label 4150 13200 0    50   ~ 0
-YB5
-Text Label 4550 13200 0    50   ~ 0
-YB6
-Text Label 5050 13200 0    50   ~ 0
-YB7
-Text Label 5450 13200 0    50   ~ 0
-YB8
-Text Label 5950 13200 0    50   ~ 0
-YB9
-Text Label 6350 13200 0    50   ~ 0
-YB10
-Text Label 6850 13200 0    50   ~ 0
-YB11
-Text Label 7250 13200 0    50   ~ 0
-YB12
-Text Label 7750 13200 0    50   ~ 0
-YB13
-Text Label 8150 13200 0    50   ~ 0
-YB14
-Text Label 8650 13200 0    50   ~ 0
-YB15
-Text Label 9050 13200 0    50   ~ 0
-YB16
+R3B
+Text Label 3450 13200 1    50   ~ 0
+K20A
+Text Label 3950 13200 1    50   ~ 0
+K21A
+Text Label 6150 13200 1    50   ~ 0
+K26A
+Text Label 6650 13200 1    50   ~ 0
+K27A
+Text Label 7050 13200 1    50   ~ 0
+K28A
+Text Label 7550 13200 1    50   ~ 0
+K29A
+Text Label 7950 13200 1    50   ~ 0
+K30A
+Text Label 8450 13200 1    50   ~ 0
+K31A
+Text Label 8850 13200 1    50   ~ 0
+K32A
+Text Label 3050 13200 1    50   ~ 0
+K19A
+Text Label 2350 13200 1    50   ~ 0
+K17B
+Text Label 2750 13200 1    50   ~ 0
+K18B
+Text Label 3250 13200 1    50   ~ 0
+K19B
+Text Label 3650 13200 1    50   ~ 0
+K20B
+Text Label 4150 13200 1    50   ~ 0
+K21B
+Text Label 4550 13200 1    50   ~ 0
+K22B
+Text Label 5050 13200 1    50   ~ 0
+K23B
+Text Label 5450 13200 1    50   ~ 0
+K24B
+Text Label 5950 13200 1    50   ~ 0
+K25B
+Text Label 6350 13200 1    50   ~ 0
+K26B
+Text Label 6850 13200 1    50   ~ 0
+K27B
+Text Label 7250 13200 1    50   ~ 0
+K28B
+Text Label 7750 13200 1    50   ~ 0
+K29B
+Text Label 8150 13200 1    50   ~ 0
+K30B
+Text Label 8650 13200 1    50   ~ 0
+K21B
+Text Label 9050 13200 1    50   ~ 0
+K32B
 $Comp
-L BoatControl:SchurterCircuitBreaker Q17
+L BoatControl:SchurterCircuitBreaker Q9
 U 1 1 782065C9
 P 12650 17150
-F 0 "Q17" V 12650 16800 50  0000 R CNN
+F 0 "Q9" V 12650 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 12300 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 12650 17150 50  0001 C CNN
 F 3 "" H 12650 17150 50  0001 C CNN
@@ -3630,10 +3390,10 @@ F 4 "4404.0096" V 12650 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q19
+L BoatControl:SchurterCircuitBreaker Q10
 U 1 1 7820BD24
 P 14000 17150
-F 0 "Q19" V 14000 16800 50  0000 R CNN
+F 0 "Q10" V 14000 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 13650 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 14000 17150 50  0001 C CNN
 F 3 "" H 14000 17150 50  0001 C CNN
@@ -3642,10 +3402,10 @@ F 4 "4404.0096" V 14000 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q21
+L BoatControl:SchurterCircuitBreaker Q11
 U 1 1 7820C0B1
 P 15350 17150
-F 0 "Q21" V 15350 16800 50  0000 R CNN
+F 0 "Q11" V 15350 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 15000 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 15350 17150 50  0001 C CNN
 F 3 "" H 15350 17150 50  0001 C CNN
@@ -3654,10 +3414,10 @@ F 4 "4404.0096" V 15350 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q23
+L BoatControl:SchurterCircuitBreaker Q12
 U 1 1 7820C5C6
 P 16700 17150
-F 0 "Q23" V 16700 16850 50  0000 R CNN
+F 0 "Q12" V 16700 16850 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 16350 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 16700 17150 50  0001 C CNN
 F 3 "" H 16700 17150 50  0001 C CNN
@@ -3666,10 +3426,10 @@ F 4 "4404.0096" V 16700 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q25
+L BoatControl:SchurterCircuitBreaker Q13
 U 1 1 7820CAF7
 P 18050 17150
-F 0 "Q25" V 18050 16800 50  0000 R CNN
+F 0 "Q13" V 18050 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 17700 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 18050 17150 50  0001 C CNN
 F 3 "" H 18050 17150 50  0001 C CNN
@@ -3678,10 +3438,10 @@ F 4 "4404.0096" V 18050 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q27
+L BoatControl:SchurterCircuitBreaker Q14
 U 1 1 7820CF40
 P 19400 17150
-F 0 "Q27" V 19400 16800 50  0000 R CNN
+F 0 "Q14" V 19400 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 19050 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 19400 17150 50  0001 C CNN
 F 3 "" H 19400 17150 50  0001 C CNN
@@ -3690,10 +3450,10 @@ F 4 "4404.0096" V 19400 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q29
+L BoatControl:SchurterCircuitBreaker Q15
 U 1 1 7820DCC7
 P 20750 17150
-F 0 "Q29" V 20750 16800 50  0000 R CNN
+F 0 "Q15" V 20750 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 20400 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 20750 17150 50  0001 C CNN
 F 3 "" H 20750 17150 50  0001 C CNN
@@ -3702,10 +3462,10 @@ F 4 "4404.0096" V 20750 17150 50  0001 C CNN "Manufacturer ID"
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q31
+L BoatControl:SchurterCircuitBreaker Q16
 U 1 1 7820E1C2
 P 22100 17150
-F 0 "Q31" V 22100 16800 50  0000 R CNN
+F 0 "Q16" V 22100 16800 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 21750 17300 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 22100 17150 50  0001 C CNN
 F 3 "" H 22100 17150 50  0001 C CNN
@@ -3766,14 +3526,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 22350 10400 50  0001 C CNN
 $EndComp
 Entry Wire Line
 	20800 13450 20700 13350
-Text Label 20700 12450 2    50   ~ 0
-D8B2
-Text Label 21100 12450 2    50   ~ 0
-D8B1
-Text Label 20700 13350 2    50   ~ 0
-D8A2
-Text Label 21100 13350 2    50   ~ 0
-D8A1
+Text Label 21200 12800 2    50   ~ 0
+D40B
+Text Label 20350 13200 2    50   ~ 0
+K40A
+Text Label 21200 13000 2    50   ~ 0
+D40A
 Entry Wire Line
 	20800 12350 20700 12450
 Entry Wire Line
@@ -3781,10 +3539,10 @@ Entry Wire Line
 Entry Wire Line
 	21200 13450 21100 13350
 $Comp
-L Device:LED_Dual_ACA D31
+L Device:LED_Dual_ACA D40
 U 1 1 830CF4CF
 P 20900 12900
-F 0 "D31" H 20900 13150 50  0000 C CNN
+F 0 "D40" H 20900 13150 50  0000 C CNN
 F 1 "MV5438" H 20900 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 20900 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 20900 12900 50  0001 C CNN
@@ -3793,14 +3551,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	22400 13450 22300 13350
-Text Label 22300 12450 2    50   ~ 0
-D7B2
-Text Label 22700 12450 2    50   ~ 0
-D7B1
-Text Label 22300 13350 2    50   ~ 0
-D7A2
-Text Label 22700 13350 2    50   ~ 0
-D7A1
+Text Label 21950 12600 2    50   ~ 0
+K39B
+Text Label 22800 12800 2    50   ~ 0
+D39B
+Text Label 21950 13250 2    50   ~ 0
+K39A
+Text Label 22800 13000 2    50   ~ 0
+D39A
 Entry Wire Line
 	22400 12350 22300 12450
 Entry Wire Line
@@ -3808,10 +3566,10 @@ Entry Wire Line
 Entry Wire Line
 	22800 13450 22700 13350
 $Comp
-L Device:LED_Dual_ACA D34
+L Device:LED_Dual_ACA D39
 U 1 1 82DE6EE0
 P 22500 12900
-F 0 "D34" H 22500 13150 50  0000 C CNN
+F 0 "D39" H 22500 13150 50  0000 C CNN
 F 1 "MV5438" H 22500 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 22500 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 22500 12900 50  0001 C CNN
@@ -3819,10 +3577,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	1    0    0    1   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K32
+L BoatControl:EW60-1A3-CL12D04 K39
 U 1 1 61F1D9DD
 P 21650 12850
-F 0 "K32" V 21679 13228 50  0000 L CNN
+F 0 "K39" V 21700 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 21450 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 21650 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 22650 13350 50  0001 L BNN
@@ -3831,14 +3589,14 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 $EndComp
 Entry Wire Line
 	24000 13450 23900 13350
-Text Label 23900 12450 2    50   ~ 0
-D6B2
-Text Label 24300 12450 2    50   ~ 0
-D6B1
-Text Label 23900 13350 2    50   ~ 0
-D6A2
-Text Label 24300 13350 2    50   ~ 0
-D6A1
+Text Label 23550 12600 2    50   ~ 0
+K38B
+Text Label 24400 12800 2    50   ~ 0
+D38B
+Text Label 23550 13250 2    50   ~ 0
+K38A
+Text Label 24400 13000 2    50   ~ 0
+D38A
 Entry Wire Line
 	24000 12350 23900 12450
 Entry Wire Line
@@ -3846,10 +3604,10 @@ Entry Wire Line
 Entry Wire Line
 	24400 13450 24300 13350
 $Comp
-L Device:LED_Dual_ACA D35
+L Device:LED_Dual_ACA D38
 U 1 1 81C53E44
 P 24100 12900
-F 0 "D35" H 24100 13150 50  0000 C CNN
+F 0 "D38" H 24100 13150 50  0000 C CNN
 F 1 "MV5438" H 24100 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 24100 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 24100 12900 50  0001 C CNN
@@ -3858,14 +3616,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	25600 13450 25500 13350
-Text Label 25500 12450 2    50   ~ 0
-D5B2
-Text Label 25900 12450 2    50   ~ 0
-D5B1
-Text Label 25500 13350 2    50   ~ 0
-D5A2
-Text Label 25900 13350 2    50   ~ 0
-D5A1
+Text Label 25150 12600 2    50   ~ 0
+K37B
+Text Label 26000 12800 2    50   ~ 0
+D37B
+Text Label 25150 13250 2    50   ~ 0
+K37A
+Text Label 26000 13000 2    50   ~ 0
+D37A
 Entry Wire Line
 	25600 12350 25500 12450
 Entry Wire Line
@@ -3873,10 +3631,10 @@ Entry Wire Line
 Entry Wire Line
 	26000 13450 25900 13350
 $Comp
-L Device:LED_Dual_ACA D36
+L Device:LED_Dual_ACA D37
 U 1 1 8196FFD4
 P 25700 12900
-F 0 "D36" H 25700 13150 50  0000 C CNN
+F 0 "D37" H 25700 13150 50  0000 C CNN
 F 1 "MV5438" H 25700 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 25700 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 25700 12900 50  0001 C CNN
@@ -3885,14 +3643,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	27200 13450 27100 13350
-Text Label 27100 12450 2    50   ~ 0
-D4B2
-Text Label 27500 12450 2    50   ~ 0
-D4B1
-Text Label 27100 13350 2    50   ~ 0
-D4A2
-Text Label 27500 13350 2    50   ~ 0
-D14A1
+Text Label 26750 12600 2    50   ~ 0
+K36B
+Text Label 27600 12800 2    50   ~ 0
+D36B
+Text Label 26750 13250 2    50   ~ 0
+K36A
+Text Label 27600 13000 2    50   ~ 0
+D36A
 Entry Wire Line
 	27200 12350 27100 12450
 Entry Wire Line
@@ -3900,10 +3658,10 @@ Entry Wire Line
 Entry Wire Line
 	27600 13450 27500 13350
 $Comp
-L Device:LED_Dual_ACA D38
+L Device:LED_Dual_ACA D36
 U 1 1 8167ACA7
 P 27300 12900
-F 0 "D38" H 27300 13150 50  0000 C CNN
+F 0 "D36" H 27300 13150 50  0000 C CNN
 F 1 "MV5438" H 27300 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 27300 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 27300 12900 50  0001 C CNN
@@ -3912,14 +3670,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	28800 13450 28700 13350
-Text Label 28700 12450 2    50   ~ 0
-D3B2
-Text Label 29100 12450 2    50   ~ 0
-D3B1
-Text Label 28700 13350 2    50   ~ 0
-D3A2
-Text Label 29100 13350 2    50   ~ 0
-D3A1
+Text Label 28350 12600 2    50   ~ 0
+K35B
+Text Label 29200 12800 2    50   ~ 0
+D35B
+Text Label 28350 13250 2    50   ~ 0
+K35A
+Text Label 29200 13000 2    50   ~ 0
+D35A
 Entry Wire Line
 	28800 12350 28700 12450
 Entry Wire Line
@@ -3927,10 +3685,10 @@ Entry Wire Line
 Entry Wire Line
 	29200 13450 29100 13350
 $Comp
-L Device:LED_Dual_ACA D40
+L Device:LED_Dual_ACA D35
 U 1 1 81389A55
 P 28900 12900
-F 0 "D40" H 28900 13150 50  0000 C CNN
+F 0 "D35" H 28900 13150 50  0000 C CNN
 F 1 "MV5438" H 28900 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 28900 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 28900 12900 50  0001 C CNN
@@ -3939,14 +3697,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	30400 13450 30300 13350
-Text Label 30300 12450 2    50   ~ 0
-D2B2
-Text Label 30700 12450 2    50   ~ 0
-D2B1
-Text Label 30300 13350 2    50   ~ 0
-D2A2
-Text Label 30700 13350 2    50   ~ 0
-D2A1
+Text Label 29950 12600 2    50   ~ 0
+K34B
+Text Label 30800 12800 2    50   ~ 0
+D34B
+Text Label 29950 13250 2    50   ~ 0
+K34A
+Text Label 30800 13000 2    50   ~ 0
+D34A
 Entry Wire Line
 	30400 12350 30300 12450
 Entry Wire Line
@@ -3954,10 +3712,10 @@ Entry Wire Line
 Entry Wire Line
 	30800 13450 30700 13350
 $Comp
-L Device:LED_Dual_ACA D41
+L Device:LED_Dual_ACA D34
 U 1 1 8108EF58
 P 30500 12900
-F 0 "D41" H 30500 13150 50  0000 C CNN
+F 0 "D34" H 30500 13150 50  0000 C CNN
 F 1 "MV5438" H 30500 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 30500 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 30500 12900 50  0001 C CNN
@@ -3966,14 +3724,14 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 $EndComp
 Entry Wire Line
 	32000 13450 31900 13350
-Text Label 31900 12450 2    50   ~ 0
-D1B2
-Text Label 32300 12450 2    50   ~ 0
-D1B1
-Text Label 31900 13350 2    50   ~ 0
-D1A2
-Text Label 32300 13350 2    50   ~ 0
-D1A1
+Text Label 31550 12600 2    50   ~ 0
+K33B
+Text Label 32400 12800 2    50   ~ 0
+D33B
+Text Label 31550 13250 2    50   ~ 0
+K33A
+Text Label 32400 13000 2    50   ~ 0
+D33A
 Entry Wire Line
 	32000 12350 31900 12450
 Entry Wire Line
@@ -3981,37 +3739,15 @@ Entry Wire Line
 Entry Wire Line
 	32400 13450 32300 13350
 $Comp
-L Device:LED_Dual_ACA D42
+L Device:LED_Dual_ACA D33
 U 1 1 7D178191
 P 32100 12900
-F 0 "D42" H 32100 13150 50  0000 C CNN
+F 0 "D33" H 32100 13150 50  0000 C CNN
 F 1 "MV5438" H 32100 12650 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 32100 12900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,39.pdf" H 32100 12900 50  0001 C CNN
 	1    32100 12900
 	1    0    0    1   
-$EndComp
-$Comp
-L power:+12V #PWR0101
-U 1 1 70FC158D
-P 22600 7400
-F 0 "#PWR0101" H 22600 7250 50  0001 C CNN
-F 1 "+12V" H 22615 7573 50  0000 C CNN
-F 2 "" H 22600 7400 50  0001 C CNN
-F 3 "" H 22600 7400 50  0001 C CNN
-	1    22600 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_Array:ULN2803A U22
-U 1 1 7884A091
-P 24400 10600
-F 0 "U22" V 24300 10400 50  0000 L CNN
-F 1 "ULN2803A" V 24450 10300 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X393-18" H 24450 9950 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 24500 10400 50  0001 C CNN
-	1    24400 10600
-	0    -1   1    0   
 $EndComp
 $Comp
 L Interface_Expansion:MCP23017_SO U21
@@ -4025,21 +3761,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 24150 8300
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K29
-U 1 1 61F1D9E3
-P 20050 12850
-F 0 "K29" V 20079 13228 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 19850 12400 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 20050 13250 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 21050 13350 50  0001 L BNN
-	1    20050 12850
-	0    -1   1    0   
-$EndComp
-$Comp
-L BoatControl:EW60-1A3-CL12D04 K35
+L BoatControl:EW60-1A3-CL12D04 K38
 U 1 1 61EDA2B1
 P 23250 12850
-F 0 "K35" V 23279 13228 50  0000 L CNN
+F 0 "K38" V 23300 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 23050 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 23250 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 24250 13350 50  0001 L BNN
@@ -4047,10 +3772,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K36
+L BoatControl:EW60-1A3-CL12D04 K37
 U 1 1 61EDA2AB
 P 24850 12850
-F 0 "K36" V 24879 13228 50  0000 L CNN
+F 0 "K37" V 24900 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 24650 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 24850 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 25850 13350 50  0001 L BNN
@@ -4058,10 +3783,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K37
+L BoatControl:EW60-1A3-CL12D04 K36
 U 1 1 61E96AD3
 P 26450 12850
-F 0 "K37" V 26479 13228 50  0000 L CNN
+F 0 "K36" V 26500 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 26250 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 26450 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 27450 13350 50  0001 L BNN
@@ -4069,10 +3794,10 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K38
+L BoatControl:EW60-1A3-CL12D04 K35
 U 1 1 61E96ACD
 P 28050 12850
-F 0 "K38" V 28079 13228 50  0000 L CNN
+F 0 "K35" V 28100 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 27850 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 28050 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 29050 13350 50  0001 L BNN
@@ -4080,81 +3805,48 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    -1   1    0   
 $EndComp
 $Comp
-L BoatControl:EW60-1A3-CL12D04 K39
+L BoatControl:EW60-1A3-CL12D04 K34
 U 1 1 61E08D4C
 P 29650 12850
-F 0 "K39" V 29679 13228 50  0000 L CNN
+F 0 "K34" V 29700 12700 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 29450 12450 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 29650 13250 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 30650 13350 50  0001 L BNN
 	1    29650 12850
 	0    -1   1    0   
 $EndComp
-$Comp
-L BoatControl:EW60-1A3-CL12D04 K40
-U 1 1 61DB5D3D
-P 31250 12850
-F 0 "K40" V 31279 13228 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 31050 12450 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 31250 13250 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 32250 13350 50  0001 L BNN
-	1    31250 12850
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 8B5E1A7B
-P 23050 7400
-F 0 "#PWR0102" H 23050 7150 50  0001 C CNN
-F 1 "GND" H 23055 7227 50  0000 C CNN
-F 2 "" H 23050 7400 50  0001 C CNN
-F 3 "" H 23050 7400 50  0001 C CNN
-	1    23050 7400
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 8BEFC1CD
-P 23300 15750
-F 0 "#PWR0103" H 23300 15500 50  0001 C CNN
-F 1 "GND" H 23305 15577 50  0000 C CNN
-F 2 "" H 23300 15750 50  0001 C CNN
-F 3 "" H 23300 15750 50  0001 C CNN
-	1    23300 15750
-	1    0    0    1   
-$EndComp
-Text Label 19400 13450 3    50   ~ 0
-D1A1
-Text Label 18700 12350 1    50   ~ 0
-D8A2
-Text Label 18800 12350 1    50   ~ 0
-D7A2
-Text Label 18900 12350 1    50   ~ 0
-D6A2
-Text Label 19000 12350 1    50   ~ 0
-D5A2
-Text Label 19100 12350 1    50   ~ 0
-D4A2
-Text Label 19200 12350 1    50   ~ 0
-D3A2
-Text Label 19300 12350 1    50   ~ 0
-D2A2
-Text Label 19400 12350 1    50   ~ 0
-D1A2
-Text Label 18700 13450 3    50   ~ 0
-D8A1
-Text Label 18800 13450 3    50   ~ 0
-D7A1
-Text Label 18900 13450 3    50   ~ 0
-D6A1
-Text Label 19000 13450 3    50   ~ 0
-D5A1
-Text Label 19100 13450 3    50   ~ 0
-D4A1
-Text Label 19200 13450 3    50   ~ 0
-D3A1
-Text Label 19300 13450 3    50   ~ 0
-D2A1
+Text Label 19300 13100 3    50   ~ 0
+D33A
+Text Label 18600 12700 1    50   ~ 0
+K36B
+Text Label 18700 12700 1    50   ~ 0
+K36A
+Text Label 18800 12700 1    50   ~ 0
+K35B
+Text Label 18900 12700 1    50   ~ 0
+K35A
+Text Label 19000 12700 1    50   ~ 0
+K34B
+Text Label 19100 12700 1    50   ~ 0
+K34A
+Text Label 19200 12700 1    50   ~ 0
+K33B
+Text Label 19300 12700 1    50   ~ 0
+K33A
+Text Label 18600 13100 3    50   ~ 0
+D36B
+Text Label 18700 13100 3    50   ~ 0
+D36A
+Text Label 18800 13100 3    50   ~ 0
+D35B
+Text Label 18900 13100 3    50   ~ 0
+D35A
+Text Label 19000 13100 3    50   ~ 0
+D34B
+Text Label 19100 13100 3    50   ~ 0
+D34A
+Text Label 19200 13100 3    50   ~ 0
+D33B
 Entry Wire Line
 	18700 12350 18600 12450
 Entry Wire Line
@@ -4174,13 +3866,13 @@ Entry Wire Line
 $Comp
 L Device:R_Pack08 RN2
 U 1 1 8E72DC8D
-P 18900 12900
-F 0 "RN2" H 18300 13200 50  0000 L CNN
-F 1 "4116R-1-471" V 18400 12600 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 19375 12900 50  0001 C CNN
-F 3 "~" H 18900 12900 50  0001 C CNN
-	1    18900 12900
-	-1   0    0    1   
+P 19000 12900
+F 0 "RN2" H 19450 12900 50  0000 L CNN
+F 1 "4116R-1-471" V 19400 12650 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 19475 12900 50  0001 C CNN
+F 3 "~" H 19000 12900 50  0001 C CNN
+	1    19000 12900
+	1    0    0    1   
 $EndComp
 Entry Wire Line
 	18700 13450 18600 13350
@@ -4199,23 +3891,21 @@ Entry Wire Line
 Entry Wire Line
 	19400 13450 19300 13350
 $Comp
-L Switch:SW_Push_Dual SW80
+L Switch:SW_Push_Dual SW33A1
 U 1 1 96E8E161
 P 31350 13750
-F 0 "SW80" H 31450 13850 50  0000 C CNN
+F 0 "SW33A1" H 31450 13850 50  0000 C CNN
 F 1 " ESB30" H 31350 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 31350 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 31350 13950 50  0001 C CNN
 	1    31350 13750
 	1    0    0    1   
 $EndComp
-Text Label 31550 13750 0    50   ~ 0
-YB16
 $Comp
-L Switch:SW_Push_Dual SW78
+L Switch:SW_Push_Dual SW34A1
 U 1 1 98E4055B
 P 29750 13750
-F 0 "SW78" H 29850 13850 50  0000 C CNN
+F 0 "SW34A1" H 29850 13850 50  0000 C CNN
 F 1 " ESB30" H 29750 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 29750 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 13950 50  0001 C CNN
@@ -4223,10 +3913,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW76
+L Switch:SW_Push_Dual SW35A1
 U 1 1 99168AED
 P 28150 13750
-F 0 "SW76" H 28250 13850 50  0000 C CNN
+F 0 "SW35A1" H 28250 13850 50  0000 C CNN
 F 1 " ESB30" H 28150 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 28150 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 13950 50  0001 C CNN
@@ -4234,10 +3924,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW74
+L Switch:SW_Push_Dual SW36A1
 U 1 1 99492717
 P 26550 13750
-F 0 "SW74" H 26650 13850 50  0000 C CNN
+F 0 "SW36A1" H 26650 13850 50  0000 C CNN
 F 1 " ESB30" H 26550 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 26550 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 13950 50  0001 C CNN
@@ -4245,10 +3935,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW72
+L Switch:SW_Push_Dual SW37A1
 U 1 1 997BDA95
 P 24950 13750
-F 0 "SW72" H 25050 13850 50  0000 C CNN
+F 0 "SW37A1" H 25050 13850 50  0000 C CNN
 F 1 " ESB30" H 24950 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 24950 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 13950 50  0001 C CNN
@@ -4256,10 +3946,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW70
+L Switch:SW_Push_Dual SW38A1
 U 1 1 99AEA523
 P 23350 13750
-F 0 "SW70" H 23450 13850 50  0000 C CNN
+F 0 "SW38A1" H 23450 13850 50  0000 C CNN
 F 1 " ESB30" H 23350 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 23350 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 13950 50  0001 C CNN
@@ -4267,21 +3957,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW68
-U 1 1 99E18A25
-P 21750 13750
-F 0 "SW68" H 21850 13850 50  0000 C CNN
-F 1 " ESB30" H 21750 13650 50  0000 C CNN
-F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21750 13950 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 13950 50  0001 C CNN
-	1    21750 13750
-	1    0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW58
+L Switch:SW_Push_Dual SW40A1
 U 1 1 9A1498D3
 P 20150 13750
-F 0 "SW58" H 20250 13850 50  0000 C CNN
+F 0 "SW40A1" H 20250 13850 50  0000 C CNN
 F 1 " ESB30" H 20150 13650 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 13950 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 13950 50  0001 C CNN
@@ -4289,21 +3968,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW77
-U 1 1 9A7B80FB
-P 29750 12200
-F 0 "SW77" H 29850 12300 50  0000 C CNN
-F 1 " ESB30" H 29750 12100 50  0000 C CNN
-F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 29750 12400 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 12400 50  0001 C CNN
-	1    29750 12200
-	1    0    0    1   
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW75
+L Switch:SW_Push_Dual SW35B1
 U 1 1 9A7B8108
 P 28150 12200
-F 0 "SW75" H 28250 12300 50  0000 C CNN
+F 0 "SW35B1" H 28250 12300 50  0000 C CNN
 F 1 " ESB30" H 28150 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 28150 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 12400 50  0001 C CNN
@@ -4311,10 +3979,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 28150 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW73
+L Switch:SW_Push_Dual SW36B1
 U 1 1 9A7B8115
 P 26550 12200
-F 0 "SW73" H 26650 12300 50  0000 C CNN
+F 0 "SW36B1" H 26650 12300 50  0000 C CNN
 F 1 " ESB30" H 26550 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 26550 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 12400 50  0001 C CNN
@@ -4322,10 +3990,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 26550 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW71
+L Switch:SW_Push_Dual SW37B1
 U 1 1 9A7B8122
 P 24950 12200
-F 0 "SW71" H 25050 12300 50  0000 C CNN
+F 0 "SW37B1" H 25050 12300 50  0000 C CNN
 F 1 " ESB30" H 24950 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 24950 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 12400 50  0001 C CNN
@@ -4333,10 +4001,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 24950 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW69
+L Switch:SW_Push_Dual SW38B1
 U 1 1 9A7B812F
 P 23350 12200
-F 0 "SW69" H 23450 12300 50  0000 C CNN
+F 0 "SW38B1" H 23450 12300 50  0000 C CNN
 F 1 " ESB30" H 23350 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 23350 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 12400 50  0001 C CNN
@@ -4344,10 +4012,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 23350 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW67
+L Switch:SW_Push_Dual SW39B1
 U 1 1 9A7B813C
 P 21750 12200
-F 0 "SW67" H 21850 12300 50  0000 C CNN
+F 0 "SW39B1" H 21850 12300 50  0000 C CNN
 F 1 " ESB30" H 21750 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21750 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 12400 50  0001 C CNN
@@ -4355,10 +4023,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 
 	1    0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW79
+L Switch:SW_Push_Dual SW33B1
 U 1 1 9A7B80EE
 P 31350 12200
-F 0 "SW79" H 31450 12300 50  0000 C CNN
+F 0 "SW33B1" H 31450 12300 50  0000 C CNN
 F 1 " ESB30" H 31350 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 31350 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 31350 12400 50  0001 C CNN
@@ -4410,10 +4078,10 @@ F 3 "~" H 25300 8500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW57
+L Switch:SW_Push_Dual SW40B1
 U 1 1 A7E0A0FA
 P 20150 12200
-F 0 "SW57" H 20250 12300 50  0000 C CNN
+F 0 "SW40B1" H 20250 12300 50  0000 C CNN
 F 1 " ESB30" H 20150 12100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 20150 12400 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 20150 12400 50  0001 C CNN
@@ -4426,8 +4094,6 @@ Entry Wire Line
 	2250 12900 2350 12800
 Entry Wire Line
 	2450 12900 2550 12800
-Entry Wire Line
-	2650 12900 2750 12800
 Entry Wire Line
 	2950 12900 3050 12800
 Entry Wire Line
@@ -4473,83 +4139,43 @@ Entry Wire Line
 Entry Wire Line
 	8050 12900 8150 12800
 Entry Wire Line
-	8350 12900 8450 12800
-Entry Wire Line
-	8550 12900 8650 12800
-Entry Wire Line
-	8750 12900 8850 12800
-Entry Wire Line
-	8950 12900 9050 12800
-Entry Wire Line
 	7150 12900 7250 12800
 Entry Wire Line
 	6250 12900 6350 12800
-Text Label 9050 12800 0    50   ~ 0
-ZB16
 Text Label 2200 11450 0    50   ~ 0
-YA3
-Text Label 6850 12800 0    50   ~ 0
-ZB11
-Text Label 8850 12800 0    50   ~ 0
-ZA16
-Text Label 8650 12800 0    50   ~ 0
-ZB15
-Text Label 8450 12800 0    50   ~ 0
-ZB15
-Text Label 8150 12800 0    50   ~ 0
-ZB14
-Text Label 7950 12800 0    50   ~ 0
-ZA14
-Text Label 7750 12800 0    50   ~ 0
-ZB13
-Text Label 7550 12800 0    50   ~ 0
-ZA13
-Text Label 7200 12800 0    50   ~ 0
-XB12
-Text Label 7050 12800 0    50   ~ 0
-ZA12
-Text Label 6650 12800 0    50   ~ 0
-ZA11
-Text Label 6350 12800 0    50   ~ 0
-ZB10
-Text Label 6150 12800 0    50   ~ 0
-ZA10
-Text Label 5950 12800 0    50   ~ 0
-ZB9
-Text Label 5750 12800 0    50   ~ 0
-ZA9
-Text Label 5450 12800 0    50   ~ 0
-ZB8
-Text Label 5250 12800 0    50   ~ 0
-ZA8
-Text Label 5050 12800 0    50   ~ 0
-ZB7
-Text Label 4850 12800 0    50   ~ 0
-ZA7
-Text Label 4550 12800 0    50   ~ 0
-ZB6
-Text Label 4350 12800 0    50   ~ 0
-ZA6
-Text Label 4150 12800 0    50   ~ 0
-ZB5
-Text Label 3950 12800 0    50   ~ 0
-ZA5
-Text Label 3650 12800 0    50   ~ 0
-ZB4
-Text Label 3450 12800 0    50   ~ 0
-ZA4
-Text Label 3250 12800 0    50   ~ 0
-ZB3
-Text Label 3050 12800 0    50   ~ 0
-ZA3
-Text Label 2750 12800 0    50   ~ 0
-ZB2
-Text Label 2550 12800 0    50   ~ 0
-ZA2
-Text Label 2350 12800 0    50   ~ 0
-ZB1
-Text Label 2150 12800 0    50   ~ 0
-ZA1
+R3B
+Text Label 5400 12750 3    50   ~ 0
+K40B
+Text Label 5200 12750 3    50   ~ 0
+K40A
+Text Label 5000 12750 3    50   ~ 0
+K39B
+Text Label 4800 12750 3    50   ~ 0
+K39A
+Text Label 4500 12750 3    50   ~ 0
+K38B
+Text Label 4300 12750 3    50   ~ 0
+K38A
+Text Label 4100 12750 3    50   ~ 0
+K37B
+Text Label 3900 12750 3    50   ~ 0
+K37A
+Text Label 3600 12750 3    50   ~ 0
+K36B
+Text Label 3400 12750 3    50   ~ 0
+K36A
+Text Label 3200 12750 3    50   ~ 0
+K35B
+Text Label 3000 12750 3    50   ~ 0
+K35A
+Text Label 2700 12750 3    50   ~ 0
+K34B
+Text Label 2500 12750 3    50   ~ 0
+K34A
+Text Label 2300 12750 3    50   ~ 0
+K33B
+Text Label 2100 12750 3    50   ~ 0
+K33A
 Entry Wire Line
 	31450 14100 31550 14000
 Entry Wire Line
@@ -4566,59 +4192,27 @@ Entry Wire Line
 	21850 14100 21950 14000
 Entry Wire Line
 	20250 14100 20350 14000
-Text Label 20250 14100 0    50   ~ 0
-ZB1
-Text Label 21850 14100 0    50   ~ 0
-ZB2
-Text Label 23450 14100 0    50   ~ 0
-ZB3
-Text Label 25050 14100 0    50   ~ 0
-ZB4
-Text Label 26650 14100 0    50   ~ 0
-ZB5
-Text Label 28250 14100 0    50   ~ 0
-ZB6
-Text Label 29850 14100 0    50   ~ 0
-ZB7
-Text Label 31450 14100 0    50   ~ 0
-ZB8
-Text Label 20450 11800 0    50   ~ 0
-ZA1
-Text Label 22050 11800 0    50   ~ 0
-ZA2
-Text Label 23650 11800 0    50   ~ 0
-ZA3
-Text Label 25250 11800 0    50   ~ 0
-ZA4
-Text Label 26850 11800 0    50   ~ 0
-ZA5
-Text Label 28450 11800 0    50   ~ 0
-ZA6
-Text Label 30050 11800 0    50   ~ 0
-ZA7
-Text Label 31650 11800 0    50   ~ 0
-ZA8
 $Comp
 L Interface_Expansion:MCP23017_SO U3
 U 1 1 781075BB
-P 3700 9200
-F 0 "U3" V 3500 10150 50  0000 L CNN
-F 1 "MCP23017_SO" V 3700 8950 50  0000 L CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 3900 8200 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3900 8100 50  0001 L CNN
-	1    3700 9200
+P 3700 9150
+F 0 "U3" V 3500 10100 50  0000 L CNN
+F 1 "MCP23017_SO" V 3700 8900 50  0000 L CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 3900 8150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3900 8050 50  0001 L CNN
+	1    3700 9150
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_Array:ULN2803A U4
 U 1 1 78107595
-P 4200 10350
-F 0 "U4" V 4050 9600 50  0000 L CNN
-F 1 "ULN2803A" V 4250 10100 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X393-18" H 4250 9700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4300 10150 50  0001 C CNN
-	1    4200 10350
-	0    -1   1    0   
+P 4500 10300
+F 0 "U4" V 4350 9550 50  0000 L CNN
+F 1 "ULN2803A" V 4550 10050 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 4550 9650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4600 10100 50  0001 C CNN
+	1    4500 10300
+	0    1    1    0   
 $EndComp
 $Comp
 L RPi_Hat-rescue:RPi_GPIO J7
@@ -4632,60 +4226,36 @@ F 3 "" H 13900 10550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SS73100-047F J2
-U 1 1 A8523A49
-P 5100 12650
-F 0 "J2" V 5771 15827 50  0000 L CNN
-F 1 "SS73100-047F" V 5680 15827 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 5250 12350 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 12200 50  0001 L BNN
-F 4 "Stewart Connector" H 5300 12000 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 12650 50  0001 C CNN "Dimensions"
-	1    5100 12650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Transistor_Array:ULN2803A U2
 U 1 1 781075B1
-P 3200 10350
-F 0 "U2" V 3050 9600 50  0000 L CNN
-F 1 "ULN2803A" V 3250 10050 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X393-18" H 3250 9700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 3300 10150 50  0001 C CNN
-	1    3200 10350
+P 3200 10300
+F 0 "U2" V 3050 9550 50  0000 L CNN
+F 1 "ULN2803A" V 3250 10000 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 3250 9650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 3300 10100 50  0001 C CNN
+	1    3200 10300
 	0    1    1    0   
 $EndComp
 $Comp
 L Interface_Expansion:MCP23017_SO U6
 U 1 1 CC7AB884
-P 7300 9200
-F 0 "U6" V 7100 10150 50  0000 L CNN
-F 1 "MCP23017_SO" V 7350 8950 50  0000 L CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 7500 8200 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7500 8100 50  0001 L CNN
-	1    7300 9200
+P 7300 9150
+F 0 "U6" V 7100 10100 50  0000 L CNN
+F 1 "MCP23017_SO" V 7350 8900 50  0000 L CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 7500 8150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 7500 8050 50  0001 L CNN
+	1    7300 9150
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_Array:ULN2803A U7
-U 1 1 CC7AB88E
-P 7800 10350
-F 0 "U7" V 7650 9600 50  0000 L CNN
-F 1 "ULN2803A" V 7850 10100 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X393-18" H 7850 9700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 7900 10150 50  0001 C CNN
-	1    7800 10350
-	0    -1   1    0   
 $EndComp
 $Comp
 L Transistor_Array:ULN2803A U5
 U 1 1 CC7AB89B
-P 6800 10350
-F 0 "U5" V 6650 9650 50  0000 L CNN
-F 1 "ULN2803A" V 6850 10050 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X393-18" H 6850 9700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6900 10150 50  0001 C CNN
-	1    6800 10350
+P 6800 10300
+F 0 "U5" V 6650 9600 50  0000 L CNN
+F 1 "ULN2803A" V 6850 10000 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 6850 9650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6900 10100 50  0001 C CNN
+	1    6800 10300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4958,16 +4528,12 @@ Wire Wire Line
 Wire Wire Line
 	5600 15850 5600 16350
 Connection ~ 5600 15850
-Wire Wire Line
-	5600 15850 6950 15850
 Connection ~ 5600 16350
 Wire Wire Line
 	4300 16350 4250 16350
 Wire Wire Line
 	4250 15850 4250 16350
 Connection ~ 4250 15850
-Wire Wire Line
-	4250 15850 5600 15850
 Connection ~ 4250 16350
 Wire Wire Line
 	2950 16350 2900 16350
@@ -5005,8 +4571,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 16250 2300 16050
 Wire Wire Line
-	5000 16650 5000 16450
-Wire Wire Line
 	6350 16650 6350 16450
 Wire Wire Line
 	7700 16650 7700 16450
@@ -5030,8 +4594,6 @@ Wire Wire Line
 	19850 16650 19850 16450
 Wire Wire Line
 	21200 16650 21200 16450
-Wire Wire Line
-	5000 16050 5000 16250
 Wire Wire Line
 	7200 16050 6850 16050
 Wire Wire Line
@@ -5172,8 +4734,6 @@ Wire Wire Line
 Wire Wire Line
 	11100 17850 11100 17800
 Wire Wire Line
-	11100 17800 2800 17800
-Wire Wire Line
 	4150 16650 4150 17550
 Wire Wire Line
 	11200 17750 11200 17850
@@ -5185,8 +4745,6 @@ Wire Wire Line
 	5500 17700 5500 17500
 Wire Wire Line
 	6850 16650 6850 17450
-Wire Wire Line
-	6800 17650 6850 17650
 Wire Wire Line
 	11400 17650 11400 17850
 Wire Wire Line
@@ -5251,8 +4809,6 @@ Wire Wire Line
 Connection ~ 6850 17650
 Wire Wire Line
 	6850 17650 11400 17650
-Wire Wire Line
-	6450 17650 6450 17450
 Wire Wire Line
 	5500 16650 5850 16650
 Connection ~ 5500 17500
@@ -5353,7 +4909,7 @@ Wire Wire Line
 	16300 17400 16300 16650
 Connection ~ 16300 17400
 Wire Wire Line
-	16300 16650 16650 16650
+	16300 16650 16550 16650
 Wire Wire Line
 	14950 17600 14950 17550
 Wire Wire Line
@@ -5433,8 +4989,6 @@ Connection ~ 9150 18700
 Connection ~ 7800 17600
 Wire Wire Line
 	7800 18700 6450 18700
-Wire Wire Line
-	6450 18700 6450 17650
 Connection ~ 7800 18700
 Connection ~ 6450 17650
 Wire Wire Line
@@ -5523,7 +5077,7 @@ Wire Wire Line
 Wire Wire Line
 	19350 16050 19000 16050
 Wire Wire Line
-	16650 16050 16300 16050
+	16650 16050 16550 16050
 Wire Wire Line
 	13950 16050 13600 16050
 Wire Wire Line
@@ -5592,21 +5146,15 @@ Wire Wire Line
 Wire Wire Line
 	2800 15200 2800 15300
 Wire Wire Line
-	2800 15200 11100 15200
-Wire Wire Line
 	2800 16050 3150 16050
 Wire Wire Line
 	4150 16050 4150 15550
-Wire Wire Line
-	4150 15250 11200 15250
 Wire Wire Line
 	11200 15250 11200 15150
 Wire Wire Line
 	4150 16050 4500 16050
 Wire Wire Line
 	11300 15150 11300 15300
-Wire Wire Line
-	11300 15300 5500 15300
 Wire Wire Line
 	5500 15300 5500 15400
 Wire Wire Line
@@ -5729,8 +5277,6 @@ Wire Wire Line
 	3750 15350 3750 15550
 Wire Wire Line
 	5100 15400 5100 15600
-Wire Wire Line
-	6450 15450 6450 15650
 Wire Wire Line
 	7800 15500 7800 15700
 Wire Wire Line
@@ -6023,8 +5569,6 @@ Wire Wire Line
 Wire Wire Line
 	25350 17350 25350 17300
 Connection ~ 23650 16750
-Wire Bus Line
-	9200 13100 9200 14850
 Wire Wire Line
 	2000 14700 2000 14950
 Wire Wire Line
@@ -6323,8 +5867,6 @@ Wire Bus Line
 Wire Bus Line
 	3350 15450 3300 15400
 Wire Bus Line
-	600  15250 600  14850
-Wire Bus Line
 	1800 15250 1950 15400
 Wire Bus Line
 	14200 15700 14250 15650
@@ -6342,7 +5884,6 @@ Wire Bus Line
 	20950 15400 21600 15400
 Wire Bus Line
 	600  17750 600  15250
-Connection ~ 600  15250
 Wire Bus Line
 	2150 17750 2200 17700
 Wire Bus Line
@@ -6606,15 +6147,11 @@ Wire Wire Line
 	6100 16050 6150 16050
 Connection ~ 6100 16000
 Wire Wire Line
-	6100 16000 7450 16000
-Wire Wire Line
 	4750 16050 4750 16000
 Connection ~ 4750 16050
 Wire Wire Line
 	4750 16050 4800 16050
 Connection ~ 4750 16000
-Wire Wire Line
-	4750 16000 6100 16000
 Wire Wire Line
 	3400 16050 3400 16000
 Connection ~ 3400 16050
@@ -7176,8 +6713,6 @@ Wire Wire Line
 	17700 5950 17700 6750
 Connection ~ 17700 5950
 Wire Wire Line
-	17700 6750 18050 6750
-Wire Wire Line
 	16350 5750 16350 5800
 Wire Wire Line
 	16350 5800 16350 6000
@@ -7230,10 +6765,6 @@ Wire Wire Line
 Connection ~ 1600 7550
 Wire Wire Line
 	21850 7550 22250 7550
-Wire Wire Line
-	23450 7550 23450 5150
-Wire Wire Line
-	23450 5150 13150 5150
 Connection ~ 21850 7550
 Wire Wire Line
 	12000 4700 10550 4700
@@ -7596,10 +7127,6 @@ Wire Wire Line
 Wire Wire Line
 	12900 6000 13200 5500
 Wire Wire Line
-	21350 4700 23600 4700
-Wire Wire Line
-	23600 4700 23600 8450
-Wire Wire Line
 	21350 8450 21350 8100
 Connection ~ 21350 4700
 Connection ~ 21350 8100
@@ -7688,8 +7215,6 @@ Wire Wire Line
 	11900 8250 11850 8250
 Wire Wire Line
 	17700 7750 17700 7350
-Wire Wire Line
-	18050 7350 17700 7350
 Wire Wire Line
 	17200 7350 17200 7150
 Wire Wire Line
@@ -7925,7 +7450,6 @@ Wire Bus Line
 	21000 8000 21650 8000
 Wire Bus Line
 	650  5650 650  8150
-Connection ~ 650  8150
 Wire Bus Line
 	2200 5650 2250 5700
 Wire Bus Line
@@ -8041,8 +7565,6 @@ Wire Wire Line
 	22350 7350 22400 7350
 Connection ~ 22350 7400
 Wire Wire Line
-	22350 7400 22600 7400
-Wire Wire Line
 	21000 7350 21000 7400
 Connection ~ 21000 7350
 Wire Wire Line
@@ -8157,8 +7679,6 @@ Wire Wire Line
 	7850 8300 9200 8300
 Wire Wire Line
 	2450 8300 3800 8300
-Wire Bus Line
-	650  8150 650  13100
 Wire Wire Line
 	4800 1850 4800 6000
 Wire Wire Line
@@ -8267,7 +7787,7 @@ Wire Wire Line
 	23550 12600 23550 12200
 Connection ~ 25150 12600
 Wire Wire Line
-	24500 11000 24500 11200
+	24500 10950 24500 11200
 Connection ~ 26750 12600
 Wire Wire Line
 	26750 11150 24600 11150
@@ -8504,16 +8024,6 @@ Wire Wire Line
 Wire Wire Line
 	30150 12900 30200 12900
 Wire Wire Line
-	31200 13350 31150 13350
-Connection ~ 31200 13350
-Wire Wire Line
-	31250 13350 31200 13350
-Wire Wire Line
-	31200 12450 31150 12450
-Connection ~ 31200 12450
-Wire Wire Line
-	31250 12450 31200 12450
-Wire Wire Line
 	31550 13350 31550 13550
 Connection ~ 31550 13350
 Wire Wire Line
@@ -8524,7 +8034,6 @@ Wire Wire Line
 	32300 12600 32300 12450
 Wire Wire Line
 	32300 13350 32300 13200
-Connection ~ 31550 12600
 Wire Wire Line
 	31550 13250 31550 13350
 Wire Wire Line
@@ -8540,39 +8049,14 @@ Wire Wire Line
 Wire Wire Line
 	31750 12900 31800 12900
 Wire Wire Line
-	24200 11100 24200 11000
+	24200 11100 24200 10950
 Wire Wire Line
-	24600 11150 24600 11000
-Wire Wire Line
-	24700 11100 24700 11000
-Wire Wire Line
-	24800 11050 24800 11000
-Wire Wire Line
-	24750 10100 24900 10200
-Wire Wire Line
-	24650 10100 24800 10200
-Wire Wire Line
-	24550 10100 24700 10200
-Wire Wire Line
-	24450 10100 24600 10200
-Wire Wire Line
-	24350 10100 24500 10200
-Wire Wire Line
-	24250 10100 24400 10200
-Wire Wire Line
-	24150 10100 24300 10200
-Wire Wire Line
-	24050 10100 24200 10200
-Wire Wire Line
-	23300 15750 23050 15750
-Wire Wire Line
-	22600 15750 22950 15750
+	24600 11150 24600 10950
 Wire Wire Line
 	10550 8300 10550 9100
 Wire Wire Line
 	10550 9100 12000 9100
 Connection ~ 10550 8300
-Connection ~ 23450 5150
 Wire Wire Line
 	19300 13100 19300 13350
 Wire Wire Line
@@ -8610,9 +8094,6 @@ Wire Wire Line
 Connection ~ 31550 13550
 Wire Wire Line
 	31150 13750 31150 13550
-Connection ~ 31550 13250
-Wire Wire Line
-	31550 13250 31550 13000
 Wire Wire Line
 	27000 12900 27000 14850
 Wire Wire Line
@@ -8717,11 +8198,11 @@ Wire Wire Line
 Wire Wire Line
 	21950 12000 21950 12200
 Wire Wire Line
-	24300 11000 24300 11150
+	24300 10950 24300 11150
 Wire Wire Line
 	24300 11150 21950 11150
 Wire Wire Line
-	24400 11000 24400 11200
+	24400 10950 24400 11200
 Wire Wire Line
 	24400 11200 23550 11200
 Wire Wire Line
@@ -8744,17 +8225,9 @@ Connection ~ 26350 11900
 Wire Wire Line
 	26350 11900 24750 11900
 Wire Wire Line
-	27950 12000 28000 11900
-Connection ~ 27950 12000
-Connection ~ 28000 11900
-Wire Wire Line
-	28000 11900 26350 11900
-Wire Wire Line
 	29550 12000 29550 11900
 Connection ~ 29550 12000
 Connection ~ 29550 11900
-Wire Wire Line
-	29550 11900 28000 11900
 Wire Wire Line
 	31150 12000 31150 11900
 Connection ~ 31150 12000
@@ -8822,7 +8295,6 @@ Wire Wire Line
 	29950 13550 29950 13350
 Wire Wire Line
 	17300 14400 20350 14400
-Connection ~ 20350 13750
 Wire Wire Line
 	17200 14450 21950 14450
 Connection ~ 21950 13750
@@ -8845,37 +8317,37 @@ Wire Wire Line
 	16600 14750 31550 14750
 Connection ~ 31550 13750
 Wire Wire Line
-	2900 9900 2700 9950
+	2900 9850 2700 9900
 Wire Wire Line
-	3000 9900 2800 9950
+	3000 9850 2800 9900
 Wire Wire Line
-	3100 9900 2900 9950
+	3100 9850 2900 9900
 Wire Wire Line
-	3200 9900 3000 9950
+	3200 9850 3000 9900
 Wire Wire Line
-	3300 9900 3100 9950
+	3300 9850 3100 9900
 Wire Wire Line
-	3400 9900 3200 9950
+	3400 9850 3200 9900
 Wire Wire Line
-	3500 9900 3300 9950
+	3500 9850 3300 9900
 Wire Wire Line
-	3600 9900 3400 9950
+	3600 9850 3400 9900
 Wire Wire Line
-	3800 9900 4000 9950
+	3800 9850 4000 9900
 Wire Wire Line
-	3900 9900 4100 9950
+	3900 9850 4100 9900
 Wire Wire Line
-	4000 9900 4200 9950
+	4000 9850 4200 9900
 Wire Wire Line
-	4100 9900 4300 9950
+	4100 9850 4300 9900
 Wire Wire Line
-	4200 9900 4400 9950
+	4200 9850 4400 9900
 Wire Wire Line
-	4300 9900 4500 9950
+	4300 9850 4500 9900
 Wire Wire Line
-	4400 9900 4600 9950
+	4400 9850 4600 9900
 Wire Wire Line
-	4500 9900 4700 9950
+	4500 9850 4700 9900
 Wire Wire Line
 	19950 12200 19950 12000
 Wire Wire Line
@@ -8949,46 +8421,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 12800 8100 12750
 Wire Wire Line
-	8450 12800 8400 12750
-Wire Wire Line
-	8650 12800 8600 12750
-Wire Wire Line
-	8850 12800 8800 12750
-Wire Wire Line
-	9050 12800 9000 12750
-Wire Wire Line
-	8900 12750 8900 13000
-Wire Wire Line
-	8700 12750 8700 13000
-Wire Wire Line
-	8500 12750 8500 13000
-Wire Wire Line
-	8300 12750 8300 13000
-Wire Wire Line
-	8000 12750 8000 13000
-Wire Wire Line
-	7800 12750 7800 13000
-Wire Wire Line
-	7600 12750 7600 13000
-Wire Wire Line
-	7400 12750 7400 13000
-Wire Wire Line
-	7100 12750 7100 13000
-Wire Wire Line
-	6900 12750 6900 13000
-Wire Wire Line
-	6700 12750 6700 13000
-Wire Wire Line
-	6500 12750 6500 13000
-Wire Wire Line
-	6000 12750 6000 13000
-Wire Wire Line
-	6200 12750 6200 13000
-Wire Wire Line
-	5800 12750 5800 13000
-Wire Wire Line
-	5600 12750 5600 13000
-Wire Wire Line
 	5300 12750 5300 13000
 Wire Wire Line
 	5100 12750 5100 13000
@@ -9059,15 +8491,9 @@ Wire Wire Line
 	16700 10200 16700 14700
 Wire Wire Line
 	16600 10100 21850 10100
-Wire Wire Line
-	24100 11000 24100 11050
 Connection ~ 1800 13000
 Wire Bus Line
 	16200 12900 16300 12900
-Connection ~ 7800 11050
-Connection ~ 7400 11050
-Connection ~ 7600 11050
-Connection ~ 8000 11050
 Connection ~ 8300 11050
 Connection ~ 8500 11050
 Connection ~ 8700 11050
@@ -9077,18 +8503,6 @@ Wire Wire Line
 	8700 11050 8500 11050
 Wire Wire Line
 	8500 11050 8300 11050
-Wire Wire Line
-	8300 11050 8000 11050
-Wire Wire Line
-	8000 11050 7800 11050
-Wire Wire Line
-	7800 11050 7600 11050
-Wire Wire Line
-	7600 11050 7400 11050
-Wire Wire Line
-	7400 11050 7100 11050
-Wire Wire Line
-	7800 11300 7800 11050
 Wire Wire Line
 	2200 11300 2200 11050
 Wire Wire Line
@@ -9136,12 +8550,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 11300 7100 11050
 Wire Wire Line
-	7400 11300 7400 11050
-Wire Wire Line
-	7600 11300 7600 11050
-Wire Wire Line
-	8000 11050 8000 11300
-Wire Wire Line
 	8300 11300 8300 11050
 Wire Wire Line
 	8500 11300 8500 11050
@@ -9180,8 +8588,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 11050 6700 11050
 Wire Wire Line
-	6200 11050 6500 11050
-Wire Wire Line
 	6000 11050 6200 11050
 Wire Wire Line
 	5800 11050 6000 11050
@@ -9191,8 +8597,6 @@ Wire Wire Line
 	5300 11050 5600 11050
 Wire Wire Line
 	5100 11050 5300 11050
-Wire Wire Line
-	4900 11050 5100 11050
 Wire Wire Line
 	4700 11050 4900 11050
 Wire Wire Line
@@ -9297,8 +8701,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 14950 4900 14950
 Wire Wire Line
-	4900 14950 5100 14950
-Wire Wire Line
 	5300 14950 5600 14950
 Wire Wire Line
 	5600 14950 5800 14950
@@ -9341,8 +8743,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 13000 4900 13000
 Wire Wire Line
-	4900 13000 5100 13000
-Wire Wire Line
 	5100 13000 5300 13000
 Wire Wire Line
 	5300 13000 5600 13000
@@ -9352,8 +8752,6 @@ Wire Wire Line
 	5800 13000 6000 13000
 Wire Wire Line
 	6000 13000 6200 13000
-Wire Wire Line
-	6200 13000 6500 13000
 Wire Wire Line
 	6500 13000 6700 13000
 Wire Wire Line
@@ -9387,127 +8785,112 @@ Wire Wire Line
 Wire Wire Line
 	3000 11000 3000 11300
 Wire Wire Line
-	2800 10850 2800 10750
+	2800 10850 2800 10700
 Wire Wire Line
 	2300 10850 2800 10850
 Wire Wire Line
-	2900 10900 2900 10750
+	2900 10900 2900 10700
 Wire Wire Line
 	2500 10900 2900 10900
 Wire Wire Line
-	3000 10750 3000 10950
+	3000 10700 3000 10950
 Wire Wire Line
 	2700 10950 3000 10950
 Wire Wire Line
-	3100 11000 3100 10750
+	3100 11000 3100 10700
 Wire Wire Line
 	3000 11000 3100 11000
 Wire Wire Line
-	3200 10750 3200 11300
+	3200 10700 3200 11300
 Wire Wire Line
 	3400 11300 3400 11000
 Wire Wire Line
 	3400 11000 3300 11000
 Wire Wire Line
-	3300 11000 3300 10750
+	3300 11000 3300 10700
 Wire Wire Line
 	3600 10950 3600 11300
 Wire Wire Line
 	3600 10950 3400 10950
 Wire Wire Line
-	3400 10950 3400 10750
+	3400 10950 3400 10700
 Connection ~ 10550 9100
 Wire Wire Line
-	4000 10750 4000 10850
+	4000 10700 4000 10850
 Wire Wire Line
 	4000 10850 3900 10850
 Wire Wire Line
 	3900 10850 3900 11300
 Wire Wire Line
-	4100 10750 4100 11300
+	4100 10700 4100 11300
 Wire Wire Line
-	4200 10750 4200 11000
+	4200 10700 4200 11000
 Wire Wire Line
 	4200 11000 4300 11000
 Wire Wire Line
 	4300 11000 4300 11300
 Wire Wire Line
-	4300 10750 4300 10950
+	4300 10700 4300 10950
 Wire Wire Line
 	4300 10950 4500 10950
 Wire Wire Line
 	4500 10950 4500 11300
 Wire Wire Line
-	4400 10750 4400 10900
+	4400 10700 4400 10900
 Wire Wire Line
 	4400 10900 4800 10900
 Wire Wire Line
 	4800 10900 4800 11300
 Wire Wire Line
-	4500 10750 4500 10850
+	4500 10700 4500 10850
 Wire Wire Line
 	4500 10850 5000 10850
 Wire Wire Line
-	5000 10850 5000 11300
+	2700 10700 2100 10700
 Wire Wire Line
-	2700 10750 2100 10750
+	2100 10700 2100 11300
 Wire Wire Line
-	2100 10750 2100 11300
+	3700 10700 3500 10700
 Wire Wire Line
-	3900 10750 3700 10750
-Wire Wire Line
-	3700 10750 3700 9800
-Connection ~ 3700 10750
-Wire Wire Line
-	3700 10750 3500 10750
-Wire Wire Line
-	4600 10750 4600 10800
+	4600 10700 4600 10800
 Wire Wire Line
 	4600 10800 5200 10800
 Wire Wire Line
 	5200 10800 5200 11300
 Wire Wire Line
-	4700 10750 5400 10750
-Wire Wire Line
-	5400 10750 5400 11300
-Wire Wire Line
-	3700 9800 5050 9800
-Wire Wire Line
-	5050 9800 5050 9100
-Wire Wire Line
 	5050 9100 8650 9100
 Wire Wire Line
-	6500 9900 6300 9950
+	6500 9850 6300 9900
 Wire Wire Line
-	6600 9900 6400 9950
+	6600 9850 6400 9900
 Wire Wire Line
-	6700 9900 6500 9950
+	6700 9850 6500 9900
 Wire Wire Line
-	6800 9900 6600 9950
+	6800 9850 6600 9900
 Wire Wire Line
-	6900 9900 6700 9950
+	6900 9850 6700 9900
 Wire Wire Line
-	7000 9900 6800 9950
+	7000 9850 6800 9900
 Wire Wire Line
-	7100 9900 6900 9950
+	7100 9850 6900 9900
 Wire Wire Line
-	7200 9900 7000 9950
+	7200 9850 7000 9900
 Wire Wire Line
-	7400 9900 7600 9950
+	7400 9850 7600 9900
 Wire Wire Line
-	7500 9900 7700 9950
+	7500 9850 7700 9900
 Wire Wire Line
-	7600 9900 7800 9950
+	7600 9850 7800 9900
 Wire Wire Line
-	7700 9900 7900 9950
+	7700 9850 7900 9900
 Wire Wire Line
-	7800 9900 8000 9950
+	7800 9850 8000 9900
 Wire Wire Line
-	7900 9900 8100 9950
+	7900 9850 8100 9900
 Wire Wire Line
-	8000 9900 8200 9950
+	8000 9850 8200 9900
 Wire Wire Line
-	8100 9900 8300 9950
+	8100 9850 8300 9900
 Wire Wire Line
 	5900 10850 5900 11300
 Wire Wire Line
@@ -9515,82 +8898,55 @@ Wire Wire Line
 Wire Wire Line
 	6300 10950 6300 11300
 Wire Wire Line
-	6400 10850 6400 10750
+	6400 10850 6400 10700
 Wire Wire Line
 	5900 10850 6400 10850
 Wire Wire Line
-	6500 10900 6500 10750
+	6500 10900 6500 10700
 Wire Wire Line
 	6100 10900 6500 10900
 Wire Wire Line
-	6600 10750 6600 10950
+	6600 10700 6600 10950
 Wire Wire Line
-	6300 10950 6600 10950
+	6700 11000 6700 10700
 Wire Wire Line
-	6700 11000 6700 10750
+	6800 10700 6800 11300
 Wire Wire Line
-	6800 10750 6800 11300
-Wire Wire Line
-	6900 11000 6900 10750
+	6900 11000 6900 10700
 Wire Wire Line
 	7200 10950 7200 11300
 Wire Wire Line
 	7200 10950 7000 10950
 Wire Wire Line
-	7000 10950 7000 10750
+	7000 10950 7000 10700
 Wire Wire Line
-	7600 10750 7600 10850
+	7800 10700 7800 11000
 Wire Wire Line
-	7600 10850 7500 10850
+	7900 10700 7900 10950
 Wire Wire Line
-	7500 10850 7500 11300
-Wire Wire Line
-	7700 10750 7700 11300
-Wire Wire Line
-	7800 10750 7800 11000
-Wire Wire Line
-	7900 10750 7900 10950
-Wire Wire Line
-	7900 10950 8100 10950
-Wire Wire Line
-	8100 10950 8100 11300
-Wire Wire Line
-	8000 10750 8000 10900
+	8000 10700 8000 10900
 Wire Wire Line
 	8000 10900 8400 10900
 Wire Wire Line
 	8400 10900 8400 11300
 Wire Wire Line
-	8100 10750 8100 10850
+	8100 10700 8100 10850
 Wire Wire Line
 	8100 10850 8600 10850
 Wire Wire Line
 	8600 10850 8600 11300
 Wire Wire Line
-	6300 10750 5700 10750
+	6300 10700 5700 10700
 Wire Wire Line
-	5700 10750 5700 11300
+	5700 10700 5700 11300
 Wire Wire Line
-	7500 10750 7300 10750
-Wire Wire Line
-	7300 10750 7300 9800
-Connection ~ 7300 10750
-Wire Wire Line
-	7300 10750 7100 10750
-Wire Wire Line
-	8200 10750 8200 10800
+	8200 10700 8200 10800
 Wire Wire Line
 	8200 10800 8800 10800
 Wire Wire Line
 	8800 10800 8800 11300
 Wire Wire Line
-	8300 10750 9000 10750
-Wire Wire Line
 	9000 10750 9000 11300
-Wire Wire Line
-	7300 9800 8650 9800
-Wire Wire Line
-	8650 9800 8650 9100
 Wire Wire Line
 	8650 9100 10550 9100
 Connection ~ 8650 9100
@@ -9608,23 +8964,21 @@ Wire Wire Line
 Wire Wire Line
 	1100 8300 700  8300
 Wire Wire Line
-	2900 8500 1750 8500
+	2900 8450 1750 8450
 Wire Wire Line
-	1750 8500 1750 8650
+	1750 8450 1750 8650
 Wire Wire Line
-	3000 8500 3000 8450
+	3000 8450 3000 8400
 Wire Wire Line
-	3000 8450 1650 8450
+	3000 8400 1650 8400
 Wire Wire Line
-	1650 8450 1650 8900
+	1650 8400 1650 8900
 Wire Wire Line
-	3100 8500 3100 8400
+	3100 8450 3100 8350
 Wire Wire Line
-	3100 8400 1550 8400
+	3100 8350 1550 8350
 Wire Wire Line
-	1550 8400 1550 9150
-Wire Wire Line
-	6500 8500 6500 8450
+	1550 8350 1550 9150
 Wire Wire Line
 	6500 8450 6150 8450
 Wire Wire Line
@@ -9634,9 +8988,9 @@ Wire Wire Line
 Wire Wire Line
 	5900 8400 5900 8550
 Wire Wire Line
-	6600 8400 6600 8500
+	6600 8400 6600 8450
 Wire Wire Line
-	6700 8500 6700 8350
+	6700 8450 6700 8350
 Wire Wire Line
 	6700 8350 5650 8350
 Wire Wire Line
@@ -9653,19 +9007,6 @@ Wire Wire Line
 	24550 8500 25150 8500
 Wire Wire Line
 	16600 10100 16600 14750
-Wire Wire Line
-	25100 10600 27650 10600
-Wire Wire Line
-	24900 11000 31550 11000
-Wire Wire Line
-	24100 11050 21850 11050
-Wire Wire Line
-	21850 11050 21850 10900
-Wire Wire Line
-	21850 11050 21650 11050
-Wire Wire Line
-	21650 11050 21650 8450
-Connection ~ 21850 11050
 Connection ~ 21650 8450
 Wire Wire Line
 	21650 8450 21350 8450
@@ -9675,9 +9016,6 @@ Wire Wire Line
 	30950 12450 30950 11650
 Wire Wire Line
 	30950 11650 31800 11650
-Connection ~ 31150 12450
-Wire Wire Line
-	31150 12450 30950 12450
 Wire Wire Line
 	31800 11650 31800 11500
 Wire Wire Line
@@ -9767,9 +9105,6 @@ Wire Wire Line
 Wire Wire Line
 	19800 11300 31400 11300
 Connection ~ 19950 12450
-Connection ~ 31150 13350
-Wire Wire Line
-	31150 13350 30950 13350
 Wire Wire Line
 	26100 14350 26100 15650
 Wire Wire Line
@@ -9891,43 +9226,43 @@ Wire Wire Line
 	17850 13100 17850 13350
 Wire Wire Line
 	17750 13100 17750 13350
-Text Label 17850 13450 3    50   ~ 0
-D8B1
-Text Label 17950 13450 3    50   ~ 0
-D7B1
-Text Label 18050 13450 3    50   ~ 0
-D6B1
-Text Label 18150 13450 3    50   ~ 0
-D5B1
-Text Label 18250 13450 3    50   ~ 0
-D4B1
-Text Label 18350 13450 3    50   ~ 0
-D3B1
-Text Label 18450 13450 3    50   ~ 0
-D2B1
-Text Label 18550 13450 3    50   ~ 0
-D1B1
-Text Label 17850 12350 1    50   ~ 0
-D8B2
-Text Label 17950 12350 1    50   ~ 0
-D7B2
-Text Label 18050 12350 1    50   ~ 0
-D6B2
-Text Label 18150 12350 1    50   ~ 0
-D5B2
-Text Label 18250 12350 1    50   ~ 0
-D4B2
-Text Label 18350 12350 1    50   ~ 0
-D3B2
-Text Label 18450 12350 1    50   ~ 0
-D2B2
-Text Label 18550 12350 1    50   ~ 0
-D1B2
+Text Label 17750 13100 3    50   ~ 0
+D40B
+Text Label 17850 13100 3    50   ~ 0
+D40A
+Text Label 17950 13100 3    50   ~ 0
+D39B
+Text Label 18050 13100 3    50   ~ 0
+D39A
+Text Label 18150 13100 3    50   ~ 0
+D38B
+Text Label 18250 13100 3    50   ~ 0
+D38A
+Text Label 18350 13100 3    50   ~ 0
+D37B
+Text Label 18450 13100 3    50   ~ 0
+D37A
+Text Label 17750 12700 1    50   ~ 0
+K40B
+Text Label 17850 12700 1    50   ~ 0
+K40A
+Text Label 17950 12700 1    50   ~ 0
+K39B
+Text Label 18050 12700 1    50   ~ 0
+K39A
+Text Label 18150 12700 1    50   ~ 0
+K38B
+Text Label 18250 12700 1    50   ~ 0
+K38A
+Text Label 18350 12700 1    50   ~ 0
+K37B
+Text Label 18450 12700 1    50   ~ 0
+K37A
 $Comp
 L Device:R_Pack08 RN1
 U 1 1 8E72DCC6
 P 18050 12900
-F 0 "RN1" H 18500 12550 50  0000 L CNN
+F 0 "RN1" H 18550 12900 50  0000 L CNN
 F 1 "4116R-1-471" V 18500 12650 50  0000 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 18525 12900 50  0001 C CNN
 F 3 "~" H 18050 12900 50  0001 C CNN
@@ -9949,10 +9284,10 @@ Wire Wire Line
 Wire Bus Line
 	17650 13450 17650 12350
 $Comp
-L Switch:SW_Push_Dual SW1
+L Switch:SW_Push_Dual SW1A1
 U 1 1 7E9D3C0B
 P 1250 15150
-F 0 "SW1" H 1550 15000 50  0000 C CNN
+F 0 "SW1A1" H 1550 15000 50  0000 C CNN
 F 1 " ESB30" H 900 15100 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 1250 15350 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 15350 50  0001 C CNN
@@ -9960,10 +9295,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 1250 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:G5RL-K1A-E-DC12 K22
+L BoatControl:G5RL-K1A-E-DC12 K27
 U 1 1 70FC16C4
 P 15450 7050
-F 0 "K22" H 15500 7050 50  0000 L CNN
+F 0 "K27" H 15500 7050 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 15650 6700 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 15850 7200 50  0001 L BNN
 F 3 "Omron" H 15850 7300 50  0001 L BNN
@@ -10003,11 +9338,11 @@ Wire Wire Line
 Wire Wire Line
 	1750 8950 1750 9450
 Wire Wire Line
-	4800 9200 4800 9450
+	4800 9150 4800 9450
 Wire Wire Line
 	1650 9200 1650 9450
 Wire Wire Line
-	8400 9200 8400 9350
+	8400 9150 8400 9350
 Wire Wire Line
 	8400 9350 5850 9350
 Wire Wire Line
@@ -10099,17 +9434,6 @@ F 3 "Bourns" H 28300 5350 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0104
-U 1 1 F43573A4
-P 28200 6150
-F 0 "#PWR0104" H 28200 6000 50  0001 C CNN
-F 1 "+5V" H 28215 6323 50  0000 C CNN
-F 2 "" H 28200 6150 50  0001 C CNN
-F 3 "" H 28200 6150 50  0001 C CNN
-	1    28200 6150
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+12V #PWR0105
 U 1 1 F534C05E
 P 28650 1150
@@ -10121,10 +9445,10 @@ F 3 "" H 28650 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D39
+L Device:D_Schottky D42
 U 1 1 F48B948D
 P 27800 4950
-F 0 "D39" V 27700 4900 50  0000 C CNN
+F 0 "D42" V 27700 4900 50  0000 C CNN
 F 1 "MBR745" V 28050 4950 50  0000 C CNN
 F 2 "BoatControl:TO-220" H 27800 4950 50  0001 C CNN
 F 3 "~" H 27800 4950 50  0001 C CNN
@@ -10132,10 +9456,10 @@ F 3 "~" H 27800 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D37
+L Device:D_Schottky D41
 U 1 1 FF7A1D30
 P 26700 4950
-F 0 "D37" V 26600 4900 50  0000 C CNN
+F 0 "D41" V 26600 4900 50  0000 C CNN
 F 1 "MBR745" V 26950 4950 50  0000 C CNN
 F 2 "BoatControl:TO-220" H 26700 4950 50  0001 C CNN
 F 3 "~" H 26700 4950 50  0001 C CNN
@@ -10188,17 +9512,6 @@ Wire Wire Line
 	27650 2600 27650 2100
 Wire Wire Line
 	28200 2600 28650 2600
-$Comp
-L power:+12V #PWR0107
-U 1 1 63112B0F
-P 27100 6150
-F 0 "#PWR0107" H 27100 6000 50  0001 C CNN
-F 1 "+12V" H 27115 6323 50  0000 C CNN
-F 2 "" H 27100 6150 50  0001 C CNN
-F 3 "" H 27100 6150 50  0001 C CNN
-	1    27100 6150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	26550 1150 26550 1250
 $Comp
@@ -10266,10 +9579,8 @@ Wire Wire Line
 Wire Wire Line
 	28200 5550 28100 5550
 Wire Wire Line
-	27100 5550 27100 6150
+	27100 5550 27100 5950
 Connection ~ 27100 5550
-Wire Wire Line
-	28200 5550 28200 6150
 Connection ~ 28200 5550
 Wire Wire Line
 	27000 4450 27000 5550
@@ -10379,29 +9690,20 @@ F 4 "DC" V 27800 850 50  0000 C CNN "Field4"
 	1    27800 850 
 	0    -1   -1   0   
 $EndComp
-Connection ~ 23600 8450
 Wire Wire Line
 	28200 8500 28200 8400
 Wire Wire Line
 	25450 8500 28200 8500
 Connection ~ 25450 8500
-Connection ~ 28200 6150
 Connection ~ 26550 5150
 Wire Wire Line
 	26550 5150 26550 5550
 Wire Wire Line
 	27650 5550 27650 9300
 Wire Wire Line
-	27100 6150 27100 8450
-Wire Wire Line
-	23600 8450 27100 8450
-Connection ~ 27100 6150
-Wire Wire Line
 	10500 15050 9150 15050
 Wire Wire Line
 	10500 15050 10500 15600
-Wire Wire Line
-	11000 15150 1450 15150
 Wire Wire Line
 	1050 15150 1050 15050
 Connection ~ 1050 15150
@@ -10420,10 +9722,6 @@ Wire Wire Line
 	5100 15400 5100 15050
 Connection ~ 5100 15400
 Connection ~ 5100 15050
-Wire Wire Line
-	6200 14950 6500 14950
-Wire Wire Line
-	6450 15450 6450 15050
 Connection ~ 6450 15450
 Connection ~ 6450 15050
 Wire Wire Line
@@ -10455,23 +9753,9 @@ Wire Wire Line
 Connection ~ 3750 15350
 Connection ~ 3750 15050
 Wire Wire Line
-	3750 15050 5100 15050
-Wire Wire Line
 	23150 13900 24750 13900
 Wire Wire Line
 	22950 16000 22950 15750
-Connection ~ 22950 15750
-$Comp
-L power:+12V #PWR0108
-U 1 1 7DD9F474
-P 22600 15750
-F 0 "#PWR0108" H 22600 15600 50  0001 C CNN
-F 1 "+12V" H 22615 15923 50  0000 C CNN
-F 2 "" H 22600 15750 50  0001 C CNN
-F 3 "" H 22600 15750 50  0001 C CNN
-	1    22600 15750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15900 14950 17250 14950
 Wire Wire Line
@@ -10480,22 +9764,16 @@ Connection ~ 22250 7550
 Wire Wire Line
 	22250 7550 23450 7550
 Wire Wire Line
-	23450 5150 26550 5150
-Wire Wire Line
-	900  5150 10850 5150
+	900  5150 9950 5150
 Wire Wire Line
 	900  7550 900  5150
 Wire Wire Line
 	8350 7550 8800 7550
-Wire Wire Line
-	8500 10350 8800 10350
-Wire Wire Line
-	8800 10350 8800 7550
 Connection ~ 8800 7550
 Wire Wire Line
 	8800 7550 9700 7550
 Wire Wire Line
-	6100 10350 5100 10350
+	6100 10300 5100 10300
 Wire Wire Line
 	900  7550 1600 7550
 Wire Wire Line
@@ -10504,7 +9782,7 @@ Connection ~ 1500 8050
 Wire Wire Line
 	800  7400 800  10100
 Wire Wire Line
-	2500 10350 2500 9700
+	2500 10300 2500 9700
 Wire Wire Line
 	2500 9700 900  9700
 Wire Wire Line
@@ -10514,10 +9792,7 @@ Connection ~ 5100 7550
 Wire Wire Line
 	5100 7550 5650 7550
 Wire Wire Line
-	5100 7550 5100 10350
-Connection ~ 5100 10350
-Wire Wire Line
-	5100 10350 4900 10350
+	5100 7550 5100 9800
 Wire Wire Line
 	10850 13550 10350 13550
 Wire Wire Line
@@ -10526,8 +9801,6 @@ Connection ~ 10350 14750
 Wire Wire Line
 	25050 9400 27650 9400
 Connection ~ 27650 9400
-Wire Wire Line
-	27650 9400 27650 10600
 Wire Wire Line
 	10900 3950 10850 3950
 Wire Wire Line
@@ -10548,12 +9821,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 7500 6200 7500
 Wire Wire Line
-	2600 7500 2600 9200
+	2600 7500 2600 9150
 Connection ~ 28200 7500
 Wire Wire Line
-	28200 7500 28200 6150
-Wire Wire Line
-	6200 9200 6200 7500
+	6200 9150 6200 7500
 Connection ~ 6200 7500
 Wire Wire Line
 	6200 7500 13200 7500
@@ -10578,7 +9849,6 @@ Wire Wire Line
 	32500 11900 31150 11900
 Wire Wire Line
 	32500 8450 32500 11900
-Connection ~ 27650 10600
 Wire Wire Line
 	27650 10600 32550 10600
 Connection ~ 27100 8450
@@ -10739,11 +10009,11 @@ F 3 "~" H 24250 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 8500 9750 8500
+	8100 8450 9750 8450
 Wire Wire Line
 	12800 10550 12800 10650
 Wire Wire Line
-	12800 10650 13550 10650
+	12800 10650 13350 10650
 Wire Wire Line
 	13700 10750 13500 10750
 Wire Wire Line
@@ -10753,21 +10023,19 @@ Wire Wire Line
 Wire Wire Line
 	12800 11800 12750 11800
 Wire Wire Line
-	9750 8500 9750 11800
+	9750 8450 9750 11800
 Connection ~ 12800 10650
 Wire Wire Line
-	8000 8500 8000 8450
+	8000 8450 8000 8350
 Wire Wire Line
-	8000 8450 9800 8450
+	8000 8350 9800 8350
 Wire Wire Line
-	9800 8450 9800 11750
+	9800 8350 9800 11750
 Wire Wire Line
 	9800 11750 12650 11750
 Wire Wire Line
 	12700 11750 12700 10750
 Connection ~ 12700 10750
-Wire Wire Line
-	9800 11750 5550 11750
 Wire Wire Line
 	5550 11750 5550 9450
 Wire Wire Line
@@ -10777,18 +10045,16 @@ Wire Wire Line
 Wire Wire Line
 	4950 8400 4400 8400
 Wire Wire Line
-	4400 8400 4400 8500
+	4400 8400 4400 8450
 Connection ~ 9800 11750
 Wire Wire Line
-	4500 8500 4900 8500
+	4500 8450 4900 8450
 Wire Wire Line
-	4900 8500 4900 9500
+	4900 8450 4900 9500
 Wire Wire Line
 	4900 9500 5500 9500
 Wire Wire Line
 	5500 9500 5500 11800
-Wire Wire Line
-	5500 11800 9750 11800
 Connection ~ 9750 11800
 Wire Wire Line
 	12750 12850 12750 11800
@@ -10800,8 +10066,6 @@ Wire Wire Line
 Connection ~ 12650 11750
 Wire Wire Line
 	12650 11750 12700 11750
-Wire Wire Line
-	23600 8450 21650 8450
 $Comp
 L BoatControl:TBL008V-1000-02BE J9
 U 1 1 70FC1583
@@ -10814,11 +10078,6 @@ F 4 "DC" V 22750 7000 50  0000 C CNN "Field4"
 	1    22750 7000
 	0    1    -1   0   
 $EndComp
-Connection ~ 22600 7400
-Wire Wire Line
-	22600 7400 22750 7400
-Wire Wire Line
-	22850 7400 23050 7400
 Wire Wire Line
 	13850 8500 13300 8500
 Wire Wire Line
@@ -10841,8 +10100,6 @@ Wire Wire Line
 Wire Wire Line
 	23250 8550 23250 8700
 Connection ~ 13500 10750
-Wire Wire Line
-	13500 10750 12700 10750
 Wire Wire Line
 	23150 3250 12800 3250
 Wire Wire Line
@@ -10893,8 +10150,6 @@ Connection ~ 15600 10550
 Wire Wire Line
 	15600 10550 15600 10650
 Wire Wire Line
-	20350 13750 20350 14400
-Wire Wire Line
 	21950 13750 21950 14450
 Wire Wire Line
 	23550 13750 23550 14500
@@ -10911,10 +10166,6 @@ Wire Wire Line
 Wire Bus Line
 	16200 11800 31800 11800
 Wire Wire Line
-	7800 11000 7900 11000
-Wire Wire Line
-	7900 11000 7900 11300
-Wire Wire Line
 	6700 11000 6600 11000
 Wire Wire Line
 	6600 11000 6600 11300
@@ -10922,6 +10173,739 @@ Wire Wire Line
 	6900 11000 7000 11000
 Wire Wire Line
 	7000 11000 7000 11300
+Text Label 25300 6500 3    50   ~ 0
+K32A
+Text Label 25400 6500 3    50   ~ 0
+K32B
+Text Label 1000 6950 0    50   ~ 0
+D17B
+Text Label 1850 6750 0    50   ~ 0
+K17B
+Text Label 23850 7600 1    50   ~ 0
+K17A
+Text Label 23850 8000 3    50   ~ 0
+D17A
+Text Label 1000 7100 0    50   ~ 0
+D17A
+Text Label 1850 7350 0    50   ~ 0
+K17A
+Connection ~ 31550 12600
+Wire Wire Line
+	31150 13350 30950 13350
+Connection ~ 31150 13350
+Wire Wire Line
+	31250 13350 31200 13350
+Wire Wire Line
+	31200 13350 31150 13350
+Connection ~ 31200 13350
+Wire Wire Line
+	31150 12450 30950 12450
+Connection ~ 31150 12450
+Wire Wire Line
+	31250 12450 31200 12450
+Wire Wire Line
+	31200 12450 31150 12450
+Connection ~ 31200 12450
+$Comp
+L BoatControl:EW60-1A3-CL12D04 K33
+U 1 1 61DB5D3D
+P 31250 12850
+F 0 "K33" V 31300 12700 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 31050 12450 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 31250 13250 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 32250 13350 50  0001 L BNN
+	1    31250 12850
+	0    -1   1    0   
+$EndComp
+Text Label 5750 13200 1    50   ~ 0
+K25A
+Text Label 5250 13200 1    50   ~ 0
+K24A
+Text Label 4850 13200 1    50   ~ 0
+K23A
+Text Label 4350 13200 1    50   ~ 0
+K22A
+Text Label 2300 14700 3    50   ~ 0
+K1B
+Text Label 4300 14700 3    50   ~ 0
+K6A
+Text Label 9000 14700 3    50   ~ 0
+K16B
+Wire Wire Line
+	6450 18700 6450 17650
+Wire Wire Line
+	6450 17650 6450 17450
+Wire Wire Line
+	6100 16000 7450 16000
+Wire Wire Line
+	6200 13000 6500 13000
+Wire Wire Line
+	5500 11800 9750 11800
+Wire Wire Line
+	11100 17800 2800 17800
+Wire Wire Line
+	4750 16000 6100 16000
+Wire Wire Line
+	2800 15200 11100 15200
+Wire Wire Line
+	4900 13000 5100 13000
+Wire Wire Line
+	11300 15300 5500 15300
+$Comp
+L BoatControl:SS73100-047F J3
+U 1 1 5E941411
+P 5100 14600
+F 0 "J3" V 5771 17777 50  0000 L CNN
+F 1 "SS73100-047F" V 5680 17777 50  0000 L CNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 5250 14300 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 14150 50  0001 L BNN
+F 4 "Stewart Connector" H 5300 13950 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 14600 50  0001 C CNN "Dimensions"
+	1    5100 14600
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	650  13100 650  14850
+Wire Bus Line
+	650  8150 650  13100
+Connection ~ 650  8150
+Connection ~ 650  13100
+Entry Wire Line
+	2650 12900 2750 12800
+Wire Wire Line
+	5600 15850 6950 15850
+Wire Wire Line
+	6450 15450 6450 15650
+Wire Wire Line
+	6450 15450 6450 15050
+Wire Wire Line
+	6200 14950 6500 14950
+Wire Wire Line
+	9800 11750 5550 11750
+Wire Wire Line
+	6200 11050 6500 11050
+Wire Wire Line
+	6300 10950 6600 10950
+Wire Wire Line
+	5000 16650 5000 16450
+Wire Wire Line
+	5000 16050 5000 16250
+Wire Wire Line
+	4250 15850 5600 15850
+Wire Wire Line
+	4150 15250 11200 15250
+Wire Wire Line
+	11000 15150 1450 15150
+Wire Wire Line
+	3750 15050 5100 15050
+Wire Wire Line
+	4900 14950 5100 14950
+Wire Wire Line
+	4900 11050 5100 11050
+Wire Wire Line
+	5000 10850 5000 11300
+$Comp
+L BoatControl:SS73100-047F J2
+U 1 1 A8523A49
+P 5100 12650
+F 0 "J2" V 5771 15827 50  0000 L CNN
+F 1 "SS73100-047F" V 5680 15827 50  0000 L CNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 5250 12350 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 5450 12200 50  0001 L BNN
+F 4 "Stewart Connector" H 5300 12000 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 5100 12650 50  0001 C CNN "Dimensions"
+	1    5100 12650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18050 7350 17700 7350
+Wire Wire Line
+	17700 6750 18050 6750
+$Comp
+L BoatControl:G5RL-K1A-E-DC12 K29
+U 1 1 70FC16D8
+P 18150 7050
+F 0 "K29" H 18200 7050 50  0000 L CNN
+F 1 "G5RL-K1A-E-DC12" H 18350 6700 50  0000 L CNN
+F 2 "RELAY_G5RL-K1A-E-DC12" H 18550 7200 50  0001 L BNN
+F 3 "Omron" H 18550 7300 50  0001 L BNN
+	1    18150 7050
+	1    0    0    1   
+$EndComp
+$Comp
+L BoatControl:EW60-1A3-CL12D04 K40
+U 1 1 61F1D9E3
+P 20050 12850
+F 0 "K40" V 20100 12700 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 19850 12400 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 20050 13250 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 21050 13350 50  0001 L BNN
+	1    20050 12850
+	0    -1   1    0   
+$EndComp
+Text Label 20350 12600 2    50   ~ 0
+K40B
+Text Label 1800 16650 0    50   ~ 0
+K1B
+Text Label 1800 16050 0    50   ~ 0
+K1A
+Text Label 25200 6500 3    50   ~ 0
+K31B
+Text Label 19400 6750 0    50   ~ 0
+K30B
+Text Label 8100 14700 3    50   ~ 0
+K14B
+Text Label 25150 16900 1    50   ~ 0
+K7B
+Text Label 19350 16650 0    50   ~ 0
+K14B
+Text Label 25100 6500 3    50   ~ 0
+K31A
+Text Label 18050 6750 0    50   ~ 0
+K29B
+Text Label 7700 14700 3    50   ~ 0
+K13B
+Text Label 25050 15400 1    50   ~ 0
+D15A
+Text Label 25150 15400 1    50   ~ 0
+D15B
+Text Label 25250 15400 1    50   ~ 0
+D16A
+Text Label 25350 15400 1    50   ~ 0
+D16B
+$Comp
+L Device:R_Pack08 RN10
+U 1 1 70FC1C68
+P 25100 7800
+F 0 "RN10" H 25450 8100 50  0000 L CNN
+F 1 "4116R-1-471" V 25500 7500 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 25575 7800 50  0001 C CNN
+F 3 "~" H 25100 7800 50  0001 C CNN
+	1    25100 7800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13150 5150 13450 5150
+Wire Wire Line
+	21650 8450 26450 8450
+Wire Wire Line
+	27100 5950 26100 5950
+Wire Wire Line
+	26100 5950 26100 4700
+Wire Wire Line
+	21350 4700 26100 4700
+Connection ~ 27100 5950
+Wire Wire Line
+	27100 5950 27100 8450
+Wire Wire Line
+	28200 7500 28200 6150
+Wire Wire Line
+	28200 5550 28200 6150
+Connection ~ 28200 6150
+$Comp
+L power:+5V #PWR0104
+U 1 1 F43573A4
+P 28200 6150
+F 0 "#PWR0104" H 28200 6000 50  0001 C CNN
+F 1 "+5V" H 28215 6323 50  0000 C CNN
+F 2 "" H 28200 6150 50  0001 C CNN
+F 3 "" H 28200 6150 50  0001 C CNN
+	1    28200 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13450 2250 9950 2250
+Wire Wire Line
+	9950 2250 9950 5150
+Connection ~ 9950 5150
+Wire Wire Line
+	9950 5150 10850 5150
+Wire Wire Line
+	13450 2250 13450 5150
+Connection ~ 13450 5150
+Wire Wire Line
+	13450 5150 26550 5150
+Wire Wire Line
+	16300 16050 16550 16050
+Connection ~ 16550 16050
+Wire Wire Line
+	22350 7400 22750 7400
+$Comp
+L BoatControl:SchurterCircuitBreaker Q18
+U 1 1 634EB94B
+P 3250 6250
+F 0 "Q18" V 3250 5900 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 6a" V 3500 6500 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 3250 6250 50  0001 C CNN
+F 3 "" H 3250 6250 50  0001 C CNN
+F 4 "4404.0099" V 3250 6250 50  0001 C CNN "Manufacturer ID"
+	1    3250 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker Q21
+U 1 1 7999432F
+P 7300 6250
+F 0 "Q21" V 7300 5900 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 10a" V 7550 6450 50  0000 R CNN
+F 2 "BoatControl:SchurterCurcuitBreaker" H 7300 6250 50  0001 C CNN
+F 3 "" H 7300 6250 50  0001 C CNN
+F 4 "4404.0102" V 7300 6250 50  0001 C CNN "Manufacturer ID"
+	1    7300 6250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	26350 11900 27950 11900
+Wire Wire Line
+	27950 12000 27950 11900
+Connection ~ 27950 12000
+Connection ~ 27950 11900
+Wire Wire Line
+	27950 11900 29550 11900
+$Comp
+L Switch:SW_Push_Dual SW8A1
+U 1 1 7E3491D3
+P 10700 15600
+F 0 "SW8A1" H 11000 15450 50  0000 C CNN
+F 1 " ESB30" H 10350 15550 50  0000 C CNN
+F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10700 15800 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10700 15800 50  0001 C CNN
+	1    10700 15600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW39A1
+U 1 1 99E18A25
+P 21750 13750
+F 0 "SW39A1" H 21850 13850 50  0000 C CNN
+F 1 " ESB30" H 21750 13650 50  0000 C CNN
+F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 21750 13950 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 21750 13950 50  0001 C CNN
+	1    21750 13750
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW34B1
+U 1 1 9A7B80FB
+P 29750 12200
+F 0 "SW34B1" H 29850 12300 50  0000 C CNN
+F 1 " ESB30" H 29750 12100 50  0000 C CNN
+F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 29750 12400 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 29750 12400 50  0001 C CNN
+	1    29750 12200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9000 10750 8300 10750
+Wire Wire Line
+	8300 10750 8300 10700
+Wire Wire Line
+	8650 9100 8650 9700
+Wire Wire Line
+	7100 10700 7300 10700
+Wire Wire Line
+	7300 10700 7300 9700
+Wire Wire Line
+	7300 9700 8650 9700
+Wire Wire Line
+	4700 10700 4700 10750
+Wire Wire Line
+	4700 10750 5400 10750
+Wire Wire Line
+	5400 10750 5400 11300
+Wire Wire Line
+	3700 9700 5050 9700
+Wire Wire Line
+	5050 9700 5050 9100
+Wire Wire Line
+	3700 9700 3700 10700
+Wire Wire Line
+	3800 10300 3750 10300
+Wire Wire Line
+	3750 10300 3750 9800
+Wire Wire Line
+	3750 9800 5100 9800
+Connection ~ 5100 9800
+Wire Wire Line
+	5100 9800 5100 10300
+Entry Wire Line
+	15600 10850 15700 10950
+Entry Wire Line
+	15600 10950 15700 11050
+Entry Wire Line
+	15600 11050 15700 11150
+Entry Wire Line
+	15600 11250 15700 11350
+Entry Wire Line
+	15600 11350 15700 11450
+Entry Wire Line
+	15600 11550 15700 11650
+Entry Wire Line
+	15600 11650 15700 11750
+Entry Wire Line
+	15600 11750 15700 11850
+Entry Wire Line
+	15600 11850 15700 11950
+Entry Wire Line
+	15600 12050 15700 12150
+Entry Wire Line
+	15600 12250 15700 12350
+Entry Wire Line
+	15600 12350 15700 12450
+Entry Wire Line
+	15600 12450 15700 12550
+Wire Wire Line
+	13700 10850 13450 10850
+Entry Wire Line
+	13350 11150 13450 11050
+Entry Wire Line
+	13350 11250 13450 11150
+Entry Wire Line
+	13350 11350 13450 11250
+Entry Wire Line
+	13350 11450 13450 11350
+Entry Wire Line
+	13350 11550 13450 11450
+Entry Wire Line
+	13350 11650 13450 11550
+Entry Wire Line
+	13350 11750 13450 11650
+Entry Wire Line
+	13350 11950 13450 11850
+Entry Wire Line
+	13350 12050 13450 11950
+Entry Wire Line
+	13350 12150 13450 12050
+Entry Wire Line
+	13350 12250 13450 12150
+Entry Wire Line
+	13350 12350 13450 12250
+Entry Wire Line
+	13350 12450 13450 12350
+Entry Wire Line
+	13350 10950 13450 10850
+Entry Wire Line
+	13350 11050 13450 10950
+Wire Wire Line
+	13300 10550 13700 10550
+Entry Wire Line
+	13350 10850 13450 10750
+Entry Wire Line
+	13250 10900 13350 10800
+Entry Wire Line
+	13200 10900 13300 10800
+Wire Wire Line
+	13350 10650 13350 10800
+Connection ~ 13350 10650
+Wire Wire Line
+	13350 10650 13550 10650
+Wire Wire Line
+	13300 10550 13300 10800
+Wire Wire Line
+	15600 10650 15700 10650
+Connection ~ 15600 10650
+Entry Wire Line
+	15700 10650 15800 10750
+Wire Bus Line
+	15800 10750 15700 10750
+Wire Bus Line
+	13350 12600 15700 12600
+Wire Bus Line
+	13350 11900 5550 11900
+Connection ~ 13350 11900
+Text Label 13700 10550 0    50   ~ 0
+RPi3.3V
+Text Label 13700 10650 0    50   ~ 0
+RPiBCM2_SDA
+Text Label 13700 10750 0    50   ~ 0
+RPiBCM3_SCL
+Text Label 13700 10850 0    50   ~ 0
+RPiBCM4_GPCLK0
+Text Label 13700 10950 0    50   ~ 0
+RPiGND
+Text Label 13700 11050 0    50   ~ 0
+RPiBCM17
+Text Label 13700 11150 0    50   ~ 0
+RPiBCM27_PCM_D
+Text Label 13700 11250 0    50   ~ 0
+RPiBCM22
+Text Label 13700 11350 0    50   ~ 0
+RPi3.3V
+Text Label 13700 11450 0    50   ~ 0
+RPiBCM10_MOSI
+Text Label 13700 11550 0    50   ~ 0
+RPiBCM9_MISO
+Text Label 13700 11650 0    50   ~ 0
+RPiBCM11_SCLK
+Text Label 13700 11850 0    50   ~ 0
+RPiBCM0_ID_SD
+Text Label 13700 11950 0    50   ~ 0
+RPiBCM5
+Text Label 13700 12050 0    50   ~ 0
+RPiBCM6
+Text Label 13700 12150 0    50   ~ 0
+RPiBCM13
+Text Label 13700 12250 0    50   ~ 0
+RPiBCM19_MISO
+Text Label 13700 12350 0    50   ~ 0
+RPiBCM276
+Text Label 15600 10850 0    50   ~ 0
+RPiBCM14_TXD
+Text Label 15600 10950 0    50   ~ 0
+RPiBCM15_RXD
+Text Label 15600 11050 0    50   ~ 0
+RPiBCM18_PCM_C
+Text Label 15600 11250 0    50   ~ 0
+RPiBCM23
+Text Label 15600 11350 0    50   ~ 0
+RPiBCM24
+Text Label 15600 11550 0    50   ~ 0
+RPiBCM25
+Text Label 15600 11650 0    50   ~ 0
+RPiBCM8_CEO
+Text Label 15600 11850 0    50   ~ 0
+RPIBCM1_ID_SC
+Text Label 15600 11750 0    50   ~ 0
+RPiBCM7_CE1
+Text Label 15600 12050 0    50   ~ 0
+RPiBCM12
+Text Label 15600 12250 0    50   ~ 0
+RPiBCM16
+Text Label 15600 12350 0    50   ~ 0
+RPIBCM20_MOSI
+Text Label 15600 12450 0    50   ~ 0
+RPiBCM21_SCLK
+Text Label 5600 12750 1    50   ~ 0
+RPi3.3V
+Text Label 5700 12750 1    50   ~ 0
+RPiBCM2_SDA
+Text Label 5800 12750 1    50   ~ 0
+RPiBCM3_SCL
+Text Label 5900 12750 1    50   ~ 0
+RPiBCM4_GPCLK0
+Text Label 6000 12750 1    50   ~ 0
+RPiGND
+Text Label 6100 12750 1    50   ~ 0
+RPiBCM17
+Text Label 6200 12750 1    50   ~ 0
+RPiBCM27_PCM_D
+Text Label 6300 12750 1    50   ~ 0
+RPiBCM22
+Text Label 6600 12750 1    50   ~ 0
+RPiBCM10_MOSI
+Text Label 6700 12750 1    50   ~ 0
+RPiBCM9_MISO
+Text Label 6800 12750 1    50   ~ 0
+RPiBCM11_SCLK
+Text Label 7000 12750 1    50   ~ 0
+RPiBCM0_ID_SD
+Text Label 7100 12750 1    50   ~ 0
+RPiBCM5
+Text Label 7200 12750 1    50   ~ 0
+RPiBCM6
+Text Label 7400 12750 1    50   ~ 0
+RPiBCM13
+Text Label 7500 12750 1    50   ~ 0
+RPiBCM19_MISO
+Text Label 7600 12750 1    50   ~ 0
+RPiBCM276
+Text Label 8100 12750 1    50   ~ 0
+RPiBCM24
+Text Label 8000 12750 1    50   ~ 0
+RPiBCM23
+Text Label 7900 12750 1    50   ~ 0
+RPiBCM18_PCM_C
+Text Label 7800 12750 1    50   ~ 0
+RPiBCM15_RXD
+Text Label 7700 12750 1    50   ~ 0
+RPiBCM14_TXD
+Entry Wire Line
+	7950 12900 8050 12800
+Entry Wire Line
+	7750 12900 7850 12800
+Entry Wire Line
+	7550 12900 7650 12800
+Entry Wire Line
+	7350 12900 7450 12800
+Entry Wire Line
+	7050 12900 7150 12800
+Entry Wire Line
+	6850 12900 6950 12800
+Entry Wire Line
+	6650 12900 6750 12800
+Entry Wire Line
+	6450 12900 6550 12800
+Entry Wire Line
+	6150 12900 6250 12800
+Entry Wire Line
+	5950 12900 6050 12800
+Entry Wire Line
+	5750 12900 5850 12800
+Entry Wire Line
+	5550 12900 5650 12800
+Wire Wire Line
+	8050 12800 8000 12750
+Wire Wire Line
+	7850 12800 7800 12750
+Wire Wire Line
+	7650 12800 7600 12750
+Wire Wire Line
+	7450 12800 7400 12750
+Wire Wire Line
+	7150 12800 7100 12750
+Wire Wire Line
+	6950 12800 6900 12750
+Wire Wire Line
+	6750 12800 6700 12750
+Wire Wire Line
+	6550 12800 6500 12750
+Wire Wire Line
+	6250 12800 6200 12750
+Wire Wire Line
+	6050 12800 6000 12750
+Wire Wire Line
+	5850 12800 5800 12750
+Wire Wire Line
+	5650 12800 5600 12750
+Text Label 6500 12750 1    50   ~ 0
+RPi3.3V
+Text Label 6900 12750 1    50   ~ 0
+RPiGND
+Wire Wire Line
+	24750 10100 24900 10150
+Wire Wire Line
+	24650 10100 24800 10150
+Wire Wire Line
+	24550 10100 24700 10150
+Wire Wire Line
+	24450 10100 24600 10150
+Wire Wire Line
+	24350 10100 24500 10150
+Wire Wire Line
+	24250 10100 24400 10150
+Wire Wire Line
+	24150 10100 24300 10150
+Wire Wire Line
+	24050 10100 24200 10150
+Wire Wire Line
+	24900 11000 31550 11000
+$Comp
+L Transistor_Array:ULN2803A U22
+U 1 1 7884A091
+P 24700 10550
+F 0 "U22" V 24600 10350 50  0000 L CNN
+F 1 "ULN2803A" V 24750 10250 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 24750 9900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 24800 10350 50  0001 C CNN
+	1    24700 10550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26450 8450 26450 10950
+Wire Wire Line
+	26450 10950 25000 10950
+Connection ~ 26450 8450
+Wire Wire Line
+	26450 8450 27100 8450
+Wire Wire Line
+	24900 11000 24900 10950
+Wire Wire Line
+	24800 10950 24800 11050
+Wire Wire Line
+	24700 10950 24700 11100
+Wire Wire Line
+	21850 10900 21650 10900
+Wire Wire Line
+	21650 10900 21650 8450
+Connection ~ 8650 9700
+Wire Wire Line
+	8650 9700 8650 10700
+Wire Wire Line
+	8800 9800 8800 7550
+Wire Wire Line
+	7350 9800 8800 9800
+Wire Wire Line
+	7350 10300 7400 10300
+Wire Wire Line
+	7350 9800 7350 10300
+Wire Wire Line
+	24000 10550 24000 9600
+Wire Wire Line
+	24000 9600 27650 9600
+Wire Wire Line
+	27650 9400 27650 9600
+Wire Wire Line
+	27650 9600 27650 10600
+Connection ~ 27650 9600
+Wire Wire Line
+	8400 10700 8650 10700
+$Comp
+L Transistor_Array:ULN2803A U7
+U 1 1 CC7AB88E
+P 8100 10300
+F 0 "U7" V 7950 9550 50  0000 L CNN
+F 1 "ULN2803A" V 8150 10050 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X393-18" H 8150 9650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8200 10100 50  0001 C CNN
+	1    8100 10300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 10700 7600 10850
+Wire Wire Line
+	7600 10850 7500 10850
+Wire Wire Line
+	8350 12800 8300 12750
+Wire Wire Line
+	8450 12800 8400 12750
+Wire Wire Line
+	8550 12800 8500 12750
+Wire Wire Line
+	8650 12800 8600 12750
+Wire Wire Line
+	8850 12800 8800 12750
+Wire Wire Line
+	9050 12800 9000 12750
+Wire Wire Line
+	8950 12800 8900 12750
+Wire Wire Line
+	8750 12800 8700 12750
+Wire Wire Line
+	7800 11000 7900 11000
+Entry Wire Line
+	8950 12900 9050 12800
+Wire Wire Line
+	7900 11000 7900 11300
+Wire Wire Line
+	7700 10700 7700 11300
+Wire Wire Line
+	7500 10850 7500 11300
+Entry Wire Line
+	8250 12900 8350 12800
+Entry Wire Line
+	8350 12900 8450 12800
+Entry Wire Line
+	8450 12900 8550 12800
+Entry Wire Line
+	8550 12900 8650 12800
+Entry Wire Line
+	8650 12900 8750 12800
+Entry Wire Line
+	8750 12900 8850 12800
+Entry Wire Line
+	8850 12900 8950 12800
+Wire Wire Line
+	7900 10950 8100 10950
+Wire Bus Line
+	13200 10900 13350 10900
+Wire Wire Line
+	12700 10750 13500 10750
+Wire Bus Line
+	13350 11900 13350 12600
+Wire Bus Line
+	13350 10900 13350 11900
+Wire Bus Line
+	15700 10750 15700 12600
 Wire Wire Line
 	31550 11000 31550 12000
 Wire Wire Line
@@ -10938,6 +10922,16 @@ Wire Wire Line
 	23550 11200 23550 12000
 Wire Wire Line
 	25150 11200 25150 12000
+Wire Bus Line
+	16200 14100 31700 14100
+Wire Bus Line
+	1900 12900 16200 12900
+Wire Bus Line
+	24600 13450 32400 13450
+Wire Bus Line
+	17650 12350 32400 12350
+Wire Bus Line
+	17650 13450 24550 13450
 Wire Bus Line
 	650  8150 1850 8150
 Wire Bus Line
@@ -10983,6 +10977,8 @@ Wire Bus Line
 Wire Bus Line
 	8700 7750 9900 7750
 Wire Bus Line
+	9950 7700 14250 7700
+Wire Bus Line
 	14300 7750 15600 7750
 Wire Bus Line
 	15650 7800 16950 7800
@@ -10992,6 +10988,18 @@ Wire Bus Line
 	18350 7900 19650 7900
 Wire Bus Line
 	19700 7950 20950 7950
+Wire Bus Line
+	23700 6650 25300 6650
+Wire Bus Line
+	23700 5950 25300 5950
+Wire Bus Line
+	1000 6650 23700 6650
+Wire Bus Line
+	23700 7450 25300 7450
+Wire Bus Line
+	23700 8150 25300 8150
+Wire Bus Line
+	1000 7450 23700 7450
 Wire Bus Line
 	600  15250 1800 15250
 Wire Bus Line
@@ -11037,6 +11045,8 @@ Wire Bus Line
 Wire Bus Line
 	8650 15650 9850 15650
 Wire Bus Line
+	9900 15700 14200 15700
+Wire Bus Line
 	14250 15650 15550 15650
 Wire Bus Line
 	15600 15600 16900 15600
@@ -11047,61 +11057,59 @@ Wire Bus Line
 Wire Bus Line
 	19650 15450 20900 15450
 Wire Bus Line
-	9950 7700 14250 7700
+	650  14850 9200 14850
 Wire Bus Line
-	9900 15700 14200 15700
-Wire Bus Line
-	24600 13450 32400 13450
-Wire Bus Line
-	16200 14100 31700 14100
-Wire Bus Line
-	17650 13450 24550 13450
-Wire Bus Line
-	23700 6650 25300 6650
-Wire Bus Line
-	23700 5950 25300 5950
-Wire Bus Line
-	23700 7450 25300 7450
-Wire Bus Line
-	23700 8150 25300 8150
+	650  13100 9200 13100
 Wire Bus Line
 	23650 16750 25250 16750
 Wire Bus Line
 	23650 17450 25250 17450
 Wire Bus Line
+	950  16750 23650 16750
+Wire Bus Line
 	23650 15950 25250 15950
 Wire Bus Line
 	23650 15250 25250 15250
 Wire Bus Line
-	17650 12350 32400 12350
-Wire Bus Line
-	1900 12900 16200 12900
-Wire Bus Line
-	1000 6650 23700 6650
-Wire Bus Line
-	1000 7450 23700 7450
-Wire Bus Line
-	600  14850 9200 14850
-Wire Bus Line
-	650  13100 9200 13100
-Wire Bus Line
-	950  16750 23650 16750
-Wire Bus Line
 	950  15950 23650 15950
-Text Label 25200 6650 3    50   ~ 0
-D15B2
-Text Label 25300 6650 3    50   ~ 0
-D16B2
-Text Label 1100 6750 0    50   ~ 0
-D1B1
-Text Label 1500 6750 0    50   ~ 0
-D1B2
-Text Label 23750 7450 1    50   ~ 0
-D1A2
-Text Label 23750 8150 3    50   ~ 0
-D1A1
-Text Label 1000 7450 0    50   ~ 0
-D1A1
-Text Label 1400 7450 0    50   ~ 0
-D1A2
+Wire Wire Line
+	7400 11050 7100 11050
+Connection ~ 7400 11050
+Wire Wire Line
+	7400 11300 7400 11050
+Wire Wire Line
+	7600 11050 7400 11050
+Connection ~ 7600 11050
+Wire Wire Line
+	7600 11300 7600 11050
+Wire Wire Line
+	7800 11050 7600 11050
+Connection ~ 7800 11050
+Wire Wire Line
+	7800 11300 7800 11050
+Wire Wire Line
+	8000 11050 7800 11050
+Wire Wire Line
+	8300 11050 8000 11050
+Connection ~ 8000 11050
+Wire Wire Line
+	8000 11050 8000 11300
+Wire Wire Line
+	8100 10950 8100 11300
+Text Label 8300 12750 1    50   ~ 0
+RPiBCM25
+Text Label 8400 12750 1    50   ~ 0
+RPiBCM8_CEO
+Text Label 8500 12750 1    50   ~ 0
+RPiBCM7_CE1
+Text Label 8600 12750 1    50   ~ 0
+RPIBCM1_ID_SC
+Text Label 8700 12750 1    50   ~ 0
+RPiBCM12
+Text Label 8800 12750 1    50   ~ 0
+RPiBCM16
+Text Label 8900 12750 1    50   ~ 0
+RPiBCM21_SCLK
+Text Label 9000 12750 1    50   ~ 0
+RPIBCM20_MOSI
 $EndSCHEMATC
