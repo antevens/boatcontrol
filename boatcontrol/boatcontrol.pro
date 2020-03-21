@@ -1,4 +1,4 @@
-update=3/20/2020 3:35:17 PM
+update=3/21/2020 3:31:00 PM
 version=1
 last_client=kicad
 [general]
@@ -242,6 +242,39 @@ Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=16A 12V
+Clearance=0.2
+TrackWidth=2.5
+ViaDiameter=1
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=16A 230V
+Clearance=1.25
+TrackWidth=2.5
+ViaDiameter=1
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=60A 230V
+Clearance=1.25
+TrackWidth=15
+ViaDiameter=6
+ViaDrill=4
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
