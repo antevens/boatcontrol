@@ -8799,19 +8799,19 @@ K2B
 Text Label 26000 12250 3    50   ~ 0
 D2A
 Text Label 27550 12250 3    50   ~ 0
-D18B
-Text Label 27450 12250 3    50   ~ 0
-D18A
-Text Label 27350 12250 3    50   ~ 0
 D16B
-Text Label 27250 12250 3    50   ~ 0
+Text Label 27450 12250 3    50   ~ 0
 D16A
-Text Label 27150 12250 3    50   ~ 0
+Text Label 27350 12250 3    50   ~ 0
 D14B
-Text Label 27050 12250 3    50   ~ 0
+Text Label 27250 12250 3    50   ~ 0
 D14A
-Text Label 26950 12250 3    50   ~ 0
+Text Label 27150 12250 3    50   ~ 0
 D12B
+Text Label 27050 12250 3    50   ~ 0
+D12A
+Text Label 26950 12250 3    50   ~ 0
+D10B
 Text Label 26850 12250 3    50   ~ 0
 D10A
 Entry Wire Line
@@ -9084,11 +9084,11 @@ D3B
 Text Label 6300 11350 0    50   ~ 0
 D3A
 Text Label 5800 11750 0    50   ~ 0
-K18B
+K2B
 Text Label 4950 11550 0    50   ~ 0
 D2B
 Text Label 5800 11150 0    50   ~ 0
-K18A
+K2A
 Text Label 4950 11350 0    50   ~ 0
 D2A
 Entry Wire Line

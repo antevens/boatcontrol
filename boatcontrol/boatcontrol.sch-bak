@@ -8799,19 +8799,19 @@ K2B
 Text Label 26000 12250 3    50   ~ 0
 D2A
 Text Label 27550 12250 3    50   ~ 0
-D18B
-Text Label 27450 12250 3    50   ~ 0
-D18A
-Text Label 27350 12250 3    50   ~ 0
 D16B
-Text Label 27250 12250 3    50   ~ 0
+Text Label 27450 12250 3    50   ~ 0
 D16A
-Text Label 27150 12250 3    50   ~ 0
+Text Label 27350 12250 3    50   ~ 0
 D14B
-Text Label 27050 12250 3    50   ~ 0
+Text Label 27250 12250 3    50   ~ 0
 D14A
-Text Label 26950 12250 3    50   ~ 0
+Text Label 27150 12250 3    50   ~ 0
 D12B
+Text Label 27050 12250 3    50   ~ 0
+D12A
+Text Label 26950 12250 3    50   ~ 0
+D10B
 Text Label 26850 12250 3    50   ~ 0
 D10A
 Entry Wire Line
@@ -9578,10 +9578,10 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/MV5x33,38,37,3
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:SchurterCircuitBreaker Q3
 U 1 1 8E889EAD
 P 7200 12250
-F 0 "Q?" V 7200 11900 50  0000 R CNN
+F 0 "Q3" V 7200 11900 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" V 7500 12550 50  0000 R CNN
 F 2 "BoatControl:SchurterCurcuitBreaker" H 7200 12250 50  0001 C CNN
 F 3 "" H 7200 12250 50  0001 C CNN
@@ -10756,10 +10756,10 @@ Wire Wire Line
 Wire Wire Line
 	29500 11050 29500 9650
 $Comp
-L BoatControl:TBL008V-1000-02BE J?
+L BoatControl:TBL008V-1000-02BE J8
 U 1 1 910E4140
 P 25500 8900
-F 0 "J?" V 25450 8800 50  0000 R CNN
+F 0 "J8" V 25450 8800 50  0000 R CNN
 F 1 "TBL008V-1000-02BE" V 25400 9950 50  0000 R CNN
 F 2 "CUI_TBL008V-1000-02BE" H 25500 8900 50  0001 L BNN
 F 3 "CUI" H 25500 8900 50  0001 L BNN
@@ -10892,8 +10892,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 3550 7400 2500
 Wire Wire Line
-	6050 3500 6050 2450
-Wire Wire Line
 	6050 2450 9250 2450
 Wire Wire Line
 	9250 2450 9250 2000
@@ -10973,6 +10971,8 @@ Wire Wire Line
 	20650 2400 24950 2400
 Wire Wire Line
 	24950 2400 24950 3550
+Wire Wire Line
+	6050 2450 6050 3550
 Wire Bus Line
 	3450 17500 15400 17500
 Wire Bus Line
