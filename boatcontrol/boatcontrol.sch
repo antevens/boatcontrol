@@ -6730,7 +6730,7 @@ Wire Wire Line
 	13450 3600 13450 3050
 Connection ~ 13450 3600
 Wire Wire Line
-	4150 5450 4150 5850
+	4150 5450 4150 5600
 Connection ~ 4150 5450
 Wire Wire Line
 	6850 5450 6850 5900
@@ -6745,8 +6745,6 @@ Wire Wire Line
 Wire Wire Line
 	12250 6000 3100 6000
 Connection ~ 12250 5450
-Wire Wire Line
-	3250 5850 4150 5850
 Wire Wire Line
 	15200 3600 15200 3050
 Connection ~ 15200 3600
@@ -10410,37 +10408,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 3400 4000 3400
 Wire Wire Line
-	3200 3800 3200 5900
-Wire Wire Line
-	2650 4300 3100 4300
-Wire Wire Line
-	3100 4300 3100 6000
-Wire Wire Line
-	2650 4200 2900 4200
-Wire Wire Line
-	2900 4200 2900 3250
-Wire Wire Line
-	2950 3300 2950 4100
-Wire Wire Line
-	2950 4100 2650 4100
-Wire Wire Line
-	3150 4000 2650 4000
-Wire Wire Line
-	3150 4000 3150 5950
-Wire Wire Line
-	3200 3800 2650 3800
-Wire Wire Line
-	3250 3600 2650 3600
-Wire Wire Line
-	3250 3600 3250 5850
-Wire Wire Line
-	3000 3350 3000 3900
-Wire Wire Line
-	3000 3900 2650 3900
-Wire Wire Line
-	3050 3400 3050 3700
-Wire Wire Line
-	3050 3700 2650 3700
+	3000 3350 3000 3800
 Text Label 26950 5450 3    50   ~ 0
 D25B
 Text Label 26850 5450 3    50   ~ 0
@@ -10825,6 +10793,44 @@ Wire Wire Line
 	1500 6350 13750 6350
 Wire Wire Line
 	3900 4950 3900 6750
+Wire Wire Line
+	2900 3250 2900 4200
+Wire Wire Line
+	4150 5600 3250 5600
+Wire Wire Line
+	3100 4300 3100 6000
+Wire Wire Line
+	2650 4200 2900 4200
+Wire Wire Line
+	2650 4300 3100 4300
+Wire Wire Line
+	2650 4100 3150 4100
+Wire Wire Line
+	3150 4100 3150 5950
+Wire Wire Line
+	2950 4000 2950 3300
+Wire Wire Line
+	2950 4000 2650 4000
+Wire Wire Line
+	3200 3900 3200 5900
+Wire Wire Line
+	2650 3800 3000 3800
+Wire Wire Line
+	2650 3900 3200 3900
+Wire Wire Line
+	3250 3700 2650 3700
+Wire Wire Line
+	3250 3700 3250 5600
+Wire Wire Line
+	3050 3400 3050 3600
+Wire Wire Line
+	3050 3600 2650 3600
+Wire Wire Line
+	25000 5600 25300 5600
+Wire Wire Line
+	25300 5600 25300 3450
+Wire Wire Line
+	25300 3450 24050 3450
 Wire Bus Line
 	3450 17500 15400 17500
 Wire Bus Line
@@ -10879,4 +10885,6 @@ Wire Bus Line
 	25300 17750 32300 17750
 Wire Bus Line
 	3000 11350 25700 11350
+Connection ~ 25000 5600
+Connection ~ 24050 3450
 $EndSCHEMATC
