@@ -1,4 +1,4 @@
-update=3/30/2020 12:44:44 AM
+update=4/1/2020 8:36:18 PM
 version=1
 last_client=kicad
 [general]
@@ -39,8 +39,10 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=2.5
-TrackWidth3=15
+TrackWidth2=1
+TrackWidth3=2.5
+TrackWidth4=4
+TrackWidth5=15
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1
@@ -266,6 +268,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=Up to 32A 12V DC
+Clearance=0.2
+TrackWidth=4
+ViaDiameter=9
+ViaDrill=7
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=Up to 60A 12-230V AC\\DC
 Clearance=1.25
 TrackWidth=15
@@ -276,8 +289,8 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
-Name=Up to16A 12V
+[pcbnew/Netclasses/4]
+Name=Up to16A 12V DC
 Clearance=0.2
 TrackWidth=2.5
 ViaDiameter=8
