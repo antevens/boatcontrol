@@ -11566,67 +11566,67 @@ Wire Wire Line
 	25050 14550 25050 14500
 Text Label 25200 13450 1    50   ~ 0
 K17A
-Text Label 25600 13450 1    50   ~ 0
-K18A
-Text Label 26500 13450 1    50   ~ 0
-K20A
 Text Label 27000 13450 1    50   ~ 0
+K18A
+Text Label 27400 13450 1    50   ~ 0
+K20A
+Text Label 26100 13450 1    50   ~ 0
 K21A
-Text Label 29700 13450 1    50   ~ 0
+Text Label 29200 13450 1    50   ~ 0
 K27A
-Text Label 30100 13450 1    50   ~ 0
-K28A
-Text Label 30600 13450 1    50   ~ 0
-K29A
 Text Label 31000 13450 1    50   ~ 0
-K30A
+K28A
+Text Label 29700 13450 1    50   ~ 0
+K29A
 Text Label 31500 13450 1    50   ~ 0
+K30A
+Text Label 30100 13450 1    50   ~ 0
 K31A
 Text Label 31900 13450 1    50   ~ 0
 K32A
-Text Label 26100 13450 1    50   ~ 0
+Text Label 25600 13450 1    50   ~ 0
 K19A
 Text Label 25400 13450 1    50   ~ 0
 K17B
-Text Label 25800 13450 1    50   ~ 0
-K18B
-Text Label 26300 13450 1    50   ~ 0
-K19B
-Text Label 26700 13450 1    50   ~ 0
-K20B
 Text Label 27200 13450 1    50   ~ 0
-K21B
+K18B
+Text Label 25800 13450 1    50   ~ 0
+K19B
 Text Label 27600 13450 1    50   ~ 0
-K22B
+K20B
+Text Label 26300 13450 1    50   ~ 0
+K21B
 Text Label 28100 13450 1    50   ~ 0
+K22B
+Text Label 26700 13450 1    50   ~ 0
 K23B
 Text Label 28500 13450 1    50   ~ 0
 K24B
-Text Label 29900 13450 1    50   ~ 0
+Text Label 29400 13450 1    50   ~ 0
 K27B
-Text Label 30300 13450 1    50   ~ 0
-K28B
-Text Label 30800 13450 1    50   ~ 0
-K29B
 Text Label 31200 13450 1    50   ~ 0
-K30B
+K28B
+Text Label 29900 13450 1    50   ~ 0
+K29B
 Text Label 31700 13450 1    50   ~ 0
-K21B
+K30B
+Text Label 30300 13450 1    50   ~ 0
+K31B
 Text Label 32100 13450 1    50   ~ 0
 K32B
 Text Label 28300 13450 1    50   ~ 0
 K24A
-Text Label 27900 13450 1    50   ~ 0
+Text Label 26500 13450 1    50   ~ 0
 K23A
-Text Label 27400 13450 1    50   ~ 0
+Text Label 27900 13450 1    50   ~ 0
 K22A
 Text Label 28800 13450 1    50   ~ 0
 K25A
 Text Label 29000 13450 1    50   ~ 0
 K25B
-Text Label 29200 13450 1    50   ~ 0
+Text Label 30600 13450 1    50   ~ 0
 K26A
-Text Label 29400 13450 1    50   ~ 0
+Text Label 30800 13450 1    50   ~ 0
 K26B
 $Comp
 L Device:C_Small C9
@@ -12554,6 +12554,8 @@ Entry Wire Line
 	25100 13350 25200 13450
 Wire Wire Line
 	31950 16050 32250 16050
+Wire Wire Line
+	14500 8950 28750 8950
 Wire Bus Line
 	3300 17750 15250 17750
 Wire Bus Line
