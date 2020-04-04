@@ -1,4 +1,4 @@
-update=4/1/2020 8:36:18 PM
+update=4/4/2020 3:43:28 AM
 version=1
 last_client=kicad
 [general]
@@ -42,7 +42,6 @@ TrackWidth1=0.25
 TrackWidth2=1
 TrackWidth3=2.5
 TrackWidth4=4
-TrackWidth5=15
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=1
@@ -281,7 +280,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Up to 60A 12-230V AC\\DC
 Clearance=1.25
-TrackWidth=15
+TrackWidth=8
 ViaDiameter=9
 ViaDrill=7
 uViaDiameter=0.3
