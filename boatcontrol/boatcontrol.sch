@@ -484,7 +484,7 @@ Entry Wire Line
 Entry Wire Line
 	7250 19650 7350 19550
 $Comp
-L RPi_Hat-rescue:RPi_GPIO J7
+L boatcontrol-rescue:RPi_GPIO-RPi_Hat-rescue J7
 U 1 1 B9E969F9
 P 30000 6350
 F 0 "J7" H 30750 6743 60  0000 C CNN
@@ -4375,10 +4375,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5850 1
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT SW34A2
+L Switch:SW_Push_DPDT SW35A1
 U 1 1 FA3EDD46
 P 7450 19350
-F 0 "SW34A2" V 7300 19350 50  0000 C CNN
+F 0 "SW35A1" V 7300 19350 50  0000 C CNN
 F 1 " ESB30" V 7400 19400 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 7450 19550 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 7450 19550 50  0001 C CNN
@@ -4463,10 +4463,10 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 9050 1
 	0    1    -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push_DPDT SW36B2
+L Switch:SW_Push_DPDT SW37B1
 U 1 1 FD1E3E6B
 P 10650 18050
-F 0 "SW36B2" V 10500 18050 50  0000 C CNN
+F 0 "SW37B1" V 10500 18050 50  0000 C CNN
 F 1 " ESB30" V 10600 18050 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 10650 18250 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 10650 18250 50  0001 C CNN
