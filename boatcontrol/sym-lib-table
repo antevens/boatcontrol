@@ -2,4 +2,5 @@
   (lib (name RPi_Hat-rescue)(type Legacy)(uri C:/Users/antevens/Revisions/RPi_Hat_Template/RPi_Hat-rescue.lib)(options "")(descr ""))
   (lib (name boatcontrol)(type Legacy)(uri ${KIPRJMOD}/boatcontrol.lib)(options "")(descr ""))
   (lib (name BoatControl)(type Legacy)(uri ${KIPRJMOD}/BoatControl.lib)(options "")(descr ""))
+  (lib (name boatcontrol-rescue)(type Legacy)(uri ${KIPRJMOD}/boatcontrol-rescue.lib)(options "")(descr ""))
 )
