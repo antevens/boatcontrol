@@ -10681,21 +10681,14 @@ Wire Wire Line
 Connection ~ 11750 17500
 Wire Wire Line
 	11050 17500 11750 17500
-Connection ~ 2750 17500
 Wire Wire Line
 	1300 17800 1300 17750
 Wire Wire Line
 	2750 17800 1300 17800
 Wire Wire Line
-	2750 17500 2750 17800
-Wire Wire Line
 	1300 17200 1300 17250
 Wire Wire Line
 	2750 17200 1300 17200
-Wire Wire Line
-	2750 17500 2750 17200
-Wire Wire Line
-	7300 17500 2750 17500
 Connection ~ 8250 17500
 Wire Wire Line
 	8250 17500 7500 17500
@@ -13278,20 +13271,10 @@ Connection ~ 15800 7350
 Wire Wire Line
 	15800 7350 15800 7200
 Wire Wire Line
-	11000 16350 14900 16350
+	11000 16350 12450 16350
 Connection ~ 14900 16350
 Wire Wire Line
 	14900 16350 14900 17600
-Wire Wire Line
-	14800 8250 15800 8250
-Wire Wire Line
-	15800 6400 15800 6900
-Wire Wire Line
-	14800 6400 15800 6400
-Connection ~ 15800 6900
-Wire Wire Line
-	15800 7750 15800 8250
-Connection ~ 15800 7750
 Wire Wire Line
 	11300 1150 11050 1150
 Wire Wire Line
@@ -13336,33 +13319,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 20050 13700 20050
 Wire Wire Line
-	8550 15850 8550 14900
-Wire Wire Line
 	8550 14900 11000 14900
 Connection ~ 11000 14900
 Wire Wire Line
 	11000 14900 11000 16350
 Wire Wire Line
-	1500 10850 1500 10750
-Wire Wire Line
-	1500 10750 600  10750
-Connection ~ 1500 10750
-Wire Wire Line
-	1500 10750 1500 10650
-Wire Wire Line
-	600  10750 600  13500
-Wire Wire Line
-	15800 6400 28850 6400
-Wire Wire Line
-	28850 6400 28850 5200
-Wire Wire Line
-	28850 5200 27950 5200
-Connection ~ 15800 6400
-Wire Wire Line
-	28850 5200 28850 3850
-Wire Wire Line
 	28850 3850 27950 3850
-Connection ~ 28850 5200
 Wire Wire Line
 	1500 4000 1500 3900
 Connection ~ 1500 3900
@@ -13560,9 +13522,6 @@ Wire Wire Line
 	600  350  11050 350 
 Wire Wire Line
 	1500 3900 600  3900
-Connection ~ 600  10750
-Wire Wire Line
-	600  7350 600  10750
 Wire Wire Line
 	650  7300 650  13450
 Connection ~ 600  7350
@@ -13732,11 +13691,7 @@ Connection ~ 24550 18450
 Wire Wire Line
 	24550 18450 24550 18300
 Wire Wire Line
-	24600 15350 24600 12800
-Wire Wire Line
 	24550 15250 24550 12850
-Wire Wire Line
-	24550 12850 28850 12850
 Wire Wire Line
 	28850 9450 27950 9450
 Connection ~ 24550 15250
@@ -13827,7 +13782,6 @@ Wire Wire Line
 	24600 15350 24600 16400
 Wire Wire Line
 	24600 16400 24050 16400
-Connection ~ 24600 15350
 Wire Wire Line
 	24600 16400 24600 20000
 Wire Wire Line
@@ -13859,8 +13813,8 @@ NoConn ~ 13500 7550
 NoConn ~ 13800 450 
 NoConn ~ 14400 17300
 NoConn ~ 24050 16900
-Text Notes 15400 19450 0    50   ~ 0
-Moitessier Hat uses following RPi GPIO pins by default:\n8, 9 , 10, 17, 18, 22, 23, 24, 27\nOptionally uses the following  RPi GPIO pins:\n2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 19, 20, 21, 25, 26
+Text Notes 26100 21300 0    50   ~ 0
+Moitessier Hat uses following RPi GPIO pins by default:\n8, 9 , 10, 17, 18, 22, 23, 24, 27\nOptionally uses the following  RPi GPIO pins:\n2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 19, 20, 21, 25, 26\n\nhttps://raw.githubusercontent.com/mr-rooney/moitessier-device_tree/54ac8e415c5bc4d5481761131816338c1f389773/README.md
 $Comp
 L Device:Jumper_NO_Small JP48
 U 1 1 8628CAC8
@@ -14105,6 +14059,101 @@ Wire Wire Line
 	15400 21500 15250 21500
 Wire Wire Line
 	15400 20750 15250 20750
+Wire Wire Line
+	23700 4400 24600 4400
+Wire Wire Line
+	24600 4400 24600 6400
+Connection ~ 23700 4400
+Connection ~ 24600 6400
+Wire Wire Line
+	24600 6400 28850 6400
+Connection ~ 23700 10250
+Wire Wire Line
+	12450 17500 12450 16350
+Connection ~ 12450 17500
+Connection ~ 12450 16350
+Wire Wire Line
+	12450 16350 14900 16350
+Wire Wire Line
+	1400 17750 1500 17750
+Connection ~ 1500 17750
+Wire Wire Line
+	1500 17750 1600 17750
+Connection ~ 1600 17750
+Wire Wire Line
+	1600 17750 1700 17750
+Connection ~ 1700 17750
+Wire Wire Line
+	1700 17750 1800 17750
+Wire Wire Line
+	1400 17250 1500 17250
+Connection ~ 1500 17250
+Wire Wire Line
+	1500 17250 1600 17250
+Connection ~ 1600 17250
+Wire Wire Line
+	1600 17250 1700 17250
+Connection ~ 1700 17250
+Wire Wire Line
+	1700 17250 1800 17250
+Wire Wire Line
+	27250 4950 22700 4950
+NoConn ~ 27150 19800
+NoConn ~ 27100 18700
+Connection ~ 24600 15350
+Wire Wire Line
+	23700 10250 24650 10250
+Wire Wire Line
+	24600 12800 24600 15350
+Wire Wire Line
+	24550 12850 24650 12850
+Wire Wire Line
+	24650 10250 24650 12850
+Connection ~ 24650 12850
+Wire Wire Line
+	24650 12850 28850 12850
+Wire Wire Line
+	28850 3850 28850 5200
+Wire Wire Line
+	27950 5200 28850 5200
+Connection ~ 28850 5200
+Wire Wire Line
+	28850 5200 28850 6400
+Wire Wire Line
+	8550 15850 8550 14900
+Wire Wire Line
+	2750 17200 2750 17500
+Wire Wire Line
+	2750 17500 7500 17500
+Connection ~ 2750 17500
+Wire Wire Line
+	2750 17500 2750 17800
+Connection ~ 7500 17500
+Wire Wire Line
+	600  7350 600  10650
+Wire Wire Line
+	1500 10650 600  10650
+Connection ~ 600  10650
+Wire Wire Line
+	600  10650 600  10850
+Wire Wire Line
+	1500 10850 600  10850
+Connection ~ 600  10850
+Wire Wire Line
+	600  10850 600  13500
+Wire Wire Line
+	15800 7750 15800 8250
+Wire Wire Line
+	15800 8250 14800 8250
+Connection ~ 15800 7750
+Wire Wire Line
+	14800 6400 15800 6400
+Wire Wire Line
+	15800 6900 15800 6400
+Connection ~ 15800 6900
+Connection ~ 15800 6400
+Wire Wire Line
+	15800 6400 24600 6400
 Wire Bus Line
 	15300 22550 17100 22550
 Wire Bus Line

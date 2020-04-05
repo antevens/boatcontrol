@@ -19,4 +19,8 @@ $CMP SS73100-047F
 F https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf
 $ENDCMP
 #
+$CMP TBL008V-1000-02BE
+F CUI
+$ENDCMP
+#
 #End Doc Library
