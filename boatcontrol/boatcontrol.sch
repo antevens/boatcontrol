@@ -578,8 +578,6 @@ Text Label 18750 22000 2    50   ~ 0
 RPiBCM4_GPCLK0
 Text Label 18750 20600 2    50   ~ 0
 RPiGND
-Text Label 15400 20650 2    50   ~ 0
-RPiBCM17
 Text Label 18750 21100 2    50   ~ 0
 RPiBCM27_PCM_D
 Text Label 18750 20100 2    50   ~ 0
@@ -10297,8 +10295,6 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	15400 20750 15300 20650
-Entry Wire Line
 	15400 20950 15300 20850
 Entry Wire Line
 	15400 21350 15300 21250
@@ -10334,8 +10330,6 @@ Text Label 17000 20850 0    50   ~ 0
 RPiBCM4_GPCLK0
 Text Label 15800 22450 3    50   ~ 0
 RPiGND
-Text Label 15400 20750 2    50   ~ 0
-RPiBCM18_PWM0
 Text Label 15400 21850 2    50   ~ 0
 RPiBCM27_PCM_D
 Text Label 15400 21350 2    50   ~ 0
@@ -13685,7 +13679,6 @@ Wire Wire Line
 	6450 20100 6450 21200
 Wire Wire Line
 	6450 20100 13850 20100
-NoConn ~ 15400 20750
 Wire Wire Line
 	5950 21700 6050 21700
 Connection ~ 6050 21700
@@ -13860,9 +13853,6 @@ Wire Wire Line
 	24550 21150 24550 20800
 Wire Wire Line
 	17300 20650 17300 16800
-NoConn ~ 15400 21550
-Wire Bus Line
-	15350 22550 15350 19750
 NoConn ~ 13800 14200
 NoConn ~ 13500 7100
 NoConn ~ 13500 7550
@@ -13872,10 +13862,10 @@ NoConn ~ 24050 16900
 Text Notes 15400 19450 0    50   ~ 0
 Moitessier Hat uses following RPi GPIO pins by default:\n8, 9 , 10, 17, 18, 22, 23, 24, 27\nOptionally uses the following  RPi GPIO pins:\n2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 19, 20, 21, 25, 26
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP48
 U 1 1 8628CAC8
 P 24150 17200
-F 0 "JP?" H 24150 17250 50  0000 C CNN
+F 0 "JP48" H 24150 17250 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 24200 17100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 24150 17200 50  0001 C CNN
 F 3 "~" H 24150 17200 50  0001 C CNN
@@ -13883,10 +13873,10 @@ F 3 "~" H 24150 17200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP49
 U 1 1 86D2B7FB
 P 24150 20800
-F 0 "JP?" H 24150 20850 50  0000 C CNN
+F 0 "JP49" H 24150 20850 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 24200 20700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 24150 20800 50  0001 C CNN
 F 3 "~" H 24150 20800 50  0001 C CNN
@@ -13894,10 +13884,10 @@ F 3 "~" H 24150 20800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP47
 U 1 1 877C9B53
 P 14500 17600
-F 0 "JP?" H 14500 17650 50  0000 C CNN
+F 0 "JP47" H 14500 17650 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 14550 17500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 14500 17600 50  0001 C CNN
 F 3 "~" H 14500 17600 50  0001 C CNN
@@ -13905,10 +13895,10 @@ F 3 "~" H 14500 17600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP44
 U 1 1 88267B92
 P 13500 14300
-F 0 "JP?" H 13500 14350 50  0000 C CNN
+F 0 "JP44" H 13500 14350 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 13550 14200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 13500 14300 50  0001 C CNN
 F 3 "~" H 13500 14300 50  0001 C CNN
@@ -13916,10 +13906,10 @@ F 3 "~" H 13500 14300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP46
 U 1 1 88D05CBF
 P 13900 7550
-F 0 "JP?" H 13900 7600 50  0000 C CNN
+F 0 "JP46" H 13900 7600 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 13950 7450 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 13900 7550 50  0001 C CNN
 F 3 "~" H 13900 7550 50  0001 C CNN
@@ -13927,10 +13917,10 @@ F 3 "~" H 13900 7550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP45
 U 1 1 897A3BCE
 P 13900 7100
-F 0 "JP?" H 13900 7150 50  0000 C CNN
+F 0 "JP45" H 13900 7150 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 13950 7000 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 13900 7100 50  0001 C CNN
 F 3 "~" H 13900 7100 50  0001 C CNN
@@ -13938,10 +13928,10 @@ F 3 "~" H 13900 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP43
 U 1 1 8A241DFD
 P 13500 350
-F 0 "JP?" H 13500 400 50  0000 C CNN
+F 0 "JP43" H 13500 400 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 13550 250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 13500 350 50  0001 C CNN
 F 3 "~" H 13500 350 50  0001 C CNN
@@ -13985,10 +13975,10 @@ Connection ~ 24550 17200
 Wire Wire Line
 	24550 17200 24550 17550
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J21
 U 1 1 917FFB94
 P 24250 20600
-F 0 "J?" H 24222 20532 50  0000 R CNN
+F 0 "J21" H 24222 20532 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 24222 20623 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 24250 20600 50  0001 C CNN
 F 3 "~" H 24250 20600 50  0001 C CNN
@@ -13997,10 +13987,10 @@ F 3 "~" H 24250 20600 50  0001 C CNN
 $EndComp
 NoConn ~ 24050 20500
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J20
 U 1 1 922BEB27
 P 24250 17000
-F 0 "J?" H 24222 16932 50  0000 R CNN
+F 0 "J20" H 24222 16932 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 24222 17023 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 24250 17000 50  0001 C CNN
 F 3 "~" H 24250 17000 50  0001 C CNN
@@ -14008,10 +13998,10 @@ F 3 "~" H 24250 17000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J19
 U 1 1 92D76020
 P 14600 17400
-F 0 "J?" H 14572 17332 50  0000 R CNN
+F 0 "J19" H 14572 17332 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 14572 17423 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 14600 17400 50  0001 C CNN
 F 3 "~" H 14600 17400 50  0001 C CNN
@@ -14019,10 +14009,10 @@ F 3 "~" H 14600 17400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J16
 U 1 1 9382DD55
 P 13700 14400
-F 0 "J?" H 13672 14332 50  0000 R CNN
+F 0 "J16" H 13672 14332 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 13672 14423 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 13700 14400 50  0001 C CNN
 F 3 "~" H 13700 14400 50  0001 C CNN
@@ -14030,10 +14020,10 @@ F 3 "~" H 13700 14400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J18
 U 1 1 942E5EC9
 P 13800 7500
-F 0 "J?" H 13772 7432 50  0000 R CNN
+F 0 "J18" H 13772 7432 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 13772 7523 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 13800 7500 50  0001 C CNN
 F 3 "~" H 13800 7500 50  0001 C CNN
@@ -14043,10 +14033,10 @@ $EndComp
 Wire Wire Line
 	13600 7550 13600 7500
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J17
 U 1 1 9585D0ED
 P 13800 7150
-F 0 "J?" H 13772 7082 50  0000 R CNN
+F 0 "J17" H 13772 7082 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 13772 7173 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 13800 7150 50  0001 C CNN
 F 3 "~" H 13800 7150 50  0001 C CNN
@@ -14056,20 +14046,71 @@ $EndComp
 Wire Wire Line
 	13600 7100 13600 7150
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J15
 U 1 1 96DD8D00
 P 13700 250
-F 0 "J?" H 13672 182 50  0000 R CNN
+F 0 "J15" H 13672 182 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 13672 273 50  0000 R CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 13700 250 50  0001 C CNN
 F 3 "~" H 13700 250 50  0001 C CNN
 	1    13700 250 
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:Conn_01x02_Male J24
+U 1 1 978B709A
+P 17350 21300
+F 0 "J24" H 17322 21182 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 17322 21273 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 17350 21300 50  0001 C CNN
+F 3 "~" H 17350 21300 50  0001 C CNN
+	1    17350 21300
+	-1   0    0    1   
+$EndComp
+Text Label 15400 20650 2    50   ~ 0
+RPiBCM17
+Wire Wire Line
+	17000 21250 17000 21200
+Wire Wire Line
+	17000 21200 17150 21200
+Wire Wire Line
+	17000 21350 17000 21300
+Wire Wire Line
+	17000 21300 17150 21300
+$Comp
+L Connector:Conn_01x01_Male J22
+U 1 1 9991B387
+P 15050 20750
+F 0 "J22" H 15158 20931 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 15158 20840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 15050 20750 50  0001 C CNN
+F 3 "~" H 15050 20750 50  0001 C CNN
+	1    15050 20750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J23
+U 1 1 99922547
+P 15050 21500
+F 0 "J23" H 15158 21681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 15158 21590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 15050 21500 50  0001 C CNN
+F 3 "~" H 15050 21500 50  0001 C CNN
+	1    15050 21500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 21550 15400 21500
+Wire Wire Line
+	15400 21500 15250 21500
+Wire Wire Line
+	15400 20750 15250 20750
 Wire Bus Line
-	15350 22550 17100 22550
+	15300 22550 17100 22550
 Wire Bus Line
-	15350 19750 17100 19750
+	15300 19750 17100 19750
+Wire Bus Line
+	15300 19750 15300 22550
 Wire Bus Line
 	17100 19750 17100 22550
 Wire Bus Line
