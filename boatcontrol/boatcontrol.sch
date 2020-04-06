@@ -10287,9 +10287,9 @@ $Comp
 L Connector:Raspberry_Pi_2_3 J14
 U 1 1 8EE4870D
 P 16200 21150
-F 0 "J14" H 15600 22500 50  0000 C CNN
+F 0 "J14" H 16200 21900 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" V 16200 20950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x20_P2.00mm_Vertical" H 16200 21150 50  0001 C CNN
+F 2 "Module:Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles" H 16200 21150 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 16200 21150 50  0001 C CNN
 	1    16200 21150
 	1    0    0    -1  
@@ -11729,7 +11729,7 @@ U 1 1 CC7AB884
 P 23350 20700
 F 0 "U4" V 23300 20650 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 23400 20450 50  0000 L CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 23550 19700 50  0001 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 23550 19700 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 23550 19600 50  0001 L CNN
 	1    23350 20700
 	-1   0    0    -1  
@@ -11740,7 +11740,7 @@ U 1 1 781075BB
 P 23350 17100
 F 0 "U1" V 23250 17050 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 23350 16850 50  0000 L CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 23550 16100 50  0001 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 23550 16100 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 23550 16000 50  0001 L CNN
 	1    23350 17100
 	-1   0    0    -1  
@@ -12211,8 +12211,6 @@ Text Label 18750 15800 2    50   ~ 0
 SW40A1
 Text Label 18750 15600 2    50   ~ 0
 SW40B1
-Wire Wire Line
-	7850 15650 7850 14950
 Wire Wire Line
 	7850 14950 10200 14950
 Wire Wire Line
@@ -13813,7 +13811,7 @@ NoConn ~ 13500 7550
 NoConn ~ 13800 450 
 NoConn ~ 14400 17300
 NoConn ~ 24050 16900
-Text Notes 26100 21300 0    50   ~ 0
+Text Notes 26100 21150 0    50   ~ 0
 Moitessier Hat uses following RPi GPIO pins by default:\n8, 9 , 10, 17, 18, 22, 23, 24, 27\nOptionally uses the following  RPi GPIO pins:\n2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 19, 20, 21, 25, 26\n\nhttps://raw.githubusercontent.com/mr-rooney/moitessier-device_tree/54ac8e415c5bc4d5481761131816338c1f389773/README.md
 $Comp
 L Device:Jumper_NO_Small JP48
@@ -14154,6 +14152,341 @@ Connection ~ 15800 6900
 Connection ~ 15800 6400
 Wire Wire Line
 	15800 6400 24600 6400
+Wire Wire Line
+	7850 14950 7850 15700
+Connection ~ 7850 15700
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60CB7788
+P 650 17100
+F 0 "H1" H 750 17146 50  0000 L CNN
+F 1 "MountingHole" H 750 17055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 650 17100 50  0001 C CNN
+F 3 "~" H 650 17100 50  0001 C CNN
+	1    650  17100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60CC560A
+P 700 17900
+F 0 "H3" H 800 17946 50  0000 L CNN
+F 1 "MountingHole" H 800 17855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 700 17900 50  0001 C CNN
+F 3 "~" H 700 17900 50  0001 C CNN
+	1    700  17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60CCC3FD
+P 2850 17900
+F 0 "H4" H 2950 17946 50  0000 L CNN
+F 1 "MountingHole" H 2950 17855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2850 17900 50  0001 C CNN
+F 3 "~" H 2850 17900 50  0001 C CNN
+	1    2850 17900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60CBE94D
+P 2850 17100
+F 0 "H2" H 2950 17146 50  0000 L CNN
+F 1 "MountingHole" H 2950 17055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2850 17100 50  0001 C CNN
+F 3 "~" H 2850 17100 50  0001 C CNN
+	1    2850 17100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 617EA361
+P 5150 20950
+F 0 "H5" H 5250 20996 50  0000 L CNN
+F 1 "MountingHole" H 5250 20905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5150 20950 50  0001 C CNN
+F 3 "~" H 5150 20950 50  0001 C CNN
+	1    5150 20950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 617EA367
+P 5150 21950
+F 0 "H7" H 5250 21996 50  0000 L CNN
+F 1 "MountingHole" H 5250 21905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5150 21950 50  0001 C CNN
+F 3 "~" H 5150 21950 50  0001 C CNN
+	1    5150 21950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 617EA36D
+P 7200 21950
+F 0 "H8" H 7300 21996 50  0000 L CNN
+F 1 "MountingHole" H 7300 21905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7200 21950 50  0001 C CNN
+F 3 "~" H 7200 21950 50  0001 C CNN
+	1    7200 21950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 617EA373
+P 7200 20950
+F 0 "H6" H 7300 20996 50  0000 L CNN
+F 1 "MountingHole" H 7300 20905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7200 20950 50  0001 C CNN
+F 3 "~" H 7200 20950 50  0001 C CNN
+	1    7200 20950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 685E26B8
+P 15400 19850
+F 0 "H9" H 15500 19896 50  0000 L CNN
+F 1 "MountingHole" H 15500 19805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 15400 19850 50  0001 C CNN
+F 3 "~" H 15400 19850 50  0001 C CNN
+	1    15400 19850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 690CC193
+P 17000 19850
+F 0 "H10" H 17100 19896 50  0000 L CNN
+F 1 "MountingHole" H 17100 19805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 17000 19850 50  0001 C CNN
+F 3 "~" H 17000 19850 50  0001 C CNN
+	1    17000 19850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 77FC9E29
+P 25900 21350
+F 0 "H11" H 26000 21396 50  0000 L CNN
+F 1 "MountingHole" H 26000 21305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 21350 50  0001 C CNN
+F 3 "~" H 25900 21350 50  0001 C CNN
+	1    25900 21350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 77FC9E2F
+P 26750 21350
+F 0 "H19" H 26850 21396 50  0000 L CNN
+F 1 "MountingHole" H 26850 21305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 21350 50  0001 C CNN
+F 3 "~" H 26750 21350 50  0001 C CNN
+	1    26750 21350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 804D274C
+P 25900 21550
+F 0 "H12" H 26000 21596 50  0000 L CNN
+F 1 "MountingHole" H 26000 21505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 21550 50  0001 C CNN
+F 3 "~" H 25900 21550 50  0001 C CNN
+	1    25900 21550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 804D2752
+P 26750 21550
+F 0 "H20" H 26850 21596 50  0000 L CNN
+F 1 "MountingHole" H 26850 21505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 21550 50  0001 C CNN
+F 3 "~" H 26750 21550 50  0001 C CNN
+	1    26750 21550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 80FBC0DE
+P 25900 21750
+F 0 "H13" H 26000 21796 50  0000 L CNN
+F 1 "MountingHole" H 26000 21705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 21750 50  0001 C CNN
+F 3 "~" H 25900 21750 50  0001 C CNN
+	1    25900 21750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H21
+U 1 1 80FBC0E4
+P 26750 21750
+F 0 "H21" H 26850 21796 50  0000 L CNN
+F 1 "MountingHole" H 26850 21705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 21750 50  0001 C CNN
+F 3 "~" H 26750 21750 50  0001 C CNN
+	1    26750 21750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 81AA572A
+P 25900 21950
+F 0 "H14" H 26000 21996 50  0000 L CNN
+F 1 "MountingHole" H 26000 21905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 21950 50  0001 C CNN
+F 3 "~" H 25900 21950 50  0001 C CNN
+	1    25900 21950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H22
+U 1 1 81AA5730
+P 26750 21950
+F 0 "H22" H 26850 21996 50  0000 L CNN
+F 1 "MountingHole" H 26850 21905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 21950 50  0001 C CNN
+F 3 "~" H 26750 21950 50  0001 C CNN
+	1    26750 21950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 8258EF68
+P 25900 22150
+F 0 "H15" H 26000 22196 50  0000 L CNN
+F 1 "MountingHole" H 26000 22105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 22150 50  0001 C CNN
+F 3 "~" H 25900 22150 50  0001 C CNN
+	1    25900 22150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H23
+U 1 1 8258EF6E
+P 26750 22150
+F 0 "H23" H 26850 22196 50  0000 L CNN
+F 1 "MountingHole" H 26850 22105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 22150 50  0001 C CNN
+F 3 "~" H 26750 22150 50  0001 C CNN
+	1    26750 22150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 8307892A
+P 25900 22350
+F 0 "H16" H 26000 22396 50  0000 L CNN
+F 1 "MountingHole" H 26000 22305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 22350 50  0001 C CNN
+F 3 "~" H 25900 22350 50  0001 C CNN
+	1    25900 22350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H24
+U 1 1 83078930
+P 26750 22350
+F 0 "H24" H 26850 22396 50  0000 L CNN
+F 1 "MountingHole" H 26850 22305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 22350 50  0001 C CNN
+F 3 "~" H 26750 22350 50  0001 C CNN
+	1    26750 22350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H17
+U 1 1 83B62160
+P 25900 22550
+F 0 "H17" H 26000 22596 50  0000 L CNN
+F 1 "MountingHole" H 26000 22505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 22550 50  0001 C CNN
+F 3 "~" H 25900 22550 50  0001 C CNN
+	1    25900 22550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H25
+U 1 1 83B62166
+P 26750 22550
+F 0 "H25" H 26850 22596 50  0000 L CNN
+F 1 "MountingHole" H 26850 22505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 22550 50  0001 C CNN
+F 3 "~" H 26750 22550 50  0001 C CNN
+	1    26750 22550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H18
+U 1 1 8464BFD0
+P 25900 22750
+F 0 "H18" H 26000 22796 50  0000 L CNN
+F 1 "MountingHole" H 26000 22705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 25900 22750 50  0001 C CNN
+F 3 "~" H 25900 22750 50  0001 C CNN
+	1    25900 22750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H26
+U 1 1 8464BFD6
+P 26750 22750
+F 0 "H26" H 26850 22796 50  0000 L CNN
+F 1 "MountingHole" H 26850 22705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 26750 22750 50  0001 C CNN
+F 3 "~" H 26750 22750 50  0001 C CNN
+	1    26750 22750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H30
+U 1 1 85D441EF
+P 27550 22750
+F 0 "H30" H 27650 22796 50  0000 L CNN
+F 1 "MountingHole" H 27650 22705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 27550 22750 50  0001 C CNN
+F 3 "~" H 27550 22750 50  0001 C CNN
+	1    27550 22750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H29
+U 1 1 8682D97E
+P 27550 22550
+F 0 "H29" H 27650 22596 50  0000 L CNN
+F 1 "MountingHole" H 27650 22505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 27550 22550 50  0001 C CNN
+F 3 "~" H 27550 22550 50  0001 C CNN
+	1    27550 22550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H28
+U 1 1 8731706F
+P 27550 22350
+F 0 "H28" H 27650 22396 50  0000 L CNN
+F 1 "MountingHole" H 27650 22305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 27550 22350 50  0001 C CNN
+F 3 "~" H 27550 22350 50  0001 C CNN
+	1    27550 22350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H27
+U 1 1 87E00633
+P 27550 22150
+F 0 "H27" H 27650 22196 50  0000 L CNN
+F 1 "MountingHole" H 27650 22105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 27550 22150 50  0001 C CNN
+F 3 "~" H 27550 22150 50  0001 C CNN
+	1    27550 22150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 16550 4600 16550
 Wire Bus Line
 	15300 22550 17100 22550
 Wire Bus Line
@@ -14194,4 +14527,6 @@ Wire Bus Line
 	2800 11150 26700 11150
 Wire Bus Line
 	24900 13350 32250 13350
+Connection ~ 4200 16550
+Connection ~ 4600 16550
 $EndSCHEMATC
