@@ -1,4 +1,4 @@
-(module DIP254P762X432-16P (layer F.Cu) (tedit 5E6FDB39)
+(module DIP254P762X432-16P (layer F.Cu) (tedit 5E93E2D2)
   (fp_text reference REF? (at -3.75 -21) (layer F.SilkS)
     (effects (font (size 1.64 1.64) (thickness 0.015)))
   )
@@ -97,4 +97,9 @@
   (pad 14 thru_hole circle (at 0 -12.7) (size 1.6764 1.6764) (drill 1.1176) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 0 -15.24) (size 1.6764 1.6764) (drill 1.1176) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 0 -17.78) (size 1.6764 1.6764) (drill 1.1176) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Package_DIP.3dshapes/DIP-16_W7.62mm.step
+    (offset (xyz -7.6 17.8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

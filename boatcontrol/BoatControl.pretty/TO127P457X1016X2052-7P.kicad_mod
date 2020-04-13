@@ -1,4 +1,4 @@
-(module TO127P457X1016X2052-7P (layer F.Cu) (tedit 5E6ED7E7)
+(module TO127P457X1016X2052-7P (layer F.Cu) (tedit 5E93F1E8)
   (fp_text reference REF** (at -3.9167 1.60229) (layer F.SilkS)
     (effects (font (size 1.642142 1.642142) (thickness 0.015)))
   )
@@ -20,4 +20,9 @@
   (pad 3 thru_hole circle (at -5.08 11.2014) (size 1.9812 1.9812) (drill 1.3208) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -6.35 6.1214) (size 1.9812 1.9812) (drill 1.3208) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -7.62 11.2014) (size 1.9812 1.9812) (drill 1.3208) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/LM2679T/LM2679T.stp
+    (offset (xyz -3.8 -3.3 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

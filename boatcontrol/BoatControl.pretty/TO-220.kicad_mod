@@ -1,4 +1,4 @@
-(module TO-220 (layer F.Cu) (tedit 5E6F3833)
+(module TO-220 (layer F.Cu) (tedit 5E93EF18)
   (fp_text reference REF** (at -0.625 -4.485) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
@@ -18,4 +18,9 @@
   (fp_circle (center -3.97 1.05) (end -3.72 1.05) (layer F.SilkS) (width 0.127))
   (pad 2 thru_hole oval (at -2.665 0) (size 1.508 3.016) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at 2.665 0) (size 1.508 3.016) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.step
+    (offset (xyz -2.6 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

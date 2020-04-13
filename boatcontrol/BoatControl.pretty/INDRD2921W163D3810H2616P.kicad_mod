@@ -1,4 +1,4 @@
-(module INDRD2921W163D3810H2616P (layer F.Cu) (tedit 5E6C7768)
+(module INDRD2921W163D3810H2616P (layer F.Cu) (tedit 5E93E48B)
   (fp_text reference REF** (at -3.0297 -21.96919) (layer F.SilkS)
     (effects (font (size 1.001559 1.001559) (thickness 0.015)))
   )
@@ -9,4 +9,9 @@
   (fp_circle (center 0 0) (end 19.05 0) (layer F.SilkS) (width 0.127))
   (pad 2 thru_hole circle (at 14.605 0) (size 2.8 2.8) (drill 1.85) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -14.605 0) (size 2.8 2.8) (drill 1.85) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/1140-220K-RC/1140-220k-rc.stp
+    (offset (xyz 0 0 13.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

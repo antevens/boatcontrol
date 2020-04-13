@@ -1,4 +1,4 @@
-(module STEWART_SS73100-047F (layer F.Cu) (tedit 5E93D6D4)
+(module STEWART_SS73100-047F (layer F.Cu) (tedit 5E93E150)
   (fp_text reference REF** (at -41.275 -19.685) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
@@ -1483,7 +1483,7 @@
   (pad F_1 thru_hole rect (at 39.36 -15.47) (size 1.478 1.478) (drill 0.97) (layers *.Cu *.Mask))
   (pad F_7 thru_hole circle (at 31.74 -15.47) (size 1.478 1.478) (drill 0.97) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/BELFUSE_SS73100047F/SS73100-047F.step
-    (offset (xyz -42.3 -10.7 0))
+    (offset (xyz -43.5 -10.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

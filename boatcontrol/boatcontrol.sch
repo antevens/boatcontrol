@@ -299,7 +299,7 @@ F 0 "C8" V 29221 20050 50  0000 C CNN
 F 1 "Illinois Capacitor " V 29312 20050 50  0000 C CNN
 F 2 "BoatControl:U1-E" H 29450 20050 50  0001 C CNN
 F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 29450 20050 50  0001 C CNN
-F 4 "227AVG050MGBJ" V 29600 20050 50  0000 C CNN "Field4"
+F 4 "227AVG050MGBJ" V 29600 20050 50  0000 C CNN "Type"
 F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 29450 20050 50  0001 C CNN "Field5"
 	1    29450 20050
 	-1   0    0    1   
@@ -342,7 +342,7 @@ L Device:CP1_Small C4
 U 1 1 645F271A
 P 29450 18950
 F 0 "C4" V 29221 18950 50  0000 C CNN
-F 1 "Illinois Capacitor 227AVG050MGBJ" V 29312 18950 50  0000 C CNN
+F 1 "Illinois Capacitor" V 29312 18950 50  0000 C CNN
 F 2 "BoatControl:U1-E" H 29450 18950 50  0001 C CNN
 F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 29450 18950 50  0001 C CNN
 F 4 "227AVG050MGBJ" V 29600 18950 50  0000 C CNN "Field4"

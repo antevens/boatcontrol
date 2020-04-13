@@ -1,4 +1,4 @@
-(module TE_2071366-2 (layer F.Cu) (tedit 5E6C5600)
+(module TE_2071366-2 (layer F.Cu) (tedit 5E93EBDB)
   (fp_text reference REF** (at -14.09875 -9.90427) (layer F.SilkS)
     (effects (font (size 1.407669 1.407669) (thickness 0.015)))
   )
@@ -27,4 +27,9 @@
   (pad 2 thru_hole circle (at -15.9 2.1) (size 3.516 3.516) (drill 2.5) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -15.9 6.1) (size 3.516 3.516) (drill 2.5) (layers *.Cu *.Mask))
   (pad A3 thru_hole circle (at 4.62 6.3) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/EW60-1A3-CL12D04/c-2071366-2-b-3d.stp
+    (offset (xyz 0 0 30.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

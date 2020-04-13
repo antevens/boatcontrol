@@ -14556,10 +14556,6 @@ F 3 "~" H 6250 21400 50  0001 C CNN
 	1    6250 21400
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	15300 22550 17100 22550
-Wire Bus Line
-	15300 19750 17100 19750
 Wire Wire Line
 	5950 21700 6050 21700
 Wire Wire Line
@@ -14568,6 +14564,51 @@ Wire Wire Line
 	5250 21700 5350 21700
 Wire Wire Line
 	5100 21200 5250 21200
+Connection ~ 5950 21200
+Connection ~ 5950 21700
+Wire Wire Line
+	6350 21200 6250 21200
+Connection ~ 6050 21200
+Connection ~ 6150 21200
+Wire Wire Line
+	6150 21200 6050 21200
+Connection ~ 6250 21200
+Wire Wire Line
+	6250 21200 6150 21200
+Wire Wire Line
+	6250 21700 6150 21700
+Connection ~ 6050 21700
+Connection ~ 6150 21700
+Wire Wire Line
+	6150 21700 6050 21700
+Wire Wire Line
+	6350 21700 6250 21700
+Connection ~ 6350 21700
+Connection ~ 6250 21700
+Wire Wire Line
+	5850 21200 5750 21200
+Connection ~ 5250 21200
+Connection ~ 5350 21200
+Wire Wire Line
+	5350 21200 5250 21200
+Connection ~ 5450 21200
+Wire Wire Line
+	5450 21200 5350 21200
+Connection ~ 5550 21200
+Wire Wire Line
+	5550 21200 5450 21200
+Connection ~ 5650 21200
+Wire Wire Line
+	5650 21200 5550 21200
+Connection ~ 5750 21200
+Wire Wire Line
+	5750 21200 5650 21200
+Wire Wire Line
+	5850 21700 5750 21700
+Wire Bus Line
+	15300 22550 17100 22550
+Wire Bus Line
+	15300 19750 17100 19750
 Wire Bus Line
 	15300 19750 15300 22550
 Wire Bus Line
@@ -14604,6 +14645,17 @@ Wire Bus Line
 	2800 11150 26700 11150
 Wire Bus Line
 	24900 13350 32250 13350
-Connection ~ 5950 21200
-Connection ~ 5950 21700
+Connection ~ 5350 21700
+Connection ~ 5450 21700
+Wire Wire Line
+	5450 21700 5350 21700
+Connection ~ 5550 21700
+Wire Wire Line
+	5550 21700 5450 21700
+Connection ~ 5650 21700
+Wire Wire Line
+	5650 21700 5550 21700
+Connection ~ 5750 21700
+Wire Wire Line
+	5750 21700 5650 21700
 $EndSCHEMATC
