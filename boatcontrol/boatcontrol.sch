@@ -40,11 +40,11 @@ F 3 "Bourns" H 26300 19000 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 Text Label 13850 21800 0    50   ~ 0
-K40A
+K40B
 Text Label 12950 21150 0    50   ~ 0
-K39B
-Text Label 12950 21800 0    50   ~ 0
 K39A
+Text Label 12950 21800 0    50   ~ 0
+K39B
 $Comp
 L BoatControl:EW60-1A3-CL12D04 K39
 U 1 1 61F1D9DD
@@ -57,29 +57,29 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    1    1    0   
 $EndComp
 Text Label 12050 21150 0    50   ~ 0
-K38B
-Text Label 12050 21800 0    50   ~ 0
 K38A
+Text Label 12050 21800 0    50   ~ 0
+K38B
 Text Label 11150 21150 0    50   ~ 0
-K37B
+A
 Text Label 11150 21800 0    50   ~ 0
-K37A
+K37B
 Text Label 10250 21150 0    50   ~ 0
-K36B
-Text Label 10250 21800 0    50   ~ 0
 K36A
+Text Label 10250 21800 0    50   ~ 0
+K36B
 Text Label 9350 21150 0    50   ~ 0
-K35B
-Text Label 9350 21800 0    50   ~ 0
 K35A
+Text Label 9350 21800 0    50   ~ 0
+K35B
 Text Label 8450 21150 0    50   ~ 0
-K34B
-Text Label 8450 21800 0    50   ~ 0
 K34A
+Text Label 8450 21800 0    50   ~ 0
+K34B
 Text Label 7550 21150 0    50   ~ 0
-K33B
-Text Label 7550 21800 0    50   ~ 0
 K33A
+Text Label 7550 21800 0    50   ~ 0
+K33B
 $Comp
 L BoatControl:EW60-1A3-CL12D04 K38
 U 1 1 61EDA2B1
@@ -552,7 +552,7 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 	0    1    1    0   
 $EndComp
 Text Label 13850 21150 0    50   ~ 0
-K40B
+K40A
 Wire Wire Line
 	26000 20100 25700 20100
 $Comp
@@ -10445,21 +10445,15 @@ Wire Wire Line
 Wire Wire Line
 	8450 22100 7050 22100
 Wire Wire Line
-	7050 22100 7050 21700
-Wire Wire Line
 	9350 21800 9350 22150
 Wire Wire Line
 	9350 22150 6950 22150
-Wire Wire Line
-	6950 22150 6950 21700
 Wire Wire Line
 	10250 21150 10250 20700
 Wire Wire Line
 	10250 20700 6850 20700
 Wire Wire Line
 	6850 20700 6850 21200
-Wire Wire Line
-	6850 21700 6850 22200
 Wire Wire Line
 	6850 22200 10250 22200
 Wire Wire Line
@@ -10478,8 +10472,6 @@ Wire Wire Line
 	13850 20100 13850 21150
 Wire Wire Line
 	7350 22700 5250 22700
-Wire Wire Line
-	5250 22700 5250 21700
 Connection ~ 7350 22700
 Connection ~ 5250 21700
 Wire Wire Line
@@ -13550,23 +13542,15 @@ Wire Wire Line
 Wire Wire Line
 	10300 22250 6750 22250
 Wire Wire Line
-	6750 22250 6750 21700
-Wire Wire Line
 	10300 21150 10300 20650
 Wire Wire Line
 	10300 20650 6750 20650
 Wire Wire Line
 	10300 21150 11150 21150
 Wire Wire Line
-	6650 22750 6650 21700
-Wire Wire Line
 	6650 22750 12050 22750
 Wire Wire Line
-	6550 22800 6550 21700
-Wire Wire Line
 	6550 22800 12950 22800
-Wire Wire Line
-	6450 22850 6450 21700
 Wire Wire Line
 	6650 20200 6650 21200
 Wire Wire Line
@@ -13581,8 +13565,6 @@ Wire Wire Line
 	6450 20100 13850 20100
 Wire Wire Line
 	6450 22850 13850 22850
-Wire Wire Line
-	6350 21700 6350 22900
 Wire Wire Line
 	6350 22900 25650 22900
 Wire Wire Line
@@ -14533,79 +14515,6 @@ Wire Wire Line
 Connection ~ 29850 16850
 Connection ~ 30950 16850
 Wire Wire Line
-	5100 21200 5250 21200
-Connection ~ 5250 21200
-Wire Wire Line
-	5350 21200 5250 21200
-Connection ~ 5350 21200
-Wire Wire Line
-	5250 21700 5350 21700
-Connection ~ 5350 21700
-Wire Wire Line
-	5450 21200 5350 21200
-Connection ~ 5450 21200
-Wire Wire Line
-	5350 21700 5450 21700
-Connection ~ 5450 21700
-Wire Wire Line
-	5550 21200 5450 21200
-Connection ~ 5550 21200
-Wire Wire Line
-	5450 21700 5550 21700
-Connection ~ 5550 21700
-Wire Wire Line
-	5650 21200 5550 21200
-Wire Wire Line
-	5550 21700 5650 21700
-Connection ~ 5950 21200
-Wire Wire Line
-	5950 21200 6050 21200
-Connection ~ 6050 21200
-Wire Wire Line
-	6050 21200 6150 21200
-Connection ~ 6150 21200
-Wire Wire Line
-	6050 21700 6150 21700
-Connection ~ 6150 21700
-Wire Wire Line
-	6250 21200 6350 21200
-Wire Wire Line
-	6150 21200 6250 21200
-Connection ~ 6250 21200
-Wire Wire Line
-	6250 21700 6350 21700
-Wire Wire Line
-	6150 21700 6250 21700
-Connection ~ 6250 21700
-Connection ~ 6350 21700
-$Comp
-L Connector_Generic:Conn_02x20_Odd_Even J13
-U 1 1 9083DF77
-P 6250 21500
-F 0 "J13" V 6346 20413 50  0000 R CNN
-F 1 "Conn_02x20_Odd_Even Header" V 6300 21950 50  0000 R CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_2x20_P2.00mm_Vertical" H 6250 21500 50  0001 C CNN
-F 3 "~" H 6250 21500 50  0001 C CNN
-	1    6250 21500
-	0    1    -1   0   
-$EndComp
-Connection ~ 5650 21700
-Wire Wire Line
-	5650 21700 5750 21700
-Connection ~ 5650 21200
-Wire Wire Line
-	5750 21200 5650 21200
-Connection ~ 6050 21700
-Connection ~ 5950 21700
-Wire Wire Line
-	5950 21700 6050 21700
-Connection ~ 5750 21700
-Wire Wire Line
-	5750 21700 5850 21700
-Connection ~ 5750 21200
-Wire Wire Line
-	5750 21200 5850 21200
-Wire Wire Line
 	1300 17800 1300 21200
 Wire Wire Line
 	1300 21200 5100 21200
@@ -14617,6 +14526,85 @@ Wire Wire Line
 	32250 18250 25650 18250
 Wire Wire Line
 	25650 18250 25650 19000
+Connection ~ 32250 16050
+Wire Wire Line
+	6850 21700 6850 22200
+Wire Wire Line
+	6950 22150 6950 21700
+Wire Wire Line
+	5250 22700 5250 21700
+Wire Wire Line
+	7050 22100 7050 21700
+Wire Wire Line
+	6350 21700 6350 22900
+Wire Wire Line
+	6450 22850 6450 21700
+Wire Wire Line
+	6550 22800 6550 21700
+Wire Wire Line
+	6650 22750 6650 21700
+Wire Wire Line
+	6750 22250 6750 21700
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J13
+U 1 1 9083DF77
+P 6250 21400
+F 0 "J13" V 6346 20313 50  0000 R CNN
+F 1 "Conn_02x20_Odd_Even Header" V 6300 21850 50  0000 R CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x20_P2.00mm_Vertical" H 6250 21400 50  0001 C CNN
+F 3 "~" H 6250 21400 50  0001 C CNN
+	1    6250 21400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 21700 6050 21700
+Wire Wire Line
+	5950 21200 6050 21200
+Wire Wire Line
+	5250 21700 5350 21700
+Wire Wire Line
+	5100 21200 5250 21200
+Connection ~ 5950 21200
+Connection ~ 5950 21700
+Wire Wire Line
+	6350 21200 6250 21200
+Connection ~ 6050 21200
+Connection ~ 6150 21200
+Wire Wire Line
+	6150 21200 6050 21200
+Connection ~ 6250 21200
+Wire Wire Line
+	6250 21200 6150 21200
+Wire Wire Line
+	6250 21700 6150 21700
+Connection ~ 6050 21700
+Connection ~ 6150 21700
+Wire Wire Line
+	6150 21700 6050 21700
+Wire Wire Line
+	6350 21700 6250 21700
+Connection ~ 6350 21700
+Connection ~ 6250 21700
+Wire Wire Line
+	5850 21200 5750 21200
+Connection ~ 5250 21200
+Connection ~ 5350 21200
+Wire Wire Line
+	5350 21200 5250 21200
+Connection ~ 5450 21200
+Wire Wire Line
+	5450 21200 5350 21200
+Connection ~ 5550 21200
+Wire Wire Line
+	5550 21200 5450 21200
+Connection ~ 5650 21200
+Wire Wire Line
+	5650 21200 5550 21200
+Connection ~ 5750 21200
+Wire Wire Line
+	5750 21200 5650 21200
+Wire Wire Line
+	5850 21700 5750 21700
 Wire Bus Line
 	15300 22550 17100 22550
 Wire Bus Line
@@ -14657,5 +14645,17 @@ Wire Bus Line
 	2800 11150 26700 11150
 Wire Bus Line
 	24900 13350 32250 13350
-Connection ~ 32250 16050
+Connection ~ 5350 21700
+Connection ~ 5450 21700
+Wire Wire Line
+	5450 21700 5350 21700
+Connection ~ 5550 21700
+Wire Wire Line
+	5550 21700 5450 21700
+Connection ~ 5650 21700
+Wire Wire Line
+	5650 21700 5550 21700
+Connection ~ 5750 21700
+Wire Wire Line
+	5750 21700 5650 21700
 $EndSCHEMATC

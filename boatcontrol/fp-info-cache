@@ -1,4 +1,4 @@
-30133752308646
+28558004286949
 BoatControl
 CAPPRD500W60D1000H1750
 
@@ -83,13 +83,6 @@ switch DPDT footswitch
 0
 6
 6
-BoatControl
-Samtec_HLE-120-02-XXX-DV-BE-XX-XX
-
-
-0
-40
-40
 BoatControl
 SchurterCurcuitBreaker
 
