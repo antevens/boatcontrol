@@ -1,6 +1,6 @@
 WORK IN PROGRESS, NOT PRODUCTION READY!
 
-# The biggest Raspberry Pi Hat ever made ...
+# Possibly The biggest Raspberry Pi Hat ever made ...
 A Latching Relay PCB with a socket for a Raspberry Pi.
 
 * All components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
