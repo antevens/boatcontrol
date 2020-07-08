@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 1 64
+Sheet 1 55
 Title ""
 Date ""
 Rev ""
@@ -4530,20 +4530,20 @@ Wire Wire Line
 Wire Wire Line
 	24600 12800 28800 12800
 $Sheet
-S 16350 9150 1200 400 
+S 20700 13100 1200 400 
 U D16552B4
 F0 "12V DC Common Bank" 50
 F1 "CommonBank1.sch" 50
-F2 "SDA" O L 16350 9300 50 
-F3 "SCK" O L 16350 9400 50 
+F2 "SDA" O L 20700 13250 50 
+F3 "SCK" O L 20700 13350 50 
 $EndSheet
 $Sheet
-S 16350 8450 1200 400 
+S 20700 12400 1200 400 
 U D1BB8DB4
 F0 "12V DC / 230V AC Common Bank" 50
 F1 "CommonBank2.sch" 50
-F2 "SDA" O L 16350 8600 50 
-F3 "SCK" O L 16350 8700 50 
+F2 "SDA" O L 20700 12550 50 
+F3 "SCK" O L 20700 12650 50 
 $EndSheet
 Wire Wire Line
 	5250 22700 13650 22700
@@ -4556,10 +4556,18 @@ Wire Wire Line
 Wire Wire Line
 	24650 12900 24650 16300
 $Sheet
-S 16400 9850 1150 1850
-U E0EE2714
-F0 "Mixed Isolated Bank" 50
-F1 "MixedBank.sch" 50
+S 21000 13950 1350 150 
+U E171B338
+F0 "Mixed Control Relay Boards" 50
+F1 "RelayBoard.sch" 50
+$EndSheet
+$Sheet
+S 20700 13800 1750 450 
+U E171B33C
+F0 "Mixed Bank" 50
+F1 "MixedControl.sch" 50
+F2 "SDA" O L 20700 13950 50 
+F3 "SCK" O L 20700 14050 50 
 $EndSheet
 Wire Bus Line
 	15300 22550 17100 22550
