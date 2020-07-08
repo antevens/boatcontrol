@@ -1,0 +1,858 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 43
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Expansion:MCP23017_SO U?
+U 1 1 D1AAA186
+P 5150 4500
+AR Path="/D1AAA186" Ref="U?"  Part="1" 
+AR Path="/D16552B4/D1AAA186" Ref="U?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA186" Ref="U?"  Part="1" 
+F 0 "U?" V 5050 4500 50  0000 L CNN
+F 1 "MCP23017-E/SP" V 5150 4250 50  0000 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5350 3500 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5350 3400 50  0001 L CNN
+	1    5150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:TBL008V-1000-02BE J?
+U 1 1 D1AAA18D
+P 7800 6150
+AR Path="/D1AAA18D" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA18D" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1" 
+F 0 "J?" H 7950 6200 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" V 8100 6550 50  0000 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 7800 6150 50  0001 L BNN
+F 3 "CUI" H 7800 6150 50  0001 L BNN
+F 4 "DC 12V Common Bank 1" V 7800 5550 50  0000 C CNN "Type"
+	1    7800 6150
+	0    -1   1    0   
+$EndComp
+$Comp
+L BoatControl:TB007-508-16BE J?
+U 1 1 D1AAA194
+P 8950 3200
+AR Path="/D1AAA194" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA194" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA194" Ref="J?"  Part="1" 
+F 0 "J?" V 8797 2370 50  0000 R CNN
+F 1 "TBP01R2W-508-16BE" V 9050 3550 50  0000 R CNN
+F 2 "BoatControl:CUI_TBP01R2W-508-16BE" H 8950 3200 50  0001 L BNN
+F 3 "Manufacturer Recommendations" H 8950 3200 50  0001 L BNN
+F 4 "CUI" H 8950 3200 50  0001 L BNN "Field4"
+	1    8950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:MCP23017_SO U?
+U 1 1 D1AAA19A
+P 5150 1900
+AR Path="/D1AAA19A" Ref="U?"  Part="1" 
+AR Path="/D16552B4/D1AAA19A" Ref="U?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA19A" Ref="U?"  Part="1" 
+F 0 "U?" V 5200 1800 50  0000 L CNN
+F 1 "MCP23017-E/SP" V 5100 1600 50  0000 L CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5350 900 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 5350 800 50  0001 L CNN
+	1    5150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 D1AAA1A0
+P 4200 4600
+AR Path="/D1AAA1A0" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D1AAA1A0" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1A0" Ref="JP?"  Part="1" 
+F 0 "JP?" H 4200 4650 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4250 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4200 4600 50  0001 C CNN
+F 3 "~" H 4200 4600 50  0001 C CNN
+	1    4200 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 D1AAA1A6
+P 4100 4400
+AR Path="/D1AAA1A6" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA1A6" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1A6" Ref="J?"  Part="1" 
+F 0 "J?" H 4072 4332 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4072 4423 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4100 4400 50  0001 C CNN
+F 3 "~" H 4100 4400 50  0001 C CNN
+	1    4100 4400
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6350 700  1300 1050
+U D2B5CDA9
+F0 "12V DC Block 1" 50
+F1 "3AmpBlock.sch" 50
+F2 "LOGIC_ON_BC2" I L 6350 1050 50 
+F3 "LOGIC_OFF_BC1" I L 6350 900 50 
+F4 "LOGIC_OFF_BC2" I L 6350 1150 50 
+F5 "LOGIC_ON_BC1" I L 6350 800 50 
+F6 "LOGIC_OFF_BC4" I L 6350 1650 50 
+F7 "LOGIC_OFF_BC3" I L 6350 1400 50 
+F8 "LOGIC_ON_BC4" I L 6350 1550 50 
+F9 "LOGIC_ON_BC3" I L 6350 1300 50 
+F10 "IN_BC1" I R 7650 800 50 
+F11 "IN_BC2" I R 7650 1050 50 
+F12 "IN_BC3" I R 7650 1300 50 
+F13 "IN_BC4" I R 7650 1550 50 
+F14 "OUT_BC1" O R 7650 900 50 
+F15 "OUT_BC2" O R 7650 1150 50 
+F16 "OUT_BC3" O R 7650 1400 50 
+F17 "OUT_BC4" O R 7650 1650 50 
+$EndSheet
+$Sheet
+S 6350 2000 1300 1050
+U D1AAA1CA
+F0 "12V DC Block 2" 50
+F1 "3AmpBlock.sch" 50
+F2 "LOGIC_ON_BC2" I L 6350 2350 50 
+F3 "LOGIC_OFF_BC1" I L 6350 2200 50 
+F4 "LOGIC_OFF_BC2" I L 6350 2450 50 
+F5 "LOGIC_ON_BC1" I L 6350 2100 50 
+F6 "LOGIC_OFF_BC4" I L 6350 2950 50 
+F7 "LOGIC_OFF_BC3" I L 6350 2700 50 
+F8 "LOGIC_ON_BC4" I L 6350 2850 50 
+F9 "LOGIC_ON_BC3" I L 6350 2600 50 
+F10 "IN_BC1" I R 7650 2100 50 
+F11 "IN_BC2" I R 7650 2350 50 
+F12 "IN_BC3" I R 7650 2600 50 
+F13 "IN_BC4" I R 7650 2850 50 
+F14 "OUT_BC1" O R 7650 2200 50 
+F15 "OUT_BC2" O R 7650 2450 50 
+F16 "OUT_BC3" O R 7650 2700 50 
+F17 "OUT_BC4" O R 7650 2950 50 
+$EndSheet
+$Sheet
+S 6350 3300 1300 1050
+U D1AAA1DC
+F0 "12V DC Block 3" 50
+F1 "3AmpBlock.sch" 50
+F2 "LOGIC_ON_BC2" I L 6350 3650 50 
+F3 "LOGIC_OFF_BC1" I L 6350 3500 50 
+F4 "LOGIC_OFF_BC2" I L 6350 3750 50 
+F5 "LOGIC_ON_BC1" I L 6350 3400 50 
+F6 "LOGIC_OFF_BC4" I L 6350 4250 50 
+F7 "LOGIC_OFF_BC3" I L 6350 4000 50 
+F8 "LOGIC_ON_BC4" I L 6350 4150 50 
+F9 "LOGIC_ON_BC3" I L 6350 3900 50 
+F10 "IN_BC1" I R 7650 3400 50 
+F11 "IN_BC2" I R 7650 3650 50 
+F12 "IN_BC3" I R 7650 3900 50 
+F13 "IN_BC4" I R 7650 4150 50 
+F14 "OUT_BC1" O R 7650 3500 50 
+F15 "OUT_BC2" O R 7650 3750 50 
+F16 "OUT_BC3" O R 7650 4000 50 
+F17 "OUT_BC4" O R 7650 4250 50 
+$EndSheet
+$Sheet
+S 6350 4600 1300 1050
+U D1AAA1EE
+F0 "12V DC Block 4" 50
+F1 "3AmpBlock.sch" 50
+F2 "LOGIC_ON_BC2" I L 6350 4950 50 
+F3 "LOGIC_OFF_BC1" I L 6350 4800 50 
+F4 "LOGIC_OFF_BC2" I L 6350 5050 50 
+F5 "LOGIC_ON_BC1" I L 6350 4700 50 
+F6 "LOGIC_OFF_BC4" I L 6350 5550 50 
+F7 "LOGIC_OFF_BC3" I L 6350 5300 50 
+F8 "LOGIC_ON_BC4" I L 6350 5450 50 
+F9 "LOGIC_ON_BC3" I L 6350 5200 50 
+F10 "IN_BC1" I R 7650 4700 50 
+F11 "IN_BC2" I R 7650 4950 50 
+F12 "IN_BC3" I R 7650 5200 50 
+F13 "IN_BC4" I R 7650 5450 50 
+F14 "OUT_BC1" O R 7650 4800 50 
+F15 "OUT_BC2" O R 7650 5050 50 
+F16 "OUT_BC3" O R 7650 5300 50 
+F17 "OUT_BC4" O R 7650 5550 50 
+$EndSheet
+Wire Wire Line
+	7700 5450 7650 5450
+Wire Wire Line
+	7700 5450 7700 5650
+Wire Wire Line
+	7700 5450 7700 5200
+Wire Wire Line
+	7700 5200 7650 5200
+Connection ~ 7700 5450
+Wire Wire Line
+	7700 5200 7700 4950
+Wire Wire Line
+	7700 4950 7650 4950
+Connection ~ 7700 5200
+Wire Wire Line
+	7700 4950 7700 4700
+Wire Wire Line
+	7700 4700 7650 4700
+Connection ~ 7700 4950
+Wire Wire Line
+	7700 4700 7700 4150
+Wire Wire Line
+	7700 4150 7650 4150
+Connection ~ 7700 4700
+Wire Wire Line
+	7700 4150 7700 3900
+Wire Wire Line
+	7700 3900 7650 3900
+Connection ~ 7700 4150
+Wire Wire Line
+	7700 3900 7700 3650
+Wire Wire Line
+	7700 3650 7650 3650
+Connection ~ 7700 3900
+Wire Wire Line
+	7700 3650 7700 3400
+Wire Wire Line
+	7700 3400 7650 3400
+Connection ~ 7700 3650
+Wire Wire Line
+	7700 3400 7700 2850
+Wire Wire Line
+	7700 2850 7650 2850
+Connection ~ 7700 3400
+Wire Wire Line
+	7700 2600 7650 2600
+Wire Wire Line
+	7700 2600 7700 2850
+Connection ~ 7700 2850
+Wire Wire Line
+	7700 2600 7700 2350
+Wire Wire Line
+	7700 2350 7650 2350
+Connection ~ 7700 2600
+Wire Wire Line
+	7700 2350 7700 2100
+Wire Wire Line
+	7700 2100 7650 2100
+Connection ~ 7700 2350
+Wire Wire Line
+	7700 2100 7700 1550
+Wire Wire Line
+	7700 1550 7650 1550
+Connection ~ 7700 2100
+Wire Wire Line
+	7700 1550 7700 1300
+Wire Wire Line
+	7700 1300 7650 1300
+Connection ~ 7700 1550
+Wire Wire Line
+	7700 1300 7700 1050
+Wire Wire Line
+	7700 1050 7650 1050
+Connection ~ 7700 1300
+Wire Wire Line
+	7700 1050 7700 800 
+Wire Wire Line
+	7700 800  7650 800 
+Connection ~ 7700 1050
+NoConn ~ 7800 5750
+Wire Wire Line
+	7650 900  8550 900 
+Wire Wire Line
+	8550 900  8550 2400
+Wire Wire Line
+	8550 2500 8500 2500
+Wire Wire Line
+	8500 2500 8500 1150
+Wire Wire Line
+	8500 1150 7650 1150
+Wire Wire Line
+	8550 2600 8450 2600
+Wire Wire Line
+	8450 2600 8450 1400
+Wire Wire Line
+	8450 1400 7650 1400
+Wire Wire Line
+	8550 2700 8400 2700
+Wire Wire Line
+	8400 2700 8400 1650
+Wire Wire Line
+	8400 1650 7650 1650
+Wire Wire Line
+	8550 2800 8350 2800
+Wire Wire Line
+	8350 2800 8350 2200
+Wire Wire Line
+	8350 2200 7650 2200
+Wire Wire Line
+	8300 2450 7650 2450
+Wire Wire Line
+	8550 2900 8300 2900
+Wire Wire Line
+	8300 2450 8300 2900
+Wire Wire Line
+	8550 3000 8250 3000
+Wire Wire Line
+	8250 3000 8250 2700
+Wire Wire Line
+	8250 2700 7650 2700
+Wire Wire Line
+	8550 3100 8200 3100
+Wire Wire Line
+	8550 3900 8550 5550
+Wire Wire Line
+	8550 5550 7650 5550
+Wire Wire Line
+	8550 3800 8500 3800
+Wire Wire Line
+	8500 3800 8500 5300
+Wire Wire Line
+	8500 5300 7650 5300
+Wire Wire Line
+	8550 3700 8450 3700
+Wire Wire Line
+	8450 3700 8450 5050
+Wire Wire Line
+	8450 5050 7650 5050
+Wire Wire Line
+	8550 3600 8400 3600
+Wire Wire Line
+	8400 3600 8400 4800
+Wire Wire Line
+	8400 4800 7650 4800
+Wire Wire Line
+	8350 3500 8350 4250
+Wire Wire Line
+	8350 4250 7650 4250
+Wire Wire Line
+	8350 3500 8550 3500
+Wire Wire Line
+	8550 3400 8300 3400
+Wire Wire Line
+	8300 3400 8300 4000
+Wire Wire Line
+	8300 4000 7650 4000
+Wire Wire Line
+	8550 3300 8250 3300
+Wire Wire Line
+	8250 3300 8250 3750
+Wire Wire Line
+	8250 3750 7650 3750
+Wire Wire Line
+	8550 3200 8200 3200
+Wire Wire Line
+	8200 3200 8200 3500
+Wire Wire Line
+	8200 3500 7650 3500
+Wire Wire Line
+	8200 2950 8200 3100
+Wire Wire Line
+	7650 2950 8200 2950
+Wire Wire Line
+	5850 1100 5850 800 
+Wire Wire Line
+	5850 800  6350 800 
+Wire Wire Line
+	5850 1200 5900 1200
+Wire Wire Line
+	5900 1200 5900 900 
+Wire Wire Line
+	5900 900  6350 900 
+Wire Wire Line
+	5850 1300 5950 1300
+Wire Wire Line
+	5950 1300 5950 1050
+Wire Wire Line
+	5950 1050 6350 1050
+Wire Wire Line
+	5850 1400 6000 1400
+Wire Wire Line
+	6000 1400 6000 1150
+Wire Wire Line
+	6000 1150 6350 1150
+Wire Wire Line
+	5850 1500 6050 1500
+Wire Wire Line
+	6050 1500 6050 1300
+Wire Wire Line
+	6050 1300 6350 1300
+Wire Wire Line
+	5850 1600 6100 1600
+Wire Wire Line
+	6100 1600 6100 1400
+Wire Wire Line
+	6100 1400 6350 1400
+Wire Wire Line
+	5850 1700 6150 1700
+Wire Wire Line
+	6150 1700 6150 1550
+Wire Wire Line
+	6150 1550 6350 1550
+Wire Wire Line
+	5850 1800 6200 1800
+Wire Wire Line
+	6200 1800 6200 1650
+Wire Wire Line
+	6200 1650 6350 1650
+Wire Wire Line
+	5850 2700 5850 2950
+Wire Wire Line
+	5850 2950 6350 2950
+Wire Wire Line
+	5850 2600 5900 2600
+Wire Wire Line
+	5900 2600 5900 2850
+Wire Wire Line
+	5900 2850 6350 2850
+Wire Wire Line
+	5850 2500 5950 2500
+Wire Wire Line
+	5950 2500 5950 2700
+Wire Wire Line
+	5950 2700 6350 2700
+Wire Wire Line
+	5850 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 2600
+Wire Wire Line
+	6000 2600 6350 2600
+Wire Wire Line
+	5850 2300 6050 2300
+Wire Wire Line
+	6050 2300 6050 2450
+Wire Wire Line
+	6050 2450 6350 2450
+Wire Wire Line
+	5850 2200 6100 2200
+Wire Wire Line
+	6100 2200 6100 2350
+Wire Wire Line
+	6100 2350 6350 2350
+Wire Wire Line
+	5850 2100 6150 2100
+Wire Wire Line
+	6150 2100 6150 2200
+Wire Wire Line
+	6150 2200 6350 2200
+Wire Wire Line
+	5850 2000 6200 2000
+Wire Wire Line
+	6200 2000 6200 2100
+Wire Wire Line
+	6200 2100 6350 2100
+Wire Wire Line
+	5850 3700 5850 3400
+Wire Wire Line
+	5850 3400 6350 3400
+Wire Wire Line
+	5850 3800 5900 3800
+Wire Wire Line
+	5900 3800 5900 3500
+Wire Wire Line
+	5900 3500 6350 3500
+Wire Wire Line
+	5950 3900 5950 3650
+Wire Wire Line
+	5950 3650 6350 3650
+Wire Wire Line
+	5850 3900 5950 3900
+Wire Wire Line
+	5850 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 3750
+Wire Wire Line
+	6000 3750 6350 3750
+Wire Wire Line
+	5850 4100 6050 4100
+Wire Wire Line
+	6050 4100 6050 3900
+Wire Wire Line
+	6050 3900 6350 3900
+Wire Wire Line
+	6100 4200 6100 4000
+Wire Wire Line
+	6100 4000 6350 4000
+Wire Wire Line
+	5850 4200 6100 4200
+Wire Wire Line
+	5850 4300 6150 4300
+Wire Wire Line
+	6150 4300 6150 4150
+Wire Wire Line
+	6150 4150 6350 4150
+Wire Wire Line
+	5850 4400 6200 4400
+Wire Wire Line
+	6200 4400 6200 4250
+Wire Wire Line
+	6200 4250 6350 4250
+Wire Wire Line
+	5850 5550 6350 5550
+Wire Wire Line
+	5850 5300 5850 5550
+Wire Wire Line
+	5850 5200 5900 5200
+Wire Wire Line
+	5900 5200 5900 5450
+Wire Wire Line
+	5900 5450 6350 5450
+Wire Wire Line
+	5950 5100 5950 5300
+Wire Wire Line
+	5950 5300 6350 5300
+Wire Wire Line
+	5850 5100 5950 5100
+Wire Wire Line
+	5850 5000 6000 5000
+Wire Wire Line
+	6000 5000 6000 5200
+Wire Wire Line
+	6000 5200 6350 5200
+Wire Wire Line
+	5850 4900 6050 4900
+Wire Wire Line
+	6050 4900 6050 5050
+Wire Wire Line
+	6050 5050 6350 5050
+Wire Wire Line
+	5850 4800 6100 4800
+Wire Wire Line
+	6100 4800 6100 4950
+Wire Wire Line
+	6100 4950 6350 4950
+Wire Wire Line
+	5850 4700 6150 4700
+Wire Wire Line
+	6150 4700 6150 4800
+Wire Wire Line
+	6150 4800 6350 4800
+Wire Wire Line
+	5850 4600 6200 4600
+Wire Wire Line
+	6200 4600 6200 4700
+Wire Wire Line
+	6200 4700 6350 4700
+$Comp
+L power:+12C #PWR?
+U 1 1 D1AAA2AE
+P 7700 5650
+AR Path="/D1AAA2AE" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA2AE" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA2AE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7700 5500 50  0001 C CNN
+F 1 "+12C" V 7715 5778 50  0000 L CNN
+F 2 "" H 7700 5650 50  0001 C CNN
+F 3 "" H 7700 5650 50  0001 C CNN
+	1    7700 5650
+	0    1    1    0   
+$EndComp
+Connection ~ 7700 5650
+Wire Wire Line
+	7700 5650 7700 5750
+Wire Wire Line
+	4450 5100 4150 5100
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D1AAA2B7
+P 4150 4950
+AR Path="/D1AAA2B7" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D1AAA2B7" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA2B7" Ref="JP?"  Part="1" 
+F 0 "JP?" H 4150 5050 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 4000 5400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4150 4950 50  0001 C CNN
+F 3 "~" H 4150 4950 50  0001 C CNN
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D2B4FEF9
+P 3600 5050
+AR Path="/D2B4FEF9" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D2B4FEF9" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FEF9" Ref="JP?"  Part="1" 
+F 0 "JP?" H 3600 5150 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 3450 5500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3600 5050 50  0001 C CNN
+F 3 "~" H 3600 5050 50  0001 C CNN
+	1    3600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D2B4FEFA
+P 3100 5150
+AR Path="/D2B4FEFA" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D2B4FEFA" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FEFA" Ref="JP?"  Part="1" 
+F 0 "JP?" H 3100 5250 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 2950 5600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3100 5150 50  0001 C CNN
+F 3 "~" H 3100 5150 50  0001 C CNN
+	1    3100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 D2B4FEFB
+P 4100 4300
+AR Path="/D2B4FEFB" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D2B4FEFB" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FEFB" Ref="J?"  Part="1" 
+F 0 "J?" H 4072 4232 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4072 4323 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_V" H 4100 4300 50  0001 C CNN
+F 3 "~" H 4100 4300 50  0001 C CNN
+	1    4100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4300 4300 4300
+Wire Wire Line
+	4450 4400 4300 4400
+Wire Wire Line
+	4450 4600 4300 4600
+Wire Wire Line
+	4100 4600 3950 4600
+Wire Wire Line
+	3950 4600 3950 3400
+Wire Wire Line
+	3950 3400 5150 3400
+Connection ~ 3950 4600
+Wire Wire Line
+	3600 5200 4450 5200
+Wire Wire Line
+	3100 5300 4450 5300
+Wire Wire Line
+	5150 5600 4350 5600
+Wire Wire Line
+	4350 5600 4350 4950
+Wire Wire Line
+	3950 4600 3950 4950
+Wire Wire Line
+	3400 5050 3400 3400
+Wire Wire Line
+	3400 3400 3950 3400
+Connection ~ 3950 3400
+Wire Wire Line
+	2900 3400 3400 3400
+Connection ~ 3400 3400
+Wire Wire Line
+	3800 5050 3800 5600
+Wire Wire Line
+	3800 5600 4350 5600
+Connection ~ 4350 5600
+Wire Wire Line
+	2900 3400 2900 5150
+Wire Wire Line
+	3300 5150 3300 5600
+Wire Wire Line
+	3300 5600 3800 5600
+Connection ~ 3800 5600
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 D2B4FEFC
+P 4200 2000
+AR Path="/D2B4FEFC" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D2B4FEFC" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FEFC" Ref="JP?"  Part="1" 
+F 0 "JP?" H 4200 2050 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4250 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4200 2000 50  0001 C CNN
+F 3 "~" H 4200 2000 50  0001 C CNN
+	1    4200 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 D1AAA2ED
+P 4100 1800
+AR Path="/D1AAA2ED" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA2ED" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA2ED" Ref="J?"  Part="1" 
+F 0 "J?" H 4072 1732 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4072 1823 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4100 1800 50  0001 C CNN
+F 3 "~" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2500 4150 2500
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D2B4FEFE
+P 4150 2350
+AR Path="/D2B4FEFE" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D2B4FEFE" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FEFE" Ref="JP?"  Part="1" 
+F 0 "JP?" H 4150 2450 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 4000 2800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4150 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D1AAA2FA
+P 3600 2450
+AR Path="/D1AAA2FA" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D1AAA2FA" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA2FA" Ref="JP?"  Part="1" 
+F 0 "JP?" H 3600 2550 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 3450 2900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3600 2450 50  0001 C CNN
+F 3 "~" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 D2B4FF00
+P 3100 2550
+AR Path="/D2B4FF00" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/D2B4FF00" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FF00" Ref="JP?"  Part="1" 
+F 0 "JP?" H 3100 2650 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 2950 3000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3100 2550 50  0001 C CNN
+F 3 "~" H 3100 2550 50  0001 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 D2B4FF01
+P 4100 1700
+AR Path="/D2B4FF01" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D2B4FF01" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FF01" Ref="J?"  Part="1" 
+F 0 "J?" H 4072 1632 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 4072 1723 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4100 1700 50  0001 C CNN
+F 3 "~" H 4100 1700 50  0001 C CNN
+	1    4100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2000 3950 2000
+Wire Wire Line
+	3950 2000 3950 800 
+Wire Wire Line
+	3950 800  5150 800 
+Connection ~ 3950 2000
+Wire Wire Line
+	3600 2600 4450 2600
+Wire Wire Line
+	3100 2700 4450 2700
+Wire Wire Line
+	3950 2000 3950 2350
+Wire Wire Line
+	3400 2450 3400 800 
+Wire Wire Line
+	3400 800  3950 800 
+Connection ~ 3950 800 
+Wire Wire Line
+	2900 800  3400 800 
+Connection ~ 3400 800 
+Wire Wire Line
+	3800 2450 3800 3000
+Wire Wire Line
+	3800 3000 4350 3000
+Wire Wire Line
+	2900 800  2900 2550
+Wire Wire Line
+	3300 2550 3300 3000
+Wire Wire Line
+	3300 3000 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	4350 2350 4350 3000
+Wire Wire Line
+	4350 3000 5150 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4300 1700 4450 1700
+Wire Wire Line
+	4300 1800 4450 1800
+$Comp
+L power:+5V #PWR?
+U 1 1 D1AAA323
+P 5150 3400
+AR Path="/D1AAA323" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA323" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA323" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 3250 50  0001 C CNN
+F 1 "+5V" H 5300 3450 50  0000 C CNN
+F 2 "" H 5150 3400 50  0001 C CNN
+F 3 "" H 5150 3400 50  0001 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 800 
+Connection ~ 5150 3400
+$Comp
+L power:GND #PWR?
+U 1 1 D2B4FF03
+P 5150 3000
+AR Path="/D2B4FF03" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D2B4FF03" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FF03" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 2750 50  0001 C CNN
+F 1 "GND" H 5300 2950 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 5600
+$Comp
+L power:GND #PWR?
+U 1 1 D1AAA332
+P 5150 5600
+AR Path="/D1AAA332" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA332" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA332" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 5350 50  0001 C CNN
+F 1 "GND" H 5350 5550 50  0000 C CNN
+F 2 "" H 5150 5600 50  0001 C CNN
+F 3 "" H 5150 5600 50  0001 C CNN
+	1    5150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 D2B4FF05
+P 5150 800
+AR Path="/D2B4FF05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D2B4FF05" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D2B4FF05" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5150 650 50  0001 C CNN
+F 1 "+5V" H 5300 850 50  0000 C CNN
+F 2 "" H 5150 800 50  0001 C CNN
+F 3 "" H 5150 800 50  0001 C CNN
+	1    5150 800 
+	1    0    0    -1  
+$EndComp
+Text HLabel 4450 1100 0    50   Output ~ 0
+SDA
+Text HLabel 4450 1200 0    50   Output ~ 0
+SCK
+Text HLabel 4450 3700 0    50   Output ~ 0
+SDA
+Text HLabel 4450 3800 0    50   Output ~ 0
+SCK
+$EndSCHEMATC
