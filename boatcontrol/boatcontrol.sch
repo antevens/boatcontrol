@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 55
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Boat Control Hat"
+Date "2020-07-09"
+Rev "2"
+Comp "Rugludallur"
+Comment1 "www.dallur.com"
+Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -2431,14 +2431,6 @@ Wire Wire Line
 	12650 7350 13400 7350
 Wire Wire Line
 	12650 7750 13400 7750
-Wire Bus Line
-	2500 1450 4300 1450
-Wire Bus Line
-	4300 1450 4300 4250
-Wire Bus Line
-	2500 1450 2500 4250
-Wire Bus Line
-	5850 700  5850 4250
 $Comp
 L Connector:Conn_01x01_Male J8
 U 1 1 6190BF85
@@ -2453,4 +2445,12 @@ F 3 "~" H 10350 2400 50  0001 C CNN
 	1    10350 2400
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	2500 1450 4300 1450
+Wire Bus Line
+	4300 1450 4300 4250
+Wire Bus Line
+	2500 1450 2500 4250
+Wire Bus Line
+	5850 700  5850 4250
 $EndSCHEMATC

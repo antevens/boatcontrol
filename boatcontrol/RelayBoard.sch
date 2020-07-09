@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 23 55
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Boat Control Hat"
+Date "2020-07-09"
+Rev "2"
+Comp "Rugludallur"
+Comment1 "www.dallur.com"
+Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
