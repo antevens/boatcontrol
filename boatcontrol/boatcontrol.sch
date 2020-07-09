@@ -39,70 +39,6 @@ F 3 "Bourns" H 1600 1450 50  0001 L BNN
 	1    1600 1450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	15400 1950 15350 2000
-Wire Wire Line
-	15400 2150 15350 2200
-Wire Wire Line
-	15400 2350 15350 2400
-Wire Wire Line
-	15400 2550 15350 2600
-Wire Wire Line
-	15400 2850 15350 2900
-Wire Wire Line
-	15400 3050 15350 3100
-Wire Wire Line
-	15400 3250 15350 3300
-Wire Wire Line
-	15400 3450 15350 3500
-Wire Wire Line
-	15400 3750 15350 3800
-Wire Wire Line
-	15400 3950 15350 4000
-Wire Wire Line
-	15400 4150 15350 4200
-Wire Wire Line
-	15400 4350 15350 4400
-Wire Wire Line
-	15400 4850 15350 4900
-Wire Wire Line
-	15400 4650 15350 4700
-Wire Wire Line
-	15400 5050 15350 5100
-Wire Wire Line
-	15400 5250 15350 5300
-Wire Wire Line
-	15400 5550 15350 5600
-Wire Wire Line
-	15400 5750 15350 5800
-Wire Wire Line
-	15400 5950 15350 6000
-Wire Wire Line
-	15400 6150 15350 6200
-Wire Wire Line
-	15350 6500 15400 6450
-Wire Wire Line
-	15400 6650 15350 6700
-Wire Wire Line
-	15400 6850 15350 6900
-Wire Wire Line
-	15400 7050 15350 7100
-Wire Wire Line
-	15400 7350 15350 7400
-Wire Wire Line
-	15400 7550 15350 7600
-Wire Wire Line
-	15400 7750 15350 7800
-Wire Wire Line
-	15400 7950 15350 8000
-Wire Wire Line
-	15400 8250 15350 8300
-Wire Wire Line
-	15400 8450 15350 8500
-Wire Wire Line
-	15400 8650 15350 8700
-Wire Wire Line
-	15400 8850 15350 8900
 $Comp
 L BoatControl:LM2679T-5.0 U?
 U 1 1 EE27C3B8
@@ -415,19 +351,6 @@ Wire Wire Line
 	2450 2450 1300 2450
 Wire Wire Line
 	1900 900  1300 900 
-$Comp
-L BoatControl:SS73100-047F J3
-U 1 1 5E941411
-P 14200 5100
-F 0 "J3" V 14950 7950 50  0000 L CNN
-F 1 "SS73100-047F" V 14850 7200 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 14350 4800 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 14550 4650 50  0001 L BNN
-F 4 "Stewart Connector" H 14400 4450 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 14200 5100 50  0001 C CNN "Dimensions"
-	1    14200 5100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 900  5300 900 
 Wire Wire Line
@@ -444,2236 +367,6 @@ Wire Wire Line
 Connection ~ 5700 900 
 Wire Wire Line
 	5900 2100 5700 2100
-Text Label 15350 4200 0    50   ~ 0
-K13B
-Text Label 15350 2400 0    50   ~ 0
-K14B
-Text Label 15350 2000 0    50   ~ 0
-K16B
-Text Label 15350 6200 0    50   ~ 0
-K6A
-Text Label 15350 8700 0    50   ~ 0
-K1B
-Text Label 15350 4700 0    50   ~ 0
-K11B
-Text Label 15350 2200 0    50   ~ 0
-K16A
-Text Label 15350 4000 0    50   ~ 0
-K15A
-Text Label 15350 3800 0    50   ~ 0
-K15B
-Text Label 15350 2600 0    50   ~ 0
-K14A
-Text Label 15350 4400 0    50   ~ 0
-K13A
-Text Label 15350 2900 0    50   ~ 0
-K12B
-Text Label 15350 3100 0    50   ~ 0
-K12A
-Text Label 15350 4900 0    50   ~ 0
-K11A
-Text Label 15350 3300 0    50   ~ 0
-K10B
-Text Label 15350 3500 0    50   ~ 0
-K10A
-Text Label 15350 5100 0    50   ~ 0
-K9B
-Text Label 15350 5300 0    50   ~ 0
-K9A
-Text Label 15350 5600 0    50   ~ 0
-K8B
-Text Label 15350 5800 0    50   ~ 0
-K8A
-Text Label 15350 7400 0    50   ~ 0
-K7B
-Text Label 15350 7600 0    50   ~ 0
-K7A
-Text Label 15350 6000 0    50   ~ 0
-K6B
-Text Label 15350 7800 0    50   ~ 0
-K5B
-Text Label 15350 8000 0    50   ~ 0
-K5A
-Text Label 15350 6500 0    50   ~ 0
-K4B
-Text Label 15350 6700 0    50   ~ 0
-K4A
-Text Label 15350 8300 0    50   ~ 0
-K3B
-Text Label 15350 8500 0    50   ~ 0
-K3A
-Text Label 15350 6900 0    50   ~ 0
-K2B
-Text Label 15350 7100 0    50   ~ 0
-K2A
-Text Label 15350 8900 0    50   ~ 0
-K1A
-Entry Wire Line
-	15500 4750 15400 4650
-Entry Wire Line
-	15500 3850 15400 3750
-Entry Wire Line
-	15500 2050 15400 1950
-Entry Wire Line
-	15500 2250 15400 2150
-Entry Wire Line
-	15500 2450 15400 2350
-Entry Wire Line
-	15500 2650 15400 2550
-Entry Wire Line
-	15500 2950 15400 2850
-Entry Wire Line
-	15500 3150 15400 3050
-Entry Wire Line
-	15500 3350 15400 3250
-Entry Wire Line
-	15500 3550 15400 3450
-Entry Wire Line
-	15500 4050 15400 3950
-Entry Wire Line
-	15500 4250 15400 4150
-Entry Wire Line
-	15500 4450 15400 4350
-Entry Wire Line
-	15500 4950 15400 4850
-Entry Wire Line
-	15500 5150 15400 5050
-Entry Wire Line
-	15500 5350 15400 5250
-Entry Wire Line
-	15500 5650 15400 5550
-Entry Wire Line
-	15500 5850 15400 5750
-Entry Wire Line
-	15500 6050 15400 5950
-Entry Wire Line
-	15500 6250 15400 6150
-Entry Wire Line
-	15500 6550 15400 6450
-Entry Wire Line
-	15500 6750 15400 6650
-Entry Wire Line
-	15500 6950 15400 6850
-Entry Wire Line
-	15500 7150 15400 7050
-Entry Wire Line
-	15500 7450 15400 7350
-Entry Wire Line
-	15500 7650 15400 7550
-Entry Wire Line
-	15500 7850 15400 7750
-Entry Wire Line
-	15500 8050 15400 7950
-Entry Wire Line
-	15500 8350 15400 8250
-Entry Wire Line
-	15500 8550 15400 8450
-Entry Wire Line
-	15500 8750 15400 8650
-Entry Wire Line
-	15500 8950 15400 8850
-$Comp
-L Device:C_Small C72
-U 1 1 9107DBE3
-P 14400 2000
-F 0 "C72" H 14492 2046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 1700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 2000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 2000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 2000 50  0001 C CNN "Type"
-	1    14400 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN18
-U 1 1 9107DBE9
-P 14950 2800
-F 0 "RN18" H 14850 2450 50  0000 L CNN
-F 1 "4120R-1-103LF" H 14600 2550 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 15425 2800 50  0001 C CNN
-F 3 "~" H 14950 2800 50  0001 C CNN
-	1    14950 2800
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	15150 2400 15150 2500
-Connection ~ 15150 2500
-Wire Wire Line
-	15150 2500 15150 2600
-Connection ~ 15150 2600
-Wire Wire Line
-	15150 2600 15150 2700
-Connection ~ 15150 2700
-Wire Wire Line
-	15150 2700 15150 2800
-Connection ~ 15150 2800
-Wire Wire Line
-	15150 2800 15150 2900
-Connection ~ 15150 2900
-Wire Wire Line
-	15150 2900 15150 3000
-Connection ~ 15150 3000
-Wire Wire Line
-	15150 3000 15150 3100
-$Comp
-L Device:C_Small C71
-U 1 1 9107DBFD
-P 14400 2200
-F 0 "C71" H 14492 2246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 1900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 2200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 2200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 2200 50  0001 C CNN "Type"
-	1    14400 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C70
-U 1 1 9107DC04
-P 14400 2400
-F 0 "C70" H 14492 2446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 2100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 2400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 2400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 2400 50  0001 C CNN "Type"
-	1    14400 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C69
-U 1 1 9107DC0B
-P 14400 2600
-F 0 "C69" H 14492 2646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 2300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 2600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 2600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 2600 50  0001 C CNN "Type"
-	1    14400 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 2000 14500 2000
-Wire Wire Line
-	15250 2250 15250 2400
-$Comp
-L Device:C_Small C68
-U 1 1 9107DC14
-P 14400 2900
-F 0 "C68" H 14492 2946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 2600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 2900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 2900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 2900 50  0001 C CNN "Type"
-	1    14400 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C67
-U 1 1 9107DC1B
-P 14400 3100
-F 0 "C67" H 14492 3146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 2800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 3100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 3100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 3100 50  0001 C CNN "Type"
-	1    14400 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C66
-U 1 1 9107DC22
-P 14400 3300
-F 0 "C66" H 14492 3346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 3000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 3300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 3300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 3300 50  0001 C CNN "Type"
-	1    14400 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C65
-U 1 1 9107DC29
-P 14400 3500
-F 0 "C65" H 14492 3546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 3200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 3500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 3500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 3500 50  0001 C CNN "Type"
-	1    14400 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 2200 14500 2200
-Wire Wire Line
-	14750 2400 14500 2000
-Connection ~ 14500 2000
-Wire Wire Line
-	14750 2500 14500 2200
-Connection ~ 14500 2200
-Wire Wire Line
-	14750 2600 14500 2400
-Wire Wire Line
-	14600 2400 14600 2250
-Wire Wire Line
-	14600 2400 14500 2400
-Connection ~ 14500 2400
-Wire Wire Line
-	15250 2250 14600 2250
-Wire Wire Line
-	15350 2400 15250 2400
-Wire Wire Line
-	14650 2600 14650 2300
-Wire Wire Line
-	14650 2300 15200 2300
-Wire Wire Line
-	15200 2300 15200 2600
-Wire Wire Line
-	15200 2600 15350 2600
-Wire Wire Line
-	14500 2600 14750 2700
-Connection ~ 14500 2600
-Wire Wire Line
-	14650 2600 14500 2600
-Wire Wire Line
-	14750 2800 14500 2900
-Wire Wire Line
-	14750 2900 14500 3100
-Wire Wire Line
-	15350 3300 14500 3300
-Wire Wire Line
-	14750 3000 14500 3300
-Connection ~ 14500 3300
-Wire Wire Line
-	14750 3100 14500 3500
-Connection ~ 14500 3500
-Wire Wire Line
-	15350 3100 15250 3100
-Wire Wire Line
-	15250 3100 15250 3250
-Wire Wire Line
-	15250 3250 14600 3250
-Wire Wire Line
-	14600 3250 14600 3100
-Wire Wire Line
-	14600 3100 14500 3100
-Connection ~ 14500 3100
-Wire Wire Line
-	15200 3200 14650 3200
-Wire Wire Line
-	14650 3200 14650 2900
-Wire Wire Line
-	14650 2900 14500 2900
-Connection ~ 14500 2900
-Wire Wire Line
-	15350 2900 15200 2900
-Wire Wire Line
-	15200 2900 15200 3200
-$Comp
-L Device:C_Small C64
-U 1 1 9107DC55
-P 14400 3800
-F 0 "C64" H 14492 3846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 3500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 3800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 3800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 3800 50  0001 C CNN "Type"
-	1    14400 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN17
-U 1 1 9107DC5B
-P 14950 4600
-F 0 "RN17" H 14850 4250 50  0000 L CNN
-F 1 "4120R-1-103LF" H 14600 4350 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 15425 4600 50  0001 C CNN
-F 3 "~" H 14950 4600 50  0001 C CNN
-	1    14950 4600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	15150 4200 15150 4300
-Connection ~ 15150 4300
-Wire Wire Line
-	15150 4300 15150 4400
-Connection ~ 15150 4400
-Wire Wire Line
-	15150 4400 15150 4500
-Connection ~ 15150 4500
-Wire Wire Line
-	15150 4500 15150 4600
-Connection ~ 15150 4600
-Wire Wire Line
-	15150 4600 15150 4700
-Connection ~ 15150 4700
-Wire Wire Line
-	15150 4700 15150 4800
-Connection ~ 15150 4800
-Wire Wire Line
-	15150 4800 15150 4900
-$Comp
-L Device:C_Small C63
-U 1 1 9107DC6F
-P 14400 4000
-F 0 "C63" H 14492 4046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 3700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 4000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 4000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 4000 50  0001 C CNN "Type"
-	1    14400 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C62
-U 1 1 9107DC76
-P 14400 4200
-F 0 "C62" H 14492 4246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 3900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 4200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 4200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 4200 50  0001 C CNN "Type"
-	1    14400 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C61
-U 1 1 9107DC7D
-P 14400 4400
-F 0 "C61" H 14492 4446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 4100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 4400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 4400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 4400 50  0001 C CNN "Type"
-	1    14400 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 3800 14500 3800
-Wire Wire Line
-	15250 4050 15250 4200
-$Comp
-L Device:C_Small C60
-U 1 1 9107DC86
-P 14400 4700
-F 0 "C60" H 14492 4746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 4400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 4700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 4700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 4700 50  0001 C CNN "Type"
-	1    14400 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C59
-U 1 1 9107DC8D
-P 14400 4900
-F 0 "C59" H 14492 4946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 4600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 4900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 4900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 4900 50  0001 C CNN "Type"
-	1    14400 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C58
-U 1 1 9107DC94
-P 14400 5100
-F 0 "C58" H 14492 5146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 4800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 5100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 5100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 5100 50  0001 C CNN "Type"
-	1    14400 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C57
-U 1 1 9107DC9B
-P 14400 5300
-F 0 "C57" H 14492 5346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 5000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 5300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 5300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 5300 50  0001 C CNN "Type"
-	1    14400 5300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 4000 15150 4000
-Wire Wire Line
-	14750 4200 14500 3800
-Connection ~ 14500 3800
-Wire Wire Line
-	14750 4300 14500 4000
-Connection ~ 14500 4000
-Wire Wire Line
-	14750 4400 14500 4200
-Wire Wire Line
-	14600 4200 14600 4050
-Wire Wire Line
-	14600 4200 14500 4200
-Connection ~ 14500 4200
-Wire Wire Line
-	15250 4050 14600 4050
-Wire Wire Line
-	15350 4200 15250 4200
-Wire Wire Line
-	14650 4400 14650 4100
-Wire Wire Line
-	14650 4100 15200 4100
-Wire Wire Line
-	15200 4100 15200 4400
-Wire Wire Line
-	14500 4400 14750 4500
-Connection ~ 14500 4400
-Wire Wire Line
-	14650 4400 14500 4400
-Wire Wire Line
-	14750 4600 14500 4700
-Wire Wire Line
-	14750 4700 14500 4900
-Wire Wire Line
-	15350 5100 14500 5100
-Wire Wire Line
-	15350 5300 14500 5300
-Wire Wire Line
-	14750 4800 14500 5100
-Connection ~ 14500 5100
-Wire Wire Line
-	14750 4900 14500 5300
-Connection ~ 14500 5300
-Wire Wire Line
-	15350 4900 15250 4900
-Wire Wire Line
-	15250 4900 15250 5050
-Wire Wire Line
-	15250 5050 14600 5050
-Wire Wire Line
-	14600 5050 14600 4900
-Wire Wire Line
-	14600 4900 14500 4900
-Connection ~ 14500 4900
-Wire Wire Line
-	15200 5000 14650 5000
-Wire Wire Line
-	14650 5000 14650 4700
-Wire Wire Line
-	14650 4700 14500 4700
-Connection ~ 14500 4700
-Wire Wire Line
-	15350 4700 15200 4700
-Wire Wire Line
-	15200 4700 15200 5000
-$Comp
-L Device:C_Small C56
-U 1 1 9107DCC7
-P 14400 5600
-F 0 "C56" H 14492 5646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 5300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 5600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 5600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 5600 50  0001 C CNN "Type"
-	1    14400 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN16
-U 1 1 9107DCCD
-P 14950 6400
-F 0 "RN16" H 14850 6050 50  0000 L CNN
-F 1 "4120R-1-103LF" H 14600 6150 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 15425 6400 50  0001 C CNN
-F 3 "~" H 14950 6400 50  0001 C CNN
-	1    14950 6400
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	15150 6000 15150 6100
-Connection ~ 15150 6100
-Wire Wire Line
-	15150 6100 15150 6200
-Connection ~ 15150 6200
-Wire Wire Line
-	15150 6200 15150 6300
-Connection ~ 15150 6300
-Wire Wire Line
-	15150 6300 15150 6400
-Connection ~ 15150 6400
-Wire Wire Line
-	15150 6400 15150 6500
-Connection ~ 15150 6500
-Wire Wire Line
-	15150 6500 15150 6600
-Connection ~ 15150 6600
-Wire Wire Line
-	15150 6600 15150 6700
-$Comp
-L Device:C_Small C55
-U 1 1 9107DCE1
-P 14400 5800
-F 0 "C55" H 14492 5846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 5500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 5800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 5800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 5800 50  0001 C CNN "Type"
-	1    14400 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C54
-U 1 1 9107DCE8
-P 14400 6000
-F 0 "C54" H 14492 6046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 5700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 6000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 6000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 6000 50  0001 C CNN "Type"
-	1    14400 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C53
-U 1 1 9107DCEF
-P 14400 6200
-F 0 "C53" H 14492 6246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 5900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 6200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 6200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 6200 50  0001 C CNN "Type"
-	1    14400 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 5600 14500 5600
-Wire Wire Line
-	15250 5850 15250 6000
-$Comp
-L Device:C_Small C52
-U 1 1 9107DCF8
-P 14400 6500
-F 0 "C52" H 14492 6546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 6200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 6500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 6500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 6500 50  0001 C CNN "Type"
-	1    14400 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C51
-U 1 1 9107DCFF
-P 14400 6700
-F 0 "C51" H 14492 6746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 6400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 6700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 6700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 6700 50  0001 C CNN "Type"
-	1    14400 6700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C50
-U 1 1 9107DD06
-P 14400 6900
-F 0 "C50" H 14492 6946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 6600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 6900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 6900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 6900 50  0001 C CNN "Type"
-	1    14400 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C49
-U 1 1 9107DD0D
-P 14400 7100
-F 0 "C49" H 14492 7146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 6800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 7100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 7100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 7100 50  0001 C CNN "Type"
-	1    14400 7100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 5800 14500 5800
-Wire Wire Line
-	14750 6000 14500 5600
-Connection ~ 14500 5600
-Wire Wire Line
-	14750 6100 14500 5800
-Connection ~ 14500 5800
-Wire Wire Line
-	14750 6200 14500 6000
-Wire Wire Line
-	14600 6000 14600 5850
-Wire Wire Line
-	14600 6000 14500 6000
-Connection ~ 14500 6000
-Wire Wire Line
-	15250 5850 14600 5850
-Wire Wire Line
-	15350 6000 15250 6000
-Wire Wire Line
-	14650 6200 14650 5900
-Wire Wire Line
-	14650 5900 15200 5900
-Wire Wire Line
-	15200 5900 15200 6200
-Wire Wire Line
-	15200 6200 15350 6200
-Wire Wire Line
-	14500 6200 14750 6300
-Connection ~ 14500 6200
-Wire Wire Line
-	14650 6200 14500 6200
-Wire Wire Line
-	14750 6400 14500 6500
-Wire Wire Line
-	14750 6500 14500 6700
-Wire Wire Line
-	15350 6900 14500 6900
-Wire Wire Line
-	15350 7100 14500 7100
-Wire Wire Line
-	14750 6600 14500 6900
-Connection ~ 14500 6900
-Wire Wire Line
-	14750 6700 14500 7100
-Connection ~ 14500 7100
-Wire Wire Line
-	15350 6700 15250 6700
-Wire Wire Line
-	15250 6700 15250 6850
-Wire Wire Line
-	15250 6850 14600 6850
-Wire Wire Line
-	14600 6850 14600 6700
-Wire Wire Line
-	14600 6700 14500 6700
-Connection ~ 14500 6700
-Wire Wire Line
-	15200 6800 14650 6800
-Wire Wire Line
-	14650 6800 14650 6500
-Wire Wire Line
-	14650 6500 14500 6500
-Connection ~ 14500 6500
-Wire Wire Line
-	15350 6500 15200 6500
-Wire Wire Line
-	15200 6500 15200 6800
-$Comp
-L Device:C_Small C48
-U 1 1 9107DD3A
-P 14400 7400
-F 0 "C48" H 14492 7446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 7100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 7400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 7400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 7400 50  0001 C CNN "Type"
-	1    14400 7400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN15
-U 1 1 9107DD40
-P 14950 8200
-F 0 "RN15" H 14850 7850 50  0000 L CNN
-F 1 "4120R-1-103LF" H 14600 7950 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 15425 8200 50  0001 C CNN
-F 3 "~" H 14950 8200 50  0001 C CNN
-	1    14950 8200
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	15150 7800 15150 7900
-Connection ~ 15150 7900
-Wire Wire Line
-	15150 7900 15150 8000
-Connection ~ 15150 8000
-Wire Wire Line
-	15150 8000 15150 8100
-Connection ~ 15150 8100
-Wire Wire Line
-	15150 8100 15150 8200
-Connection ~ 15150 8200
-Wire Wire Line
-	15150 8200 15150 8300
-Connection ~ 15150 8300
-Wire Wire Line
-	15150 8300 15150 8400
-Connection ~ 15150 8400
-Wire Wire Line
-	15150 8400 15150 8500
-$Comp
-L Device:C_Small C47
-U 1 1 9107DD54
-P 14400 7600
-F 0 "C47" H 14492 7646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 7300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 7600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 7600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 7600 50  0001 C CNN "Type"
-	1    14400 7600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C46
-U 1 1 9107DD5B
-P 14400 7800
-F 0 "C46" H 14492 7846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 7500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 7800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 7800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 7800 50  0001 C CNN "Type"
-	1    14400 7800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C45
-U 1 1 9107DD62
-P 14400 8000
-F 0 "C45" H 14492 8046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 7700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 8000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 8000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 8000 50  0001 C CNN "Type"
-	1    14400 8000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 7400 14500 7400
-Wire Wire Line
-	15250 7650 15250 7800
-$Comp
-L Device:C_Small C44
-U 1 1 9107DD6B
-P 14400 8300
-F 0 "C44" H 14492 8346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 8000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 8300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 8300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 8300 50  0001 C CNN "Type"
-	1    14400 8300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C43
-U 1 1 9107DD72
-P 14400 8500
-F 0 "C43" H 14492 8546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 8200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 8500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 8500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 8500 50  0001 C CNN "Type"
-	1    14400 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C42
-U 1 1 9107DD79
-P 14400 8700
-F 0 "C42" H 14492 8746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 8400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 8700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 8700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 8700 50  0001 C CNN "Type"
-	1    14400 8700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C41
-U 1 1 9107DD80
-P 14400 8900
-F 0 "C41" H 14492 8946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 14300 8600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 14400 8900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 14400 8900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 14400 8900 50  0001 C CNN "Type"
-	1    14400 8900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	15350 7600 14500 7600
-Wire Wire Line
-	14750 7800 14500 7400
-Connection ~ 14500 7400
-Wire Wire Line
-	14750 7900 14500 7600
-Connection ~ 14500 7600
-Wire Wire Line
-	14750 8000 14500 7800
-Wire Wire Line
-	14600 7800 14600 7650
-Wire Wire Line
-	14600 7800 14500 7800
-Connection ~ 14500 7800
-Wire Wire Line
-	15250 7650 14600 7650
-Wire Wire Line
-	15350 7800 15250 7800
-Wire Wire Line
-	14650 8000 14650 7700
-Wire Wire Line
-	14650 7700 15200 7700
-Wire Wire Line
-	15200 7700 15200 8000
-Wire Wire Line
-	15200 8000 15350 8000
-Wire Wire Line
-	14500 8000 14750 8100
-Connection ~ 14500 8000
-Wire Wire Line
-	14650 8000 14500 8000
-Wire Wire Line
-	14750 8200 14500 8300
-Wire Wire Line
-	14750 8300 14500 8500
-Wire Wire Line
-	15350 8700 14500 8700
-Wire Wire Line
-	14750 8400 14500 8700
-Connection ~ 14500 8700
-Wire Wire Line
-	14750 8500 14500 8900
-Connection ~ 14500 8900
-Wire Wire Line
-	15350 8500 15250 8500
-Wire Wire Line
-	15250 8500 15250 8650
-Wire Wire Line
-	15250 8650 14600 8650
-Wire Wire Line
-	14600 8650 14600 8500
-Wire Wire Line
-	14600 8500 14500 8500
-Connection ~ 14500 8500
-Wire Wire Line
-	15200 8600 14650 8600
-Wire Wire Line
-	14650 8600 14650 8300
-Wire Wire Line
-	14650 8300 14500 8300
-Connection ~ 14500 8300
-Wire Wire Line
-	15350 8300 15200 8300
-Wire Wire Line
-	15200 8300 15200 8600
-Wire Wire Line
-	14300 2100 14350 2100
-Wire Wire Line
-	14350 2100 14350 2300
-Wire Wire Line
-	14350 2300 14300 2300
-Wire Wire Line
-	14350 2300 14350 2500
-Wire Wire Line
-	14350 2500 14300 2500
-Connection ~ 14350 2300
-Wire Wire Line
-	14350 2500 14350 2700
-Wire Wire Line
-	14350 2700 14300 2700
-Connection ~ 14350 2500
-Wire Wire Line
-	14350 2700 14350 3000
-Wire Wire Line
-	14350 3000 14300 3000
-Connection ~ 14350 2700
-Wire Wire Line
-	14350 3000 14350 3200
-Wire Wire Line
-	14350 3200 14300 3200
-Connection ~ 14350 3000
-Wire Wire Line
-	14350 3200 14350 3400
-Wire Wire Line
-	14350 3400 14300 3400
-Connection ~ 14350 3200
-Wire Wire Line
-	14350 3400 14350 3600
-Wire Wire Line
-	14350 3600 14300 3600
-Connection ~ 14350 3400
-Wire Wire Line
-	14350 3600 14350 3900
-Wire Wire Line
-	14350 3900 14300 3900
-Connection ~ 14350 3600
-Wire Wire Line
-	14350 3900 14350 4100
-Wire Wire Line
-	14350 4100 14300 4100
-Connection ~ 14350 3900
-Wire Wire Line
-	14350 4100 14350 4300
-Wire Wire Line
-	14350 4300 14300 4300
-Connection ~ 14350 4100
-Wire Wire Line
-	14350 4300 14350 4500
-Wire Wire Line
-	14350 4500 14300 4500
-Connection ~ 14350 4300
-Wire Wire Line
-	14350 4500 14350 4800
-Wire Wire Line
-	14350 4800 14300 4800
-Connection ~ 14350 4500
-Wire Wire Line
-	14350 4800 14350 5000
-Wire Wire Line
-	14350 5000 14300 5000
-Connection ~ 14350 4800
-Wire Wire Line
-	14350 5000 14350 5200
-Wire Wire Line
-	14350 5200 14300 5200
-Connection ~ 14350 5000
-Wire Wire Line
-	14350 5400 14300 5400
-Wire Wire Line
-	14350 5200 14350 5400
-Connection ~ 14350 5200
-Wire Wire Line
-	14350 5400 14350 5700
-Wire Wire Line
-	14350 5700 14300 5700
-Connection ~ 14350 5400
-Wire Wire Line
-	14350 5700 14350 5900
-Wire Wire Line
-	14350 5900 14300 5900
-Connection ~ 14350 5700
-Wire Wire Line
-	14350 5900 14350 6100
-Wire Wire Line
-	14350 6100 14300 6100
-Connection ~ 14350 5900
-Wire Wire Line
-	14350 6100 14350 6300
-Wire Wire Line
-	14350 6300 14300 6300
-Connection ~ 14350 6100
-Wire Wire Line
-	14350 6300 14350 6600
-Wire Wire Line
-	14350 6600 14300 6600
-Connection ~ 14350 6300
-Wire Wire Line
-	14350 6600 14350 6800
-Wire Wire Line
-	14350 6800 14300 6800
-Connection ~ 14350 6600
-Wire Wire Line
-	14350 6800 14350 7000
-Wire Wire Line
-	14350 7000 14300 7000
-Connection ~ 14350 6800
-Wire Wire Line
-	14350 7000 14350 7200
-Wire Wire Line
-	14350 7200 14300 7200
-Connection ~ 14350 7000
-Wire Wire Line
-	14350 7200 14350 7500
-Wire Wire Line
-	14350 7500 14300 7500
-Connection ~ 14350 7200
-Wire Wire Line
-	14350 7500 14350 7700
-Wire Wire Line
-	14350 7700 14300 7700
-Connection ~ 14350 7500
-Wire Wire Line
-	14350 7700 14350 7900
-Wire Wire Line
-	14350 7900 14300 7900
-Connection ~ 14350 7700
-Wire Wire Line
-	14350 7900 14350 8100
-Wire Wire Line
-	14350 8100 14300 8100
-Connection ~ 14350 7900
-Wire Wire Line
-	14350 8100 14350 8400
-Wire Wire Line
-	14350 8400 14300 8400
-Connection ~ 14350 8100
-Wire Wire Line
-	14350 8400 14350 8600
-Wire Wire Line
-	14350 8600 14300 8600
-Connection ~ 14350 8400
-Wire Wire Line
-	14350 8600 14350 8800
-Wire Wire Line
-	14350 8800 14300 8800
-Connection ~ 14350 8600
-Wire Wire Line
-	14350 9000 14300 9000
-Wire Wire Line
-	14350 8800 14350 9000
-Connection ~ 14350 8800
-Wire Wire Line
-	15350 3500 14500 3500
-Wire Wire Line
-	15200 4400 15350 4400
-Wire Wire Line
-	15350 8900 14500 8900
-Connection ~ 14350 2100
-Connection ~ 12800 2100
-Wire Wire Line
-	12800 1800 12800 2100
-Connection ~ 12800 2300
-Wire Wire Line
-	12800 2300 12800 2100
-Wire Wire Line
-	12800 2100 12850 2100
-Connection ~ 12800 2500
-Wire Wire Line
-	12800 2300 12850 2300
-Wire Wire Line
-	12800 2500 12800 2300
-Connection ~ 12800 2700
-Wire Wire Line
-	12800 2500 12850 2500
-Wire Wire Line
-	12800 2700 12800 2500
-Connection ~ 12800 3000
-Wire Wire Line
-	12800 2700 12850 2700
-Wire Wire Line
-	12800 3000 12800 2700
-Connection ~ 12800 3200
-Wire Wire Line
-	12800 3000 12850 3000
-Wire Wire Line
-	12800 3200 12800 3000
-Connection ~ 12800 3400
-Wire Wire Line
-	12800 3200 12850 3200
-Wire Wire Line
-	12800 3400 12800 3200
-Connection ~ 12800 3600
-Wire Wire Line
-	12800 3400 12850 3400
-Wire Wire Line
-	12800 3600 12800 3400
-Connection ~ 12800 3900
-Wire Wire Line
-	12800 3600 12850 3600
-Wire Wire Line
-	12800 3900 12800 3600
-Connection ~ 12800 4100
-Wire Wire Line
-	12800 3900 12850 3900
-Wire Wire Line
-	12800 4100 12800 3900
-Connection ~ 12800 4300
-Wire Wire Line
-	12800 4100 12850 4100
-Wire Wire Line
-	12800 4300 12800 4100
-Connection ~ 12800 4500
-Wire Wire Line
-	12800 4300 12850 4300
-Wire Wire Line
-	12800 4500 12800 4300
-Connection ~ 12800 4800
-Wire Wire Line
-	12800 4500 12850 4500
-Wire Wire Line
-	12800 4800 12800 4500
-Connection ~ 12800 5000
-Wire Wire Line
-	12800 4800 12850 4800
-Wire Wire Line
-	12800 5000 12800 4800
-Connection ~ 12800 5200
-Wire Wire Line
-	12800 5000 12850 5000
-Wire Wire Line
-	12800 5200 12800 5000
-Connection ~ 12800 5400
-Wire Wire Line
-	12800 5200 12850 5200
-Wire Wire Line
-	12800 5400 12800 5200
-Connection ~ 12800 5700
-Wire Wire Line
-	12800 5400 12850 5400
-Wire Wire Line
-	12800 5700 12800 5400
-Connection ~ 12800 5900
-Wire Wire Line
-	12800 5900 12800 5700
-Wire Wire Line
-	12800 5700 12850 5700
-Connection ~ 12800 6100
-Wire Wire Line
-	12800 5900 12850 5900
-Wire Wire Line
-	12800 6100 12800 5900
-Connection ~ 12800 6300
-Wire Wire Line
-	12800 6100 12850 6100
-Wire Wire Line
-	12800 6300 12800 6100
-Connection ~ 12800 6600
-Wire Wire Line
-	12800 6300 12850 6300
-Wire Wire Line
-	12800 6600 12800 6300
-Connection ~ 12800 6800
-Wire Wire Line
-	12800 6600 12850 6600
-Wire Wire Line
-	12800 6800 12800 6600
-Connection ~ 12800 7000
-Wire Wire Line
-	12800 6800 12850 6800
-Wire Wire Line
-	12800 7000 12800 6800
-Connection ~ 12800 7200
-Wire Wire Line
-	12800 7000 12850 7000
-Wire Wire Line
-	12800 7200 12800 7000
-Connection ~ 12800 7500
-Wire Wire Line
-	12800 7200 12850 7200
-Wire Wire Line
-	12800 7500 12800 7200
-Connection ~ 12800 7700
-Wire Wire Line
-	12800 7500 12850 7500
-Wire Wire Line
-	12800 7700 12800 7500
-Connection ~ 12800 7900
-Wire Wire Line
-	12800 7700 12850 7700
-Wire Wire Line
-	12800 7900 12800 7700
-Connection ~ 12800 8100
-Wire Wire Line
-	12800 7900 12850 7900
-Wire Wire Line
-	12800 8100 12800 7900
-Connection ~ 12800 8400
-Wire Wire Line
-	12800 8100 12850 8100
-Wire Wire Line
-	12800 8400 12800 8100
-Connection ~ 12800 8600
-Wire Wire Line
-	12800 8400 12850 8400
-Wire Wire Line
-	12800 8600 12800 8400
-Connection ~ 12800 8800
-Wire Wire Line
-	12800 8600 12850 8600
-Wire Wire Line
-	12800 8800 12800 8600
-Wire Wire Line
-	12800 8800 12850 8800
-Wire Wire Line
-	12800 9000 12800 8800
-Wire Wire Line
-	12850 9000 12800 9000
-Text Label 11750 8850 2    50   ~ 0
-K17A
-Text Label 11750 7050 2    50   ~ 0
-K18A
-Text Label 11750 6650 2    50   ~ 0
-K20A
-Text Label 11750 7950 2    50   ~ 0
-K21A
-Text Label 11750 4850 2    50   ~ 0
-K27A
-Text Label 11750 3050 2    50   ~ 0
-K28A
-Text Label 11750 4350 2    50   ~ 0
-K29A
-Text Label 11750 2550 2    50   ~ 0
-K30A
-Text Label 11750 3950 2    50   ~ 0
-K31A
-Text Label 11750 2150 2    50   ~ 0
-K32A
-Text Label 11750 8450 2    50   ~ 0
-K19A
-Text Label 11750 8650 2    50   ~ 0
-K17B
-Text Label 11750 6850 2    50   ~ 0
-K18B
-Text Label 11750 8250 2    50   ~ 0
-K19B
-Text Label 11750 6450 2    50   ~ 0
-K20B
-Text Label 11750 7750 2    50   ~ 0
-K21B
-Text Label 11750 5950 2    50   ~ 0
-K22B
-Text Label 11750 7350 2    50   ~ 0
-K23B
-Text Label 11750 5550 2    50   ~ 0
-K24B
-Text Label 11750 4650 2    50   ~ 0
-K27B
-Text Label 11750 2850 2    50   ~ 0
-K28B
-Text Label 11750 4150 2    50   ~ 0
-K29B
-Text Label 11750 2350 2    50   ~ 0
-K30B
-Text Label 11750 3750 2    50   ~ 0
-K31B
-Text Label 11750 1950 2    50   ~ 0
-K32B
-Text Label 11750 5750 2    50   ~ 0
-K24A
-Text Label 11750 7550 2    50   ~ 0
-K23A
-Text Label 11750 6150 2    50   ~ 0
-K22A
-Text Label 11750 5250 2    50   ~ 0
-K25A
-Text Label 11750 5050 2    50   ~ 0
-K25B
-Text Label 11750 3450 2    50   ~ 0
-K26A
-Text Label 11750 3250 2    50   ~ 0
-K26B
-$Comp
-L Device:C_Small C9
-U 1 1 6091392C
-P 12750 8900
-F 0 "C9" H 12842 8946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 8600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 8900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 8900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 8900 50  0001 C CNN "Type"
-	1    12750 8900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN11
-U 1 1 60F720A4
-P 12200 8100
-F 0 "RN11" H 12100 7750 50  0000 L CNN
-F 1 "4120R-1-103LF" H 11850 7850 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 12675 8100 50  0001 C CNN
-F 3 "~" H 12200 8100 50  0001 C CNN
-	1    12200 8100
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	12000 8500 12000 8400
-Connection ~ 12000 8400
-Wire Wire Line
-	12000 8400 12000 8300
-Connection ~ 12000 8300
-Wire Wire Line
-	12000 8300 12000 8200
-Connection ~ 12000 8200
-Wire Wire Line
-	12000 8200 12000 8100
-Connection ~ 12000 8100
-Wire Wire Line
-	12000 8100 12000 8000
-Connection ~ 12000 8000
-Wire Wire Line
-	12000 8000 12000 7900
-Connection ~ 12000 7900
-Wire Wire Line
-	12000 7900 12000 7800
-$Comp
-L Device:C_Small C10
-U 1 1 6365D38C
-P 12750 8700
-F 0 "C10" H 12842 8746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 8400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 8700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 8700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 8700 50  0001 C CNN "Type"
-	1    12750 8700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 6366539F
-P 12750 8500
-F 0 "C11" H 12842 8546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 8200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 8500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 8500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 8500 50  0001 C CNN "Type"
-	1    12750 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C12
-U 1 1 63666BDE
-P 12750 8300
-F 0 "C12" H 12842 8346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 8000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 8300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 8300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 8300 50  0001 C CNN "Type"
-	1    12750 8300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 8900 12650 8900
-Wire Wire Line
-	11900 8650 11900 8500
-$Comp
-L Device:C_Small C13
-U 1 1 6FAA78A0
-P 12750 8000
-F 0 "C13" H 12842 8046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 7700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 8000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 8000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 8000 50  0001 C CNN "Type"
-	1    12750 8000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 6FAA90BB
-P 12750 7800
-F 0 "C14" H 12842 7846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 7500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 7800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 7800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 7800 50  0001 C CNN "Type"
-	1    12750 7800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 6FAAA5EE
-P 12750 7600
-F 0 "C15" H 12842 7646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 7300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 7600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 7600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 7600 50  0001 C CNN "Type"
-	1    12750 7600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C16
-U 1 1 6FAABD43
-P 12750 7400
-F 0 "C16" H 12842 7446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 7100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 7400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 7400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 7400 50  0001 C CNN "Type"
-	1    12750 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 8700 12650 8700
-Wire Wire Line
-	12400 8500 12650 8900
-Connection ~ 12650 8900
-Wire Wire Line
-	12400 8400 12650 8700
-Connection ~ 12650 8700
-Wire Wire Line
-	12400 8300 12650 8500
-Wire Wire Line
-	12550 8500 12550 8650
-Wire Wire Line
-	12550 8500 12650 8500
-Connection ~ 12650 8500
-Wire Wire Line
-	11900 8650 12550 8650
-Wire Wire Line
-	11800 8500 11900 8500
-Wire Wire Line
-	12500 8300 12500 8600
-Wire Wire Line
-	12500 8600 11950 8600
-Wire Wire Line
-	11950 8600 11950 8300
-Wire Wire Line
-	11950 8300 11800 8300
-Wire Wire Line
-	12650 8300 12400 8200
-Connection ~ 12650 8300
-Wire Wire Line
-	12500 8300 12650 8300
-Wire Wire Line
-	12400 8100 12650 8000
-Wire Wire Line
-	12400 8000 12650 7800
-Wire Wire Line
-	11800 7600 12650 7600
-Wire Wire Line
-	12400 7900 12650 7600
-Connection ~ 12650 7600
-Wire Wire Line
-	12400 7800 12650 7400
-Connection ~ 12650 7400
-Wire Wire Line
-	11800 7800 11900 7800
-Wire Wire Line
-	11900 7800 11900 7650
-Wire Wire Line
-	11900 7650 12550 7650
-Wire Wire Line
-	12550 7650 12550 7800
-Wire Wire Line
-	12550 7800 12650 7800
-Connection ~ 12650 7800
-Wire Wire Line
-	11950 7700 12500 7700
-Wire Wire Line
-	12500 7700 12500 8000
-Wire Wire Line
-	12500 8000 12650 8000
-Connection ~ 12650 8000
-Wire Wire Line
-	11800 8000 11950 8000
-Wire Wire Line
-	11950 8000 11950 7700
-$Comp
-L Device:C_Small C17
-U 1 1 7B30AEFA
-P 12750 7100
-F 0 "C17" H 12842 7146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 6800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 7100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 7100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 7100 50  0001 C CNN "Type"
-	1    12750 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN12
-U 1 1 7B30AF00
-P 12200 6300
-F 0 "RN12" H 12100 5950 50  0000 L CNN
-F 1 "4120R-1-103LF" H 11850 6050 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 12675 6300 50  0001 C CNN
-F 3 "~" H 12200 6300 50  0001 C CNN
-	1    12200 6300
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	12000 6700 12000 6600
-Connection ~ 12000 6600
-Wire Wire Line
-	12000 6600 12000 6500
-Connection ~ 12000 6500
-Wire Wire Line
-	12000 6500 12000 6400
-Connection ~ 12000 6400
-Wire Wire Line
-	12000 6400 12000 6300
-Connection ~ 12000 6300
-Wire Wire Line
-	12000 6300 12000 6200
-Connection ~ 12000 6200
-Wire Wire Line
-	12000 6200 12000 6100
-Connection ~ 12000 6100
-Wire Wire Line
-	12000 6100 12000 6000
-$Comp
-L Device:C_Small C18
-U 1 1 7B30AF14
-P 12750 6900
-F 0 "C18" H 12842 6946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 6600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 6900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 6900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 6900 50  0001 C CNN "Type"
-	1    12750 6900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C19
-U 1 1 7B30AF1B
-P 12750 6700
-F 0 "C19" H 12842 6746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 6400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 6700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 6700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 6700 50  0001 C CNN "Type"
-	1    12750 6700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 7B30AF22
-P 12750 6500
-F 0 "C20" H 12842 6546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 6200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 6500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 6500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 6500 50  0001 C CNN "Type"
-	1    12750 6500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 7100 12650 7100
-Wire Wire Line
-	11900 6850 11900 6700
-$Comp
-L Device:C_Small C21
-U 1 1 7B30AF2B
-P 12750 6200
-F 0 "C21" H 12842 6246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 5900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 6200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 6200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 6200 50  0001 C CNN "Type"
-	1    12750 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C22
-U 1 1 7B30AF32
-P 12750 6000
-F 0 "C22" H 12842 6046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 5700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 6000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 6000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 6000 50  0001 C CNN "Type"
-	1    12750 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C23
-U 1 1 7B30AF39
-P 12750 5800
-F 0 "C23" H 12842 5846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 5500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 5800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 5800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 5800 50  0001 C CNN "Type"
-	1    12750 5800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C24
-U 1 1 7B30AF40
-P 12750 5600
-F 0 "C24" H 12842 5646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 5300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 5600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 5600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 5600 50  0001 C CNN "Type"
-	1    12750 5600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 6900 12650 6900
-Wire Wire Line
-	12400 6700 12650 7100
-Connection ~ 12650 7100
-Wire Wire Line
-	12400 6600 12650 6900
-Connection ~ 12650 6900
-Wire Wire Line
-	12400 6500 12650 6700
-Wire Wire Line
-	12550 6700 12550 6850
-Wire Wire Line
-	12550 6700 12650 6700
-Connection ~ 12650 6700
-Wire Wire Line
-	11900 6850 12550 6850
-Wire Wire Line
-	11800 6700 11900 6700
-Wire Wire Line
-	12500 6500 12500 6800
-Wire Wire Line
-	12500 6800 11950 6800
-Wire Wire Line
-	11950 6800 11950 6500
-Wire Wire Line
-	12650 6500 12400 6400
-Connection ~ 12650 6500
-Wire Wire Line
-	12500 6500 12650 6500
-Wire Wire Line
-	12400 6300 12650 6200
-Wire Wire Line
-	12400 6200 12650 6000
-Wire Wire Line
-	11800 5800 12650 5800
-Wire Wire Line
-	11800 5600 12650 5600
-Wire Wire Line
-	12400 6100 12650 5800
-Connection ~ 12650 5800
-Wire Wire Line
-	12400 6000 12650 5600
-Connection ~ 12650 5600
-Wire Wire Line
-	11800 6000 11900 6000
-Wire Wire Line
-	11900 6000 11900 5850
-Wire Wire Line
-	11900 5850 12550 5850
-Wire Wire Line
-	12550 5850 12550 6000
-Wire Wire Line
-	12550 6000 12650 6000
-Connection ~ 12650 6000
-Wire Wire Line
-	11950 5900 12500 5900
-Wire Wire Line
-	12500 5900 12500 6200
-Wire Wire Line
-	12500 6200 12650 6200
-Connection ~ 12650 6200
-Wire Wire Line
-	11800 6200 11950 6200
-Wire Wire Line
-	11950 6200 11950 5900
-$Comp
-L Device:C_Small C25
-U 1 1 7B9A40F7
-P 12750 5300
-F 0 "C25" H 12842 5346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 5000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 5300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 5300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 5300 50  0001 C CNN "Type"
-	1    12750 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN13
-U 1 1 7B9A40FD
-P 12200 4500
-F 0 "RN13" H 12100 4150 50  0000 L CNN
-F 1 "4120R-1-103LF" H 11850 4250 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 12675 4500 50  0001 C CNN
-F 3 "~" H 12200 4500 50  0001 C CNN
-	1    12200 4500
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	12000 4900 12000 4800
-Connection ~ 12000 4800
-Wire Wire Line
-	12000 4800 12000 4700
-Connection ~ 12000 4700
-Wire Wire Line
-	12000 4700 12000 4600
-Connection ~ 12000 4600
-Wire Wire Line
-	12000 4600 12000 4500
-Connection ~ 12000 4500
-Wire Wire Line
-	12000 4500 12000 4400
-Connection ~ 12000 4400
-Wire Wire Line
-	12000 4400 12000 4300
-Connection ~ 12000 4300
-Wire Wire Line
-	12000 4300 12000 4200
-$Comp
-L Device:C_Small C26
-U 1 1 7B9A4111
-P 12750 5100
-F 0 "C26" H 12842 5146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 4800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 5100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 5100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 5100 50  0001 C CNN "Type"
-	1    12750 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C27
-U 1 1 7B9A4118
-P 12750 4900
-F 0 "C27" H 12842 4946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 4600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 4900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 4900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 4900 50  0001 C CNN "Type"
-	1    12750 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C28
-U 1 1 7B9A411F
-P 12750 4700
-F 0 "C28" H 12842 4746 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 4400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 4700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 4700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 4700 50  0001 C CNN "Type"
-	1    12750 4700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 5300 12650 5300
-Wire Wire Line
-	11900 5050 11900 4900
-$Comp
-L Device:C_Small C29
-U 1 1 7B9A4128
-P 12750 4400
-F 0 "C29" H 12842 4446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 4100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 4400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 4400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 4400 50  0001 C CNN "Type"
-	1    12750 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C30
-U 1 1 7B9A412F
-P 12750 4200
-F 0 "C30" H 12842 4246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 3900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 4200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 4200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 4200 50  0001 C CNN "Type"
-	1    12750 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C31
-U 1 1 7B9A4136
-P 12750 4000
-F 0 "C31" H 12842 4046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 3700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 4000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 4000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 4000 50  0001 C CNN "Type"
-	1    12750 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C32
-U 1 1 7B9A413D
-P 12750 3800
-F 0 "C32" H 12842 3846 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 3500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 3800 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 3800 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 3800 50  0001 C CNN "Type"
-	1    12750 3800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 5100 12650 5100
-Wire Wire Line
-	12400 4900 12650 5300
-Connection ~ 12650 5300
-Wire Wire Line
-	12400 4800 12650 5100
-Connection ~ 12650 5100
-Wire Wire Line
-	12400 4700 12650 4900
-Wire Wire Line
-	12550 4900 12550 5050
-Wire Wire Line
-	12550 4900 12650 4900
-Connection ~ 12650 4900
-Wire Wire Line
-	11900 5050 12550 5050
-Wire Wire Line
-	11800 4900 11900 4900
-Wire Wire Line
-	12500 4700 12500 5000
-Wire Wire Line
-	12500 5000 11950 5000
-Wire Wire Line
-	11950 5000 11950 4700
-Wire Wire Line
-	11950 4700 11800 4700
-Wire Wire Line
-	12650 4700 12400 4600
-Connection ~ 12650 4700
-Wire Wire Line
-	12500 4700 12650 4700
-Wire Wire Line
-	12400 4500 12650 4400
-Wire Wire Line
-	12400 4400 12650 4200
-Wire Wire Line
-	11800 4000 12650 4000
-Wire Wire Line
-	11800 3800 12650 3800
-Wire Wire Line
-	12400 4300 12650 4000
-Connection ~ 12650 4000
-Wire Wire Line
-	12400 4200 12650 3800
-Connection ~ 12650 3800
-Wire Wire Line
-	11800 4200 11900 4200
-Wire Wire Line
-	11900 4200 11900 4050
-Wire Wire Line
-	11900 4050 12550 4050
-Wire Wire Line
-	12550 4050 12550 4200
-Wire Wire Line
-	12550 4200 12650 4200
-Connection ~ 12650 4200
-Wire Wire Line
-	11950 4100 12500 4100
-Wire Wire Line
-	12500 4100 12500 4400
-Wire Wire Line
-	12500 4400 12650 4400
-Connection ~ 12650 4400
-Wire Wire Line
-	11800 4400 11950 4400
-Wire Wire Line
-	11950 4400 11950 4100
-$Comp
-L Device:C_Small C33
-U 1 1 7C05EDD8
-P 12750 3500
-F 0 "C33" H 12842 3546 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 3200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 3500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 3500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 3500 50  0001 C CNN "Type"
-	1    12750 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN14
-U 1 1 7C05EDDE
-P 12200 2700
-F 0 "RN14" H 12100 2350 50  0000 L CNN
-F 1 "4120R-1-103LF" H 11850 2450 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 12675 2700 50  0001 C CNN
-F 3 "~" H 12200 2700 50  0001 C CNN
-	1    12200 2700
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	12000 3100 12000 3000
-Connection ~ 12000 3000
-Wire Wire Line
-	12000 3000 12000 2900
-Connection ~ 12000 2900
-Wire Wire Line
-	12000 2900 12000 2800
-Connection ~ 12000 2800
-Wire Wire Line
-	12000 2800 12000 2700
-Connection ~ 12000 2700
-Wire Wire Line
-	12000 2700 12000 2600
-Connection ~ 12000 2600
-Wire Wire Line
-	12000 2600 12000 2500
-Connection ~ 12000 2500
-Wire Wire Line
-	12000 2500 12000 2400
-$Comp
-L Device:C_Small C34
-U 1 1 7C05EDF2
-P 12750 3300
-F 0 "C34" H 12842 3346 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 3000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 3300 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 3300 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 3300 50  0001 C CNN "Type"
-	1    12750 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C35
-U 1 1 7C05EDF9
-P 12750 3100
-F 0 "C35" H 12842 3146 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 2800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 3100 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 3100 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 3100 50  0001 C CNN "Type"
-	1    12750 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C36
-U 1 1 7C05EE00
-P 12750 2900
-F 0 "C36" H 12842 2946 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 2600 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 2900 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 2900 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 2900 50  0001 C CNN "Type"
-	1    12750 2900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 3500 12650 3500
-Wire Wire Line
-	11900 3250 11900 3100
-$Comp
-L Device:C_Small C37
-U 1 1 7C05EE09
-P 12750 2600
-F 0 "C37" H 12842 2646 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 2300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 2600 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 2600 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 2600 50  0001 C CNN "Type"
-	1    12750 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C38
-U 1 1 7C05EE10
-P 12750 2400
-F 0 "C38" H 12842 2446 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 2100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 2400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 2400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 2400 50  0001 C CNN "Type"
-	1    12750 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C39
-U 1 1 7C05EE17
-P 12750 2200
-F 0 "C39" H 12842 2246 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 1900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 2200 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 2200 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 2200 50  0001 C CNN "Type"
-	1    12750 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C40
-U 1 1 7C05EE1E
-P 12750 2000
-F 0 "C40" H 12842 2046 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 12650 1700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12750 2000 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 12750 2000 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 12750 2000 50  0001 C CNN "Type"
-	1    12750 2000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11800 3300 12650 3300
-Wire Wire Line
-	12400 3100 12650 3500
-Connection ~ 12650 3500
-Wire Wire Line
-	12400 3000 12650 3300
-Connection ~ 12650 3300
-Wire Wire Line
-	12400 2900 12650 3100
-Wire Wire Line
-	12550 3100 12550 3250
-Wire Wire Line
-	12550 3100 12650 3100
-Connection ~ 12650 3100
-Wire Wire Line
-	11900 3250 12550 3250
-Wire Wire Line
-	11800 3100 11900 3100
-Wire Wire Line
-	12500 2900 12500 3200
-Wire Wire Line
-	12500 3200 11950 3200
-Wire Wire Line
-	11950 3200 11950 2900
-Wire Wire Line
-	11950 2900 11800 2900
-Wire Wire Line
-	12650 2900 12400 2800
-Connection ~ 12650 2900
-Wire Wire Line
-	12500 2900 12650 2900
-Wire Wire Line
-	12400 2700 12650 2600
-Wire Wire Line
-	12400 2600 12650 2400
-Wire Wire Line
-	11800 2200 12650 2200
-Wire Wire Line
-	12400 2500 12650 2200
-Connection ~ 12650 2200
-Wire Wire Line
-	12400 2400 12650 2000
-Connection ~ 12650 2000
-Wire Wire Line
-	11800 2400 11900 2400
-Wire Wire Line
-	11900 2400 11900 2250
-Wire Wire Line
-	11900 2250 12550 2250
-Wire Wire Line
-	12550 2250 12550 2400
-Wire Wire Line
-	12550 2400 12650 2400
-Connection ~ 12650 2400
-Wire Wire Line
-	11950 2300 12500 2300
-Wire Wire Line
-	12500 2300 12500 2600
-Wire Wire Line
-	12500 2600 12650 2600
-Connection ~ 12650 2600
-Wire Wire Line
-	11800 2600 11950 2600
-Wire Wire Line
-	11950 2600 11950 2300
-Wire Wire Line
-	11800 7400 12650 7400
-Wire Wire Line
-	11950 6500 11800 6500
-Wire Wire Line
-	11800 2000 12650 2000
-Wire Wire Line
-	11800 2000 11750 1950
-Wire Wire Line
-	11750 2150 11800 2200
-Wire Wire Line
-	11750 2350 11800 2400
-Wire Wire Line
-	11750 2550 11800 2600
-Wire Wire Line
-	11750 2850 11800 2900
-Wire Wire Line
-	11750 3050 11800 3100
-Wire Wire Line
-	11750 3250 11800 3300
-Wire Wire Line
-	11750 3450 11800 3500
-Wire Wire Line
-	11750 3750 11800 3800
-Wire Wire Line
-	11750 3950 11800 4000
-Wire Wire Line
-	11750 4150 11800 4200
-Wire Wire Line
-	11750 4350 11800 4400
-Wire Wire Line
-	11750 4650 11800 4700
-Wire Wire Line
-	11750 4850 11800 4900
-Wire Wire Line
-	11750 5050 11800 5100
-Wire Wire Line
-	11750 5250 11800 5300
-Wire Wire Line
-	11750 5550 11800 5600
-Wire Wire Line
-	11750 5750 11800 5800
-Wire Wire Line
-	11750 5950 11800 6000
-Wire Wire Line
-	11750 6150 11800 6200
-Wire Wire Line
-	11800 6500 11750 6450
-Wire Wire Line
-	11750 6650 11800 6700
-Wire Wire Line
-	11750 6850 11800 6900
-Wire Wire Line
-	11750 7050 11800 7100
-Wire Wire Line
-	11800 7400 11750 7350
-Wire Wire Line
-	11750 7550 11800 7600
-Wire Wire Line
-	11750 7750 11800 7800
-Wire Wire Line
-	11750 7950 11800 8000
-Wire Wire Line
-	11750 8250 11800 8300
-Wire Wire Line
-	11750 8450 11800 8500
-Wire Wire Line
-	11750 8650 11800 8700
-Wire Wire Line
-	11750 8850 11800 8900
-Entry Wire Line
-	11650 2050 11750 1950
-Entry Wire Line
-	11650 2250 11750 2150
-Entry Wire Line
-	11650 2450 11750 2350
-Entry Wire Line
-	11650 2650 11750 2550
-Entry Wire Line
-	11650 2950 11750 2850
-Entry Wire Line
-	11650 3150 11750 3050
-Entry Wire Line
-	11650 3350 11750 3250
-Entry Wire Line
-	11650 3550 11750 3450
-Entry Wire Line
-	11650 3850 11750 3750
-Entry Wire Line
-	11650 4050 11750 3950
-Entry Wire Line
-	11650 4250 11750 4150
-Entry Wire Line
-	11650 4450 11750 4350
-Entry Wire Line
-	11650 4750 11750 4650
-Entry Wire Line
-	11650 4950 11750 4850
-Entry Wire Line
-	11650 5150 11750 5050
-Entry Wire Line
-	11650 5350 11750 5250
-Entry Wire Line
-	11650 5650 11750 5550
-Entry Wire Line
-	11650 5850 11750 5750
-Entry Wire Line
-	11650 6050 11750 5950
-Entry Wire Line
-	11650 6250 11750 6150
-Entry Wire Line
-	11650 6550 11750 6450
-Entry Wire Line
-	11650 6750 11750 6650
-Entry Wire Line
-	11650 6950 11750 6850
-Entry Wire Line
-	11650 7150 11750 7050
-Entry Wire Line
-	11650 7450 11750 7350
-Entry Wire Line
-	11650 7650 11750 7550
-Entry Wire Line
-	11650 7850 11750 7750
-Entry Wire Line
-	11650 8050 11750 7950
-Entry Wire Line
-	11650 8350 11750 8250
-Entry Wire Line
-	11650 8550 11750 8450
-Entry Wire Line
-	11650 8750 11750 8650
-Entry Wire Line
-	11650 8950 11750 8850
-Wire Wire Line
-	14350 2100 14350 1800
 Wire Wire Line
 	1300 1350 1300 1450
 Wire Wire Line
@@ -2916,14 +609,6 @@ F 3 "" H 950 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 900  4200 900 
-Wire Wire Line
-	15150 7800 15150 7250
-Connection ~ 15150 7800
-Connection ~ 15150 6700
-Wire Wire Line
-	15150 6000 15150 4900
-Connection ~ 15150 6000
-Connection ~ 15150 4900
 $Sheet
 S 1600 5050 1200 400 
 U D16552B4
@@ -2954,87 +639,8 @@ F1 "MixedControl.sch" 50
 F2 "SDA" O L 1600 5900 50 
 F3 "SCK" O L 1600 6000 50 
 $EndSheet
-Connection ~ 12000 3100
-Connection ~ 12000 4200
-Wire Wire Line
-	12000 4200 12000 3100
-Connection ~ 12000 4900
-Connection ~ 12000 6000
-Wire Wire Line
-	12000 6000 12000 4900
-Connection ~ 12000 6700
-Connection ~ 12000 7800
-Wire Wire Line
-	12000 7800 12000 6700
-Connection ~ 12000 8500
-Wire Wire Line
-	12000 9550 12000 8500
-$Comp
-L power:+5V #PWR?
-U 1 1 E22F8699
-P 12000 9550
-F 0 "#PWR?" H 12000 9400 50  0001 C CNN
-F 1 "+5V" H 12015 9723 50  0000 C CNN
-F 2 "" H 12000 9550 50  0001 C CNN
-F 3 "" H 12000 9550 50  0001 C CNN
-	1    12000 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 E2334D87
-P 15150 7250
-F 0 "#PWR?" H 15150 7100 50  0001 C CNN
-F 1 "+5V" H 15165 7423 50  0000 C CNN
-F 2 "" H 15150 7250 50  0001 C CNN
-F 3 "" H 15150 7250 50  0001 C CNN
-	1    15150 7250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 15150 7250
-Wire Wire Line
-	15150 7250 15150 6700
-Wire Wire Line
-	15150 4000 15150 3100
-Connection ~ 15150 4000
-Wire Wire Line
-	15150 4000 14500 4000
-Connection ~ 15150 3100
-$Comp
-L power:+12P #PWR?
-U 1 1 5F35B890
-P 12800 1800
-F 0 "#PWR?" H 12800 1650 50  0001 C CNN
-F 1 "+12P" H 12815 1973 50  0000 C CNN
-F 2 "" H 12800 1800 50  0001 C CNN
-F 3 "" H 12800 1800 50  0001 C CNN
-	1    12800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12P #PWR?
-U 1 1 5F4A6CA9
-P 14350 1800
-F 0 "#PWR?" H 14350 1650 50  0001 C CNN
-F 1 "+12P" H 14365 1973 50  0000 C CNN
-F 2 "" H 14350 1800 50  0001 C CNN
-F 3 "" H 14350 1800 50  0001 C CNN
-	1    14350 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	700  2550 1300 2550
-$Comp
-L power:GND #PWR?
-U 1 1 6070F7A6
-P 10150 5550
-F 0 "#PWR?" H 10150 5300 50  0001 C CNN
-F 1 "GND" H 10155 5377 50  0000 C CNN
-F 2 "" H 10150 5550 50  0001 C CNN
-F 3 "" H 10150 5550 50  0001 C CNN
-	1    10150 5550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 603D615D
@@ -3283,52 +889,6 @@ F 3 "~" H 3250 9650 50  0001 C CNN
 	1    3250 9650
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x01_Male J20
-U 1 1 922BEB27
-P 10150 5350
-F 0 "J20" H 10122 5282 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10122 5373 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 10150 5350 50  0001 C CNN
-F 3 "~" H 10150 5350 50  0001 C CNN
-	1    10150 5350
-	-1   0    0    1   
-$EndComp
-NoConn ~ 9950 8850
-$Comp
-L Connector:Conn_01x01_Male J21
-U 1 1 917FFB94
-P 10150 8950
-F 0 "J21" H 10122 8882 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10122 8973 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 10150 8950 50  0001 C CNN
-F 3 "~" H 10150 8950 50  0001 C CNN
-	1    10150 8950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP49
-U 1 1 86D2B7FB
-P 10050 9150
-F 0 "JP49" H 10050 9200 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 10100 9050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 10050 9150 50  0001 C CNN
-F 3 "~" H 10050 9150 50  0001 C CNN
-	1    10050 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP48
-U 1 1 8628CAC8
-P 10050 5550
-F 0 "JP48" H 10050 5600 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 10100 5450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 10050 5550 50  0001 C CNN
-F 3 "~" H 10050 5550 50  0001 C CNN
-	1    10050 5550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9950 5250
 Wire Wire Line
 	2900 9000 3200 9000
 Wire Wire Line
@@ -3748,10 +1308,10 @@ Entry Wire Line
 Entry Wire Line
 	7550 6700 7450 6800
 $Comp
-L Transistor_Array:ULN2803A U2
+L Transistor_Array:ULN2803A U?
 U 1 1 781075B1
 P 7950 4700
-F 0 "U2" V 7850 4600 50  0000 L CNN
+F 0 "U?" V 7850 4600 50  0000 L CNN
 F 1 "ULN2803A" V 8000 4400 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 8000 4050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8050 4500 50  0001 C CNN
@@ -3791,10 +1351,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 4650 8350 4200
 $Comp
-L Transistor_Array:ULN2803A U3
+L Transistor_Array:ULN2803A U?
 U 1 1 78107595
 P 7950 6500
-F 0 "U3" V 7850 6400 50  0000 L CNN
+F 0 "U?" V 7850 6400 50  0000 L CNN
 F 1 "ULN2803A" V 8000 6250 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 8000 5850 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8050 6300 50  0001 C CNN
@@ -3802,10 +1362,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8050 6300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U1
+L Interface_Expansion:MCP23017_SO U?
 U 1 1 781075BB
 P 9250 5450
-F 0 "U1" V 9150 5400 50  0000 L CNN
+F 0 "U?" V 9150 5400 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 9250 5200 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 9450 4450 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9450 4350 50  0001 L CNN
@@ -3813,10 +1373,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9450 4350 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U4
+L Interface_Expansion:MCP23017_SO U?
 U 1 1 CC7AB884
 P 9250 9050
-F 0 "U4" V 9200 9000 50  0000 L CNN
+F 0 "U?" V 9200 9000 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 9300 8800 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 9450 8050 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 9450 7950 50  0001 L CNN
@@ -3888,10 +1448,10 @@ Entry Wire Line
 Entry Wire Line
 	7550 7800 7450 7900
 $Comp
-L Transistor_Array:ULN2803A U6
+L Transistor_Array:ULN2803A U?
 U 1 1 CC7AB88E
 P 7950 10100
-F 0 "U6" V 7850 10000 50  0000 L CNN
+F 0 "U?" V 7850 10000 50  0000 L CNN
 F 1 "ULN2803A" V 8000 9850 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 8000 9450 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8050 9900 50  0001 C CNN
@@ -3931,10 +1491,10 @@ Wire Wire Line
 Wire Wire Line
 	8550 8250 8350 7800
 $Comp
-L Transistor_Array:ULN2803A U5
+L Transistor_Array:ULN2803A U?
 U 1 1 CC7AB89B
 P 7950 8300
-F 0 "U5" V 7850 8200 50  0000 L CNN
+F 0 "U?" V 7850 8200 50  0000 L CNN
 F 1 "ULN2803A" V 8000 8000 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 8000 7650 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8050 8100 50  0001 C CNN
@@ -4267,17 +1827,17 @@ C7
 Text Label 6100 8650 2    50   ~ 0
 C5
 $Comp
-L BoatControl:SS73100-047F J2
+L BoatControl:SS73100-047F J?
 U 1 1 A8523A49
-P 6000 7750
-F 0 "J2" H 7300 3650 50  0000 L CNN
-F 1 "SS73100-047F" H 6350 7350 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 6150 7450 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 6350 7300 50  0001 L BNN
-F 4 "Stewart Connector" H 6200 7100 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 6000 7750 50  0001 C CNN "Dimensions"
-	1    6000 7750
-	-1   0    0    1   
+P 14250 3800
+F 0 "J?" H 14850 -250 50  0000 L CNN
+F 1 "SS73100-047F" H 14650 -350 50  0000 L CNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 14400 3500 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 14600 3350 50  0001 L BNN
+F 4 "Stewart Connector" H 14450 3150 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 14250 3800 50  0001 C CNN "Dimensions"
+	1    14250 3800
+	1    0    0    -1  
 $EndComp
 Text Label 6100 8850 2    50   ~ 0
 C3
@@ -4353,6 +1913,633 @@ Text Label 4650 8850 2    50   ~ 0
 RPiBCM2_SDA
 Text Label 4650 10850 2    50   ~ 0
 RPi3.3V
+$Comp
+L BoatControl:SS73100-047F J?
+U 1 1 5FA709FC
+P 19900 6400
+F 0 "J?" H 20500 2350 50  0000 L CNN
+F 1 "SS73100-047F" H 20250 2250 50  0000 L CNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 20050 6100 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 20250 5950 50  0001 L BNN
+F 4 "Stewart Connector" H 20100 5750 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 19900 6400 50  0001 C CNN "Dimensions"
+	1    19900 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 14150 700  0    50   Input ~ 0
+12V_DC_C1_ON
+Text GLabel 14150 900  0    50   Input ~ 0
+12V_DC_C1_OFF
+Text GLabel 14150 1100 0    50   Input ~ 0
+12V_DC_C2_ON
+Text GLabel 14150 1300 0    50   Input ~ 0
+12V_DC_C2_OFF
+Text GLabel 14150 1600 0    50   Input ~ 0
+12V_DC_C3_ON
+Text GLabel 14150 1800 0    50   Input ~ 0
+12V_DC_C3_OFF
+Text GLabel 14150 2000 0    50   Input ~ 0
+12V_DC_C4_ON
+Text GLabel 14150 2200 0    50   Input ~ 0
+12V_DC_C4_OFF
+Text GLabel 14150 2500 0    50   Input ~ 0
+12V_DC_C5_ON
+Text GLabel 14150 2700 0    50   Input ~ 0
+12V_DC_C5_OFF
+Text GLabel 14150 2900 0    50   Input ~ 0
+12V_DC_C6_ON
+Text GLabel 14150 3100 0    50   Input ~ 0
+12V_DC_C6_OFF
+Text GLabel 14150 3400 0    50   Input ~ 0
+12V_DC_C7_ON
+Text GLabel 14150 3600 0    50   Input ~ 0
+12V_DC_C7_OFF
+Text GLabel 14150 3800 0    50   Input ~ 0
+12V_DC_C8_ON
+Text GLabel 14150 4000 0    50   Input ~ 0
+12V_DC_C8_OFF
+Text GLabel 14150 4300 0    50   Input ~ 0
+12V_DC_C9_ON
+Text GLabel 14150 4500 0    50   Input ~ 0
+12V_DC_C9_OFF
+Text GLabel 14150 4700 0    50   Input ~ 0
+12V_DC_C10_ON
+Text GLabel 14150 4900 0    50   Input ~ 0
+12V_DC_C10_OFF
+Text GLabel 14150 5200 0    50   Input ~ 0
+12V_DC_C11_ON
+Text GLabel 14150 5400 0    50   Input ~ 0
+12V_DC_C11_OFF
+Text GLabel 14150 5600 0    50   Input ~ 0
+12V_DC_C12_ON
+Text GLabel 14150 5800 0    50   Input ~ 0
+12V_DC_C12_OFF
+Text GLabel 14150 6100 0    50   Input ~ 0
+12V_DC_C13_ON
+Text GLabel 14150 6300 0    50   Input ~ 0
+12V_DC_C13_OFF
+Text GLabel 14150 6500 0    50   Input ~ 0
+12V_DC_C14_ON
+Text GLabel 14150 6700 0    50   Input ~ 0
+12V_DC_C14_OFF
+Text GLabel 14150 7000 0    50   Input ~ 0
+12V_DC_C15_ON
+Text GLabel 14150 7200 0    50   Input ~ 0
+12V_DC_C15_OFF
+Text GLabel 14150 7400 0    50   Input ~ 0
+12V_DC_C16_ON
+Text GLabel 14150 7600 0    50   Input ~ 0
+12V_DC_C16_OFF
+Text GLabel 15600 700  2    50   Input ~ 0
+12V_DC_C17_ON
+Text GLabel 15600 900  2    50   Input ~ 0
+12V_DC_C17_OFF
+Text GLabel 15600 1100 2    50   Input ~ 0
+12V_DC_C18_ON
+Text GLabel 15600 1300 2    50   Input ~ 0
+12V_DC_C18_OFF
+Text GLabel 15600 1600 2    50   Input ~ 0
+12V_DC_C19_ON
+Text GLabel 15600 1800 2    50   Input ~ 0
+12V_DC_C19_OFF
+Text GLabel 15600 2000 2    50   Input ~ 0
+12V_DC_C20_ON
+Text GLabel 15600 2200 2    50   Input ~ 0
+12V_DC_C20_OFF
+Text GLabel 15600 2500 2    50   Input ~ 0
+12V_DC_C21_ON
+Text GLabel 15600 2700 2    50   Input ~ 0
+12V_DC_C21_OFF
+Text GLabel 15600 2900 2    50   Input ~ 0
+12V_DC_C22_ON
+Text GLabel 15600 3100 2    50   Input ~ 0
+12V_DC_C22_OFF
+Text GLabel 15600 3400 2    50   Input ~ 0
+12V_DC_C23_ON
+Text GLabel 15600 3600 2    50   Input ~ 0
+12V_DC_C23_OFF
+Text GLabel 15600 3800 2    50   Input ~ 0
+12V_DC_C24_ON
+Text GLabel 15600 4000 2    50   Input ~ 0
+12V_DC_C24_OFF
+Text GLabel 15600 4300 2    50   Input ~ 0
+230V_AC_C1_ON
+Text GLabel 15600 4500 2    50   Input ~ 0
+230V_AC_C1_OFF
+Text GLabel 15600 5200 2    50   Input ~ 0
+230V_AC_C3_ON
+Text GLabel 15600 5400 2    50   Input ~ 0
+230V_AC_C3_OFF
+Text GLabel 15600 6100 2    50   Input ~ 0
+230V_AC_C5_ON
+Text GLabel 15600 6300 2    50   Input ~ 0
+230V_AC_C5_OFF
+Text GLabel 15600 5600 2    50   Input ~ 0
+230V_AC_C4_ON
+Text GLabel 15600 5800 2    50   Input ~ 0
+230V_AC_C4_OFF
+Text GLabel 15600 4700 2    50   Input ~ 0
+230V_AC_C2_ON
+Text GLabel 15600 4900 2    50   Input ~ 0
+230V_AC_C2_OFF
+Text GLabel 15600 6500 2    50   Input ~ 0
+230V_AC_C6_ON
+Text GLabel 15600 6700 2    50   Input ~ 0
+230V_AC_C6_OFF
+Text GLabel 15600 7000 2    50   Input ~ 0
+230V_AC_C7_ON
+Text GLabel 15600 7200 2    50   Input ~ 0
+230V_AC_C7_OFF
+Text GLabel 15600 7400 2    50   Input ~ 0
+230V_AC_C8_ON
+Text GLabel 15600 7600 2    50   Input ~ 0
+230V_AC_C8_OFF
+Wire Wire Line
+	14250 7700 14900 7700
+Wire Wire Line
+	14150 7500 14900 7500
+Wire Wire Line
+	14200 7300 14900 7300
+Wire Wire Line
+	14150 7100 14900 7100
+Wire Wire Line
+	14150 6800 14900 6800
+Wire Wire Line
+	14150 6600 14900 6600
+Wire Wire Line
+	14150 6400 14900 6400
+Wire Wire Line
+	14250 6200 14900 6200
+Wire Wire Line
+	14200 5900 14900 5900
+Wire Wire Line
+	14150 5700 14900 5700
+Wire Wire Line
+	14150 5500 14900 5500
+Wire Wire Line
+	14150 5300 14900 5300
+Wire Wire Line
+	14150 5000 14900 5000
+Wire Wire Line
+	14150 4800 14900 4800
+Wire Wire Line
+	14150 4600 14900 4600
+Wire Wire Line
+	14150 4400 14900 4400
+Wire Wire Line
+	14150 4100 14900 4100
+Wire Wire Line
+	14150 3900 14900 3900
+Wire Wire Line
+	14150 3700 14900 3700
+Wire Wire Line
+	14150 3500 14900 3500
+Wire Wire Line
+	14150 3200 14900 3200
+Wire Wire Line
+	14250 3000 14900 3000
+Wire Wire Line
+	14150 2800 14900 2800
+Wire Wire Line
+	14150 2600 14900 2600
+Wire Wire Line
+	14150 2300 14900 2300
+Wire Wire Line
+	14150 2100 14900 2100
+Wire Wire Line
+	14150 1900 14900 1900
+Wire Wire Line
+	14150 1700 14900 1700
+Wire Wire Line
+	14150 1400 14900 1400
+Wire Wire Line
+	14150 1200 14900 1200
+Wire Wire Line
+	14150 1000 14900 1000
+Wire Wire Line
+	14150 800  14900 800 
+Connection ~ 14900 800 
+Wire Wire Line
+	14900 800  15600 800 
+Connection ~ 14900 7700
+Wire Wire Line
+	14900 7700 15600 7700
+Connection ~ 14900 7500
+Wire Wire Line
+	14900 7500 15600 7500
+Wire Wire Line
+	14900 7500 14900 7700
+Connection ~ 14900 7300
+Wire Wire Line
+	14900 7300 15600 7300
+Wire Wire Line
+	14900 7300 14900 7500
+Connection ~ 14900 7100
+Wire Wire Line
+	14900 7100 15600 7100
+Wire Wire Line
+	14900 7100 14900 7300
+Connection ~ 14900 6800
+Wire Wire Line
+	14900 6800 15600 6800
+Wire Wire Line
+	14900 6800 14900 7100
+Connection ~ 14900 6600
+Wire Wire Line
+	14900 6600 15600 6600
+Wire Wire Line
+	14900 6600 14900 6800
+Connection ~ 14900 6400
+Wire Wire Line
+	14900 6400 15600 6400
+Wire Wire Line
+	14900 6400 14900 6600
+Connection ~ 14900 6200
+Wire Wire Line
+	14900 6200 15600 6200
+Wire Wire Line
+	14900 6200 14900 6400
+Connection ~ 14900 5900
+Wire Wire Line
+	14900 5900 15600 5900
+Wire Wire Line
+	14900 5900 14900 6200
+Connection ~ 14900 5700
+Wire Wire Line
+	14900 5700 15600 5700
+Wire Wire Line
+	14900 5700 14900 5900
+Connection ~ 14900 5500
+Wire Wire Line
+	14900 5500 15600 5500
+Wire Wire Line
+	14900 5500 14900 5700
+Connection ~ 14900 5300
+Wire Wire Line
+	14900 5300 15600 5300
+Wire Wire Line
+	14900 5300 14900 5500
+Connection ~ 14900 5000
+Wire Wire Line
+	14900 5000 15600 5000
+Wire Wire Line
+	14900 5000 14900 5300
+Connection ~ 14900 4800
+Wire Wire Line
+	14900 4800 15600 4800
+Wire Wire Line
+	14900 4800 14900 5000
+Connection ~ 14900 4600
+Wire Wire Line
+	14900 4600 15600 4600
+Wire Wire Line
+	14900 4600 14900 4800
+Connection ~ 14900 4400
+Wire Wire Line
+	14900 4400 15600 4400
+Wire Wire Line
+	14900 4400 14900 4600
+Connection ~ 14900 4100
+Wire Wire Line
+	14900 4100 15600 4100
+Wire Wire Line
+	14900 4100 14900 4400
+Connection ~ 14900 3900
+Wire Wire Line
+	14900 3900 15600 3900
+Wire Wire Line
+	14900 3900 14900 4100
+Connection ~ 14900 3700
+Wire Wire Line
+	14900 3700 15600 3700
+Wire Wire Line
+	14900 3700 14900 3900
+Connection ~ 14900 3500
+Wire Wire Line
+	14900 3500 15600 3500
+Wire Wire Line
+	14900 3500 14900 3700
+Connection ~ 14900 3200
+Wire Wire Line
+	14900 3200 15600 3200
+Wire Wire Line
+	14900 3200 14900 3500
+Connection ~ 14900 3000
+Wire Wire Line
+	14900 3000 15600 3000
+Wire Wire Line
+	14900 3000 14900 3200
+Connection ~ 14900 2800
+Wire Wire Line
+	14900 2800 15600 2800
+Wire Wire Line
+	14900 2800 14900 3000
+Connection ~ 14900 2600
+Wire Wire Line
+	14900 2600 15600 2600
+Wire Wire Line
+	14900 2600 14900 2800
+Connection ~ 14900 2300
+Wire Wire Line
+	14900 2300 15600 2300
+Wire Wire Line
+	14900 2300 14900 2600
+Connection ~ 14900 2100
+Wire Wire Line
+	14900 2100 15600 2100
+Wire Wire Line
+	14900 2100 14900 2300
+Connection ~ 14900 1900
+Wire Wire Line
+	14900 1900 15600 1900
+Wire Wire Line
+	14900 1900 14900 2100
+Connection ~ 14900 1700
+Wire Wire Line
+	14900 1700 15600 1700
+Wire Wire Line
+	14900 1700 14900 1900
+Connection ~ 14900 1400
+Wire Wire Line
+	14900 1400 15600 1400
+Wire Wire Line
+	14900 1400 14900 1700
+Wire Wire Line
+	14900 800  14900 1000
+Connection ~ 14900 1200
+Wire Wire Line
+	14900 1200 15600 1200
+Wire Wire Line
+	14900 1200 14900 1400
+Connection ~ 14900 1000
+Wire Wire Line
+	14900 1000 15600 1000
+Wire Wire Line
+	14900 1000 14900 1200
+$Comp
+L power:GND #PWR?
+U 1 1 612D9AE2
+P 14900 800
+F 0 "#PWR?" H 14900 550 50  0001 C CNN
+F 1 "GND" H 14905 627 50  0000 C CNN
+F 2 "" H 14900 800 50  0001 C CNN
+F 3 "" H 14900 800 50  0001 C CNN
+	1    14900 800 
+	-1   0    0    1   
+$EndComp
+Text Notes 2250 700  2    50   ~ 0
+12V & 5V DC-DC Power Supplies
+Wire Notes Line
+	550  3250 6800 3250
+Wire Notes Line
+	6800 3250 6800 550 
+Wire Notes Line
+	6800 550  550  550 
+Wire Notes Line
+	550  550  550  3250
+Wire Wire Line
+	9950 9850 10250 9850
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6150D0FB
+P 10250 10000
+AR Path="/6150D0FB" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6150D0FB" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6150D0FB" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10250 10100 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 10100 10450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10250 10000 50  0001 C CNN
+F 3 "~" H 10250 10000 50  0001 C CNN
+	1    10250 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6150D101
+P 10800 9900
+AR Path="/6150D101" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6150D101" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6150D101" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10800 10000 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 10650 10350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10800 9900 50  0001 C CNN
+F 3 "~" H 10800 9900 50  0001 C CNN
+	1    10800 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6150D107
+P 11300 9800
+AR Path="/6150D107" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6150D107" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6150D107" Ref="JP?"  Part="1" 
+F 0 "JP?" H 11300 9900 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 11150 10250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 11300 9800 50  0001 C CNN
+F 3 "~" H 11300 9800 50  0001 C CNN
+	1    11300 9800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10800 9750 9950 9750
+Wire Wire Line
+	11300 9650 9950 9650
+Wire Wire Line
+	10250 9850 10250 9150
+Connection ~ 10250 9850
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 6173A554
+P 10050 9150
+AR Path="/6173A554" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6173A554" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6173A554" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10050 9200 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 10100 9050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10050 9150 50  0001 C CNN
+F 3 "~" H 10050 9150 50  0001 C CNN
+	1    10050 9150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6173A55A
+P 10150 8950
+AR Path="/6173A55A" Ref="J?"  Part="1" 
+AR Path="/D16552B4/6173A55A" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/6173A55A" Ref="J?"  Part="1" 
+F 0 "J?" H 10150 8900 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10122 8973 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10150 8950 50  0001 C CNN
+F 3 "~" H 10150 8950 50  0001 C CNN
+	1    10150 8950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6173A560
+P 10150 8850
+AR Path="/6173A560" Ref="J?"  Part="1" 
+AR Path="/D16552B4/6173A560" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/6173A560" Ref="J?"  Part="1" 
+F 0 "J?" H 10150 8800 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10122 8873 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10150 8850 50  0001 C CNN
+F 3 "~" H 10150 8850 50  0001 C CNN
+	1    10150 8850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 9150 10250 9150
+Connection ~ 10250 9150
+Text GLabel 9950 8250 2    50   Input ~ 0
+SDA
+Text GLabel 9950 8350 2    50   Input ~ 0
+SCK
+Text GLabel 9950 4650 2    50   Input ~ 0
+SDA
+Text GLabel 9950 4750 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	9950 6250 10250 6250
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6190BF63
+P 10250 6400
+AR Path="/6190BF63" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6190BF63" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF63" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10250 6500 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 10100 6850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10250 6400 50  0001 C CNN
+F 3 "~" H 10250 6400 50  0001 C CNN
+	1    10250 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6190BF69
+P 10800 6300
+AR Path="/6190BF69" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6190BF69" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF69" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10800 6400 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 10650 6750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 10800 6300 50  0001 C CNN
+F 3 "~" H 10800 6300 50  0001 C CNN
+	1    10800 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 6190BF6F
+P 11300 6200
+AR Path="/6190BF6F" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/6190BF6F" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF6F" Ref="JP?"  Part="1" 
+F 0 "JP?" H 11300 6300 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 11150 6650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 11300 6200 50  0001 C CNN
+F 3 "~" H 11300 6200 50  0001 C CNN
+	1    11300 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10800 6150 9950 6150
+Wire Wire Line
+	11300 6050 9950 6050
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6190BF85
+P 10150 5350
+AR Path="/6190BF85" Ref="J?"  Part="1" 
+AR Path="/D16552B4/6190BF85" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF85" Ref="J?"  Part="1" 
+F 0 "J?" H 10150 5250 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10122 5373 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10150 5350 50  0001 C CNN
+F 3 "~" H 10150 5350 50  0001 C CNN
+	1    10150 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 6190BF8B
+P 10150 5250
+AR Path="/6190BF8B" Ref="J?"  Part="1" 
+AR Path="/D16552B4/6190BF8B" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF8B" Ref="J?"  Part="1" 
+F 0 "J?" H 10150 5200 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10122 5273 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10150 5250 50  0001 C CNN
+F 3 "~" H 10150 5250 50  0001 C CNN
+	1    10150 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 6550 10050 6550
+Connection ~ 9250 6550
+Wire Wire Line
+	9950 5550 10250 5550
+Wire Wire Line
+	10600 6300 10600 6550
+Wire Wire Line
+	11100 6200 11100 6550
+Wire Wire Line
+	10600 6550 11100 6550
+Connection ~ 10600 6550
+Wire Wire Line
+	10050 6400 10050 6550
+Connection ~ 10050 6550
+Wire Wire Line
+	10050 6550 10600 6550
+Wire Wire Line
+	9250 10150 10050 10150
+Connection ~ 9250 10150
+Wire Wire Line
+	10050 10150 10600 10150
+Connection ~ 10050 10150
+Wire Wire Line
+	10600 10150 11100 10150
+Connection ~ 10600 10150
+Wire Wire Line
+	11100 9800 11100 10150
+Wire Wire Line
+	10050 10000 10050 10150
+Wire Wire Line
+	10600 9900 10600 10150
+Wire Wire Line
+	9250 7950 10250 7950
+Connection ~ 9250 7950
+Wire Wire Line
+	10250 7950 10450 7950
+Connection ~ 10250 7950
+Wire Wire Line
+	10450 7950 11000 7950
+Connection ~ 10450 7950
+Wire Wire Line
+	11000 7950 11500 7950
+Connection ~ 11000 7950
+Wire Wire Line
+	11500 7950 11500 9800
+Wire Wire Line
+	11000 7950 11000 9900
+Wire Wire Line
+	10250 7950 10250 9150
+Wire Wire Line
+	10450 7950 10450 10000
+Wire Wire Line
+	9250 4350 10250 4350
+Connection ~ 9250 4350
+Wire Wire Line
+	10250 4350 10450 4350
+Connection ~ 10250 4350
+Wire Wire Line
+	10450 4350 11000 4350
+Connection ~ 10450 4350
+Wire Wire Line
+	11000 4350 11500 4350
 Wire Bus Line
 	1200 8100 3000 8100
 Wire Bus Line
@@ -4362,13 +2549,18 @@ Wire Bus Line
 Wire Bus Line
 	4550 3750 4550 7150
 Wire Bus Line
-	15500 1800 15500 9150
-Wire Bus Line
 	7450 3750 7450 10900
 Wire Bus Line
 	4550 7350 4550 10900
 Wire Bus Line
-	11650 1800 11650 9150
-Wire Bus Line
 	6000 3750 6000 10900
+Connection ~ 11000 4350
+Wire Wire Line
+	11500 4350 11500 6200
+Wire Wire Line
+	11000 4350 11000 6300
+Wire Wire Line
+	10450 4350 10450 6400
+Wire Wire Line
+	10250 4350 10250 5550
 $EndSCHEMATC
