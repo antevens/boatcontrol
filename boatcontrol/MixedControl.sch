@@ -95,9 +95,9 @@ AR Path="/D16552B4/E142CC74" Ref="JP?"  Part="1"
 AR Path="/D1BB8DB4/E142CC74" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC74" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/E142CC74" Ref="JP27"  Part="1" 
-F 0 "JP27" H 3000 4000 50  0000 C CNN
+F 0 "JP27" H 3000 4050 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 3050 3850 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3000 3950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 3950 50  0001 C CNN
 F 3 "~" H 3000 3950 50  0001 C CNN
 	1    3000 3950
 	-1   0    0    1   
@@ -111,7 +111,7 @@ AR Path="/D16552B4/E142CC7A" Ref="J?"  Part="1"
 AR Path="/D1BB8DB4/E142CC7A" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC7A" Ref="J?"  Part="1" 
 AR Path="/E171B33C/E142CC7A" Ref="J30"  Part="1" 
-F 0 "J30" H 2872 3682 50  0000 R CNN
+F 0 "J30" H 2950 3800 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 2872 3773 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 3750 50  0001 C CNN
 F 3 "~" H 2900 3750 50  0001 C CNN
@@ -177,7 +177,7 @@ AR Path="/D16552B4/E142CC93" Ref="J?"  Part="1"
 AR Path="/D1BB8DB4/E142CC93" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC93" Ref="J?"  Part="1" 
 AR Path="/E171B33C/E142CC93" Ref="J29"  Part="1" 
-F 0 "J29" H 2872 3582 50  0000 R CNN
+F 0 "J29" H 2950 3700 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 2872 3673 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 3650 50  0001 C CNN
 F 3 "~" H 2900 3650 50  0001 C CNN
@@ -636,4 +636,5 @@ Wire Wire Line
 Connection ~ 8550 4100
 Wire Wire Line
 	3250 3950 3100 3950
+Connection ~ 3050 4100
 $EndSCHEMATC

@@ -48,9 +48,9 @@ P 1900 6050
 AR Path="/D2B4FEF3" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/D2B4FEF3" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/D2B4FEF3" Ref="JP23"  Part="1" 
-F 0 "JP23" H 1900 6100 50  0000 C CNN
+F 0 "JP23" H 1900 6150 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1950 5950 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1900 6050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 6050 50  0001 C CNN
 F 3 "~" H 1900 6050 50  0001 C CNN
 	1    1900 6050
 	-1   0    0    1   
@@ -62,7 +62,7 @@ P 1950 5850
 AR Path="/D2B4FEF4" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D2B4FEF4" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/D2B4FEF4" Ref="J21"  Part="1" 
-F 0 "J21" H 1922 5782 50  0000 R CNN
+F 0 "J21" H 1950 5900 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 5873 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 5850 50  0001 C CNN
 F 3 "~" H 1950 5850 50  0001 C CNN
@@ -232,9 +232,9 @@ P 1950 5750
 AR Path="/D1AAA2C9" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D1AAA2C9" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA2C9" Ref="J20"  Part="1" 
-F 0 "J20" H 1922 5682 50  0000 R CNN
+F 0 "J20" H 1950 5800 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 5773 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_V" H 1950 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 5750 50  0001 C CNN
 F 3 "~" H 1950 5750 50  0001 C CNN
 	1    1950 5750
 	1    0    0    -1  
@@ -285,9 +285,9 @@ P 1900 1900
 AR Path="/D1AAA2E7" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/D1AAA2E7" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA2E7" Ref="JP22"  Part="1" 
-F 0 "JP22" H 1900 1950 50  0000 C CNN
+F 0 "JP22" H 1900 2000 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1950 1800 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1900 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1900 50  0001 C CNN
 F 3 "~" H 1900 1900 50  0001 C CNN
 	1    1900 1900
 	-1   0    0    1   
@@ -299,7 +299,7 @@ P 1950 1700
 AR Path="/D2B4FEFD" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D2B4FEFD" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/D2B4FEFD" Ref="J19"  Part="1" 
-F 0 "J19" H 1922 1632 50  0000 R CNN
+F 0 "J19" H 1950 1750 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 1723 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 1700 50  0001 C CNN
 F 3 "~" H 1950 1700 50  0001 C CNN
@@ -357,7 +357,7 @@ P 1950 1600
 AR Path="/D1AAA306" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D1AAA306" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA306" Ref="J18"  Part="1" 
-F 0 "J18" H 1922 1532 50  0000 R CNN
+F 0 "J18" H 1950 1650 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 1623 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 1600 50  0001 C CNN
 F 3 "~" H 1950 1600 50  0001 C CNN

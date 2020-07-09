@@ -1597,9 +1597,9 @@ P 10250 6200
 AR Path="/6173A554" Ref="JP1"  Part="1" 
 AR Path="/D16552B4/6173A554" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/6173A554" Ref="JP?"  Part="1" 
-F 0 "JP1" H 10250 6250 50  0000 C CNN
+F 0 "JP1" H 10250 6300 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 10300 6100 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10250 6200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10250 6200 50  0001 C CNN
 F 3 "~" H 10250 6200 50  0001 C CNN
 	1    10250 6200
 	1    0    0    1   
@@ -1611,7 +1611,7 @@ P 10350 6000
 AR Path="/6173A55A" Ref="J10"  Part="1" 
 AR Path="/D16552B4/6173A55A" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/6173A55A" Ref="J?"  Part="1" 
-F 0 "J10" H 10350 5950 50  0000 R CNN
+F 0 "J10" H 10400 6050 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 10322 6023 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 6000 50  0001 C CNN
 F 3 "~" H 10350 6000 50  0001 C CNN
@@ -1625,7 +1625,7 @@ P 10350 5900
 AR Path="/6173A560" Ref="J9"  Part="1" 
 AR Path="/D16552B4/6173A560" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/6173A560" Ref="J?"  Part="1" 
-F 0 "J9" H 10350 5850 50  0000 R CNN
+F 0 "J9" H 10400 5950 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 10322 5923 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 5900 50  0001 C CNN
 F 3 "~" H 10350 5900 50  0001 C CNN
@@ -1688,27 +1688,13 @@ Wire Wire Line
 Wire Wire Line
 	11500 3100 10150 3100
 $Comp
-L Connector:Conn_01x01_Male J8
-U 1 1 6190BF85
-P 10350 2400
-AR Path="/6190BF85" Ref="J8"  Part="1" 
-AR Path="/D16552B4/6190BF85" Ref="J?"  Part="1" 
-AR Path="/D1BB8DB4/6190BF85" Ref="J?"  Part="1" 
-F 0 "J8" H 10350 2300 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10322 2423 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 2400 50  0001 C CNN
-F 3 "~" H 10350 2400 50  0001 C CNN
-	1    10350 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x01_Male J7
 U 1 1 6190BF8B
 P 10350 2300
 AR Path="/6190BF8B" Ref="J7"  Part="1" 
 AR Path="/D16552B4/6190BF8B" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/6190BF8B" Ref="J?"  Part="1" 
-F 0 "J7" H 10350 2250 50  0000 R CNN
+F 0 "J7" H 10350 2350 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 10322 2323 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 2300 50  0001 C CNN
 F 3 "~" H 10350 2300 50  0001 C CNN
@@ -2453,4 +2439,18 @@ Wire Bus Line
 	2500 1450 2500 4250
 Wire Bus Line
 	5850 700  5850 4250
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 6190BF85
+P 10350 2400
+AR Path="/6190BF85" Ref="J8"  Part="1" 
+AR Path="/D16552B4/6190BF85" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/6190BF85" Ref="J?"  Part="1" 
+F 0 "J8" H 10350 2450 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 10322 2423 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 10350 2400 50  0001 C CNN
+F 3 "~" H 10350 2400 50  0001 C CNN
+	1    10350 2400
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
