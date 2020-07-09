@@ -18,9 +18,9 @@ L BoatControl:TB007-508-16BE J?
 U 1 1 D1AAA194
 P 7600 3900
 AR Path="/D1AAA194" Ref="J?"  Part="1" 
-AR Path="/D16552B4/D1AAA194" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA194" Ref="J16"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA194" Ref="J?"  Part="1" 
-F 0 "J?" V 7447 3070 50  0000 R CNN
+F 0 "J16" V 7447 3070 50  0000 R CNN
 F 1 "TBP01R2W-508-16BE" V 7700 4250 50  0000 R CNN
 F 2 "BoatControl:CUI_TBP01R2W-508-16BE" H 7600 3900 50  0001 L BNN
 F 3 "Manufacturer Recommendations" H 7600 3900 50  0001 L BNN
@@ -49,9 +49,9 @@ L power:+12C #PWR?
 U 1 1 D1AAA2AE
 P 7450 6000
 AR Path="/D1AAA2AE" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA2AE" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA2AE" Ref="#PWR027"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA2AE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7450 5850 50  0001 C CNN
+F 0 "#PWR027" H 7450 5850 50  0001 C CNN
 F 1 "+12C" H 7400 6150 50  0000 L CNN
 F 2 "" H 7450 6000 50  0001 C CNN
 F 3 "" H 7450 6000 50  0001 C CNN
@@ -70,15 +70,14 @@ Wire Wire Line
 	7200 4300 7050 4300
 Wire Wire Line
 	7200 4400 7100 4400
-NoConn ~ 7700 5900
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D1AAA18D
 P 8100 5900
 AR Path="/D1AAA18D" Ref="J?"  Part="1" 
-AR Path="/D16552B4/D1AAA18D" Ref="J?"  Part="1" 
+AR Path="/D16552B4/D1AAA18D" Ref="J17"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1" 
-F 0 "J?" H 8250 5950 50  0000 R CNN
+F 0 "J17" H 8250 5950 50  0000 R CNN
 F 1 "TBL008V-1000-02BE" H 8450 5750 50  0000 R CNN
 F 2 "CUI_TBL008V-1000-02BE" H 8100 5900 50  0001 L BNN
 F 3 "CUI" H 8100 5900 50  0001 L BNN
@@ -91,9 +90,9 @@ L Interface_Expansion:MCP23017_SO U?
 U 1 1 5FA17DDF
 P 2850 6000
 AR Path="/5FA17DDF" Ref="U?"  Part="1" 
-AR Path="/D16552B4/5FA17DDF" Ref="U?"  Part="1" 
+AR Path="/D16552B4/5FA17DDF" Ref="U10"  Part="1" 
 AR Path="/D1BB8DB4/5FA17DDF" Ref="U?"  Part="1" 
-F 0 "U?" V 2750 6000 50  0000 L CNN
+F 0 "U10" V 2750 6000 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 2850 5750 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3050 5000 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3050 4900 50  0001 L CNN
@@ -105,9 +104,9 @@ L Interface_Expansion:MCP23017_SO U?
 U 1 1 5FA17DE5
 P 2850 1850
 AR Path="/5FA17DE5" Ref="U?"  Part="1" 
-AR Path="/D16552B4/5FA17DE5" Ref="U?"  Part="1" 
+AR Path="/D16552B4/5FA17DE5" Ref="U9"  Part="1" 
 AR Path="/D1BB8DB4/5FA17DE5" Ref="U?"  Part="1" 
-F 0 "U?" V 2900 1750 50  0000 L CNN
+F 0 "U9" V 2900 1750 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 2800 1550 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 3050 850 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3050 750 50  0001 L CNN
@@ -119,9 +118,9 @@ L Device:Jumper_NO_Small JP?
 U 1 1 5FA17DEB
 P 1900 6100
 AR Path="/5FA17DEB" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17DEB" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17DEB" Ref="JP15"  Part="1" 
 AR Path="/D1BB8DB4/5FA17DEB" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1900 6150 50  0000 C CNN
+F 0 "JP15" H 1900 6150 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1950 6000 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1900 6100 50  0001 C CNN
 F 3 "~" H 1900 6100 50  0001 C CNN
@@ -133,9 +132,9 @@ L Connector:Conn_01x01_Male J?
 U 1 1 5FA17DF1
 P 1950 5900
 AR Path="/5FA17DF1" Ref="J?"  Part="1" 
-AR Path="/D16552B4/5FA17DF1" Ref="J?"  Part="1" 
+AR Path="/D16552B4/5FA17DF1" Ref="J15"  Part="1" 
 AR Path="/D1BB8DB4/5FA17DF1" Ref="J?"  Part="1" 
-F 0 "J?" H 1922 5832 50  0000 R CNN
+F 0 "J15" H 1922 5832 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 5923 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 5900 50  0001 C CNN
 F 3 "~" H 1950 5900 50  0001 C CNN
@@ -261,9 +260,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E30
 P 1850 6450
 AR Path="/5FA17E30" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E30" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E30" Ref="JP13"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E30" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1850 6550 50  0000 C CNN
+F 0 "JP13" H 1850 6550 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 1700 6900 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 6450 50  0001 C CNN
 F 3 "~" H 1850 6450 50  0001 C CNN
@@ -275,9 +274,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E36
 P 1300 6550
 AR Path="/5FA17E36" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E36" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E36" Ref="JP11"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E36" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1300 6650 50  0000 C CNN
+F 0 "JP11" H 1300 6650 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 1150 7000 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1300 6550 50  0001 C CNN
 F 3 "~" H 1300 6550 50  0001 C CNN
@@ -289,9 +288,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E3C
 P 800 6650
 AR Path="/5FA17E3C" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E3C" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E3C" Ref="JP9"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E3C" Ref="JP?"  Part="1" 
-F 0 "JP?" H 800 6750 50  0000 C CNN
+F 0 "JP9" H 800 6750 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 650 7100 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 800 6650 50  0001 C CNN
 F 3 "~" H 800 6650 50  0001 C CNN
@@ -303,9 +302,9 @@ L Connector:Conn_01x01_Male J?
 U 1 1 5FA17E42
 P 1950 5800
 AR Path="/5FA17E42" Ref="J?"  Part="1" 
-AR Path="/D16552B4/5FA17E42" Ref="J?"  Part="1" 
+AR Path="/D16552B4/5FA17E42" Ref="J14"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E42" Ref="J?"  Part="1" 
-F 0 "J?" H 1922 5732 50  0000 R CNN
+F 0 "J14" H 1922 5732 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 5823 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_V" H 1950 5800 50  0001 C CNN
 F 3 "~" H 1950 5800 50  0001 C CNN
@@ -356,9 +355,9 @@ L Device:Jumper_NO_Small JP?
 U 1 1 5FA17E60
 P 1900 1950
 AR Path="/5FA17E60" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E60" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E60" Ref="JP14"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E60" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1900 2000 50  0000 C CNN
+F 0 "JP14" H 1900 2000 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1950 1850 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1900 1950 50  0001 C CNN
 F 3 "~" H 1900 1950 50  0001 C CNN
@@ -370,9 +369,9 @@ L Connector:Conn_01x01_Male J?
 U 1 1 5FA17E66
 P 1950 1750
 AR Path="/5FA17E66" Ref="J?"  Part="1" 
-AR Path="/D16552B4/5FA17E66" Ref="J?"  Part="1" 
+AR Path="/D16552B4/5FA17E66" Ref="J13"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E66" Ref="J?"  Part="1" 
-F 0 "J?" H 1922 1682 50  0000 R CNN
+F 0 "J13" H 1922 1682 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 1773 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 1750 50  0001 C CNN
 F 3 "~" H 1950 1750 50  0001 C CNN
@@ -386,9 +385,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E6D
 P 1850 2300
 AR Path="/5FA17E6D" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E6D" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E6D" Ref="JP12"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E6D" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1850 2400 50  0000 C CNN
+F 0 "JP12" H 1850 2400 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 1700 2750 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 2300 50  0001 C CNN
 F 3 "~" H 1850 2300 50  0001 C CNN
@@ -400,9 +399,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E73
 P 1300 2400
 AR Path="/5FA17E73" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E73" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E73" Ref="JP10"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E73" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1300 2500 50  0000 C CNN
+F 0 "JP10" H 1300 2500 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 1150 2850 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1300 2400 50  0001 C CNN
 F 3 "~" H 1300 2400 50  0001 C CNN
@@ -414,9 +413,9 @@ L Jumper:SolderJumper_3_Open JP?
 U 1 1 5FA17E79
 P 800 2500
 AR Path="/5FA17E79" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/5FA17E79" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FA17E79" Ref="JP8"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E79" Ref="JP?"  Part="1" 
-F 0 "JP?" H 800 2600 50  0000 C CNN
+F 0 "JP8" H 800 2600 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 650 2950 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 800 2500 50  0001 C CNN
 F 3 "~" H 800 2500 50  0001 C CNN
@@ -428,9 +427,9 @@ L Connector:Conn_01x01_Male J?
 U 1 1 5FA17E7F
 P 1950 1650
 AR Path="/5FA17E7F" Ref="J?"  Part="1" 
-AR Path="/D16552B4/5FA17E7F" Ref="J?"  Part="1" 
+AR Path="/D16552B4/5FA17E7F" Ref="J12"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E7F" Ref="J?"  Part="1" 
-F 0 "J?" H 1922 1582 50  0000 R CNN
+F 0 "J12" H 1922 1582 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 1922 1673 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1950 1650 50  0001 C CNN
 F 3 "~" H 1950 1650 50  0001 C CNN
@@ -479,9 +478,9 @@ L power:+5V #PWR?
 U 1 1 5FA17E9C
 P 2850 4900
 AR Path="/5FA17E9C" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17E9C" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17E9C" Ref="#PWR025"  Part="1" 
 AR Path="/D1BB8DB4/5FA17E9C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2850 4750 50  0001 C CNN
+F 0 "#PWR025" H 2850 4750 50  0001 C CNN
 F 1 "+5V" H 3000 4950 50  0000 C CNN
 F 2 "" H 2850 4900 50  0001 C CNN
 F 3 "" H 2850 4900 50  0001 C CNN
@@ -495,9 +494,9 @@ L power:GND #PWR?
 U 1 1 5FA17EA4
 P 2850 2950
 AR Path="/5FA17EA4" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17EA4" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17EA4" Ref="#PWR024"  Part="1" 
 AR Path="/D1BB8DB4/5FA17EA4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2850 2700 50  0001 C CNN
+F 0 "#PWR024" H 2850 2700 50  0001 C CNN
 F 1 "GND" H 3000 2900 50  0000 C CNN
 F 2 "" H 2850 2950 50  0001 C CNN
 F 3 "" H 2850 2950 50  0001 C CNN
@@ -510,9 +509,9 @@ L power:GND #PWR?
 U 1 1 5FA17EAB
 P 2850 7100
 AR Path="/5FA17EAB" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17EAB" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17EAB" Ref="#PWR026"  Part="1" 
 AR Path="/D1BB8DB4/5FA17EAB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2850 6850 50  0001 C CNN
+F 0 "#PWR026" H 2850 6850 50  0001 C CNN
 F 1 "GND" H 3050 7050 50  0000 C CNN
 F 2 "" H 2850 7100 50  0001 C CNN
 F 3 "" H 2850 7100 50  0001 C CNN
@@ -524,9 +523,9 @@ L power:+5V #PWR?
 U 1 1 5FA17EB1
 P 2850 750
 AR Path="/5FA17EB1" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17EB1" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17EB1" Ref="#PWR023"  Part="1" 
 AR Path="/D1BB8DB4/5FA17EB1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2850 600 50  0001 C CNN
+F 0 "#PWR023" H 2850 600 50  0001 C CNN
 F 1 "+5V" H 3000 800 50  0000 C CNN
 F 2 "" H 2850 750 50  0001 C CNN
 F 3 "" H 2850 750 50  0001 C CNN
@@ -948,4 +947,16 @@ Text GLabel 2150 5200 0    50   Input ~ 0
 SDA
 Text GLabel 2150 5300 0    50   Input ~ 0
 SCK
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5F1AB3C0
+P 7700 6000
+F 0 "#FLG04" H 7700 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 7700 6173 50  0000 C CNN
+F 2 "" H 7700 6000 50  0001 C CNN
+F 3 "~" H 7700 6000 50  0001 C CNN
+	1    7700 6000
+	-1   0    0    1   
+$EndComp
+Connection ~ 7700 6000
 $EndSCHEMATC

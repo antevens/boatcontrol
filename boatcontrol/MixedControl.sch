@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 45 55
+Sheet 24 55
 Title ""
 Date ""
 Rev ""
@@ -21,8 +21,8 @@ AR Path="/E142CB7C" Ref="U?"  Part="1"
 AR Path="/D16552B4/E142CB7C" Ref="U?"  Part="1" 
 AR Path="/D1BB8DB4/E142CB7C" Ref="U?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CB7C" Ref="U?"  Part="1" 
-AR Path="/E171B33C/E142CB7C" Ref="U?"  Part="1" 
-F 0 "U?" V 4000 3750 50  0000 L CNN
+AR Path="/E171B33C/E142CB7C" Ref="U21"  Part="1" 
+F 0 "U21" V 4000 3750 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 3900 3550 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 4150 2850 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4150 2750 50  0001 L CNN
@@ -94,8 +94,8 @@ AR Path="/E142CC74" Ref="JP?"  Part="1"
 AR Path="/D16552B4/E142CC74" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC74" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC74" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC74" Ref="JP?"  Part="1" 
-F 0 "JP?" H 3000 4000 50  0000 C CNN
+AR Path="/E171B33C/E142CC74" Ref="JP27"  Part="1" 
+F 0 "JP27" H 3000 4000 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 3050 3850 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3000 3950 50  0001 C CNN
 F 3 "~" H 3000 3950 50  0001 C CNN
@@ -110,8 +110,8 @@ AR Path="/E142CC7A" Ref="J?"  Part="1"
 AR Path="/D16552B4/E142CC7A" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC7A" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC7A" Ref="J?"  Part="1" 
-AR Path="/E171B33C/E142CC7A" Ref="J?"  Part="1" 
-F 0 "J?" H 2872 3682 50  0000 R CNN
+AR Path="/E171B33C/E142CC7A" Ref="J30"  Part="1" 
+F 0 "J30" H 2872 3682 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 2872 3773 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 3750 50  0001 C CNN
 F 3 "~" H 2900 3750 50  0001 C CNN
@@ -128,8 +128,8 @@ AR Path="/E142CC81" Ref="JP?"  Part="1"
 AR Path="/D16552B4/E142CC81" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC81" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC81" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC81" Ref="JP?"  Part="1" 
-F 0 "JP?" H 2950 4400 50  0000 C CNN
+AR Path="/E171B33C/E142CC81" Ref="JP26"  Part="1" 
+F 0 "JP26" H 2950 4400 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 2800 4750 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2950 4300 50  0001 C CNN
 F 3 "~" H 2950 4300 50  0001 C CNN
@@ -144,8 +144,8 @@ AR Path="/E142CC87" Ref="JP?"  Part="1"
 AR Path="/D16552B4/E142CC87" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC87" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC87" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC87" Ref="JP?"  Part="1" 
-F 0 "JP?" H 2400 4500 50  0000 C CNN
+AR Path="/E171B33C/E142CC87" Ref="JP25"  Part="1" 
+F 0 "JP25" H 2400 4500 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 2250 4850 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2400 4400 50  0001 C CNN
 F 3 "~" H 2400 4400 50  0001 C CNN
@@ -160,8 +160,8 @@ AR Path="/E142CC8D" Ref="JP?"  Part="1"
 AR Path="/D16552B4/E142CC8D" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC8D" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC8D" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC8D" Ref="JP?"  Part="1" 
-F 0 "JP?" H 1900 4600 50  0000 C CNN
+AR Path="/E171B33C/E142CC8D" Ref="JP24"  Part="1" 
+F 0 "JP24" H 1900 4600 50  0000 C CNN
 F 1 "SolderJumper_3_Open" V 1750 4950 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1900 4500 50  0001 C CNN
 F 3 "~" H 1900 4500 50  0001 C CNN
@@ -176,8 +176,8 @@ AR Path="/E142CC93" Ref="J?"  Part="1"
 AR Path="/D16552B4/E142CC93" Ref="J?"  Part="1" 
 AR Path="/D1BB8DB4/E142CC93" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CC93" Ref="J?"  Part="1" 
-AR Path="/E171B33C/E142CC93" Ref="J?"  Part="1" 
-F 0 "J?" H 2872 3582 50  0000 R CNN
+AR Path="/E171B33C/E142CC93" Ref="J29"  Part="1" 
+F 0 "J29" H 2872 3582 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 2872 3673 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 3650 50  0001 C CNN
 F 3 "~" H 2900 3650 50  0001 C CNN
@@ -234,8 +234,8 @@ AR Path="/E142CCB8" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/E142CCB8" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/E142CCB8" Ref="#PWR?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CCB8" Ref="#PWR?"  Part="1" 
-AR Path="/E171B33C/E142CCB8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3950 4700 50  0001 C CNN
+AR Path="/E171B33C/E142CCB8" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 3950 4700 50  0001 C CNN
 F 1 "GND" H 4100 4900 50  0000 C CNN
 F 2 "" H 3950 4950 50  0001 C CNN
 F 3 "" H 3950 4950 50  0001 C CNN
@@ -250,18 +250,14 @@ AR Path="/E142CCC5" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/E142CCC5" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/E142CCC5" Ref="#PWR?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E142CCC5" Ref="#PWR?"  Part="1" 
-AR Path="/E171B33C/E142CCC5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3950 2600 50  0001 C CNN
+AR Path="/E171B33C/E142CCC5" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 3950 2600 50  0001 C CNN
 F 1 "+5V" H 4100 2800 50  0000 C CNN
 F 2 "" H 3950 2750 50  0001 C CNN
 F 3 "" H 3950 2750 50  0001 C CNN
 	1    3950 2750
 	1    0    0    -1  
 $EndComp
-Text HLabel 3250 3050 0    50   Output ~ 0
-SDA
-Text HLabel 3250 3150 0    50   Output ~ 0
-SCK
 Connection ~ 3950 4950
 $Sheet
 S 6050 2300 1300 1050
@@ -314,8 +310,8 @@ P 9750 3650
 AR Path="/E15696A6" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E15696A6" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E15696A6" Ref="H?"  Part="1" 
-AR Path="/E171B33C/E15696A6" Ref="H?"  Part="1" 
-F 0 "H?" H 9700 3800 50  0000 L CNN
+AR Path="/E171B33C/E15696A6" Ref="H29"  Part="1" 
+F 0 "H29" H 9700 3800 50  0000 L CNN
 F 1 "MountingHole" V 9750 3750 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3mm" H 9750 3650 50  0001 C CNN
 F 3 "~" H 9750 3650 50  0001 C CNN
@@ -329,8 +325,8 @@ P 9750 4000
 AR Path="/E15696A0" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E15696A0" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E15696A0" Ref="H?"  Part="1" 
-AR Path="/E171B33C/E15696A0" Ref="H?"  Part="1" 
-F 0 "H?" H 9700 3850 50  0000 L CNN
+AR Path="/E171B33C/E15696A0" Ref="H30"  Part="1" 
+F 0 "H30" H 9700 3850 50  0000 L CNN
 F 1 "MountingHole" H 9850 3955 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3mm" H 9750 4000 50  0001 C CNN
 F 3 "~" H 9750 4000 50  0001 C CNN
@@ -344,8 +340,8 @@ P 8550 3800
 AR Path="/E156969A" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E156969A" Ref="J?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E156969A" Ref="J?"  Part="1" 
-AR Path="/E171B33C/E156969A" Ref="J?"  Part="1" 
-F 0 "J?" V 8600 4900 50  0000 R CNN
+AR Path="/E171B33C/E156969A" Ref="J31"  Part="1" 
+F 0 "J31" V 8600 4900 50  0000 R CNN
 F 1 "Conn_02x20_Odd_Even Socket" V 8600 4200 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8550 3800 50  0001 C CNN
 F 3 "~" H 8550 3800 50  0001 C CNN
@@ -359,8 +355,8 @@ P 7450 3650
 AR Path="/E15696AC" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E15696AC" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E15696AC" Ref="H?"  Part="1" 
-AR Path="/E171B33C/E15696AC" Ref="H?"  Part="1" 
-F 0 "H?" V 7600 3600 50  0000 L CNN
+AR Path="/E171B33C/E15696AC" Ref="H27"  Part="1" 
+F 0 "H27" V 7600 3600 50  0000 L CNN
 F 1 "MountingHole" H 7550 3605 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3mm" H 7450 3650 50  0001 C CNN
 F 3 "~" H 7450 3650 50  0001 C CNN
@@ -374,8 +370,8 @@ P 7450 4000
 AR Path="/E15696B2" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E15696B2" Ref="H?"  Part="1" 
 AR Path="/E0EE2714/E1383403/E15696B2" Ref="H?"  Part="1" 
-AR Path="/E171B33C/E15696B2" Ref="H?"  Part="1" 
-F 0 "H?" V 7300 3950 50  0000 L CNN
+AR Path="/E171B33C/E15696B2" Ref="H28"  Part="1" 
+F 0 "H28" V 7300 3950 50  0000 L CNN
 F 1 "MountingHole" H 7550 3955 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3mm" H 7450 4000 50  0001 C CNN
 F 3 "~" H 7450 4000 50  0001 C CNN
@@ -540,8 +536,8 @@ L power:GND #PWR?
 U 1 1 E16C27B4
 P 9650 3850
 AR Path="/E0EE2714/E1383403/E16C27B4" Ref="#PWR?"  Part="1" 
-AR Path="/E171B33C/E16C27B4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9650 3600 50  0001 C CNN
+AR Path="/E171B33C/E16C27B4" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 9650 3600 50  0001 C CNN
 F 1 "GND" V 9650 3750 50  0000 R CNN
 F 2 "" H 9650 3850 50  0001 C CNN
 F 3 "" H 9650 3850 50  0001 C CNN
@@ -631,4 +627,13 @@ Text GLabel 4900 5200 2    50   Input ~ 0
 IND_C8_ON
 Text GLabel 4850 5300 2    50   Input ~ 0
 IND_C8_OFF
+Text GLabel 3250 3050 0    50   Input ~ 0
+SDA
+Text GLabel 3250 3150 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	8550 4100 8450 4100
+Connection ~ 8550 4100
+Wire Wire Line
+	3250 3950 3100 3950
 $EndSCHEMATC
