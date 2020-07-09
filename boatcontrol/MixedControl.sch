@@ -121,54 +121,6 @@ $EndComp
 Wire Wire Line
 	3250 4450 2950 4450
 $Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 E142CC81
-P 2950 4300
-AR Path="/E142CC81" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/E142CC81" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/E142CC81" Ref="JP?"  Part="1" 
-AR Path="/E0EE2714/E1383403/E142CC81" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC81" Ref="JP18"  Part="1" 
-F 0 "JP18" H 2950 4400 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 2800 4750 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2950 4300 50  0001 C CNN
-F 3 "~" H 2950 4300 50  0001 C CNN
-	1    2950 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 E142CC87
-P 2400 4400
-AR Path="/E142CC87" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/E142CC87" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/E142CC87" Ref="JP?"  Part="1" 
-AR Path="/E0EE2714/E1383403/E142CC87" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC87" Ref="JP17"  Part="1" 
-F 0 "JP17" H 2400 4500 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 2250 4850 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2400 4400 50  0001 C CNN
-F 3 "~" H 2400 4400 50  0001 C CNN
-	1    2400 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 E142CC8D
-P 1900 4500
-AR Path="/E142CC8D" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/E142CC8D" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/E142CC8D" Ref="JP?"  Part="1" 
-AR Path="/E0EE2714/E1383403/E142CC8D" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/E142CC8D" Ref="JP16"  Part="1" 
-F 0 "JP16" H 1900 4600 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 1750 4950 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1900 4500 50  0001 C CNN
-F 3 "~" H 1900 4500 50  0001 C CNN
-	1    1900 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x01_Male J?
 U 1 1 E142CC93
 P 2900 3650
@@ -209,8 +161,6 @@ Wire Wire Line
 	2600 4400 2600 4950
 Wire Wire Line
 	2600 4950 3150 4950
-Wire Wire Line
-	1700 2750 1700 4500
 Wire Wire Line
 	2100 4500 2100 4950
 Wire Wire Line
@@ -636,5 +586,50 @@ Wire Wire Line
 Connection ~ 8550 4100
 Wire Wire Line
 	3250 3950 3100 3950
-Connection ~ 3050 4100
+Text Notes 3700 4050 3    50   ~ 0
+I2C Address 0x24
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F735A80
+P 2950 4300
+AR Path="/5F735A80" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F735A80" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/5F735A80" Ref="JP18"  Part="1" 
+F 0 "JP18" H 2950 4413 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 2950 4414 50  0001 C CNN
+F 2 "" H 2950 4300 50  0001 C CNN
+F 3 "~" H 2950 4300 50  0001 C CNN
+	1    2950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F735A8C
+P 1900 4500
+AR Path="/5F735A8C" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F735A8C" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/5F735A8C" Ref="JP16"  Part="1" 
+F 0 "JP16" H 1900 4613 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1900 4614 50  0001 C CNN
+F 2 "" H 1900 4500 50  0001 C CNN
+F 3 "~" H 1900 4500 50  0001 C CNN
+	1    1900 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F74DFEC
+P 2400 4400
+AR Path="/5F74DFEC" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F74DFEC" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/5F74DFEC" Ref="JP17"  Part="1" 
+F 0 "JP17" H 2400 4513 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 2400 4514 50  0001 C CNN
+F 2 "" H 2400 4400 50  0001 C CNN
+F 3 "~" H 2400 4400 50  0001 C CNN
+	1    2400 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2750 1700 4500
 $EndSCHEMATC

@@ -184,48 +184,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 6550 1850 6550
 $Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D2B4FEF8
-P 1850 6400
-AR Path="/D2B4FEF8" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D2B4FEF8" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D2B4FEF8" Ref="JP25"  Part="1" 
-F 0 "JP25" H 1850 6500 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 1700 6850 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 6400 50  0001 C CNN
-F 3 "~" H 1850 6400 50  0001 C CNN
-	1    1850 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D1AAA2BD
-P 1300 6500
-AR Path="/D1AAA2BD" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D1AAA2BD" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA2BD" Ref="JP23"  Part="1" 
-F 0 "JP23" H 1300 6600 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 1150 6950 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1300 6500 50  0001 C CNN
-F 3 "~" H 1300 6500 50  0001 C CNN
-	1    1300 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D1AAA2C3
-P 800 6600
-AR Path="/D1AAA2C3" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D1AAA2C3" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA2C3" Ref="JP21"  Part="1" 
-F 0 "JP21" H 800 6700 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 650 7050 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 800 6600 50  0001 C CNN
-F 3 "~" H 800 6600 50  0001 C CNN
-	1    800  6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x01_Male J?
 U 1 1 D1AAA2C9
 P 1950 5750
@@ -308,48 +266,6 @@ F 3 "~" H 1950 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2150 2400 1850 2400
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D1AAA2F4
-P 1850 2250
-AR Path="/D1AAA2F4" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D1AAA2F4" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA2F4" Ref="JP24"  Part="1" 
-F 0 "JP24" H 1850 2350 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 1700 2700 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 2250 50  0001 C CNN
-F 3 "~" H 1850 2250 50  0001 C CNN
-	1    1850 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D2B4FEFF
-P 1300 2350
-AR Path="/D2B4FEFF" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D2B4FEFF" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D2B4FEFF" Ref="JP22"  Part="1" 
-F 0 "JP22" H 1300 2450 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 1150 2800 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1300 2350 50  0001 C CNN
-F 3 "~" H 1300 2350 50  0001 C CNN
-	1    1300 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP?
-U 1 1 D1AAA300
-P 800 2450
-AR Path="/D1AAA300" Ref="JP?"  Part="1" 
-AR Path="/D16552B4/D1AAA300" Ref="JP?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA300" Ref="JP20"  Part="1" 
-F 0 "JP20" H 800 2550 50  0000 C CNN
-F 1 "SolderJumper_3_Open" V 650 2900 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 800 2450 50  0001 C CNN
-F 3 "~" H 800 2450 50  0001 C CNN
-	1    800  2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x01_Male J?
 U 1 1 D1AAA306
@@ -1005,5 +921,93 @@ F 3 "CUI" H 8200 5850 50  0001 L BNN
 F 4 "DC 12V Common Bank 1" H 8900 5900 50  0000 C CNN "Type"
 	1    8200 5850
 	1    0    0    1   
+$EndComp
+Text Notes 2650 6150 3    50   ~ 0
+I2C Address 0x23
+Text Notes 2600 2000 3    50   ~ 0
+I2C Address 0x22
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6B5DDA
+P 1300 2350
+AR Path="/5F6B5DDA" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6B5DDA" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6B5DDA" Ref="JP22"  Part="1" 
+F 0 "JP22" H 1300 2463 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1300 2464 50  0001 C CNN
+F 2 "" H 1300 2350 50  0001 C CNN
+F 3 "~" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6B5DE6
+P 800 2450
+AR Path="/5F6B5DE6" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6B5DE6" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6B5DE6" Ref="JP20"  Part="1" 
+F 0 "JP20" H 800 2563 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 800 2564 50  0001 C CNN
+F 2 "" H 800 2450 50  0001 C CNN
+F 3 "~" H 800 2450 50  0001 C CNN
+	1    800  2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6C92E8
+P 1850 2250
+AR Path="/5F6C92E8" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6C92E8" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6C92E8" Ref="JP24"  Part="1" 
+F 0 "JP24" H 1850 2363 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1850 2364 50  0001 C CNN
+F 2 "" H 1850 2250 50  0001 C CNN
+F 3 "~" H 1850 2250 50  0001 C CNN
+	1    1850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6ED611
+P 800 6600
+AR Path="/5F6ED611" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6ED611" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6ED611" Ref="JP21"  Part="1" 
+F 0 "JP21" H 800 6713 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 800 6714 50  0001 C CNN
+F 2 "" H 800 6600 50  0001 C CNN
+F 3 "~" H 800 6600 50  0001 C CNN
+	1    800  6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6F4B4B
+P 1300 6500
+AR Path="/5F6F4B4B" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6F4B4B" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6F4B4B" Ref="JP23"  Part="1" 
+F 0 "JP23" H 1300 6613 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1300 6614 50  0001 C CNN
+F 2 "" H 1300 6500 50  0001 C CNN
+F 3 "~" H 1300 6500 50  0001 C CNN
+	1    1300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5F6F5095
+P 1850 6400
+AR Path="/5F6F5095" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5F6F5095" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5F6F5095" Ref="JP25"  Part="1" 
+F 0 "JP25" H 1850 6513 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1850 6514 50  0001 C CNN
+F 2 "" H 1850 6400 50  0001 C CNN
+F 3 "~" H 1850 6400 50  0001 C CNN
+	1    1850 6400
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
