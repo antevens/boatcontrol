@@ -362,8 +362,6 @@ Connection ~ 1650 1950
 Wire Wire Line
 	1300 2550 2150 2550
 Wire Wire Line
-	800  2650 850  2650
-Wire Wire Line
 	1650 1950 1650 2300
 Wire Wire Line
 	1100 2400 1100 750 
@@ -880,84 +878,83 @@ I2C Address 0x20
 Text Notes 2600 6200 3    50   ~ 0
 I2C Address 0x21
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6915E1
 P 1850 2300
 AR Path="/5F6915E1" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6915E1" Ref="JP12"  Part="1" 
 F 0 "JP12" H 1850 2413 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1850 2414 50  0001 C CNN
-F 2 "" H 1850 2300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1850 2300 50  0001 C CNN
 F 3 "~" H 1850 2300 50  0001 C CNN
 	1    1850 2300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6A218F
 P 1300 2400
 AR Path="/5F6A218F" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6A218F" Ref="JP10"  Part="1" 
 F 0 "JP10" H 1300 2513 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1300 2514 50  0001 C CNN
-F 2 "" H 1300 2400 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1300 2400 50  0001 C CNN
 F 3 "~" H 1300 2400 50  0001 C CNN
 	1    1300 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6A292D
 P 800 2500
 AR Path="/5F6A292D" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6A292D" Ref="JP8"  Part="1" 
 F 0 "JP8" H 800 2613 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 800 2614 50  0001 C CNN
-F 2 "" H 800 2500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 800 2500 50  0001 C CNN
 F 3 "~" H 800 2500 50  0001 C CNN
 	1    800  2500
 	-1   0    0    -1  
 $EndComp
-Connection ~ 850  2650
-Wire Wire Line
-	850  2650 2150 2650
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6A5A05
 P 1850 6450
 AR Path="/5F6A5A05" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6A5A05" Ref="JP13"  Part="1" 
 F 0 "JP13" H 1850 6563 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1850 6564 50  0001 C CNN
-F 2 "" H 1850 6450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1850 6450 50  0001 C CNN
 F 3 "~" H 1850 6450 50  0001 C CNN
 	1    1850 6450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6AA0A1
 P 1300 6550
 AR Path="/5F6AA0A1" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6AA0A1" Ref="JP11"  Part="1" 
 F 0 "JP11" H 1300 6663 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 1300 6664 50  0001 C CNN
-F 2 "" H 1300 6550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1300 6550 50  0001 C CNN
 F 3 "~" H 1300 6550 50  0001 C CNN
 	1    1300 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP?
 U 1 1 5F6AA8E1
 P 800 6650
 AR Path="/5F6AA8E1" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/5F6AA8E1" Ref="JP9"  Part="1" 
 F 0 "JP9" H 800 6763 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 800 6764 50  0001 C CNN
-F 2 "" H 800 6650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 800 6650 50  0001 C CNN
 F 3 "~" H 800 6650 50  0001 C CNN
 	1    800  6650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	800  2650 2150 2650
 $EndSCHEMATC
