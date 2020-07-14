@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 55
+Sheet 23 55
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "2"
@@ -632,4 +632,10 @@ F 3 "~" H 2400 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 2750 1700 4500
+$Sheet
+S 5650 3750 1350 150 
+U 5F80BAC6
+F0 "Relay Board" 50
+F1 "RelayBoard.sch" 50
+$EndSheet
 $EndSCHEMATC

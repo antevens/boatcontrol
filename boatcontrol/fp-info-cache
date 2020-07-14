@@ -1,4 +1,4 @@
-17968785093432068
+17968791214107068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -385,7 +385,7 @@ switch DPDT footswitch
 6
 6
 BoatControl
-SchurterCurcuitBreaker
+Schurter_Circuit_Breaker
 
 
 0

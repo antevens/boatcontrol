@@ -616,13 +616,7 @@ F0 "12V DC Common Bank" 50
 F1 "CommonBank1.sch" 50
 $EndSheet
 $Sheet
-S 1850 6900 1350 150 
-U E171B338
-F0 "Mixed Control Relay Boards" 50
-F1 "RelayBoard.sch" 50
-$EndSheet
-$Sheet
-S 1550 6750 1750 450 
+S 1550 6750 1200 400 
 U E171B33C
 F0 "Mixed Bank" 50
 F1 "MixedControl.sch" 50
@@ -2429,7 +2423,7 @@ U 1 1 5F21E442
 P 3300 1200
 F 0 "JP101" V 3254 1268 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 3345 1268 50  0000 L CNN
-F 2 "" H 3300 1200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3300 1200 50  0001 C CNN
 F 3 "~" H 3300 1200 50  0001 C CNN
 	1    3300 1200
 	0    1    1    0   
