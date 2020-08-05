@@ -492,16 +492,9 @@ Wire Wire Line
 Wire Wire Line
 	6050 6450 6000 6450
 Connection ~ 6050 6700
-Wire Wire Line
-	6050 6450 6050 6200
-Wire Wire Line
-	5800 6200 6050 6200
 Connection ~ 6050 6450
 Wire Wire Line
-	6050 6200 6050 6000
-Wire Wire Line
 	6050 5200 6000 5200
-Connection ~ 6050 6200
 Wire Wire Line
 	6050 5200 6050 4950
 Wire Wire Line
@@ -957,4 +950,13 @@ F 3 "~" H 800 6650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	800  2650 2150 2650
+Wire Wire Line
+	6050 6000 6050 6200
+Wire Wire Line
+	6050 6000 6050 6200
+Wire Wire Line
+	6050 6200 6000 6200
+Connection ~ 6050 6200
+Wire Wire Line
+	6050 6200 6050 6450
 $EndSCHEMATC
