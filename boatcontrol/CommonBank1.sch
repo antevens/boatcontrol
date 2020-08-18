@@ -953,8 +953,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 6000 6050 6200
 Wire Wire Line
-	6050 6000 6050 6200
-Wire Wire Line
 	6050 6200 6000 6200
 Connection ~ 6050 6200
 Wire Wire Line
