@@ -171,21 +171,6 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 $EndComp
 $Comp
 L BoatControl:EW60-1A3-CL12D04 K?
-U 1 1 E1098DEE
-P 5800 4000
-AR Path="/E1098DEE" Ref="K?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098DEE" Ref="K?"  Part="1" 
-AR Path="/E171B338/E1098DEE" Ref="K2303"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098DEE" Ref="K3403"  Part="1" 
-F 0 "K3403" V 5850 3850 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 5600 3600 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 5800 4400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 6800 4500 50  0001 L BNN
-	1    5800 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L BoatControl:EW60-1A3-CL12D04 K?
 U 1 1 E1098DF4
 P 6850 4000
 AR Path="/E1098DF4" Ref="K?"  Part="1" 
@@ -197,21 +182,6 @@ F 1 "EW60-1A3-CL12D04" V 6650 3600 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 6850 4400 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 7850 4500 50  0001 L BNN
 	1    6850 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L BoatControl:EW60-1A3-CL12D04 K?
-U 1 1 E1098DFA
-P 7900 4000
-AR Path="/E1098DFA" Ref="K?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098DFA" Ref="K?"  Part="1" 
-AR Path="/E171B338/E1098DFA" Ref="K2305"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098DFA" Ref="K3405"  Part="1" 
-F 0 "K3405" V 7950 3850 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 7700 3600 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 7900 4400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 8900 4500 50  0001 L BNN
-	1    7900 4000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -231,21 +201,6 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 $EndComp
 $Comp
 L BoatControl:EW60-1A3-CL12D04 K?
-U 1 1 E1098E06
-P 10000 4000
-AR Path="/E1098E06" Ref="K?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098E06" Ref="K?"  Part="1" 
-AR Path="/E171B338/E1098E06" Ref="K2307"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098E06" Ref="K3407"  Part="1" 
-F 0 "K3407" V 10050 3850 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 9800 3600 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 10000 4400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 11000 4500 50  0001 L BNN
-	1    10000 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L BoatControl:EW60-1A3-CL12D04 K?
 U 1 1 E1098E0C
 P 11050 4000
 AR Path="/E1098E0C" Ref="K?"  Part="1" 
@@ -261,8 +216,6 @@ F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&
 $EndComp
 Wire Wire Line
 	7000 3200 3750 3200
-Wire Wire Line
-	3750 3200 3750 3600
 Wire Wire Line
 	3700 3600 3750 3600
 Connection ~ 3750 3600
@@ -289,8 +242,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 5850 3300
 Wire Wire Line
-	5850 3300 5850 3600
-Wire Wire Line
 	7300 3200 7300 3350
 Wire Wire Line
 	7300 3350 6900 3350
@@ -315,8 +266,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 3250 10050 3250
 Wire Wire Line
-	10050 3250 10050 3600
-Wire Wire Line
 	10100 3600 10050 3600
 Connection ~ 10050 3600
 Wire Wire Line
@@ -332,8 +281,6 @@ Wire Wire Line
 	9000 3300 7500 3300
 Wire Wire Line
 	7500 3300 7500 3200
-Wire Wire Line
-	7950 3600 7950 3350
 Wire Wire Line
 	7950 3350 7400 3350
 Wire Wire Line
@@ -427,50 +374,51 @@ Wire Wire Line
 	7400 4800 7400 4950
 Wire Wire Line
 	7950 4500 7950 4800
+Wire Wire Line
+	4450 4400 4450 4550
+Wire Wire Line
+	4450 3750 4450 3550
+Wire Wire Line
+	6550 3750 6550 3450
+Wire Wire Line
+	6550 4400 6550 4650
+Wire Wire Line
+	8650 4400 8650 5600
+Wire Wire Line
+	8650 3750 8650 2550
+Wire Wire Line
+	10750 4400 10750 5700
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J?
-U 1 1 E1098E6E
-P 1250 4000
-AR Path="/E1098E6E" Ref="J?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098E6E" Ref="J?"  Part="1" 
-AR Path="/E171B338/E1098E6E" Ref="J2301"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098E6E" Ref="J3401"  Part="1" 
-F 0 "J3401" V 1346 2913 50  0000 R CNN
-F 1 "Conn_02x20_Odd_Even Header" V 1300 4450 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1250 4000 50  0001 C CNN
-F 3 "~" H 1250 4000 50  0001 C CNN
-	1    1250 4000
+L power:GND #PWR?
+U 1 1 5F4F4DC8
+P 7400 4050
+AR Path="/5F4F4DC8" Ref="#PWR?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/5F4F4DC8" Ref="#PWR?"  Part="1" 
+AR Path="/E171B338/5F4F4DC8" Ref="#PWR02305"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/5F4F4DC8" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 7400 3800 50  0001 C CNN
+F 1 "GND" H 7600 4050 50  0000 R CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	10750 2450 10750 3750
 $Comp
 L Mechanical:MountingHole H?
-U 1 1 E1098E74
-P 50 3900
-AR Path="/E1098E74" Ref="H?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098E74" Ref="H?"  Part="1" 
-AR Path="/E171B338/E1098E74" Ref="H2301"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098E74" Ref="H3401"  Part="1" 
-F 0 "H3401" H 150 3946 50  0000 L CNN
-F 1 "MountingHole" H 150 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 50  3900 50  0001 C CNN
-F 3 "~" H 50  3900 50  0001 C CNN
-	1    50   3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
-U 1 1 E1098E7A
-P 50 4250
-AR Path="/E1098E7A" Ref="H?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098E7A" Ref="H?"  Part="1" 
-AR Path="/E171B338/E1098E7A" Ref="H2302"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098E7A" Ref="H3402"  Part="1" 
-F 0 "H3402" H 150 4296 50  0000 L CNN
-F 1 "MountingHole" H 150 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 50  4250 50  0001 C CNN
-F 3 "~" H 50  4250 50  0001 C CNN
-	1    50   4250
-	-1   0    0    1   
+U 1 1 E1098E86
+P 2350 3900
+AR Path="/E1098E86" Ref="H?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098E86" Ref="H?"  Part="1" 
+AR Path="/E171B338/E1098E86" Ref="H2303"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098E86" Ref="H3403"  Part="1" 
+F 0 "H3403" H 2450 3946 50  0000 L CNN
+F 1 "MountingHole" H 2450 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2350 3900 50  0001 C CNN
+F 3 "~" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
@@ -489,207 +437,259 @@ F 3 "~" H 2350 4250 50  0001 C CNN
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
-U 1 1 E1098E86
-P 2350 3900
-AR Path="/E1098E86" Ref="H?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/E1098E86" Ref="H?"  Part="1" 
-AR Path="/E171B338/E1098E86" Ref="H2303"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/E1098E86" Ref="H3403"  Part="1" 
-F 0 "H3403" H 2450 3946 50  0000 L CNN
-F 1 "MountingHole" H 2450 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 2350 3900 50  0001 C CNN
-F 3 "~" H 2350 3900 50  0001 C CNN
-	1    2350 3900
-	1    0    0    -1  
+U 1 1 E1098E7A
+P 50 4250
+AR Path="/E1098E7A" Ref="H?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098E7A" Ref="H?"  Part="1" 
+AR Path="/E171B338/E1098E7A" Ref="H2302"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098E7A" Ref="H3402"  Part="1" 
+F 0 "H3402" H 150 4296 50  0000 L CNN
+F 1 "MountingHole" H 150 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 50  4250 50  0001 C CNN
+F 3 "~" H 50  4250 50  0001 C CNN
+	1    50   4250
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3400 4400 3400 4450
-Wire Wire Line
-	3400 4450 2150 4450
-Wire Wire Line
-	2150 4450 2150 4300
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 E1098E74
+P 50 3900
+AR Path="/E1098E74" Ref="H?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098E74" Ref="H?"  Part="1" 
+AR Path="/E171B338/E1098E74" Ref="H2301"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098E74" Ref="H3401"  Part="1" 
+F 0 "H3401" H 150 3946 50  0000 L CNN
+F 1 "MountingHole" H 150 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 50  3900 50  0001 C CNN
+F 3 "~" H 50  3900 50  0001 C CNN
+	1    50   3900
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	2150 3650 3400 3650
 Wire Wire Line
-	3400 3650 3400 3750
+	7600 3400 1750 3400
 Wire Wire Line
-	2150 3650 2150 3800
+	9700 2500 1550 2500
+$Comp
+L BoatControl:EW60-1A3-CL12D04 K?
+U 1 1 E1098E06
+P 10000 4100
+AR Path="/E1098E06" Ref="K?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098E06" Ref="K?"  Part="1" 
+AR Path="/E171B338/E1098E06" Ref="K2307"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098E06" Ref="K3407"  Part="1" 
+F 0 "K3407" V 10050 3950 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 9800 3700 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 10000 4500 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 11000 4600 50  0001 L BNN
+	1    10000 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10050 3250 10050 3600
+Wire Wire Line
+	9700 2500 9700 3700
+$Comp
+L BoatControl:EW60-1A3-CL12D04 K?
+U 1 1 E1098DFA
+P 7900 4100
+AR Path="/E1098DFA" Ref="K?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098DFA" Ref="K?"  Part="1" 
+AR Path="/E171B338/E1098DFA" Ref="K2305"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098DFA" Ref="K3405"  Part="1" 
+F 0 "K3405" V 7950 3950 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 7700 3700 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 7900 4500 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 8900 4600 50  0001 L BNN
+	1    7900 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7950 3350 7950 3600
+Wire Wire Line
+	7600 3400 7600 3700
+$Comp
+L BoatControl:EW60-1A3-CL12D04 K?
+U 1 1 E1098DEE
+P 5800 4100
+AR Path="/E1098DEE" Ref="K?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098DEE" Ref="K?"  Part="1" 
+AR Path="/E171B338/E1098DEE" Ref="K2303"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098DEE" Ref="K3403"  Part="1" 
+F 0 "K3403" V 5850 3950 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 5600 3700 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 5800 4500 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 6800 4600 50  0001 L BNN
+	1    5800 4100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5850 3300 5850 3600
+Wire Wire Line
+	5500 3500 5500 3700
 $Comp
 L BoatControl:EW60-1A3-CL12D04 K?
 U 1 1 E1098E92
-P 3700 4000
+P 3700 4100
 AR Path="/E1098E92" Ref="K?"  Part="1" 
 AR Path="/E0EE2714/E107FCD3/E1098E92" Ref="K?"  Part="1" 
 AR Path="/E171B338/E1098E92" Ref="K2301"  Part="1" 
 AR Path="/E171B33C/5F80BAC6/E1098E92" Ref="K3401"  Part="1" 
-F 0 "K3401" V 3750 3850 50  0000 L CNN
-F 1 "EW60-1A3-CL12D04" V 3500 3600 50  0000 L CNN
-F 2 "BoatControl:TE_2071366-2" H 3700 4400 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 4700 4500 50  0001 L BNN
-	1    3700 4000
-	0    1    1    0   
+F 0 "K3401" V 3750 3950 50  0000 L CNN
+F 1 "EW60-1A3-CL12D04" V 3500 3700 50  0000 L CNN
+F 2 "BoatControl:TE_2071366-2" H 3700 4500 50  0001 L BNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 4700 4600 50  0001 L BNN
+	1    3700 4100
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4450 4400 4450 4550
+	3400 3650 3400 3700
 Wire Wire Line
-	4450 4550 2050 4550
+	3750 3200 3750 3600
 Wire Wire Line
-	2050 4550 2050 4300
+	3400 4350 3400 4450
 Wire Wire Line
-	4450 3750 4450 3550
+	5500 4350 5500 4600
 Wire Wire Line
-	4450 3550 2050 3550
+	7600 4350 7600 4700
 Wire Wire Line
-	2050 3550 2050 3800
+	9700 4350 9700 5650
 Wire Wire Line
-	5500 3750 5500 3500
+	350  4300 450  4300
+Connection ~ 350  4300
 Wire Wire Line
-	5500 3500 1950 3500
+	250  4300 350  4300
 Wire Wire Line
-	1950 3500 1950 3800
+	1250 4300 1350 4300
+Connection ~ 1250 4300
 Wire Wire Line
-	5500 4400 5500 4600
+	1150 4300 1250 4300
+Connection ~ 1150 4300
 Wire Wire Line
-	5500 4600 1950 4600
+	1050 4300 1150 4300
+Connection ~ 1050 4300
 Wire Wire Line
-	1950 4600 1950 4300
+	950  4300 1050 4300
+Connection ~ 950  4300
 Wire Wire Line
-	6550 3750 6550 3450
+	850  4300 950  4300
+Connection ~ 850  4300
 Wire Wire Line
-	6550 3450 1850 3450
+	750  4300 850  4300
+Connection ~ 750  4300
 Wire Wire Line
-	1850 3450 1850 3800
+	650  4300 750  4300
+Connection ~ 650  4300
 Wire Wire Line
-	6550 4400 6550 4650
+	550  4300 650  4300
+Connection ~ 550  4300
 Wire Wire Line
-	6550 4650 1850 4650
+	450  4300 550  4300
+Connection ~ 450  4300
 Wire Wire Line
-	1850 4650 1850 4300
+	1250 3800 1150 3800
+Connection ~ 1250 3800
 Wire Wire Line
-	7600 3750 7600 3400
+	1150 3800 1050 3800
+Connection ~ 1150 3800
 Wire Wire Line
-	7600 3400 1750 3400
+	1050 3800 950  3800
+Connection ~ 1050 3800
 Wire Wire Line
-	1750 3400 1750 3800
+	950  3800 850  3800
+Connection ~ 950  3800
 Wire Wire Line
-	7600 4700 1750 4700
+	850  3800 750  3800
+Connection ~ 850  3800
 Wire Wire Line
-	1750 4700 1750 4300
+	750  3800 650  3800
+Connection ~ 750  3800
 Wire Wire Line
-	7600 4400 7600 4700
+	650  3800 550  3800
+Connection ~ 650  3800
 Wire Wire Line
-	8650 4400 8650 5600
+	550  3800 450  3800
+Connection ~ 550  3800
 Wire Wire Line
-	8650 5600 1650 5600
+	450  3800 350  3800
+Connection ~ 450  3800
 Wire Wire Line
-	1650 5600 1650 4300
+	350  3800 250  3800
+Connection ~ 350  3800
 Wire Wire Line
-	8650 3750 8650 2550
-Wire Wire Line
-	8650 2550 1650 2550
-Wire Wire Line
-	1650 2550 1650 3800
-Wire Wire Line
-	9700 3750 9700 2500
-Wire Wire Line
-	9700 2500 1550 2500
-Wire Wire Line
-	1550 2500 1550 3800
+	1350 3800 1250 3800
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 E1098E6E
+P 1250 4000
+AR Path="/E1098E6E" Ref="J?"  Part="1" 
+AR Path="/E0EE2714/E107FCD3/E1098E6E" Ref="J?"  Part="1" 
+AR Path="/E171B338/E1098E6E" Ref="J2301"  Part="1" 
+AR Path="/E171B33C/5F80BAC6/E1098E6E" Ref="J3401"  Part="1" 
+F 0 "J3401" V 1346 2913 50  0000 R CNN
+F 1 "Conn_02x20_Odd_Even Header" V 1300 4450 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 1250 4000 50  0001 C CNN
+F 3 "~" H 1250 4000 50  0001 C CNN
+	1    1250 4000
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	10750 2450 1450 2450
 Wire Wire Line
-	1550 4300 1550 5650
+	10750 5700 1450 5700
 Wire Wire Line
 	1550 5650 9700 5650
 Wire Wire Line
-	9700 5650 9700 4400
+	8650 2550 1650 2550
 Wire Wire Line
-	10750 4400 10750 5700
+	8650 5600 1650 5600
 Wire Wire Line
-	10750 5700 1450 5700
+	7600 4700 1750 4700
+Wire Wire Line
+	6550 3450 1850 3450
+Wire Wire Line
+	6550 4650 1850 4650
+Wire Wire Line
+	5500 4600 1950 4600
+Wire Wire Line
+	4450 3550 2050 3550
+Wire Wire Line
+	4450 4550 2050 4550
+Wire Wire Line
+	3400 4450 2150 4450
+Wire Wire Line
+	2150 3650 2150 3800
+Wire Wire Line
+	2050 3550 2050 3800
+Wire Wire Line
+	1950 3500 1950 3800
+Wire Wire Line
+	1850 3450 1850 3800
+Wire Wire Line
+	1750 3400 1750 3800
+Wire Wire Line
+	1650 2550 1650 3800
+Wire Wire Line
+	1550 2500 1550 3800
+Wire Wire Line
+	1450 3800 1450 2450
+Wire Wire Line
+	2150 4450 2150 4300
+Wire Wire Line
+	2050 4550 2050 4300
+Wire Wire Line
+	1950 4600 1950 4300
+Wire Wire Line
+	1850 4650 1850 4300
+Wire Wire Line
+	1750 4700 1750 4300
+Wire Wire Line
+	1650 5600 1650 4300
+Wire Wire Line
+	1550 4300 1550 5650
 Wire Wire Line
 	1450 5700 1450 4300
 Wire Wire Line
-	1350 3800 1250 3800
-Connection ~ 350  3800
-Wire Wire Line
-	350  3800 250  3800
-Connection ~ 450  3800
-Wire Wire Line
-	450  3800 350  3800
-Connection ~ 550  3800
-Wire Wire Line
-	550  3800 450  3800
-Connection ~ 650  3800
-Wire Wire Line
-	650  3800 550  3800
-Connection ~ 750  3800
-Wire Wire Line
-	750  3800 650  3800
-Connection ~ 850  3800
-Wire Wire Line
-	850  3800 750  3800
-Connection ~ 950  3800
-Wire Wire Line
-	950  3800 850  3800
-Connection ~ 1050 3800
-Wire Wire Line
-	1050 3800 950  3800
-Connection ~ 1150 3800
-Wire Wire Line
-	1150 3800 1050 3800
-Connection ~ 1250 3800
-Wire Wire Line
-	1250 3800 1150 3800
-Connection ~ 450  4300
-Wire Wire Line
-	450  4300 550  4300
-Connection ~ 550  4300
-Wire Wire Line
-	550  4300 650  4300
-Connection ~ 650  4300
-Wire Wire Line
-	650  4300 750  4300
-Connection ~ 750  4300
-Wire Wire Line
-	750  4300 850  4300
-Connection ~ 850  4300
-Wire Wire Line
-	850  4300 950  4300
-Connection ~ 950  4300
-Wire Wire Line
-	950  4300 1050 4300
-Connection ~ 1050 4300
-Wire Wire Line
-	1050 4300 1150 4300
-Connection ~ 1150 4300
-Wire Wire Line
-	1150 4300 1250 4300
-Connection ~ 1250 4300
-Wire Wire Line
-	1250 4300 1350 4300
-Wire Wire Line
-	250  4300 350  4300
-Connection ~ 350  4300
-Wire Wire Line
-	350  4300 450  4300
-$Comp
-L power:GND #PWR?
-U 1 1 5F4F4DC8
-P 7400 4050
-AR Path="/5F4F4DC8" Ref="#PWR?"  Part="1" 
-AR Path="/E0EE2714/E107FCD3/5F4F4DC8" Ref="#PWR?"  Part="1" 
-AR Path="/E171B338/5F4F4DC8" Ref="#PWR02305"  Part="1" 
-AR Path="/E171B33C/5F80BAC6/5F4F4DC8" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 7400 3800 50  0001 C CNN
-F 1 "GND" H 7600 4050 50  0000 R CNN
-F 2 "" H 7400 4050 50  0001 C CNN
-F 3 "" H 7400 4050 50  0001 C CNN
-	1    7400 4050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10750 2450 10750 3750
-Wire Wire Line
-	1450 3800 1450 2450
+	1950 3500 5500 3500
 $EndSCHEMATC
