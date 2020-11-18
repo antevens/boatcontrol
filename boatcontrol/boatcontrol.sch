@@ -1605,8 +1605,6 @@ Wire Wire Line
 	9450 3600 10250 3600
 Connection ~ 9450 3600
 Wire Wire Line
-	10150 2600 10450 2600
-Wire Wire Line
 	10800 3350 10800 3600
 Wire Wire Line
 	11300 3250 11300 3600
@@ -2466,6 +2464,22 @@ F 3 "~" H 3300 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 3300 1350
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5FCAE3CC
+P 10250 2600
+AR Path="/5FCAE3CC" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/5FCAE3CC" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/5FCAE3CC" Ref="JP?"  Part="1" 
+F 0 "JP?" H 10250 2700 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 10300 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10250 2600 50  0001 C CNN
+F 3 "~" H 10250 2600 50  0001 C CNN
+	1    10250 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10350 2600 10450 2600
 Wire Bus Line
 	2500 1450 4300 1450
 Wire Bus Line
