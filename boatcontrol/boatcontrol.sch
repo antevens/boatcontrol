@@ -2465,13 +2465,13 @@ F 3 "~" H 3300 1350 50  0001 C CNN
 $EndComp
 Connection ~ 3300 1350
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP109
 U 1 1 5FCAE3CC
 P 10250 2600
-AR Path="/5FCAE3CC" Ref="JP?"  Part="1" 
+AR Path="/5FCAE3CC" Ref="JP109"  Part="1" 
 AR Path="/D16552B4/5FCAE3CC" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/5FCAE3CC" Ref="JP?"  Part="1" 
-F 0 "JP?" H 10250 2700 50  0000 C CNN
+F 0 "JP109" H 10250 2700 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 10300 2500 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10250 2600 50  0001 C CNN
 F 3 "~" H 10250 2600 50  0001 C CNN
