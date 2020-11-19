@@ -696,4 +696,15 @@ Wire Wire Line
 	250  3800 250  4300
 Connection ~ 250  3800
 Connection ~ 250  4300
+$Comp
+L power:GND #PWR?
+U 1 1 60E5FB29
+P 250 4300
+F 0 "#PWR?" H 250 4050 50  0001 C CNN
+F 1 "GND" H 255 4127 50  0000 C CNN
+F 2 "" H 250 4300 50  0001 C CNN
+F 3 "" H 250 4300 50  0001 C CNN
+	1    250  4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
