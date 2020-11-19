@@ -636,4 +636,10 @@ Connection ~ 7750 4100
 Wire Wire Line
 	7650 3600 7650 4100
 Connection ~ 7650 3600
+Wire Wire Line
+	8450 4100 8450 3600
+Connection ~ 8450 3600
+Wire Wire Line
+	8550 3600 8550 4100
+Connection ~ 8550 4100
 $EndSCHEMATC
