@@ -553,47 +553,36 @@ F 3 "~" H 10300 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H122
-U 1 1 85D441EF
-P 11100 11000
-F 0 "H122" H 11200 11046 50  0000 L CNN
-F 1 "MountingHole" H 11200 10955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 11100 11000 50  0001 C CNN
-F 3 "~" H 11100 11000 50  0001 C CNN
-	1    11100 11000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H121
 U 1 1 8682D97E
-P 11100 10800
-F 0 "H121" H 11200 10846 50  0000 L CNN
-F 1 "MountingHole" H 11200 10755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 11100 10800 50  0001 C CNN
-F 3 "~" H 11100 10800 50  0001 C CNN
-	1    11100 10800
+P 11050 11000
+F 0 "H121" H 11150 11046 50  0000 L CNN
+F 1 "MountingHole" H 11150 10955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 11050 11000 50  0001 C CNN
+F 3 "~" H 11050 11000 50  0001 C CNN
+	1    11050 11000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H120
 U 1 1 8731706F
-P 11100 10600
-F 0 "H120" H 11200 10646 50  0000 L CNN
-F 1 "MountingHole" H 11200 10555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 11100 10600 50  0001 C CNN
-F 3 "~" H 11100 10600 50  0001 C CNN
-	1    11100 10600
+P 11050 10800
+F 0 "H120" H 11150 10846 50  0000 L CNN
+F 1 "MountingHole" H 11150 10755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 11050 10800 50  0001 C CNN
+F 3 "~" H 11050 10800 50  0001 C CNN
+	1    11050 10800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H119
 U 1 1 87E00633
-P 11100 10400
-F 0 "H119" H 11200 10446 50  0000 L CNN
-F 1 "MountingHole" H 11200 10355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 11100 10400 50  0001 C CNN
-F 3 "~" H 11100 10400 50  0001 C CNN
-	1    11100 10400
+P 11050 10600
+F 0 "H119" H 11150 10646 50  0000 L CNN
+F 1 "MountingHole" H 11150 10555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 11050 10600 50  0001 C CNN
+F 3 "~" H 11050 10600 50  0001 C CNN
+	1    11050 10600
 	1    0    0    -1  
 $EndComp
 $Comp
