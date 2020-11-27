@@ -1,4 +1,4 @@
-17968791214107068
+17970397661722068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -353,6 +353,13 @@ BoatControl
 DIP254P762X432-16P
 
 
+0
+16
+16
+BoatControl
+DIP794W53P254L1930H508Q16N
+N (R-PDIP-T)
+Integrated Circuit
 0
 16
 16
