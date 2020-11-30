@@ -531,12 +531,6 @@ Connection ~ 7950 950
 Wire Wire Line
 	4800 2500 4800 3000
 $Sheet
-S 7350 2750 900  1500
-U 5FDE25F0
-F0 "MultiVibratorAC2" 50
-F1 "MultiVibrator.sch" 50
-$EndSheet
-$Sheet
 S 8700 2750 900  1500
 U 5FDE84B5
 F0 "MultiVibratorAC3" 50
@@ -917,7 +911,7 @@ Wire Wire Line
 	9200 4400 9200 4250
 Text HLabel 9200 4250 1    50   Output ~ 0
 RC2
-Text HLabel 6600 3500 2    50   Input ~ 0
+Text HLabel 6650 3500 2    50   Input ~ 0
 DIG_OFF
 Wire Wire Line
 	6050 5750 6050 4150
@@ -949,30 +943,6 @@ Wire Wire Line
 	7350 4150 7300 4150
 Wire Wire Line
 	7300 4150 7300 5650
-Text HLabel 7850 3400 2    50   Input ~ 0
-DIG_ON
-Text HLabel 7850 3500 2    50   Input ~ 0
-DIG_OFF
-Text HLabel 9200 3400 2    50   Input ~ 0
-DIG_ON
-Text HLabel 9200 3500 2    50   Input ~ 0
-DIG_OFF
-Text HLabel 10450 3400 2    50   Input ~ 0
-DIG_ON
-Text HLabel 10450 3500 2    50   Input ~ 0
-DIG_OFF
-Text HLabel 7850 3600 2    50   Input ~ 0
-AN_ON
-Text HLabel 7850 3700 2    50   Input ~ 0
-AN_OFF
-Text HLabel 9200 3600 2    50   Input ~ 0
-AN_ON
-Text HLabel 9200 3700 2    50   Input ~ 0
-AN_OFF
-Text HLabel 10450 3600 2    50   Input ~ 0
-AN_ON
-Text HLabel 10450 3700 2    50   Input ~ 0
-AN_OFF
 Text HLabel 6100 3800 2    50   Input ~ 0
 MUX_ON
 Text HLabel 6100 3900 2    50   Input ~ 0
@@ -989,17 +959,11 @@ Text HLabel 9950 3800 2    50   Input ~ 0
 MUX_ON
 Text HLabel 9950 3900 2    50   Input ~ 0
 MUX_OFF
-$Sheet
-S 6100 2750 900  1500
-U 5FC6571E
-F0 "MultiVibratorAC1" 50
-F1 "MultiVibrator.sch" 50
-$EndSheet
-Text HLabel 6600 3600 2    50   Input ~ 0
+Text HLabel 6650 3600 2    50   Input ~ 0
 AN_ON
-Text HLabel 6600 3700 2    50   Input ~ 0
+Text HLabel 6650 3700 2    50   Input ~ 0
 AN_OFF
-Text HLabel 6600 3400 2    50   Input ~ 0
+Text HLabel 6650 3400 2    50   Input ~ 0
 DIG_ON
 Connection ~ 6450 5750
 Wire Wire Line
@@ -1137,4 +1101,104 @@ Wire Wire Line
 	5450 2550 5450 2900
 Wire Wire Line
 	7200 2550 7200 3900
+Text HLabel 6600 3400 0    50   Output ~ 0
+DIG_ON_C1
+Wire Wire Line
+	6600 3400 6650 3400
+Text HLabel 6600 3500 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 6600 3600 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 6600 3700 0    50   Output ~ 0
+DIG_ON_C4
+Wire Wire Line
+	6600 3500 6650 3500
+Wire Wire Line
+	6600 3600 6650 3600
+Wire Wire Line
+	6600 3700 6650 3700
+$Sheet
+S 7350 2750 900  1500
+U 5FDE25F0
+F0 "MultiVibratorAC2" 50
+F1 "MultiVibrator.sch" 50
+$EndSheet
+$Sheet
+S 6100 2750 900  1500
+U 5FC6571E
+F0 "MultiVibratorAC1" 50
+F1 "MultiVibrator.sch" 50
+$EndSheet
+Text HLabel 7900 3500 2    50   Input ~ 0
+DIG_OFF
+Text HLabel 7900 3600 2    50   Input ~ 0
+AN_ON
+Text HLabel 7900 3700 2    50   Input ~ 0
+AN_OFF
+Text HLabel 7900 3400 2    50   Input ~ 0
+DIG_ON
+Text HLabel 7850 3400 0    50   Output ~ 0
+DIG_ON_C1
+Wire Wire Line
+	7850 3400 7900 3400
+Text HLabel 7850 3500 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 7850 3600 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 7850 3700 0    50   Output ~ 0
+DIG_ON_C4
+Wire Wire Line
+	7850 3500 7900 3500
+Wire Wire Line
+	7850 3600 7900 3600
+Wire Wire Line
+	7850 3700 7900 3700
+Text HLabel 9250 3500 2    50   Input ~ 0
+DIG_OFF
+Text HLabel 9250 3600 2    50   Input ~ 0
+AN_ON
+Text HLabel 9250 3700 2    50   Input ~ 0
+AN_OFF
+Text HLabel 9250 3400 2    50   Input ~ 0
+DIG_ON
+Text HLabel 9200 3400 0    50   Output ~ 0
+DIG_ON_C1
+Wire Wire Line
+	9200 3400 9250 3400
+Text HLabel 9200 3500 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 9200 3600 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 9200 3700 0    50   Output ~ 0
+DIG_ON_C4
+Wire Wire Line
+	9200 3500 9250 3500
+Wire Wire Line
+	9200 3600 9250 3600
+Wire Wire Line
+	9200 3700 9250 3700
+Text HLabel 10500 3500 2    50   Input ~ 0
+DIG_OFF
+Text HLabel 10500 3600 2    50   Input ~ 0
+AN_ON
+Text HLabel 10500 3700 2    50   Input ~ 0
+AN_OFF
+Text HLabel 10500 3400 2    50   Input ~ 0
+DIG_ON
+Text HLabel 10450 3400 0    50   Output ~ 0
+DIG_ON_C1
+Wire Wire Line
+	10450 3400 10500 3400
+Text HLabel 10450 3500 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 10450 3600 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 10450 3700 0    50   Output ~ 0
+DIG_ON_C4
+Wire Wire Line
+	10450 3500 10500 3500
+Wire Wire Line
+	10450 3600 10500 3600
+Wire Wire Line
+	10450 3700 10500 3700
 $EndSCHEMATC
