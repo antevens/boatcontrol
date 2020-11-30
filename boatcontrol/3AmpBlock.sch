@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 59
+Sheet 3 71
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "2"
@@ -128,8 +128,6 @@ Wire Wire Line
 	5500 2750 4700 2750
 Wire Wire Line
 	5600 3400 5450 3400
-Wire Wire Line
-	5450 3400 5450 2900
 Wire Wire Line
 	5450 2900 4700 2900
 $Comp
@@ -313,46 +311,6 @@ F 3 "~" H 5800 3500 50  0001 C CNN
 	1    5800 3500
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F542D59
-P 8900 1550
-AR Path="/5F542D59" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F542D59" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F542D59" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F542D59" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F542D59" Ref="C1801"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F542D59" Ref="C301"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F542D59" Ref="C801"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F542D59" Ref="C1301"  Part="1" 
-F 0 "C301" V 8850 1600 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 1550 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 1550 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 1550 50  0001 C CNN "Type"
-	1    8900 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN?
-U 1 1 5F542D5F
-P 9700 1950
-AR Path="/5F542D5F" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F542D5F" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F542D5F" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F542D5F" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F542D5F" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F542D5F" Ref="RN1802"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F542D5F" Ref="RN302"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F542D5F" Ref="RN802"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F542D5F" Ref="RN1302"  Part="1" 
-F 0 "RN302" V 10150 1900 50  0000 L CNN
-F 1 "4120R-1-103LF" V 9150 1600 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 10175 1950 50  0001 C CNN
-F 3 "~" H 9700 1950 50  0001 C CNN
-	1    9700 1950
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	2850 1850 3700 1850
 Wire Wire Line
@@ -399,236 +357,12 @@ Wire Wire Line
 	2800 3800 2800 4700
 Wire Wire Line
 	2850 3700 2850 4550
-$Comp
-L Device:C_Small C?
-U 1 1 5F59CDBA
-P 8900 1650
-AR Path="/5F59CDBA" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F59CDBA" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F59CDBA" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F59CDBA" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F59CDBA" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F59CDBA" Ref="C1802"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F59CDBA" Ref="C302"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F59CDBA" Ref="C802"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F59CDBA" Ref="C1302"  Part="1" 
-F 0 "C302" V 8850 1700 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 800 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 1650 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 1650 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 1650 50  0001 C CNN "Type"
-	1    8900 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F59FA88
-P 8900 1750
-AR Path="/5F59FA88" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F59FA88" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F59FA88" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F59FA88" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F59FA88" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F59FA88" Ref="C1803"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F59FA88" Ref="C303"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F59FA88" Ref="C803"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F59FA88" Ref="C1303"  Part="1" 
-F 0 "C303" V 8850 1800 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 900 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 1750 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 1750 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 1750 50  0001 C CNN "Type"
-	1    8900 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F5A2902
-P 8900 1850
-AR Path="/5F5A2902" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F5A2902" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F5A2902" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F5A2902" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F5A2902" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F5A2902" Ref="C1804"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F5A2902" Ref="C304"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F5A2902" Ref="C804"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F5A2902" Ref="C1304"  Part="1" 
-F 0 "C304" V 8850 1900 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 1000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 1850 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 1850 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 1850 50  0001 C CNN "Type"
-	1    8900 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F5A55EC
-P 8900 1950
-AR Path="/5F5A55EC" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F5A55EC" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F5A55EC" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F5A55EC" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F5A55EC" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F5A55EC" Ref="C1805"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F5A55EC" Ref="C305"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F5A55EC" Ref="C805"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F5A55EC" Ref="C1305"  Part="1" 
-F 0 "C305" V 8850 2000 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 1100 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 1950 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 1950 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 1950 50  0001 C CNN "Type"
-	1    8900 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F5A837A
-P 8900 2050
-AR Path="/5F5A837A" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F5A837A" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F5A837A" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F5A837A" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F5A837A" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F5A837A" Ref="C1806"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F5A837A" Ref="C306"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F5A837A" Ref="C806"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F5A837A" Ref="C1306"  Part="1" 
-F 0 "C306" V 8850 2100 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 1200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 2050 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 2050 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 2050 50  0001 C CNN "Type"
-	1    8900 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F5AB05C
-P 8900 2150
-AR Path="/5F5AB05C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F5AB05C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F5AB05C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F5AB05C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F5AB05C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F5AB05C" Ref="C1807"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F5AB05C" Ref="C307"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F5AB05C" Ref="C807"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F5AB05C" Ref="C1307"  Part="1" 
-F 0 "C307" V 8850 2200 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 1300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 2150 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 2150 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 2150 50  0001 C CNN "Type"
-	1    8900 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5F5ADCB0
-P 8900 2250
-AR Path="/5F5ADCB0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/5F5ADCB0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F5ADCB0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F5ADCB0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/5F5ADCB0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F5ADCB0" Ref="C1808"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F5ADCB0" Ref="C308"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F5ADCB0" Ref="C808"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F5ADCB0" Ref="C1308"  Part="1" 
-F 0 "C308" V 8850 2300 50  0000 L CNN
-F 1 "107CKS016M 100UF" V 8850 1400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8900 2250 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8900 2250 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8900 2250 50  0001 C CNN "Type"
-	1    8900 2250
-	0    1    1    0   
-$EndComp
-Connection ~ 9900 1650
-Wire Wire Line
-	9900 1650 9900 1550
-Connection ~ 9900 1750
-Wire Wire Line
-	9900 1750 9900 1650
-Connection ~ 9900 1850
-Wire Wire Line
-	9900 1850 9900 1750
-Connection ~ 9900 1950
-Wire Wire Line
-	9900 1950 9900 1850
-Connection ~ 9900 2050
-Wire Wire Line
-	9900 2050 9900 1950
-Connection ~ 9900 2150
-Wire Wire Line
-	9900 2150 9900 2050
-Wire Wire Line
-	9900 2150 9900 2250
-$Comp
-L power:+5V #PWR?
-U 1 1 5F67319F
-P 9900 1550
-AR Path="/D16552B4/D2B5CDA9/5F67319F" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/5F67319F" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/5F67319F" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5F67319F" Ref="#PWR01803"  Part="1" 
-AR Path="/D16552B4/5FA17F38/5F67319F" Ref="#PWR0303"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5F67319F" Ref="#PWR0803"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5F67319F" Ref="#PWR01303"  Part="1" 
-F 0 "#PWR0303" H 9900 1400 50  0001 C CNN
-F 1 "+5V" V 9915 1678 50  0000 L CNN
-F 2 "" H 9900 1550 50  0001 C CNN
-F 3 "" H 9900 1550 50  0001 C CNN
-	1    9900 1550
-	0    1    1    0   
-$EndComp
-Connection ~ 9900 1550
-Wire Wire Line
-	9000 1550 9500 1550
-Wire Wire Line
-	9000 1650 9500 1650
-Wire Wire Line
-	9000 1750 9500 1750
-Wire Wire Line
-	9000 1850 9500 1850
-Wire Wire Line
-	9000 1950 9500 1950
-Wire Wire Line
-	9000 2050 9500 2050
-Wire Wire Line
-	9000 2250 9500 2250
-Wire Wire Line
-	8800 1550 8000 1550
-Wire Wire Line
-	8800 1650 8000 1650
-Wire Wire Line
-	8800 1750 8000 1750
-Wire Wire Line
-	8800 1850 8000 1850
-Wire Wire Line
-	8800 1950 8000 1950
-Wire Wire Line
-	8800 2050 8000 2050
-Wire Wire Line
-	8800 2150 8000 2150
-Wire Wire Line
-	8800 2250 8000 2250
-Text Notes 8000 1300 0    50   ~ 0
-Timer circuit to restrict relay signals to 0.8s
-Wire Notes Line
-	7500 1150 10250 1150
-Wire Notes Line
-	10250 2500 7500 2500
-Wire Notes Line
-	7500 2500 7500 1150
 Text Notes 6400 3850 1    50   ~ 0
 Resistors for diodes
 Text Notes 1750 4800 1    50   ~ 0
 Amplify 5V logic signals to 12V to operate relay coils, includes filtering
 $Sheet
-S 8200 4600 900  1500
+S 6700 2750 900  1500
 U 5FC6571E
 F0 "MultiVibratorAC1" 50
 F1 "MultiVibrator.sch" 50
@@ -657,133 +391,576 @@ Text HLabel 1900 5600 0    50   Input ~ 0
 MUX_C4_ON
 Text HLabel 1850 5750 0    50   Input ~ 0
 MUX_C4_OFF
-Text HLabel 8000 1550 0    50   Output ~ 0
-MV1_RC1
-Text HLabel 8000 1650 0    50   Output ~ 0
-MV1_RC2
-Text HLabel 8000 1750 0    50   Output ~ 0
-MV2_RC1
-Text HLabel 8000 1850 0    50   Output ~ 0
-MV2_RC2
-Text HLabel 8000 1950 0    50   Output ~ 0
-MV3_RC1
-Text HLabel 8000 2050 0    50   Output ~ 0
-MV3_RC2
-Text HLabel 8000 2150 0    50   Output ~ 0
-MV4_RC1
-Text HLabel 8000 2250 0    50   Output ~ 0
-MV4_RC2
-Text HLabel 9500 1550 0    50   BiDi ~ 0
-MV1_R1
-Text HLabel 9500 1650 0    50   BiDi ~ 0
-MV1_R2
-Text HLabel 9500 1750 0    50   BiDi ~ 0
-MV2_R1
-Text HLabel 9500 1850 0    50   BiDi ~ 0
-MV2_R2
-Text HLabel 9500 1950 0    50   BiDi ~ 0
-MV3_R1
-Text HLabel 9500 2050 0    50   BiDi ~ 0
-MV3_R2
-Text HLabel 9500 2150 0    50   BiDi ~ 0
-MV4_R1
-Text HLabel 9500 2250 0    50   BiDi ~ 0
-MV4_R2
-Wire Wire Line
-	9000 2150 9500 2150
-Text Notes 8150 3000 0    50   ~ 0
+Text Notes 7650 750  2    50   ~ 0
 Pull-up resistors for multivibrator inputs
-Wire Notes Line
-	7500 2850 10250 2850
-Wire Notes Line
-	7500 4200 7500 2850
-Wire Notes Line
-	10250 4200 7500 4200
-Wire Notes Line
-	10250 1150 10250 2500
-Wire Notes Line
-	10250 2850 10250 4200
 $Comp
 L BoatControl:4116R-1-103LF RN?
 U 1 1 5FF784D2
-P 9350 3350
-F 0 "RN?" H 9800 3615 50  0000 C CNN
-F 1 "4116R-1-103LF" H 9800 3524 50  0000 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 10100 3450 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 10100 3350 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 10100 3250 50  0001 L CNN "Description"
-F 5 "4.69" H 10100 3150 50  0001 L CNN "Height"
-F 6 "Bourns" H 10100 3050 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 10100 2950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 10100 2850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 10100 2750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 10100 2650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 10100 2550 50  0001 L CNN "Mouser Price/Stock"
-	1    9350 3350
-	-1   0    0    -1  
+P 7900 750
+AR Path="/D16552B4/5FA17F38/5FF784D2" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5FF784D2" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5FF784D2" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5FF784D2" Ref="RN?"  Part="1" 
+F 0 "RN?" H 8350 1015 50  0000 C CNN
+F 1 "4116R-1-103LF" H 8350 924 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 8650 850 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 8650 750 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 8650 650 50  0001 L CNN "Description"
+F 5 "4.69" H 8650 550 50  0001 L CNN "Height"
+F 6 "Bourns" H 8650 450 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 8650 350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 8650 250 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 8650 150 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 8650 50  50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 8650 -50 50  0001 L CNN "Mouser Price/Stock"
+	1    7900 750 
+	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	7900 600  7900 750 
+Wire Wire Line
+	7900 600  8000 600 
+Wire Wire Line
+	8000 600  8000 750 
+Wire Wire Line
+	8100 600  8100 750 
+Wire Wire Line
+	8000 600  8100 600 
+Connection ~ 8000 600 
+Wire Wire Line
+	8200 600  8200 750 
+Wire Wire Line
+	8100 600  8200 600 
+Connection ~ 8100 600 
+Wire Wire Line
+	8200 600  8300 600 
+Wire Wire Line
+	8300 600  8300 750 
+Connection ~ 8200 600 
+Wire Wire Line
+	8300 600  8400 600 
+Wire Wire Line
+	8400 600  8400 750 
+Connection ~ 8300 600 
+Wire Wire Line
+	8400 600  8500 600 
+Wire Wire Line
+	8500 600  8500 750 
+Connection ~ 8400 600 
+Wire Wire Line
+	8500 600  8600 600 
+Wire Wire Line
+	8600 600  8600 750 
+Connection ~ 8500 600 
+Text HLabel 8000 1650 3    50   Output ~ 0
+MV1_DIG_ON_PULL
+Text HLabel 8100 1650 3    50   Output ~ 0
+MV1_AN_OFF_PULL
+Text HLabel 8200 1650 3    50   Output ~ 0
+MV1_DIG_OFF_PULL
+Text HLabel 8300 1650 3    50   Output ~ 0
+MV2_AN_ON_PULL
+Text HLabel 8400 1650 3    50   Output ~ 0
+MV2_AN_OFF_PULL
+Text HLabel 8500 1650 3    50   Output ~ 0
+MV2_DIG_ON_PULL
+Text HLabel 8600 1650 3    50   Output ~ 0
+MV2_DIG_OFF_PULL
+$Comp
+L BoatControl:4116R-1-103LF RN?
+U 1 1 5FD52518
+P 9050 750
+AR Path="/D16552B4/5FA17F38/5FD52518" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5FD52518" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5FD52518" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5FD52518" Ref="RN?"  Part="1" 
+F 0 "RN?" H 9500 1015 50  0000 C CNN
+F 1 "4116R-1-103LF" H 9500 924 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 9800 850 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 9800 750 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 9800 650 50  0001 L CNN "Description"
+F 5 "4.69" H 9800 550 50  0001 L CNN "Height"
+F 6 "Bourns" H 9800 450 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 9800 350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 9800 250 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 9800 150 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 9800 50  50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 9800 -50 50  0001 L CNN "Mouser Price/Stock"
+	1    9050 750 
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9050 600  9050 750 
+Wire Wire Line
+	9050 600  9150 600 
+Wire Wire Line
+	9150 600  9150 750 
+Wire Wire Line
+	9250 600  9250 750 
+Wire Wire Line
+	9150 600  9250 600 
+Connection ~ 9150 600 
+Wire Wire Line
+	9350 600  9350 750 
+Wire Wire Line
+	9250 600  9350 600 
+Connection ~ 9250 600 
+Wire Wire Line
+	9350 600  9450 600 
+Wire Wire Line
+	9450 600  9450 750 
+Connection ~ 9350 600 
+Wire Wire Line
+	9450 600  9550 600 
+Wire Wire Line
+	9550 600  9550 750 
+Connection ~ 9450 600 
+Wire Wire Line
+	9550 600  9650 600 
+Wire Wire Line
+	9650 600  9650 750 
+Connection ~ 9550 600 
+Wire Wire Line
+	9650 600  9750 600 
+Wire Wire Line
+	9750 600  9750 750 
+Connection ~ 9650 600 
+Text HLabel 9050 1650 3    50   Output ~ 0
+MV3_AN_ON_PULL
+Text HLabel 9150 1650 3    50   Output ~ 0
+MV3_DIG_ON_PULL
+Text HLabel 9250 1650 3    50   Output ~ 0
+MV3_AN_OFF_PULL
+Text HLabel 9350 1650 3    50   Output ~ 0
+MV3_DIG_OFF_PULL
+Text HLabel 9450 1650 3    50   Output ~ 0
+MV4_AN_ON_PULL
+Text HLabel 9550 1650 3    50   Output ~ 0
+MV4_AN_OFF_PULL
+Text HLabel 9650 1650 3    50   Output ~ 0
+MV4_DIG_ON_PULL
+Text HLabel 9750 1650 3    50   Output ~ 0
+MV4_DIG_OFF_PULL
+Connection ~ 7900 600 
 $Comp
 L power:+5V #PWR?
 U 1 1 5FF7A29F
-P 9500 3350
-F 0 "#PWR?" H 9500 3200 50  0001 C CNN
-F 1 "+5V" H 9515 3523 50  0000 C CNN
-F 2 "" H 9500 3350 50  0001 C CNN
-F 3 "" H 9500 3350 50  0001 C CNN
-	1    9500 3350
+P 7900 600
+AR Path="/D16552B4/5FA17F38/5FF7A29F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5FF7A29F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5FF7A29F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5FF7A29F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 450 50  0001 C CNN
+F 1 "+5V" H 7915 773 50  0000 C CNN
+F 2 "" H 7900 600 50  0001 C CNN
+F 3 "" H 7900 600 50  0001 C CNN
+	1    7900 600 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 600  8600 600 
+Connection ~ 9050 600 
+Connection ~ 8600 600 
+Wire Wire Line
+	5450 2900 5450 3400
+$Sheet
+S 7750 2750 900  1500
+U 5FDE25F0
+F0 "MultiVibratorAC2" 50
+F1 "MultiVibrator.sch" 50
+$EndSheet
+$Sheet
+S 8850 2750 900  1500
+U 5FDE84B5
+F0 "MultiVibratorAC3" 50
+F1 "MultiVibrator.sch" 50
+$EndSheet
+$Sheet
+S 9950 2750 900  1500
+U 5FDEE36D
+F0 "MultiVibratorAC4" 50
+F1 "MultiVibrator.sch" 50
+$EndSheet
+Text Notes 7100 2600 0    50   ~ 0
+Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
+Text HLabel 7900 1650 3    50   Output ~ 0
+MV1_AN_ON_PULL
+Text HLabel 7050 4100 1    50   Output ~ 0
+MV1_RC1
+Wire Notes Line
+	8200 7200 9550 7200
+Text HLabel 10800 3600 0    50   BiDi ~ 0
+MV4_R2
+Text HLabel 10000 3600 2    50   BiDi ~ 0
+MV4_R1
+Text HLabel 9650 3600 0    50   BiDi ~ 0
+MV3_R2
+Text HLabel 8900 3600 2    50   BiDi ~ 0
+MV3_R1
+Text HLabel 8600 3600 0    50   BiDi ~ 0
+MV2_R2
+Text HLabel 7800 3600 2    50   BiDi ~ 0
+MV2_R1
+Text HLabel 7550 3600 0    50   BiDi ~ 0
+MV1_R2
+Text HLabel 6750 3600 2    50   BiDi ~ 0
+MV1_R1
+Text HLabel 10450 4100 1    50   Output ~ 0
+MV4_RC2
+Text HLabel 10300 4100 1    50   Output ~ 0
+MV4_RC1
+Text HLabel 9350 4100 1    50   Output ~ 0
+MV3_RC2
+Text HLabel 9200 4100 1    50   Output ~ 0
+MV3_RC1
+Text HLabel 8250 4100 1    50   Output ~ 0
+MV2_RC2
+Text HLabel 8100 4100 1    50   Output ~ 0
+MV2_RC1
+Text HLabel 7200 4100 1    50   Output ~ 0
+MV1_RC2
+Text Notes 7800 6450 0    50   ~ 0
+Timer circuit to restrict relay signals to 0.8s
+$Comp
+L Device:C_Small C?
+U 1 1 5F5ADCB0
+P 10450 4500
+AR Path="/5F5ADCB0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F5ADCB0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F5ADCB0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F5ADCB0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F5ADCB0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F5ADCB0" Ref="C1808"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F5ADCB0" Ref="C308"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F5ADCB0" Ref="C808"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F5ADCB0" Ref="C1308"  Part="1" 
+F 0 "C308" H 10500 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 10550 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10450 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 10450 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 10450 4500 50  0001 C CNN "Type"
+	1    10450 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5AB05C
+P 10300 4500
+AR Path="/5F5AB05C" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F5AB05C" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F5AB05C" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F5AB05C" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F5AB05C" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F5AB05C" Ref="C1807"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F5AB05C" Ref="C307"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F5AB05C" Ref="C807"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F5AB05C" Ref="C1307"  Part="1" 
+F 0 "C307" H 10050 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 10200 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10300 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 10300 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 10300 4500 50  0001 C CNN "Type"
+	1    10300 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5A837A
+P 9350 4500
+AR Path="/5F5A837A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F5A837A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F5A837A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F5A837A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F5A837A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F5A837A" Ref="C1806"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F5A837A" Ref="C306"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F5A837A" Ref="C806"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F5A837A" Ref="C1306"  Part="1" 
+F 0 "C306" H 9400 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 9450 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9350 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 9350 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 9350 4500 50  0001 C CNN "Type"
+	1    9350 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5A55EC
+P 9200 4500
+AR Path="/5F5A55EC" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F5A55EC" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F5A55EC" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F5A55EC" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F5A55EC" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F5A55EC" Ref="C1805"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F5A55EC" Ref="C305"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F5A55EC" Ref="C805"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F5A55EC" Ref="C1305"  Part="1" 
+F 0 "C305" H 8950 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 9100 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9200 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 9200 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 9200 4500 50  0001 C CNN "Type"
+	1    9200 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F5A2902
+P 8250 4500
+AR Path="/5F5A2902" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F5A2902" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F5A2902" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F5A2902" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F5A2902" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F5A2902" Ref="C1804"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F5A2902" Ref="C304"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F5A2902" Ref="C804"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F5A2902" Ref="C1304"  Part="1" 
+F 0 "C304" H 8300 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 8350 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8250 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8250 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8250 4500 50  0001 C CNN "Type"
+	1    8250 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F59FA88
+P 8100 4500
+AR Path="/5F59FA88" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F59FA88" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F59FA88" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F59FA88" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F59FA88" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F59FA88" Ref="C1803"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F59FA88" Ref="C303"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F59FA88" Ref="C803"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F59FA88" Ref="C1303"  Part="1" 
+F 0 "C303" H 7850 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 8000 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8100 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 8100 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 8100 4500 50  0001 C CNN "Type"
+	1    8100 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F59CDBA
+P 7200 4500
+AR Path="/5F59CDBA" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F59CDBA" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F59CDBA" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F59CDBA" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F59CDBA" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F59CDBA" Ref="C1802"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F59CDBA" Ref="C302"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F59CDBA" Ref="C802"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F59CDBA" Ref="C1302"  Part="1" 
+F 0 "C302" H 7250 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 7300 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7200 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 7200 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 7200 4500 50  0001 C CNN "Type"
+	1    7200 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F542D59
+P 7050 4500
+AR Path="/5F542D59" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F542D59" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F542D59" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F542D59" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F542D59" Ref="C1801"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F542D59" Ref="C301"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F542D59" Ref="C801"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F542D59" Ref="C1301"  Part="1" 
+F 0 "C301" H 6750 4400 50  0000 L CNN
+F 1 "107CKS016M 100UF" V 6950 4550 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7050 4500 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 7050 4500 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 7050 4500 50  0001 C CNN "Type"
+	1    7050 4500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10300 4100 10300 4400
+Wire Wire Line
+	10450 4100 10450 4400
+Wire Wire Line
+	9350 4400 9350 4100
+Wire Wire Line
+	9200 4100 9200 4400
+Wire Wire Line
+	8250 4400 8250 4100
+Wire Wire Line
+	8100 4400 8100 4100
+Wire Wire Line
+	7200 4400 7200 4100
+Wire Wire Line
+	10450 5750 10450 4600
+Wire Wire Line
+	10800 3600 10900 3600
+Wire Wire Line
+	10900 3600 10900 5750
+Wire Wire Line
+	10900 5750 10450 5750
+Connection ~ 10450 5750
+Wire Wire Line
+	10300 5700 10300 4600
+Wire Wire Line
+	10000 3600 9900 3600
+Wire Wire Line
+	9900 3600 9900 5700
+Wire Wire Line
+	9900 5700 10300 5700
+Wire Wire Line
+	9650 3600 9800 3600
+Wire Wire Line
+	9800 3600 9800 5650
+Wire Wire Line
+	9800 5650 9350 5650
+Wire Wire Line
+	9350 4600 9350 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 5650 8900 5650
+Wire Wire Line
+	9200 4600 9200 5600
+Wire Wire Line
+	9200 5600 8800 5600
+Wire Wire Line
+	8900 3600 8800 3600
+Wire Wire Line
+	8800 3600 8800 5600
+Connection ~ 8800 5600
+Connection ~ 9900 5700
+Wire Wire Line
+	9100 5750 9100 5800
+Wire Wire Line
+	9000 5800 9000 5700
+Connection ~ 9000 6200
+Wire Wire Line
+	9000 6200 9100 6200
+Wire Wire Line
+	8900 5650 8900 5800
+Connection ~ 8900 6200
+Wire Wire Line
+	9000 6200 8900 6200
+Wire Wire Line
+	8800 5600 8800 5800
+Connection ~ 8800 6200
+Wire Wire Line
+	8900 6200 8800 6200
+Connection ~ 8700 6200
+Wire Wire Line
+	8800 6200 8700 6200
+Connection ~ 8600 6200
+Wire Wire Line
+	8700 6200 8600 6200
+Connection ~ 8500 6200
+Wire Wire Line
+	8600 6200 8500 6200
+Wire Wire Line
+	8500 6200 8400 6200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F67319F
+P 8400 6200
+AR Path="/D16552B4/D2B5CDA9/5F67319F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F67319F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F67319F" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F67319F" Ref="#PWR01803"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F67319F" Ref="#PWR0303"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F67319F" Ref="#PWR0803"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F67319F" Ref="#PWR01303"  Part="1" 
+F 0 "#PWR0303" H 8400 6050 50  0001 C CNN
+F 1 "+5V" H 8150 6150 50  0000 L CNN
+F 2 "" H 8400 6200 50  0001 C CNN
+F 3 "" H 8400 6200 50  0001 C CNN
+	1    8400 6200
+	1    0    0    1   
+$EndComp
+Connection ~ 8400 6200
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 5F542D5F
+P 8800 6000
+AR Path="/5F542D5F" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/5F542D5F" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/5F542D5F" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/5F542D5F" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/5F542D5F" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5F542D5F" Ref="RN1802"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5F542D5F" Ref="RN302"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5F542D5F" Ref="RN802"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5F542D5F" Ref="RN1302"  Part="1" 
+F 0 "RN302" V 9250 5950 50  0000 L CNN
+F 1 "4120R-1-103LF" H 7650 6000 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 9275 6000 50  0001 C CNN
+F 3 "~" H 8800 6000 50  0001 C CNN
+	1    8800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 3350 9350 3350
+	9000 5700 9900 5700
 Wire Wire Line
-	9500 3350 9500 3450
+	9100 5750 10450 5750
 Wire Wire Line
-	9500 3450 9350 3450
-Connection ~ 9500 3350
+	8700 5800 8700 5600
 Wire Wire Line
-	9500 3550 9350 3550
+	8700 3600 8600 3600
 Wire Wire Line
-	9500 3450 9500 3550
-Connection ~ 9500 3450
+	8250 4600 8250 5600
 Wire Wire Line
-	9500 3650 9350 3650
+	8250 5600 8700 5600
+Connection ~ 8700 5600
 Wire Wire Line
-	9500 3550 9500 3650
-Connection ~ 9500 3550
+	8700 5600 8700 3600
 Wire Wire Line
-	9500 3650 9500 3750
+	8400 5800 8400 5750
 Wire Wire Line
-	9500 3750 9350 3750
-Connection ~ 9500 3650
+	8400 5750 7050 5750
 Wire Wire Line
-	9500 3750 9500 3850
+	7050 5750 7050 4600
 Wire Wire Line
-	9500 3850 9350 3850
-Connection ~ 9500 3750
+	7050 5750 6650 5750
 Wire Wire Line
-	9500 3850 9500 3950
+	6650 5750 6650 3600
 Wire Wire Line
-	9500 3950 9350 3950
-Connection ~ 9500 3850
+	6650 3600 6750 3600
+Connection ~ 7050 5750
 Wire Wire Line
-	9500 3950 9500 4050
+	7050 4100 7050 4400
 Wire Wire Line
-	9500 4050 9350 4050
-Connection ~ 9500 3950
-Text HLabel 8450 3350 0    50   Output ~ 0
-MV1_AN_ON_PULL
-Text HLabel 8450 3450 0    50   Output ~ 0
-MV1_DIG_ON_PULL
-Text HLabel 8450 3550 0    50   Output ~ 0
-MV1_AN_OFF_PULL
-Text HLabel 8450 3650 0    50   Output ~ 0
-MV1_DIG_OFF_PULL
-Text HLabel 8450 3750 0    50   Output ~ 0
-MV2_AN_ON_PULL
-Text HLabel 8450 3850 0    50   Output ~ 0
-MV2_AN_OFF_PULL
-Text HLabel 8450 3950 0    50   Output ~ 0
-MV2_DIG_ON_PULL
-Text HLabel 8450 4050 0    50   Output ~ 0
-MV2_DIG_OFF_PULL
+	7200 4600 7200 5700
+Wire Wire Line
+	7200 5700 7650 5700
+Wire Wire Line
+	8500 5700 8500 5800
+Wire Wire Line
+	7550 3600 7650 3600
+Wire Wire Line
+	7650 3600 7650 5700
+Connection ~ 7650 5700
+Wire Wire Line
+	7650 5700 8500 5700
+Wire Wire Line
+	7800 3600 7700 3600
+Wire Wire Line
+	7700 3600 7700 5650
+Wire Wire Line
+	7700 5650 8100 5650
+Wire Wire Line
+	8600 5650 8600 5800
+Wire Wire Line
+	8100 4600 8100 5650
+Connection ~ 8100 5650
+Wire Wire Line
+	8100 5650 8600 5650
 $EndSCHEMATC
