@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 29 71
 Title "Boat Control Hat"
 Date "2020-07-09"
-Rev "2"
+Rev "3"
 Comp "Rugludallur"
 Comment1 "www.dallur.com"
 Comment2 "boatcontrol@dallur.com"

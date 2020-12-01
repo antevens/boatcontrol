@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 71
 Title "Boat Control Hat"
-Date "2020-07-09"
-Rev "2"
+Date "2020-11-30"
+Rev "3"
 Comp "Rugludallur"
 Comment1 "www.dallur.com"
 Comment2 "boatcontrol@dallur.com"

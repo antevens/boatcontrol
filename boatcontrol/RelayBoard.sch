@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 34 71
 Title "Boat Control Hat"
 Date "2020-07-09"
-Rev "2"
+Rev "3"
 Comp "Rugludallur"
 Comment1 "www.dallur.com"
 Comment2 "boatcontrol@dallur.com"
@@ -697,10 +697,10 @@ Wire Wire Line
 Connection ~ 250  3800
 Connection ~ 250  4300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0166
 U 1 1 60E5FB29
 P 250 4300
-F 0 "#PWR?" H 250 4050 50  0001 C CNN
+F 0 "#PWR0166" H 250 4050 50  0001 C CNN
 F 1 "GND" H 255 4127 50  0000 C CNN
 F 2 "" H 250 4300 50  0001 C CNN
 F 3 "" H 250 4300 50  0001 C CNN
