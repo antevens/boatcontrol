@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 71
+Sheet 3 87
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -190,7 +190,7 @@ $EndComp
 $Sheet
 S 4200 4300 700  1150
 U 5FD94301
-F0 "sheet5FD942F1" 50
+F0 "MultiVibrator3A2" 50
 F1 "MultiVibrator.sch" 50
 F2 "DIG_OFF" I L 4200 4950 50 
 F3 "AN_OFF" I L 4200 4750 50 
@@ -251,7 +251,7 @@ $EndComp
 $Sheet
 S 5650 4300 700  1150
 U 5FDB4619
-F0 "sheet5FDB4609" 50
+F0 "MultiVibrator3A3" 50
 F1 "MultiVibrator.sch" 50
 F2 "DIG_OFF" I L 5650 4950 50 
 F3 "AN_OFF" I L 5650 4750 50 
@@ -554,7 +554,7 @@ Connection ~ 5650 7300
 $Sheet
 S 2750 4300 700  1150
 U 5FC6571E
-F0 "MultiVibratorAC1" 50
+F0 "MultiVibrator3A1" 50
 F1 "MultiVibrator.sch" 50
 F2 "DIG_OFF" I L 2750 4950 50 
 F3 "AN_OFF" I L 2750 4750 50 
@@ -574,7 +574,7 @@ $EndSheet
 $Sheet
 S 7100 4300 700  1150
 U 5FDBB718
-F0 "sheet5FDBB708" 50
+F0 "MultiVibrator3A4" 50
 F1 "MultiVibrator.sch" 50
 F2 "DIG_OFF" I L 7100 4950 50 
 F3 "AN_OFF" I L 7100 4750 50 
