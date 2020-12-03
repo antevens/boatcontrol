@@ -130,7 +130,7 @@ F 3 "~" H 5400 950 50  0001 C CNN
 	1    5400 950 
 	1    0    0    1   
 $EndComp
-Text Notes 9950 3200 2    50   ~ 0
+Text Notes 8700 3100 2    50   ~ 0
 Amplify 5V logic signals to 12V to operate relay coils, includes filtering
 Text Notes 7100 4100 0    50   ~ 0
 Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
