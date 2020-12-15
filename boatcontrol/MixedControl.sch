@@ -269,21 +269,6 @@ F 3 "~" H 9750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
-U 1 1 E15696A0
-P 9750 4000
-AR Path="/E15696A0" Ref="H?"  Part="1" 
-AR Path="/E0EE2714/E15696A0" Ref="H?"  Part="1" 
-AR Path="/E0EE2714/E1383403/E15696A0" Ref="H?"  Part="1" 
-AR Path="/E171B33C/E15696A0" Ref="H3904"  Part="1" 
-F 0 "H3904" H 9700 3850 50  0000 L CNN
-F 1 "MountingHole" H 9850 3955 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 9750 4000 50  0001 C CNN
-F 3 "~" H 9750 4000 50  0001 C CNN
-	1    9750 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x20_Odd_Even J?
 U 1 1 E156969A
 P 8550 3800
@@ -642,4 +627,19 @@ Connection ~ 8450 3600
 Wire Wire Line
 	8550 3600 8550 4100
 Connection ~ 8550 4100
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 E15696A0
+P 9750 4000
+AR Path="/E15696A0" Ref="H?"  Part="1" 
+AR Path="/E0EE2714/E15696A0" Ref="H?"  Part="1" 
+AR Path="/E0EE2714/E1383403/E15696A0" Ref="H?"  Part="1" 
+AR Path="/E171B33C/E15696A0" Ref="H3904"  Part="1" 
+F 0 "H3904" H 9700 3850 50  0000 L CNN
+F 1 "MountingHole" H 9850 3955 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9750 4000 50  0001 C CNN
+F 3 "~" H 9750 4000 50  0001 C CNN
+	1    9750 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

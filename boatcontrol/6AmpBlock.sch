@@ -13,391 +13,780 @@ Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4950 2550 4950 2850
+Wire Wire Line
+	6950 2550 4950 2550
+Wire Wire Line
+	4850 2500 4850 2850
+Wire Wire Line
+	6900 2500 4850 2500
+Wire Wire Line
+	6900 1650 6900 2500
+Wire Wire Line
+	7000 1650 6900 1650
+Wire Wire Line
+	4750 2450 5300 2450
+Wire Wire Line
+	4750 2450 4750 2850
+Wire Wire Line
+	5300 1500 5300 2450
+Connection ~ 5300 1500
+Wire Wire Line
+	4650 2400 4650 2850
+Wire Wire Line
+	5250 2400 4650 2400
+Wire Wire Line
+	5250 1650 5250 2400
+Wire Wire Line
+	5350 1650 5250 1650
+Wire Wire Line
+	3650 2500 4550 2500
+Wire Wire Line
+	4550 2500 4550 2850
+Wire Wire Line
+	3600 1650 3600 2550
+Connection ~ 3600 1650
+Wire Wire Line
+	3600 500  3600 1650
+Wire Wire Line
+	3600 1650 3750 1650
+Wire Wire Line
+	3600 500  4500 500 
+Wire Wire Line
+	3650 1500 3650 2500
+Connection ~ 3650 1500
+Wire Wire Line
+	4450 2550 4450 2850
+Wire Wire Line
+	3600 2550 4450 2550
+Wire Wire Line
+	2000 2600 4350 2600
+Wire Wire Line
+	4350 2600 4350 2850
+Wire Wire Line
+	1950 1650 2100 1650
+Wire Wire Line
+	1950 1650 1950 2650
+Connection ~ 1950 1650
+Wire Wire Line
+	1950 600  4300 600 
+Wire Wire Line
+	4250 2650 4250 2850
+Wire Wire Line
+	1950 2650 4250 2650
+Wire Wire Line
+	1950 600  1950 1650
+Connection ~ 7000 1650
+Wire Wire Line
+	7000 500  7000 1650
+Wire Wire Line
+	4250 3700 1900 3700
+Wire Wire Line
+	1900 4500 2100 4500
+Wire Wire Line
+	1900 3700 1900 4500
+Wire Wire Line
+	1950 3750 4350 3750
+Wire Wire Line
+	1950 4400 1950 3750
+Wire Wire Line
+	2100 4400 1950 4400
+Wire Wire Line
+	4650 3650 4650 4500
+Wire Wire Line
+	4750 3650 4750 4400
+Wire Wire Line
+	4900 500  4900 700 
+Wire Wire Line
+	7000 500  4900 500 
+Connection ~ 6950 1500
+Wire Wire Line
+	4800 550  4800 700 
+Wire Wire Line
+	6950 550  4800 550 
+Wire Wire Line
+	6950 1500 6950 550 
+Connection ~ 5350 1650
+Wire Wire Line
+	4700 600  4700 700 
+Wire Wire Line
+	5350 600  4700 600 
+Wire Wire Line
+	5350 1650 5350 600 
+Wire Wire Line
+	4600 650  4600 700 
+Wire Wire Line
+	5300 650  4600 650 
+Wire Wire Line
+	5300 1500 5300 650 
+Wire Wire Line
+	4500 500  4500 700 
+Wire Wire Line
+	3650 550  3650 1500
+Wire Wire Line
+	4400 550  4400 700 
+Wire Wire Line
+	3650 550  4400 550 
+Wire Wire Line
+	4300 600  4300 700 
+Connection ~ 2000 1500
+Wire Wire Line
+	2000 650  2000 1500
+Wire Wire Line
+	4200 650  4200 700 
+Wire Wire Line
+	2000 650  4200 650 
+Wire Wire Line
+	3150 1100 4200 1100
+Wire Wire Line
+	4400 1350 4800 1350
+Wire Wire Line
+	4800 1500 4750 1500
+Wire Wire Line
+	4800 1350 4800 1500
+Wire Wire Line
+	4750 1650 4850 1650
+Wire Wire Line
+	4500 1300 4850 1300
+Wire Wire Line
+	4850 1300 4850 1650
+Wire Wire Line
+	3050 4650 3550 4650
+Wire Wire Line
+	3050 4650 3050 6000
+Wire Wire Line
+	3100 4750 3100 5950
+Wire Wire Line
+	3100 4750 3550 4750
+Wire Wire Line
+	3150 4850 3150 5900
+Wire Wire Line
+	3150 4850 3550 4850
+Wire Wire Line
+	3200 4950 3200 5850
+Wire Wire Line
+	3200 4950 3550 4950
+Wire Wire Line
+	4950 4950 4950 5550
+Wire Wire Line
+	4950 4950 5000 4950
+Wire Wire Line
+	4900 4850 4900 5600
+Wire Wire Line
+	4900 4850 5000 4850
+Wire Wire Line
+	4850 4750 4850 5650
+Wire Wire Line
+	4850 4750 5000 4750
+Wire Wire Line
+	4800 4650 4800 5700
+Wire Wire Line
+	4800 4650 5000 4650
+Wire Wire Line
+	2050 4950 2050 6250
+Wire Wire Line
+	2050 4950 2100 4950
+Wire Wire Line
+	2000 4850 2000 6300
+Wire Wire Line
+	2000 4850 2100 4850
+Wire Wire Line
+	1950 4750 1950 6350
+Wire Wire Line
+	1950 4750 2100 4750
+Wire Wire Line
+	1900 4650 1900 6400
+Wire Wire Line
+	1900 4650 2100 4650
+Wire Wire Line
+	6250 4650 6250 6200
+Wire Wire Line
+	6250 4650 6450 4650
+Wire Wire Line
+	6300 4750 6300 6250
+Wire Wire Line
+	6300 4750 6450 4750
+Wire Wire Line
+	6350 4850 6350 6300
+Wire Wire Line
+	6350 4850 6450 4850
+Wire Wire Line
+	6400 4950 6400 6350
+Wire Wire Line
+	6400 4950 6450 4950
+Wire Wire Line
+	4900 6000 7200 6000
 $Sheet
-S 4550 1450 1000 700 
-U D2F3142A
-F0 "6AC3" 50
-F1 "6AmpCircuit.sch" 50
-F2 "ON" B L 4550 1550 50 
-F3 "OFF" B L 4550 1700 50 
-F4 "ON_LED" I R 5550 1550 50 
-F5 "OFF_LED" I R 5550 1700 50 
-F6 "OUT" O R 5550 2050 50 
-F7 "IN" I L 4550 2050 50 
+S 2100 4300 700  750 
+U 6057BBED
+F0 "MultiVibrator6A1" 50
+F1 "MultiVibrator.sch" 50
+F2 "DIG_OFF" I L 2100 4950 50 
+F3 "AN_OFF" I L 2100 4750 50 
+F4 "MUX_ON" O L 2100 4500 50 
+F5 "MUX_OFF" O L 2100 4400 50 
+F6 "RC1" B R 2800 4950 50 
+F7 "RC2" B R 2800 4850 50 
+F8 "R1" B R 2800 4750 50 
+F9 "R2" B R 2800 4650 50 
+F10 "DIG_ON" I L 2100 4850 50 
+F11 "AN_ON" I L 2100 4650 50 
 $EndSheet
 $Sheet
-S 6200 1450 1000 700 
-U D2B5CDA6
-F0 "6AC4" 50
-F1 "6AmpCircuit.sch" 50
-F2 "ON" B L 6200 1550 50 
-F3 "OFF" B L 6200 1700 50 
-F4 "ON_LED" I R 7200 1550 50 
-F5 "OFF_LED" I R 7200 1700 50 
-F6 "OUT" O R 7200 2050 50 
-F7 "IN" I L 6200 2050 50 
+S 6450 4300 700  750 
+U 6057BBFD
+F0 "MultiVibrator6A4" 50
+F1 "MultiVibrator.sch" 50
+F2 "DIG_OFF" I L 6450 4950 50 
+F3 "AN_OFF" I L 6450 4750 50 
+F4 "MUX_ON" O L 6450 4500 50 
+F5 "MUX_OFF" O L 6450 4400 50 
+F6 "RC1" B R 7150 4950 50 
+F7 "RC2" B R 7150 4850 50 
+F8 "R1" B R 7150 4750 50 
+F9 "R2" B R 7150 4650 50 
+F10 "DIG_ON" I L 6450 4850 50 
+F11 "AN_ON" I L 6450 4650 50 
 $EndSheet
-Text HLabel 4550 2050 0    50   Input ~ 0
-IN_C2
-Text HLabel 6200 2050 0    50   Input ~ 0
-IN_C3
-Text HLabel 7850 2050 0    50   Input ~ 0
-IN_C4
-Text HLabel 5550 2050 2    50   Output ~ 0
-OUT_C2
-Text HLabel 7200 2050 2    50   Output ~ 0
-OUT_C3
-Text HLabel 8850 2050 2    50   Output ~ 0
-OUT_C4
+Wire Wire Line
+	3400 3850 3400 4400
+Wire Wire Line
+	3350 4500 3350 3800
+Wire Wire Line
+	3550 4500 3350 4500
+Wire Wire Line
+	3400 4400 3550 4400
+Wire Wire Line
+	4300 6000 4300 4950
+Wire Wire Line
+	4300 4950 4250 4950
+Wire Wire Line
+	4350 5950 4350 4850
+Wire Wire Line
+	4350 4850 4250 4850
+Wire Wire Line
+	4400 5900 4400 4750
+Wire Wire Line
+	4250 4750 4400 4750
+Wire Wire Line
+	4450 5850 4450 4650
+Wire Wire Line
+	4450 4650 4250 4650
+Text HLabel 3550 4950 0    50   Output ~ 0
+DIG_OFF_C2
+Text HLabel 3550 4850 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 3550 4750 0    50   Output ~ 0
+AN_OFF_C2
+Text HLabel 3550 4650 0    50   Output ~ 0
+AN_ON_C2
+Wire Wire Line
+	4900 1100 8150 1100
 $Sheet
-S 7850 1450 1000 700 
-U D2F4DB5C
-F0 "6AC1" 50
+S 2100 1400 1000 700 
+U D2F31429
+F0 "6AC2" 50
 F1 "6AmpCircuit.sch" 50
-F2 "ON" B L 7850 1550 50 
-F3 "OFF" B L 7850 1700 50 
-F4 "ON_LED" I R 8850 1550 50 
-F5 "OFF_LED" I R 8850 1700 50 
-F6 "OUT" O R 8850 2050 50 
-F7 "IN" I L 7850 2050 50 
+F2 "ON" B L 2100 1500 50 
+F3 "OFF" B L 2100 1650 50 
+F4 "ON_LED" I R 3100 1500 50 
+F5 "OFF_LED" I R 3100 1650 50 
+F6 "OUT" O R 3100 2000 50 
+F7 "IN" I L 2100 2000 50 
 $EndSheet
+Text HLabel 2100 2000 0    50   Input ~ 0
+IN_C1
+Text HLabel 3100 2000 2    50   Output ~ 0
+OUT_C1
 $Comp
-L power:GND #PWR?
-U 1 1 6057BAFF
-P 5950 3300
-AR Path="/8148B1BC/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/81CB63BE/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/822CFB36/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/828E1EFD/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/828E1F0F/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1B8/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA1B8/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BAFF" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BAFF" Ref="#PWR05202"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BAFF" Ref="#PWR06102"  Part="1" 
-F 0 "#PWR05202" H 5950 3050 50  0001 C CNN
-F 1 "GND" H 5955 3127 50  0000 C CNN
-F 2 "" H 5950 3300 50  0001 C CNN
-F 3 "" H 5950 3300 50  0001 C CNN
-	1    5950 3300
+L power:+12P #PWR?
+U 1 1 6057BD05
+P 4150 2850
+AR Path="/8148B1BC/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/81CB63BE/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/822CFB36/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/828E1EFD/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/828E1F0F/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1B8/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1B8/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BD05" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BD05" Ref="#PWR05201"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BD05" Ref="#PWR06101"  Part="1" 
+F 0 "#PWR05201" H 4150 2700 50  0001 C CNN
+F 1 "+12P" H 4000 2950 50  0000 C CNN
+F 2 "" H 4150 2850 50  0001 C CNN
+F 3 "" H 4150 2850 50  0001 C CNN
+	1    4150 2850
 	1    0    0    -1  
 $EndComp
-Text HLabel 6200 2050 0    50   Input ~ 0
-IN_C3
-Text HLabel 7850 2050 0    50   Input ~ 0
-IN_C4
-Text HLabel 3900 2050 2    50   Output ~ 0
-OUT_C1
-Text HLabel 5550 2050 2    50   Output ~ 0
-OUT_C2
-Text HLabel 7200 2050 2    50   Output ~ 0
-OUT_C3
-Text HLabel 8850 2050 2    50   Output ~ 0
-OUT_C4
+Wire Wire Line
+	3200 1150 3200 1650
+Wire Wire Line
+	8150 1650 8050 1650
+Wire Wire Line
+	8150 1100 8150 1650
+Wire Wire Line
+	8100 1500 8050 1500
+Wire Wire Line
+	8100 1150 8100 1500
+Wire Wire Line
+	4800 1150 8100 1150
+Wire Wire Line
+	4800 1100 4800 1150
+Wire Wire Line
+	6500 1650 6400 1650
+Wire Wire Line
+	6500 1200 6500 1650
+Wire Wire Line
+	4700 1200 6500 1200
+Wire Wire Line
+	4700 1100 4700 1200
+Wire Wire Line
+	6450 1500 6400 1500
+Wire Wire Line
+	6450 1250 6450 1500
+Wire Wire Line
+	4600 1250 6450 1250
+Wire Wire Line
+	4600 1100 4600 1250
+Wire Wire Line
+	4500 1100 4500 1300
+Wire Wire Line
+	4400 1100 4400 1350
+Wire Wire Line
+	3200 1650 3100 1650
+Wire Wire Line
+	4300 1150 3200 1150
+Wire Wire Line
+	4300 1100 4300 1150
+Wire Wire Line
+	3150 1500 3100 1500
+Wire Wire Line
+	3150 1100 3150 1500
+Wire Wire Line
+	5400 1500 5300 1500
+Wire Wire Line
+	5400 1650 5350 1650
+Wire Wire Line
+	6950 1500 6950 2550
+Wire Wire Line
+	7050 1500 6950 1500
+Wire Wire Line
+	7050 1650 7000 1650
+Wire Wire Line
+	3750 1500 3650 1500
+Wire Wire Line
+	2000 1500 2000 2600
+Wire Wire Line
+	2100 1500 2000 1500
+Wire Wire Line
+	5750 4950 5750 5800
+Wire Wire Line
+	5750 5800 4700 5800
+Wire Wire Line
+	5800 4850 5800 5850
+Wire Wire Line
+	5800 5850 4800 5850
+Wire Wire Line
+	5850 4750 5850 5900
+Wire Wire Line
+	4750 5900 4750 6550
+Wire Wire Line
+	5850 5900 4750 5900
+Wire Wire Line
+	4800 6350 4800 5850
+Wire Wire Line
+	5900 4650 5900 5950
+Wire Wire Line
+	5900 5950 4850 5950
+Wire Wire Line
+	5900 4650 5700 4650
+Wire Wire Line
+	5850 4750 5700 4750
+Wire Wire Line
+	5800 4850 5700 4850
+Wire Wire Line
+	7200 4950 7200 6000
+Wire Wire Line
+	7250 4850 7250 6050
+Wire Wire Line
+	5000 6050 7250 6050
+Wire Wire Line
+	7300 4750 7300 6100
+Wire Wire Line
+	4950 6100 7300 6100
+Wire Wire Line
+	7350 4650 7350 6150
+Wire Wire Line
+	5050 6150 7350 6150
+Wire Wire Line
+	5000 6850 5000 6900
+Connection ~ 5000 6850
+Wire Wire Line
+	7350 4650 7150 4650
+Wire Wire Line
+	5050 6850 5050 6150
+Wire Wire Line
+	5000 6850 5050 6850
+Wire Wire Line
+	4900 6800 4900 6900
+Connection ~ 4900 6800
+Wire Wire Line
+	7300 4750 7150 4750
+Wire Wire Line
+	4950 6800 4950 6100
+Wire Wire Line
+	4900 6800 4950 6800
+Wire Wire Line
+	7250 4850 7150 4850
+Wire Wire Line
+	5000 6600 5000 6050
+Wire Wire Line
+	7200 4950 7150 4950
+Wire Wire Line
+	4900 6500 4900 6000
+Wire Wire Line
+	4800 6700 4800 6900
+Connection ~ 4800 6700
+Wire Wire Line
+	4850 6700 4850 5950
+Wire Wire Line
+	4800 6700 4850 6700
+Wire Wire Line
+	4700 6550 4700 6900
+Connection ~ 4700 6550
+Wire Wire Line
+	4700 6550 4750 6550
+Wire Wire Line
+	5600 6200 6250 6200
+Wire Wire Line
+	5700 6250 6300 6250
+Wire Wire Line
+	5800 6300 6350 6300
+Wire Wire Line
+	5900 6350 6400 6350
+Wire Wire Line
+	5750 4950 5700 4950
+Wire Wire Line
+	4700 6250 4700 5800
+Wire Wire Line
+	4550 5850 4450 5850
+Wire Wire Line
+	4450 5900 4400 5900
+Connection ~ 4600 6800
+Wire Wire Line
+	4550 6800 4550 5850
+Wire Wire Line
+	4600 6800 4550 6800
+Connection ~ 4500 6700
+Wire Wire Line
+	4450 6700 4450 5900
+Wire Wire Line
+	4500 6700 4450 6700
+Wire Wire Line
+	4600 5950 4350 5950
+Wire Wire Line
+	4600 6600 4600 5950
+Wire Wire Line
+	4500 6000 4300 6000
+Wire Wire Line
+	4500 6500 4500 6000
+Wire Wire Line
+	5900 6400 5900 6350
+Wire Wire Line
+	5800 6400 5800 6300
+Wire Wire Line
+	5700 6400 5700 6250
+Wire Wire Line
+	5600 6400 5600 6200
+Wire Wire Line
+	5200 5700 4800 5700
+Wire Wire Line
+	5200 6400 5200 5700
+Wire Wire Line
+	5300 5650 4850 5650
+Wire Wire Line
+	5300 6400 5300 5650
+Wire Wire Line
+	5400 5600 4900 5600
+Wire Wire Line
+	5400 6400 5400 5600
+Wire Wire Line
+	5500 5550 4950 5550
+Wire Wire Line
+	5500 6400 5500 5550
+Wire Wire Line
+	4100 5850 3200 5850
+Wire Wire Line
+	4100 6400 4100 5850
+Wire Wire Line
+	4000 5900 3150 5900
+Wire Wire Line
+	4000 6400 4000 5900
+Wire Wire Line
+	3900 5950 3900 6400
+Wire Wire Line
+	3900 5950 3100 5950
+Wire Wire Line
+	3800 6000 3050 6000
+Wire Wire Line
+	3800 6400 3800 6000
+Connection ~ 4400 6550
+Wire Wire Line
+	3000 4650 2800 4650
+Wire Wire Line
+	3000 6050 3000 4650
+Wire Wire Line
+	4350 6050 3000 6050
+Wire Wire Line
+	4350 6500 4350 6050
+Wire Wire Line
+	4400 6500 4350 6500
+Wire Wire Line
+	4400 6550 4400 6500
+Wire Wire Line
+	2950 4750 2950 6100
+Wire Wire Line
+	2900 4850 2900 6150
+Wire Wire Line
+	2850 4950 2850 6200
+Connection ~ 4300 6450
+Wire Wire Line
+	2950 4750 2800 4750
+Wire Wire Line
+	4200 6100 2950 6100
+Wire Wire Line
+	4200 6450 4200 6100
+Wire Wire Line
+	4300 6450 4200 6450
+Wire Wire Line
+	2900 4850 2800 4850
+Wire Wire Line
+	4400 6150 2900 6150
+Wire Wire Line
+	4400 6350 4400 6150
+Wire Wire Line
+	2850 4950 2800 4950
+Wire Wire Line
+	4300 6200 2850 6200
+Wire Wire Line
+	4300 6250 4300 6200
+Wire Wire Line
+	3700 6250 2050 6250
+Wire Wire Line
+	3700 6400 3700 6250
+Wire Wire Line
+	3600 6300 2000 6300
+Wire Wire Line
+	3600 6400 3600 6300
+Wire Wire Line
+	3500 6350 3500 6400
+Wire Wire Line
+	3500 6350 1950 6350
+Wire Wire Line
+	3400 6400 1900 6400
+Wire Wire Line
+	4300 6450 4300 6900
+Wire Wire Line
+	4400 6550 4400 6900
+Wire Wire Line
+	4500 6700 4500 6900
+Wire Wire Line
+	4600 6800 4600 6900
+Wire Wire Line
+	4700 6450 4700 6550
+Wire Wire Line
+	4800 6550 4800 6700
+Wire Wire Line
+	4900 6700 4900 6800
+Wire Wire Line
+	5000 6800 5000 6850
+Wire Wire Line
+	6150 4500 6450 4500
+Wire Wire Line
+	6150 3750 6150 4500
+Wire Wire Line
+	4850 3750 6150 3750
+Wire Wire Line
+	4850 3650 4850 3750
+Wire Wire Line
+	6200 4400 6450 4400
+Wire Wire Line
+	6200 3700 6200 4400
+Wire Wire Line
+	4950 3700 6200 3700
+Wire Wire Line
+	4950 3650 4950 3700
+Wire Wire Line
+	4750 4400 5000 4400
+Wire Wire Line
+	4650 4500 5000 4500
+Wire Wire Line
+	4550 3850 3400 3850
+Wire Wire Line
+	4550 3650 4550 3850
+Wire Wire Line
+	4450 3800 4450 3650
+Wire Wire Line
+	3350 3800 4450 3800
+Wire Wire Line
+	4350 3750 4350 3650
+Wire Wire Line
+	4250 3650 4250 3700
+Connection ~ 5000 7300
+Connection ~ 5200 7300
+Wire Wire Line
+	5200 7300 5000 7300
+Connection ~ 4300 7300
+Connection ~ 4100 7300
+Wire Wire Line
+	4100 7300 4300 7300
+Connection ~ 5900 7300
+Wire Wire Line
+	5800 7300 5700 7300
+Connection ~ 5800 7300
+Wire Wire Line
+	5700 7300 5600 7300
+Connection ~ 5700 7300
+Wire Wire Line
+	5600 7300 5500 7300
+Connection ~ 5600 7300
+Wire Wire Line
+	5500 7300 5400 7300
+Connection ~ 5500 7300
+Wire Wire Line
+	5400 7300 5300 7300
+Connection ~ 5400 7300
+Wire Wire Line
+	5300 7300 5200 7300
+Connection ~ 5300 7300
+Wire Wire Line
+	5900 7300 5800 7300
+Wire Wire Line
+	4000 7300 3900 7300
+Connection ~ 4000 7300
+Wire Wire Line
+	3900 7300 3800 7300
+Connection ~ 3900 7300
+Wire Wire Line
+	3800 7300 3700 7300
+Connection ~ 3800 7300
+Wire Wire Line
+	3700 7300 3600 7300
+Connection ~ 3700 7300
+Wire Wire Line
+	3600 7300 3500 7300
+Connection ~ 3600 7300
+Wire Wire Line
+	3500 7300 3400 7300
+Connection ~ 3500 7300
+Wire Wire Line
+	4100 7300 4000 7300
+Connection ~ 4900 7300
+Wire Wire Line
+	4900 7300 5000 7300
+Connection ~ 4800 7300
+Wire Wire Line
+	4900 7300 4800 7300
+Connection ~ 4700 7300
+Wire Wire Line
+	4800 7300 4700 7300
+Connection ~ 4600 7300
+Wire Wire Line
+	4700 7300 4600 7300
+Wire Wire Line
+	4600 7300 4500 7300
 $Comp
 L Device:R_Pack08 RN?
-U 1 1 6057BB0B
-P 5400 950
-AR Path="/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/8148B1BC/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/81CB63BE/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/822CFB36/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/828E1EFD/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/828E1F0F/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1B8/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA1B8/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB0B" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB0B" Ref="RN5202"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB0B" Ref="RN6102"  Part="1" 
-F 0 "RN5202" H 4600 950 50  0000 L CNN
-F 1 "4116R-1-471" H 5800 950 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 5875 950 50  0001 C CNN
-F 3 "~" H 5400 950 50  0001 C CNN
-	1    5400 950 
-	1    0    0    1   
+U 1 1 6057BBB3
+P 4700 7100
+AR Path="/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BBB3" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BBB3" Ref="RN5203"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BBB3" Ref="RN6103"  Part="1" 
+F 0 "RN5203" H 4550 6800 50  0000 L CNN
+F 1 "4120R-1-103LF" H 4350 6700 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 5175 7100 50  0001 C CNN
+F 3 "~" H 4700 7100 50  0001 C CNN
+	1    4700 7100
+	1    0    0    -1  
 $EndComp
-Text Notes 8700 3100 2    50   ~ 0
-Amplify 5V logic signals to 12V to operate relay coils, includes filtering
-Text Notes 7100 4100 0    50   ~ 0
-Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
-Connection ~ 5300 7350
-Connection ~ 5200 7350
-Wire Wire Line
-	5300 7350 5200 7350
-Wire Wire Line
-	5200 7350 5100 7350
-Text Notes 2750 7750 0    50   ~ 0
-Resistors for multivibrator pull-up and timer circuits for relay pulses.\nThese can be swapped for higher/lower values as needed for longer pulses or more noise resistance.
-$Comp
-L BoatControl:4116R-1-103LF RN?
-U 1 1 6057BB20
-P 6700 7350
-AR Path="/D16552B4/5FA17F38/6057BB20" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB20" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB20" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB20" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB20" Ref="RN5204"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB20" Ref="RN6104"  Part="1" 
-F 0 "RN5204" V 6600 7050 50  0000 C CNN
-F 1 "4116R-1-103LF" V 6500 7050 50  0000 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 7450 7450 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 7450 7350 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 7450 7250 50  0001 L CNN "Description"
-F 5 "4.69" H 7450 7150 50  0001 L CNN "Height"
-F 6 "Bourns" H 7450 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 7450 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 7450 6850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 7450 6750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 7450 6650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 7450 6550 50  0001 L CNN "Mouser Price/Stock"
-	1    6700 7350
-	0    1    -1   0   
-$EndComp
-$Comp
-L BoatControl:4116R-1-103LF RN?
-U 1 1 6057BB2E
-P 4900 7350
-AR Path="/D16552B4/5FA17F38/6057BB2E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB2E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB2E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB2E" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB2E" Ref="RN5201"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB2E" Ref="RN6101"  Part="1" 
-F 0 "RN5201" V 4800 7050 50  0000 C CNN
-F 1 "4116R-1-103LF" V 4700 7050 50  0001 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 5650 7450 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 5650 7350 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 5650 7250 50  0001 L CNN "Description"
-F 5 "4.69" H 5650 7150 50  0001 L CNN "Height"
-F 6 "Bourns" H 5650 7050 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 5650 6950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 5650 6850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 5650 6750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 5650 6650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 5650 6550 50  0001 L CNN "Mouser Price/Stock"
-	1    4900 7350
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 6057BB34
-P 6700 7350
-AR Path="/D16552B4/5FA17F38/6057BB34" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB34" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB34" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB34" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB34" Ref="#PWR05203"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB34" Ref="#PWR06103"  Part="1" 
-F 0 "#PWR05203" H 6700 7200 50  0001 C CNN
-F 1 "+5V" H 6715 7523 50  0000 C CNN
-F 2 "" H 6700 7350 50  0001 C CNN
-F 3 "" H 6700 7350 50  0001 C CNN
-	1    6700 7350
-	0    1    1    0   
-$EndComp
-$Sheet
-S 4350 4350 700  750 
-U 6057BB44
-F0 "MultiVibrator6A2" 50
-F1 "MultiVibrator.sch" 50
-F2 "DIG_OFF" I L 4350 5000 50 
-F3 "AN_OFF" I L 4350 4800 50 
-F4 "MUX_ON" O L 4350 4550 50 
-F5 "MUX_OFF" O L 4350 4450 50 
-F6 "RC1" B R 5050 5000 50 
-F7 "RC2" B R 5050 4900 50 
-F8 "R1" B R 5050 4800 50 
-F9 "R2" B R 5050 4700 50 
-F10 "DIG_ON" I L 4350 4900 50 
-F11 "AN_ON" I L 4350 4700 50 
-$EndSheet
+Text HLabel 2100 2000 0    50   Input ~ 0
+IN_C1
+Text HLabel 3750 2000 0    50   Input ~ 0
+IN_C2
+Text HLabel 2100 4650 0    50   Output ~ 0
+AN_ON_C1
+Text HLabel 2100 4750 0    50   Output ~ 0
+AN_OFF_C1
+Text HLabel 2100 4850 0    50   Output ~ 0
+DIG_ON_C1
+Text HLabel 2100 4950 0    50   Output ~ 0
+DIG_OFF_C1
 $Comp
 L Device:C_Small C?
-U 1 1 6057BB4B
-P 5400 6750
-AR Path="/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB4B" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB4B" Ref="C5204"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB4B" Ref="C6104"  Part="1" 
-F 0 "C5204" V 5450 6600 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4250 6750 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5400 6750 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5400 6750 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5400 6750 50  0001 C CNN "Type"
-	1    5400 6750
+U 1 1 6057BBA7
+P 4400 6450
+AR Path="/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BBA7" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BBA7" Ref="C5202"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BBA7" Ref="C6102"  Part="1" 
+F 0 "C5202" V 4450 6200 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3250 6450 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4400 6450 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4400 6450 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4400 6450 50  0001 C CNN "Type"
+	1    4400 6450
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 6057BB52
-P 5300 6650
-AR Path="/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB52" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB52" Ref="C5203"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB52" Ref="C6103"  Part="1" 
-F 0 "C5203" V 5350 6500 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4200 6650 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5300 6650 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5300 6650 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5300 6650 50  0001 C CNN "Type"
-	1    5300 6650
+U 1 1 6057BBA0
+P 4300 6350
+AR Path="/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BBA0" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BBA0" Ref="C5201"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BBA0" Ref="C6101"  Part="1" 
+F 0 "C5201" V 4350 6100 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3450 6250 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4300 6350 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4300 6350 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4300 6350 50  0001 C CNN "Type"
+	1    4300 6350
 	1    0    0    1   
 $EndComp
-$Sheet
-S 5800 4350 700  750 
-U 6057BB62
-F0 "MultiVibrator6A3" 50
-F1 "MultiVibrator.sch" 50
-F2 "DIG_OFF" I L 5800 5000 50 
-F3 "AN_OFF" I L 5800 4800 50 
-F4 "MUX_ON" O L 5800 4550 50 
-F5 "MUX_OFF" O L 5800 4450 50 
-F6 "RC1" B R 6500 5000 50 
-F7 "RC2" B R 6500 4900 50 
-F8 "R1" B R 6500 4800 50 
-F9 "R2" B R 6500 4700 50 
-F10 "DIG_ON" I L 5800 4900 50 
-F11 "AN_ON" I L 5800 4700 50 
-$EndSheet
-Text HLabel 5800 4700 0    50   Output ~ 0
-AN_ON_C3
-Text HLabel 5800 4800 0    50   Output ~ 0
-AN_OFF_C3
-Text HLabel 5800 4900 0    50   Output ~ 0
-DIG_ON_C3
-Text HLabel 5800 5000 0    50   Output ~ 0
-DIG_OFF_C3
-$Comp
-L Device:C_Small C?
-U 1 1 6057BB6D
-P 5600 6500
-AR Path="/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB6D" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB6D" Ref="C5206"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB6D" Ref="C6106"  Part="1" 
-F 0 "C5206" V 5650 6350 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4450 6500 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5600 6500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5600 6500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5600 6500 50  0001 C CNN "Type"
-	1    5600 6500
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6057BB74
-P 5500 6400
-AR Path="/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB74" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB74" Ref="C5205"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB74" Ref="C6105"  Part="1" 
-F 0 "C5205" V 5550 6250 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4400 6400 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5500 6400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5500 6400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5500 6400 50  0001 C CNN "Type"
-	1    5500 6400
-	1    0    0    1   
-$EndComp
-Text HLabel 7250 4700 0    50   Output ~ 0
-AN_ON_C4
-Text HLabel 7250 4800 0    50   Output ~ 0
-AN_OFF_C4
-Text HLabel 7250 4900 0    50   Output ~ 0
-DIG_ON_C4
-Text HLabel 7250 5000 0    50   Output ~ 0
-DIG_OFF_C4
-$Comp
-L Device:C_Small C?
-U 1 1 6057BB7F
-P 5800 6750
-AR Path="/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB7F" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB7F" Ref="C5208"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB7F" Ref="C6108"  Part="1" 
-F 0 "C5208" V 5850 6600 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4650 6750 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5800 6750 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5800 6750 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5800 6750 50  0001 C CNN "Type"
-	1    5800 6750
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6057BB86
-P 5700 6650
-AR Path="/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BB86" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BB86" Ref="C5207"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BB86" Ref="C6107"  Part="1" 
-F 0 "C5207" V 5750 6500 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4600 6650 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5700 6650 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5700 6650 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5700 6650 50  0001 C CNN "Type"
-	1    5700 6650
-	1    0    0    1   
-$EndComp
-Text Notes 6950 700  2    50   ~ 0
-Resistors for diodes
 $Comp
 L Transistor_Array:ULN2803A U?
 U 1 1 6057BB8D
-P 5250 3300
+P 4450 3250
 AR Path="/6057BB8D" Ref="U?"  Part="1" 
 AR Path="/8148B1BC/6057BB8D" Ref="U?"  Part="1" 
 AR Path="/81CB63BE/6057BB8D" Ref="U?"  Part="1" 
@@ -416,781 +805,392 @@ AR Path="/D16552B4/5FA17F52/6057BB8D" Ref="U?"  Part="1"
 AR Path="/D16552B4/5FA17F6C/6057BB8D" Ref="U?"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/6057BB8D" Ref="U5201"  Part="1" 
 AR Path="/D1BB8DB4/5F746103/6057BB8D" Ref="U6101"  Part="1" 
-F 0 "U5201" H 5200 3100 50  0000 L CNN
-F 1 "ULN2803A" H 5050 3800 50  0000 L CNN
-F 2 "Package_DIP:DIP-18_W7.62mm" H 5300 2650 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 5350 3100 50  0001 C CNN
-	1    5250 3300
+F 0 "U5201" H 4400 3050 50  0000 L CNN
+F 1 "ULN2803A" H 4250 3750 50  0000 L CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 4500 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4550 3050 50  0001 C CNN
+	1    4450 3250
 	0    -1   -1   0   
 $EndComp
+Text Notes 6150 650  2    50   ~ 0
+Resistors for LEDs
 $Comp
 L Device:C_Small C?
-U 1 1 6057BBA0
-P 5100 6400
-AR Path="/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BBA0" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BBA0" Ref="C5201"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BBA0" Ref="C6101"  Part="1" 
-F 0 "C5201" V 5150 6150 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4250 6300 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5100 6400 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5100 6400 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5100 6400 50  0001 C CNN "Type"
-	1    5100 6400
+U 1 1 6057BB86
+P 4900 6600
+AR Path="/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB86" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB86" Ref="C5207"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB86" Ref="C6107"  Part="1" 
+F 0 "C5207" V 4950 6450 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3800 6600 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4900 6600 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4900 6600 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4900 6600 50  0001 C CNN "Type"
+	1    4900 6600
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 6057BBA7
-P 5200 6500
-AR Path="/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BBA7" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BBA7" Ref="C5202"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BBA7" Ref="C6102"  Part="1" 
-F 0 "C5202" V 5250 6250 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 4050 6500 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5200 6500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5200 6500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5200 6500 50  0001 C CNN "Type"
-	1    5200 6500
+U 1 1 6057BB7F
+P 5000 6700
+AR Path="/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB7F" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB7F" Ref="C5208"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB7F" Ref="C6108"  Part="1" 
+F 0 "C5208" V 5050 6550 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3850 6700 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5000 6700 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 5000 6700 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 5000 6700 50  0001 C CNN "Type"
+	1    5000 6700
 	1    0    0    1   
 $EndComp
-Text HLabel 2900 5000 0    50   Output ~ 0
-DIG_OFF_C1
-Text HLabel 2900 4900 0    50   Output ~ 0
-DIG_ON_C1
-Text HLabel 2900 4800 0    50   Output ~ 0
-AN_OFF_C1
-Text HLabel 2900 4700 0    50   Output ~ 0
-AN_ON_C1
-Text HLabel 4550 2050 0    50   Input ~ 0
-IN_C2
-Text HLabel 2900 2050 0    50   Input ~ 0
-IN_C1
+Text HLabel 6450 4950 0    50   Output ~ 0
+DIG_OFF_C4
+Text HLabel 6450 4850 0    50   Output ~ 0
+DIG_ON_C4
+Text HLabel 6450 4750 0    50   Output ~ 0
+AN_OFF_C4
+Text HLabel 6450 4650 0    50   Output ~ 0
+AN_ON_C4
+$Comp
+L Device:C_Small C?
+U 1 1 6057BB74
+P 4700 6350
+AR Path="/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB74" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB74" Ref="C5205"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB74" Ref="C6105"  Part="1" 
+F 0 "C5205" V 4750 6200 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3600 6350 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4700 6350 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4700 6350 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4700 6350 50  0001 C CNN "Type"
+	1    4700 6350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6057BB6D
+P 4800 6450
+AR Path="/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB6D" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB6D" Ref="C5206"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB6D" Ref="C6106"  Part="1" 
+F 0 "C5206" V 4850 6300 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3650 6450 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4800 6450 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4800 6450 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4800 6450 50  0001 C CNN "Type"
+	1    4800 6450
+	1    0    0    1   
+$EndComp
+Text HLabel 5000 4950 0    50   Output ~ 0
+DIG_OFF_C3
+Text HLabel 5000 4850 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 5000 4750 0    50   Output ~ 0
+AN_OFF_C3
+Text HLabel 5000 4650 0    50   Output ~ 0
+AN_ON_C3
+$Sheet
+S 5000 4300 700  750 
+U 6057BB62
+F0 "MultiVibrator6A3" 50
+F1 "MultiVibrator.sch" 50
+F2 "DIG_OFF" I L 5000 4950 50 
+F3 "AN_OFF" I L 5000 4750 50 
+F4 "MUX_ON" O L 5000 4500 50 
+F5 "MUX_OFF" O L 5000 4400 50 
+F6 "RC1" B R 5700 4950 50 
+F7 "RC2" B R 5700 4850 50 
+F8 "R1" B R 5700 4750 50 
+F9 "R2" B R 5700 4650 50 
+F10 "DIG_ON" I L 5000 4850 50 
+F11 "AN_ON" I L 5000 4650 50 
+$EndSheet
+$Comp
+L Device:C_Small C?
+U 1 1 6057BB52
+P 4500 6600
+AR Path="/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB52" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB52" Ref="C5203"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB52" Ref="C6103"  Part="1" 
+F 0 "C5203" V 4550 6450 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3400 6600 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4500 6600 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4500 6600 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4500 6600 50  0001 C CNN "Type"
+	1    4500 6600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6057BB4B
+P 4600 6700
+AR Path="/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB4B" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB4B" Ref="C5204"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB4B" Ref="C6104"  Part="1" 
+F 0 "C5204" V 4650 6550 50  0000 L CNN
+F 1 "107CKS016M 100UF" H 3450 6700 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4600 6700 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4600 6700 50  0001 C CNN
+F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4600 6700 50  0001 C CNN "Type"
+	1    4600 6700
+	1    0    0    1   
+$EndComp
+$Sheet
+S 3550 4300 700  750 
+U 6057BB44
+F0 "MultiVibrator6A2" 50
+F1 "MultiVibrator.sch" 50
+F2 "DIG_OFF" I L 3550 4950 50 
+F3 "AN_OFF" I L 3550 4750 50 
+F4 "MUX_ON" O L 3550 4500 50 
+F5 "MUX_OFF" O L 3550 4400 50 
+F6 "RC1" B R 4250 4950 50 
+F7 "RC2" B R 4250 4850 50 
+F8 "R1" B R 4250 4750 50 
+F9 "R2" B R 4250 4650 50 
+F10 "DIG_ON" I L 3550 4850 50 
+F11 "AN_ON" I L 3550 4650 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 6057BB34
+P 5900 7300
+AR Path="/D16552B4/5FA17F38/6057BB34" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB34" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB34" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB34" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB34" Ref="#PWR05203"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB34" Ref="#PWR06103"  Part="1" 
+F 0 "#PWR05203" H 5900 7150 50  0001 C CNN
+F 1 "+5V" H 5915 7473 50  0000 C CNN
+F 2 "" H 5900 7300 50  0001 C CNN
+F 3 "" H 5900 7300 50  0001 C CNN
+	1    5900 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:4116R-1-103LF RN?
+U 1 1 6057BB2E
+P 4100 7300
+AR Path="/D16552B4/5FA17F38/6057BB2E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB2E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB2E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB2E" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB2E" Ref="RN5201"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB2E" Ref="RN6101"  Part="1" 
+F 0 "RN5201" V 4000 7000 50  0000 C CNN
+F 1 "4116R-1-103LF" V 3900 7000 50  0001 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 4850 7400 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 4850 7300 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 4850 7200 50  0001 L CNN "Description"
+F 5 "4.69" H 4850 7100 50  0001 L CNN "Height"
+F 6 "Bourns" H 4850 7000 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 4850 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 4850 6800 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 4850 6700 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 4850 6600 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 4850 6500 50  0001 L CNN "Mouser Price/Stock"
+	1    4100 7300
+	0    1    -1   0   
+$EndComp
+$Comp
+L BoatControl:4116R-1-103LF RN?
+U 1 1 6057BB20
+P 5900 7300
+AR Path="/D16552B4/5FA17F38/6057BB20" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB20" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB20" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB20" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB20" Ref="RN5204"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB20" Ref="RN6104"  Part="1" 
+F 0 "RN5204" V 5800 7000 50  0000 C CNN
+F 1 "4116R-1-103LF" V 5700 7000 50  0000 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 6650 7400 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 6650 7300 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 6650 7200 50  0001 L CNN "Description"
+F 5 "4.69" H 6650 7100 50  0001 L CNN "Height"
+F 6 "Bourns" H 6650 7000 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 6650 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 6650 6800 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 6650 6700 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 6650 6600 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 6650 6500 50  0001 L CNN "Mouser Price/Stock"
+	1    5900 7300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4400 7300 4300 7300
+Wire Wire Line
+	4500 7300 4400 7300
+Connection ~ 4400 7300
+Connection ~ 4500 7300
+Text Notes 6300 4050 0    50   ~ 0
+Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
+Text Notes 7900 3050 2    50   ~ 0
+Amplify 5V logic signals to 12V to operate relay coils, includes filtering
 $Comp
 L Device:R_Pack08 RN?
-U 1 1 6057BBB3
-P 5500 7150
-AR Path="/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BBB3" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BBB3" Ref="RN5203"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BBB3" Ref="RN6103"  Part="1" 
-F 0 "RN5203" H 5350 6850 50  0000 L CNN
-F 1 "4120R-1-103LF" H 5150 6750 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 5975 7150 50  0001 C CNN
-F 3 "~" H 5500 7150 50  0001 C CNN
-	1    5500 7150
-	1    0    0    -1  
+U 1 1 6057BB0B
+P 4600 900
+AR Path="/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/8148B1BC/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/81CB63BE/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/822CFB36/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/828E1EFD/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/828E1F0F/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1B8/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1B8/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BB0B" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BB0B" Ref="RN5202"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BB0B" Ref="RN6102"  Part="1" 
+F 0 "RN5202" H 3800 900 50  0000 L CNN
+F 1 "4116R-1-471" H 5000 900 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 5075 900 50  0001 C CNN
+F 3 "~" H 4600 900 50  0001 C CNN
+	1    4600 900 
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5400 7350 5300 7350
-Wire Wire Line
-	5500 7350 5400 7350
-Connection ~ 5400 7350
-Wire Wire Line
-	5600 7350 5500 7350
-Connection ~ 5500 7350
-Wire Wire Line
-	5700 7350 5600 7350
-Connection ~ 5600 7350
-Wire Wire Line
-	5700 7350 5800 7350
-Connection ~ 5700 7350
-Wire Wire Line
-	4900 7350 4800 7350
-Connection ~ 4300 7350
-Wire Wire Line
-	4300 7350 4200 7350
-Connection ~ 4400 7350
-Wire Wire Line
-	4400 7350 4300 7350
-Connection ~ 4500 7350
-Wire Wire Line
-	4500 7350 4400 7350
-Connection ~ 4600 7350
-Wire Wire Line
-	4600 7350 4500 7350
-Connection ~ 4700 7350
-Wire Wire Line
-	4700 7350 4600 7350
-Connection ~ 4800 7350
-Wire Wire Line
-	4800 7350 4700 7350
-Wire Wire Line
-	6700 7350 6600 7350
-Connection ~ 6100 7350
-Wire Wire Line
-	6100 7350 6000 7350
-Connection ~ 6200 7350
-Wire Wire Line
-	6200 7350 6100 7350
-Connection ~ 6300 7350
-Wire Wire Line
-	6300 7350 6200 7350
-Connection ~ 6400 7350
-Wire Wire Line
-	6400 7350 6300 7350
-Connection ~ 6500 7350
-Wire Wire Line
-	6500 7350 6400 7350
-Connection ~ 6600 7350
-Wire Wire Line
-	6600 7350 6500 7350
-Connection ~ 6700 7350
-Wire Wire Line
-	4900 7350 5100 7350
-Connection ~ 4900 7350
-Connection ~ 5100 7350
-Wire Wire Line
-	6000 7350 5800 7350
-Connection ~ 6000 7350
-Connection ~ 5800 7350
-Wire Wire Line
-	5050 3700 5050 3750
-Wire Wire Line
-	5150 3800 5150 3700
-Wire Wire Line
-	4150 3850 5250 3850
-Wire Wire Line
-	5250 3850 5250 3700
-Wire Wire Line
-	5350 3700 5350 3900
-Wire Wire Line
-	5350 3900 4200 3900
-Wire Wire Line
-	5450 4550 5800 4550
-Wire Wire Line
-	5550 4450 5800 4450
-Wire Wire Line
-	5750 3700 5750 3750
-Wire Wire Line
-	5750 3750 7000 3750
-Wire Wire Line
-	7000 3750 7000 4450
-Wire Wire Line
-	7000 4450 7250 4450
-Wire Wire Line
-	5650 3700 5650 3800
-Wire Wire Line
-	5650 3800 6950 3800
-Wire Wire Line
-	6950 3800 6950 4550
-Wire Wire Line
-	6950 4550 7250 4550
-Wire Wire Line
-	5800 6850 5800 6900
-Wire Wire Line
-	5700 6750 5700 6850
-Wire Wire Line
-	5600 6600 5600 6750
-Wire Wire Line
-	5500 6500 5500 6600
-Wire Wire Line
-	5400 6850 5400 6950
-Wire Wire Line
-	5300 6750 5300 6950
-Wire Wire Line
-	5200 6600 5200 6950
-Wire Wire Line
-	5100 6500 5100 6950
-Wire Wire Line
-	4200 6450 2700 6450
-Wire Wire Line
-	4300 6400 2750 6400
-Wire Wire Line
-	4300 6400 4300 6450
-Wire Wire Line
-	4400 6450 4400 6350
-Wire Wire Line
-	4400 6350 2800 6350
-Wire Wire Line
-	4500 6450 4500 6300
-Wire Wire Line
-	4500 6300 2850 6300
-Wire Wire Line
-	5100 6300 5100 6250
-Wire Wire Line
-	5100 6250 3650 6250
-Wire Wire Line
-	3650 5000 3600 5000
-Wire Wire Line
-	5200 6400 5200 6200
-Wire Wire Line
-	5200 6200 3700 6200
-Wire Wire Line
-	3700 4900 3600 4900
-Wire Wire Line
-	5100 6500 5000 6500
-Wire Wire Line
-	5000 6500 5000 6150
-Wire Wire Line
-	5000 6150 3750 6150
-Wire Wire Line
-	3750 4800 3600 4800
-Connection ~ 5100 6500
-Wire Wire Line
-	3650 5000 3650 6250
-Wire Wire Line
-	3700 4900 3700 6200
-Wire Wire Line
-	3750 4800 3750 6150
-Wire Wire Line
-	5200 6600 5200 6550
-Wire Wire Line
-	5200 6550 5150 6550
-Wire Wire Line
-	5150 6550 5150 6100
-Wire Wire Line
-	5150 6100 3800 6100
-Wire Wire Line
-	3800 6100 3800 4700
-Wire Wire Line
-	3800 4700 3600 4700
-Connection ~ 5200 6600
-Wire Wire Line
-	4600 6450 4600 6050
-Wire Wire Line
-	4600 6050 3850 6050
-Wire Wire Line
-	4700 6000 3900 6000
-Wire Wire Line
-	4700 6000 4700 6450
-Wire Wire Line
-	4800 6450 4800 5950
-Wire Wire Line
-	4800 5950 3950 5950
-Wire Wire Line
-	4900 6450 4900 5900
-Wire Wire Line
-	4900 5900 4000 5900
-Wire Wire Line
-	6300 6450 6300 5600
-Wire Wire Line
-	6300 5600 5750 5600
-Wire Wire Line
-	6200 6450 6200 5650
-Wire Wire Line
-	6200 5650 5700 5650
-Wire Wire Line
-	6100 6450 6100 5700
-Wire Wire Line
-	6100 5700 5650 5700
-Wire Wire Line
-	6000 6450 6000 5750
-Wire Wire Line
-	6000 5750 5600 5750
-Wire Wire Line
-	6400 6450 6400 6250
-Wire Wire Line
-	6500 6450 6500 6300
-Wire Wire Line
-	6600 6450 6600 6350
-Wire Wire Line
-	6700 6450 6700 6400
-Wire Wire Line
-	5300 6550 5300 6050
-Wire Wire Line
-	5300 6050 5100 6050
-Wire Wire Line
-	5400 6650 5400 6000
-Wire Wire Line
-	5400 6000 5150 6000
-Wire Wire Line
-	5300 6750 5250 6750
-Wire Wire Line
-	5250 6750 5250 5950
-Connection ~ 5300 6750
-Wire Wire Line
-	5400 6850 5350 6850
-Wire Wire Line
-	5350 6850 5350 5900
-Connection ~ 5400 6850
-Wire Wire Line
-	5250 5950 5200 5950
-Wire Wire Line
-	5350 5900 5250 5900
-Wire Wire Line
-	5500 6300 5500 5850
-Wire Wire Line
-	6550 5000 6500 5000
-Wire Wire Line
-	6700 6400 7200 6400
-Wire Wire Line
-	6600 6350 7150 6350
-Wire Wire Line
-	6500 6300 7100 6300
-Wire Wire Line
-	6400 6250 7050 6250
-Wire Wire Line
-	5500 6600 5550 6600
-Connection ~ 5500 6600
-Wire Wire Line
-	5500 6600 5500 6950
-Wire Wire Line
-	5600 6750 5650 6750
-Wire Wire Line
-	5650 6750 5650 6000
-Connection ~ 5600 6750
-Wire Wire Line
-	5600 6750 5600 6950
-Wire Wire Line
-	5700 6550 5700 6050
-Wire Wire Line
-	8000 5000 7950 5000
-Wire Wire Line
-	5800 6650 5800 6100
-Wire Wire Line
-	8050 4900 7950 4900
-Wire Wire Line
-	5700 6850 5750 6850
-Wire Wire Line
-	5750 6850 5750 6150
-Wire Wire Line
-	8100 4800 7950 4800
-Connection ~ 5700 6850
-Wire Wire Line
-	5700 6850 5700 6950
-Wire Wire Line
-	5800 6900 5850 6900
-Wire Wire Line
-	5850 6900 5850 6200
-Wire Wire Line
-	8150 4700 7950 4700
-Connection ~ 5800 6900
-Wire Wire Line
-	5800 6900 5800 6950
-Wire Wire Line
-	5850 6200 8150 6200
-Wire Wire Line
-	8150 4700 8150 6200
-Wire Wire Line
-	5750 6150 8100 6150
-Wire Wire Line
-	8100 4800 8100 6150
-Wire Wire Line
-	5800 6100 8050 6100
-Wire Wire Line
-	8050 4900 8050 6100
-Wire Wire Line
-	8000 5000 8000 6050
-Wire Wire Line
-	6600 4900 6500 4900
-Wire Wire Line
-	6650 4800 6500 4800
-Wire Wire Line
-	6700 4700 6500 4700
-Wire Wire Line
-	6700 6000 5650 6000
-Wire Wire Line
-	6700 4700 6700 6000
-Wire Wire Line
-	5600 6400 5600 5900
-Wire Wire Line
-	6650 5950 5550 5950
-Wire Wire Line
-	5550 5950 5550 6600
-Wire Wire Line
-	6650 4800 6650 5950
-Wire Wire Line
-	6600 5900 5600 5900
-Wire Wire Line
-	6600 4900 6600 5900
-Wire Wire Line
-	6550 5850 5500 5850
-Wire Wire Line
-	6550 5000 6550 5850
-Wire Wire Line
-	2900 1550 2800 1550
-Wire Wire Line
-	2800 1550 2800 2650
-Wire Wire Line
-	4550 1550 4450 1550
-Wire Wire Line
-	7850 1700 7800 1700
-Wire Wire Line
-	7850 1550 7750 1550
-Wire Wire Line
-	7750 1550 7750 2600
-Wire Wire Line
-	6200 1700 6150 1700
-Wire Wire Line
-	6200 1550 6100 1550
-Wire Wire Line
-	3950 1150 3950 1550
-Wire Wire Line
-	3950 1550 3900 1550
-Wire Wire Line
-	5100 1150 5100 1200
-Wire Wire Line
-	5100 1200 4000 1200
-Wire Wire Line
-	4000 1700 3900 1700
-Wire Wire Line
-	5200 1150 5200 1400
-Wire Wire Line
-	5300 1150 5300 1350
-Wire Wire Line
-	5400 1150 5400 1300
-Wire Wire Line
-	5400 1300 7250 1300
-Wire Wire Line
-	7250 1300 7250 1550
-Wire Wire Line
-	7250 1550 7200 1550
-Wire Wire Line
-	5500 1150 5500 1250
-Wire Wire Line
-	5500 1250 7300 1250
-Wire Wire Line
-	7300 1250 7300 1700
-Wire Wire Line
-	7300 1700 7200 1700
-Wire Wire Line
-	5600 1150 5600 1200
-Wire Wire Line
-	5600 1200 8900 1200
-Wire Wire Line
-	8900 1200 8900 1550
-Wire Wire Line
-	8900 1550 8850 1550
-Wire Wire Line
-	8950 1150 8950 1700
-Wire Wire Line
-	8950 1700 8850 1700
-Wire Wire Line
-	4000 1200 4000 1700
-$Comp
-L power:+12P #PWR?
-U 1 1 6057BD05
-P 4950 2900
-AR Path="/8148B1BC/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/81CB63BE/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/822CFB36/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/828E1EFD/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/828E1F0F/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1B8/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA1B8/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6057BD05" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/6057BD05" Ref="#PWR05201"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/6057BD05" Ref="#PWR06101"  Part="1" 
-F 0 "#PWR05201" H 4950 2750 50  0001 C CNN
-F 1 "+12P" H 4800 3000 50  0000 C CNN
-F 2 "" H 4950 2900 50  0001 C CNN
-F 3 "" H 4950 2900 50  0001 C CNN
-	1    4950 2900
-	1    0    0    -1  
-$EndComp
-Text HLabel 3900 2050 2    50   Output ~ 0
+Text HLabel 8050 2000 2    50   Output ~ 0
+OUT_C4
+Text HLabel 6400 2000 2    50   Output ~ 0
+OUT_C3
+Text HLabel 4750 2000 2    50   Output ~ 0
+OUT_C2
+Text HLabel 3100 2000 2    50   Output ~ 0
 OUT_C1
-Text HLabel 2900 2050 0    50   Input ~ 0
-IN_C1
+Text HLabel 7050 2000 0    50   Input ~ 0
+IN_C4
+Text HLabel 5400 2000 0    50   Input ~ 0
+IN_C3
+$Comp
+L power:GND #PWR?
+U 1 1 6057BAFF
+P 5150 3250
+AR Path="/8148B1BC/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/81CB63BE/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/822CFB36/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/828E1EFD/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/828E1F0F/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1B8/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1B8/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6057BAFF" Ref="#PWR?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/6057BAFF" Ref="#PWR05202"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/6057BAFF" Ref="#PWR06102"  Part="1" 
+F 0 "#PWR05202" H 5150 3000 50  0001 C CNN
+F 1 "GND" H 5155 3077 50  0000 C CNN
+F 2 "" H 5150 3250 50  0001 C CNN
+F 3 "" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
 $Sheet
-S 2900 1450 1000 700 
-U D2F31429
-F0 "6AC2" 50
+S 7050 1400 1000 700 
+U D2F4DB5C
+F0 "6AC1" 50
 F1 "6AmpCircuit.sch" 50
-F2 "ON" B L 2900 1550 50 
-F3 "OFF" B L 2900 1700 50 
-F4 "ON_LED" I R 3900 1550 50 
-F5 "OFF_LED" I R 3900 1700 50 
-F6 "OUT" O R 3900 2050 50 
-F7 "IN" I L 2900 2050 50 
+F2 "ON" B L 7050 1500 50 
+F3 "OFF" B L 7050 1650 50 
+F4 "ON_LED" I R 8050 1500 50 
+F5 "OFF_LED" I R 8050 1650 50 
+F6 "OUT" O R 8050 2000 50 
+F7 "IN" I L 7050 2000 50 
 $EndSheet
-Wire Wire Line
-	5700 1150 8950 1150
-Text HLabel 4350 4700 0    50   Output ~ 0
-AN_ON_C2
-Text HLabel 4350 4800 0    50   Output ~ 0
-AN_OFF_C2
-Text HLabel 4350 4900 0    50   Output ~ 0
-DIG_ON_C2
-Text HLabel 4350 5000 0    50   Output ~ 0
-DIG_OFF_C2
-Wire Wire Line
-	5250 4700 5050 4700
-Wire Wire Line
-	5250 5900 5250 4700
-Wire Wire Line
-	5050 4800 5200 4800
-Wire Wire Line
-	5200 5950 5200 4800
-Wire Wire Line
-	5150 4900 5050 4900
-Wire Wire Line
-	5150 6000 5150 4900
-Wire Wire Line
-	5100 5000 5050 5000
-Wire Wire Line
-	5100 6050 5100 5000
-Wire Wire Line
-	4200 4450 4350 4450
-Wire Wire Line
-	4350 4550 4150 4550
-Wire Wire Line
-	4150 4550 4150 3850
-Wire Wire Line
-	4200 3900 4200 4450
+Text HLabel 8050 2000 2    50   Output ~ 0
+OUT_C4
+Text HLabel 6400 2000 2    50   Output ~ 0
+OUT_C3
+Text HLabel 4750 2000 2    50   Output ~ 0
+OUT_C2
+Text HLabel 7050 2000 0    50   Input ~ 0
+IN_C4
+Text HLabel 5400 2000 0    50   Input ~ 0
+IN_C3
+Text HLabel 3750 2000 0    50   Input ~ 0
+IN_C2
 $Sheet
-S 7250 4350 700  750 
-U 6057BBFD
-F0 "MultiVibrator6A4" 50
-F1 "MultiVibrator.sch" 50
-F2 "DIG_OFF" I L 7250 5000 50 
-F3 "AN_OFF" I L 7250 4800 50 
-F4 "MUX_ON" O L 7250 4550 50 
-F5 "MUX_OFF" O L 7250 4450 50 
-F6 "RC1" B R 7950 5000 50 
-F7 "RC2" B R 7950 4900 50 
-F8 "R1" B R 7950 4800 50 
-F9 "R2" B R 7950 4700 50 
-F10 "DIG_ON" I L 7250 4900 50 
-F11 "AN_ON" I L 7250 4700 50 
+S 5400 1400 1000 700 
+U D2B5CDA6
+F0 "6AC4" 50
+F1 "6AmpCircuit.sch" 50
+F2 "ON" B L 5400 1500 50 
+F3 "OFF" B L 5400 1650 50 
+F4 "ON_LED" I R 6400 1500 50 
+F5 "OFF_LED" I R 6400 1650 50 
+F6 "OUT" O R 6400 2000 50 
+F7 "IN" I L 5400 2000 50 
 $EndSheet
 $Sheet
-S 2900 4350 700  750 
-U 6057BBED
-F0 "MultiVibrator6A1" 50
-F1 "MultiVibrator.sch" 50
-F2 "DIG_OFF" I L 2900 5000 50 
-F3 "AN_OFF" I L 2900 4800 50 
-F4 "MUX_ON" O L 2900 4550 50 
-F5 "MUX_OFF" O L 2900 4450 50 
-F6 "RC1" B R 3600 5000 50 
-F7 "RC2" B R 3600 4900 50 
-F8 "R1" B R 3600 4800 50 
-F9 "R2" B R 3600 4700 50 
-F10 "DIG_ON" I L 2900 4900 50 
-F11 "AN_ON" I L 2900 4700 50 
+S 3750 1400 1000 700 
+U D2F3142A
+F0 "6AC3" 50
+F1 "6AmpCircuit.sch" 50
+F2 "ON" B L 3750 1500 50 
+F3 "OFF" B L 3750 1650 50 
+F4 "ON_LED" I R 4750 1500 50 
+F5 "OFF_LED" I R 4750 1650 50 
+F6 "OUT" O R 4750 2000 50 
+F7 "IN" I L 3750 2000 50 
 $EndSheet
-Wire Wire Line
-	5700 6050 8000 6050
-Wire Wire Line
-	7200 5000 7250 5000
-Wire Wire Line
-	7200 5000 7200 6400
-Wire Wire Line
-	7150 4900 7250 4900
-Wire Wire Line
-	7150 4900 7150 6350
-Wire Wire Line
-	7100 4800 7250 4800
-Wire Wire Line
-	7100 4800 7100 6300
-Wire Wire Line
-	7050 4700 7250 4700
-Wire Wire Line
-	7050 4700 7050 6250
-Wire Wire Line
-	2700 4700 2900 4700
-Wire Wire Line
-	2700 4700 2700 6450
-Wire Wire Line
-	2750 4800 2900 4800
-Wire Wire Line
-	2750 4800 2750 6400
-Wire Wire Line
-	2800 4900 2900 4900
-Wire Wire Line
-	2800 4900 2800 6350
-Wire Wire Line
-	2850 5000 2900 5000
-Wire Wire Line
-	2850 5000 2850 6300
-Wire Wire Line
-	5600 4700 5800 4700
-Wire Wire Line
-	5600 4700 5600 5750
-Wire Wire Line
-	5650 4800 5800 4800
-Wire Wire Line
-	5650 4800 5650 5700
-Wire Wire Line
-	5700 4900 5800 4900
-Wire Wire Line
-	5700 4900 5700 5650
-Wire Wire Line
-	5750 5000 5800 5000
-Wire Wire Line
-	5750 5000 5750 5600
-Wire Wire Line
-	4000 5000 4350 5000
-Wire Wire Line
-	4000 5000 4000 5900
-Wire Wire Line
-	3950 4900 4350 4900
-Wire Wire Line
-	3950 4900 3950 5950
-Wire Wire Line
-	3900 4800 4350 4800
-Wire Wire Line
-	3900 4800 3900 6000
-Wire Wire Line
-	3850 4700 3850 6050
-Wire Wire Line
-	3850 4700 4350 4700
-Wire Wire Line
-	5650 1350 5650 1700
-Wire Wire Line
-	5300 1350 5650 1350
-Wire Wire Line
-	5550 1700 5650 1700
-Wire Wire Line
-	5600 1400 5600 1550
-Wire Wire Line
-	5600 1550 5550 1550
-Wire Wire Line
-	5200 1400 5600 1400
-Wire Wire Line
-	3950 1150 5000 1150
-Wire Wire Line
-	2800 700  5000 700 
-Wire Wire Line
-	5000 700  5000 750 
-Wire Wire Line
-	2800 700  2800 1550
-Connection ~ 2800 1550
-Wire Wire Line
-	5100 650  5100 750 
-Wire Wire Line
-	4450 600  5200 600 
-Wire Wire Line
-	5200 600  5200 750 
-Wire Wire Line
-	4450 600  4450 1550
-Wire Wire Line
-	5300 550  5300 750 
-Wire Wire Line
-	6100 1550 6100 700 
-Wire Wire Line
-	6100 700  5400 700 
-Wire Wire Line
-	5400 700  5400 750 
-Wire Wire Line
-	6150 1700 6150 650 
-Wire Wire Line
-	6150 650  5500 650 
-Wire Wire Line
-	5500 650  5500 750 
-Connection ~ 6150 1700
-Wire Wire Line
-	7750 1550 7750 600 
-Wire Wire Line
-	7750 600  5600 600 
-Wire Wire Line
-	5600 600  5600 750 
-Connection ~ 7750 1550
-Wire Wire Line
-	7800 550  5700 550 
-Wire Wire Line
-	5700 550  5700 750 
-Wire Wire Line
-	5550 3700 5550 4450
-Wire Wire Line
-	5450 3700 5450 4550
-Wire Wire Line
-	2900 4450 2750 4450
-Wire Wire Line
-	2750 4450 2750 3800
-Wire Wire Line
-	2750 3800 5150 3800
-Wire Wire Line
-	2700 3750 2700 4550
-Wire Wire Line
-	2700 4550 2900 4550
-Wire Wire Line
-	5050 3750 2700 3750
-Wire Wire Line
-	7800 550  7800 1700
-Connection ~ 7800 1700
-Wire Wire Line
-	2750 650  2750 1700
-Wire Wire Line
-	2750 2700 5050 2700
-Wire Wire Line
-	5050 2700 5050 2900
-Wire Wire Line
-	2750 650  5100 650 
-Connection ~ 2750 1700
-Wire Wire Line
-	2750 1700 2750 2700
-Wire Wire Line
-	2750 1700 2900 1700
-Wire Wire Line
-	5150 2650 5150 2900
-Wire Wire Line
-	2800 2650 5150 2650
-Wire Wire Line
-	4400 2600 5250 2600
-Wire Wire Line
-	5250 2600 5250 2900
-Connection ~ 4450 1550
-Wire Wire Line
-	4450 1550 4450 2550
-Wire Wire Line
-	4400 550  5300 550 
-Wire Wire Line
-	4400 1700 4550 1700
-Wire Wire Line
-	4400 550  4400 1700
-Connection ~ 4400 1700
-Wire Wire Line
-	4400 1700 4400 2600
-Wire Wire Line
-	5350 2550 5350 2900
-Wire Wire Line
-	4450 2550 5350 2550
-Wire Wire Line
-	6150 1700 6050 1700
-Wire Wire Line
-	6050 1700 6050 2450
-Wire Wire Line
-	6050 2450 5450 2450
-Wire Wire Line
-	5450 2450 5450 2900
-Connection ~ 6100 1550
-Wire Wire Line
-	6100 1550 6100 2500
-Wire Wire Line
-	5550 2500 5550 2900
-Wire Wire Line
-	5550 2500 6100 2500
-Wire Wire Line
-	7800 1700 7700 1700
-Wire Wire Line
-	7700 1700 7700 2550
-Wire Wire Line
-	7700 2550 5650 2550
-Wire Wire Line
-	5650 2550 5650 2900
-Wire Wire Line
-	7750 2600 5750 2600
-Wire Wire Line
-	5750 2600 5750 2900
+Text Notes 1950 7700 0    50   ~ 0
+Resistors for multivibrator pull-up and timer circuits for relay pulses.\nThese can be swapped for higher/lower values as needed for longer pulses or more noise resistance.
 $EndSCHEMATC
