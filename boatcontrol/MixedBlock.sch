@@ -118,8 +118,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3300 4550 2750
 Wire Wire Line
-	4550 2750 5300 2750
-Wire Wire Line
 	4400 3200 4500 3200
 Wire Wire Line
 	4500 3200 4500 2000

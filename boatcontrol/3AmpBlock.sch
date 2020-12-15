@@ -203,14 +203,6 @@ F 3 "" H 6400 3200 50  0001 C CNN
 	1    6400 3200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7600 7200 7600 7100
-Wire Wire Line
-	8150 7200 7600 7200
-Wire Wire Line
-	7750 7150 7750 7100
-Wire Wire Line
-	8100 7150 7750 7150
 Text HLabel 4250 1900 0    50   Output ~ 0
 AN_OFF_C1
 Text HLabel 4250 2000 0    50   Output ~ 0
@@ -274,7 +266,7 @@ Text Notes 3050 1400 0    50   ~ 0
 Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
 Text Notes 6450 2450 2    50   ~ 0
 Amplify 5V logic signals to 12V\nto operate relay coils,\nincludes filtering
-Text HLabel 7250 7100 3    50   Output ~ 0
+Text HLabel 9050 5250 2    50   Output ~ 0
 OUT_C4
 $Comp
 L power:GND #PWR?
@@ -898,7 +890,7 @@ Text HLabel 8050 5250 0    50   Input ~ 0
 IN_C4
 Text HLabel 9050 3450 2    50   Output ~ 0
 OUT_C2
-Text HLabel 9050 5250 2    50   Output ~ 0
+Text HLabel 9050 4350 2    50   Output ~ 0
 OUT_C3
 Text Notes 7400 2800 2    50   ~ 0
 Resistors for LEDs
