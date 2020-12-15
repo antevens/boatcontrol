@@ -13,46 +13,6 @@ Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7600 6050
-Wire Wire Line
-	8600 3950 8600 6050
-Wire Wire Line
-	7600 6050 8600 6050
-Connection ~ 7750 6000
-Wire Wire Line
-	8650 3850 8650 6000
-Wire Wire Line
-	7750 6000 8650 6000
-Connection ~ 7600 4400
-Wire Wire Line
-	8700 3750 8700 4400
-Wire Wire Line
-	7600 4400 8700 4400
-Connection ~ 7750 4350
-Wire Wire Line
-	8750 3650 8750 4350
-Wire Wire Line
-	7750 4350 8750 4350
-Wire Wire Line
-	8750 2750 8750 3550
-Connection ~ 7600 2750
-Wire Wire Line
-	7600 2750 8750 2750
-Wire Wire Line
-	8700 2700 8700 3450
-Connection ~ 7750 2700
-Wire Wire Line
-	7750 2700 8700 2700
-Wire Wire Line
-	8650 1100 8650 3350
-Connection ~ 7600 1100
-Wire Wire Line
-	7600 1100 8650 1100
-Wire Wire Line
-	8600 1050 8600 3250
-Connection ~ 7750 1050
-Wire Wire Line
-	7750 1050 8600 1050
 $Comp
 L Device:C_Small C?
 U 1 1 5F59CDBA
@@ -217,16 +177,6 @@ F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4150 5500 50  0001 C CNN "Type"
 	1    4150 5500
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	8600 3950 8550 3950
-Wire Wire Line
-	8650 3850 8550 3850
-Wire Wire Line
-	8700 3750 8550 3750
-Wire Wire Line
-	8750 3650 8550 3650
-Wire Wire Line
-	7750 4350 6800 4350
 $Comp
 L power:+12P #PWR?
 U 1 1 D2F3142D
@@ -254,139 +204,13 @@ F 3 "" H 6400 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8750 3550 8550 3550
-Wire Wire Line
-	8700 3450 8550 3450
-Wire Wire Line
-	8100 2250 7600 2250
-Wire Wire Line
-	8650 3350 8550 3350
-Wire Wire Line
-	8600 3250 8550 3250
-Wire Wire Line
 	7600 7200 7600 7100
 Wire Wire Line
 	8150 7200 7600 7200
 Wire Wire Line
-	8150 3950 8150 7200
-Wire Wire Line
 	7750 7150 7750 7100
 Wire Wire Line
 	8100 7150 7750 7150
-Wire Wire Line
-	8100 3850 8100 7150
-Wire Wire Line
-	8150 3850 8100 3850
-Wire Wire Line
-	7600 5550 7600 5450
-Wire Wire Line
-	8050 5550 7600 5550
-Wire Wire Line
-	8050 3750 8050 5550
-Wire Wire Line
-	8150 3750 8050 3750
-Wire Wire Line
-	7750 5500 7750 5450
-Wire Wire Line
-	8000 5500 7750 5500
-Wire Wire Line
-	8000 3650 8000 5500
-Wire Wire Line
-	8150 3650 8000 3650
-Wire Wire Line
-	7600 3850 7600 3800
-Wire Wire Line
-	7950 3850 7600 3850
-Wire Wire Line
-	7950 3550 7950 3850
-Wire Wire Line
-	8150 3550 7950 3550
-Wire Wire Line
-	7900 3800 7750 3800
-Wire Wire Line
-	7900 3450 7900 3800
-Wire Wire Line
-	8150 3450 7900 3450
-Wire Wire Line
-	7600 2250 7600 2150
-Wire Wire Line
-	8100 3350 8100 2250
-Wire Wire Line
-	8150 3350 8100 3350
-Wire Wire Line
-	7750 2200 7750 2150
-Wire Wire Line
-	8150 2200 7750 2200
-Wire Wire Line
-	8150 3250 8150 2200
-Wire Wire Line
-	6800 3700 6400 3700
-Wire Wire Line
-	6800 4350 6800 3700
-Wire Wire Line
-	7750 4450 7750 4350
-Wire Wire Line
-	6750 3800 6400 3800
-Wire Wire Line
-	6750 4400 6750 3800
-Wire Wire Line
-	7600 4400 6750 4400
-Wire Wire Line
-	7600 4450 7600 4400
-Wire Wire Line
-	6700 3900 6400 3900
-Wire Wire Line
-	6700 6000 6700 3900
-Wire Wire Line
-	7750 6000 6700 6000
-Wire Wire Line
-	7750 6100 7750 6000
-Wire Wire Line
-	6650 4000 6400 4000
-Wire Wire Line
-	6650 6050 6650 4000
-Wire Wire Line
-	7600 6050 6650 6050
-Wire Wire Line
-	7600 6100 7600 6050
-Wire Wire Line
-	6750 3500 6400 3500
-Wire Wire Line
-	6750 2700 6750 3500
-Wire Wire Line
-	7750 2700 6750 2700
-Wire Wire Line
-	7750 2800 7750 2700
-Wire Wire Line
-	6800 3600 6400 3600
-Wire Wire Line
-	6800 2750 6800 3600
-Wire Wire Line
-	7600 2750 6800 2750
-Wire Wire Line
-	7600 2800 7600 2750
-Wire Wire Line
-	6700 3400 6400 3400
-Wire Wire Line
-	6700 1100 6700 3400
-Wire Wire Line
-	7600 1100 6700 1100
-Wire Wire Line
-	7600 1150 7600 1100
-Wire Wire Line
-	6650 3300 6400 3300
-Wire Wire Line
-	6650 1050 6650 3300
-Wire Wire Line
-	7750 1050 6650 1050
-Wire Wire Line
-	7750 1150 7750 1050
-Wire Wire Line
-	4600 6400 4600 6200
-Text HLabel 7250 1150 1    50   Input ~ 0
-IN_C1
-Text HLabel 7250 2800 1    50   Input ~ 0
-IN_C2
 Text HLabel 4250 1900 0    50   Output ~ 0
 AN_OFF_C1
 Text HLabel 4250 2000 0    50   Output ~ 0
@@ -401,18 +225,6 @@ Text HLabel 4250 3000 0    50   Output ~ 0
 DIG_ON_C2
 Text HLabel 4250 3100 0    50   Output ~ 0
 DIG_OFF_C2
-$Sheet
-S 7150 1150 700  1000
-U D2B5CDA3
-F0 "3AC1" 50
-F1 "3AmpCircuit.sch" 50
-F2 "ON" B T 7750 1150 50 
-F3 "OFF" B T 7600 1150 50 
-F4 "ON_LED" I B 7750 2150 50 
-F5 "OFF_LED" I B 7600 2150 50 
-F6 "OUT" O B 7250 2150 50 
-F7 "IN" I T 7250 1150 50 
-$EndSheet
 $Comp
 L Transistor_Array:ULN2803A U?
 U 1 1 D2B5CDA2
@@ -440,8 +252,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6100 3300 50  0001 C CNN
 	1    6000 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 8550 5200 1    50   ~ 0
-Resistors for diodes
 Text HLabel 4250 5100 0    50   Output ~ 0
 DIG_OFF_C4
 Text HLabel 4250 5000 0    50   Output ~ 0
@@ -458,51 +268,14 @@ Text HLabel 4250 3900 0    50   Output ~ 0
 AN_OFF_C3
 Text HLabel 4250 3800 0    50   Output ~ 0
 AN_ON_C3
-Text Notes 700  2300 0    50   ~ 0
+Text Notes 1250 2250 0    50   ~ 0
 Resistors for multivibrator pull-up\nand timer circuits for relay pulses.\n\nThese can be swapped for higher/lower\nvalues as needed for longer pulses or\nmore noise resistance.
-Text Notes 2750 7400 0    50   ~ 0
+Text Notes 3050 1400 0    50   ~ 0
 Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
-Text Notes 6550 1700 2    50   ~ 0
-Amplify 5V logic signals to 12V\nto operate relay coils, includes filtering
-$Comp
-L Device:R_Pack08 RN?
-U 1 1 81A9CC8E
-P 8350 3650
-AR Path="/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/8148B1BC/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/81CB63BE/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/822CFB36/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/828E1EFD/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/828E1F0F/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1B8/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/D1AAA1B8/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/81A9CC8E" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/81A9CC8E" Ref="RN3002"  Part="1" 
-AR Path="/D16552B4/5FA17F38/81A9CC8E" Ref="RN302"  Part="1" 
-AR Path="/D16552B4/5FA17F52/81A9CC8E" Ref="RN1202"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/81A9CC8E" Ref="RN2102"  Part="1" 
-F 0 "RN302" H 7600 3650 50  0000 L CNN
-F 1 "4116R-1-471" H 8750 3650 50  0000 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 8825 3650 50  0001 C CNN
-F 3 "~" H 8350 3650 50  0001 C CNN
-	1    8350 3650
-	0    -1   1    0   
-$EndComp
+Text Notes 6450 2450 2    50   ~ 0
+Amplify 5V logic signals to 12V\nto operate relay coils,\nincludes filtering
 Text HLabel 7250 7100 3    50   Output ~ 0
 OUT_C4
-Text HLabel 7250 5450 3    50   Output ~ 0
-OUT_C3
-Text HLabel 7250 3800 3    50   Output ~ 0
-OUT_C2
-Text HLabel 7250 2150 3    50   Output ~ 0
-OUT_C1
-Text HLabel 7250 6100 1    50   Input ~ 0
-IN_C4
-Text HLabel 7250 4450 1    50   Input ~ 0
-IN_C3
 $Comp
 L power:GND #PWR?
 U 1 1 D2F3142C
@@ -527,44 +300,8 @@ F 1 "GND" H 6005 4027 50  0000 C CNN
 F 2 "" H 6000 4200 50  0001 C CNN
 F 3 "" H 6000 4200 50  0001 C CNN
 	1    6000 4200
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
-$Sheet
-S 7150 6100 700  1000
-U D2F3142B
-F0 "3AC4" 50
-F1 "3AmpCircuit.sch" 50
-F2 "ON" B T 7750 6100 50 
-F3 "OFF" B T 7600 6100 50 
-F4 "ON_LED" I B 7750 7100 50 
-F5 "OFF_LED" I B 7600 7100 50 
-F6 "OUT" O B 7250 7100 50 
-F7 "IN" I T 7250 6100 50 
-$EndSheet
-$Sheet
-S 7150 4450 700  1000
-U D2B5CDA5
-F0 "3AC3" 50
-F1 "3AmpCircuit.sch" 50
-F2 "ON" B T 7750 4450 50 
-F3 "OFF" B T 7600 4450 50 
-F4 "ON_LED" I B 7750 5450 50 
-F5 "OFF_LED" I B 7600 5450 50 
-F6 "OUT" O B 7250 5450 50 
-F7 "IN" I T 7250 4450 50 
-$EndSheet
-$Sheet
-S 7150 2800 700  1000
-U D2B5CDA4
-F0 "3AC2" 50
-F1 "3AmpCircuit.sch" 50
-F2 "ON" B T 7750 2800 50 
-F3 "OFF" B T 7600 2800 50 
-F4 "ON_LED" I B 7750 3800 50 
-F5 "OFF_LED" I B 7600 3800 50 
-F6 "OUT" O B 7250 3800 50 
-F7 "IN" I T 7250 2800 50 
-$EndSheet
 $Sheet
 S 4250 1750 650  800 
 U 5FC6571E
@@ -1077,4 +814,222 @@ Wire Wire Line
 	4200 3850 4200 3800
 Wire Wire Line
 	4200 3800 4250 3800
+Wire Wire Line
+	6400 3500 6650 3500
+Wire Wire Line
+	6400 3600 6700 3600
+Wire Wire Line
+	6650 3500 6650 2900
+Connection ~ 6650 3500
+Wire Wire Line
+	6650 3500 7000 3500
+Connection ~ 6700 3600
+Wire Wire Line
+	6700 3600 7000 3600
+Wire Wire Line
+	6600 3400 7000 3400
+Wire Wire Line
+	6400 3400 6600 3400
+Connection ~ 6600 3400
+Wire Wire Line
+	6550 3300 7000 3300
+Wire Wire Line
+	6400 3300 6550 3300
+Connection ~ 6550 3300
+Wire Wire Line
+	7500 2300 8050 2300
+Wire Wire Line
+	7450 2200 8050 2200
+$Sheet
+S 8050 4650 1000 700 
+U 5FEA2B07
+F0 "3AC4" 50
+F1 "3AmpCircuit.sch" 50
+F2 "ON" B L 8050 4700 50 
+F3 "OFF" B L 8050 4800 50 
+F4 "ON_LED" I L 8050 4900 50 
+F5 "OFF_LED" I L 8050 5000 50 
+F6 "OUT" O R 9050 5250 50 
+F7 "IN" I L 8050 5250 50 
+$EndSheet
+$Sheet
+S 8050 3750 1000 700 
+U 5FE985DA
+F0 "3AC3" 50
+F1 "3AmpCircuit.sch" 50
+F2 "ON" B L 8050 3800 50 
+F3 "OFF" B L 8050 3900 50 
+F4 "ON_LED" I L 8050 4000 50 
+F5 "OFF_LED" I L 8050 4100 50 
+F6 "OUT" O R 9050 4350 50 
+F7 "IN" I L 8050 4350 50 
+$EndSheet
+$Sheet
+S 8050 2850 1000 700 
+U 5FE8B920
+F0 "3AC2" 50
+F1 "3AmpCircuit.sch" 50
+F2 "ON" B L 8050 2900 50 
+F3 "OFF" B L 8050 3000 50 
+F4 "ON_LED" I L 8050 3100 50 
+F5 "OFF_LED" I L 8050 3200 50 
+F6 "OUT" O R 9050 3450 50 
+F7 "IN" I L 8050 3450 50 
+$EndSheet
+Text HLabel 8050 2550 0    50   Input ~ 0
+IN_C1
+Text HLabel 9050 2550 2    50   Output ~ 0
+OUT_C1
+$Sheet
+S 8050 1950 1000 700 
+U D2B5CDA3
+F0 "3AC1" 50
+F1 "3AmpCircuit.sch" 50
+F2 "ON" B L 8050 2000 50 
+F3 "OFF" B L 8050 2100 50 
+F4 "ON_LED" I L 8050 2200 50 
+F5 "OFF_LED" I L 8050 2300 50 
+F6 "OUT" O R 9050 2550 50 
+F7 "IN" I L 8050 2550 50 
+$EndSheet
+Text HLabel 8050 4350 0    50   Input ~ 0
+IN_C3
+Text HLabel 8050 5250 0    50   Input ~ 0
+IN_C4
+Text HLabel 9050 3450 2    50   Output ~ 0
+OUT_C2
+Text HLabel 9050 5250 2    50   Output ~ 0
+OUT_C3
+Text Notes 7400 2800 2    50   ~ 0
+Resistors for LEDs
+Text HLabel 8050 3450 0    50   Input ~ 0
+IN_C2
+Wire Wire Line
+	6550 2000 8050 2000
+Wire Wire Line
+	6550 2000 6550 3300
+Wire Wire Line
+	6600 2100 8050 2100
+Wire Wire Line
+	6600 2100 6600 3400
+Wire Wire Line
+	6400 3900 6600 3900
+Wire Wire Line
+	6400 4000 6550 4000
+Wire Wire Line
+	6400 3700 6700 3700
+Wire Wire Line
+	6400 3800 6650 3800
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 81A9CC8E
+P 7200 3700
+AR Path="/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/8148B1BC/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/81CB63BE/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/822CFB36/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/828E1EFD/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/828E1F0F/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1B8/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/D1AAA1B8/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/81A9CC8E" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/81A9CC8E" Ref="RN3002"  Part="1" 
+AR Path="/D16552B4/5FA17F38/81A9CC8E" Ref="RN302"  Part="1" 
+AR Path="/D16552B4/5FA17F52/81A9CC8E" Ref="RN1202"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/81A9CC8E" Ref="RN2102"  Part="1" 
+F 0 "RN302" V 6600 3600 50  0000 L CNN
+F 1 "470 Ohm" V 6700 3550 50  0000 L CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 7675 3700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 7200 3700 50  0001 C CNN
+F 4 "4116R-1-471" V 7200 3700 50  0001 C CNN "Field4"
+	1    7200 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 3300 7450 2200
+Wire Wire Line
+	7400 3400 7500 3400
+Wire Wire Line
+	7500 3400 7500 2300
+Wire Wire Line
+	7450 3300 7400 3300
+Wire Wire Line
+	7400 3500 7550 3500
+Wire Wire Line
+	7550 3500 7550 3100
+Wire Wire Line
+	7550 3100 8050 3100
+Wire Wire Line
+	7400 3600 7600 3600
+Wire Wire Line
+	7600 3600 7600 3200
+Wire Wire Line
+	7600 3200 8050 3200
+Wire Wire Line
+	6650 2900 8050 2900
+Wire Wire Line
+	8050 3000 6700 3000
+Wire Wire Line
+	6700 3000 6700 3600
+Wire Wire Line
+	7400 4000 7400 5000
+Wire Wire Line
+	7400 5000 8050 5000
+Wire Wire Line
+	7400 3900 7450 3900
+Wire Wire Line
+	7450 3900 7450 4900
+Wire Wire Line
+	7450 4900 8050 4900
+Wire Wire Line
+	7400 3800 7500 3800
+Wire Wire Line
+	7500 3800 7500 4100
+Wire Wire Line
+	7500 4100 8050 4100
+Wire Wire Line
+	7400 3700 7550 3700
+Wire Wire Line
+	7550 3700 7550 4000
+Wire Wire Line
+	7550 4000 8050 4000
+Wire Wire Line
+	6700 3700 6700 4200
+Wire Wire Line
+	6700 4200 7850 4200
+Wire Wire Line
+	7850 4200 7850 3800
+Wire Wire Line
+	7850 3800 8050 3800
+Connection ~ 6700 3700
+Wire Wire Line
+	6700 3700 7000 3700
+Wire Wire Line
+	6650 3800 6650 4250
+Wire Wire Line
+	6650 4250 7900 4250
+Wire Wire Line
+	7900 4250 7900 3900
+Wire Wire Line
+	7900 3900 8050 3900
+Connection ~ 6650 3800
+Wire Wire Line
+	6650 3800 7000 3800
+Wire Wire Line
+	6600 3900 6600 4700
+Wire Wire Line
+	6600 4700 8050 4700
+Connection ~ 6600 3900
+Wire Wire Line
+	6600 3900 7000 3900
+Wire Wire Line
+	6550 4000 6550 4800
+Wire Wire Line
+	6550 4800 8050 4800
+Connection ~ 6550 4000
+Wire Wire Line
+	6550 4000 7000 4000
 $EndSCHEMATC
