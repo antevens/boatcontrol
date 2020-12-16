@@ -642,4 +642,50 @@ F 3 "~" H 9750 4000 50  0001 C CNN
 	1    9750 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 6195B94E
+P 1250 3750
+F 0 "C?" V 1200 3500 50  0000 L CNN
+F 1 "10uF" H 1341 3705 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1250 3750 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1250 3750 50  0001 C CNN
+F 4 "Kemet" H 1250 3750 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 1250 3750 50  0001 C CNN "Model"
+	1    1250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 6195B956
+P 1450 3750
+F 0 "C?" V 1400 3500 50  0000 L CNN
+F 1 "0.1uF" H 1541 3705 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1450 3750 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1450 3750 50  0001 C CNN
+F 4 "Kemet" H 1450 3750 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 1450 3750 50  0001 C CNN "Model"
+	1    1450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3650 1250 2750
+Wire Wire Line
+	1450 2750 1450 3650
+Wire Wire Line
+	1250 3850 1250 4950
+Wire Wire Line
+	1450 3850 1450 4950
+Wire Wire Line
+	1250 2750 1450 2750
+Connection ~ 1700 2750
+Connection ~ 1450 2750
+Wire Wire Line
+	1450 2750 1700 2750
+Wire Wire Line
+	1250 4950 1450 4950
+Connection ~ 2100 4950
+Connection ~ 1450 4950
+Wire Wire Line
+	1450 4950 2100 4950
 $EndSCHEMATC

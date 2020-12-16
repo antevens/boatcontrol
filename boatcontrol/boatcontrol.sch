@@ -98,29 +98,10 @@ F 3 "~" H 5400 10800 50  0001 C CNN
 	1    5400 10800
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:CP1_Small C108
-U 1 1 FF7CD4D1
-P 2550 9350
-F 0 "C108" H 2400 9450 50  0000 C CNN
-F 1 "Illinois Capacitor " V 2412 9350 50  0001 C CNN
-F 2 "BoatControl:U1-E" H 2550 9350 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 2550 9350 50  0001 C CNN
-F 4 "227AVG050MGBJ" V 2700 9350 50  0001 C CNN "Type"
-F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 2550 9350 50  0001 C CNN "Field5"
-	1    2550 9350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 9250 2550 8850
-Connection ~ 2550 8850
-Wire Wire Line
-	2550 8850 3050 8850
 Wire Wire Line
 	2550 9450 2550 9850
-Connection ~ 2550 9850
-Wire Wire Line
-	2550 9850 2000 9850
 $Comp
 L power:GND #PWR0105
 U 1 1 602AEA4D
@@ -141,51 +122,20 @@ Wire Wire Line
 	3050 9600 3050 9850
 Connection ~ 3050 9850
 Wire Wire Line
-	3050 9850 2550 9850
-Wire Wire Line
 	3050 9300 3050 8850
-$Comp
-L Device:CP1_Small C107
-U 1 1 645F271A
-P 2550 10450
-F 0 "C107" H 2400 10550 50  0000 C CNN
-F 1 "Illinois Capacitor" V 2412 10450 50  0001 C CNN
-F 2 "BoatControl:U1-E" H 2550 10450 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 2550 10450 50  0001 C CNN
-F 4 "227AVG050MGBJ" V 2700 10450 50  0001 C CNN "Field4"
-F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 2550 10450 50  0001 C CNN "Field5"
-	1    2550 10450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 10550 2550 10950
-Connection ~ 2550 10950
-Wire Wire Line
-	2550 10950 3100 10950
 $Comp
 L Device:CP1_Small C102
 U 1 1 6504B4A0
 P 6000 9550
-F 0 "C102" H 5850 9450 50  0000 C CNN
+F 0 "C102" V 5950 9400 50  0000 C CNN
 F 1 "Illinois Capacitor " V 5850 9550 50  0001 C CNN
 F 2 "BoatControl:U1-E" H 6000 9550 50  0001 C CNN
 F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 6000 9550 50  0001 C CNN
 F 4 "337AVG035MGBJ" V 6150 9550 50  0001 C CNN "Field4"
 F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 6000 9550 50  0001 C CNN "Field5"
 	1    6000 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C101
-U 1 1 65064552
-P 6000 10650
-F 0 "C101" H 5850 10550 50  0000 C CNN
-F 1 "Illinois Capacitor " V 5900 10650 50  0001 C CNN
-F 2 "BoatControl:U1-E" H 6000 10650 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 6000 10650 50  0001 C CNN
-F 4 "337AVG035MGBJ" V 6150 10650 50  0001 C CNN "Field4"
-F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 6000 10650 50  0001 C CNN "Field5"
-	1    6000 10650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -208,7 +158,6 @@ Wire Wire Line
 	6000 10550 6000 10500
 Wire Wire Line
 	6000 9300 6000 9400
-Connection ~ 6000 9300
 Wire Wire Line
 	4900 10500 6000 10500
 Connection ~ 6000 10500
@@ -257,18 +206,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 10800 5200 10950
 Connection ~ 5200 10950
-$Comp
-L Device:C_Small C106
-U 1 1 715F6AB2
-P 2950 9400
-F 0 "C106" V 2850 9400 50  0000 C CNN
-F 1 "C320C103K1R5TA" H 2950 9250 50  0001 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2950 9400 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 2950 9400 50  0001 C CNN
-F 4 "CAP CER 10000PF 100V X7R RADIAL" V 2950 9400 50  0001 C CNN "Field4"
-	1    2950 9400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5400 9300 5400 9000
 Wire Wire Line
@@ -288,12 +225,8 @@ F 4 "4404.0096" V 2000 8650 50  0001 C CNN "Manufacturer ID"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 8850 2550 8850
-Wire Wire Line
 	2000 10950 2000 9850
 Connection ~ 2000 10950
-Wire Wire Line
-	2000 10950 2550 10950
 $Comp
 L BoatControl:TBL008V-1000-02BE J106
 U 1 1 74976505
@@ -306,18 +239,6 @@ F 4 "12VDC Logic" H 950 10000 50  0000 C CNN "Type"
 	1    1000 9750
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C_Small C105
-U 1 1 87A281E4
-P 3000 10500
-F 0 "C105" V 2900 10500 50  0000 C CNN
-F 1 "C320C103K1R5TA" H 3000 10350 50  0001 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3000 10500 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 3000 10500 50  0001 C CNN
-F 4 "CAP CER 10000PF 100V X7R RADIAL" V 3000 10500 50  0001 C CNN "Field4"
-	1    3000 10500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2900 10500 2900 10100
 Wire Wire Line
@@ -326,23 +247,18 @@ Wire Wire Line
 	5400 10100 5400 10400
 Wire Wire Line
 	2550 10350 2550 9950
-Connection ~ 2550 9950
-Wire Wire Line
-	2550 9950 3100 9950
 Wire Wire Line
 	2250 8850 2250 9950
 Connection ~ 2250 8850
-Wire Wire Line
-	2250 9950 2550 9950
 $Comp
 L power:+5V #PWR0101
 U 1 1 F43573A4
-P 6350 9300
-F 0 "#PWR0101" H 6350 9150 50  0001 C CNN
-F 1 "+5V" H 6365 9473 50  0000 C CNN
-F 2 "" H 6350 9300 50  0001 C CNN
-F 3 "" H 6350 9300 50  0001 C CNN
-	1    6350 9300
+P 6600 9300
+F 0 "#PWR0101" H 6600 9150 50  0001 C CNN
+F 1 "+5V" H 6615 9473 50  0000 C CNN
+F 2 "" H 6600 9300 50  0001 C CNN
+F 3 "" H 6600 9300 50  0001 C CNN
+	1    6600 9300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -365,8 +281,6 @@ Wire Wire Line
 	1400 9750 1450 9750
 Wire Wire Line
 	6000 10500 6000 10400
-Wire Wire Line
-	6000 10400 6350 10400
 Connection ~ 6000 10400
 NoConn ~ 4850 9600
 NoConn ~ 4900 10700
@@ -578,17 +492,6 @@ F 2 "MountingHole:MountingHole_3mm" H 11050 10600 50  0001 C CNN
 F 3 "~" H 11050 10600 50  0001 C CNN
 	1    11050 10600
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12P #PWR0102
-U 1 1 603A75D7
-P 6350 10400
-F 0 "#PWR0102" H 6350 10250 50  0001 C CNN
-F 1 "+12P" H 6365 10573 50  0000 C CNN
-F 2 "" H 6350 10400 50  0001 C CNN
-F 3 "" H 6350 10400 50  0001 C CNN
-	1    6350 10400
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5200 10950 3100 10950
@@ -929,26 +832,14 @@ Wire Notes Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F134FC1
-P 6350 9300
-F 0 "#FLG0101" H 6350 9375 50  0001 C CNN
-F 1 "PWR_FLAG" H 6350 9473 50  0000 C CNN
-F 2 "" H 6350 9300 50  0001 C CNN
-F 3 "~" H 6350 9300 50  0001 C CNN
-	1    6350 9300
+P 6600 9300
+F 0 "#FLG0101" H 6600 9375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 9473 50  0000 C CNN
+F 2 "" H 6600 9300 50  0001 C CNN
+F 3 "~" H 6600 9300 50  0001 C CNN
+	1    6600 9300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5F13965C
-P 6350 10400
-F 0 "#FLG0102" H 6350 10475 50  0001 C CNN
-F 1 "PWR_FLAG" H 6350 10573 50  0000 C CNN
-F 2 "" H 6350 10400 50  0001 C CNN
-F 3 "~" H 6350 10400 50  0001 C CNN
-	1    6350 10400
-	1    0    0    -1  
-$EndComp
-Connection ~ 6350 10400
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5F276561
@@ -1066,12 +957,12 @@ Wire Bus Line
 $Comp
 L power:+5V #PWR0103
 U 1 1 E1D0EA20
-P 9700 1150
-F 0 "#PWR0103" H 9700 1000 50  0001 C CNN
-F 1 "+5V" H 9715 1323 50  0000 C CNN
-F 2 "" H 9700 1150 50  0001 C CNN
-F 3 "" H 9700 1150 50  0001 C CNN
-	1    9700 1150
+P 9200 950
+F 0 "#PWR0103" H 9200 800 50  0001 C CNN
+F 1 "+5V" H 9215 1123 50  0000 C CNN
+F 2 "" H 9200 950 50  0001 C CNN
+F 3 "" H 9200 950 50  0001 C CNN
+	1    9200 950 
 	-1   0    0    -1  
 $EndComp
 Entry Wire Line
@@ -1153,8 +1044,6 @@ Wire Wire Line
 	8800 2200 8800 2350
 Text Notes 3300 7050 1    50   ~ 0
 I2C Address 0x26
-Text Notes 3300 3450 1    50   ~ 0
-I2C Address 0x25
 Wire Wire Line
 	9800 1650 9700 1650
 Connection ~ 9700 1650
@@ -2448,22 +2337,12 @@ F 3 "" H 14300 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6300 7900
-Connection ~ 6350 9300
-Wire Wire Line
-	6000 9300 6350 9300
+Connection ~ 6600 9300
 Wire Wire Line
 	1450 8850 1600 8850
 Wire Wire Line
 	1450 8850 1450 9750
 Connection ~ 1450 8850
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 $Comp
 L Transistor_Array:ULN2803A U104
 U 1 1 6229F049
@@ -2475,4 +2354,407 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 4950 3150 50  0001 C CNN
 	1    4850 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C106
+U 1 1 715F6AB2
+P 2950 9400
+F 0 "C106" V 2850 9400 50  0000 C CNN
+F 1 "C320C103K1R5TA" H 2950 9250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2950 9400 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 2950 9400 50  0001 C CNN
+F 4 "CAP CER 10000PF 100V X7R RADIAL" V 2950 9400 50  0001 C CNN "Field4"
+	1    2950 9400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 9850 2700 9850
+Text Notes 3300 3450 1    50   ~ 0
+I2C Address 0x25
+Wire Wire Line
+	2700 9250 2700 8850
+Connection ~ 2700 8850
+Wire Wire Line
+	2700 8850 3050 8850
+Wire Wire Line
+	2700 9450 2700 9850
+Connection ~ 2700 9850
+$Comp
+L Device:CP1_Small C101
+U 1 1 65064552
+P 6000 10650
+F 0 "C101" V 5950 10500 50  0000 C CNN
+F 1 "Illinois Capacitor " V 5900 10650 50  0001 C CNN
+F 2 "BoatControl:U1-E" H 6000 10650 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 6000 10650 50  0001 C CNN
+F 4 "337AVG035MGBJ" V 6150 10650 50  0001 C CNN "Field4"
+F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 6000 10650 50  0001 C CNN "Field5"
+	1    6000 10650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 10400
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F13965C
+P 6600 10400
+F 0 "#FLG0102" H 6600 10475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6600 10573 50  0000 C CNN
+F 2 "" H 6600 10400 50  0001 C CNN
+F 3 "~" H 6600 10400 50  0001 C CNN
+	1    6600 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12P #PWR0102
+U 1 1 603A75D7
+P 6600 10400
+F 0 "#PWR0102" H 6600 10250 50  0001 C CNN
+F 1 "+12P" H 6615 10573 50  0000 C CNN
+F 2 "" H 6600 10400 50  0001 C CNN
+F 3 "" H 6600 10400 50  0001 C CNN
+	1    6600 10400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 10400 6150 10400
+$Comp
+L Device:CP1_Small C107
+U 1 1 645F271A
+P 2550 10450
+F 0 "C107" V 2500 10300 50  0000 C CNN
+F 1 "Illinois Capacitor" V 2412 10450 50  0001 C CNN
+F 2 "BoatControl:U1-E" H 2550 10450 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 2550 10450 50  0001 C CNN
+F 4 "227AVG050MGBJ" V 2700 10450 50  0001 C CNN "Field4"
+F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 2550 10450 50  0001 C CNN "Field5"
+	1    2550 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C108
+U 1 1 FF7CD4D1
+P 2550 9350
+F 0 "C108" V 2500 9200 50  0000 C CNN
+F 1 "Illinois Capacitor " V 2412 9350 50  0001 C CNN
+F 2 "BoatControl:U1-E" H 2550 9350 50  0001 C CNN
+F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 2550 9350 50  0001 C CNN
+F 4 "227AVG050MGBJ" V 2700 9350 50  0001 C CNN "Type"
+F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 2550 9350 50  0001 C CNN "Field5"
+	1    2550 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 10350 2700 9950
+Wire Wire Line
+	2700 10550 2700 10950
+Wire Wire Line
+	2700 10950 3100 10950
+Connection ~ 2700 10950
+Connection ~ 2700 9950
+Wire Wire Line
+	2700 9950 3100 9950
+Wire Wire Line
+	6000 10950 6150 10950
+Wire Wire Line
+	6150 10950 6150 10750
+Connection ~ 6000 10950
+Wire Wire Line
+	6150 10400 6150 10550
+Connection ~ 6000 9300
+Wire Wire Line
+	6000 9300 6150 9300
+Wire Wire Line
+	6150 10400 6300 10400
+Connection ~ 6150 10400
+$Comp
+L Device:CP1_Small C?
+U 1 1 60EF04B7
+P 6150 9550
+F 0 "C?" V 6100 9300 50  0000 L CNN
+F 1 "0.22uF" H 6241 9505 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6150 9550 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 6150 9550 50  0001 C CNN
+F 4 "Kemet" H 6150 9550 50  0001 C CNN "Manufacturer"
+F 5 "C322C224K5R5TA" V 6150 9550 50  0001 C CNN "Model"
+	1    6150 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 9850 6150 9650
+Wire Wire Line
+	6150 9300 6150 9450
+Wire Wire Line
+	6000 9850 6150 9850
+Connection ~ 6000 9850
+$Comp
+L Device:C_Small C105
+U 1 1 87A281E4
+P 3000 10500
+F 0 "C105" V 2900 10500 50  0000 C CNN
+F 1 "C320C103K1R5TA" H 3000 10350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3000 10500 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C320C103K1R5TA.pdf" H 3000 10500 50  0001 C CNN
+F 4 "CAP CER 10000PF 100V X7R RADIAL" V 3000 10500 50  0001 C CNN "Field4"
+	1    3000 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 60F6B2E0
+P 6300 9550
+F 0 "C?" V 6250 9300 50  0000 L CNN
+F 1 "10uF" H 6391 9505 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 9550 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 6300 9550 50  0001 C CNN
+F 4 "Kemet" H 6300 9550 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 6300 9550 50  0001 C CNN "Model"
+	1    6300 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9850 6300 9650
+$Comp
+L Device:CP1_Small C?
+U 1 1 60FA0D25
+P 6150 10650
+F 0 "C?" V 6100 10400 50  0000 L CNN
+F 1 "0.22uF" H 6241 10605 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6150 10650 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 6150 10650 50  0001 C CNN
+F 4 "Kemet" H 6150 10650 50  0001 C CNN "Manufacturer"
+F 5 "C322C224K5R5TA" V 6150 10650 50  0001 C CNN "Model"
+	1    6150 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 60FD3C92
+P 2700 10450
+F 0 "C?" V 2650 10200 50  0000 L CNN
+F 1 "0.22uF" H 2791 10405 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 2700 10450 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 2700 10450 50  0001 C CNN
+F 4 "Kemet" H 2700 10450 50  0001 C CNN "Manufacturer"
+F 5 "C322C224K5R5TA" V 2700 10450 50  0001 C CNN "Model"
+	1    2700 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 610069CE
+P 2700 9350
+F 0 "C?" V 2650 9100 50  0000 L CNN
+F 1 "0.22uF" H 2791 9305 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 2700 9350 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 2700 9350 50  0001 C CNN
+F 4 "Kemet" H 2700 9350 50  0001 C CNN "Manufacturer"
+F 5 "C322C224K5R5TA" V 2700 9350 50  0001 C CNN "Model"
+	1    2700 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9450 6300 9300
+Connection ~ 6300 9300
+Wire Wire Line
+	6300 9300 6600 9300
+Connection ~ 6150 9300
+Wire Wire Line
+	6150 9300 6300 9300
+Wire Wire Line
+	6150 9850 6300 9850
+Connection ~ 6150 9850
+Wire Wire Line
+	6300 10950 6150 10950
+Connection ~ 6150 10950
+Wire Wire Line
+	6300 10550 6300 10400
+Connection ~ 6300 10400
+Wire Wire Line
+	6300 10400 6600 10400
+Connection ~ 2550 8850
+Wire Wire Line
+	2550 8850 2700 8850
+Connection ~ 2550 9850
+Wire Wire Line
+	2550 9850 2700 9850
+Wire Wire Line
+	2250 8850 2550 8850
+Wire Wire Line
+	2000 9850 2550 9850
+Connection ~ 2550 9950
+Wire Wire Line
+	2550 9950 2700 9950
+Connection ~ 2550 10950
+Wire Wire Line
+	2550 10950 2700 10950
+Wire Wire Line
+	2000 10950 2550 10950
+Wire Wire Line
+	2250 9950 2550 9950
+$Comp
+L Device:CP1_Small C?
+U 1 1 61268DAC
+P 6300 10650
+F 0 "C?" V 6250 10400 50  0000 L CNN
+F 1 "10uF" H 6391 10605 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 10650 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 6300 10650 50  0001 C CNN
+F 4 "Kemet" H 6300 10650 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 6300 10650 50  0001 C CNN "Model"
+	1    6300 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 10950 6300 10750
+$Comp
+L Device:CP1_Small C?
+U 1 1 613A3C7C
+P 900 6100
+F 0 "C?" V 850 5850 50  0000 L CNN
+F 1 "10uF" H 991 6055 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 900 6100 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 900 6100 50  0001 C CNN
+F 4 "Kemet" H 900 6100 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 900 6100 50  0001 C CNN "Model"
+	1    900  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 613A3C84
+P 1100 6100
+F 0 "C?" V 1050 5850 50  0000 L CNN
+F 1 "0.1uF" H 1191 6055 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1100 6100 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1100 6100 50  0001 C CNN
+F 4 "Kemet" H 1100 6100 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 1100 6100 50  0001 C CNN "Model"
+	1    1100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7300 1700 7300
+Connection ~ 1700 7300
+Wire Wire Line
+	1100 5100 1300 5100
+Connection ~ 1300 5100
+Wire Wire Line
+	900  6000 900  5100
+Wire Wire Line
+	900  5100 1100 5100
+Connection ~ 1100 5100
+Wire Wire Line
+	1100 5100 1100 6000
+Wire Wire Line
+	900  6200 900  7300
+Wire Wire Line
+	900  7300 1100 7300
+Connection ~ 1100 7300
+Wire Wire Line
+	1100 6200 1100 7300
+$Comp
+L Device:CP1_Small C?
+U 1 1 6164BF2A
+P 900 2500
+F 0 "C?" V 850 2250 50  0000 L CNN
+F 1 "10uF" H 991 2455 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 900 2500 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 900 2500 50  0001 C CNN
+F 4 "Kemet" H 900 2500 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 900 2500 50  0001 C CNN "Model"
+	1    900  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 6164BF32
+P 1100 2500
+F 0 "C?" V 1050 2250 50  0000 L CNN
+F 1 "0.1uF" H 1191 2455 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1100 2500 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1100 2500 50  0001 C CNN
+F 4 "Kemet" H 1100 2500 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 1100 2500 50  0001 C CNN "Model"
+	1    1100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2400 900  1500
+Wire Wire Line
+	1100 1500 1100 2400
+Wire Wire Line
+	900  2600 900  3700
+Wire Wire Line
+	1100 2600 1100 3700
+Wire Wire Line
+	1100 1500 1300 1500
+Connection ~ 1300 1500
+Wire Wire Line
+	900  1500 1100 1500
+Connection ~ 1100 1500
+Connection ~ 1700 3700
+Wire Wire Line
+	900  3700 1100 3700
+Wire Wire Line
+	1100 3700 1700 3700
+Connection ~ 1100 3700
+$Comp
+L Device:CP1_Small C?
+U 1 1 619E9617
+P 9350 1050
+F 0 "C?" V 9300 800 50  0000 L CNN
+F 1 "10uF" H 9441 1005 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9350 1050 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 9350 1050 50  0001 C CNN
+F 4 "Kemet" H 9350 1050 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 9350 1050 50  0001 C CNN "Model"
+	1    9350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 619E961F
+P 9550 1050
+F 0 "C?" V 9500 800 50  0000 L CNN
+F 1 "0.1uF" H 9641 1005 50  0001 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9550 1050 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 9550 1050 50  0001 C CNN
+F 4 "Kemet" H 9550 1050 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 9550 1050 50  0001 C CNN "Model"
+	1    9550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 950  9350 950 
+Wire Wire Line
+	9350 950  9550 950 
+Connection ~ 9350 950 
+Wire Wire Line
+	9550 950  9700 950 
+Wire Wire Line
+	9700 950  9700 1150
+Connection ~ 9550 950 
+$Comp
+L power:GND #PWR?
+U 1 1 61D20E81
+P 9200 1150
+F 0 "#PWR?" H 9200 900 50  0001 C CNN
+F 1 "GND" H 9205 977 50  0000 C CNN
+F 2 "" H 9200 1150 50  0001 C CNN
+F 3 "" H 9200 1150 50  0001 C CNN
+	1    9200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1150 9350 1150
+Wire Wire Line
+	9350 1150 9550 1150
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
+Connection ~ 9350 1150
 $EndSCHEMATC
