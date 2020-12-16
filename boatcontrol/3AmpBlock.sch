@@ -467,52 +467,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 3450 1950 3350
 $Comp
-L BoatControl:4116R-1-103LF RN304
-U 1 1 5FF784D2
-P 1950 4950
-AR Path="/D16552B4/5FA17F38/5FF784D2" Ref="RN304"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5FF784D2" Ref="RN1204"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5FF784D2" Ref="RN2104"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5FF784D2" Ref="RN3004"  Part="1" 
-F 0 "RN304" V 1850 4650 50  0000 C CNN
-F 1 "4116R-1-103LF" V 1750 4650 50  0000 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 2700 5050 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 2700 4950 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 2700 4850 50  0001 L CNN "Description"
-F 5 "4.69" H 2700 4750 50  0001 L CNN "Height"
-F 6 "Bourns" H 2700 4650 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 2700 4550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 2700 4450 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 2700 4350 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 2700 4250 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 2700 4150 50  0001 L CNN "Mouser Price/Stock"
-	1    1950 4950
-	1    0    0    1   
-$EndComp
-$Comp
-L BoatControl:4116R-1-103LF RN301
-U 1 1 5FD52518
-P 1950 3150
-AR Path="/D16552B4/5FA17F38/5FD52518" Ref="RN301"  Part="1" 
-AR Path="/D16552B4/5FA17F52/5FD52518" Ref="RN1201"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/5FD52518" Ref="RN2101"  Part="1" 
-AR Path="/D16552B4/5FA17F86/5FD52518" Ref="RN3001"  Part="1" 
-F 0 "RN301" V 1850 2850 50  0000 C CNN
-F 1 "4116R-1-103LF" V 1750 2850 50  0000 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 2700 3250 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 2700 3150 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 2700 3050 50  0001 L CNN "Description"
-F 5 "4.69" H 2700 2950 50  0001 L CNN "Height"
-F 6 "Bourns" H 2700 2850 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 2700 2750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 2700 2650 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 2700 2550 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 2700 2450 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 2700 2350 50  0001 L CNN "Mouser Price/Stock"
-	1    1950 3150
-	1    0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR0303
 U 1 1 5FF7A29F
 P 1950 4950
@@ -541,7 +495,7 @@ AR Path="/D16552B4/5FA17F38/5F542D5F" Ref="RN303"  Part="1"
 AR Path="/D16552B4/5FA17F52/5F542D5F" Ref="RN1203"  Part="1" 
 AR Path="/D16552B4/5FA17F6C/5F542D5F" Ref="RN2103"  Part="1" 
 F 0 "RN303" H 2000 3450 50  0000 L CNN
-F 1 "4120R-1-103LF" H 1800 3350 50  0000 L CNN
+F 1 "4120R-1-103LF" H 1800 3350 50  0001 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 2625 3750 50  0001 C CNN
 F 3 "~" H 2150 3750 50  0001 C CNN
 	1    2150 3750
@@ -932,11 +886,11 @@ AR Path="/D16552B4/5FA17F86/81A9CC8E" Ref="RN3002"  Part="1"
 AR Path="/D16552B4/5FA17F38/81A9CC8E" Ref="RN302"  Part="1" 
 AR Path="/D16552B4/5FA17F52/81A9CC8E" Ref="RN1202"  Part="1" 
 AR Path="/D16552B4/5FA17F6C/81A9CC8E" Ref="RN2102"  Part="1" 
-F 0 "RN302" V 6600 3600 50  0000 L CNN
-F 1 "470 Ohm" V 6700 3550 50  0000 L CNN
+F 0 "RN302" V 6650 3600 50  0000 L CNN
+F 1 "4116R-1-471" V 6700 3550 50  0001 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 7675 3700 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 7200 3700 50  0001 C CNN
-F 4 "4116R-1-471" V 7200 3700 50  0001 C CNN "Field4"
+F 4 "" V 7200 3700 50  0001 C CNN "Field4"
 	1    7200 3700
 	0    1    1    0   
 $EndComp
@@ -1024,4 +978,51 @@ Wire Wire Line
 Connection ~ 6550 4000
 Wire Wire Line
 	6550 4000 7000 4000
+$Comp
+L BoatControl:4116R-1-103LF RN301
+U 1 1 5FD52518
+P 1950 3150
+AR Path="/D16552B4/5FA17F38/5FD52518" Ref="RN301"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5FD52518" Ref="RN1201"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5FD52518" Ref="RN2101"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5FD52518" Ref="RN3001"  Part="1" 
+F 0 "RN301" V 1850 2850 50  0000 C CNN
+F 1 "4116R-1-103LF" V 1750 2850 50  0001 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 2700 3250 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 2700 3150 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 2700 3050 50  0001 L CNN "Description"
+F 5 "4.69" H 2700 2950 50  0001 L CNN "Height"
+F 6 "Bourns" H 2700 2850 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 2700 2750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 2700 2650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 2700 2550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 2700 2450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 2700 2350 50  0001 L CNN "Mouser Price/Stock"
+	1    1950 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L BoatControl:4116R-1-103LF RN304
+U 1 1 5FF784D2
+P 1950 4950
+AR Path="/D16552B4/5FA17F38/5FF784D2" Ref="RN304"  Part="1" 
+AR Path="/D16552B4/5FA17F52/5FF784D2" Ref="RN1204"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/5FF784D2" Ref="RN2104"  Part="1" 
+AR Path="/D16552B4/5FA17F86/5FF784D2" Ref="RN3004"  Part="1" 
+F 0 "RN304" V 1850 4650 50  0000 C CNN
+F 1 "10K Ohm" V 1750 4650 50  0001 C CNN
+F 2 "DIP787W49P254L2197H469Q16N" H 2700 5050 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 2700 4950 50  0001 L CNN
+F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 2700 4850 50  0001 L CNN "Description"
+F 5 "4.69" H 2700 4750 50  0001 L CNN "Height"
+F 6 "Bourns" H 2700 4650 50  0001 L CNN "Manufacturer_Name"
+F 7 "4116R-1-103LF" H 2700 4550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "4116R-1-103LF" H 2700 4450 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 2700 4350 50  0001 L CNN "Arrow Price/Stock"
+F 10 "652-4116R-1LF-10K" H 2700 4250 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 2700 4150 50  0001 L CNN "Mouser Price/Stock"
+F 12 "4116R-1-103LF" V 1950 4950 50  0001 C CNN "Field12"
+	1    1950 4950
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
