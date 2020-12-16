@@ -2755,12 +2755,12 @@ Text GLabel 15000 4050 2    50   Input ~ 0
 Text GLabel 15000 3650 2    50   Input ~ 0
 12V_DC_C23_ON
 $Comp
-L BoatControl:IPP_B_I80P03 Q?
+L BoatControl:IPP_B_I80P03 Q102
 U 1 1 63241E20
 P 1450 9250
-AR Path="/63241E20" Ref="Q?"  Part="1" 
+AR Path="/63241E20" Ref="Q102"  Part="1" 
 AR Path="/D16552B4/63241E20" Ref="Q?"  Part="1" 
-F 0 "Q?" V 1300 9050 50  0000 L CNN
+F 0 "Q102" V 1300 9050 50  0000 L CNN
 F 1 "IRF9510PBF-BE3" V 1600 8950 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 9250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/91072/91072.pdf" H 1450 9250 50  0001 C CNN
@@ -2791,4 +2791,6 @@ Wire Bus Line
 	10500 1550 10500 4350
 Wire Bus Line
 	7150 800  7150 4350
+Text Label 1450 9750 1    50   ~ 0
+12V_RAW
 $EndSCHEMATC
