@@ -47,15 +47,15 @@ Wire Wire Line
 $Comp
 L power:+12C #PWR?
 U 1 1 D1AAA2AE
-P 8150 6050
+P 9000 6050
 AR Path="/D1AAA2AE" Ref="#PWR?"  Part="1" 
 AR Path="/D16552B4/D1AAA2AE" Ref="#PWR0205"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA2AE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0205" H 8150 5900 50  0001 C CNN
-F 1 "+12C" H 8100 6200 50  0000 L CNN
-F 2 "" H 8150 6050 50  0001 C CNN
-F 3 "" H 8150 6050 50  0001 C CNN
-	1    8150 6050
+F 0 "#PWR0205" H 9000 5900 50  0001 C CNN
+F 1 "+12C" H 8950 6200 50  0000 L CNN
+F 2 "" H 9000 6050 50  0001 C CNN
+F 3 "" H 9000 6050 50  0001 C CNN
+	1    9000 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -73,16 +73,16 @@ Wire Wire Line
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D1AAA18D
-P 8800 5950
+P 9650 5950
 AR Path="/D1AAA18D" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D1AAA18D" Ref="J206"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1" 
-F 0 "J206" H 9000 5800 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" H 9150 5800 50  0001 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 8800 5950 50  0001 L BNN
-F 3 "CUI" H 8800 5950 50  0001 L BNN
-F 4 "DC 12V Common Bank 1" H 9550 6000 50  0000 C CNN "Type"
-	1    8800 5950
+F 0 "J206" H 9850 5800 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" H 10000 5800 50  0001 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 9650 5950 50  0001 L BNN
+F 3 "CUI" H 9650 5950 50  0001 L BNN
+F 4 "DC 12V Common Bank 1" H 10400 6000 50  0000 C CNN "Type"
+	1    9650 5950
 	1    0    0    1   
 $EndComp
 $Comp
@@ -513,10 +513,7 @@ Connection ~ 6750 4750
 Wire Wire Line
 	6700 4600 7550 4600
 Wire Wire Line
-	8400 6050 8150 6050
-Connection ~ 6750 6050
-Wire Wire Line
-	6750 6050 6750 5250
+	9250 6050 9000 6050
 Wire Wire Line
 	6750 1050 6700 1050
 Wire Wire Line
@@ -777,7 +774,6 @@ Text GLabel 5400 7600 0    50   Input ~ 0
 12V_DC_C16_OFF
 Wire Wire Line
 	6750 1550 6750 2550
-Connection ~ 8150 6050
 Wire Wire Line
 	6750 4500 6750 3300
 Connection ~ 6750 4500
@@ -786,8 +782,6 @@ Wire Wire Line
 	7900 4650 7900 7100
 Wire Wire Line
 	6700 7100 7900 7100
-Wire Wire Line
-	6750 6050 8150 6050
 Wire Wire Line
 	7850 4550 7850 6850
 Wire Wire Line
@@ -857,15 +851,15 @@ SCK
 $Comp
 L power:PWR_FLAG #FLG0201
 U 1 1 5F1AB3C0
-P 8400 6050
-F 0 "#FLG0201" H 8400 6125 50  0001 C CNN
-F 1 "PWR_FLAG" H 8400 6223 50  0000 C CNN
-F 2 "" H 8400 6050 50  0001 C CNN
-F 3 "~" H 8400 6050 50  0001 C CNN
-	1    8400 6050
+P 9250 6050
+F 0 "#FLG0201" H 9250 6125 50  0001 C CNN
+F 1 "PWR_FLAG" H 9250 6223 50  0000 C CNN
+F 2 "" H 9250 6050 50  0001 C CNN
+F 3 "~" H 9250 6050 50  0001 C CNN
+	1    9250 6050
 	-1   0    0    1   
 $EndComp
-Connection ~ 8400 6050
+Connection ~ 9250 6050
 Text Notes 3300 2100 3    50   ~ 0
 I2C Address 0x20
 Text Notes 3300 6250 3    50   ~ 0
@@ -950,8 +944,6 @@ F 3 "~" H 1500 6700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 2700 2850 2700
-Wire Wire Line
-	6750 6050 6750 6250
 Wire Wire Line
 	6750 6250 6700 6250
 Connection ~ 6750 6250
@@ -1057,4 +1049,55 @@ Connection ~ 1700 7150
 Connection ~ 1100 7150
 Wire Wire Line
 	1100 7150 1700 7150
+$Comp
+L Device:R R?
+U 1 1 6232FD90
+P 8650 5750
+AR Path="/6232FD90" Ref="R?"  Part="1" 
+AR Path="/D16552B4/6232FD90" Ref="R?"  Part="1" 
+F 0 "R?" H 8720 5796 50  0000 L CNN
+F 1 "1K Ohm" H 8720 5705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8580 5750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/31025/erc.pdf" H 8650 5750 50  0001 C CNN
+F 4 "RNC55H1001FSRE6" H 8650 5750 50  0001 C CNN "Field4"
+	1    8650 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BoatControl:IPP_B_I80P03 Q?
+U 1 1 6232FD99
+P 8500 6050
+AR Path="/6232FD99" Ref="Q?"  Part="1" 
+AR Path="/D16552B4/6232FD99" Ref="Q?"  Part="1" 
+F 0 "Q?" V 8350 5850 50  0000 L CNN
+F 1 "IPP_B_I80P03" V 8750 5850 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8500 6050 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8500 6050 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8500 6050 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 8500 6050 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 8500 6050 50  0001 C CNN "Infineon Technologies"
+	1    8500 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 5250 6750 6050
+Wire Wire Line
+	8300 6050 6750 6050
+Connection ~ 6750 6050
+Wire Wire Line
+	6750 6050 6750 6250
+Wire Wire Line
+	8700 6050 9000 6050
+Connection ~ 9000 6050
+$Comp
+L power:GND #PWR?
+U 1 1 623B0B10
+P 8800 5750
+F 0 "#PWR?" H 8800 5500 50  0001 C CNN
+F 1 "GND" H 8805 5577 50  0000 C CNN
+F 2 "" H 8800 5750 50  0001 C CNN
+F 3 "" H 8800 5750 50  0001 C CNN
+	1    8800 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

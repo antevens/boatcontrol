@@ -1,8 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2000-100-V-H-RC‎
+F Bourns
+$ENDCMP
+#
+$CMP 4116R-1-103LF
+D Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole
+F http://www.bourns.com/pdfs/4100R.pdf
+$ENDCMP
+#
 $CMP CD74HCT221E
 D CD74HCT221E, Dual Monostable Multivibrator, HCT, 4mA 4.5  5.5 V 16-Pin PDIP
 F http://www.ti.com/lit/ds/symlink/cd74hct221.pdf
+$ENDCMP
+#
+$CMP IPP_B_I80P03
+F https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t
 $ENDCMP
 #
 #End Doc Library
