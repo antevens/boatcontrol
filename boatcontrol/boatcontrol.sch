@@ -1822,17 +1822,6 @@ Wire Wire Line
 Connection ~ 6300 1200
 Wire Wire Line
 	6300 1200 6300 1400
-$Comp
-L power:GND #PWR0108
-U 1 1 626ACC2A
-P 6300 7900
-F 0 "#PWR0108" H 6300 7650 50  0001 C CNN
-F 1 "GND" H 6305 7727 50  0000 C CNN
-F 2 "" H 6300 7900 50  0001 C CNN
-F 3 "" H 6300 7900 50  0001 C CNN
-	1    6300 7900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 1900 5600 1900
 Wire Wire Line
@@ -2336,7 +2325,6 @@ F 3 "" H 14300 7950 50  0001 C CNN
 	1    14300 7950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 7900
 Connection ~ 6600 9300
 Wire Wire Line
 	1450 8850 1600 8850
@@ -2790,4 +2778,16 @@ Wire Bus Line
 Wire Bus Line
 	7150 800  7150 4350
 Connection ~ 1450 9850
+$Comp
+L power:+12P #PWR?
+U 1 1 6252C2A4
+P 6300 7900
+F 0 "#PWR?" H 6300 7750 50  0001 C CNN
+F 1 "+12P" H 6315 8073 50  0000 C CNN
+F 2 "" H 6300 7900 50  0001 C CNN
+F 3 "" H 6300 7900 50  0001 C CNN
+	1    6300 7900
+	-1   0    0    1   
+$EndComp
+Connection ~ 6300 7900
 $EndSCHEMATC
