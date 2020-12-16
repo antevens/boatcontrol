@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 67 87
+Sheet 76 87
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -669,4 +669,10 @@ Wire Wire Line
 Connection ~ 5250 4000
 Wire Wire Line
 	5250 4000 5250 4900
+Text Label 6750 3550 0    50   ~ 0
+ON_COIL
+Text Label 6700 4500 0    50   ~ 0
+OFF_COIL
+Text Label 7350 3650 0    50   ~ 0
+TO_FUSE
 $EndSCHEMATC

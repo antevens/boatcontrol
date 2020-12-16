@@ -1027,7 +1027,6 @@ F 3 "~" H 7700 6100 50  0001 C CNN
 	1    7700 6100
 	-1   0    0    1   
 $EndComp
-Connection ~ 8900 6100
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D2B4FEF1

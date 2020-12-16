@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 36 87
+Sheet 26 87
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -1079,4 +1079,10 @@ F 3 "Omron" H 7600 4250 50  0001 L BNN
 	1    7200 4000
 	1    0    0    -1  
 $EndComp
+Text Label 6750 3550 0    50   ~ 0
+ON_COIL
+Text Label 6750 4500 0    50   ~ 0
+OFF_COIL
+Text Label 7350 3650 0    50   ~ 0
+TO_FUSE
 $EndSCHEMATC

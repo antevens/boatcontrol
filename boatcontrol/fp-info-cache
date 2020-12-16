@@ -1,4 +1,4 @@
-17975220535156068
+17978436850770068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -301,6 +301,13 @@ battery CR-3032 coin cell vertical
 2
 2
 BoatControl
+Ant_Logo_SilkScreen
+
+
+0
+0
+0
+BoatControl
 CAPPRD500W60D1000H1750
 
 
@@ -398,6 +405,13 @@ RELAY_G5RL-K1A-E-DC12
 0
 7
 7
+BoatControl
+Rugludallur-Logo_SilkScreen
+Rugludallur Logo
+dallur rugludallur logo
+0
+0
+0
 BoatControl
 STEWART_SS73100-047F
 

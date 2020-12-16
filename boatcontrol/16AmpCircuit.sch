@@ -887,4 +887,10 @@ Wire Wire Line
 Connection ~ 5250 4000
 Wire Wire Line
 	5250 4000 5250 4900
+Text Label 7350 3650 0    50   ~ 0
+TO_FUSE
+Text Label 6750 3550 0    50   ~ 0
+ON_COIL
+Text Label 6700 4500 0    50   ~ 0
+OFF_COIL
 $EndSCHEMATC

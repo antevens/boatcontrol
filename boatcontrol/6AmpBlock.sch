@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 79 87
+Sheet 52 87
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -988,8 +988,6 @@ Wire Wire Line
 	2650 5200 3250 5200
 Wire Wire Line
 	2650 5300 3200 5300
-Wire Wire Line
-	2250 4600 2250 3700
 Connection ~ 2250 4600
 Wire Wire Line
 	2250 4600 2250 5300

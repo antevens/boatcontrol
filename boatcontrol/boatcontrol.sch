@@ -2783,6 +2783,19 @@ Wire Notes Line
 	3200 10000 6750 10000
 Wire Wire Line
 	1750 9250 1750 9850
+Text Label 1450 9750 1    50   ~ 0
+12V_RAW
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO101
+U 1 1 637B1178
+P 15550 10450
+F 0 "#LOGO101" H 15550 10950 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 15550 10050 50  0001 C CNN
+F 2 "" H 15550 10966 50  0001 C CNN
+F 3 "~" H 15550 10450 50  0001 C CNN
+	1    15550 10450
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8700 1550 10500 1550
 Wire Bus Line
@@ -2791,6 +2804,4 @@ Wire Bus Line
 	10500 1550 10500 4350
 Wire Bus Line
 	7150 800  7150 4350
-Text Label 1450 9750 1    50   ~ 0
-12V_RAW
 $EndSCHEMATC

@@ -692,4 +692,10 @@ Connection ~ 2100 4950
 Connection ~ 1450 4950
 Wire Wire Line
 	1450 4950 2100 4950
+Text Label 3100 3950 0    50   ~ 0
+RST
+Text Label 3100 3650 0    50   ~ 0
+INT_A
+Text Label 3100 3750 0    50   ~ 0
+INT_B
 $EndSCHEMATC

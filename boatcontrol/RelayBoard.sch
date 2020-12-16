@@ -707,4 +707,68 @@ F 3 "" H 250 4300 50  0001 C CNN
 	1    250  4300
 	1    0    0    -1  
 $EndComp
+Text Label 4800 3350 0    50   ~ 0
+K1_IN
+Text Label 3750 3350 0    50   ~ 0
+K5_IN
+Text Label 5850 3550 0    50   ~ 0
+K6_IN
+Text Label 6900 3550 0    50   ~ 0
+K2_IN
+Text Label 7950 3550 0    50   ~ 0
+K7_IN
+Text Label 9000 3550 0    50   ~ 0
+K3_IN
+Text Label 10050 3550 0    50   ~ 0
+K8_IN
+Text Label 11100 3550 0    50   ~ 0
+K4_IN
+Text Label 3750 4850 0    50   ~ 0
+K5_OUT
+Text Label 4800 4850 0    50   ~ 0
+K1_OUT
+Text Label 5850 4800 0    50   ~ 0
+K6_OUT
+Text Label 6900 4650 0    50   ~ 0
+K2_OUT
+Text Label 7950 4650 0    50   ~ 0
+K7_OUT
+Text Label 9000 4650 0    50   ~ 0
+K3_OUT
+Text Label 10050 4650 0    50   ~ 0
+K8_OUT
+Text Label 11100 4650 0    50   ~ 0
+K4_OUT
+Text Label 4450 4500 2    50   ~ 0
+K1_COIL_ON
+Text Label 5500 4500 2    50   ~ 0
+K6_COIL_ON
+Text Label 6550 4500 2    50   ~ 0
+K2_COIL_ON
+Text Label 4450 3700 2    50   ~ 0
+K2_COIL_OFF
+Text Label 5500 3700 2    50   ~ 0
+K6_COIL_OFF
+Text Label 6550 3700 2    50   ~ 0
+K2_COIL_OFF
+Text Label 7600 3700 2    50   ~ 0
+K7_COIL_OFF
+Text Label 7600 4500 2    50   ~ 0
+K7_COIL_ON
+Text Label 8650 4500 2    50   ~ 0
+K3_COIL_ON
+Text Label 8650 3700 2    50   ~ 0
+K3_COIL_OFF
+Text Label 9700 4500 2    50   ~ 0
+K8_COIL_ON
+Text Label 9700 3700 2    50   ~ 0
+K8_COIL_OFF
+Text Label 10750 3700 2    50   ~ 0
+K4_COIL_OFF
+Text Label 10750 4500 2    50   ~ 0
+K8_COIL_ON
+Text Label 3400 3650 2    50   ~ 0
+K5_COIL_OFF
+Text Label 3400 4450 2    50   ~ 0
+K5_COIL_ON
 $EndSCHEMATC
