@@ -1048,32 +1048,17 @@ Connection ~ 1100 7150
 Wire Wire Line
 	1100 7150 1700 7150
 $Comp
-L Device:R R?
-U 1 1 6232FD90
-P 8650 5750
-AR Path="/6232FD90" Ref="R?"  Part="1" 
-AR Path="/D16552B4/6232FD90" Ref="R201"  Part="1" 
-F 0 "R201" H 8720 5796 50  0000 L CNN
-F 1 "1K Ohm" H 8720 5705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8580 5750 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31025/erc.pdf" H 8650 5750 50  0001 C CNN
-F 4 "RNC55H1001FSRE6" H 8650 5750 50  0001 C CNN "Field4"
-	1    8650 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L BoatControl:IPP_B_I80P03 Q?
 U 1 1 6232FD99
 P 8500 6050
 AR Path="/6232FD99" Ref="Q?"  Part="1" 
-AR Path="/D16552B4/6232FD99" Ref="Q201"  Part="1" 
-F 0 "Q201" V 8350 5850 50  0000 L CNN
-F 1 "IPP_B_I80P03" V 8750 5850 50  0000 L CNN
+AR Path="/D16552B4/6232FD99" Ref="Q203"  Part="1" 
+F 0 "Q203" V 8350 5850 50  0000 L CNN
+F 1 "IRF9510PBF-BE3" V 8750 5850 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8500 6050 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8500 6050 50  0001 C CNN
-F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8500 6050 50  0001 C CNN "Description"
-F 5 "OptiMOS" H 8500 6050 50  0001 C CNN "Series"
-F 6 "Infineon Technologies" H 8500 6050 50  0001 C CNN "Infineon Technologies"
+F 3 "https://www.vishay.com/docs/91072/91072.pdf" H 8500 6050 50  0001 C CNN
+F 4 "P-Channel 100V 4A (Tc) 43W (Tc) Through Hole TO-220AB" H 8500 6050 50  0001 C CNN "Description"
+F 5 "Vishay Siliconix" H 8500 6050 50  0001 C CNN "Manufacturer"
 	1    8500 6050
 	0    1    1    0   
 $EndComp
@@ -1100,4 +1085,6 @@ F 3 "" H 8800 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 1650 5400 1650
+Wire Wire Line
+	8500 5750 8800 5750
 $EndSCHEMATC

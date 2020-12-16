@@ -2733,44 +2733,8 @@ Wire Wire Line
 Connection ~ 1450 8850
 Wire Wire Line
 	1450 8850 1450 9050
-$Comp
-L Device:R R101
-U 1 1 62178CF3
-P 1750 9400
-F 0 "R101" H 1820 9446 50  0000 L CNN
-F 1 "1K Ohm" H 1820 9355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1680 9400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31025/erc.pdf" H 1750 9400 50  0001 C CNN
-F 4 "RNC55H1001FSRE6" H 1750 9400 50  0001 C CNN "Field4"
-	1    1750 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L BoatControl:IPP_B_I80P03 Q102
-U 1 1 61FD1A0E
-P 1450 9250
-F 0 "Q102" H 1555 9204 50  0000 L CNN
-F 1 "IPP_B_I80P03" H 1555 9295 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 9250 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 1450 9250 50  0001 C CNN
-F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 1450 9250 50  0001 C CNN "Description"
-F 5 "OptiMOS" H 1450 9250 50  0001 C CNN "Series"
-F 6 "Infineon Technologies" H 1450 9250 50  0001 C CNN "Infineon Technologies"
-	1    1450 9250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1450 9850 1750 9850
-Wire Wire Line
-	1750 9850 1750 9550
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 Connection ~ 1450 9850
 $Comp
 L power:+12P #PWR0116
@@ -2790,4 +2754,41 @@ Text GLabel 15000 4050 2    50   Input ~ 0
 12V_DC_C24_ON
 Text GLabel 15000 3650 2    50   Input ~ 0
 12V_DC_C23_ON
+$Comp
+L BoatControl:IPP_B_I80P03 Q?
+U 1 1 63241E20
+P 1450 9250
+AR Path="/63241E20" Ref="Q?"  Part="1" 
+AR Path="/D16552B4/63241E20" Ref="Q?"  Part="1" 
+F 0 "Q?" V 1300 9050 50  0000 L CNN
+F 1 "IRF9510PBF-BE3" V 1600 8950 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 9250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/91072/91072.pdf" H 1450 9250 50  0001 C CNN
+F 4 "P-Channel 100V 4A (Tc) 43W (Tc) Through Hole TO-220AB" H 1450 9250 50  0001 C CNN "Description"
+F 5 "Vishay Siliconix" H 1450 9250 50  0001 C CNN "Manufacturer"
+	1    1450 9250
+	-1   0    0    1   
+$EndComp
+Text Notes 600  8600 0    50   ~ 0
+Reverse polarity and over-current protection
+Wire Notes Line
+	650  9600 2350 9600
+Wire Notes Line
+	2350 9600 2350 8700
+Wire Notes Line
+	2350 8700 2550 8700
+Wire Notes Line
+	2550 8700 2550 8550
+Wire Notes Line
+	3200 10000 6750 10000
+Wire Wire Line
+	1750 9250 1750 9850
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
 $EndSCHEMATC
