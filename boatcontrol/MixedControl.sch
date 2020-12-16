@@ -646,6 +646,8 @@ $Comp
 L Device:CP1_Small C?
 U 1 1 6195B94E
 P 1250 3750
+AR Path="/6195B94E" Ref="C?"  Part="1" 
+AR Path="/E171B33C/6195B94E" Ref="C?"  Part="1" 
 F 0 "C?" V 1200 3500 50  0000 L CNN
 F 1 "10uF" H 1341 3705 50  0001 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1250 3750 50  0001 C CNN
@@ -659,6 +661,8 @@ $Comp
 L Device:CP1_Small C?
 U 1 1 6195B956
 P 1450 3750
+AR Path="/6195B956" Ref="C?"  Part="1" 
+AR Path="/E171B33C/6195B956" Ref="C?"  Part="1" 
 F 0 "C?" V 1400 3500 50  0000 L CNN
 F 1 "0.1uF" H 1541 3705 50  0001 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1450 3750 50  0001 C CNN
