@@ -19,7 +19,7 @@ U 1 1 5F41B45D
 P 4000 10400
 F 0 "U108" H 4000 10450 50  0000 C CNN
 F 1 "LM2679T-12" H 4050 10250 50  0000 C CNN
-F 2 "Inductor_THT:L_Toroid_Horizontal_D17.3mm_P15.24mm_Bourns_2000" H 4000 10400 50  0001 L BNN
+F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 4000 10400 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 4000 10400 50  0001 L BNN
 F 4 "83F4664" H 4000 10400 50  0001 L BNN "Field4"
 F 5 "TO220-7" H 4000 10400 50  0001 L BNN "Footprint"
@@ -45,7 +45,7 @@ U 1 1 EE27C3B8
 P 3950 9300
 F 0 "U107" H 4000 9350 50  0000 C CNN
 F 1 "LM2679T-5.0" H 3950 9150 50  0000 C CNN
-F 2 "TO127P457X1016X2052-7P" H 3450 9400 50  0001 L BNN
+F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 3450 9400 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 3650 9200 50  0001 L BNN
 F 4 "41K4228" H 3800 9000 50  0001 L BNN "Field5"
 F 5 "TO220-7" H 3800 9100 50  0001 L BNN "Footprint"
@@ -218,7 +218,7 @@ U 1 1 72FBD2F1
 P 2000 8650
 F 0 "Q101" H 2150 8600 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" H 2900 8700 50  0001 R CNN
-F 2 "BoatControl:SchurterCurcuitBreaker" H 2000 8650 50  0001 C CNN
+F 2 "BoatControl:Schurter_Circuit_Breaker" H 2000 8650 50  0001 C CNN
 F 3 "" H 2000 8650 50  0001 C CNN
 F 4 "4404.0096" V 2000 8650 50  0001 C CNN "Manufacturer ID"
 	1    2000 8650

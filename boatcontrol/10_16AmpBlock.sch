@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 79 87
+Sheet 61 87
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -13,186 +13,6 @@ Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:C_Small C?
-U 1 1 6047476B
-P 4650 2700
-AR Path="/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6047476B" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6047476B" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/6047476B" Ref="C6102"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/6047476B" Ref="C7002"  Part="1" 
-F 0 "C7002" V 4600 2750 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3500 2700 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 2700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 2700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 2700 50  0001 C CNN "Type"
-	1    4650 2700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60474772
-P 4650 2500
-AR Path="/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474772" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474772" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474772" Ref="C6101"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474772" Ref="C7001"  Part="1" 
-F 0 "C7001" V 4600 2550 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3800 2400 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 2500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 2500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 2500 50  0001 C CNN "Type"
-	1    4650 2500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60474779
-P 4650 3500
-AR Path="/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474779" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474779" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474779" Ref="C6103"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474779" Ref="C7003"  Part="1" 
-F 0 "C7003" V 4600 3550 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3550 3500 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 3500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 3500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 3500 50  0001 C CNN "Type"
-	1    4650 3500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60474780
-P 4650 3700
-AR Path="/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474780" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474780" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474780" Ref="C6104"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474780" Ref="C7004"  Part="1" 
-F 0 "C7004" V 4600 3750 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3500 3700 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 3700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 3700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 3700 50  0001 C CNN "Type"
-	1    4650 3700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60474787
-P 4650 4500
-AR Path="/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474787" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474787" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474787" Ref="C6105"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474787" Ref="C7005"  Part="1" 
-F 0 "C7005" V 4600 4550 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3550 4500 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 4500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 4500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 4500 50  0001 C CNN "Type"
-	1    4650 4500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6047478E
-P 4650 4700
-AR Path="/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6047478E" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6047478E" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/6047478E" Ref="C6106"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/6047478E" Ref="C7006"  Part="1" 
-F 0 "C7006" V 4600 4750 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3500 4700 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 4700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 4700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 4700 50  0001 C CNN "Type"
-	1    4650 4700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60474795
-P 4650 5500
-AR Path="/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474795" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474795" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474795" Ref="C6107"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474795" Ref="C7007"  Part="1" 
-F 0 "C7007" V 4600 5550 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3550 5500 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 5500 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 5500 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 5500 50  0001 C CNN "Type"
-	1    4650 5500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6047479C
-P 4650 5700
-AR Path="/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6047479C" Ref="C?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6047479C" Ref="C?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/6047479C" Ref="C6108"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/6047479C" Ref="C7008"  Part="1" 
-F 0 "C7008" V 4600 5750 50  0000 L CNN
-F 1 "107CKS016M 100UF" H 3500 5700 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4650 5700 50  0001 C CNN
-F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf" H 4650 5700 50  0001 C CNN
-F 4 "107CKS016M 100UF 20% 16V THRU HOLE" H 4650 5700 50  0001 C CNN "Type"
-	1    4650 5700
-	0    -1   1    0   
-$EndComp
 $Comp
 L power:+12P #PWR?
 U 1 1 604747A2
@@ -214,7 +34,7 @@ AR Path="/D16552B4/5FA17F52/604747A2" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/5FA17F6C/604747A2" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F76AF55/604747A2" Ref="#PWR06101"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747A2" Ref="#PWR07001"  Part="1" 
-F 0 "#PWR07001" H 6900 3250 50  0001 C CNN
+F 0 "#PWR06101" H 6900 3250 50  0001 C CNN
 F 1 "+12P" H 6750 3500 50  0000 C CNN
 F 2 "" H 6900 3400 50  0001 C CNN
 F 3 "" H 6900 3400 50  0001 C CNN
@@ -257,7 +77,7 @@ AR Path="/D16552B4/5FA17F52/604747AF" Ref="U?"  Part="1"
 AR Path="/D16552B4/5FA17F6C/604747AF" Ref="U?"  Part="1" 
 AR Path="/D1BB8DB4/5F76AF55/604747AF" Ref="U6101"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747AF" Ref="U7001"  Part="1" 
-F 0 "U7001" H 6450 3500 50  0000 L CNN
+F 0 "U6101" H 6450 3500 50  0000 L CNN
 F 1 "ULN2803A" H 6300 4200 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 6550 3050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6600 3500 50  0001 C CNN
@@ -309,7 +129,7 @@ AR Path="/D16552B4/5FA17F52/604747C1" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/5FA17F6C/604747C1" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F76AF55/604747C1" Ref="#PWR06102"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747C1" Ref="#PWR07002"  Part="1" 
-F 0 "#PWR07002" H 6500 4150 50  0001 C CNN
+F 0 "#PWR06102" H 6500 4150 50  0001 C CNN
 F 1 "GND" H 6505 4227 50  0000 C CNN
 F 2 "" H 6500 4400 50  0001 C CNN
 F 3 "" H 6500 4400 50  0001 C CNN
@@ -334,8 +154,6 @@ F11 "AN_ON" I L 4750 2000 50
 $EndSheet
 Wire Wire Line
 	4550 2500 4350 2500
-Wire Wire Line
-	4750 2600 4350 2600
 Wire Wire Line
 	4350 2700 4550 2700
 Wire Wire Line
@@ -469,75 +287,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 2950 3550 2350
 Wire Wire Line
-	3350 2950 3550 2950
-Wire Wire Line
 	3500 2250 3500 2850
 Wire Wire Line
 	3450 2750 3450 2150
 Wire Wire Line
 	3400 2650 3400 2050
-Wire Wire Line
-	3500 2850 3350 2850
-Wire Wire Line
-	3450 2750 3350 2750
-Wire Wire Line
-	3400 2650 3350 2650
-Connection ~ 2450 3750
-Connection ~ 2450 3650
-Wire Wire Line
-	2450 3750 2450 3650
-Wire Wire Line
-	2450 3650 2450 3550
-$Comp
-L BoatControl:4116R-1-103LF RN?
-U 1 1 60474836
-P 2450 5150
-AR Path="/D16552B4/5FA17F38/60474836" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474836" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474836" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474836" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474836" Ref="RN6104"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474836" Ref="RN7004"  Part="1" 
-F 0 "RN7004" V 2350 4850 50  0000 C CNN
-F 1 "4116R-1-103LF" V 2250 4850 50  0001 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 3200 5250 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3200 5150 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 3200 5050 50  0001 L CNN "Description"
-F 5 "4.69" H 3200 4950 50  0001 L CNN "Height"
-F 6 "Bourns" H 3200 4850 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 3200 4750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 3200 4650 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 3200 4550 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 3200 4450 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 3200 4350 50  0001 L CNN "Mouser Price/Stock"
-	1    2450 5150
-	1    0    0    1   
-$EndComp
-$Comp
-L BoatControl:4116R-1-103LF RN?
-U 1 1 60474844
-P 2450 3350
-AR Path="/D16552B4/5FA17F38/60474844" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474844" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474844" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474844" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474844" Ref="RN6101"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474844" Ref="RN7001"  Part="1" 
-F 0 "RN7001" V 2350 3050 50  0000 C CNN
-F 1 "4116R-1-103LF" V 2250 3050 50  0001 C CNN
-F 2 "DIP787W49P254L2197H469Q16N" H 3200 3450 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3200 3350 50  0001 L CNN
-F 4 "Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package 4100R Through Hole" H 3200 3250 50  0001 L CNN "Description"
-F 5 "4.69" H 3200 3150 50  0001 L CNN "Height"
-F 6 "Bourns" H 3200 3050 50  0001 L CNN "Manufacturer_Name"
-F 7 "4116R-1-103LF" H 3200 2950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "4116R-1-103LF" H 3200 2850 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/4116r-1-103lf/bourns" H 3200 2750 50  0001 L CNN "Arrow Price/Stock"
-F 10 "652-4116R-1LF-10K" H 3200 2650 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Bourns/4116R-1-103LF?qs=jew24QT47erdvJ3qcVRaMA%3D%3D" H 3200 2550 50  0001 L CNN "Mouser Price/Stock"
-	1    2450 3350
-	1    0    0    1   
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6047484A
@@ -548,122 +302,29 @@ AR Path="/D16552B4/5FA17F6C/6047484A" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/5FA17F86/6047484A" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F76AF55/6047484A" Ref="#PWR06103"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/6047484A" Ref="#PWR07003"  Part="1" 
-F 0 "#PWR07003" H 2450 5000 50  0001 C CNN
+F 0 "#PWR06103" H 2450 5000 50  0001 C CNN
 F 1 "+5V" H 2465 5323 50  0000 C CNN
 F 2 "" H 2450 5150 50  0001 C CNN
 F 3 "" H 2450 5150 50  0001 C CNN
 	1    2450 5150
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R_Pack08 RN?
-U 1 1 60474850
-P 2650 3950
-AR Path="/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D2B5CDA9/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1EE/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1CA/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/D1AAA1DC/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F38/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60474850" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60474850" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F76AF55/60474850" Ref="RN6103"  Part="1" 
-AR Path="/D1BB8DB4/5F75E923/60474850" Ref="RN7003"  Part="1" 
-F 0 "RN7003" H 2500 3650 50  0000 L CNN
-F 1 "4120R-1-103LF" H 2300 3550 50  0001 L CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 3125 3950 50  0001 C CNN
-F 3 "~" H 2650 3950 50  0001 C CNN
-	1    2650 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 3850 2450 3750
-Wire Wire Line
-	2450 3950 2450 3850
-Connection ~ 2450 3850
-Wire Wire Line
-	2450 4050 2450 3950
-Connection ~ 2450 3950
-Wire Wire Line
-	2450 4150 2450 4050
-Connection ~ 2450 4050
-Wire Wire Line
-	2450 4150 2450 4250
-Connection ~ 2450 4150
-Wire Wire Line
-	2450 3350 2450 3250
-Connection ~ 2450 2750
-Wire Wire Line
-	2450 2750 2450 2650
-Connection ~ 2450 2850
-Wire Wire Line
-	2450 2850 2450 2750
-Connection ~ 2450 2950
-Wire Wire Line
-	2450 2950 2450 2850
-Connection ~ 2450 3050
-Wire Wire Line
-	2450 3050 2450 2950
-Connection ~ 2450 3150
-Wire Wire Line
-	2450 3150 2450 3050
-Connection ~ 2450 3250
-Wire Wire Line
-	2450 3250 2450 3150
-Wire Wire Line
-	2450 5150 2450 5050
-Connection ~ 2450 4550
-Wire Wire Line
-	2450 4550 2450 4450
-Connection ~ 2450 4650
-Wire Wire Line
-	2450 4650 2450 4550
-Connection ~ 2450 4750
-Wire Wire Line
-	2450 4750 2450 4650
-Connection ~ 2450 4850
-Wire Wire Line
-	2450 4850 2450 4750
-Connection ~ 2450 4950
-Wire Wire Line
-	2450 4950 2450 4850
-Connection ~ 2450 5050
-Wire Wire Line
-	2450 5050 2450 4950
-Connection ~ 2450 5150
-Wire Wire Line
-	2450 3350 2450 3550
-Connection ~ 2450 3350
-Connection ~ 2450 3550
-Wire Wire Line
-	2450 4450 2450 4250
-Connection ~ 2450 4450
-Connection ~ 2450 4250
 Wire Wire Line
 	4750 3000 4700 3000
 Wire Wire Line
 	4700 3000 4700 3050
 Wire Wire Line
-	4700 3050 3350 3050
-Wire Wire Line
 	4750 3100 4700 3100
 Wire Wire Line
 	4700 3100 4700 3150
-Wire Wire Line
-	4700 3150 3350 3150
 Wire Wire Line
 	4750 3200 4700 3200
 Wire Wire Line
 	4700 3200 4700 3250
 Wire Wire Line
-	4700 3250 3350 3250
-Wire Wire Line
 	4750 3300 4700 3300
 Wire Wire Line
 	4700 3300 4700 3350
-Wire Wire Line
-	4700 3350 3350 3350
 Wire Wire Line
 	3600 3550 3600 2500
 Wire Wire Line
@@ -703,10 +364,6 @@ Connection ~ 4350 3700
 Wire Wire Line
 	4350 3700 4550 3700
 Wire Wire Line
-	4350 3600 4750 3600
-Wire Wire Line
-	3350 5150 3400 5150
-Wire Wire Line
 	3400 5150 3400 5350
 Wire Wire Line
 	3400 5350 4700 5350
@@ -714,8 +371,6 @@ Wire Wire Line
 	4700 5350 4700 5300
 Wire Wire Line
 	4700 5300 4750 5300
-Wire Wire Line
-	3350 5050 3450 5050
 Wire Wire Line
 	3450 5050 3450 5250
 Wire Wire Line
@@ -725,8 +380,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 5200 4750 5200
 Wire Wire Line
-	3350 4950 3500 4950
-Wire Wire Line
 	3500 4950 3500 5150
 Wire Wire Line
 	3500 5150 4700 5150
@@ -734,8 +387,6 @@ Wire Wire Line
 	4700 5150 4700 5100
 Wire Wire Line
 	4700 5100 4750 5100
-Wire Wire Line
-	3350 4850 3550 4850
 Wire Wire Line
 	3550 4850 3550 5050
 Wire Wire Line
@@ -795,8 +446,6 @@ Connection ~ 4350 4500
 Wire Wire Line
 	4350 4500 3750 4500
 Wire Wire Line
-	3350 4750 4250 4750
-Wire Wire Line
 	4250 4750 4250 4350
 Wire Wire Line
 	4250 4350 4700 4350
@@ -807,8 +456,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 4400 4750 4400
 Wire Wire Line
-	3350 4650 4200 4650
-Wire Wire Line
 	4200 4650 4200 4250
 Wire Wire Line
 	4200 4250 4700 4250
@@ -817,8 +464,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 4200 4750 4200
 Wire Wire Line
-	3350 4550 4150 4550
-Wire Wire Line
 	4150 4550 4150 4150
 Wire Wire Line
 	4150 4150 4700 4150
@@ -826,8 +471,6 @@ Wire Wire Line
 	4700 4150 4700 4100
 Wire Wire Line
 	4700 4100 4750 4100
-Wire Wire Line
-	3350 4450 4100 4450
 Wire Wire Line
 	4100 4450 4100 4050
 Wire Wire Line
@@ -940,7 +583,7 @@ AR Path="/D16552B4/5FA17F52/60474926" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F6C/60474926" Ref="RN?"  Part="1" 
 AR Path="/D1BB8DB4/5F76AF55/60474926" Ref="RN6102"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474926" Ref="RN7002"  Part="1" 
-F 0 "RN7002" V 7200 3900 50  0000 L CNN
+F 0 "RN6102" V 7200 3900 50  0000 L CNN
 F 1 "4116R-1-471" V 7200 3750 50  0001 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 8175 3900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 7700 3900 50  0001 C CNN
@@ -1056,4 +699,293 @@ F5 "OFF_LED" I L 8550 4300 50
 F6 "OUT" O R 9550 4550 50 
 F7 "IN" I L 8550 4550 50 
 $EndSheet
+$Comp
+L Device:C_Small C?
+U 1 1 62B5C7B5
+P 4650 2500
+AR Path="/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62B5C7B5" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62B5C7B5" Ref="C7001"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62B5C7B5" Ref="C6101"  Part="1" 
+F 0 "C6101" V 4600 2550 50  0000 L CNN
+F 1 "1uF" H 3800 2400 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 2500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 2500 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 2500 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 2500 50  0001 C CNN "Description"
+	1    4650 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62B76848
+P 4650 2700
+AR Path="/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62B76848" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62B76848" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62B76848" Ref="C7002"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62B76848" Ref="C6102"  Part="1" 
+F 0 "C6102" V 4600 2750 50  0000 L CNN
+F 1 "1uF" H 3800 2600 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 2700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 2700 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 2700 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 2700 50  0001 C CNN "Description"
+	1    4650 2700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4750 2600 4350 2600
+Wire Wire Line
+	4350 3600 4750 3600
+$Comp
+L Device:C_Small C?
+U 1 1 62B86A50
+P 4650 3500
+AR Path="/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62B86A50" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62B86A50" Ref="C7003"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62B86A50" Ref="C6103"  Part="1" 
+F 0 "C6103" V 4600 3550 50  0000 L CNN
+F 1 "1uF" H 3800 3400 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 3500 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 3500 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 3500 50  0001 C CNN "Description"
+	1    4650 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62B939DB
+P 4650 3700
+AR Path="/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62B939DB" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62B939DB" Ref="C7004"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62B939DB" Ref="C6104"  Part="1" 
+F 0 "C6104" V 4600 3750 50  0000 L CNN
+F 1 "1uF" H 3800 3600 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 3700 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 3700 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 3700 50  0001 C CNN "Description"
+	1    4650 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BA14CE
+P 4650 4500
+AR Path="/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62BA14CE" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62BA14CE" Ref="C7005"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62BA14CE" Ref="C6105"  Part="1" 
+F 0 "C6105" V 4600 4550 50  0000 L CNN
+F 1 "1uF" H 3800 4400 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 4500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 4500 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 4500 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 4500 50  0001 C CNN "Description"
+	1    4650 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BAE342
+P 4650 4700
+AR Path="/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62BAE342" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62BAE342" Ref="C7006"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62BAE342" Ref="C6106"  Part="1" 
+F 0 "C6106" V 4600 4750 50  0000 L CNN
+F 1 "1uF" H 3800 4600 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 4700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 4700 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 4700 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 4700 50  0001 C CNN "Description"
+	1    4650 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BBBC28
+P 4650 5500
+AR Path="/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62BBBC28" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62BBBC28" Ref="C7007"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62BBBC28" Ref="C6107"  Part="1" 
+F 0 "C6107" V 4600 5550 50  0000 L CNN
+F 1 "1uF" H 3800 5400 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 5500 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 5500 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 5500 50  0001 C CNN "Description"
+	1    4650 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62BC8A92
+P 4650 5700
+AR Path="/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62BC8A92" Ref="C?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62BC8A92" Ref="C7008"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62BC8A92" Ref="C6108"  Part="1" 
+F 0 "C6108" V 4600 5750 50  0000 L CNN
+F 1 "1uF" H 3800 5600 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4650 5700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4650 5700 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4650 5700 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 5700 50  0001 C CNN "Description"
+	1    4650 5700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 62CB5764
+P 2650 3950
+AR Path="/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/D1AAA1DC/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F75E923/62CB5764" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F76AF55/62CB5764" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2150 3900 50  0000 L CNN
+F 1 "10M Ohm" H 2300 3550 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 3125 3950 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 2650 3950 50  0001 C CNN
+F 4 "Bourns" H 2650 3950 50  0001 C CNN "Manufacturer"
+F 5 "4609X-101-105LF" H 2650 3950 50  0001 C CNN "Type"
+	1    2650 3950
+	0    -1   1    0   
+$EndComp
+Connection ~ 2450 3550
+Wire Wire Line
+	2450 2650 2450 3550
+$Comp
+L Device:R_Network08 RN?
+U 1 1 630078FE
+P 2650 3050
+AR Path="/D16552B4/5FA17F38/630078FE" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/630078FE" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/630078FE" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/630078FE" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2150 3050 50  0000 C CNN
+F 1 "100K Ohm" V 2450 2750 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" H 3400 3150 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3400 3050 50  0001 L CNN
+F 4 "Bourns" H 3400 2750 50  0001 L CNN "Manufacturer_Name"
+F 5 "4609X-101-105LF" H 3400 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 2650 3050 50  0001 C CNN "Description"
+	1    2650 3050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2450 3550 2450 4450
+$Comp
+L Device:R_Network08 RN?
+U 1 1 63015012
+P 2650 4850
+AR Path="/D16552B4/5FA17F38/63015012" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/63015012" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/63015012" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/63015012" Ref="RN?"  Part="1" 
+F 0 "RN?" V 2150 4850 50  0000 C CNN
+F 1 "100K Ohm" V 2450 4550 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" H 3400 4950 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3400 4850 50  0001 L CNN
+F 4 "Bourns" H 3400 4550 50  0001 L CNN "Manufacturer_Name"
+F 5 "4609X-101-105LF" H 3400 4450 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 2650 4850 50  0001 C CNN "Description"
+	1    2650 4850
+	0    -1   1    0   
+$EndComp
+Connection ~ 2450 4450
+Wire Wire Line
+	2450 4450 2450 5150
+Wire Wire Line
+	2850 4450 4100 4450
+Wire Wire Line
+	2850 4550 4150 4550
+Wire Wire Line
+	2850 4650 4200 4650
+Wire Wire Line
+	2850 4750 4250 4750
+Wire Wire Line
+	2850 4850 3550 4850
+Wire Wire Line
+	2850 4950 3500 4950
+Wire Wire Line
+	2850 5050 3450 5050
+Wire Wire Line
+	2850 5150 3400 5150
+Wire Wire Line
+	2850 3350 4700 3350
+Wire Wire Line
+	2850 3250 4700 3250
+Wire Wire Line
+	2850 3150 4700 3150
+Wire Wire Line
+	2850 3050 4700 3050
+Wire Wire Line
+	2850 2950 3550 2950
+Wire Wire Line
+	2850 2850 3500 2850
+Wire Wire Line
+	2850 2750 3450 2750
+Wire Wire Line
+	2850 2650 3400 2650
 $EndSCHEMATC
