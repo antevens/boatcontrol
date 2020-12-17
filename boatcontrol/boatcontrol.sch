@@ -2718,21 +2718,6 @@ Text GLabel 15000 4050 2    50   Input ~ 0
 12V_DC_C24_ON
 Text GLabel 15000 3650 2    50   Input ~ 0
 12V_DC_C23_ON
-$Comp
-L BoatControl:IPP_B_I80P03 Q102
-U 1 1 63241E20
-P 1450 9250
-AR Path="/63241E20" Ref="Q102"  Part="1" 
-AR Path="/D16552B4/63241E20" Ref="Q?"  Part="1" 
-F 0 "Q102" V 1300 9050 50  0000 L CNN
-F 1 "IRF9510PBF-BE3" V 1600 8950 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1450 9250 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/91072/91072.pdf" H 1450 9250 50  0001 C CNN
-F 4 "P-Channel 100V 4A (Tc) 43W (Tc) Through Hole TO-220AB" H 1450 9250 50  0001 C CNN "Description"
-F 5 "Vishay Siliconix" H 1450 9250 50  0001 C CNN "Manufacturer"
-	1    1450 9250
-	-1   0    0    1   
-$EndComp
 Text Notes 600  8600 0    50   ~ 0
 Reverse polarity and over-current protection
 Wire Notes Line
@@ -2837,14 +2822,6 @@ F 3 "" H 14800 9500 50  0001 C CNN
 	1    14800 9500
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO102
 U 1 1 60207FB9
@@ -2855,5 +2832,27 @@ F 2 "Symbol:KiCad-Logo2_40mm_SilkScreen" H 15200 10300 50  0001 C CNN
 F 3 "~" H 15200 10300 50  0001 C CNN
 	1    15200 10300
 	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
+$Comp
+L BoatControl:IPP120P04P4L-03 Q102
+U 1 1 5FE81B4F
+P 1450 9250
+F 0 "Q102" H 1555 9204 50  0000 L CNN
+F 1 "IPP120P04P4L-03" H 1555 9295 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1100 9800 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 1450 9250 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 1300 9900 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 2050 9550 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 1950 9650 50  0001 C CNN "Infineon Technologies"
+	1    1450 9250
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

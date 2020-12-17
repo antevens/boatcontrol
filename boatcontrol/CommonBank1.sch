@@ -1044,21 +1044,6 @@ Connection ~ 1700 7150
 Connection ~ 1100 7150
 Wire Wire Line
 	1100 7150 1700 7150
-$Comp
-L BoatControl:IPP_B_I80P03 Q?
-U 1 1 6232FD99
-P 8500 6050
-AR Path="/6232FD99" Ref="Q?"  Part="1" 
-AR Path="/D16552B4/6232FD99" Ref="Q203"  Part="1" 
-F 0 "Q203" V 8350 5850 50  0000 L CNN
-F 1 "IRF9510PBF-BE3" V 8750 5850 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8500 6050 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/91072/91072.pdf" H 8500 6050 50  0001 C CNN
-F 4 "P-Channel 100V 4A (Tc) 43W (Tc) Through Hole TO-220AB" H 8500 6050 50  0001 C CNN "Description"
-F 5 "Vishay Siliconix" H 8500 6050 50  0001 C CNN "Manufacturer"
-	1    8500 6050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6750 5250 6750 6050
 Wire Wire Line
@@ -1088,4 +1073,18 @@ Wire Wire Line
 Connection ~ 8100 6050
 Wire Wire Line
 	6750 6050 8100 6050
+$Comp
+L BoatControl:IPP120P04P4L-03 Q203
+U 1 1 5FEBFE7C
+P 8500 6050
+F 0 "Q203" V 8150 6050 50  0000 C CNN
+F 1 "IPP120P04P4L-03" V 8650 6250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8150 6600 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8500 6050 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8350 6700 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 9100 6350 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 9000 6450 50  0001 C CNN "Infineon Technologies"
+	1    8500 6050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
