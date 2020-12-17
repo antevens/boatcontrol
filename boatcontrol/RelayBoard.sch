@@ -536,6 +536,7 @@ F 0 "K5005" V 3750 3950 50  0000 L CNN
 F 1 "EW60-1A3-CL12D04" V 3500 3700 50  0000 L CNN
 F 2 "BoatControl:TE_2071366-2" H 3700 4500 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" H 4700 4600 50  0001 L BNN
+F 4 "TE Connectivit" V 3700 4100 50  0001 C CNN "Manufacturer"
 	1    3700 4100
 	0    1    -1   0   
 $EndComp
