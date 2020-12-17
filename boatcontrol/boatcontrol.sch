@@ -2748,25 +2748,25 @@ Wire Wire Line
 Text Label 1450 9750 1    50   ~ 0
 12V_RAW
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO101
+L Graphic:Logo_Open_Hardware_Small #LOGO101
 U 1 1 637B1178
-P 15550 10450
-F 0 "#LOGO101" H 15550 10950 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 15550 10050 50  0001 C CNN
-F 2 "" H 15550 10966 50  0001 C CNN
-F 3 "~" H 15550 10450 50  0001 C CNN
-	1    15550 10450
+P 15800 10300
+F 0 "#LOGO101" H 15800 10800 50  0001 C CNN
+F 1 "Open Hardware" H 15800 9900 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_48.7x40mm_SilkScreen" H 15800 10816 50  0001 C CNN
+F 3 "~" H 15800 10300 50  0001 C CNN
+	1    15800 10300
 	1    0    0    -1  
 $EndComp
 Text Notes 600  10350 0    50   ~ 0
 Optional 12V PSU\nAllows Input voltages from \n15-30V DC
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP110
 U 1 1 6052E1CB
 P 6600 10250
-F 0 "JP?" V 6850 10200 50  0000 L CNN
+F 0 "JP110" V 6850 10200 50  0000 L CNN
 F 1 "12V PSU Bypass" V 6450 9600 50  0000 L CNN
-F 2 "" H 6600 10250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6600 10250 50  0001 C CNN
 F 3 "~" H 6600 10250 50  0001 C CNN
 	1    6600 10250
 	0    1    1    0   
@@ -2793,14 +2793,6 @@ Wire Wire Line
 	1750 9850 1850 9850
 Wire Wire Line
 	2200 9850 2200 10950
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 Connection ~ 2200 9850
 Wire Wire Line
 	2200 9850 2550 9850
@@ -2823,4 +2815,12 @@ F 3 "" H 2050 9850 50  0001 C CNN
 	1    2050 9850
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
 $EndSCHEMATC
