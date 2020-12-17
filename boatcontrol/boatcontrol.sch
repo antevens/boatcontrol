@@ -2815,6 +2815,28 @@ F 3 "" H 2050 9850 50  0001 C CNN
 	1    2050 9850
 	1    0    0    -1  
 $EndComp
+$Comp
+L BoatControl:LOGO_RUGLUDALLUR #G?
+U 1 1 5FEB07B2
+P 15650 9500
+F 0 "#G?" H 15650 9190 60  0001 C CNN
+F 1 "LOGO_RUGLUDALLUR" H 15650 9810 60  0001 C CNN
+F 2 "BoatControl:Rugludallur-Logo_SilkScreen" H 15649 9907 50  0001 C CNN
+F 3 "" H 15650 9500 50  0001 C CNN
+	1    15650 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:LOGO_ANT #G?
+U 1 1 5FEB4243
+P 14800 9500
+F 0 "#G?" H 14800 9170 60  0001 C CNN
+F 1 "LOGO_ANT" H 14800 9830 60  0001 C CNN
+F 2 "BoatControl:Ant_Logo_SilkScreen" H 14797 9923 50  0001 C CNN
+F 3 "" H 14800 9500 50  0001 C CNN
+	1    14800 9500
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8700 1550 10500 1550
 Wire Bus Line
@@ -2823,4 +2845,15 @@ Wire Bus Line
 	10500 1550 10500 4350
 Wire Bus Line
 	7150 800  7150 4350
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 60207FB9
+P 15200 10300
+F 0 "#LOGO?" H 15200 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 15200 10075 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_40mm_SilkScreen" H 15200 10300 50  0001 C CNN
+F 3 "~" H 15200 10300 50  0001 C CNN
+	1    15200 10300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
