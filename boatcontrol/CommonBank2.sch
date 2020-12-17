@@ -1441,12 +1441,12 @@ P 8800 2250
 AR Path="/D16552B4/60113E2D" Ref="R?"  Part="1" 
 AR Path="/D1BB8DB4/60113E2D" Ref="R?"  Part="1" 
 F 0 "R?" H 8900 2150 50  0000 C CNN
-F 1 "680Ω" H 8800 2400 50  0000 C CNN
+F 1 "12KΩ" H 8800 2400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8800 2250 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 8800 2250 50  0001 C CNN
-F 4 "LR1F680R" H 8800 2250 50  0001 C CNN "Product"
+F 3 "" H 8800 2250 50  0001 C CNN
+F 4 "ROX05SJ12K‎" H 8800 2250 50  0001 C CNN "Product"
 F 5 "TE Connectivity" H 8800 2250 50  0001 C CNN "Manufacturer"
-F 6 "680 Ohms ±1% 0.6W Through Hole Resistor Axial Metal Film" H 8800 2250 50  0001 C CNN "Description"
+F 6 "12 kOhms ±5% 0.5W, 1/2W Through Hole Resistor Axial Flame Proof, Pulse Withstanding, Safety Metal Oxide Film" H 8800 2250 50  0001 C CNN "Description"
 	1    8800 2250
 	1    0    0    -1  
 $EndComp
