@@ -1051,17 +1051,6 @@ Wire Wire Line
 Connection ~ 6750 6050
 Wire Wire Line
 	6750 6050 6750 6250
-$Comp
-L power:GND #PWR0204
-U 1 1 623B0B10
-P 8800 5750
-F 0 "#PWR0204" H 8800 5500 50  0001 C CNN
-F 1 "GND" H 8805 5577 50  0000 C CNN
-F 2 "" H 8800 5750 50  0001 C CNN
-F 3 "" H 8800 5750 50  0001 C CNN
-	1    8800 5750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 1650 5400 1650
 Wire Wire Line
@@ -1087,4 +1076,8 @@ F 6 "Infineon Technologies" H 9000 6450 50  0001 C CNN "Infineon Technologies"
 	1    8500 6050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9250 5950 8800 5950
+Wire Wire Line
+	8800 5950 8800 5750
 $EndSCHEMATC

@@ -1104,19 +1104,6 @@ F25 "AN_OFF_C4" I L 5200 2200 50
 $EndSheet
 Wire Wire Line
 	4300 1450 5200 1450
-$Comp
-L power:GND #PWR?
-U 1 1 623D507C
-P 8600 5800
-AR Path="/D16552B4/623D507C" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/623D507C" Ref="#PWR05105"  Part="1" 
-F 0 "#PWR05105" H 8600 5550 50  0001 C CNN
-F 1 "GND" H 8605 5627 50  0000 C CNN
-F 2 "" H 8600 5800 50  0001 C CNN
-F 3 "" H 8600 5800 50  0001 C CNN
-	1    8600 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 5800 8600 5800
 Wire Wire Line
@@ -1142,4 +1129,8 @@ F 6 "Infineon Technologies" H 8800 6500 50  0001 C CNN "Infineon Technologies"
 	1    8300 6100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8600 5800 8600 6000
+Wire Wire Line
+	8600 6000 8900 6000
 $EndSCHEMATC

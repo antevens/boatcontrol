@@ -2833,14 +2833,6 @@ F 3 "~" H 15200 10300 50  0001 C CNN
 	1    15200 10300
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 $Comp
 L BoatControl:IPP120P04P4L-03 Q102
 U 1 1 5FE81B4F
@@ -2855,4 +2847,12 @@ F 6 "Infineon Technologies" H 1950 9650 50  0001 C CNN "Infineon Technologies"
 	1    1450 9250
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
 $EndSCHEMATC
