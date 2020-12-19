@@ -1,5 +1,11 @@
 WORK IN PROGRESS, NOT PRODUCTION READY!
 
+{INSERT_3D_RENDERING}
+
+{INSERT_LINKS_TO_PCB_MANUFACTURER_SITES/PROJECTS}
+{INSERT_LINK_TO_DIGIKEY}
+{INSERT_LINK_TO_MOUSER}
+
 This is an open hardware design for a electrical panel and boat controller.
 
 You can think of this as a giant latching relay board with a socket to act like
