@@ -13,35 +13,10 @@ Comment2 "boatcontrol@dallur.com"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4950 3000
-Wire Wire Line
-	4950 2150 4950 3000
-Wire Wire Line
-	4950 3000 4950 3900
-Wire Wire Line
-	5950 3500 5750 3500
-Wire Wire Line
-	4950 2150 5450 2150
-Wire Wire Line
-	4950 3900 5450 3900
-Wire Wire Line
-	5550 2550 5750 2550
-Connection ~ 5850 2150
-Wire Wire Line
-	6050 2150 5850 2150
-Wire Wire Line
-	5650 2150 5850 2150
-Connection ~ 5850 3900
-Wire Wire Line
-	6050 3900 5850 3900
-Wire Wire Line
-	5650 3900 5850 3900
-Wire Wire Line
-	4800 3000 4950 3000
 $Comp
 L Switch:SW_Push_DPDT SW?
 U 1 1 E13B21A8
-P 5750 3700
+P 5750 3950
 AR Path="/E13B21A8" Ref="SW?"  Part="1" 
 AR Path="/5FBFBEC9/E13B21A8" Ref="SW?"  Part="1" 
 AR Path="/768425E1/E13B21A8" Ref="SW?"  Part="1" 
@@ -147,17 +122,17 @@ AR Path="/E171B33C/E15855D9/E14BA326/E13B21A8" Ref="SW4602"  Part="1"
 AR Path="/E171B33C/E15855D9/E150AEB9/E13B21A8" Ref="SW4902"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150D6D7/E13B21A8" Ref="SW4702"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150FD51/E13B21A8" Ref="SW4802"  Part="1" 
-F 0 "SW4902" V 5750 4250 50  0000 C CNN
-F 1 " ESB30" V 5700 3700 50  0000 C CNN
-F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 3900 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 3900 50  0001 C CNN
-	1    5750 3700
-	0    1    1    0   
+F 0 "SW4102" H 5500 3900 50  0000 C CNN
+F 1 " ESB30" H 5550 4000 50  0000 C CNN
+F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 4150 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 4150 50  0001 C CNN
+	1    5750 3950
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12P #PWR?
 U 1 1 E13B21AE
-P 4800 3000
+P 4300 4450
 AR Path="/5FBFBEC9/E13B21AE" Ref="#PWR?"  Part="1" 
 AR Path="/768425E1/E13B21AE" Ref="#PWR?"  Part="1" 
 AR Path="/76E5F1B9/E13B21AE" Ref="#PWR?"  Part="1" 
@@ -263,17 +238,17 @@ AR Path="/E171B33C/E15855D9/E14BA326/E13B21AE" Ref="#PWR04601"  Part="1"
 AR Path="/E171B33C/E15855D9/E150AEB9/E13B21AE" Ref="#PWR04901"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150D6D7/E13B21AE" Ref="#PWR04701"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150FD51/E13B21AE" Ref="#PWR04801"  Part="1" 
-F 0 "#PWR04901" H 4800 2850 50  0001 C CNN
-F 1 "+12P" H 4815 3173 50  0000 C CNN
-F 2 "" H 4800 3000 50  0001 C CNN
-F 3 "" H 4800 3000 50  0001 C CNN
-	1    4800 3000
-	1    0    0    -1  
+F 0 "#PWR04101" H 4300 4300 50  0001 C CNN
+F 1 "+12P" V 4300 4700 50  0000 C CNN
+F 2 "" H 4300 4450 50  0001 C CNN
+F 3 "" H 4300 4450 50  0001 C CNN
+	1    4300 4450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push_DPDT SW?
 U 1 1 E13B21B4
-P 5750 2350
+P 5750 5000
 AR Path="/E13B21B4" Ref="SW?"  Part="1" 
 AR Path="/5FBFBEC9/E13B21B4" Ref="SW?"  Part="1" 
 AR Path="/768425E1/E13B21B4" Ref="SW?"  Part="1" 
@@ -379,21 +354,17 @@ AR Path="/E171B33C/E15855D9/E14BA326/E13B21B4" Ref="SW4601"  Part="1"
 AR Path="/E171B33C/E15855D9/E150AEB9/E13B21B4" Ref="SW4901"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150D6D7/E13B21B4" Ref="SW4701"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150FD51/E13B21B4" Ref="SW4801"  Part="1" 
-F 0 "SW4901" V 5750 2900 50  0000 C CNN
-F 1 " ESB30" V 5700 2400 50  0000 C CNN
-F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 2550 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 2550 50  0001 C CNN
-	1    5750 2350
-	0    1    -1   0   
+F 0 "SW4101" H 5450 5050 50  0000 C CNN
+F 1 " ESB30" H 5500 4950 50  0000 C CNN
+F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 5200 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 5200 50  0001 C CNN
+	1    5750 5000
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 2900 5500 2700
-Wire Wire Line
-	5500 3100 5500 3400
 $Comp
 L Device:LED_Dual_ACA D?
 U 1 1 E13B21BC
-P 5800 3000
+P 6850 4450
 AR Path="/E13B21BC" Ref="D?"  Part="1" 
 AR Path="/5FBFBEC9/E13B21BC" Ref="D?"  Part="1" 
 AR Path="/768425E1/E13B21BC" Ref="D?"  Part="1" 
@@ -499,45 +470,21 @@ AR Path="/E171B33C/E15855D9/E14BA326/E13B21BC" Ref="D4601"  Part="1"
 AR Path="/E171B33C/E15855D9/E150AEB9/E13B21BC" Ref="D4901"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150D6D7/E13B21BC" Ref="D4701"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150FD51/E13B21BC" Ref="D4801"  Part="1" 
-F 0 "D4901" H 5600 2850 50  0000 C CNN
-F 1 "20mA R/G CC" H 5750 2750 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm-3" H 5800 3000 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW.pdf" H 5800 3000 50  0001 C CNN
-F 4 "WP59EGW" H 5800 3000 50  0001 C CNN "Model"
-F 5 "Kingbright" H 5800 3000 50  0001 C CNN "Manufacturer"
-	1    5800 3000
+F 0 "D4101" H 6650 4250 50  0000 C CNN
+F 1 "20mA R/G CC" H 6800 4150 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-3" H 6850 4450 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW.pdf" H 6850 4450 50  0001 C CNN
+F 4 "WP59EGW" H 6850 4450 50  0001 C CNN "Model"
+F 5 "Kingbright" H 6850 4450 50  0001 C CNN "Manufacturer"
+	1    6850 4450
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5500 2700 0    50   Input ~ 0
-ON_LED
-Text HLabel 5500 3400 0    50   Input ~ 0
-OFF_LED
-Text HLabel 5850 1900 0    50   BiDi ~ 0
+Text HLabel 5550 3850 0    50   BiDi ~ 0
 DIG_ON
-Wire Wire Line
-	5850 1900 5850 2150
-Text HLabel 5850 4150 0    50   BiDi ~ 0
-DIG_OFF
-Wire Wire Line
-	5850 4150 5850 3900
-Text HLabel 5750 3400 2    50   Output ~ 0
-OFF
-Text HLabel 5750 2650 2    50   Output ~ 0
-ON
-Wire Wire Line
-	5750 2650 5750 2550
-Connection ~ 5750 2550
-Wire Wire Line
-	5750 2550 5950 2550
-Wire Wire Line
-	5750 3400 5750 3500
-Connection ~ 5750 3500
-Wire Wire Line
-	5750 3500 5550 3500
 $Comp
 L power:GND #PWR04102
 U 1 1 5F521E18
-P 6100 3000
+P 7250 4450
 AR Path="/E171B33C/E142CD30/E14BA326/5F521E18" Ref="#PWR04102"  Part="1" 
 AR Path="/E171B33C/E142CD30/E150AEB9/5F521E18" Ref="#PWR04402"  Part="1" 
 AR Path="/E171B33C/E142CD30/E150D6D7/5F521E18" Ref="#PWR04202"  Part="1" 
@@ -546,11 +493,62 @@ AR Path="/E171B33C/E15855D9/E14BA326/5F521E18" Ref="#PWR04602"  Part="1"
 AR Path="/E171B33C/E15855D9/E150AEB9/5F521E18" Ref="#PWR04902"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150D6D7/5F521E18" Ref="#PWR04702"  Part="1" 
 AR Path="/E171B33C/E15855D9/E150FD51/5F521E18" Ref="#PWR04802"  Part="1" 
-F 0 "#PWR04902" H 6100 2750 50  0001 C CNN
-F 1 "GND" V 6105 2872 50  0000 R CNN
-F 2 "" H 6100 3000 50  0001 C CNN
-F 3 "" H 6100 3000 50  0001 C CNN
-	1    6100 3000
-	0    -1   -1   0   
+F 0 "#PWR04102" H 7250 4200 50  0001 C CNN
+F 1 "GND" V 7255 4322 50  0000 R CNN
+F 2 "" H 7250 4450 50  0001 C CNN
+F 3 "" H 7250 4450 50  0001 C CNN
+	1    7250 4450
+	1    0    0    -1  
 $EndComp
+Text Notes 2700 3100 0    50   ~ 0
+Buttons offer manual overide of relays using direct 12V.\n\nThere is no timing/pulse  circuit when operating  the switches so care should be taken not to energise relay coils for more than a few seconds.\n\nSetting each coil to "on" will disable the opposing coil to prevent both coils from being energnized at the same time.\n\nMomentary switches are easy to use and recommended.\n\nNon-momentary (latching) switches can be used by "double-clicking" and the advantage of these is that the relay can be disabled completely by setting both swtiches to the "on" position.\n\n
+Text HLabel 6550 4350 0    50   Input ~ 0
+ON_LED
+Text HLabel 6550 4550 0    50   Input ~ 0
+OFF_LED
+Wire Wire Line
+	5950 5200 5950 5600
+Wire Wire Line
+	5950 3750 5950 3500
+Wire Wire Line
+	5550 4050 5100 4050
+Wire Wire Line
+	5100 4050 5100 4900
+Wire Wire Line
+	5100 4900 5550 4900
+Text Label 5100 4500 2    50   ~ 0
+DISABLED_INDICATOR
+Text Label 5250 3500 2    50   ~ 0
+OFF_TO_ON
+Text Label 5350 5600 2    50   ~ 0
+ON_TO_OFF
+Wire Wire Line
+	7150 4450 7250 4450
+Text HLabel 5550 5100 0    50   BiDi ~ 0
+DIG_OFF
+Text HLabel 5950 4800 2    50   BiDi ~ 0
+OFF
+Text HLabel 5950 4150 2    50   BiDi ~ 0
+ON
+Wire Wire Line
+	4300 5300 4300 4450
+Wire Wire Line
+	4300 3650 5550 3650
+Wire Wire Line
+	4300 5300 5550 5300
+Connection ~ 4300 4450
+Wire Wire Line
+	4300 4450 4300 3650
+Wire Wire Line
+	5200 3500 5200 4700
+Wire Wire Line
+	5150 5600 5150 4250
+Wire Wire Line
+	5150 5600 5950 5600
+Wire Wire Line
+	5150 4250 5550 4250
+Wire Wire Line
+	5200 3500 5950 3500
+Wire Wire Line
+	5200 4700 5550 4700
 $EndSCHEMATC

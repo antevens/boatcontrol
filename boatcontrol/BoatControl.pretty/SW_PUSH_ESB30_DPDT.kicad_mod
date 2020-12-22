@@ -1,4 +1,4 @@
-(module SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5E7449CD)
+(module SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FDDA380)
   (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
   (tags "switch DPDT footswitch")
   (fp_text reference REF** (at 0 -6.8) (layer F.SilkS)
@@ -21,8 +21,8 @@
   (pad 3 thru_hole circle (at -3.5 -2.75 90) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.5 -0.25 90) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.5 2.25 90) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_E-Switch_FS5700DP_DPDT.wrl
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/ESB30B102/ESB30B102.step
+    (offset (xyz 0 -0.25 9.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

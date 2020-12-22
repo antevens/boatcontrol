@@ -488,22 +488,10 @@ Wire Wire Line
 	6400 3600 6700 3600
 Wire Wire Line
 	6650 3500 6650 2900
-Connection ~ 6650 3500
-Wire Wire Line
-	6650 3500 7000 3500
-Connection ~ 6700 3600
-Wire Wire Line
-	6700 3600 7000 3600
-Wire Wire Line
-	6600 3400 7000 3400
 Wire Wire Line
 	6400 3400 6600 3400
-Connection ~ 6600 3400
-Wire Wire Line
-	6550 3300 7000 3300
 Wire Wire Line
 	6400 3300 6550 3300
-Connection ~ 6550 3300
 Wire Wire Line
 	7500 2300 8050 2300
 Wire Wire Line
@@ -518,7 +506,7 @@ F3 "OFF" B L 8050 4800 50
 F4 "ON_LED" I L 8050 4900 50 
 F5 "OFF_LED" I L 8050 5000 50 
 F6 "OUT" O R 9050 5250 50 
-F7 "IN" I L 8050 5250 50 
+F7 "IN" I L 8050 5300 50 
 $EndSheet
 $Sheet
 S 8050 3750 1000 700 
@@ -530,7 +518,7 @@ F3 "OFF" B L 8050 3900 50
 F4 "ON_LED" I L 8050 4000 50 
 F5 "OFF_LED" I L 8050 4100 50 
 F6 "OUT" O R 9050 4350 50 
-F7 "IN" I L 8050 4350 50 
+F7 "IN" I L 8050 4400 50 
 $EndSheet
 $Sheet
 S 8050 2850 1000 700 
@@ -542,9 +530,9 @@ F3 "OFF" B L 8050 3000 50
 F4 "ON_LED" I L 8050 3100 50 
 F5 "OFF_LED" I L 8050 3200 50 
 F6 "OUT" O R 9050 3450 50 
-F7 "IN" I L 8050 3450 50 
+F7 "IN" I L 8050 3500 50 
 $EndSheet
-Text HLabel 8050 2550 0    50   Input ~ 0
+Text HLabel 8050 2600 0    50   Input ~ 0
 IN_C1
 Text HLabel 9050 2550 2    50   Output ~ 0
 OUT_C1
@@ -558,19 +546,19 @@ F3 "OFF" B L 8050 2100 50
 F4 "ON_LED" I L 8050 2200 50 
 F5 "OFF_LED" I L 8050 2300 50 
 F6 "OUT" O R 9050 2550 50 
-F7 "IN" I L 8050 2550 50 
+F7 "IN" I L 8050 2600 50 
 $EndSheet
-Text HLabel 8050 4350 0    50   Input ~ 0
+Text HLabel 8050 4400 0    50   Input ~ 0
 IN_C3
-Text HLabel 8050 5250 0    50   Input ~ 0
+Text HLabel 8050 5300 0    50   Input ~ 0
 IN_C4
 Text HLabel 9050 3450 2    50   Output ~ 0
 OUT_C2
 Text HLabel 9050 4350 2    50   Output ~ 0
 OUT_C3
-Text Notes 7400 2800 2    50   ~ 0
+Text Notes 7350 2350 2    50   ~ 0
 Resistors for LEDs
-Text HLabel 8050 3450 0    50   Input ~ 0
+Text HLabel 8050 3500 0    50   Input ~ 0
 IN_C2
 Wire Wire Line
 	6550 2000 8050 2000
@@ -665,41 +653,17 @@ Wire Wire Line
 Wire Wire Line
 	7550 4000 8050 4000
 Wire Wire Line
-	6700 3700 6700 4200
-Wire Wire Line
-	6700 4200 7850 4200
-Wire Wire Line
-	7850 4200 7850 3800
-Wire Wire Line
 	7850 3800 8050 3800
-Connection ~ 6700 3700
-Wire Wire Line
-	6700 3700 7000 3700
-Wire Wire Line
-	6650 3800 6650 4250
-Wire Wire Line
-	6650 4250 7900 4250
-Wire Wire Line
-	7900 4250 7900 3900
 Wire Wire Line
 	7900 3900 8050 3900
-Connection ~ 6650 3800
-Wire Wire Line
-	6650 3800 7000 3800
 Wire Wire Line
 	6600 3900 6600 4700
 Wire Wire Line
 	6600 4700 8050 4700
-Connection ~ 6600 3900
-Wire Wire Line
-	6600 3900 7000 3900
 Wire Wire Line
 	6550 4000 6550 4800
 Wire Wire Line
 	6550 4800 8050 4800
-Connection ~ 6550 4000
-Wire Wire Line
-	6550 4000 7000 4000
 Wire Wire Line
 	4200 5150 2900 5150
 Wire Wire Line
@@ -960,4 +924,36 @@ Wire Wire Line
 	2350 4850 2950 4850
 Wire Wire Line
 	2350 4950 2900 4950
+Wire Wire Line
+	7850 4200 7850 3800
+Wire Wire Line
+	6700 3700 6700 4200
+Wire Wire Line
+	6700 4200 7850 4200
+Wire Wire Line
+	7900 4250 7900 3900
+Wire Wire Line
+	6650 3800 6650 4250
+Wire Wire Line
+	6650 4250 7900 4250
+Text HLabel 8050 2400 2    50   Input ~ 0
+ON_COIL
+Text HLabel 8050 2500 2    50   Input ~ 0
+OFF_COIL
+Wire Wire Line
+	8050 2400 6950 2400
+Wire Wire Line
+	6950 2400 6950 3300
+Wire Wire Line
+	6950 3300 7000 3300
+Wire Wire Line
+	8050 2500 6900 2500
+Wire Wire Line
+	6900 2500 6900 3400
+Wire Wire Line
+	6900 3400 7000 3400
+Text HLabel 8050 3300 2    50   Input ~ 0
+ON_COIL
+Text HLabel 8050 3400 2    50   Input ~ 0
+OFF_COIL
 $EndSCHEMATC
