@@ -2343,27 +2343,26 @@ F 5 "CAP ALUM POLY 330UF 20% 35V T/H" V 6000 10650 50  0001 C CNN "Field5"
 	1    6000 10650
 	1    0    0    -1  
 $EndComp
-Connection ~ 7050 10400
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 5F13965C
-P 7050 10400
-F 0 "#FLG0105" H 7050 10475 50  0001 C CNN
-F 1 "PWR_FLAG" H 7050 10573 50  0000 C CNN
-F 2 "" H 7050 10400 50  0001 C CNN
-F 3 "~" H 7050 10400 50  0001 C CNN
-	1    7050 10400
+P 7000 10150
+F 0 "#FLG0105" H 7000 10225 50  0001 C CNN
+F 1 "PWR_FLAG" H 7000 10323 50  0000 C CNN
+F 2 "" H 7000 10150 50  0001 C CNN
+F 3 "~" H 7000 10150 50  0001 C CNN
+	1    7000 10150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12P #PWR0121
 U 1 1 603A75D7
-P 7050 10400
-F 0 "#PWR0121" H 7050 10250 50  0001 C CNN
-F 1 "+12P" H 7065 10573 50  0000 C CNN
-F 2 "" H 7050 10400 50  0001 C CNN
-F 3 "" H 7050 10400 50  0001 C CNN
-	1    7050 10400
+P 7000 10150
+F 0 "#PWR0121" H 7000 10000 50  0001 C CNN
+F 1 "+12P" H 7015 10323 50  0000 C CNN
+F 2 "" H 7000 10150 50  0001 C CNN
+F 3 "" H 7000 10150 50  0001 C CNN
+	1    7000 10150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2516,7 +2515,6 @@ Wire Wire Line
 Connection ~ 6150 10950
 Wire Wire Line
 	6300 10550 6300 10400
-Connection ~ 6300 10400
 Connection ~ 2550 8850
 Wire Wire Line
 	2550 8850 2700 8850
@@ -2726,29 +2724,11 @@ F 3 "~" H 15800 10300 50  0001 C CNN
 $EndComp
 Text Notes 600  10350 0    50   ~ 0
 Optional 12V PSU\nAllows Input voltages from \n12-30V DC
-$Comp
-L Jumper:SolderJumper_2_Open JP110
-U 1 1 6052E1CB
-P 6600 10250
-F 0 "JP110" V 6850 10200 50  0000 L CNN
-F 1 "12V PSU Bypass" V 6450 9600 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6600 10250 50  0001 C CNN
-F 3 "~" H 6600 10250 50  0001 C CNN
-	1    6600 10250
-	0    1    1    0   
-$EndComp
 Connection ~ 6300 9300
 Wire Wire Line
 	6300 9300 7050 9300
-Connection ~ 6600 10400
-Wire Wire Line
-	6600 10400 7050 10400
 Wire Wire Line
 	3100 9950 6600 9950
-Wire Wire Line
-	6600 9950 6600 10100
-Wire Wire Line
-	6300 10400 6600 10400
 Connection ~ 3100 9950
 Wire Notes Line
 	550  10050 6800 10050
@@ -2827,8 +2807,8 @@ L Device:R_Small R?
 U 1 1 60169091
 P 2250 9600
 AR Path="/D16552B4/60169091" Ref="R?"  Part="1" 
-AR Path="/60169091" Ref="R?"  Part="1" 
-F 0 "R?" H 2200 9750 50  0000 C CNN
+AR Path="/60169091" Ref="R101"  Part="1" 
+F 0 "R101" H 2200 9750 50  0000 C CNN
 F 1 "680Ω" V 2150 9500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2250 9600 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 2250 9600 50  0001 C CNN
@@ -2850,10 +2830,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 9750 1450 9500
 $Comp
-L Device:LED_Dual_2pin D?
+L Device:LED_Dual_2pin D103
 U 1 1 60169088
 P 1950 9500
-AR Path="/60169088" Ref="D?"  Part="1" 
+AR Path="/60169088" Ref="D103"  Part="1" 
 AR Path="/5FBFBEC9/60169088" Ref="D?"  Part="1" 
 AR Path="/768425E1/60169088" Ref="D?"  Part="1" 
 AR Path="/76E5F1B9/60169088" Ref="D?"  Part="1" 
@@ -2977,7 +2957,7 @@ AR Path="/D1BB8DB4/5F75E923/604748FF/60169088" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/60474907/60169088" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/60169088" Ref="D?"  Part="1" 
 AR Path="/D16552B4/60169088" Ref="D?"  Part="1" 
-F 0 "D?" H 1800 9700 50  0000 C CNN
+F 0 "D103" H 1800 9700 50  0000 C CNN
 F 1 "20mA R/G Bicolor" H 1900 9850 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 1950 9500 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 1950 9500 50  0001 C CNN
@@ -3012,6 +2992,13 @@ Wire Notes Line
 	2400 9800 1700 9800
 Wire Notes Line
 	2400 8500 2400 9800
+Wire Wire Line
+	6300 10400 6600 10400
+Wire Wire Line
+	6600 10400 6600 10350
+Connection ~ 6300 10400
+Wire Wire Line
+	6750 10150 7000 10150
 Wire Bus Line
 	8700 1550 10500 1550
 Wire Bus Line
@@ -3020,4 +3007,16 @@ Wire Bus Line
 	10500 1550 10500 4350
 Wire Bus Line
 	7150 800  7150 4350
+Connection ~ 7000 10150
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 61439E1F
+P 6600 10150
+F 0 "JP?" V 6646 10217 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 6555 10217 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6600 10150 50  0001 C CNN
+F 3 "~" H 6600 10150 50  0001 C CNN
+	1    6600 10150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

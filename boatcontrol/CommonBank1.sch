@@ -1199,8 +1199,8 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/5FECB36F" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/5FECB36F" Ref="D?"  Part="1" 
-AR Path="/D16552B4/5FECB36F" Ref="D?"  Part="1" 
-F 0 "D?" H 9150 5650 50  0000 C CNN
+AR Path="/D16552B4/5FECB36F" Ref="D201"  Part="1" 
+F 0 "D201" H 9150 5650 50  0000 C CNN
 F 1 "20mA R/G Bicolor" H 9350 6150 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9400 5800 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 9400 5800 50  0001 C CNN
@@ -1210,10 +1210,10 @@ F 5 "Kingbright" H 9400 5800 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R201
 U 1 1 5FE96CCA
 P 9100 5900
-F 0 "R?" H 9200 5800 50  0000 C CNN
+F 0 "R201" H 9200 5800 50  0000 C CNN
 F 1 "680Ω" H 9100 6050 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9100 5900 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9100 5900 50  0001 C CNN
