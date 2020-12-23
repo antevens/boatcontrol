@@ -3009,10 +3009,10 @@ Wire Bus Line
 	7150 800  7150 4350
 Connection ~ 7000 10150
 $Comp
-L Jumper:SolderJumper_3_Open JP?
+L Jumper:SolderJumper_3_Open JP110
 U 1 1 61439E1F
 P 6600 10150
-F 0 "JP?" V 6646 10217 50  0000 L CNN
+F 0 "JP110" V 6646 10217 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 6555 10217 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6600 10150 50  0001 C CNN
 F 3 "~" H 6600 10150 50  0001 C CNN
