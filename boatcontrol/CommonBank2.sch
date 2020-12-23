@@ -375,20 +375,6 @@ F 3 "" H 3350 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:TBL008V-1000-02BE J?
-U 1 1 D24C1AB1
-P 10050 2300
-AR Path="/D24C1AB1" Ref="J?"  Part="1" 
-AR Path="/D1BB8DB4/D24C1AB1" Ref="J5104"  Part="1" 
-F 0 "J5104" H 10250 2150 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" H 10450 2150 50  0001 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 10050 2300 50  0001 L BNN
-F 3 "CUI" H 10050 2300 50  0001 L BNN
-F 4 "AC 230V Common Bank" H 10050 2600 50  0000 C CNN "Type"
-	1    10050 2300
-	1    0    0    1   
-$EndComp
-$Comp
 L BoatControl:TBP01R2W-508-08BE J?
 U 1 1 D24C1AC1
 P 7750 5500
@@ -1273,12 +1259,12 @@ Wire Wire Line
 	8900 6100 9750 6100
 Wire Wire Line
 	9750 5600 8300 5600
-Wire Wire Line
-	9750 5850 9500 5850
 $Comp
 L BoatControl:IPP120P04P4L-03 Q5101
 U 1 1 5FED44A8
 P 8300 6100
+AR Path="/D1BB8DB4/5FED44A8" Ref="Q5101"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5FED44A8" Ref="Q5101"  Part="1" 
 F 0 "Q5101" V 8100 6250 50  0000 C CNN
 F 1 "IPP120P04P4L-03" V 8450 6100 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7950 6650 50  0001 C CNN
@@ -1286,14 +1272,11 @@ F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folder
 F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8150 6750 50  0001 C CNN "Description"
 F 5 "OptiMOS" H 8900 6400 50  0001 C CNN "Series"
 F 6 "Infineon Technologies" H 8800 6500 50  0001 C CNN "Infineon Technologies"
+F 7 "Reverse Polarity (Voltage) Protection" H 7450 5950 50  0000 C CNN "Purpose"
+F 8 "Optional, can be substituded with shunt" H 7250 6050 50  0000 C CNN "Note"
 	1    8300 6100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9750 6000 9750 5850
-Wire Wire Line
-	9750 5850 9750 5600
-Connection ~ 9750 5850
 Wire Wire Line
 	8300 5600 8300 5800
 $Comp
@@ -1456,10 +1439,61 @@ Connection ~ 8800 2400
 Wire Wire Line
 	8800 2400 9650 2400
 Wire Wire Line
-	9650 2150 9400 2150
-Wire Wire Line
 	9650 2300 9650 2150
 Wire Wire Line
 	8150 2400 8800 2400
 Connection ~ 8150 2400
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 61788453
+P 9600 5850
+AR Path="/61788453" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/61788453" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/61788453" Ref="JP5110"  Part="1" 
+F 0 "JP5110" H 9600 5950 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9650 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 5850 50  0001 C CNN
+F 3 "~" H 9600 5850 50  0001 C CNN
+	1    9600 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 5600 9750 5850
+Wire Wire Line
+	9700 5850 9750 5850
+Connection ~ 9750 5850
+Wire Wire Line
+	9750 5850 9750 6000
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 617AACB3
+P 9500 2150
+AR Path="/617AACB3" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/617AACB3" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/617AACB3" Ref="JP5109"  Part="1" 
+F 0 "JP5109" H 9500 2250 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9550 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9500 2150 50  0001 C CNN
+F 3 "~" H 9500 2150 50  0001 C CNN
+	1    9500 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9600 2150 9650 2150
+Text Notes 7400 1100 0    50   ~ 0
+It's safe to run AC up to 277V 50/60hz and DC up to 24V on this circuit even though it's marked AC.\nThe main difference between this and the DC specific circuits  is track spacing and lack of any polarity protection.
+$Comp
+L BoatControl:TBL008V-1000-02BE J?
+U 1 1 D24C1AB1
+P 10050 2300
+AR Path="/D24C1AB1" Ref="J?"  Part="1" 
+AR Path="/D1BB8DB4/D24C1AB1" Ref="J5104"  Part="1" 
+F 0 "J5104" H 10250 2150 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" H 10450 2150 50  0001 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 10050 2300 50  0001 L BNN
+F 3 "CUI" H 10050 2300 50  0001 L BNN
+F 4 "AC 230V Common Bank" H 10050 2600 50  0000 C CNN "Type"
+	1    10050 2300
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

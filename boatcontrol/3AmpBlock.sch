@@ -120,7 +120,7 @@ AN_ON_C3
 Text Notes 1250 2250 0    50   ~ 0
 Resistors for multivibrator pull-up\nand timer circuits for relay pulses.\n\nThese can be swapped for higher/lower\nvalues as needed for longer pulses or\nmore noise resistance.
 Text Notes 3050 1400 0    50   ~ 0
-Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
+Multivibrators to mux and clean up analogue and digital inputs.\nEach chip implements a pair of vibrators set up to reset each other on triggering.\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
 Text Notes 6450 2450 2    50   ~ 0
 Amplify 5V logic signals to 12V\nto operate relay coils,\nincludes filtering
 Text HLabel 9050 2600 2    50   Output ~ 0
@@ -373,19 +373,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 3400 4250 3400
 Wire Wire Line
-	2900 4950 2900 5150
-Wire Wire Line
-	2950 4850 2950 5050
-Wire Wire Line
 	2950 5050 4200 5050
 Wire Wire Line
 	4200 5050 4200 5000
 Wire Wire Line
 	4200 5000 4250 5000
-Wire Wire Line
-	3000 4750 3000 4950
-Wire Wire Line
-	3000 4950 4200 4950
 Wire Wire Line
 	4200 4950 4200 4900
 Wire Wire Line
@@ -425,10 +417,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 5400 4250 5400
 Wire Wire Line
-	3200 3850 3200 4500
-Wire Wire Line
-	2350 3850 3200 3850
-Wire Wire Line
 	3200 4500 3850 4500
 Wire Wire Line
 	4250 4400 3850 4400
@@ -440,16 +428,12 @@ Wire Wire Line
 Wire Wire Line
 	4050 4300 3850 4300
 Wire Wire Line
-	3250 4300 3250 3750
-Wire Wire Line
-	2350 3750 3250 3750
+	3250 4300 3250 3850
 Wire Wire Line
 	3850 4200 3850 4300
 Connection ~ 3850 4300
 Wire Wire Line
 	3850 4300 3250 4300
-Wire Wire Line
-	3750 4550 3750 4150
 Wire Wire Line
 	3750 4150 4200 4150
 Wire Wire Line
@@ -459,15 +443,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 4200 4250 4200
 Wire Wire Line
-	3700 4450 3700 4050
-Wire Wire Line
 	3700 4050 4200 4050
 Wire Wire Line
 	4200 4050 4200 4000
 Wire Wire Line
 	4200 4000 4250 4000
-Wire Wire Line
-	3650 4350 3650 3950
 Wire Wire Line
 	3650 3950 4200 3950
 Wire Wire Line
@@ -793,11 +773,7 @@ F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100pp
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3050 2750 3050 2150
-Wire Wire Line
-	3000 2050 3000 2650
-Wire Wire Line
-	2950 2550 2950 1950
+	3000 2050 3000 2550
 Wire Wire Line
 	2900 2450 2900 1850
 Wire Wire Line
@@ -805,19 +781,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2450 2900 2450
 Wire Wire Line
-	2350 2550 2950 2550
-Wire Wire Line
-	2350 2650 3000 2650
-Wire Wire Line
-	2350 2750 3050 2750
-Wire Wire Line
 	2350 2850 4200 2850
-Wire Wire Line
-	2350 2950 4200 2950
-Wire Wire Line
-	2350 3050 4200 3050
-Wire Wire Line
-	2350 3150 4200 3150
 Wire Wire Line
 	1950 3350 1950 4250
 $Comp
@@ -844,19 +808,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4250 3600 4250
 Wire Wire Line
-	2350 4350 3650 4350
-Wire Wire Line
-	2350 4450 3700 4450
-Wire Wire Line
-	2350 4550 3750 4550
-Wire Wire Line
 	2350 4650 3050 4650
-Wire Wire Line
-	2350 4750 3000 4750
-Wire Wire Line
-	2350 4850 2950 4850
-Wire Wire Line
-	2350 4950 2900 4950
 Wire Wire Line
 	7850 4200 7850 3800
 Wire Wire Line
@@ -870,101 +822,39 @@ Wire Wire Line
 Wire Wire Line
 	6650 4250 7900 4250
 Wire Wire Line
-	9050 2150 10050 2150
-Wire Wire Line
-	10050 2150 10050 3300
-Wire Wire Line
 	10050 3300 10000 3300
 Wire Wire Line
 	10000 3400 10100 3400
 Wire Wire Line
-	9550 2400 9550 3300
-Wire Wire Line
 	9550 3300 9600 3300
-Wire Wire Line
-	9050 2400 9550 2400
 Wire Wire Line
 	9500 3400 9600 3400
 Wire Wire Line
-	9500 2500 9500 3400
-Wire Wire Line
-	9050 2500 9500 2500
-Wire Wire Line
-	9450 3500 9600 3500
-Wire Wire Line
-	9400 3600 9600 3600
-Wire Wire Line
-	10000 3500 10150 3500
-Wire Wire Line
-	10100 2050 9050 2050
-Wire Wire Line
-	10100 2050 10100 3400
-Wire Wire Line
 	9050 3250 9450 3250
-Wire Wire Line
-	9450 3250 9450 3500
 Wire Wire Line
 	9050 3350 9400 3350
 Wire Wire Line
-	9400 3350 9400 3600
-Wire Wire Line
 	10150 3050 9050 3050
 Wire Wire Line
-	10150 3050 10150 3500
-Wire Wire Line
-	10000 3600 10200 3600
-Wire Wire Line
-	10200 3600 10200 2950
+	10000 3600 10150 3600
 Wire Wire Line
 	10200 2950 9050 2950
 Wire Wire Line
-	9550 5100 9550 4000
-Wire Wire Line
-	9550 4000 9600 4000
-Wire Wire Line
 	9050 5000 9500 5000
-Wire Wire Line
-	9500 5000 9500 3900
-Wire Wire Line
-	9500 3900 9600 3900
 Wire Wire Line
 	9050 5100 9550 5100
 Wire Wire Line
 	9050 4250 9450 4250
 Wire Wire Line
-	9450 4250 9450 3800
-Wire Wire Line
-	9450 3800 9600 3800
-Wire Wire Line
-	9400 4150 9400 3700
-Wire Wire Line
-	9400 3700 9600 3700
-Wire Wire Line
-	10000 4000 10000 4750
-Wire Wire Line
-	9050 4750 10000 4750
+	9400 4150 9400 3800
 Wire Wire Line
 	10000 3900 10050 3900
-Wire Wire Line
-	10050 3900 10050 4850
-Wire Wire Line
-	10050 4850 9050 4850
-Wire Wire Line
-	10000 3800 10100 3800
-Wire Wire Line
-	10100 3800 10100 4100
-Wire Wire Line
-	10100 4100 9350 4100
 Wire Wire Line
 	9350 4100 9350 3850
 Wire Wire Line
 	9350 3850 9050 3850
 Wire Wire Line
 	9050 4150 9400 4150
-Wire Wire Line
-	10000 3700 10150 3700
-Wire Wire Line
-	10150 3700 10150 4200
 Wire Wire Line
 	10150 4200 9300 4200
 Wire Wire Line
@@ -999,4 +889,126 @@ F7 "IN" I L 8050 4400 50
 F8 "ON_COIL" I R 9050 4150 50 
 F9 "OFF_COIL" I R 9050 4250 50 
 $EndSheet
+Wire Wire Line
+	3700 4050 3700 4350
+Wire Wire Line
+	3700 4350 2350 4350
+Wire Wire Line
+	3650 4550 2350 4550
+Wire Wire Line
+	3650 3950 3650 4550
+Wire Wire Line
+	2350 4450 3750 4450
+Wire Wire Line
+	3750 4450 3750 4150
+Wire Wire Line
+	2900 4850 2350 4850
+Wire Wire Line
+	2900 4850 2900 5150
+Wire Wire Line
+	2350 4950 4200 4950
+Wire Wire Line
+	2950 4750 2350 4750
+Wire Wire Line
+	2950 4750 2950 5050
+Wire Wire Line
+	2350 2550 3000 2550
+Wire Wire Line
+	4200 2950 3650 2950
+Wire Wire Line
+	3650 2950 3650 3150
+Wire Wire Line
+	3650 3150 2350 3150
+Wire Wire Line
+	2350 3050 3700 3050
+Wire Wire Line
+	3700 3050 3700 3150
+Wire Wire Line
+	3700 3150 4200 3150
+Wire Wire Line
+	4200 3050 3750 3050
+Wire Wire Line
+	3750 3050 3750 3000
+Wire Wire Line
+	3550 3000 3550 2950
+Wire Wire Line
+	3550 2950 2350 2950
+Wire Wire Line
+	3550 3000 3750 3000
+Wire Wire Line
+	2350 2750 2950 2750
+Wire Wire Line
+	2950 1950 2950 2750
+Wire Wire Line
+	2350 2650 3050 2650
+Wire Wire Line
+	3050 2650 3050 2150
+Wire Wire Line
+	3200 3750 2350 3750
+Wire Wire Line
+	3200 3750 3200 4500
+Wire Wire Line
+	2350 3850 3250 3850
+Wire Wire Line
+	10100 4100 9350 4100
+Wire Wire Line
+	9500 4000 9500 5000
+Wire Wire Line
+	9500 4000 9600 4000
+Wire Wire Line
+	9550 5100 9550 3900
+Wire Wire Line
+	9550 3900 9600 3900
+Wire Wire Line
+	10050 4750 10050 3900
+Wire Wire Line
+	9050 4750 10050 4750
+Wire Wire Line
+	10000 4000 10000 4850
+Wire Wire Line
+	10000 4850 9050 4850
+Wire Wire Line
+	9450 3700 9450 4250
+Wire Wire Line
+	9450 3700 9600 3700
+Wire Wire Line
+	9600 3800 9400 3800
+Wire Wire Line
+	10100 3700 10000 3700
+Wire Wire Line
+	10100 3700 10100 4100
+Wire Wire Line
+	10000 3800 10150 3800
+Wire Wire Line
+	10150 3800 10150 4200
+Wire Wire Line
+	9400 3350 9400 3500
+Wire Wire Line
+	9450 3600 9600 3600
+Wire Wire Line
+	9450 3250 9450 3600
+Wire Wire Line
+	9600 3500 9400 3500
+Wire Wire Line
+	10200 3500 10200 2950
+Wire Wire Line
+	10000 3500 10200 3500
+Wire Wire Line
+	10150 3050 10150 3600
+Wire Wire Line
+	9550 2500 9550 3300
+Wire Wire Line
+	9050 2500 9550 2500
+Wire Wire Line
+	9500 3400 9500 2400
+Wire Wire Line
+	9050 2400 9500 2400
+Wire Wire Line
+	9050 2150 10100 2150
+Wire Wire Line
+	9050 2050 10050 2050
+Wire Wire Line
+	10100 2150 10100 3400
+Wire Wire Line
+	10050 2050 10050 3300
 $EndSCHEMATC
