@@ -857,11 +857,11 @@ L power:+5V #PWR0104
 U 1 1 600656EF
 P 3550 1500
 F 0 "#PWR0104" H 3550 1350 50  0001 C CNN
-F 1 "+5V" H 3565 1673 50  0000 C CNN
+F 1 "+5V" V 3565 1673 50  0000 C CNN
 F 2 "" H 3550 1500 50  0001 C CNN
 F 3 "" H 3550 1500 50  0001 C CNN
 	1    3550 1500
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0107
@@ -879,11 +879,11 @@ L power:+5V #PWR0111
 U 1 1 5FA961FE
 P 3550 5100
 F 0 "#PWR0111" H 3550 4950 50  0001 C CNN
-F 1 "+5V" H 3565 5273 50  0000 C CNN
+F 1 "+5V" V 3565 5273 50  0000 C CNN
 F 2 "" H 3550 5100 50  0001 C CNN
 F 3 "" H 3550 5100 50  0001 C CNN
 	1    3550 5100
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0114
@@ -1485,7 +1485,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 7050 2200 7300
 Wire Wire Line
-	3550 5100 2550 5100
+	3550 5100 3400 5100
 Connection ~ 3550 5100
 Wire Wire Line
 	2550 5100 2350 5100
@@ -1503,7 +1503,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5100 2350 7150
 Wire Wire Line
-	3550 1500 2550 1500
+	3550 1500 3400 1500
 Connection ~ 3550 1500
 Wire Wire Line
 	2550 1500 2350 1500
@@ -2543,97 +2543,57 @@ $EndComp
 Wire Wire Line
 	6300 10950 6300 10750
 $Comp
-L Device:CP1_Small C105
+L Device:C_Small C105
 U 1 1 613A3C7C
-P 900 6100
-F 0 "C105" V 850 5850 50  0000 L CNN
-F 1 "10uF" H 991 6055 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 900 6100 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 900 6100 50  0001 C CNN
-F 4 "Kemet" H 900 6100 50  0001 C CNN "Manufacturer"
-F 5 "C322C106K3R5TA" V 900 6100 50  0001 C CNN "Model"
-	1    900  6100
-	1    0    0    -1  
+P 3150 5000
+F 0 "C105" H 3050 4750 50  0000 L CNN
+F 1 "10uF" H 3241 4955 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 3150 5000 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 3150 5000 50  0001 C CNN
+F 4 "Kemet" H 3150 5000 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 3150 5000 50  0001 C CNN "Model"
+	1    3150 5000
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1_Small C106
+L Device:C_Small C106
 U 1 1 613A3C84
-P 1100 6100
-F 0 "C106" V 1050 5850 50  0000 L CNN
-F 1 "0.1uF" H 1191 6055 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1100 6100 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1100 6100 50  0001 C CNN
-F 4 "Kemet" H 1100 6100 50  0001 C CNN "Manufacturer"
-F 5 "C320C104K3R5TA" V 1100 6100 50  0001 C CNN "Model"
-	1    1100 6100
-	1    0    0    -1  
+P 3400 5000
+F 0 "C106" H 3300 4750 50  0000 L CNN
+F 1 "0.1uF" H 3491 4955 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 3400 5000 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 3400 5000 50  0001 C CNN
+F 4 "Kemet" H 3400 5000 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 3400 5000 50  0001 C CNN "Model"
+	1    3400 5000
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1100 7300 1700 7300
-Connection ~ 1700 7300
-Wire Wire Line
-	1100 5100 1300 5100
-Connection ~ 1300 5100
-Wire Wire Line
-	900  6000 900  5100
-Wire Wire Line
-	900  5100 1100 5100
-Connection ~ 1100 5100
-Wire Wire Line
-	1100 5100 1100 6000
-Wire Wire Line
-	900  6200 900  7300
-Wire Wire Line
-	900  7300 1100 7300
-Connection ~ 1100 7300
-Wire Wire Line
-	1100 6200 1100 7300
 $Comp
-L Device:CP1_Small C103
+L Device:C_Small C103
 U 1 1 6164BF2A
-P 900 2500
-F 0 "C103" V 850 2250 50  0000 L CNN
-F 1 "10uF" H 991 2455 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 900 2500 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 900 2500 50  0001 C CNN
-F 4 "Kemet" H 900 2500 50  0001 C CNN "Manufacturer"
-F 5 "C322C106K3R5TA" V 900 2500 50  0001 C CNN "Model"
-	1    900  2500
-	1    0    0    -1  
+P 3150 1400
+F 0 "C103" H 3050 1200 50  0000 L CNN
+F 1 "10uF" H 3241 1355 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 3150 1400 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 3150 1400 50  0001 C CNN
+F 4 "Kemet" H 3150 1400 50  0001 C CNN "Manufacturer"
+F 5 "C322C106K3R5TA" V 3150 1400 50  0001 C CNN "Model"
+	1    3150 1400
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1_Small C104
+L Device:C_Small C104
 U 1 1 6164BF32
-P 1100 2500
-F 0 "C104" V 1050 2250 50  0000 L CNN
-F 1 "0.1uF" H 1191 2455 50  0001 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 1100 2500 50  0001 C CNN
-F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 1100 2500 50  0001 C CNN
-F 4 "Kemet" H 1100 2500 50  0001 C CNN "Manufacturer"
-F 5 "C320C104K3R5TA" V 1100 2500 50  0001 C CNN "Model"
-	1    1100 2500
-	1    0    0    -1  
+P 3400 1400
+F 0 "C104" H 3300 1200 50  0000 L CNN
+F 1 "0.1uF" H 3491 1355 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 3400 1400 50  0001 C CNN
+F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 3400 1400 50  0001 C CNN
+F 4 "Kemet" H 3400 1400 50  0001 C CNN "Manufacturer"
+F 5 "C320C104K3R5TA" V 3400 1400 50  0001 C CNN "Model"
+	1    3400 1400
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	900  2400 900  1500
-Wire Wire Line
-	1100 1500 1100 2400
-Wire Wire Line
-	900  2600 900  3700
-Wire Wire Line
-	1100 2600 1100 3700
-Wire Wire Line
-	1100 1500 1300 1500
-Connection ~ 1300 1500
-Wire Wire Line
-	900  1500 1100 1500
-Connection ~ 1100 1500
-Connection ~ 1700 3700
-Wire Wire Line
-	900  3700 1100 3700
-Wire Wire Line
-	1100 3700 1700 3700
-Connection ~ 1100 3700
 $Comp
 L Device:CP1_Small C101
 U 1 1 619E9617
@@ -2999,14 +2959,6 @@ Wire Wire Line
 Connection ~ 6300 10400
 Wire Wire Line
 	6750 10150 7000 10150
-Wire Bus Line
-	8700 1550 10500 1550
-Wire Bus Line
-	8700 1550 8700 4350
-Wire Bus Line
-	10500 1550 10500 4350
-Wire Bus Line
-	7150 800  7150 4350
 Connection ~ 7000 10150
 $Comp
 L Jumper:SolderJumper_3_Open JP110
@@ -3019,4 +2971,52 @@ F 3 "~" H 6600 10150 50  0001 C CNN
 	1    6600 10150
 	0    -1   -1   0   
 $EndComp
+Connection ~ 3400 1500
+Wire Wire Line
+	3400 1500 3150 1500
+Connection ~ 3150 1500
+Wire Wire Line
+	3150 1500 2550 1500
+Wire Wire Line
+	3150 1300 3400 1300
+$Comp
+L power:GND #PWR0187
+U 1 1 620D97FB
+P 3400 1300
+F 0 "#PWR0187" H 3400 1050 50  0001 C CNN
+F 1 "GND" V 3405 1172 50  0000 R CNN
+F 2 "" H 3400 1300 50  0001 C CNN
+F 3 "" H 3400 1300 50  0001 C CNN
+	1    3400 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3400 1300
+Connection ~ 3400 5100
+Wire Wire Line
+	3400 5100 3150 5100
+Connection ~ 3150 5100
+Wire Wire Line
+	3150 5100 2550 5100
+Wire Wire Line
+	3150 4900 3400 4900
+$Comp
+L power:GND #PWR0188
+U 1 1 6220EEC3
+P 3400 4900
+F 0 "#PWR0188" H 3400 4650 50  0001 C CNN
+F 1 "GND" V 3405 4772 50  0000 R CNN
+F 2 "" H 3400 4900 50  0001 C CNN
+F 3 "" H 3400 4900 50  0001 C CNN
+	1    3400 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3400 4900
+Wire Bus Line
+	8700 1550 10500 1550
+Wire Bus Line
+	8700 1550 8700 4350
+Wire Bus Line
+	10500 1550 10500 4350
+Wire Bus Line
+	7150 800  7150 4350
 $EndSCHEMATC
