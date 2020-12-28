@@ -475,12 +475,6 @@ U D16552B4
 F0 "12V DC Common Bank" 50
 F1 "CommonBank1.sch" 50
 $EndSheet
-$Sheet
-S 9150 7000 1200 400 
-U E171B33C
-F0 "Mixed High Power Bank" 50
-F1 "MixedControl.sch" 50
-$EndSheet
 $Comp
 L BoatControl:SS73100-047F J108
 U 1 1 A8523A49
@@ -834,11 +828,7 @@ Wire Wire Line
 Text Notes 9150 5400 0    50   ~ 0
 Relay Banks
 Wire Notes Line
-	9000 5250 9000 7650
-Wire Notes Line
 	9000 7650 11000 7650
-Wire Notes Line
-	11000 7650 11000 5250
 Wire Notes Line
 	11000 5250 9000 5250
 $Comp
@@ -3011,6 +3001,26 @@ F 3 "" H 3400 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 3400 4900
+Wire Notes Line
+	9000 6850 11000 6850
+Wire Notes Line
+	9000 5250 9000 8400
+$Sheet
+S 9150 7050 1200 400 
+U E171B33C
+F0 "Add-On Relay Board 1" 50
+F1 "AddOnControl.sch" 50
+$EndSheet
+$Sheet
+S 9150 7850 1200 400 
+U 601318CC
+F0 "Add-On Relay Board 2" 50
+F1 "AddOnControl.sch" 50
+$EndSheet
+Wire Notes Line
+	9000 8450 11000 8450
+Wire Notes Line
+	11000 5250 11000 8450
 Wire Bus Line
 	8700 1550 10500 1550
 Wire Bus Line
