@@ -1373,22 +1373,6 @@ F 5 "Kingbright" H 9100 2150 50  0001 C CNN "Manufacturer"
 	1    9100 2150
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60113E2D
-P 8800 2250
-AR Path="/D16552B4/60113E2D" Ref="R?"  Part="1" 
-AR Path="/D1BB8DB4/60113E2D" Ref="R5101"  Part="1" 
-F 0 "R5101" H 8900 2150 50  0000 C CNN
-F 1 "12KΩ" H 8800 2400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8800 2250 50  0001 C CNN
-F 3 "" H 8800 2250 50  0001 C CNN
-F 4 "ROX05SJ12K‎" H 8800 2250 50  0001 C CNN "Product"
-F 5 "TE Connectivity" H 8800 2250 50  0001 C CNN "Manufacturer"
-F 6 "12 kOhms ±5% 0.5W, 1/2W Through Hole Resistor Axial Flame Proof, Pulse Withstanding, Safety Metal Oxide Film" H 8800 2250 50  0001 C CNN "Description"
-	1    8800 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8800 2350 8800 2400
 Connection ~ 8800 2400
@@ -1496,4 +1480,20 @@ Connection ~ 3250 5000
 Wire Wire Line
 	3250 5000 3350 5000
 Connection ~ 3250 4800
+$Comp
+L Device:R_Small R?
+U 1 1 60113E2D
+P 8800 2250
+AR Path="/D16552B4/60113E2D" Ref="R?"  Part="1" 
+AR Path="/D1BB8DB4/60113E2D" Ref="R5101"  Part="1" 
+F 0 "R5101" H 8900 2150 50  0000 C CNN
+F 1 "12KΩ" H 8800 2400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8800 2250 50  0001 C CNN
+F 3 "" H 8800 2250 50  0001 C CNN
+F 4 "ROX05SJ12K‎" H 8800 2250 50  0001 C CNN "Product"
+F 5 "TE Connectivity" H 8800 2250 50  0001 C CNN "Manufacturer"
+F 6 "12 kOhms ±5% 0.5W, 1/2W Through Hole Resistor Axial Flame Proof, Pulse Withstanding, Safety Metal Oxide Film" H 8800 2250 50  0001 C CNN "Description"
+	1    8800 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
