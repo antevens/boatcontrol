@@ -2772,10 +2772,10 @@ F19 "A2C_A1" I L 3750 5850 50
 F20 "I2C_A2" I L 3750 5750 50 
 $EndSheet
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP106
 U 1 1 61A10D06
 P 2400 5900
-F 0 "JP?" H 2400 6013 50  0000 C CNN
+F 0 "JP106" H 2400 6013 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 2400 6014 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2400 5900 50  0001 C CNN
 F 3 "~" H 2400 5900 50  0001 C CNN
@@ -2783,10 +2783,10 @@ F 3 "~" H 2400 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP108
 U 1 1 61A10D0C
 P 3450 6100
-F 0 "JP?" H 3450 6213 50  0000 C CNN
+F 0 "JP108" H 3450 6213 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 3450 6214 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 3450 6100 50  0001 C CNN
 F 3 "~" H 3450 6100 50  0001 C CNN
@@ -2794,10 +2794,10 @@ F 3 "~" H 3450 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP107
 U 1 1 61A10D12
 P 2900 6000
-F 0 "JP?" H 2900 6113 50  0000 C CNN
+F 0 "JP107" H 2900 6113 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 2900 6114 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 2900 6000 50  0001 C CNN
 F 3 "~" H 2900 6000 50  0001 C CNN
@@ -2820,10 +2820,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 5950 3450 5950
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0110
 U 1 1 61C51620
 P 2050 6100
-F 0 "#PWR?" H 2050 5950 50  0001 C CNN
+F 0 "#PWR0110" H 2050 5950 50  0001 C CNN
 F 1 "+5V" H 2065 6273 50  0000 C CNN
 F 2 "" H 2050 6100 50  0001 C CNN
 F 3 "" H 2050 6100 50  0001 C CNN
@@ -2845,10 +2845,10 @@ Connection ~ 2200 6100
 Wire Wire Line
 	3650 6250 3650 6100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 61E9AA0F
 P 3650 6250
-F 0 "#PWR?" H 3650 6000 50  0001 C CNN
+F 0 "#PWR0111" H 3650 6000 50  0001 C CNN
 F 1 "GND" H 3655 6077 50  0000 C CNN
 F 2 "" H 3650 6250 50  0001 C CNN
 F 3 "" H 3650 6250 50  0001 C CNN
@@ -2910,15 +2910,15 @@ Wire Wire Line
 Wire Wire Line
 	10300 6450 8950 6450
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP109
 U 1 1 61AC9761
 P 9250 6100
-AR Path="/61AC9761" Ref="JP?"  Part="1" 
+AR Path="/61AC9761" Ref="JP109"  Part="1" 
 AR Path="/D16552B4/61AC9761" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/61AC9761" Ref="JP?"  Part="1" 
 AR Path="/600CFA92/61AC9761" Ref="JP?"  Part="1" 
 AR Path="/601318CC/61AC9761" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9250 6213 50  0000 C CNN
+F 0 "JP109" H 9250 6213 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 9250 6214 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9250 6100 50  0001 C CNN
 F 3 "~" H 9250 6100 50  0001 C CNN
@@ -2926,15 +2926,15 @@ F 3 "~" H 9250 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP112
 U 1 1 61AC9767
 P 10300 6300
-AR Path="/61AC9767" Ref="JP?"  Part="1" 
+AR Path="/61AC9767" Ref="JP112"  Part="1" 
 AR Path="/D16552B4/61AC9767" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/61AC9767" Ref="JP?"  Part="1" 
 AR Path="/600CFA92/61AC9767" Ref="JP?"  Part="1" 
 AR Path="/601318CC/61AC9767" Ref="JP?"  Part="1" 
-F 0 "JP?" H 10300 6413 50  0000 C CNN
+F 0 "JP112" H 10300 6413 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 10300 6414 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10300 6300 50  0001 C CNN
 F 3 "~" H 10300 6300 50  0001 C CNN
@@ -2942,10 +2942,10 @@ F 3 "~" H 10300 6300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0112
 U 1 1 6271327D
 P 9050 5900
-F 0 "#PWR?" H 9050 5750 50  0001 C CNN
+F 0 "#PWR0112" H 9050 5750 50  0001 C CNN
 F 1 "+5V" H 9065 6073 50  0000 C CNN
 F 2 "" H 9050 5900 50  0001 C CNN
 F 3 "" H 9050 5900 50  0001 C CNN
@@ -2976,15 +2976,15 @@ Wire Wire Line
 	10500 6100 10500 6300
 Connection ~ 10000 6100
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L Jumper:SolderJumper_3_Bridged12_Output JP111
 U 1 1 61AC976D
 P 9800 6200
-AR Path="/61AC976D" Ref="JP?"  Part="1" 
+AR Path="/61AC976D" Ref="JP111"  Part="1" 
 AR Path="/D16552B4/61AC976D" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/61AC976D" Ref="JP?"  Part="1" 
 AR Path="/600CFA92/61AC976D" Ref="JP?"  Part="1" 
 AR Path="/601318CC/61AC976D" Ref="JP?"  Part="1" 
-F 0 "JP?" H 9800 6350 50  0000 C CNN
+F 0 "JP111" H 9800 6350 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 9800 6314 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9800 6200 50  0001 C CNN
 F 3 "~" H 9800 6200 50  0001 C CNN
@@ -2992,10 +2992,10 @@ F 3 "~" H 9800 6200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 62CE79FF
 P 10500 6300
-F 0 "#PWR?" H 10500 6050 50  0001 C CNN
+F 0 "#PWR0113" H 10500 6050 50  0001 C CNN
 F 1 "GND" H 10505 6127 50  0000 C CNN
 F 2 "" H 10500 6300 50  0001 C CNN
 F 3 "" H 10500 6300 50  0001 C CNN
