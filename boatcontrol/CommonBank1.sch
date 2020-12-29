@@ -1178,14 +1178,14 @@ Wire Wire Line
 Wire Wire Line
 	8500 5550 8500 5750
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NC_Small JP?
 U 1 1 617F409D
 P 9800 5800
 AR Path="/617F409D" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/617F409D" Ref="JP209"  Part="1" 
 AR Path="/D1BB8DB4/617F409D" Ref="JP?"  Part="1" 
 F 0 "JP209" H 9800 5900 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9850 5700 50  0001 C CNN
+F 1 "Jumper_NC_Small" H 9850 5700 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 5800 50  0001 C CNN
 F 3 "~" H 9800 5800 50  0001 C CNN
 	1    9800 5800

@@ -1384,14 +1384,14 @@ Wire Wire Line
 	8150 2400 8800 2400
 Connection ~ 8150 2400
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NC_Small JP?
 U 1 1 61788453
 P 9600 5850
 AR Path="/61788453" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/61788453" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/61788453" Ref="JP5110"  Part="1" 
 F 0 "JP5110" H 9600 5950 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9650 5750 50  0001 C CNN
+F 1 "Jumper_NC_Small" H 9650 5750 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 5850 50  0001 C CNN
 F 3 "~" H 9600 5850 50  0001 C CNN
 	1    9600 5850
@@ -1405,14 +1405,14 @@ Connection ~ 9750 5850
 Wire Wire Line
 	9750 5850 9750 6000
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NC_Small JP?
 U 1 1 617AACB3
 P 9500 2150
 AR Path="/617AACB3" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/617AACB3" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/617AACB3" Ref="JP5109"  Part="1" 
 F 0 "JP5109" H 9500 2250 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9550 2050 50  0001 C CNN
+F 1 "Jumper_NC_Small" H 9550 2050 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9500 2150 50  0001 C CNN
 F 3 "~" H 9500 2150 50  0001 C CNN
 	1    9500 2150
@@ -1420,8 +1420,8 @@ F 3 "~" H 9500 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 2150 9650 2150
-Text Notes 7400 1100 0    50   ~ 0
-It's safe to run AC up to 277V 50/60hz and DC up to 24V on this circuit even though it's marked AC.\nThe main difference between this and the DC specific circuits  is track spacing and lack of any polarity protection.
+Text Notes 6700 850  0    50   ~ 0
+It's safe to run AC up to 277V 50/60hz and DC up to 24V on this circuit even though it's marked AC.\nThe main difference between this and the DC specific circuits is track spacing and lack of any polarity protection.
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D24C1AB1
