@@ -2316,23 +2316,23 @@ Connection ~ 2800 1250
 $Comp
 L BoatControl:LOGO_ANT G101
 U 1 1 5FEB4243
-P 14850 9500
-F 0 "G101" H 14850 9170 60  0001 C CNN
-F 1 "LOGO_ANT" H 14850 9830 60  0001 C CNN
-F 2 "BoatControl:Ant_Logo_SilkScreen" H 14847 9923 50  0001 C CNN
-F 3 "" H 14850 9500 50  0001 C CNN
-	1    14850 9500
+P 14750 8650
+F 0 "G101" H 14750 8320 60  0001 C CNN
+F 1 "LOGO_ANT" H 14750 8980 60  0001 C CNN
+F 2 "BoatControl:Ant_Logo_SilkScreen" H 14747 9073 50  0001 C CNN
+F 3 "" H 14750 8650 50  0001 C CNN
+	1    14750 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L BoatControl:LOGO_RUGLUDALLUR G102
 U 1 1 5FEB07B2
-P 15700 9500
-F 0 "G102" H 15700 9190 60  0001 C CNN
-F 1 "LOGO_RUGLUDALLUR" H 15700 9810 60  0001 C CNN
-F 2 "BoatControl:Rugludallur-Logo_SilkScreen" H 15699 9907 50  0001 C CNN
-F 3 "" H 15700 9500 50  0001 C CNN
-	1    15700 9500
+P 14400 9500
+F 0 "G102" H 14400 9190 60  0001 C CNN
+F 1 "LOGO_RUGLUDALLUR" H 14400 9810 60  0001 C CNN
+F 2 "BoatControl:Rugludallur-Logo_SilkScreen" H 14399 9907 50  0001 C CNN
+F 3 "" H 14400 9500 50  0001 C CNN
+	1    14400 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2824,10 +2824,10 @@ $EndComp
 Wire Wire Line
 	9450 8250 9450 8350
 $Comp
-L Device:R R?
+L Device:R R102
 U 1 1 58E19E51
 P 9850 8300
-F 0 "R?" V 9930 8300 50  0000 C CNN
+F 0 "R102" V 9930 8300 50  0000 C CNN
 F 1 "10K" V 9850 8300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9780 8300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English" H 9850 8300 50  0001 C CNN
@@ -2849,10 +2849,10 @@ F 3 "" H 10400 8300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R103
 U 1 1 58E22900
 P 10150 8250
-F 0 "R?" V 10230 8250 50  0000 C CNN
+F 0 "R103" V 10230 8250 50  0000 C CNN
 F 1 "DNP" V 10150 8250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10080 8250 50  0001 C CNN
 F 3 "" H 10150 8250 50  0001 C CNN
@@ -2875,10 +2875,10 @@ Wire Wire Line
 	10400 8250 10300 8250
 Connection ~ 9850 8050
 $Comp
-L Memory_EEPROM:24LC128 U?
+L Memory_EEPROM:24LC128 U104
 U 1 1 58E1713F
 P 9450 7950
-F 0 "U?" H 9800 8300 50  0000 C CNN
+F 0 "U104" H 9800 8300 50  0000 C CNN
 F 1 "24FC128-I/P" H 9150 8300 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 9450 7950 50  0001 C CNN
 F 3 "" H 9450 7950 50  0000 C CNN
@@ -2886,13 +2886,13 @@ F 3 "" H 9450 7950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP101
 U 1 1 60ACF8FA
 P 10500 8150
-AR Path="/60ACF8FA" Ref="JP?"  Part="1" 
+AR Path="/60ACF8FA" Ref="JP101"  Part="1" 
 AR Path="/D16552B4/60ACF8FA" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/60ACF8FA" Ref="JP?"  Part="1" 
-F 0 "JP?" H 10500 8250 50  0000 C CNN
+F 0 "JP101" H 10500 8250 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 10550 8050 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10500 8150 50  0001 C CNN
 F 3 "~" H 10500 8150 50  0001 C CNN
@@ -2906,10 +2906,10 @@ Wire Wire Line
 Wire Wire Line
 	9850 8100 10000 8100
 $Comp
-L BoatControl:IPP120P04P4L-03 Q?
+L BoatControl:IPP120P04P4L-03 Q103
 U 1 1 6123860B
 P 11350 4350
-F 0 "Q?" H 11455 4304 50  0000 L CNN
+F 0 "Q103" H 11455 4304 50  0000 L CNN
 F 1 "IPP120P04P4L-03" H 10600 4550 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 11000 4900 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 11350 4350 50  0001 C CNN
@@ -2952,10 +2952,10 @@ F 3 "" H 11750 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R108
 U 1 1 61074F97
 P 11750 5300
-F 0 "R?" V 11830 5300 50  0000 C CNN
+F 0 "R108" V 11830 5300 50  0000 C CNN
 F 1 "47K" V 11750 5300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11680 5300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English" H 11750 5300 50  0001 C CNN
@@ -2979,7 +2979,7 @@ U 1 1 58DFC771
 P 8850 1250
 F 0 "J3" H 9200 1350 50  0000 C CNN
 F 1 "40HAT" H 8550 1350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 8850 1450 50  0001 C CNN
+F 2 "BoatControl:Raspberry_Pi_Any_Socketed_THT_FaceDown_MountingHoles" H 8850 1450 50  0001 C CNN
 F 3 "" H 8150 1250 50  0000 C CNN
 	1    8850 1250
 	1    0    0    -1  
@@ -3000,10 +3000,10 @@ Wire Wire Line
 Wire Wire Line
 	7750 1450 8250 1450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 6551C4A4
 P 7900 1650
-F 0 "#PWR?" H 7900 1400 50  0001 C CNN
+F 0 "#PWR0114" H 7900 1400 50  0001 C CNN
 F 1 "GND" V 7905 1522 50  0000 R CNN
 F 2 "" H 7900 1650 50  0001 C CNN
 F 3 "" H 7900 1650 50  0001 C CNN
@@ -3011,10 +3011,10 @@ F 3 "" H 7900 1650 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 6557F9DE
 P 7700 2450
-F 0 "#PWR?" H 7700 2200 50  0001 C CNN
+F 0 "#PWR0115" H 7700 2200 50  0001 C CNN
 F 1 "GND" V 7705 2322 50  0000 R CNN
 F 2 "" H 7700 2450 50  0001 C CNN
 F 3 "" H 7700 2450 50  0001 C CNN
@@ -3022,10 +3022,10 @@ F 3 "" H 7700 2450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0188
 U 1 1 6564F70D
 P 9800 2850
-F 0 "#PWR?" H 9800 2600 50  0001 C CNN
+F 0 "#PWR0188" H 9800 2600 50  0001 C CNN
 F 1 "GND" V 9805 2722 50  0000 R CNN
 F 2 "" H 9800 2850 50  0001 C CNN
 F 3 "" H 9800 2850 50  0001 C CNN
@@ -3033,10 +3033,10 @@ F 3 "" H 9800 2850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0231
 U 1 1 656AB04D
 P 9800 2650
-F 0 "#PWR?" H 9800 2400 50  0001 C CNN
+F 0 "#PWR0231" H 9800 2400 50  0001 C CNN
 F 1 "GND" V 9805 2522 50  0000 R CNN
 F 2 "" H 9800 2650 50  0001 C CNN
 F 3 "" H 9800 2650 50  0001 C CNN
@@ -3044,10 +3044,10 @@ F 3 "" H 9800 2650 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0232
 U 1 1 6574C007
 P 9800 1850
-F 0 "#PWR?" H 9800 1600 50  0001 C CNN
+F 0 "#PWR0232" H 9800 1600 50  0001 C CNN
 F 1 "GND" V 9805 1722 50  0000 R CNN
 F 2 "" H 9800 1850 50  0001 C CNN
 F 3 "" H 9800 1850 50  0001 C CNN
@@ -3055,10 +3055,10 @@ F 3 "" H 9800 1850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0233
 U 1 1 657A78B5
 P 10000 1450
-F 0 "#PWR?" H 10000 1200 50  0001 C CNN
+F 0 "#PWR0233" H 10000 1200 50  0001 C CNN
 F 1 "GND" V 10005 1322 50  0000 R CNN
 F 2 "" H 10000 1450 50  0001 C CNN
 F 3 "" H 10000 1450 50  0001 C CNN
@@ -3088,23 +3088,10 @@ Pullup resistors for the I2C bus on the EEPROM.\nThe resistor values are per the
 Text Notes 10600 7550 0    51   ~ 0
 I2C Pullup Resistors
 $Comp
-L Device:R R?
-U 1 1 58E17720
-P 10700 7850
-F 0 "R?" V 10650 8000 50  0000 C CNN
-F 1 "3.9K" V 10700 7850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 10630 7850 50  0001 C CNN
-F 3 "" H 10700 7850 50  0001 C CNN
-F 4 "TE Connectivity Passive Product" V 10700 7850 50  0001 C CNN "Manufacturer"
-F 5 "ROX05SJ3R9" V 10700 7850 50  0001 C CNN "Product"
-	1    10700 7850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R106
 U 1 1 58E17715
 P 10700 7950
-F 0 "R?" V 10650 8100 50  0000 C CNN
+F 0 "R106" V 10650 8100 50  0000 C CNN
 F 1 "3.9K" V 10700 7950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10630 7950 50  0001 C CNN
 F 3 "" H 10700 7950 50  0001 C CNN
@@ -3159,10 +3146,10 @@ Wire Wire Line
 	8750 8250 9450 8250
 Connection ~ 9450 8250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0234
 U 1 1 6736466A
 P 12100 5450
-F 0 "#PWR?" H 12100 5200 50  0001 C CNN
+F 0 "#PWR0234" H 12100 5200 50  0001 C CNN
 F 1 "GND" H 12100 5300 50  0000 C CNN
 F 2 "" H 12100 5450 50  0000 C CNN
 F 3 "" H 12100 5450 50  0000 C CNN
@@ -3170,10 +3157,10 @@ F 3 "" H 12100 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R109
 U 1 1 67364673
 P 12100 5300
-F 0 "R?" V 12180 5300 50  0000 C CNN
+F 0 "R109" V 12180 5300 50  0000 C CNN
 F 1 "47K" V 12100 5300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12030 5300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English" H 12100 5300 50  0001 C CNN
@@ -3184,10 +3171,10 @@ F 6 "10 kOhms ±5% 0.25W, 1/4W Through Hole Resistor Axial Carbon Film" V 12100 
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R107
 U 1 1 60F468E4
 P 11150 5300
-F 0 "R?" V 11230 5300 50  0000 C CNN
+F 0 "R107" V 11230 5300 50  0000 C CNN
 F 1 "10K" V 11150 5300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 11080 5300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English" H 11150 5300 50  0001 C CNN
@@ -3209,10 +3196,10 @@ F 3 "" H 11150 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R104
 U 1 1 674219C3
 P 10700 5300
-F 0 "R?" V 10780 5300 50  0000 C CNN
+F 0 "R104" V 10780 5300 50  0000 C CNN
 F 1 "10K" V 10700 5300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10630 5300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English" H 10700 5300 50  0001 C CNN
@@ -3223,10 +3210,10 @@ F 6 "10 kOhms ±5% 0.25W, 1/4W Through Hole Resistor Axial Carbon Film" V 10700 
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0235
 U 1 1 674219C9
 P 10700 5450
-F 0 "#PWR?" H 10700 5200 50  0001 C CNN
+F 0 "#PWR0235" H 10700 5200 50  0001 C CNN
 F 1 "GND" H 10700 5300 50  0000 C CNN
 F 2 "" H 10700 5450 50  0000 C CNN
 F 3 "" H 10700 5450 50  0000 C CNN
@@ -3236,10 +3223,10 @@ $EndComp
 Wire Wire Line
 	10800 5150 10700 5150
 $Comp
-L Device:LED_Dual_ACA D?
+L Device:LED_Dual_ACA D104
 U 1 1 67673269
 P 12350 4350
-AR Path="/67673269" Ref="D?"  Part="1" 
+AR Path="/67673269" Ref="D104"  Part="1" 
 AR Path="/5FBFBEC9/67673269" Ref="D?"  Part="1" 
 AR Path="/768425E1/67673269" Ref="D?"  Part="1" 
 AR Path="/76E5F1B9/67673269" Ref="D?"  Part="1" 
@@ -3352,7 +3339,7 @@ AR Path="/601318CC/E15855D9/E14BA326/67673269" Ref="D?"  Part="1"
 AR Path="/601318CC/E15855D9/E150D6D7/67673269" Ref="D?"  Part="1" 
 AR Path="/601318CC/E15855D9/E150FD51/67673269" Ref="D?"  Part="1" 
 AR Path="/601318CC/E15855D9/E150AEB9/67673269" Ref="D?"  Part="1" 
-F 0 "D?" H 12150 4150 50  0000 C CNN
+F 0 "D104" H 12150 4150 50  0000 C CNN
 F 1 "20mA R/G CC" H 12300 4050 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 12350 4350 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW.pdf" H 12350 4350 50  0001 C CNN
@@ -3364,17 +3351,17 @@ $EndComp
 Wire Wire Line
 	12250 5150 12250 4650
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP113
 U 1 1 67872544
 P 11600 4650
-AR Path="/67872544" Ref="JP?"  Part="1" 
+AR Path="/67872544" Ref="JP113"  Part="1" 
 AR Path="/D16552B4/67872544" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/67872544" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/67872544" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/67872544" Ref="JP?"  Part="1" 
 AR Path="/600CFA92/67872544" Ref="JP?"  Part="1" 
 AR Path="/601318CC/67872544" Ref="JP?"  Part="1" 
-F 0 "JP?" H 11600 4750 50  0000 C CNN
+F 0 "JP113" H 11600 4750 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 11650 4550 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11600 4650 50  0001 C CNN
 F 3 "~" H 11600 4650 50  0001 C CNN
@@ -3390,10 +3377,10 @@ Wire Wire Line
 Connection ~ 11300 5150
 Connection ~ 11750 5150
 $Comp
-L BoatControl:Q_QUAD_PNP Q?
+L BoatControl:Q_QUAD_PNP Q104
 U 1 1 618DD553
 P 11450 4950
-F 0 "Q?" H 11500 5050 50  0000 R CNN
+F 0 "Q104" H 11500 5050 50  0000 R CNN
 F 1 "Q_QUAD_PNP" H 11200 5750 50  0000 R CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 4800 50  0001 C CIN
 F 3 "https://my.centralsemi.com/datasheets/MPQ7093.PDF" H 11250 4950 50  0001 L CNN
@@ -3403,17 +3390,17 @@ F 5 "MPQ7093" H 11450 4950 50  0001 C CNN "Product"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP?
+L Device:Jumper_NC_Small JP114
 U 1 1 6791433C
 P 11600 4700
-AR Path="/6791433C" Ref="JP?"  Part="1" 
+AR Path="/6791433C" Ref="JP114"  Part="1" 
 AR Path="/D16552B4/6791433C" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/6791433C" Ref="JP?"  Part="1" 
 AR Path="/E0EE2714/E1383403/6791433C" Ref="JP?"  Part="1" 
 AR Path="/E171B33C/6791433C" Ref="JP?"  Part="1" 
 AR Path="/600CFA92/6791433C" Ref="JP?"  Part="1" 
 AR Path="/601318CC/6791433C" Ref="JP?"  Part="1" 
-F 0 "JP?" H 11600 4800 50  0000 C CNN
+F 0 "JP114" H 11600 4800 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 11650 4600 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11600 4700 50  0001 C CNN
 F 3 "~" H 11600 4700 50  0001 C CNN
@@ -3443,10 +3430,10 @@ Wire Wire Line
 	12450 4700 12450 4650
 Connection ~ 11850 4700
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0236
 U 1 1 67D1287D
 P 12350 4050
-F 0 "#PWR?" H 12350 3800 50  0001 C CNN
+F 0 "#PWR0236" H 12350 3800 50  0001 C CNN
 F 1 "GND" H 12355 3877 50  0000 C CNN
 F 2 "" H 12350 4050 50  0001 C CNN
 F 3 "" H 12350 4050 50  0001 C CNN
@@ -3460,4 +3447,28 @@ Text Notes 13700 650  0    59   ~ 12
 Onboard Relay Analog Control
 Text Notes 2700 800  0    59   ~ 12
 Addon board Relay Control and\nIO breakout for RPi pins over Cat5/RJ45
+$Comp
+L Device:R R105
+U 1 1 60DF7A34
+P 10700 7850
+F 0 "R105" V 10650 8000 50  0000 C CNN
+F 1 "3.9K" V 10700 7850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10630 7850 50  0001 C CNN
+F 3 "" H 10700 7850 50  0001 C CNN
+F 4 "ROX05SJ3R9" V 10700 7850 50  0001 C CNN "Product"
+F 5 "TE Connectivity Passive Product" V 10700 7850 50  0001 C CNN "Vendor"
+	1    10700 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L BoatControl:LOGO_RPI G104
+U 1 1 6000835F
+P 15400 9350
+F 0 "G104" H 15400 8825 60  0001 C CNN
+F 1 "LOGO_RPI" H 15400 9875 60  0001 C CNN
+F 2 "BoatControl:RPi_Logo_SilkScreen" H 15400 9350 50  0001 C CNN
+F 3 "" H 15400 9350 50  0001 C CNN
+	1    15400 9350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

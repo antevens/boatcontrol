@@ -1,4 +1,4 @@
-17980082813899353
+17983301292415353
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -405,6 +405,20 @@ RELAY_G5RL-K1A-E-DC12
 0
 7
 7
+BoatControl
+RPi_Logo_SilkScreen
+
+
+0
+0
+0
+BoatControl
+Raspberry_Pi_Any_Socketed_THT_FaceDown_MountingHoles
+
+
+0
+79
+40
 BoatControl
 Rugludallur-Logo_SilkScreen
 Rugludallur Logo
