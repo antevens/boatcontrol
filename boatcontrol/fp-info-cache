@@ -1,4 +1,4 @@
-17978473632076068
+17980082813899353
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48747,6 +48747,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Hat
+NPTH_3mm_ID
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -52066,29 +52073,8 @@ solder jumper open
 2
 2
 Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
 solder jumper open
 0
 2
@@ -52108,29 +52094,8 @@ solder jumper open
 2
 2
 Jumper
-SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-Jumper
 SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
-SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
 solder jumper open
 0
 2
@@ -52150,29 +52115,8 @@ solder jumper open
 2
 2
 Jumper
-SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-Jumper
 SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
 SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
 solder jumper open
 0
 3
@@ -52192,29 +52136,8 @@ solder jumper open
 3
 3
 Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
-solder jumper open
-0
-3
-3
-Jumper
 SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
 solder jumper open
 0
 3
@@ -52234,29 +52157,8 @@ solder jumper open
 3
 3
 Jumper
-SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
 SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
 solder jumper open
 0
 3
@@ -52276,29 +52178,8 @@ solder jumper open
 3
 3
 Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
 SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
 solder jumper open
 0
 3
@@ -52318,29 +52199,8 @@ solder jumper open
 3
 3
 Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
 SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
-5
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
-solder jumper open
-0
-5
-3
-Jumper
-SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
-SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
 solder jumper open
 0
 5

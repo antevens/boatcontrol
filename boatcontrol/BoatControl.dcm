@@ -18,4 +18,10 @@ $CMP IPP120P04P4L-03
 F https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t
 $ENDCMP
 #
+$CMP Q_QUAD_PNP
+D Double PNP transistors, current mirror configuration
+K transistor PNP
+F ~
+$ENDCMP
+#
 #End Doc Library
