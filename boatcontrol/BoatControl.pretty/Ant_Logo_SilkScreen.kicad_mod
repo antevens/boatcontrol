@@ -1,10 +1,10 @@
-(module Ant_Logo_SilkScreen (layer F.Cu) (tedit 5FDA7C62)
+(module Ant_Logo_SilkScreen (layer F.Cu) (tedit 5FEB85C7)
   (attr virtual)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference REF** (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value Ant_Logo_SilkScreen (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value Ant_Logo_SilkScreen (at 0 10.16) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_line (start 8.89 -3.81) (end 9.099999 -3.012999) (layer F.SilkS) (width 1.5))
   (fp_line (start -1.95 -6.954999) (end -2.07 -7.837999) (layer F.SilkS) (width 1.5))

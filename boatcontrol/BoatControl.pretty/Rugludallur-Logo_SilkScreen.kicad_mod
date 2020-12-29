@@ -1,12 +1,12 @@
-(module Rugludallur-Logo_SilkScreen (layer F.Cu) (tedit 5FDA7C71)
+(module Rugludallur-Logo_SilkScreen (layer F.Cu) (tedit 5FEB8442)
   (descr "Rugludallur Logo")
   (tags "dallur rugludallur logo")
   (attr virtual)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference REF** (at 0 38.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value Rugludallur-Logo_SilkScreen (at 0 -0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value Rugludallur-Logo_SilkScreen (at 1.27 35.56) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_line (start -17.33 -24.489999) (end -12.08 -29.189999) (layer F.SilkS) (width 3))
   (fp_line (start -44.392 32.010001) (end -0.442 32.010001) (layer F.SilkS) (width 3))
