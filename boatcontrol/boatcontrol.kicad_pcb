@@ -2,7 +2,7 @@
 
   (general
     (thickness 2.4)
-    (drawings 42)
+    (drawings 43)
     (tracks 1138)
     (zones 0)
     (modules 552)
@@ -33407,6 +33407,9 @@
     )
   )
 
+  (gr_text "Mad Hatter" (at 623.5 162.5) (layer F.SilkS)
+    (effects (font (size 4 4) (thickness 0.75)))
+  )
   (gr_line (start 220 226.5) (end 367 226.5) (layer F.SilkS) (width 0.05) (tstamp 5FEDD9AE))
   (gr_line (start 367 112.5) (end 220 112.5) (layer F.SilkS) (width 0.05) (tstamp 5FEDD9AD))
   (gr_line (start 370 223.5) (end 370 115.5) (layer F.SilkS) (width 0.05) (tstamp 5FEDD9AC))
