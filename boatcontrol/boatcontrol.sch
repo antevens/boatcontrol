@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 87
+Sheet 1 97
 Title "Boat Control Hat"
 Date "2020-11-30"
 Rev "3"
