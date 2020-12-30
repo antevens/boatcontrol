@@ -375,20 +375,20 @@ F7 "ON" O R 6300 3100 50
 $EndSheet
 Wire Wire Line
 	4550 2750 5300 2750
-Text HLabel 7750 5700 0    50   Input ~ 0
-DIG_OFF_C4
-Text HLabel 7700 5550 0    50   Input ~ 0
-DIG_ON_C4
-Text HLabel 7650 5400 0    50   Input ~ 0
-DIG_OFF_C3
 Text HLabel 7600 5250 0    50   Input ~ 0
+DIG_OFF_C4
+Text HLabel 7650 5400 0    50   Input ~ 0
+DIG_ON_C4
+Text HLabel 7700 5550 0    50   Input ~ 0
+DIG_OFF_C3
+Text HLabel 7750 5700 0    50   Input ~ 0
 DIG_ON_C3
-Text HLabel 7600 1650 0    50   Input ~ 0
-DIG_OFF_C2
-Text HLabel 7650 1500 0    50   Input ~ 0
-DIG_ON_C2
-Text HLabel 7700 1350 0    50   Input ~ 0
-DIG_OFF_C1
 Text HLabel 7750 1200 0    50   Input ~ 0
+DIG_OFF_C2
+Text HLabel 7700 1350 0    50   Input ~ 0
+DIG_ON_C2
+Text HLabel 7650 1500 0    50   Input ~ 0
+DIG_OFF_C1
+Text HLabel 7600 1650 0    50   Input ~ 0
 DIG_ON_C1
 $EndSCHEMATC
