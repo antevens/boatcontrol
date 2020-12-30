@@ -2637,133 +2637,6 @@ F 3 "" H 3050 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3050 6200
-$Sheet
-S 7200 5250 1150 1700
-U E171B33C
-F0 "Add-On Relay Board 1" 50
-F1 "AddOnControl.sch" 50
-F2 "ADDON_C1_ON" I L 7200 5350 50 
-F3 "ADDON_C1_OFF" I L 7200 5450 50 
-F4 "ADDON_C2_ON" I L 7200 5550 50 
-F5 "ADDON_C2_OFF" I L 7200 5650 50 
-F6 "ADDON_C3_ON" I L 7200 5750 50 
-F7 "ADDON_C3_OFF" I L 7200 5850 50 
-F8 "ADDON_C4_ON" I L 7200 5950 50 
-F9 "ADDON_C4_OFF" I L 7200 6050 50 
-F10 "ADDON_C5_ON" I L 7200 6150 50 
-F11 "ADDON_C5_OFF" I L 7200 6250 50 
-F12 "ADDON_C6_ON" I L 7200 6350 50 
-F13 "ADDON_C6_OFF" I L 7200 6450 50 
-F14 "ADDON_C7_ON" I L 7200 6550 50 
-F15 "ADDON_C7_OFF" I L 7200 6650 50 
-F16 "ADDON_C8_ON" I L 7200 6750 50 
-F17 "ADDON_C8_OFF" I L 7200 6850 50 
-F18 "I2C_A0" I R 8350 6400 50 
-F19 "A2C_A1" I R 8350 6300 50 
-F20 "I2C_A2" I R 8350 6200 50 
-$EndSheet
-Wire Wire Line
-	8350 6200 8650 6200
-Wire Wire Line
-	9200 6300 8350 6300
-Wire Wire Line
-	9700 6400 8350 6400
-$Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP109
-U 1 1 61AC9761
-P 8650 6050
-AR Path="/61AC9761" Ref="JP109"  Part="1" 
-AR Path="/D16552B4/61AC9761" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/61AC9761" Ref="JP?"  Part="1" 
-AR Path="/600CFA92/61AC9761" Ref="JP?"  Part="1" 
-AR Path="/601318CC/61AC9761" Ref="JP?"  Part="1" 
-F 0 "JP109" H 8650 6163 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 8650 6164 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 8650 6050 50  0001 C CNN
-F 3 "~" H 8650 6050 50  0001 C CNN
-	1    8650 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP112
-U 1 1 61AC9767
-P 9700 6250
-AR Path="/61AC9767" Ref="JP112"  Part="1" 
-AR Path="/D16552B4/61AC9767" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/61AC9767" Ref="JP?"  Part="1" 
-AR Path="/600CFA92/61AC9767" Ref="JP?"  Part="1" 
-AR Path="/601318CC/61AC9767" Ref="JP?"  Part="1" 
-F 0 "JP112" H 9700 6363 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 9700 6364 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9700 6250 50  0001 C CNN
-F 3 "~" H 9700 6250 50  0001 C CNN
-	1    9700 6250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 6271327D
-P 8450 5850
-F 0 "#PWR0112" H 8450 5700 50  0001 C CNN
-F 1 "+5V" H 8465 6023 50  0000 C CNN
-F 2 "" H 8450 5850 50  0001 C CNN
-F 3 "" H 8450 5850 50  0001 C CNN
-	1    8450 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 5900 9000 5900
-Wire Wire Line
-	9000 5900 9000 6150
-Wire Wire Line
-	8450 5850 8450 5900
-Wire Wire Line
-	8450 5900 8450 6050
-Connection ~ 8450 5900
-Connection ~ 9000 5900
-Wire Wire Line
-	9500 6250 9500 5900
-Wire Wire Line
-	9000 5900 9500 5900
-Wire Wire Line
-	8850 6050 9400 6050
-Wire Wire Line
-	9400 6050 9400 6150
-Wire Wire Line
-	9400 6050 9900 6050
-Wire Wire Line
-	9900 6050 9900 6250
-Connection ~ 9400 6050
-$Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP111
-U 1 1 61AC976D
-P 9200 6150
-AR Path="/61AC976D" Ref="JP111"  Part="1" 
-AR Path="/D16552B4/61AC976D" Ref="JP?"  Part="1" 
-AR Path="/E171B33C/61AC976D" Ref="JP?"  Part="1" 
-AR Path="/600CFA92/61AC976D" Ref="JP?"  Part="1" 
-AR Path="/601318CC/61AC976D" Ref="JP?"  Part="1" 
-F 0 "JP111" H 9200 6300 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 9200 6264 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9200 6150 50  0001 C CNN
-F 3 "~" H 9200 6150 50  0001 C CNN
-	1    9200 6150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 62CE79FF
-P 9900 6250
-F 0 "#PWR0113" H 9900 6000 50  0001 C CNN
-F 1 "GND" H 9905 6077 50  0000 C CNN
-F 2 "" H 9900 6250 50  0001 C CNN
-F 3 "" H 9900 6250 50  0001 C CNN
-	1    9900 6250
-	1    0    0    -1  
-$EndComp
-Connection ~ 9900 6250
-Text Notes 9600 5850 2    50   ~ 0
-I2C Address 0x24
 Text Notes 2600 5650 2    50   ~ 0
 I2C Address 0x26
 Text Notes 8350 950  0    59   ~ 12
@@ -3471,4 +3344,131 @@ F 3 "" H 15400 9350 50  0001 C CNN
 	1    15400 9350
 	1    0    0    -1  
 $EndComp
+Text Notes 9600 5850 2    50   ~ 0
+I2C Address 0x24
+Connection ~ 9900 6250
+$Comp
+L power:GND #PWR0113
+U 1 1 62CE79FF
+P 9900 6250
+F 0 "#PWR0113" H 9900 6000 50  0001 C CNN
+F 1 "GND" H 9905 6077 50  0000 C CNN
+F 2 "" H 9900 6250 50  0001 C CNN
+F 3 "" H 9900 6250 50  0001 C CNN
+	1    9900 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12_Output JP111
+U 1 1 61AC976D
+P 9200 6150
+AR Path="/61AC976D" Ref="JP111"  Part="1" 
+AR Path="/D16552B4/61AC976D" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/61AC976D" Ref="JP?"  Part="1" 
+AR Path="/600CFA92/61AC976D" Ref="JP?"  Part="1" 
+AR Path="/601318CC/61AC976D" Ref="JP?"  Part="1" 
+F 0 "JP111" H 9200 6300 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 9200 6264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9200 6150 50  0001 C CNN
+F 3 "~" H 9200 6150 50  0001 C CNN
+	1    9200 6150
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9400 6050
+Wire Wire Line
+	9900 6050 9900 6250
+Wire Wire Line
+	9400 6050 9900 6050
+Wire Wire Line
+	9400 6050 9400 6150
+Wire Wire Line
+	8850 6050 9400 6050
+Wire Wire Line
+	9000 5900 9500 5900
+Wire Wire Line
+	9500 6250 9500 5900
+Connection ~ 9000 5900
+Connection ~ 8450 5900
+Wire Wire Line
+	8450 5900 8450 6050
+Wire Wire Line
+	8450 5850 8450 5900
+Wire Wire Line
+	9000 5900 9000 6150
+Wire Wire Line
+	8450 5900 9000 5900
+$Comp
+L power:+5V #PWR0112
+U 1 1 6271327D
+P 8450 5850
+F 0 "#PWR0112" H 8450 5700 50  0001 C CNN
+F 1 "+5V" H 8465 6023 50  0000 C CNN
+F 2 "" H 8450 5850 50  0001 C CNN
+F 3 "" H 8450 5850 50  0001 C CNN
+	1    8450 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12_Output JP112
+U 1 1 61AC9767
+P 9700 6250
+AR Path="/61AC9767" Ref="JP112"  Part="1" 
+AR Path="/D16552B4/61AC9767" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/61AC9767" Ref="JP?"  Part="1" 
+AR Path="/600CFA92/61AC9767" Ref="JP?"  Part="1" 
+AR Path="/601318CC/61AC9767" Ref="JP?"  Part="1" 
+F 0 "JP112" H 9700 6363 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 9700 6364 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9700 6250 50  0001 C CNN
+F 3 "~" H 9700 6250 50  0001 C CNN
+	1    9700 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12_Output JP109
+U 1 1 61AC9761
+P 8650 6050
+AR Path="/61AC9761" Ref="JP109"  Part="1" 
+AR Path="/D16552B4/61AC9761" Ref="JP?"  Part="1" 
+AR Path="/E171B33C/61AC9761" Ref="JP?"  Part="1" 
+AR Path="/600CFA92/61AC9761" Ref="JP?"  Part="1" 
+AR Path="/601318CC/61AC9761" Ref="JP?"  Part="1" 
+F 0 "JP109" H 8650 6163 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 8650 6164 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 8650 6050 50  0001 C CNN
+F 3 "~" H 8650 6050 50  0001 C CNN
+	1    8650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 6400 8350 6400
+Wire Wire Line
+	9200 6300 8350 6300
+Wire Wire Line
+	8350 6200 8650 6200
+$Sheet
+S 7200 5250 1150 1700
+U E171B33C
+F0 "Add-On Relay Board 1" 50
+F1 "AddOnControl.sch" 50
+F2 "ADDON_C1_ON" I L 7200 5350 50 
+F3 "ADDON_C1_OFF" I L 7200 5450 50 
+F4 "ADDON_C2_ON" I L 7200 5550 50 
+F5 "ADDON_C2_OFF" I L 7200 5650 50 
+F6 "ADDON_C3_ON" I L 7200 5750 50 
+F7 "ADDON_C3_OFF" I L 7200 5850 50 
+F8 "ADDON_C4_ON" I L 7200 5950 50 
+F9 "ADDON_C4_OFF" I L 7200 6050 50 
+F10 "ADDON_C5_ON" I L 7200 6150 50 
+F11 "ADDON_C5_OFF" I L 7200 6250 50 
+F12 "ADDON_C6_ON" I L 7200 6350 50 
+F13 "ADDON_C6_OFF" I L 7200 6450 50 
+F14 "ADDON_C7_ON" I L 7200 6550 50 
+F15 "ADDON_C7_OFF" I L 7200 6650 50 
+F16 "ADDON_C8_ON" I L 7200 6750 50 
+F17 "ADDON_C8_OFF" I L 7200 6850 50 
+F18 "I2C_A0" I R 8350 6400 50 
+F19 "A2C_A1" I R 8350 6300 50 
+F20 "I2C_A2" I R 8350 6200 50 
+$EndSheet
 $EndSCHEMATC

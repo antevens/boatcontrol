@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 97
+Sheet 93 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -162,12 +162,6 @@ F 3 "" H 4000 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 4000 4000 4250
-Text HLabel 7700 1350 0    50   Input ~ 0
-DIG_ON_C2
-Text HLabel 7650 1500 0    50   Input ~ 0
-DIG_OFF_C1
-Text HLabel 7750 1200 0    50   Input ~ 0
-DIG_OFF_C2
 $Comp
 L power:+12P #PWR?
 U 1 1 D2B5CDA8
@@ -197,16 +191,6 @@ F 3 "" H 4000 2900 50  0001 C CNN
 	1    4000 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 7600 1650 0    50   Input ~ 0
-DIG_ON_C1
-Text HLabel 7600 5250 0    50   Input ~ 0
-DIG_OFF_C4
-Text HLabel 7700 5550 0    50   Input ~ 0
-DIG_OFF_C3
-Text HLabel 7650 5400 0    50   Input ~ 0
-DIG_ON_C4
-Text HLabel 7750 5700 0    50   Input ~ 0
-DIG_ON_C3
 Wire Wire Line
 	7600 3100 7600 1600
 Wire Wire Line
@@ -391,4 +375,20 @@ F7 "ON" O R 6300 3100 50
 $EndSheet
 Wire Wire Line
 	4550 2750 5300 2750
+Text HLabel 7750 5700 0    50   Input ~ 0
+DIG_OFF_C4
+Text HLabel 7700 5550 0    50   Input ~ 0
+DIG_ON_C4
+Text HLabel 7650 5400 0    50   Input ~ 0
+DIG_OFF_C3
+Text HLabel 7600 5250 0    50   Input ~ 0
+DIG_ON_C3
+Text HLabel 7600 1650 0    50   Input ~ 0
+DIG_OFF_C2
+Text HLabel 7650 1500 0    50   Input ~ 0
+DIG_ON_C2
+Text HLabel 7700 1350 0    50   Input ~ 0
+DIG_OFF_C1
+Text HLabel 7750 1200 0    50   Input ~ 0
+DIG_ON_C1
 $EndSCHEMATC
