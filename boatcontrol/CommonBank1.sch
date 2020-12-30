@@ -1255,4 +1255,6 @@ F 5 "C322C106K3R5TA" V 3200 700 50  0001 C CNN "Model"
 	1    3200 700 
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4300 5350 4300 4600
 $EndSCHEMATC
