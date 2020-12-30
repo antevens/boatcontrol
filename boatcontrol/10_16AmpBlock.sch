@@ -47,14 +47,6 @@ Text HLabel 4750 2200 0    50   Output ~ 0
 DIG_ON_C1
 Text HLabel 4750 2300 0    50   Output ~ 0
 DIG_OFF_C1
-Text HLabel 4750 3000 0    50   Output ~ 0
-AN_ON_C2
-Text HLabel 4750 3100 0    50   Output ~ 0
-AN_OFF_C2
-Text HLabel 4750 3200 0    50   Output ~ 0
-DIG_ON_C2
-Text HLabel 4750 3300 0    50   Output ~ 0
-DIG_OFF_C2
 $Comp
 L Transistor_Array:ULN2803A U?
 U 1 1 604747AF
@@ -84,26 +76,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 6600 3500 50  0001 C CNN
 	1    6500 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4750 5300 0    50   Output ~ 0
-DIG_OFF_C4
-Text HLabel 4750 5200 0    50   Output ~ 0
-DIG_ON_C4
-Text HLabel 4750 5100 0    50   Output ~ 0
-AN_OFF_C4
-Text HLabel 4750 5000 0    50   Output ~ 0
-AN_ON_C4
-Text HLabel 4750 4300 0    50   Output ~ 0
-DIG_OFF_C3
-Text HLabel 4750 4200 0    50   Output ~ 0
-DIG_ON_C3
-Text HLabel 4750 4100 0    50   Output ~ 0
-AN_OFF_C3
-Text HLabel 4750 4000 0    50   Output ~ 0
-AN_ON_C3
-Text Notes 1750 2450 0    50   ~ 0
-Resistors for multivibrator pull-up\nand timer circuits for relay pulses.\n\nThese can be swapped for higher/lower\nvalues as needed for longer pulses or\nmore noise resistance.
-Text Notes 3550 1600 0    50   ~ 0
-Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
 Text Notes 6950 2650 2    50   ~ 0
 Amplify 5V logic signals to 12V\nto operate relay coils,\nincludes filtering
 Text HLabel 9550 2800 2    50   Output ~ 0
@@ -153,10 +125,6 @@ F10 "DIG_ON" I L 4750 2200 50
 F11 "AN_ON" I L 4750 2000 50 
 $EndSheet
 Wire Wire Line
-	4550 2500 4350 2500
-Wire Wire Line
-	4350 2700 4550 2700
-Wire Wire Line
 	5400 2600 6050 2600
 Wire Wire Line
 	6050 3500 6100 3500
@@ -164,20 +132,6 @@ Wire Wire Line
 	5400 2700 6000 2700
 Wire Wire Line
 	6000 3600 6100 3600
-Wire Wire Line
-	4750 2100 4700 2100
-Text HLabel 4750 2000 0    50   Output ~ 0
-AN_ON_C1
-Wire Wire Line
-	4750 2000 4700 2000
-Wire Wire Line
-	4700 2000 4700 2050
-Wire Wire Line
-	4700 2100 4700 2150
-Wire Wire Line
-	4750 2200 4700 2200
-Wire Wire Line
-	4700 2200 4700 2250
 $Sheet
 S 4750 2950 650  800 
 U 604747E7
@@ -193,22 +147,6 @@ F8 "R1" B L 4750 3400 50
 F9 "R2" B L 4750 3600 50 
 F10 "DIG_ON" I L 4750 3200 50 
 F11 "AN_ON" I L 4750 3000 50 
-$EndSheet
-$Sheet
-S 4750 3950 650  800 
-U 604747F3
-F0 "MultiVibrator16A1" 50
-F1 "MultiVibrator.sch" 50
-F2 "DIG_OFF" I L 4750 4300 50 
-F3 "AN_OFF" I L 4750 4100 50 
-F4 "MUX_ON" O R 5400 4600 50 
-F5 "MUX_OFF" O R 5400 4700 50 
-F6 "RC1" B L 4750 4500 50 
-F7 "RC2" B L 4750 4700 50 
-F8 "R1" B L 4750 4400 50 
-F9 "R2" B L 4750 4600 50 
-F10 "DIG_ON" I L 4750 4200 50 
-F11 "AN_ON" I L 4750 4000 50 
 $EndSheet
 $Sheet
 S 4750 4950 650  800 
@@ -266,32 +204,6 @@ Wire Wire Line
 	5900 4600 5900 3900
 Wire Wire Line
 	5900 3900 6100 3900
-Wire Wire Line
-	3400 2050 4700 2050
-Wire Wire Line
-	3450 2150 4700 2150
-Wire Wire Line
-	3500 2250 4700 2250
-Wire Wire Line
-	3550 2350 4700 2350
-Wire Wire Line
-	4700 2350 4700 2300
-Wire Wire Line
-	4700 2300 4750 2300
-Wire Wire Line
-	4750 2400 4350 2400
-Wire Wire Line
-	4350 2400 4350 2500
-Wire Wire Line
-	4350 2600 4350 2700
-Wire Wire Line
-	3550 2950 3550 2350
-Wire Wire Line
-	3500 2250 3500 2850
-Wire Wire Line
-	3450 2750 3450 2150
-Wire Wire Line
-	3400 2650 3400 2050
 $Comp
 L power:+5V #PWR?
 U 1 1 6047484A
@@ -309,176 +221,6 @@ F 3 "" H 2450 5150 50  0001 C CNN
 	1    2450 5150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4750 3000 4700 3000
-Wire Wire Line
-	4700 3000 4700 3050
-Wire Wire Line
-	4750 3100 4700 3100
-Wire Wire Line
-	4700 3100 4700 3150
-Wire Wire Line
-	4750 3200 4700 3200
-Wire Wire Line
-	4700 3200 4700 3250
-Wire Wire Line
-	4750 3300 4700 3300
-Wire Wire Line
-	4700 3300 4700 3350
-Wire Wire Line
-	3600 3550 3600 2500
-Wire Wire Line
-	3600 2500 4350 2500
-Wire Wire Line
-	2850 3550 3600 3550
-Connection ~ 4350 2500
-Wire Wire Line
-	3650 3650 3650 2700
-Wire Wire Line
-	3650 2700 4350 2700
-Wire Wire Line
-	2850 3650 3650 3650
-Connection ~ 4350 2700
-Wire Wire Line
-	3700 3750 3700 3500
-Wire Wire Line
-	2850 3750 3700 3750
-Wire Wire Line
-	3750 3850 3750 3700
-Wire Wire Line
-	2850 3850 3750 3850
-Wire Wire Line
-	3750 3700 4350 3700
-Wire Wire Line
-	3700 3500 4350 3500
-Wire Wire Line
-	4750 3400 4350 3400
-Wire Wire Line
-	4350 3400 4350 3500
-Connection ~ 4350 3500
-Wire Wire Line
-	4350 3500 4550 3500
-Wire Wire Line
-	4350 3600 4350 3700
-Connection ~ 4350 3700
-Wire Wire Line
-	4350 3700 4550 3700
-Wire Wire Line
-	3400 5150 3400 5350
-Wire Wire Line
-	3400 5350 4700 5350
-Wire Wire Line
-	4700 5350 4700 5300
-Wire Wire Line
-	4700 5300 4750 5300
-Wire Wire Line
-	3450 5050 3450 5250
-Wire Wire Line
-	3450 5250 4700 5250
-Wire Wire Line
-	4700 5250 4700 5200
-Wire Wire Line
-	4700 5200 4750 5200
-Wire Wire Line
-	3500 4950 3500 5150
-Wire Wire Line
-	3500 5150 4700 5150
-Wire Wire Line
-	4700 5150 4700 5100
-Wire Wire Line
-	4700 5100 4750 5100
-Wire Wire Line
-	3550 4850 3550 5050
-Wire Wire Line
-	3550 5050 4700 5050
-Wire Wire Line
-	4700 5050 4700 5000
-Wire Wire Line
-	4700 5000 4750 5000
-Wire Wire Line
-	2850 4250 3600 4250
-Wire Wire Line
-	3600 5700 4350 5700
-Wire Wire Line
-	3600 4250 3600 5700
-Wire Wire Line
-	4350 5600 4350 5700
-Connection ~ 4350 5700
-Wire Wire Line
-	4350 5700 4550 5700
-Wire Wire Line
-	4550 5500 4350 5500
-Wire Wire Line
-	3650 5500 3650 4150
-Wire Wire Line
-	2850 4150 3650 4150
-Wire Wire Line
-	4350 5500 4350 5400
-Wire Wire Line
-	4350 5400 4750 5400
-Connection ~ 4350 5500
-Wire Wire Line
-	4350 5500 3650 5500
-Wire Wire Line
-	4350 5600 4750 5600
-Wire Wire Line
-	3700 4050 3700 4700
-Wire Wire Line
-	2850 4050 3700 4050
-Wire Wire Line
-	3700 4700 4350 4700
-Wire Wire Line
-	4750 4600 4350 4600
-Wire Wire Line
-	4350 4600 4350 4700
-Connection ~ 4350 4700
-Wire Wire Line
-	4350 4700 4550 4700
-Wire Wire Line
-	4550 4500 4350 4500
-Wire Wire Line
-	3750 4500 3750 3950
-Wire Wire Line
-	2850 3950 3750 3950
-Wire Wire Line
-	4350 4400 4350 4500
-Connection ~ 4350 4500
-Wire Wire Line
-	4350 4500 3750 4500
-Wire Wire Line
-	4250 4750 4250 4350
-Wire Wire Line
-	4250 4350 4700 4350
-Wire Wire Line
-	4700 4350 4700 4300
-Wire Wire Line
-	4700 4300 4750 4300
-Wire Wire Line
-	4350 4400 4750 4400
-Wire Wire Line
-	4200 4650 4200 4250
-Wire Wire Line
-	4200 4250 4700 4250
-Wire Wire Line
-	4700 4250 4700 4200
-Wire Wire Line
-	4700 4200 4750 4200
-Wire Wire Line
-	4150 4550 4150 4150
-Wire Wire Line
-	4150 4150 4700 4150
-Wire Wire Line
-	4700 4150 4700 4100
-Wire Wire Line
-	4700 4100 4750 4100
-Wire Wire Line
-	4100 4450 4100 4050
-Wire Wire Line
-	4100 4050 4700 4050
-Wire Wire Line
-	4700 4050 4700 4000
-Wire Wire Line
-	4700 4000 4750 4000
 Wire Wire Line
 	6900 3700 7150 3700
 Wire Wire Line
@@ -626,10 +368,6 @@ F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4650 2700 50  0001 C CNN "De
 	1    4650 2700
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	4750 2600 4350 2600
-Wire Wire Line
-	4350 3600 4750 3600
 $Comp
 L Device:C_Small C?
 U 1 1 62B86A50
@@ -841,38 +579,6 @@ $EndComp
 Connection ~ 2450 4450
 Wire Wire Line
 	2450 4450 2450 5150
-Wire Wire Line
-	2850 4450 4100 4450
-Wire Wire Line
-	2850 4550 4150 4550
-Wire Wire Line
-	2850 4650 4200 4650
-Wire Wire Line
-	2850 4750 4250 4750
-Wire Wire Line
-	2850 4850 3550 4850
-Wire Wire Line
-	2850 4950 3500 4950
-Wire Wire Line
-	2850 5050 3450 5050
-Wire Wire Line
-	2850 5150 3400 5150
-Wire Wire Line
-	2850 3350 4700 3350
-Wire Wire Line
-	2850 3250 4700 3250
-Wire Wire Line
-	2850 3150 4700 3150
-Wire Wire Line
-	2850 3050 4700 3050
-Wire Wire Line
-	2850 2950 3550 2950
-Wire Wire Line
-	2850 2850 3500 2850
-Wire Wire Line
-	2850 2750 3450 2750
-Wire Wire Line
-	2850 2650 3400 2650
 Wire Wire Line
 	9850 4300 9850 4050
 Wire Wire Line
@@ -1088,4 +794,310 @@ Wire Wire Line
 	6900 3050 6900 3400
 Connection ~ 6650 3050
 Connection ~ 6900 3400
+Text Notes 1750 2450 0    50   ~ 0
+Resistors for multivibrator pull-up\nand timer circuits for relay pulses.\n\nThese can be swapped for higher/lower\nvalues as needed for longer pulses or\nmore noise resistance.
+Text HLabel 4750 4000 0    50   Output ~ 0
+AN_ON_C3
+Text HLabel 4750 4200 0    50   Output ~ 0
+DIG_ON_C3
+Text HLabel 4750 4300 0    50   Output ~ 0
+DIG_OFF_C3
+Text HLabel 4750 5100 0    50   Output ~ 0
+AN_OFF_C4
+Text HLabel 4750 5200 0    50   Output ~ 0
+DIG_ON_C4
+Text HLabel 4750 5300 0    50   Output ~ 0
+DIG_OFF_C4
+Text HLabel 4750 3200 0    50   Output ~ 0
+DIG_ON_C2
+Text HLabel 4750 3100 0    50   Output ~ 0
+AN_OFF_C2
+Text HLabel 4750 3000 0    50   Output ~ 0
+AN_ON_C2
+Text Notes 3550 1600 0    50   ~ 0
+Multivibrators to mux and clean up analogue and digital inputs\nPrevens energizing both coils in latching relays simultaneously and cleans up dirty signals.
+Text HLabel 4750 3300 0    50   Output ~ 0
+DIG_OFF_C2
+Wire Wire Line
+	4750 3000 4700 3000
+Text HLabel 4750 4100 0    50   Output ~ 0
+AN_OFF_C3
+$Sheet
+S 4750 3950 650  800 
+U 604747F3
+F0 "MultiVibrator16A1" 50
+F1 "MultiVibrator.sch" 50
+F2 "DIG_OFF" I L 4750 4300 50 
+F3 "AN_OFF" I L 4750 4100 50 
+F4 "MUX_ON" O R 5400 4600 50 
+F5 "MUX_OFF" O R 5400 4700 50 
+F6 "RC1" B L 4750 4500 50 
+F7 "RC2" B L 4750 4700 50 
+F8 "R1" B L 4750 4400 50 
+F9 "R2" B L 4750 4600 50 
+F10 "DIG_ON" I L 4750 4200 50 
+F11 "AN_ON" I L 4750 4000 50 
+$EndSheet
+Text HLabel 4750 5000 0    50   Output ~ 0
+AN_ON_C4
+Text HLabel 4750 2000 0    50   Output ~ 0
+AN_ON_C1
+Wire Wire Line
+	4550 2500 4350 2500
+Wire Wire Line
+	4750 2600 4350 2600
+Wire Wire Line
+	4350 2700 4550 2700
+Wire Wire Line
+	4750 2100 4700 2100
+Wire Wire Line
+	4750 2000 4700 2000
+Wire Wire Line
+	4700 2000 4700 2050
+Wire Wire Line
+	4700 2100 4700 2150
+Wire Wire Line
+	4750 2200 4700 2200
+Wire Wire Line
+	4700 2200 4700 2250
+Wire Wire Line
+	3400 2050 4700 2050
+Wire Wire Line
+	3450 2150 4700 2150
+Wire Wire Line
+	3500 2250 4700 2250
+Wire Wire Line
+	3550 2350 4700 2350
+Wire Wire Line
+	4700 2350 4700 2300
+Wire Wire Line
+	4700 2300 4750 2300
+Wire Wire Line
+	4750 2400 4350 2400
+Wire Wire Line
+	4350 2400 4350 2500
+Wire Wire Line
+	4350 2600 4350 2700
+Wire Wire Line
+	4700 3000 4700 3050
+Wire Wire Line
+	4750 3100 4700 3100
+Wire Wire Line
+	4700 3100 4700 3150
+Wire Wire Line
+	4750 3200 4700 3200
+Wire Wire Line
+	4700 3200 4700 3250
+Wire Wire Line
+	4750 3300 4700 3300
+Wire Wire Line
+	4700 3300 4700 3350
+Wire Wire Line
+	3600 2500 4350 2500
+Connection ~ 4350 2500
+Wire Wire Line
+	3650 3650 3650 2700
+Wire Wire Line
+	3650 2700 4350 2700
+Wire Wire Line
+	2850 3650 3650 3650
+Connection ~ 4350 2700
+Wire Wire Line
+	3750 3850 3750 3700
+Wire Wire Line
+	2850 3850 3750 3850
+Wire Wire Line
+	3750 3700 4350 3700
+Wire Wire Line
+	3700 3500 4350 3500
+Wire Wire Line
+	4750 3400 4350 3400
+Wire Wire Line
+	4350 3400 4350 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	4350 3500 4550 3500
+Wire Wire Line
+	4350 3600 4350 3700
+Connection ~ 4350 3700
+Wire Wire Line
+	4350 3700 4550 3700
+Wire Wire Line
+	4350 3600 4750 3600
+Wire Wire Line
+	3450 5250 4700 5250
+Wire Wire Line
+	4700 5250 4700 5200
+Wire Wire Line
+	4700 5200 4750 5200
+Wire Wire Line
+	4700 5150 4700 5100
+Wire Wire Line
+	4700 5100 4750 5100
+Wire Wire Line
+	3550 4850 3550 5050
+Wire Wire Line
+	4700 5050 4700 5000
+Wire Wire Line
+	4700 5000 4750 5000
+Wire Wire Line
+	2850 4250 3600 4250
+Wire Wire Line
+	3600 5700 4350 5700
+Wire Wire Line
+	3600 4250 3600 5700
+Wire Wire Line
+	4350 5600 4350 5700
+Connection ~ 4350 5700
+Wire Wire Line
+	4350 5700 4550 5700
+Wire Wire Line
+	4550 5500 4350 5500
+Wire Wire Line
+	3650 5500 3650 4150
+Wire Wire Line
+	2850 4150 3650 4150
+Wire Wire Line
+	4350 5500 4350 5400
+Wire Wire Line
+	4350 5400 4750 5400
+Connection ~ 4350 5500
+Wire Wire Line
+	4350 5500 3650 5500
+Wire Wire Line
+	4350 5600 4750 5600
+Wire Wire Line
+	3700 4700 4350 4700
+Wire Wire Line
+	4750 4600 4350 4600
+Wire Wire Line
+	4350 4600 4350 4700
+Connection ~ 4350 4700
+Wire Wire Line
+	4350 4700 4550 4700
+Wire Wire Line
+	4550 4500 4350 4500
+Wire Wire Line
+	3750 4500 3750 4050
+Wire Wire Line
+	4350 4400 4350 4500
+Connection ~ 4350 4500
+Wire Wire Line
+	4350 4500 3750 4500
+Wire Wire Line
+	4250 4350 4700 4350
+Wire Wire Line
+	4700 4350 4700 4300
+Wire Wire Line
+	4700 4300 4750 4300
+Wire Wire Line
+	4350 4400 4750 4400
+Wire Wire Line
+	4200 4250 4700 4250
+Wire Wire Line
+	4700 4250 4700 4200
+Wire Wire Line
+	4700 4200 4750 4200
+Wire Wire Line
+	4150 4150 4700 4150
+Wire Wire Line
+	4700 4150 4700 4100
+Wire Wire Line
+	4700 4100 4750 4100
+Wire Wire Line
+	4100 4450 4100 4050
+Wire Wire Line
+	4700 4050 4700 4000
+Wire Wire Line
+	4700 4000 4750 4000
+Wire Wire Line
+	4700 5350 3400 5350
+Wire Wire Line
+	4750 5300 4700 5300
+Wire Wire Line
+	4700 5300 4700 5350
+Wire Wire Line
+	3500 2250 3500 2750
+Wire Wire Line
+	3400 2650 3400 2050
+Wire Wire Line
+	2850 2650 3400 2650
+Wire Wire Line
+	2850 3050 4700 3050
+Wire Wire Line
+	2850 4450 4100 4450
+Wire Wire Line
+	2850 4850 3550 4850
+Wire Wire Line
+	4200 4250 4200 4550
+Wire Wire Line
+	4200 4550 2850 4550
+Wire Wire Line
+	4150 4750 2850 4750
+Wire Wire Line
+	4150 4150 4150 4750
+Wire Wire Line
+	2850 4650 4250 4650
+Wire Wire Line
+	4250 4650 4250 4350
+Wire Wire Line
+	3400 5050 2850 5050
+Wire Wire Line
+	3400 5050 3400 5350
+Wire Wire Line
+	2850 5150 4700 5150
+Wire Wire Line
+	3450 4950 2850 4950
+Wire Wire Line
+	3450 4950 3450 5250
+Wire Wire Line
+	2850 2750 3500 2750
+Wire Wire Line
+	4700 3150 4150 3150
+Wire Wire Line
+	4150 3150 4150 3350
+Wire Wire Line
+	4150 3350 2850 3350
+Wire Wire Line
+	2850 3250 4200 3250
+Wire Wire Line
+	4200 3250 4200 3350
+Wire Wire Line
+	4200 3350 4700 3350
+Wire Wire Line
+	4700 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 3200
+Wire Wire Line
+	4050 3200 4050 3150
+Wire Wire Line
+	4050 3150 2850 3150
+Wire Wire Line
+	4050 3200 4250 3200
+Wire Wire Line
+	2850 2950 3450 2950
+Wire Wire Line
+	3450 2150 3450 2950
+Wire Wire Line
+	2850 2850 3550 2850
+Wire Wire Line
+	3550 2850 3550 2350
+Wire Wire Line
+	3700 3950 2850 3950
+Wire Wire Line
+	3700 3950 3700 4700
+Wire Wire Line
+	2850 4050 3750 4050
+Wire Wire Line
+	3600 3750 2850 3750
+Wire Wire Line
+	3600 2500 3600 3750
+Wire Wire Line
+	2850 3550 3700 3550
+Wire Wire Line
+	3700 3550 3700 3500
+Wire Wire Line
+	4100 4050 4700 4050
+Wire Wire Line
+	3550 5050 4700 5050
 $EndSCHEMATC
