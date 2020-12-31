@@ -1190,7 +1190,6 @@ Wire Wire Line
 	-4900 6450 -4700 6450
 Wire Wire Line
 	-5100 7150 -5100 6450
-Connection ~ -5100 6450
 Wire Wire Line
 	-5100 6450 -4900 6450
 Wire Wire Line
@@ -1368,22 +1367,6 @@ F 3 "~" H -11450 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	-11550 6600 -11650 6600
-Connection ~ -1800 6250
-$Comp
-L power:+5V #PWR0117
-U 1 1 63E8687B
-P -1800 6250
-F 0 "#PWR0117" H -1800 6100 50  0001 C CNN
-F 1 "+5V" H -1785 6423 50  0000 C CNN
-F 2 "" H -1800 6250 50  0001 C CNN
-F 3 "" H -1800 6250 50  0001 C CNN
-	1    -1800 6250
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	-1800 6250 -1800 5700
-Wire Wire Line
-	-1800 6450 -1800 7150
 Wire Wire Line
 	-12900 5400 -12900 7250
 Text GLabel 13600 7850 0    50   Input ~ 0
@@ -1758,18 +1741,6 @@ $EndComp
 Connection ~ 1500 8850
 Wire Wire Line
 	1500 8850 1500 9050
-$Comp
-L power:+12P #PWR0116
-U 1 1 6252C2A4
-P -1800 6450
-F 0 "#PWR0116" H -1800 6300 50  0001 C CNN
-F 1 "+12P" H -1785 6623 50  0000 C CNN
-F 2 "" H -1800 6450 50  0001 C CNN
-F 3 "" H -1800 6450 50  0001 C CNN
-	1    -1800 6450
-	0    1    1    0   
-$EndComp
-Connection ~ -1800 6450
 Text GLabel 15050 4250 2    50   Input ~ 0
 12V_DC_C24_OFF
 Text GLabel 15050 4050 2    50   Input ~ 0
@@ -3109,17 +3080,6 @@ Text Notes -3800 2550 3    50   ~ 0
 I2C Address 0x24
 Connection ~ -3400 2250
 $Comp
-L power:GND #PWR0113
-U 1 1 62CE79FF
-P -3400 2250
-F 0 "#PWR0113" H -3400 2000 50  0001 C CNN
-F 1 "GND" H -3395 2077 50  0000 C CNN
-F 2 "" H -3400 2250 50  0001 C CNN
-F 3 "" H -3400 2250 50  0001 C CNN
-	1    -3400 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Jumper:SolderJumper_3_Bridged12_Output JP111
 U 1 1 61AC976D
 P -3500 2950
@@ -3158,17 +3118,6 @@ Wire Wire Line
 	-3750 3150 -3500 3150
 Wire Wire Line
 	-3750 3700 -3750 3150
-$Comp
-L power:+5V #PWR0112
-U 1 1 6271327D
-P -3800 3700
-F 0 "#PWR0112" H -3800 3550 50  0001 C CNN
-F 1 "+5V" H -3785 3873 50  0000 C CNN
-F 2 "" H -3800 3700 50  0001 C CNN
-F 3 "" H -3800 3700 50  0001 C CNN
-	1    -3800 3700
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Jumper:SolderJumper_3_Bridged12_Output JP112
 U 1 1 61AC9767
@@ -3256,8 +3205,6 @@ F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	-7200 6450 -5100 6450
-Wire Wire Line
 	-8700 5700 -8700 6450
 Connection ~ -8700 6450
 Wire Wire Line
@@ -3324,44 +3271,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H -9250 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-8950 7250 -8800 7250
-Wire Wire Line
-	-8800 7250 -8800 7150
-Wire Wire Line
-	-8950 7350 -8600 7350
-Wire Wire Line
-	-8600 7350 -8600 7150
-Wire Wire Line
-	-8950 7450 -8400 7450
-Wire Wire Line
-	-8400 7450 -8400 7150
-Wire Wire Line
-	-8950 7550 -8200 7550
-Wire Wire Line
-	-8200 7550 -8200 7150
-Wire Wire Line
-	-8950 7650 -7900 7650
-Wire Wire Line
-	-7900 7650 -7900 7150
-Wire Wire Line
-	-8950 7750 -7700 7750
-Wire Wire Line
-	-7700 7750 -7700 7150
-Wire Wire Line
-	-8950 7850 -7500 7850
-Wire Wire Line
-	-7500 7850 -7500 7150
-Wire Wire Line
-	-8950 7950 -7300 7950
-Wire Wire Line
-	-7300 7950 -7300 7150
-Wire Wire Line
-	-8950 5400 -8600 5400
-Wire Wire Line
-	-8950 5000 -7700 5000
-Wire Wire Line
-	-8950 4900 -7900 4900
-Wire Wire Line
 	-5200 5000 -5200 5700
 Wire Wire Line
 	-3700 5350 -3700 5700
@@ -3393,13 +3302,19 @@ $EndSheet
 Wire Wire Line
 	-7300 5200 -7300 5700
 Wire Wire Line
+	-8950 5200 -7300 5200
+Wire Wire Line
 	-7500 5100 -7500 5700
 Wire Wire Line
 	-8950 5100 -7500 5100
 Wire Wire Line
 	-7700 5700 -7700 5000
 Wire Wire Line
+	-8950 5000 -7700 5000
+Wire Wire Line
 	-7900 5700 -7900 4900
+Wire Wire Line
+	-8950 4900 -7900 4900
 Wire Wire Line
 	-8200 5600 -8200 5700
 Wire Wire Line
@@ -3411,9 +3326,82 @@ Wire Wire Line
 Wire Wire Line
 	-8600 5700 -8600 5400
 Wire Wire Line
-	-8950 5300 -8800 5300
-Wire Wire Line
-	-8950 5200 -7300 5200
+	-8950 5400 -8600 5400
 Wire Wire Line
 	-8800 5700 -8800 5300
+Wire Wire Line
+	-8950 5300 -8800 5300
+Wire Wire Line
+	-8950 7950 -8800 7950
+Wire Wire Line
+	-8800 7950 -8800 7150
+Wire Wire Line
+	-8950 7850 -8600 7850
+Wire Wire Line
+	-8600 7850 -8600 7150
+Wire Wire Line
+	-8950 7750 -8400 7750
+Wire Wire Line
+	-8400 7750 -8400 7150
+Wire Wire Line
+	-8950 7650 -8200 7650
+Wire Wire Line
+	-8200 7650 -8200 7150
+Wire Wire Line
+	-8950 7550 -7900 7550
+Wire Wire Line
+	-7900 7550 -7900 7150
+Wire Wire Line
+	-8950 7450 -7700 7450
+Wire Wire Line
+	-7700 7450 -7700 7150
+Wire Wire Line
+	-8950 7350 -7500 7350
+Wire Wire Line
+	-7500 7350 -7500 7150
+Wire Wire Line
+	-8950 7250 -7300 7250
+Wire Wire Line
+	-7300 7250 -7300 7150
+Wire Wire Line
+	-1800 6450 -1800 7150
+Wire Wire Line
+	-1800 6250 -1800 5700
+Connection ~ -1800 6250
+Wire Wire Line
+	-1800 6250 -1800 6450
+Connection ~ -1800 6450
+$Comp
+L power:GND #PWR0113
+U 1 1 62CE79FF
+P -3400 2250
+F 0 "#PWR0113" H -3400 2000 50  0001 C CNN
+F 1 "GND" H -3395 2077 50  0000 C CNN
+F 2 "" H -3400 2250 50  0001 C CNN
+F 3 "" H -3400 2250 50  0001 C CNN
+	1    -3400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 6271327D
+P -3800 3700
+F 0 "#PWR0112" H -3800 3550 50  0001 C CNN
+F 1 "+5V" H -3785 3873 50  0000 C CNN
+F 2 "" H -3800 3700 50  0001 C CNN
+F 3 "" H -3800 3700 50  0001 C CNN
+	1    -3800 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 63E8687B
+P -1800 6250
+F 0 "#PWR0117" H -1800 6100 50  0001 C CNN
+F 1 "+5V" H -1785 6423 50  0000 C CNN
+F 2 "" H -1800 6250 50  0001 C CNN
+F 3 "" H -1800 6250 50  0001 C CNN
+	1    -1800 6250
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
