@@ -89,7 +89,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 20 20)
     (grid_origin 20 20)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x0d0f0_ffffffff)
       (usegerberextensions false)
@@ -2337,7 +2337,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA42A4)
-    (at 500 230 180)
+    (at 500 236.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150FD51/E13B21A8)
@@ -10326,7 +10326,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4793)
-    (at 521 177.5 180)
+    (at 521 184 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150AEB9/E13B21B4)
@@ -10361,7 +10361,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA45BF)
-    (at 500 177.5 180)
+    (at 500 184 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150AEB9/E13B21A8)
@@ -10396,7 +10396,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4517)
-    (at 521 188 180)
+    (at 521 194.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150FD51/E13B21B4)
@@ -10431,7 +10431,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD4E9E)
-    (at 500 188 180)
+    (at 500 194.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150FD51/E13B21A8)
@@ -10466,7 +10466,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4541)
-    (at 521 198.5 180)
+    (at 521 205 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150D6D7/E13B21B4)
@@ -10501,7 +10501,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4595)
-    (at 500 198.5 180)
+    (at 500 205 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E150D6D7/E13B21A8)
@@ -10536,7 +10536,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA469A)
-    (at 521 209 180)
+    (at 521 215.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E14BA326/E13B21B4)
@@ -10571,7 +10571,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4646)
-    (at 500 209 180)
+    (at 500 215.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E15855D9/E14BA326/E13B21A8)
@@ -10606,7 +10606,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA3DA6)
-    (at 521 219.5 180)
+    (at 521 226 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150AEB9/E13B21B4)
@@ -10641,7 +10641,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA456B)
-    (at 500 219.5 180)
+    (at 500 226 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150AEB9/E13B21A8)
@@ -10676,7 +10676,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4226)
-    (at 521 230 180)
+    (at 521 236.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150FD51/E13B21B4)
@@ -10711,7 +10711,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4406)
-    (at 521 240.5 180)
+    (at 521 247 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150D6D7/E13B21B4)
@@ -10746,7 +10746,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA4364)
-    (at 500 240.5 180)
+    (at 500 247 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E150D6D7/E13B21A8)
@@ -10781,7 +10781,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA446F)
-    (at 521 251 180)
+    (at 521 257.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E14BA326/E13B21B4)
@@ -10816,7 +10816,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFA497F)
-    (at 500 251 180)
+    (at 500 257.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /601318CC/E142CD30/E14BA326/E13B21A8)
@@ -11410,7 +11410,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCEC7)
-    (at 510.5 175 270)
+    (at 510.5 181.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E15855D9/E150AEB9/E13B21BC)
@@ -11447,7 +11447,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD636C)
-    (at 510.5 185.5 270)
+    (at 510.5 192 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E15855D9/E150FD51/E13B21BC)
@@ -11484,7 +11484,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE9F)
-    (at 510.5 196 270)
+    (at 510.5 202.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E15855D9/E150D6D7/E13B21BC)
@@ -11521,7 +11521,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE8B)
-    (at 510.5 206.5 270)
+    (at 510.5 213 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E15855D9/E14BA326/E13B21BC)
@@ -11558,7 +11558,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE77)
-    (at 510.5 216.5 270)
+    (at 510.5 223 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E142CD30/E150AEB9/E13B21BC)
@@ -11595,7 +11595,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE63)
-    (at 510.5 227.5 270)
+    (at 510.5 234 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E142CD30/E150FD51/E13B21BC)
@@ -11632,7 +11632,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE4F)
-    (at 510.5 237.5 270)
+    (at 510.5 244 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E142CD30/E150D6D7/E13B21BC)
@@ -11669,7 +11669,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FEBCE3B)
-    (at 510.5 248 270)
+    (at 510.5 254.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /601318CC/E142CD30/E14BA326/E13B21BC)
@@ -14463,7 +14463,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6FB1)
-    (at 448 250.5 270)
+    (at 449.5 255 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E15855D9/E150AEB9/E13B21BC)
@@ -14500,7 +14500,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6E40)
-    (at 448 240 270)
+    (at 449.5 244.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E15855D9/E150FD51/E13B21BC)
@@ -14537,7 +14537,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6E07)
-    (at 448 229.5 270)
+    (at 449.5 234 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E15855D9/E150D6D7/E13B21BC)
@@ -14574,7 +14574,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6F3F)
-    (at 448 219 270)
+    (at 449.5 223.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E15855D9/E14BA326/E13B21BC)
@@ -14611,7 +14611,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6DCE)
-    (at 448 208.5 270)
+    (at 449.5 213 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E142CD30/E150AEB9/E13B21BC)
@@ -14648,7 +14648,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6ECD)
-    (at 448 198 270)
+    (at 449.5 202.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E142CD30/E150FD51/E13B21BC)
@@ -14685,7 +14685,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6F78)
-    (at 448 187.5 270)
+    (at 449.5 192 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E142CD30/E150D6D7/E13B21BC)
@@ -14722,7 +14722,7 @@
   )
 
   (module LED_THT:LED_D5.0mm-3 (layer F.Cu) (tedit 587A3A7B) (tstamp 5FFD6F06)
-    (at 448 177 270)
+    (at 449.5 181.5 270)
     (descr "LED, diameter 5.0mm, 2 pins, diameter 5.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-59EGC(Ver.17A).pdf")
     (tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins")
     (path /E171B33C/E142CD30/E14BA326/E13B21BC)
@@ -16019,7 +16019,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6D4B)
-    (at 458 253 180)
+    (at 459.5 257.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150AEB9/E13B21A8)
@@ -16054,7 +16054,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6C25)
-    (at 437.5 253 180)
+    (at 439 257.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150AEB9/E13B21B4)
@@ -16089,7 +16089,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6CF7)
-    (at 458 242.5 180)
+    (at 459.5 247 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150FD51/E13B21A8)
@@ -16124,7 +16124,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6FE5)
-    (at 437.5 242.5 180)
+    (at 439 247 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150FD51/E13B21B4)
@@ -16159,7 +16159,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6CA3)
-    (at 458 232 180)
+    (at 459.5 236.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150D6D7/E13B21A8)
@@ -16194,7 +16194,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6E9E)
-    (at 437.5 232 180)
+    (at 439 236.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E150D6D7/E13B21B4)
@@ -16229,7 +16229,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6D9F)
-    (at 458 221.5 180)
+    (at 459.5 226 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E14BA326/E13B21A8)
@@ -16264,7 +16264,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6D21)
-    (at 437.5 221.5 180)
+    (at 439 226 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E15855D9/E14BA326/E13B21B4)
@@ -16299,7 +16299,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD700F)
-    (at 458 211 180)
+    (at 459.5 215.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150AEB9/E13B21A8)
@@ -16334,7 +16334,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6D75)
-    (at 437.5 211 180)
+    (at 439 215.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150AEB9/E13B21B4)
@@ -16369,7 +16369,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6BD1)
-    (at 458 200.5 180)
+    (at 459.5 205 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150FD51/E13B21A8)
@@ -16404,7 +16404,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6E74)
-    (at 437.5 200.5 180)
+    (at 439 205 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150FD51/E13B21B4)
@@ -16439,7 +16439,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6C4F)
-    (at 458 190 180)
+    (at 459.5 194.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150D6D7/E13B21A8)
@@ -16474,7 +16474,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6BFB)
-    (at 437.5 190 180)
+    (at 439 194.5 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E150D6D7/E13B21B4)
@@ -16509,7 +16509,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6C79)
-    (at 458 179.5 180)
+    (at 459.5 184 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E14BA326/E13B21A8)
@@ -16544,7 +16544,7 @@
   )
 
   (module BoatControl:SW_PUSH_ESB30_DPDT (layer F.Cu) (tedit 5FEB8481) (tstamp 5FFD6CCD)
-    (at 437.5 179.5 180)
+    (at 439 184 180)
     (descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
     (tags "switch DPDT footswitch")
     (path /E171B33C/E142CD30/E14BA326/E13B21B4)
