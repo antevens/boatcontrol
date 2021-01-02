@@ -202,10 +202,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 9000 2900 9400
 $Comp
-L BoatControl:SchurterCircuitBreaker Q101
+L BoatControl:SchurterCircuitBreaker CB101
 U 1 1 72FBD2F1
 P 2050 8650
-F 0 "Q101" H 2200 8600 50  0000 R CNN
+F 0 "CB101" H 2200 8600 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" H 2950 8700 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 2050 8650 50  0001 C CNN
 F 3 "" H 2050 8650 50  0001 C CNN
