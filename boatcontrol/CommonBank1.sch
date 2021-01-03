@@ -52,7 +52,7 @@ AR Path="/D1AAA2AE" Ref="#PWR?"  Part="1"
 AR Path="/D16552B4/D1AAA2AE" Ref="#PWR0205"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA2AE" Ref="#PWR?"  Part="1" 
 F 0 "#PWR0205" H 8100 5900 50  0001 C CNN
-F 1 "+12C" H 8050 6200 50  0000 L CNN
+F 1 "+12C" H 8000 6200 50  0000 L CNN
 F 2 "" H 8100 6050 50  0001 C CNN
 F 3 "" H 8100 6050 50  0001 C CNN
 	1    8100 6050
@@ -972,14 +972,12 @@ F 5 "C320C104K3R5TA" V 3450 4850 50  0001 C CNN "Model"
 $EndComp
 Wire Wire Line
 	6750 5250 6750 6050
-Wire Wire Line
-	8300 6050 8100 6050
 Connection ~ 6750 6050
 Wire Wire Line
 	6750 6050 6750 6250
 Wire Wire Line
 	4600 1650 5400 1650
-Text Label 9050 6050 2    50   ~ 0
+Text Label 9300 6150 2    50   ~ 0
 12C_RAW
 Connection ~ 8100 6050
 Wire Wire Line
@@ -987,38 +985,36 @@ Wire Wire Line
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D1AAA18D
-P 10350 5950
+P 10650 6050
 AR Path="/D1AAA18D" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D1AAA18D" Ref="J206"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1" 
-F 0 "J206" H 10550 5800 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" H 10700 5800 50  0001 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 10350 5950 50  0001 L BNN
-F 3 "CUI" H 10350 5950 50  0001 L BNN
-F 4 "DC 12V Common Bank 1" H 10350 6250 50  0000 C CNN "Type"
-	1    10350 5950
+F 0 "J206" H 10850 5900 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" H 11000 5900 50  0001 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 10650 6050 50  0001 L BNN
+F 3 "CUI" H 10650 6050 50  0001 L BNN
+F 4 "DC 12V Common Bank 1" H 10650 6350 50  0000 C CNN "Type"
+	1    10650 6050
 	1    0    0    1   
 $EndComp
 $Comp
 L BoatControl:IPP120P04P4L-03 Q203
 U 1 1 5FEBFE7C
-P 8500 6050
-F 0 "Q203" V 8300 6200 50  0000 C CNN
-F 1 "IPP120P04P4L-03" V 8650 6250 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8150 6600 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8500 6050 50  0001 C CNN
-F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8350 6700 50  0001 C CNN "Description"
-F 5 "OptiMOS" H 9100 6350 50  0001 C CNN "Series"
-F 6 "Infineon Technologies" H 9000 6450 50  0001 C CNN "Infineon Technologies"
-F 7 "Reverse Polarity (Voltage) Protection" V 8800 6200 50  0000 C CNN "Purpose"
-F 8 "Optional, can be substituded with shunt" V 8900 6250 50  0000 C CNN "Field8"
-	1    8500 6050
+P 8600 6250
+F 0 "Q203" V 8650 6450 50  0000 C CNN
+F 1 "IPP120P04P4L-03" V 8750 6250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8250 6800 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8600 6250 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8450 6900 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 9200 6550 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 9100 6650 50  0001 C CNN "Infineon Technologies"
+	1    8600 6250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED_Dual_2pin D?
 U 1 1 5FECB36F
-P 9400 5800
+P 9650 5900
 AR Path="/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/5FBFBEC9/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/768425E1/5FECB36F" Ref="D?"  Part="1" 
@@ -1143,61 +1139,47 @@ AR Path="/D1BB8DB4/5F75E923/604748FF/5FECB36F" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/60474907/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/5FECB36F" Ref="D?"  Part="1" 
 AR Path="/D16552B4/5FECB36F" Ref="D201"  Part="1" 
-F 0 "D201" H 9150 5650 50  0000 C CNN
-F 1 "20mA R/G Bicolor" H 9350 6150 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 9400 5800 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 9400 5800 50  0001 C CNN
-F 4 "WP57EGW" H 9400 5800 50  0001 C CNN "Model"
-F 5 "Kingbright" H 9400 5800 50  0001 C CNN "Manufacturer"
-	1    9400 5800
+F 0 "D201" H 9400 5750 50  0000 C CNN
+F 1 "20mA R/G Bicolor" H 9600 6250 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 9650 5900 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 9650 5900 50  0001 C CNN
+F 4 "WP57EGW" H 9650 5900 50  0001 C CNN "Model"
+F 5 "Kingbright" H 9650 5900 50  0001 C CNN "Manufacturer"
+	1    9650 5900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R201
 U 1 1 5FE96CCA
-P 9100 5900
-F 0 "R201" H 9200 5800 50  0000 C CNN
-F 1 "680Ω" H 9100 6050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9100 5900 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9100 5900 50  0001 C CNN
-F 4 "LR1F680R" H 9100 5900 50  0001 C CNN "Product"
-F 5 "TE Connectivity" H 9100 5900 50  0001 C CNN "Manufacturer"
-F 6 "680 Ohms ±1% 0.6W Through Hole Resistor Axial Metal Film" H 9100 5900 50  0001 C CNN "Description"
-	1    9100 5900
+P 9350 6000
+F 0 "R201" H 9450 5900 50  0000 C CNN
+F 1 "680Ω" H 9350 6150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9350 6000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9350 6000 50  0001 C CNN
+F 4 "LR1F680R" H 9350 6000 50  0001 C CNN "Product"
+F 5 "TE Connectivity" H 9350 6000 50  0001 C CNN "Manufacturer"
+F 6 "680 Ohms ±1% 0.6W Through Hole Resistor Axial Metal Film" H 9350 6000 50  0001 C CNN "Description"
+	1    9350 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 6050 9100 6050
-Wire Wire Line
-	9100 6000 9100 6050
-Connection ~ 9100 6050
-Wire Wire Line
-	9100 6050 9950 6050
-Wire Wire Line
-	9950 5550 8500 5550
-Wire Wire Line
-	8500 5550 8500 5750
+	9350 6100 9350 6150
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 617F409D
-P 9800 5800
+P 10050 5900
 AR Path="/617F409D" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/617F409D" Ref="JP209"  Part="1" 
 AR Path="/D1BB8DB4/617F409D" Ref="JP?"  Part="1" 
-F 0 "JP209" H 9800 5900 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 9850 5700 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 5800 50  0001 C CNN
-F 3 "~" H 9800 5800 50  0001 C CNN
-	1    9800 5800
+F 0 "JP209" H 10050 6000 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 10100 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 5900 50  0001 C CNN
+F 3 "~" H 10050 5900 50  0001 C CNN
+	1    10050 5900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9950 5550 9950 5800
-Wire Wire Line
-	9900 5800 9950 5800
-Connection ~ 9950 5800
-Wire Wire Line
-	9950 5800 9950 5950
+	10150 5900 10200 5900
 Wire Wire Line
 	3200 600  3450 600 
 $Comp
@@ -1257,4 +1239,61 @@ F 5 "C322C106K3R5TA" V 3200 700 50  0001 C CNN "Model"
 $EndComp
 Wire Wire Line
 	4300 5350 4300 4600
+$Comp
+L BoatControl:IPP120P04P4L-03 Q?
+U 1 1 63B17605
+P 8600 5800
+F 0 "Q?" V 8400 5850 50  0000 C CNN
+F 1 "IPP120P04P4L-03" V 8200 5800 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8250 6350 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8600 5800 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 8450 6450 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 9200 6100 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 9100 6200 50  0001 C CNN "Infineon Technologies"
+	1    8600 5800
+	0    1    1    0   
+$EndComp
+Text Notes 8350 5300 0    50   ~ 0
+Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s)
+Wire Wire Line
+	9350 6150 10250 6150
+Wire Wire Line
+	10200 5900 10200 6050
+Wire Wire Line
+	10250 6050 10200 6050
+Wire Wire Line
+	8600 5500 9000 5500
+Wire Wire Line
+	10200 5500 10200 5900
+Connection ~ 10200 5900
+Wire Wire Line
+	8600 5950 9000 5950
+Wire Wire Line
+	9000 5950 9000 5500
+Connection ~ 9000 5500
+Wire Wire Line
+	9000 5500 10200 5500
+Wire Wire Line
+	8800 5800 8800 6150
+Wire Wire Line
+	9350 6150 8800 6150
+Connection ~ 9350 6150
+Connection ~ 8800 6150
+Wire Wire Line
+	8800 6150 8800 6250
+Wire Wire Line
+	8400 5800 8400 6050
+Wire Wire Line
+	8100 6050 8400 6050
+Connection ~ 8400 6050
+Wire Wire Line
+	8400 6050 8400 6250
+Wire Notes Line
+	8200 5100 8200 6450
+Wire Notes Line
+	8200 6450 10150 6450
+Wire Notes Line
+	10150 6450 10150 5100
+Wire Notes Line
+	8200 5100 10150 5100
 $EndSCHEMATC
