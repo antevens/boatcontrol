@@ -221,7 +221,7 @@ F 0 "J111" H 1150 9550 50  0000 R CNN
 F 1 "TBL008V-1000-02BE" H 1450 9450 50  0001 R CNN
 F 2 "CUI_TBL008V-1000-02BE" H 1050 9750 50  0001 L BNN
 F 3 "CUI" H 1050 9750 50  0001 L BNN
-F 4 "12VDC (OR 15-30V with 12V PSU)" H 800 10000 50  0000 C CNN "Type"
+F 4 "12VDC (OR 15-30V with 12V PSU)" V 1400 9350 50  0000 C CNN "Type"
 	1    1050 9750
 	-1   0    0    1   
 $EndComp
@@ -818,7 +818,7 @@ L power:PWR_FLAG #FLG0106
 U 1 1 5F2FEC8F
 P 1600 9850
 F 0 "#FLG0106" H 1600 9925 50  0001 C CNN
-F 1 "PWR_FLAG" H 1550 10000 50  0000 L CNN
+F 1 "PWR_FLAG" V 1600 9450 50  0000 L CNN
 F 2 "" H 1600 9850 50  0001 C CNN
 F 3 "~" H 1600 9850 50  0001 C CNN
 	1    1600 9850
@@ -1762,16 +1762,12 @@ F 3 "~" H 15850 10300 50  0001 C CNN
 	1    15850 10300
 	1    0    0    -1  
 $EndComp
-Text Notes 650  10150 0    51   ~ 10
-Optional 12V PSU\n
 Connection ~ 6350 9300
 Wire Wire Line
 	6350 9300 7100 9300
 Wire Wire Line
 	3150 9950 6650 9950
 Connection ~ 3150 9950
-Wire Notes Line
-	600  10050 6850 10050
 Wire Wire Line
 	2250 9850 2250 10950
 Connection ~ 2250 9850
@@ -1779,18 +1775,17 @@ Wire Wire Line
 	2250 9850 2300 9850
 Wire Wire Line
 	2250 10950 2600 10950
-Connection ~ 2100 9850
 Wire Wire Line
 	2100 9850 2250 9850
 $Comp
 L power:GND #PWR0122
 U 1 1 602AEA4D
-P 2100 9850
-F 0 "#PWR0122" H 2100 9600 50  0001 C CNN
-F 1 "GND" H 2100 9700 50  0000 C CNN
-F 2 "" H 2100 9850 50  0001 C CNN
-F 3 "" H 2100 9850 50  0001 C CNN
-	1    2100 9850
+P 1450 9850
+F 0 "#PWR0122" H 1450 9600 50  0001 C CNN
+F 1 "GND" H 1450 9700 50  0000 C CNN
+F 2 "" H 1450 9850 50  0001 C CNN
+F 3 "" H 1450 9850 50  0001 C CNN
+	1    1450 9850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1993,9 +1988,6 @@ Wire Wire Line
 	2400 9850 2600 9850
 Wire Wire Line
 	1450 9850 1600 9850
-Connection ~ 1600 9850
-Wire Wire Line
-	1600 9850 2100 9850
 Wire Wire Line
 	1500 9500 1700 9500
 Connection ~ 1500 9500
@@ -2006,10 +1998,6 @@ Wire Wire Line
 Connection ~ 2300 9850
 Wire Wire Line
 	2300 9850 2400 9850
-Wire Notes Line
-	2450 9800 1750 9800
-Wire Notes Line
-	2450 8500 2450 9800
 Wire Wire Line
 	6350 10400 6650 10400
 Wire Wire Line
@@ -2375,8 +2363,6 @@ Text Notes 10700 -3000 0    59   ~ 12
 40-Pin HAT Connector
 Text Notes 10500 9150 0    59   ~ 12
 Mounting Holes
-Text Notes 700  10350 0    50   ~ 0
-Allows Input voltages from \n12-30V DC
 Text Label -6800 7150 3    50   ~ 0
 RPiBCM2_SDA
 Text Label -6500 5700 1    50   ~ 0
@@ -3404,4 +3390,30 @@ F 3 "" H -1800 6250 50  0001 C CNN
 	1    -1800 6250
 	0    1    -1   0   
 $EndComp
+$Comp
+L BoatControl:SchurterCircuitBreaker CB?
+U 1 1 63E4071D
+P 1850 9650
+F 0 "CB?" H 2000 9600 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a" H 2750 9700 50  0001 R CNN
+F 2 "BoatControl:Schurter_Circuit_Breaker" H 1850 9650 50  0001 C CNN
+F 3 "" H 1850 9650 50  0001 C CNN
+F 4 "4404.0096" V 1850 9650 50  0001 C CNN "Manufacturer ID"
+	1    1850 9650
+	1    0    0    -1  
+$EndComp
+Text Notes 650  10650 0    50   ~ 0
+Allows Input voltages from \n12-30V DC
+Text Notes 650  10450 0    51   ~ 10
+Optional 12V PSU\n
+Connection ~ 1450 9850
+Connection ~ 1600 9850
+Wire Notes Line
+	2100 10050 6850 10050
+Wire Notes Line
+	2100 10300 600  10300
+Wire Notes Line
+	2100 10050 2100 10300
+Wire Notes Line
+	2450 8500 2450 10050
 $EndSCHEMATC
