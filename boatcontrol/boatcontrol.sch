@@ -1156,8 +1156,6 @@ Wire Wire Line
 	2400 9850 2600 9850
 Wire Wire Line
 	1450 9850 1600 9850
-Wire Wire Line
-	1500 9500 1700 9500
 Connection ~ 1500 9500
 Wire Wire Line
 	1500 9500 1500 9450
@@ -3456,4 +3454,20 @@ Wire Notes Line
 	12850 8200 15850 8200
 Wire Notes Line
 	7300 7050 9300 7050
+Text Notes 3200 8950 0    79   ~ 16
+Ground is only for logic level only and should never\nbe tied to negative or neutral on curcuits being switched!
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 61AD99B5
+P 1600 9500
+AR Path="/61AD99B5" Ref="JP?"  Part="1" 
+AR Path="/D16552B4/61AD99B5" Ref="JP?"  Part="1" 
+AR Path="/D1BB8DB4/61AD99B5" Ref="JP?"  Part="1" 
+F 0 "JP?" H 1600 9600 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1650 9400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 9500 50  0001 C CNN
+F 3 "~" H 1600 9500 50  0001 C CNN
+	1    1600 9500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
