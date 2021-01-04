@@ -1208,28 +1208,26 @@ F 3 "" H 14400 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 12000 8600 1200 400 
+S 7450 7450 1200 400 
 U D16552B4
 F0 "12V DC Common Bank" 50
 F1 "CommonBank1.sch" 50
 $EndSheet
 $Sheet
-S 12000 9250 1200 400 
+S 7450 8100 1200 400 
 U D1BB8DB4
 F0 "Mixed 12V DC / 230V AC Common Bank" 50
 F1 "CommonBank2.sch" 50
 $EndSheet
 Wire Notes Line
-	13850 8200 11850 8200
+	7300 8650 9300 8650
 Wire Notes Line
-	11850 9800 13850 9800
+	9300 8650 9300 7050
 Wire Notes Line
-	13850 9800 13850 8200
-Wire Notes Line
-	11850 8200 11850 9800
-Text Notes 12000 8350 0    59   ~ 12
+	7300 7050 7300 8650
+Text Notes 7450 7200 0    59   ~ 12
 Onboard Relay Banks
-Text Notes 13700 650  0    59   ~ 12
+Text Notes 13700 700  0    59   ~ 12
 Onboard Relay Analog Control
 $Comp
 L BoatControl:LOGO_RPI G104
@@ -3448,4 +3446,14 @@ Wire Notes Line
 	9350 600  5900 600 
 Wire Notes Line
 	5900 600  5900 650 
+Wire Notes Line
+	12850 550  12850 8200
+Wire Notes Line
+	15850 8200 15850 550 
+Wire Notes Line
+	15850 550  12850 550 
+Wire Notes Line
+	12850 8200 15850 8200
+Wire Notes Line
+	7300 7050 9300 7050
 $EndSCHEMATC
