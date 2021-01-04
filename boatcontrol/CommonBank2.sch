@@ -42,7 +42,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3050 850 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L boatcontrol-rescue:Jumper_NO_Small-Device JP?
 U 1 1 D2B4FEF3
 P 1900 6200
 AR Path="/D2B4FEF3" Ref="JP?"  Part="1" 
@@ -233,7 +233,7 @@ Wire Wire Line
 	1000 7200 1500 7200
 Connection ~ 1500 7200
 $Comp
-L Device:Jumper_NO_Small JP?
+L boatcontrol-rescue:Jumper_NO_Small-Device JP?
 U 1 1 D1AAA2E7
 P 1900 2050
 AR Path="/D1AAA2E7" Ref="JP?"  Part="1" 
@@ -791,7 +791,7 @@ I2C Address 0x23
 Text Notes 2600 2150 3    50   ~ 0
 I2C Address 0x22
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6B5DDA
 P 1300 2500
 AR Path="/5F6B5DDA" Ref="JP?"  Part="1" 
@@ -805,7 +805,7 @@ F 3 "~" H 1300 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6B5DE6
 P 800 2600
 AR Path="/5F6B5DE6" Ref="JP?"  Part="1" 
@@ -819,7 +819,7 @@ F 3 "~" H 800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6C92E8
 P 1850 2400
 AR Path="/5F6C92E8" Ref="JP?"  Part="1" 
@@ -833,7 +833,7 @@ F 3 "~" H 1850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6ED611
 P 800 6750
 AR Path="/5F6ED611" Ref="JP?"  Part="1" 
@@ -847,7 +847,7 @@ F 3 "~" H 800 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6F4B4B
 P 1300 6650
 AR Path="/5F6F4B4B" Ref="JP?"  Part="1" 
@@ -861,7 +861,7 @@ F 3 "~" H 1300 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12_Output JP?
+L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
 U 1 1 5F6F5095
 P 1850 6550
 AR Path="/5F6F5095" Ref="JP?"  Part="1" 
@@ -1051,7 +1051,7 @@ F 4 "DC 12V Common Bank 1" H 10050 6300 50  0000 C CNN "Type"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Dual_2pin D?
+L boatcontrol-rescue:LED_Dual_2pin-Device D?
 U 1 1 600A5AB3
 P 9100 5850
 AR Path="/600A5AB3" Ref="D?"  Part="1" 
@@ -1179,7 +1179,7 @@ AR Path="/D1BB8DB4/5F75E923/60474907/600A5AB3" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/60474911/600A5AB3" Ref="D?"  Part="1" 
 AR Path="/D16552B4/600A5AB3" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/600A5AB3" Ref="D5102"  Part="1" 
-F 0 "D5102" H 8850 5700 50  0000 C CNN
+F 0 "D5102" H 8900 6050 50  0000 C CNN
 F 1 "20mA R/G Bicolor" H 9050 6200 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 9100 5850 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 9100 5850 50  0001 C CNN
@@ -1194,7 +1194,7 @@ U 1 1 600A5ABC
 P 8800 5950
 AR Path="/D16552B4/600A5ABC" Ref="R?"  Part="1" 
 AR Path="/D1BB8DB4/600A5ABC" Ref="R5102"  Part="1" 
-F 0 "R5102" H 8900 5850 50  0000 C CNN
+F 0 "R5102" H 8600 5950 50  0000 C CNN
 F 1 "680Ω" H 8800 6100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8800 5950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 8800 5950 50  0001 C CNN
@@ -1227,7 +1227,7 @@ F 6 "Infineon Technologies" H 8500 6500 50  0001 C CNN "Infineon Technologies"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Dual_2pin D?
+L boatcontrol-rescue:LED_Dual_2pin-Device D?
 U 1 1 60113E24
 P 8600 2150
 AR Path="/60113E24" Ref="D?"  Part="1" 
@@ -1355,7 +1355,7 @@ AR Path="/D1BB8DB4/5F75E923/60474907/60113E24" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/60474911/60113E24" Ref="D?"  Part="1" 
 AR Path="/D16552B4/60113E24" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/60113E24" Ref="D5101"  Part="1" 
-F 0 "D5101" H 8350 2000 50  0000 C CNN
+F 0 "D5101" H 8400 2350 50  0000 C CNN
 F 1 "20mA R/G Bicolor" H 8550 2500 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 8600 2150 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 8600 2150 50  0001 C CNN
@@ -1375,13 +1375,13 @@ Wire Wire Line
 	7650 2400 8300 2400
 Connection ~ 7650 2400
 $Comp
-L Device:Jumper_NC_Small JP?
+L boatcontrol-rescue:Jumper_NC_Small-Device JP?
 U 1 1 61788453
 P 9500 5850
 AR Path="/61788453" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/61788453" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/61788453" Ref="JP5110"  Part="1" 
-F 0 "JP5110" H 9500 5950 50  0000 C CNN
+F 0 "JP5110" H 9500 5800 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9550 5750 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9500 5850 50  0001 C CNN
 F 3 "~" H 9500 5850 50  0001 C CNN
@@ -1394,13 +1394,13 @@ Connection ~ 9650 5850
 Wire Wire Line
 	9650 5850 9650 6000
 $Comp
-L Device:Jumper_NC_Small JP?
+L boatcontrol-rescue:Jumper_NC_Small-Device JP?
 U 1 1 617AACB3
 P 9000 2150
 AR Path="/617AACB3" Ref="JP?"  Part="1" 
 AR Path="/D16552B4/617AACB3" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/617AACB3" Ref="JP5109"  Part="1" 
-F 0 "JP5109" H 9000 2250 50  0000 C CNN
+F 0 "JP5109" H 9000 2100 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 9050 2050 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9000 2150 50  0001 C CNN
 F 3 "~" H 9000 2150 50  0001 C CNN
@@ -1475,7 +1475,7 @@ U 1 1 60113E2D
 P 8300 2250
 AR Path="/D16552B4/60113E2D" Ref="R?"  Part="1" 
 AR Path="/D1BB8DB4/60113E2D" Ref="R5101"  Part="1" 
-F 0 "R5101" H 8400 2150 50  0000 C CNN
+F 0 "R5101" H 8100 2250 50  0000 C CNN
 F 1 "12KΩ" H 8300 2400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8300 2250 50  0001 C CNN
 F 3 "" H 8300 2250 50  0001 C CNN
@@ -1488,12 +1488,12 @@ $EndComp
 Text Notes 8650 5100 0    50   ~ 0
 Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s)
 $Comp
-L BoatControl:IPP120P04P4L-03 Q?
+L BoatControl:IPP120P04P4L-03 Q5102
 U 1 1 63CE5E8E
 P 8000 5550
-AR Path="/D1BB8DB4/63CE5E8E" Ref="Q?"  Part="1" 
+AR Path="/D1BB8DB4/63CE5E8E" Ref="Q5102"  Part="1" 
 AR Path="/D16552B4/5FA17F38/63CE5E8E" Ref="Q?"  Part="1" 
-F 0 "Q?" V 7800 5700 50  0000 C CNN
+F 0 "Q5102" V 7800 5700 50  0000 C CNN
 F 1 "IPP120P04P4L-03" V 8150 5550 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 6100 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8000 5550 50  0001 C CNN
@@ -1504,12 +1504,12 @@ F 6 "Infineon Technologies" H 8500 5950 50  0001 C CNN "Infineon Technologies"
 	0    1    1    0   
 $EndComp
 $Comp
-L BoatControl:IPP120P04P4L-03 Q?
+L BoatControl:IPP120P04P4L-03 Q5103
 U 1 1 63CF3938
 P 8000 5050
-AR Path="/D1BB8DB4/63CF3938" Ref="Q?"  Part="1" 
+AR Path="/D1BB8DB4/63CF3938" Ref="Q5103"  Part="1" 
 AR Path="/D16552B4/5FA17F38/63CF3938" Ref="Q?"  Part="1" 
-F 0 "Q?" V 7800 5200 50  0000 C CNN
+F 0 "Q5103" V 7800 5200 50  0000 C CNN
 F 1 "IPP120P04P4L-03" V 8150 5050 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 5600 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8000 5050 50  0001 C CNN
@@ -1521,12 +1521,12 @@ F 6 "Infineon Technologies" H 8500 5450 50  0001 C CNN "Infineon Technologies"
 $EndComp
 Connection ~ 8800 6100
 $Comp
-L BoatControl:IPP120P04P4L-03 Q?
+L BoatControl:IPP120P04P4L-03 Q5104
 U 1 1 63D20233
 P 8000 4550
-AR Path="/D1BB8DB4/63D20233" Ref="Q?"  Part="1" 
+AR Path="/D1BB8DB4/63D20233" Ref="Q5104"  Part="1" 
 AR Path="/D16552B4/5FA17F38/63D20233" Ref="Q?"  Part="1" 
-F 0 "Q?" V 7800 4700 50  0000 C CNN
+F 0 "Q5104" V 7800 4700 50  0000 C CNN
 F 1 "IPP120P04P4L-03" V 8150 4550 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 5100 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8000 4550 50  0001 C CNN
