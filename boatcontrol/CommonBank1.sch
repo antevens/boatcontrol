@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 97
+Sheet 2 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -1296,4 +1296,6 @@ Wire Notes Line
 	10150 6450 10150 5100
 Wire Notes Line
 	8200 5100 10150 5100
+Text Notes 8700 4800 0    50   ~ 0
+Note that reverse power protection does come with\na slight power loss (3.1 mOhm per FET).\nFor absolute best efficiency the FETs can be\nreplaced with shunts disabling the protection.\n\nThe power loss can be calculated using:\n(I / n ) ² * R  * 0.0031 * n\n\nCurrent divided by number of FETs squared\nmultiplied by resistance times number of FETS) \n\nWith fully populated P-FET banks you can expect the following:\n\n    Full continuous load on all circuits (2 FETs):\n    16 circuits @ 3A = 3.6W ( 300mA @ 12V)\n\n    Partial continous load (10A, 2 FETs):\n    16 circuits @ 0.625A = 155mW  ( 13mA @12V)\n\n    Realistic variable load with spikes:\n    20A, 1% duty cycle = 620mW * 0.001 = 6.2mW\n    10A, 10% duty cycle = 155mW * 0.01 = 15.5mW\n    3A, 70% duty cycle = 56mW * 0.7 =  39mW\n    \n    Total consumption 61mW per hour under load\n
 $EndSCHEMATC
