@@ -170,7 +170,7 @@
   )
 
   (module Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 5FF40952)
-    (at 150.876 116.332 270)
+    (at 151.384 120.904 270)
     (descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (path /5FF8E07D/5FF5267C)
@@ -370,7 +370,7 @@
   )
 
   (module Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical (layer F.Cu) (tedit 5A3D7171) (tstamp 5FF408E5)
-    (at 207.5962 135.4568)
+    (at 160.782 139.446)
     (descr "Potentiometer, vertical, Bourns 3214W, https://www.bourns.com/docs/Product-Datasheets/3214.pdf")
     (tags "Potentiometer vertical Bourns 3214W")
     (path /5FF8E07D/5FF871BC)
@@ -412,8 +412,8 @@
     )
   )
 
-  (module Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical (layer F.Cu) (tedit 5A3D7171) (tstamp 5FF408CB)
-    (at 207.5962 118.2868)
+  (module Potentiometer_SMD:Potentiometer_Bourns_3214W_Vertical (layer F.Cu) (tedit 5A3D7171) (tstamp 5FF411A1)
+    (at 169.418 115.062)
     (descr "Potentiometer, vertical, Bourns 3214W, https://www.bourns.com/docs/Product-Datasheets/3214.pdf")
     (tags "Potentiometer vertical Bourns 3214W")
     (path /5FF51AE2/5FF871BC)
@@ -456,7 +456,7 @@
   )
 
   (module Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 5B391EB7) (tstamp 5FF40891)
-    (at 213.2562 143.6068)
+    (at 179.2202 149.4488)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (path /5FF8E07D/5FF67C5A)
@@ -504,7 +504,7 @@
       ))
   )
 
-  (module Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 5B391EB7) (tstamp 5FF4087B)
+  (module Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm (layer F.Cu) (tedit 5B391EB7) (tstamp 5FF412B8)
     (at 213.5962 134.2068)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
@@ -750,7 +750,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FF407A1)
-    (at 159.766 107.95 270)
+    (at 160.274 112.522 270)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5FFA4E78)
@@ -802,7 +802,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40785)
-    (at 207.4262 140.1568)
+    (at 167.0402 131.5208)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF8E07D/5FF8806D)
@@ -836,7 +836,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40774)
-    (at 207.4262 143.5068)
+    (at 170.942 138.684)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF8E07D/5FF75051)
@@ -872,7 +872,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40763)
-    (at 213.4362 140.1568)
+    (at 173.0502 131.5208)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF8E07D/5FF7094C)
@@ -908,7 +908,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40752)
-    (at 207.4262 126.3368)
+    (at 178.054 137.668)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF51AE2/5FF8806D)
@@ -942,7 +942,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40741)
-    (at 207.4262 122.9868)
+    (at 165.7702 125.2728)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF51AE2/5FF75051)
@@ -978,7 +978,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 5FF40730)
-    (at 213.4362 122.9868)
+    (at 171.7802 125.2728)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5FF51AE2/5FF7094C)
