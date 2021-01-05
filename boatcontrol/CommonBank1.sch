@@ -984,24 +984,24 @@ Wire Wire Line
 $Comp
 L BoatControl:TBL008V-1000-02BE J?
 U 1 1 D1AAA18D
-P 10000 6000
+P 10800 6000
 AR Path="/D1AAA18D" Ref="J?"  Part="1" 
 AR Path="/D16552B4/D1AAA18D" Ref="J206"  Part="1" 
 AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1" 
-F 0 "J206" H 10200 5850 50  0000 R CNN
-F 1 "TBL008V-1000-02BE" H 10350 5850 50  0001 R CNN
-F 2 "CUI_TBL008V-1000-02BE" H 10000 6000 50  0001 L BNN
-F 3 "CUI" H 10000 6000 50  0001 L BNN
-F 4 "DC 12V Common Bank 1" H 10000 6300 50  0000 C CNN "Type"
-	1    10000 6000
+F 0 "J206" H 11000 5850 50  0000 R CNN
+F 1 "TBL008V-1000-02BE" H 11150 5850 50  0001 R CNN
+F 2 "CUI_TBL008V-1000-02BE" H 10800 6000 50  0001 L BNN
+F 3 "CUI" H 10800 6000 50  0001 L BNN
+F 4 "DC 12V Common Bank 1" H 10800 6300 50  0000 C CNN "Type"
+	1    10800 6000
 	1    0    0    1   
 $EndComp
 $Comp
 L BoatControl:IPP120P04P4L-03 Q202
 U 1 1 5FEBFE7C
 P 7950 6200
-F 0 "Q202" V 8000 6400 50  0000 C CNN
-F 1 "IPP120P04P4L-03" V 8100 6200 50  0000 C CNN
+F 0 "Q202" H 7950 5950 50  0000 C CNN
+F 1 "IPP120P04P4L-03" V 8100 6200 50  0001 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7600 6750 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 7950 6200 50  0001 C CNN
 F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 7800 6850 50  0001 C CNN "Description"
@@ -1178,8 +1178,6 @@ F 3 "~" H 9400 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9500 5850 9550 5850
-Wire Wire Line
 	2450 550  2700 550 
 $Comp
 L power:GND #PWR0189
@@ -1242,8 +1240,8 @@ $Comp
 L BoatControl:IPP120P04P4L-03 Q201
 U 1 1 63B17605
 P 7950 5750
-F 0 "Q201" V 7800 5950 50  0000 C CNN
-F 1 "IPP120P04P4L-03" V 7600 5750 50  0000 C CNN
+F 0 "Q201" H 7950 5500 50  0000 C CNN
+F 1 "IPP120P04P4L-03" H 7800 5300 50  0001 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7600 6300 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 7950 5750 50  0001 C CNN
 F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 7800 6400 50  0001 C CNN "Description"
@@ -1252,44 +1250,31 @@ F 6 "Infineon Technologies" H 8450 6150 50  0001 C CNN "Infineon Technologies"
 	1    7950 5750
 	0    1    1    0   
 $EndComp
-Text Notes 7700 5250 0    50   ~ 0
-Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s)
+Text Notes 8500 5100 0    50   ~ 0
+Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s) \nor partially populated, see note above.
 Wire Wire Line
-	8700 6100 9600 6100
+	10350 5850 10350 6000
 Wire Wire Line
-	9550 5850 9550 6000
-Wire Wire Line
-	9600 6000 9550 6000
+	10400 6000 10350 6000
 Wire Wire Line
 	7950 5450 8350 5450
 Wire Wire Line
-	9550 5450 9550 5850
-Connection ~ 9550 5850
+	10350 5450 10350 5850
+Connection ~ 10350 5850
 Wire Wire Line
 	7950 5900 8350 5900
 Wire Wire Line
 	8350 5900 8350 5450
 Connection ~ 8350 5450
 Wire Wire Line
-	8350 5450 9550 5450
-Wire Wire Line
 	8150 5750 8150 6100
 Wire Wire Line
 	8700 6100 8150 6100
-Connection ~ 8700 6100
 Connection ~ 8150 6100
 Wire Wire Line
 	8150 6100 8150 6200
-Wire Notes Line
-	7550 5050 7550 6400
-Wire Notes Line
-	7550 6400 9500 6400
-Wire Notes Line
-	9500 6400 9500 5050
-Wire Notes Line
-	7550 5050 9500 5050
-Text Notes 7950 4750 0    50   ~ 0
-Note that reverse power protection does come with\na slight power loss (3.1 mOhm per FET).\nFor absolute best efficiency the FETs can be\nreplaced with shunts disabling the protection.\n\nThe power loss can be calculated using:\n(I / n ) ² * R  * 0.0031 * n\n\nCurrent divided by number of FETs squared\nmultiplied by resistance times number of FETS) \n\nWith fully populated P-FET banks you can expect the following:\n\n    Full continuous load on all circuits (2 FETs):\n    16 circuits @ 3A = 3.6W ( 300mA @ 12V)\n\n    Partial continous load (10A, 2 FETs):\n    16 circuits @ 0.625A = 155mW  ( 13mA @12V)\n\n    Realistic variable load with spikes:\n    20A, 1% duty cycle = 620mW * 0.001 = 6.2mW\n    10A, 10% duty cycle = 155mW * 0.01 = 15.5mW\n    3A, 70% duty cycle = 56mW * 0.7 =  39mW\n    \n    Total consumption 61mW per hour under load\n
+Text Notes 8250 4450 0    50   ~ 0
+Note that reverse power protection does come with\na slight power loss (3.1 mOhm per FET).\nFor absolute best efficiency the FETs can be\nreplaced with shunts disabling the protection.\n\nThe power loss can be calculated using:\n(I / n ) ² * R  * 0.0031 * n\n\nCurrent divided by number of FETs squared\nmultiplied by resistance times number of FETS) \n\nWith 2 populated P-FET banks you can expect the following:\n\n    Full continuous load on all circuits (2 FETs):\n    16 circuits @ 3A = 3.6W ( 300mA @ 12V)\n\n    Partial continous load (10A, 2 FETs):\n    16 circuits @ 0.625A = 155mW  ( 13mA @12V)\n\n    Realistic variable load with spikes:\n    20A, 1% duty cycle = 620mW * 0.001 = 6.2mW\n    10A, 10% duty cycle = 155mW * 0.01 = 15.5mW\n    3A, 70% duty cycle = 56mW * 0.7 =  39mW\n    \n    Total consumption 61mW per hour under load\n
 Connection ~ 7350 6000
 Wire Wire Line
 	7750 5750 7750 6000
@@ -1298,4 +1283,43 @@ Wire Wire Line
 Connection ~ 7750 6000
 Wire Wire Line
 	7750 6000 7750 6200
+$Comp
+L BoatControl:IPP120P04P4L-03 Q?
+U 1 1 60138754
+P 7950 5250
+F 0 "Q?" H 7950 5000 50  0000 C CNN
+F 1 "IPP120P04P4L-03" H 7950 4900 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7600 5800 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 7950 5250 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 7800 5900 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 8550 5550 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 8450 5650 50  0001 C CNN "Infineon Technologies"
+	1    7950 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 5750 7750 5250
+Connection ~ 7750 5750
+Wire Wire Line
+	7950 4950 8350 4950
+Wire Wire Line
+	8350 4950 8350 5450
+Wire Wire Line
+	8150 5250 8150 5750
+Connection ~ 8150 5750
+Wire Notes Line
+	7550 4750 7550 6400
+Wire Notes Line
+	10200 6400 10200 4750
+Wire Notes Line
+	7550 6400 10200 6400
+Wire Notes Line
+	7550 4750 10200 4750
+Wire Wire Line
+	8700 6100 10400 6100
+Connection ~ 8700 6100
+Wire Wire Line
+	9500 5850 10350 5850
+Wire Wire Line
+	8350 5450 10350 5450
 $EndSCHEMATC
