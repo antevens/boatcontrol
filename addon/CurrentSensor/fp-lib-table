@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CurrentSensor)(type KiCad)(uri ${KIPRJMOD}/CurrentSensor.pretty)(options "")(descr ""))
+  (lib (name BoatControl)(type KiCad)(uri ${KIPRJMOD}/../../boatcontrol/BoatControl.pretty)(options "")(descr ""))
+)
