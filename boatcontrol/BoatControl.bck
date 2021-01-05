@@ -14,6 +14,12 @@ D CD74HCT221E, Dual Monostable Multivibrator, HCT, 4mA 4.5  5.5 V 16-Pin PDIP
 F http://www.ti.com/lit/ds/symlink/cd74hct221.pdf
 $ENDCMP
 #
+$CMP Current_Sensor
+D Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP IPP120P04P4L-03
 F https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t
 $ENDCMP
