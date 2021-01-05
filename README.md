@@ -34,9 +34,10 @@ over 13V please make sure the optional 12V PSU option is in place and
 configured. For 12V operation make sure the 12V bypass jumper/solder pads are
 connected.
 
-The design includes two boards:
+The design includes a main board and two optional addon boards:
     The primary board is designed for 3.4-6mm PCBs with 6oz copper
     The high current daughter board is designed for 3.4mm+ 13oz copper.
+    The non-latching daughter board is designed for 2.4mm+ 6oz copper.
 
 This layout includes:
 
@@ -44,7 +45,7 @@ This layout includes:
     Input polarity protection and indicator LED
     Latching relay rated for 24V DC
     Thermally fused to 3A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional)
+    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 0-24V DC Common input channels/circuits with the following:
@@ -53,7 +54,7 @@ This layout includes:
     4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional)
+    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 100-250V AC Common input channels/circuits with the following:
@@ -62,12 +63,17 @@ This layout includes:
     4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional)
+    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 0-277V AC/DC Individual input/output channels/circuits
     Individual channel current should not exceed 60A
-    No fuses, polarity indicators or protection
+    No circuit breakers, polarity indicators or protection
+
+8 x 12V DC Individual non latching input/output channels/circuits
+    Individual channel current should not exceed 32A
+    No circuit breakers
+    Polarity indicators and protection provided
 
 
 Each channel/circuit can be controlled using three different methods:
@@ -91,10 +97,10 @@ the circuit being turned OFF.
 Technically this can be considered to be a Raspberry (RPi) HAT which I believe would make
 it the largest one in existence but the board does not require an RPi to
 operate. Note that the board will act as a power supply for the RPi and
-eliminatis the need for a separete PSU to power the RPi.
+eliminates the need for a separete PSU to power the RPi.
 
 All communication between the RPi and the board is done using I2C, this only
-required 2 wires and makes it safe to use in combination with most if not all
+requires 2 wires and makes it safe to use in combination with most if not all
 other hats. In particular it can co-exist with the Moitessier HATs though you
 might want to run your chart-plotting or navigation software on a separate RPi
 and have a dedicaded one for controlling your electrical system.
@@ -130,17 +136,16 @@ Extra pins/IO on Cat5/6 via the RJ45 Connectors
 
 
 For examples of how to use Node Red to control this board see
-    {INSERT_NODE_RED_REPO_HERE}
-
-
+    {INSERT_NODE_RED_LINK_HERE}
+    {INSERT_NODE_RED_DEMO_HERE}
 
 Feel free to modify this to suit your own needs or have it made as it's
-currently configured. Be careful when upgrading fuses to not exceed the
+currently configured. Be careful when upgrading circuit breakers to not exceed the
 current/thermal capacity of the board, and note that upgrading circuits may
-require also upgrading current sensors.
+require also upgrading current sensors if they are installed.
 
 # Key features
-* Almost all components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
+* All components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
 * All relays can be controlled from either the RPi or using analog control signals via RJ45/CAT5/6 connectors/cables.
 * All relays are latching dual coil with individual control circuits.
 * All analog input channels have pulse generators for the relays to protect them from overheating.
@@ -149,5 +154,6 @@ require also upgrading current sensors.
 * 8x 3-16A 250V AC shared bus protected circuits
 * 24x 3-16A 12V DC shared bus protected circuits
 * 32x 12V 500mA DC Logic/Relay breakout via RJ45
+* All DC channels are polarity protected with high efficiency PFETs
 
 Protection is provided using thermal circuit breakers, the permitted amperage can be changed by switching out breakers, no breakers are provided for the 60A circuits.
