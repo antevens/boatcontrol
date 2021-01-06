@@ -24,10 +24,20 @@ $CMP IPP120P04P4L-03
 F https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t
 $ENDCMP
 #
+$CMP OMNI-220-18-75-3C
+D Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized
+F http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf
+$ENDCMP
+#
 $CMP Q_QUAD_PNP
 D Double PNP transistors, current mirror configuration
 K transistor PNP
 F ~
+$ENDCMP
+#
+$CMP ‎OMNI-220-18-25-1C‎
+D Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized
+F http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf
 $ENDCMP
 #
 #End Doc Library

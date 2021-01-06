@@ -1,4 +1,4 @@
-19094563027001068
+19097782943026068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -397,6 +397,20 @@ L_Toroid, Horizontal series, Radial, pin pitch=19.10mm, , diameter=21.8mm, Bourn
 L_Toroid Horizontal series Radial pin pitch 19.10mm  diameter 21.8mm Bourns 2100
 0
 4
+2
+BoatControl
+OMNI22018251C
+OMNI-220-18-75-3C-1
+Undefined or Miscellaneous
+0
+2
+2
+BoatControl
+OMNI22018753C
+OMNI-220-18-75-3C-1
+Undefined or Miscellaneous
+0
+2
 2
 BoatControl
 RELAY_G5RL-K1A-E-DC12
