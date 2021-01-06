@@ -35,7 +35,7 @@ configured. For 12V operation make sure the 12V bypass jumper/solder pads are
 connected.
 
 The design includes a main board and two optional addon boards:
-    The primary board is designed for 3.4-6mm PCBs with 6oz copper
+    The primary board is designed for 2.4-3.2mm PCBs with 6oz copper
     The high current daughter board is designed for 3.4mm+ 13oz copper.
     The non-latching daughter board is designed for 2.4mm+ 6oz copper.
 
