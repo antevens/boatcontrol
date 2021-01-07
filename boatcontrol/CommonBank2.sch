@@ -1582,8 +1582,6 @@ Wire Wire Line
 	8550 4250 8000 4250
 Wire Wire Line
 	7200 6100 7800 6100
-Text Notes 8500 4800 0    50   ~ 0
-Note that reverse power protection does come with\na slight power loss (3.1 mOhm per FET).\nFor absolute best efficiency the FETs can be\nreplaced with shunts disabling the protection.\n\nThe power loss can be calculated using:\n(I / n ) ² * R  * 0.0031 * n\n\nCurrent divided by number of FETs squared\nmultiplied by resistance times number of FETS) \n\nWith 4 populated P-FET banks you can expect the following:\n\n    Full continuous load on all circuits (4 FETs):\n    76A (16/16/10/10/6/6/6/6) = 4.5 ( 373mA @ 12V)\n\n    Partial continous load (10A, 2 FETs):\n    16A = 80mW  ( 66mA @12V)\n\n    Realistic variable load with spikes:\n    32A, 1% duty cycle = 3.2W * 0.001 = 3.2mW\n    10A, 10% duty cycle = 310mW * 0.01 = 3.1mW\n    6A, 60% duty cycle = 28mW * 0.6 =  16mW\n    \n    Total consumption 22mW per hour under load\n
 Wire Notes Line
 	7600 2750 11050 2750
 Wire Notes Line
@@ -1594,33 +1592,6 @@ Wire Notes Line
 	7600 6400 11050 6400
 Text Notes 9000 5150 0    50   ~ 0
 Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s) \nor partially populated, see note above.
-$Comp
-L BoatControl:IPP120P04P4L-03 Q5105
-U 1 1 602EDFFF
-P 8000 4050
-AR Path="/D1BB8DB4/602EDFFF" Ref="Q5105"  Part="1" 
-AR Path="/D16552B4/5FA17F38/602EDFFF" Ref="Q?"  Part="1" 
-F 0 "Q5105" V 7800 4200 50  0000 C CNN
-F 1 "IPP120P04P4L-03" V 8150 4050 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 4600 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 8000 4050 50  0001 C CNN
-F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 7850 4700 50  0001 C CNN "Description"
-F 5 "OptiMOS" H 8600 4350 50  0001 C CNN "Series"
-F 6 "Infineon Technologies" H 8500 4450 50  0001 C CNN "Infineon Technologies"
-	1    8000 4050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8550 4250 8550 3750
-Wire Wire Line
-	8550 3750 8000 3750
-Connection ~ 8550 4250
-Wire Wire Line
-	8400 4550 8400 4050
-Wire Wire Line
-	8400 4050 8200 4050
-Connection ~ 8400 4550
-Wire Wire Line
-	7800 4050 7800 4550
-Connection ~ 7800 4550
+Text Notes 8600 4800 0    50   ~ 0
+Note that reverse power protection does come with\na slight power loss (3.1 mOhm per FET).\nFor absolute best efficiency the FETs can be\nreplaced with shunts disabling the protection.\n\nThe power loss can be calculated using:\n(I / n ) ² * R  * 0.0031 * n\n\nCurrent divided by number of FETs squared\nmultiplied by resistance times number of FETS) \n\nWith 4 populated P-FET banks you can expect the following:\n\n    Full continuous load on all circuits (4 FETs):\n    76A (16/16/10/10/6/6/6/6) = 4.5 ( 373mA @ 12V)\n\n    Partial continous load (10A, 2 FETs):\n    16A = 80mW  ( 66mA @12V)\n\n    Realistic variable load with spikes:\n    32A, 1% duty cycle = 3.2W * 0.001 = 3.2mW\n    10A, 10% duty cycle = 310mW * 0.01 = 3.1mW\n    6A, 60% duty cycle = 28mW * 0.6 =  16mW\n    \n    Total consumption 22mW per hour under load\n
 $EndSCHEMATC

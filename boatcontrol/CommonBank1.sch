@@ -1250,7 +1250,7 @@ F 6 "Infineon Technologies" H 8450 6150 50  0001 C CNN "Infineon Technologies"
 	1    7950 5750
 	0    1    1    0   
 $EndComp
-Text Notes 8500 5100 0    50   ~ 0
+Text Notes 8500 5050 0    50   ~ 0
 Reverse Polarity (Voltage) Protection\nOptional, can be substituded with shunt(s) \nor partially populated, see note above.
 Wire Wire Line
 	10350 5850 10350 6000

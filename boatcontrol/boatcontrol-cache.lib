@@ -268,6 +268,26 @@ P 352 0 0 1 54 -344 130 -322 200 -285 261 -233 275 -214 296 -181 316 -145 328 -1
 ENDDRAW
 ENDDEF
 #
+# BoatControl_OMNI-220-18-75-3C
+#
+DEF BoatControl_OMNI-220-18-75-3C U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "BoatControl_OMNI-220-18-75-3C" 650 200 50 H V L CNN
+F2 "BoatControl:OMNI22018753C" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized" 650 -100 50 H I L CNN "Description"
+F5 "38" 650 -200 50 H I L CNN "Height"
+F6 "Wakefield-Vette" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OMNI-220-18-75-3C" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "567-OMNI220-18-75-3C" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # BoatControl_Q_QUAD_PNP
 #
 DEF BoatControl_Q_QUAD_PNP Q 0 0 Y Y 1 F N
@@ -2894,6 +2914,26 @@ X 5 5 -400 0 200 R 40 40 0 0 P
 X 6 6 -400 -100 200 R 40 40 0 0 P
 X 7 7 -400 -200 200 R 40 40 0 0 P
 X 8 8 -400 -300 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# BoatControl_‎OMNI-220-18-25-1C‎
+#
+DEF BoatControl_‎OMNI-220-18-25-1C‎ U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "BoatControl_‎OMNI-220-18-25-1C‎" 650 200 50 H V L CNN
+F2 "BoatControl:OMNI22018251C" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Heat Sinks omniKlip Heatsink for TO-220, 1 Clip, 18mm Wide, 25mm Long, Aluminum, Black Anodized" 650 -100 50 H I L CNN "Description"
+F5 "38" 650 -200 50 H I L CNN "Height"
+F6 "Wakefield-Vette" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OMNI-220-18-25-1C" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "567-OMNI220-18-25-1C" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.ca/ProductDetail/Wakefield-Vette/OMNI-220-18-25-1C/?qs=%2Fha2pyFaduiAywiHr9ZQjFN%2FeKndeuWwnh8ZcsLup6axl%252B9fl9WXdz0t2ymZGpDL" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

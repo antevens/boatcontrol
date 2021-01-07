@@ -1,4 +1,4 @@
-(module OMNI22018251C (layer F.Cu) (tedit 5FF60663)
+(module OMNI22018251C (layer F.Cu) (tedit 5FF709A6)
   (descr OMNI-220-18-75-3C-1)
   (tags "Undefined or Miscellaneous")
   (fp_text reference U** (at -55.5 -5) (layer F.SilkS)
@@ -24,8 +24,8 @@
   (fp_line (start -67.5 -9.5) (end -41.5 -9.5) (layer F.CrtYd) (width 0.12))
   (pad 2 thru_hole circle (at -64.97 -0.02) (size 4.005 4.005) (drill 2.67) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -44.03 -0.08) (size 4.005 4.005) (drill 2.67) (layers *.Cu *.Mask))
-  (model OMNI-220-18-75-3C.stp
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/OMNI-220-18-25-1C/OMNI-220-18-25-1C.stp
+    (offset (xyz -50 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

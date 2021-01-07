@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BoatControl:LM2679T-12 U108
-U 1 1 5F41B45D
-P 4050 10400
-F 0 "U108" H 4050 10450 50  0000 C CNN
-F 1 "LM2679T-12" H 4100 10250 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 4050 10400 50  0001 L BNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 4050 10400 50  0001 L BNN
-F 4 "83F4664" H 4050 10400 50  0001 L BNN "Field4"
-F 5 "TO220-7" H 4050 10400 50  0001 L BNN "Footprint"
-F 6 "National Semiconductor" H 4050 10400 50  0001 L BNN "Manufacturer"
-	1    4050 10400
-	1    0    0    -1  
-$EndComp
-$Comp
 L BoatControl:2000-100-V-H-RC‎ L102
 U 1 1 6045269B
 P 5750 10400
@@ -973,7 +959,7 @@ $Comp
 L BoatControl:IPP120P04P4L-03 Q102
 U 1 1 5FE81B4F
 P 1500 9250
-F 0 "Q102" H 1605 9204 50  0000 L CNN
+F 0 "Q102" H 1300 9050 50  0000 L CNN
 F 1 "IPP120P04P4L-03" H 750 9450 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1150 9800 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 1500 9250 50  0001 C CNN
@@ -3472,4 +3458,98 @@ F 3 "~" H 1600 9500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9200 4850 9200 4600
+$Comp
+L BoatControl:‎OMNI-220-18-25-1C‎ U105
+U 1 1 600ADD45
+P 1100 9200
+F 0 "U105" H 1150 9350 50  0000 L CNN
+F 1 "‎OMNI-220-18-25-1C‎" H 950 8950 50  0000 L CNN
+F 2 "BoatControl:OMNI22018251C" H 1750 9300 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf" H 1750 9200 50  0001 L CNN
+F 4 "Heat Sinks omniKlip Heatsink for TO-220, 1 Clip, 18mm Wide, 25mm Long, Aluminum, Black Anodized" H 1750 9100 50  0001 L CNN "Description"
+F 5 "38" H 1750 9000 50  0001 L CNN "Height"
+F 6 "Wakefield-Vette" H 1750 8900 50  0001 L CNN "Manufacturer_Name"
+F 7 "OMNI-220-18-25-1C" H 1750 8800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "567-OMNI220-18-25-1C" H 1750 8700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.ca/ProductDetail/Wakefield-Vette/OMNI-220-18-25-1C/?qs=%2Fha2pyFaduiAywiHr9ZQjFN%2FeKndeuWwnh8ZcsLup6axl%252B9fl9WXdz0t2ymZGpDL" H 1750 8600 50  0001 L CNN "Mouser Price/Stock"
+	1    1100 9200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1100 9200
+NoConn ~ 1100 9300
+NoConn ~ 3650 9700
+NoConn ~ 3650 9600
+$Comp
+L BoatControl:‎OMNI-220-18-25-1C‎ U106
+U 1 1 601A636B
+P 3650 9600
+F 0 "U106" H 4278 9596 50  0000 L CNN
+F 1 "‎OMNI-220-18-25-1C‎" H 3600 9300 50  0000 L CNN
+F 2 "BoatControl:OMNI22018251C" H 4300 9700 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf" H 4300 9600 50  0001 L CNN
+F 4 "Heat Sinks omniKlip Heatsink for TO-220, 1 Clip, 18mm Wide, 25mm Long, Aluminum, Black Anodized" H 4300 9500 50  0001 L CNN "Description"
+F 5 "38" H 4300 9400 50  0001 L CNN "Height"
+F 6 "Wakefield-Vette" H 4300 9300 50  0001 L CNN "Manufacturer_Name"
+F 7 "OMNI-220-18-25-1C" H 4300 9200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "567-OMNI220-18-25-1C" H 4300 9100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.ca/ProductDetail/Wakefield-Vette/OMNI-220-18-25-1C/?qs=%2Fha2pyFaduiAywiHr9ZQjFN%2FeKndeuWwnh8ZcsLup6axl%252B9fl9WXdz0t2ymZGpDL" H 4300 9000 50  0001 L CNN "Mouser Price/Stock"
+	1    3650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:LM2679T-12 U108
+U 1 1 5F41B45D
+P 4050 10400
+F 0 "U108" H 4050 10450 50  0000 C CNN
+F 1 "LM2679T-12" H 4100 10250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerEven_Lead3.8mm_Vertical" H 4050 10400 50  0001 L BNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 4050 10400 50  0001 L BNN
+F 4 "83F4664" H 4050 10400 50  0001 L BNN "Field4"
+F 5 "TO220-7" H 4050 10400 50  0001 L BNN "Footprint"
+F 6 "National Semiconductor" H 4050 10400 50  0001 L BNN "Manufacturer"
+	1    4050 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:‎OMNI-220-18-25-1C‎ U109
+U 1 1 60307E1F
+P 3700 10700
+F 0 "U109" H 4328 10696 50  0000 L CNN
+F 1 "‎OMNI-220-18-25-1C‎" H 3650 10400 50  0000 L CNN
+F 2 "BoatControl:OMNI22018251C" H 4350 10800 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf" H 4350 10700 50  0001 L CNN
+F 4 "Heat Sinks omniKlip Heatsink for TO-220, 1 Clip, 18mm Wide, 25mm Long, Aluminum, Black Anodized" H 4350 10600 50  0001 L CNN "Description"
+F 5 "38" H 4350 10500 50  0001 L CNN "Height"
+F 6 "Wakefield-Vette" H 4350 10400 50  0001 L CNN "Manufacturer_Name"
+F 7 "OMNI-220-18-25-1C" H 4350 10300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "567-OMNI220-18-25-1C" H 4350 10200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.ca/ProductDetail/Wakefield-Vette/OMNI-220-18-25-1C/?qs=%2Fha2pyFaduiAywiHr9ZQjFN%2FeKndeuWwnh8ZcsLup6axl%252B9fl9WXdz0t2ymZGpDL" H 4350 10100 50  0001 L CNN "Mouser Price/Stock"
+	1    3700 10700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3700 10800
+NoConn ~ 3700 10700
+NoConn ~ 10950 10850
+NoConn ~ 10850 10850
+$Comp
+L BoatControl:OMNI-220-18-75-3C U?
+U 1 1 608A18B3
+P 10850 10850
+AR Path="/D1BB8DB4/608A18B3" Ref="U?"  Part="1" 
+AR Path="/608A18B3" Ref="U110"  Part="1" 
+F 0 "U110" V 11188 10622 50  0000 R CNN
+F 1 "OMNI-220-18-75-3C" V 11500 11200 50  0000 R CNN
+F 2 "BoatControl:OMNI22018753C" H 11500 10950 50  0001 L CNN
+F 3 "http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf" H 11500 10850 50  0001 L CNN
+F 4 "Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized" H 11500 10750 50  0001 L CNN "Description"
+F 5 "38" H 11500 10650 50  0001 L CNN "Height"
+F 6 "Wakefield-Vette" H 11500 10550 50  0001 L CNN "Manufacturer_Name"
+F 7 "OMNI-220-18-75-3C" H 11500 10450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "567-OMNI220-18-75-3C" H 11500 10350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" H 11500 10250 50  0001 L CNN "Mouser Price/Stock"
+	1    10850 10850
+	0    -1   -1   0   
+$EndComp
+Text Notes 10700 10100 0    50   ~ 0
+PFET Heatsink
 $EndSCHEMATC
