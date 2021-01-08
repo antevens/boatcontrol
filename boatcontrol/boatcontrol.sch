@@ -90,7 +90,7 @@ L boatcontrol-rescue:CP1_Small-Device C110
 U 1 1 6504B4A0
 P 6050 9550
 F 0 "C110" V 6000 9400 50  0000 C CNN
-F 1 "Illinois Capacitor " V 5900 9550 50  0001 C CNN
+F 1 "330UF" V 5900 9550 50  0001 C CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6050 9550 50  0001 C CNN
 F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 6050 9550 50  0001 C CNN
 F 4 "337AVG035MGBJ" V 6200 9550 50  0001 C CNN "Field4"
@@ -669,7 +669,7 @@ L boatcontrol-rescue:CP1_Small-Device C117
 U 1 1 65064552
 P 6050 10650
 F 0 "C117" V 6000 10500 50  0000 C CNN
-F 1 "Illinois Capacitor " V 5950 10650 50  0001 C CNN
+F 1 "330UF" V 5950 10650 50  0001 C CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 6050 10650 50  0001 C CNN
 F 3 "http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG%20series.pdf" H 6050 10650 50  0001 C CNN
 F 4 "337AVG035MGBJ" V 6200 10650 50  0001 C CNN "Field4"
@@ -3511,5 +3511,16 @@ F 8 "567-OMNI220-18-75-3C" H 10950 10350 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" H 10950 10250 50  0001 L CNN "Mouser Price/Stock"
 	1    10300 10850
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO103
+U 1 1 61408104
+P 14650 10300
+F 0 "LOGO103" H 14650 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 14650 10075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_38.1x40mm_SilkScreen" H 14650 10300 50  0001 C CNN
+F 3 "~" H 14650 10300 50  0001 C CNN
+	1    14650 10300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

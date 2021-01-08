@@ -1,4 +1,4 @@
-(module DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FEB873F)
+(module DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596)
   (descr "N (R-PDIP-T)")
   (tags "Integrated Circuit")
   (fp_text reference IC** (at 0 -11.43) (layer F.SilkS)
@@ -37,8 +37,8 @@
   (pad 3 thru_hole circle (at -3.97 -3.81) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.97 -6.35) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.97 -8.89) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask))
-  (model CD74HCT221E.stp
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+    (offset (xyz -3.8 9 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
