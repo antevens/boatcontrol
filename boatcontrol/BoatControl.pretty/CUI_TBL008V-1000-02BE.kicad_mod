@@ -1,4 +1,4 @@
-(module CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FEB85E3)
+(module CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DA5A)
   (fp_text reference REF** (at 1.826 -8.604) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -25,4 +25,9 @@
   (pad 1_2 thru_hole oval (at 2.5 0) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask))
   (pad 1_1 thru_hole oval (at 0 0) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask))
   (pad 1_3 thru_hole oval (at 5 0) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008-1000-02BE.step
+    (offset (xyz 32.65 -19.8 18))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
 )

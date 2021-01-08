@@ -1,4 +1,4 @@
-19097782943787068
+19102614817841068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -357,6 +357,13 @@ CUI_TBP01R2W-508-16BE
 16
 16
 BoatControl
+CUI_TBP02R2W-381-02BE
+
+
+0
+2
+2
+BoatControl
 DIP254P762X432-16P
 
 
@@ -462,6 +469,13 @@ Schurter_Circuit_Breaker
 2
 2
 BoatControl
+SolderJumper-3_P1.3mm_Open_RoundedPad3.0x4.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+BoatControl
 TE_2071366-2
 
 
@@ -475,6 +489,13 @@ TO-220
 0
 2
 2
+BoatControl
+TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical
+TO-220-7, Vertical, RM 1.27mm, Multiwatt-7, staggered type-1
+TO-220-7 Vertical RM 1.27mm Multiwatt-7 staggered type-1
+0
+7
+7
 BoatControl
 TO127P457X1016X2052-7P
 
