@@ -3753,7 +3753,7 @@
     )
   )
 
-  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DA5A) (tstamp 5FF80D43)
+  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DD22) (tstamp 5FF80D43)
     (at 44 169 270)
     (path /D1BB8DB4/D2B4FEF1)
     (fp_text reference J5108 (at 1.826 -8.604 90) (layer F.SilkS)
@@ -3788,10 +3788,10 @@
       (net 255 "Net-(J5108-Pad2_1)"))
     (pad 2_2 thru_hole oval (at 12.5 15 270) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask)
       (net 255 "Net-(J5108-Pad2_1)"))
-    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008-1000-02BE.step
-      (offset (xyz 32.65 -19.8 18))
+    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008V-1000-02BE.step
+      (offset (xyz 4.28 0.87 24))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 -90 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -3841,7 +3841,7 @@
     )
   )
 
-  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DA5A) (tstamp 5FF6D2F3)
+  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DD22) (tstamp 5FF6D2F3)
     (at 44 136 270)
     (path /D1BB8DB4/D24C1AB1)
     (fp_text reference J5104 (at 1.826 -8.604 90) (layer F.SilkS)
@@ -3876,10 +3876,10 @@
       (net 574 "Net-(J5104-Pad2_1)"))
     (pad 2_2 thru_hole oval (at 12.5 15 270) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask)
       (net 574 "Net-(J5104-Pad2_1)"))
-    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008-1000-02BE.step
-      (offset (xyz 32.65 -19.8 18))
+    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008V-1000-02BE.step
+      (offset (xyz 4.28 0.87 24))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 -90 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -3929,7 +3929,7 @@
     )
   )
 
-  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DA5A) (tstamp 5FDE7C81)
+  (module BoatControl:CUI_TBL008V-1000-02BE (layer F.Cu) (tedit 5FF7DD22) (tstamp 5FDE7C81)
     (at 44 202 270)
     (path /D16552B4/D1AAA18D)
     (fp_text reference J206 (at 1.826 -8.604 90) (layer F.SilkS)
@@ -3964,10 +3964,10 @@
       (net 65 "Net-(J206-Pad2_1)"))
     (pad 2_2 thru_hole oval (at 12.5 15 270) (size 2.3 4.6) (drill 1.8) (layers *.Cu *.Mask)
       (net 65 "Net-(J206-Pad2_1)"))
-    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008-1000-02BE.step
-      (offset (xyz 32.65 -19.8 18))
+    (model ${KIPRJMOD}/CUI_DEVICES_TBL008-1000-02BE/CUI_DEVICES_TBL008V-1000-02BE.step
+      (offset (xyz 4.28 0.87 24))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 -90 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -4028,8 +4028,8 @@
       (net 350 "/Mixed 12V DC / 230V AC Common Bank/230V AC 6A Block/MultiVibrator6A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4092,8 +4092,8 @@
       (net 346 "/Mixed 12V DC / 230V AC Common Bank/230V AC 6A Block/MultiVibrator6A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4156,8 +4156,8 @@
       (net 342 "/Mixed 12V DC / 230V AC Common Bank/230V AC 6A Block/MultiVibrator6A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4220,8 +4220,8 @@
       (net 338 "/Mixed 12V DC / 230V AC Common Bank/230V AC 6A Block/MultiVibrator6A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4284,8 +4284,8 @@
       (net 334 "/Mixed 12V DC / 230V AC Common Bank/12V DC 10/16A Block/MultiVibrator16A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4348,8 +4348,8 @@
       (net 330 "/Mixed 12V DC / 230V AC Common Bank/12V DC 10/16A Block/MultiVibrator16A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4412,8 +4412,8 @@
       (net 326 "/Mixed 12V DC / 230V AC Common Bank/12V DC 10/16A Block/MultiVibrator10A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4476,8 +4476,8 @@
       (net 322 "/Mixed 12V DC / 230V AC Common Bank/12V DC 10/16A Block/MultiVibrator10A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4540,8 +4540,8 @@
       (net 318 "/Mixed 12V DC / 230V AC Common Bank/230V AC 10/16A Block/MultiVibrator16A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4604,8 +4604,8 @@
       (net 314 "/Mixed 12V DC / 230V AC Common Bank/230V AC 10/16A Block/MultiVibrator16A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 8.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4668,8 +4668,8 @@
       (net 310 "/Mixed 12V DC / 230V AC Common Bank/230V AC 10/16A Block/MultiVibrator10A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 8.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4732,8 +4732,8 @@
       (net 306 "/Mixed 12V DC / 230V AC Common Bank/230V AC 10/16A Block/MultiVibrator10A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 8.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4796,8 +4796,8 @@
       (net 302 "/Mixed 12V DC / 230V AC Common Bank/12V DC 6A Block/MultiVibrator6A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4860,8 +4860,8 @@
       (net 298 "/Mixed 12V DC / 230V AC Common Bank/12V DC 6A Block/MultiVibrator6A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4924,8 +4924,8 @@
       (net 294 "/Mixed 12V DC / 230V AC Common Bank/12V DC 6A Block/MultiVibrator6A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4988,8 +4988,8 @@
       (net 291 "/Mixed 12V DC / 230V AC Common Bank/12V DC 6A Block/MultiVibrator6A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5052,8 +5052,8 @@
       (net 133 "/12V DC Common Bank/12V DC Block 4/MultiVibrator3A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5116,8 +5116,8 @@
       (net 129 "/12V DC Common Bank/12V DC Block 4/MultiVibrator3A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5180,8 +5180,8 @@
       (net 125 "/12V DC Common Bank/12V DC Block 4/MultiVibrator3A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5244,8 +5244,8 @@
       (net 110 "/12V DC Common Bank/12V DC Block 4/MultiVibrator3A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5308,8 +5308,8 @@
       (net 121 "/12V DC Common Bank/12V DC Block 3/MultiVibrator3A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5372,8 +5372,8 @@
       (net 117 "/12V DC Common Bank/12V DC Block 3/MultiVibrator3A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5437,7 +5437,7 @@
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
     (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5500,8 +5500,8 @@
       (net 106 "/12V DC Common Bank/12V DC Block 3/MultiVibrator3A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5564,8 +5564,8 @@
       (net 101 "/12V DC Common Bank/12V DC Block 2/MultiVibrator3A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5628,8 +5628,8 @@
       (net 97 "/12V DC Common Bank/12V DC Block 2/MultiVibrator3A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5692,8 +5692,8 @@
       (net 93 "/12V DC Common Bank/12V DC Block 2/MultiVibrator3A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5756,8 +5756,8 @@
       (net 90 "/12V DC Common Bank/12V DC Block 2/MultiVibrator3A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5820,8 +5820,8 @@
       (net 85 "/12V DC Common Bank/12V DC Block 1/MultiVibrator3A4/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5884,8 +5884,8 @@
       (net 81 "/12V DC Common Bank/12V DC Block 1/MultiVibrator3A3/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5948,8 +5948,8 @@
       (net 77 "/12V DC Common Bank/12V DC Block 1/MultiVibrator3A2/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -6012,8 +6012,8 @@
       (net 74 "/12V DC Common Bank/12V DC Block 1/MultiVibrator3A1/RC1"))
     (pad 16 thru_hole circle (at 3.97 -8.89 90) (size 1.13 1.13) (drill 0.73) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model CD74HCT221E.stp
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}//Package_DIP.3dshapes/DIP-16_W7.62mm.step
+      (offset (xyz -3.8 9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
