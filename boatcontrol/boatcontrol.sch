@@ -40,12 +40,12 @@ $EndComp
 $Comp
 L power:+12V #PWR0119
 U 1 1 F534C05E
-P 1650 8850
-F 0 "#PWR0119" H 1650 8700 50  0001 C CNN
-F 1 "+12V" H 1665 9023 50  0000 C CNN
-F 2 "" H 1650 8850 50  0001 C CNN
-F 3 "" H 1650 8850 50  0001 C CNN
-	1    1650 8850
+P 2250 8850
+F 0 "#PWR0119" H 2250 8700 50  0001 C CNN
+F 1 "+12V" H 2265 9023 50  0000 C CNN
+F 2 "" H 2250 8850 50  0001 C CNN
+F 3 "" H 2250 8850 50  0001 C CNN
+	1    2250 8850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,14 +172,14 @@ Wire Wire Line
 $Comp
 L BoatControl:SchurterCircuitBreaker CB101
 U 1 1 72FBD2F1
-P 2050 8650
-F 0 "CB101" H 2200 8600 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 3a" H 2950 8700 50  0001 R CNN
-F 2 "BoatControl:Schurter_Circuit_Breaker" H 2050 8650 50  0001 C CNN
-F 3 "" H 2050 8650 50  0001 C CNN
-F 4 "4404.0096" V 2050 8650 50  0001 C CNN "Manufacturer ID"
-	1    2050 8650
-	1    0    0    -1  
+P 1700 9200
+F 0 "CB101" V 1500 8850 50  0000 R CNN
+F 1 "SchurterCircuitBreaker 3a" H 2600 9250 50  0001 R CNN
+F 2 "BoatControl:Schurter_Circuit_Breaker" H 1700 9200 50  0001 C CNN
+F 3 "" H 1700 9200 50  0001 C CNN
+F 4 "4404.0096" V 1700 9200 50  0001 C CNN "Manufacturer ID"
+	1    1700 9200
+	0    1    -1   0   
 $EndComp
 $Comp
 L BoatControl:TBP02R2W-381-02BE J111
@@ -216,9 +216,6 @@ Wire Wire Line
 	4900 9400 6050 9400
 Wire Wire Line
 	5450 10950 6050 10950
-Wire Wire Line
-	1650 8850 1800 8850
-Connection ~ 1650 8850
 Wire Wire Line
 	1450 9750 1500 9750
 Wire Wire Line
@@ -558,13 +555,13 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5F276561
-P 1500 8850
-F 0 "#FLG0103" H 1500 8925 50  0001 C CNN
-F 1 "PWR_FLAG" V 1500 9150 50  0000 C CNN
-F 2 "" H 1500 8850 50  0001 C CNN
-F 3 "~" H 1500 8850 50  0001 C CNN
-	1    1500 8850
-	0    -1   -1   0   
+P 3100 8850
+F 0 "#FLG0103" H 3100 8925 50  0001 C CNN
+F 1 "PWR_FLAG" V 3100 9150 50  0000 C CNN
+F 2 "" H 3100 8850 50  0001 C CNN
+F 3 "~" H 3100 8850 50  0001 C CNN
+	1    3100 8850
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	13600 3250 14350 3250
@@ -640,8 +637,6 @@ F 3 "" H 14350 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7100 9300
-Wire Wire Line
-	1500 8850 1650 8850
 $Comp
 L Device:C_Small C109
 U 1 1 715F6AB2
@@ -876,9 +871,8 @@ F 5 "C322C106K3R5TA" V 6350 10650 50  0001 C CNN "Model"
 $EndComp
 Wire Wire Line
 	6350 10950 6350 10750
-Connection ~ 1500 8850
 Wire Wire Line
-	1500 8850 1500 9050
+	1500 8850 1500 8950
 Text GLabel 15050 4250 2    50   Input ~ 0
 12V_DC_C24_OFF
 Text GLabel 15050 4050 2    50   Input ~ 0
@@ -914,16 +908,16 @@ Wire Wire Line
 Wire Wire Line
 	2250 10950 2600 10950
 Wire Wire Line
-	2100 9850 2250 9850
+	2100 9850 2150 9850
 $Comp
 L power:GND #PWR0122
 U 1 1 602AEA4D
-P 1450 9850
-F 0 "#PWR0122" H 1450 9600 50  0001 C CNN
-F 1 "GND" H 1450 9700 50  0000 C CNN
-F 2 "" H 1450 9850 50  0001 C CNN
-F 3 "" H 1450 9850 50  0001 C CNN
-	1    1450 9850
+P 2150 9850
+F 0 "#PWR0122" H 2150 9600 50  0001 C CNN
+F 1 "GND" H 2150 9700 50  0000 C CNN
+F 2 "" H 2150 9850 50  0001 C CNN
+F 3 "" H 2150 9850 50  0001 C CNN
+	1    2150 9850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -936,20 +930,6 @@ F 2 "Symbol:KiCad-Logo2_40mm_SilkScreen" H 15250 10300 50  0001 C CNN
 F 3 "~" H 15250 10300 50  0001 C CNN
 	1    15250 10300
 	1    0    0    -1  
-$EndComp
-$Comp
-L BoatControl:IPP120P04P4L-03 Q102
-U 1 1 5FE81B4F
-P 1500 9250
-F 0 "Q102" H 1300 9050 50  0000 L CNN
-F 1 "IPP120P04P4L-03" H 750 9450 50  0001 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1150 9800 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 1500 9250 50  0001 C CNN
-F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 1350 9900 50  0001 C CNN "Description"
-F 5 "OptiMOS" H 2100 9550 50  0001 C CNN "Series"
-F 6 "Infineon Technologies" H 2000 9650 50  0001 C CNN "Infineon Technologies"
-	1    1500 9250
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
@@ -967,8 +947,6 @@ F 6 "680 Ohms ±1% 0.6W Through Hole Resistor Axial Metal Film" H 2300 9600 50  
 	1    2300 9600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 8850 2500 8850
 Wire Wire Line
 	2500 8850 2500 9950
 Connection ~ 2500 8850
@@ -1107,7 +1085,7 @@ AR Path="/D1BB8DB4/5F75E923/60474907/60169088" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/60474911/60169088" Ref="D?"  Part="1" 
 AR Path="/D16552B4/60169088" Ref="D?"  Part="1" 
 F 0 "D103" H 1850 9700 50  0000 C CNN
-F 1 "20mA R/G Bicolor" H 1950 9850 50  0000 C CNN
+F 1 "20mA R/G Bicolor" H 2000 9800 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 2000 9500 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 2000 9500 50  0001 C CNN
 F 4 "WP57EGW" H 2000 9500 50  0001 C CNN "Model"
@@ -1115,10 +1093,6 @@ F 5 "Kingbright" H 2000 9500 50  0001 C CNN "Manufacturer"
 	1    2000 9500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 9250 2400 9250
-Wire Wire Line
-	2400 9250 2400 9850
 Connection ~ 2400 9850
 Wire Wire Line
 	2400 9850 2600 9850
@@ -1210,7 +1184,7 @@ $Comp
 L BoatControl:SchurterCircuitBreaker CB102
 U 1 1 63E4071D
 P 1850 9650
-F 0 "CB102" H 2000 9600 50  0000 R CNN
+F 0 "CB102" H 1950 9100 50  0000 R CNN
 F 1 "SchurterCircuitBreaker 3a" H 2750 9700 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 1850 9650 50  0001 C CNN
 F 3 "" H 1850 9650 50  0001 C CNN
@@ -1222,7 +1196,6 @@ Text Notes 650  10650 0    50   ~ 0
 Allows Input voltages from \n12-30V DC
 Text Notes 650  10450 0    51   ~ 10
 Optional 12V PSU\n
-Connection ~ 1450 9850
 Connection ~ 1600 9850
 Wire Notes Line
 	2100 10050 6850 10050
@@ -3431,7 +3404,7 @@ P 1600 9500
 AR Path="/61AD99B5" Ref="JP115"  Part="1" 
 AR Path="/D16552B4/61AD99B5" Ref="JP?"  Part="1" 
 AR Path="/D1BB8DB4/61AD99B5" Ref="JP?"  Part="1" 
-F 0 "JP115" H 1600 9600 50  0000 C CNN
+F 0 "JP115" H 1550 9600 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 1650 9400 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 9500 50  0001 C CNN
 F 3 "~" H 1600 9500 50  0001 C CNN
@@ -3522,5 +3495,34 @@ F 2 "Symbol:OSHW-Logo_38.1x40mm_SilkScreen" H 14650 10300 50  0001 C CNN
 F 3 "~" H 14650 10300 50  0001 C CNN
 	1    14650 10300
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 8850 2250 8850
+Wire Wire Line
+	2000 9150 2400 9150
+Wire Wire Line
+	2400 9150 2400 9850
+Connection ~ 2250 8850
+Wire Wire Line
+	2250 8850 2500 8850
+Wire Wire Line
+	1500 8850 1800 8850
+Connection ~ 3100 8850
+Connection ~ 2150 9850
+Wire Wire Line
+	2150 9850 2250 9850
+$Comp
+L BoatControl:IPP120P04P4L-03 Q102
+U 1 1 5FE81B4F
+P 2000 8850
+F 0 "Q102" V 2150 8750 50  0000 L CNN
+F 1 "IPP120P04P4L-03" H 1250 9050 50  0001 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1650 9400 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t" H 2000 8850 50  0001 C CNN
+F 4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" H 1850 9500 50  0001 C CNN "Description"
+F 5 "OptiMOS" H 2600 9150 50  0001 C CNN "Series"
+F 6 "Infineon Technologies" H 2500 9250 50  0001 C CNN "Infineon Technologies"
+	1    2000 8850
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
