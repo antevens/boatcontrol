@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 82 97
+Sheet 77 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -36,7 +36,7 @@ AR Path="/E171B33C/E142CD30/D2F31428" Ref="U4001"  Part="1"
 AR Path="/E171B33C/E15855D9/D2F31428" Ref="U4501"  Part="1" 
 AR Path="/601318CC/E142CD30/D2F31428" Ref="U8802"  Part="1" 
 AR Path="/601318CC/E15855D9/D2F31428" Ref="U9301"  Part="1" 
-F 0 "U9301" V 4100 3250 50  0000 L CNN
+F 0 "U8802" V 4100 3250 50  0000 L CNN
 F 1 "TBD62783APG" V 3850 3100 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 4050 2750 50  0001 L CNN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783AFG" H 4100 3200 50  0001 C CNN
@@ -337,22 +337,10 @@ F7 "ON" O R 6300 3100 50
 $EndSheet
 Wire Wire Line
 	4550 2750 5300 2750
-Text HLabel 7600 5250 0    50   Input ~ 0
-DIG_OFF_C4
-Text HLabel 7650 5400 0    50   Input ~ 0
-DIG_ON_C4
-Text HLabel 7700 5550 0    50   Input ~ 0
-DIG_OFF_C3
 Text HLabel 7750 5700 0    50   Input ~ 0
-DIG_ON_C3
-Text HLabel 7750 1200 0    50   Input ~ 0
 DIG_OFF_C2
-Text HLabel 7700 1350 0    50   Input ~ 0
+Text HLabel 7700 5550 0    50   Input ~ 0
 DIG_ON_C2
-Text HLabel 7650 1500 0    50   Input ~ 0
-DIG_OFF_C1
-Text HLabel 7600 1650 0    50   Input ~ 0
-DIG_ON_C1
 Wire Wire Line
 	7600 3100 7600 1600
 Wire Wire Line
@@ -384,11 +372,23 @@ AR Path="/E171B33C/E142CD30/D2B5CDA1" Ref="RN4001"  Part="1"
 AR Path="/E171B33C/E15855D9/D2B5CDA1" Ref="RN4501"  Part="1" 
 AR Path="/601318CC/E142CD30/D2B5CDA1" Ref="RN8801"  Part="1" 
 AR Path="/601318CC/E15855D9/D2B5CDA1" Ref="RN9301"  Part="1" 
-F 0 "RN9301" V 6850 3350 50  0000 L CNN
+F 0 "RN8801" V 6850 3350 50  0000 L CNN
 F 1 "4116R-1-471" H 7100 3050 50  0000 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 7875 3500 50  0001 C CNN
 F 3 "~" H 7400 3500 50  0001 C CNN
 	1    7400 3500
 	0    1    1    0   
 $EndComp
+Text HLabel 7650 5400 0    50   Input ~ 0
+DIG_OFF_C1
+Text HLabel 7650 1500 0    50   Input ~ 0
+DIG_ON_C4
+Text HLabel 7600 1650 0    50   Input ~ 0
+DIG_OFF_C4
+Text HLabel 7600 5250 0    50   Input ~ 0
+DIG_ON_C1
+Text HLabel 7700 1350 0    50   Input ~ 0
+DIG_OFF_C3
+Text HLabel 7750 1200 0    50   Input ~ 0
+DIG_ON_C3
 $EndSCHEMATC
