@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 10550 2600 10950
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C110
+L Device:C_Small C110
 U 1 1 6504B4A0
 P 6050 9550
 F 0 "C110" V 6000 9400 50  0000 C CNN
@@ -660,7 +660,7 @@ Wire Wire Line
 	2750 9450 2750 9850
 Connection ~ 2750 9850
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C117
+L Device:C_Small C117
 U 1 1 65064552
 P 6050 10650
 F 0 "C117" V 6000 10500 50  0000 C CNN
@@ -697,7 +697,7 @@ $EndComp
 Wire Wire Line
 	6050 10400 6200 10400
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C114
+L Device:C_Small C114
 U 1 1 645F271A
 P 2600 10450
 F 0 "C114" V 2550 10300 50  0000 C CNN
@@ -710,7 +710,7 @@ F 5 "CAP ALUM POLY 220UF 20% 50V T/H" V 2600 10450 50  0001 C CNN "Field5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C107
+L Device:C_Small C107
 U 1 1 FF7CD4D1
 P 2600 9350
 F 0 "C107" V 2550 9200 50  0000 C CNN
@@ -746,7 +746,7 @@ Wire Wire Line
 	6200 10400 6350 10400
 Connection ~ 6200 10400
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C111
+L Device:C_Small C111
 U 1 1 60EF04B7
 P 6200 9550
 F 0 "C111" V 6150 9300 50  0000 L CNN
@@ -778,7 +778,7 @@ F 4 "CAP CER 10000PF 100V X7R RADIAL" V 3050 10500 50  0001 C CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C112
+L Device:C_Small C112
 U 1 1 60F6B2E0
 P 6350 9550
 F 0 "C112" V 6300 9300 50  0000 L CNN
@@ -793,7 +793,7 @@ $EndComp
 Wire Wire Line
 	6350 9850 6350 9650
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C118
+L Device:C_Small C118
 U 1 1 60FA0D25
 P 6200 10650
 F 0 "C118" V 6150 10400 50  0000 L CNN
@@ -806,7 +806,7 @@ F 5 "C322C224K5R5TA" V 6200 10650 50  0001 C CNN "Model"
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C115
+L Device:C_Small C115
 U 1 1 60FD3C92
 P 2750 10450
 F 0 "C115" V 2700 10200 50  0000 L CNN
@@ -819,7 +819,7 @@ F 5 "C322C224K5R5TA" V 2750 10450 50  0001 C CNN "Model"
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C108
+L Device:C_Small C108
 U 1 1 610069CE
 P 2750 9350
 F 0 "C108" V 2700 9100 50  0000 L CNN
@@ -857,7 +857,7 @@ Connection ~ 2600 10950
 Wire Wire Line
 	2600 10950 2750 10950
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C119
+L Device:C_Small C119
 U 1 1 61268DAC
 P 6350 10650
 F 0 "C119" V 6300 10400 50  0000 L CNN
@@ -957,7 +957,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 9750 1500 9500
 $Comp
-L boatcontrol-rescue:LED_Dual_2pin-Device D103
+L Device:LED_Dual_Bidirectional D103
 U 1 1 60169088
 P 2000 9500
 AR Path="/60169088" Ref="D103"  Part="1" 
@@ -1509,7 +1509,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 7750 2500 7750
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP101
+L BoatControl:Jumper_NO_Small JP101
 U 1 1 60ACF8FA
 P 2500 7850
 AR Path="/60ACF8FA" Ref="JP101"  Part="1" 
@@ -1642,7 +1642,7 @@ Wire Wire Line
 	8350 1500 8450 1500
 Connection ~ 8850 1800
 $Comp
-L boatcontrol-rescue:Jumper_NC_Small-Device JP114
+L BoatControl:Jumper_NC_Small JP114
 U 1 1 6791433C
 P 8200 1850
 AR Path="/6791433C" Ref="JP114"  Part="1" 
@@ -1681,7 +1681,7 @@ Wire Wire Line
 Connection ~ 7750 2300
 Connection ~ 7400 2300
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP113
+L BoatControl:Jumper_NO_Small JP113
 U 1 1 67872544
 P 8200 1800
 AR Path="/67872544" Ref="JP113"  Part="1" 
@@ -1701,7 +1701,7 @@ $EndComp
 Wire Wire Line
 	8850 2300 8850 1800
 $Comp
-L boatcontrol-rescue:LED_Dual_ACA-Device D104
+L Device:LED_Dual_AKA D104
 U 1 1 67673269
 P 8950 1500
 AR Path="/67673269" Ref="D104"  Part="1" 
@@ -1997,7 +1997,7 @@ F 3 "" H 6950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C102
+L Device:C_Small C102
 U 1 1 619E961F
 P 7100 1600
 F 0 "C102" V 7050 1350 50  0000 L CNN
@@ -2010,7 +2010,7 @@ F 5 "C320C104K3R5TA" V 7100 1600 50  0001 C CNN "Model"
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:CP1_Small-Device C101
+L Device:C_Small C101
 U 1 1 619E9617
 P 6950 1600
 F 0 "C101" V 6900 1350 50  0000 L CNN
@@ -2121,7 +2121,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 1400 1600 1400
 $Comp
-L boatcontrol-rescue:OX40HAT-raspberrypi_hat J3
+L BoatControl:OX40HAT-raspberrypi_hat J3
 U 1 1 58DFC771
 P 2700 1300
 F 0 "J3" H 3050 1400 50  0000 C CNN
@@ -2606,7 +2606,7 @@ F 3 "~" H 2850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP104
+L Jumper:SolderJumper_3_Bridged12 JP104
 U 1 1 5F38E27F
 P 2200 6200
 F 0 "JP104" H 2200 6313 50  0000 C CNN
@@ -2617,7 +2617,7 @@ F 3 "~" H 2200 6200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP105
+L Jumper:SolderJumper_3_Bridged12 JP105
 U 1 1 5F85FAA6
 P 2750 6300
 F 0 "JP105" H 2750 6413 50  0000 C CNN
@@ -2628,7 +2628,7 @@ F 3 "~" H 2750 6300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP103
+L Jumper:SolderJumper_3_Bridged12 JP103
 U 1 1 5F862BA1
 P 1700 6100
 F 0 "JP103" H 1700 6213 50  0000 C CNN
@@ -2639,7 +2639,7 @@ F 3 "~" H 1700 6100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP102
+L BoatControl:Jumper_NO_Small JP102
 U 1 1 5FCAE3CC
 P 2950 5450
 AR Path="/5FCAE3CC" Ref="JP102"  Part="1" 
@@ -2931,7 +2931,7 @@ F19 "A2C_A1" I B 10550 7850 50
 F20 "I2C_A2" I B 10450 7850 50 
 $EndSheet
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP106
+L Jumper:SolderJumper_3_Bridged12 JP106
 U 1 1 61A10D06
 P 10600 9200
 F 0 "JP106" H 10600 9313 50  0000 C CNN
@@ -2942,7 +2942,7 @@ F 3 "~" H 10600 9200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP108
+L Jumper:SolderJumper_3_Bridged12 JP108
 U 1 1 61A10D0C
 P 10800 8150
 F 0 "JP108" H 10800 8263 50  0000 C CNN
@@ -2953,7 +2953,7 @@ F 3 "~" H 10800 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP107
+L Jumper:SolderJumper_3_Bridged12 JP107
 U 1 1 61A10D12
 P 10700 8700
 F 0 "JP107" H 10700 8813 50  0000 C CNN
@@ -3029,7 +3029,7 @@ Text Notes 10600 1400 3    50   ~ 0
 I2C Address 0x24
 Connection ~ 11000 1100
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP111
+L Jumper:SolderJumper_3_Bridged12 JP111
 U 1 1 61AC976D
 P 10900 1800
 AR Path="/61AC976D" Ref="JP111"  Part="1" 
@@ -3068,7 +3068,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 2550 10650 2000
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP112
+L Jumper:SolderJumper_3_Bridged12 JP112
 U 1 1 61AC9767
 P 11000 1300
 AR Path="/61AC9767" Ref="JP112"  Part="1" 
@@ -3084,7 +3084,7 @@ F 3 "~" H 11000 1300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP109
+L Jumper:SolderJumper_3_Bridged12 JP109
 U 1 1 61AC9761
 P 10800 2350
 AR Path="/61AC9761" Ref="JP109"  Part="1" 
@@ -3398,7 +3398,7 @@ Wire Notes Line
 Text Notes 2300 11650 0    79   ~ 16
 Ground is only for logic level only and should never\nbe tied to negative or neutral on curcuits being switched!
 $Comp
-L boatcontrol-rescue:Jumper_NC_Small-Device JP115
+L BoatControl:Jumper_NC_Small JP115
 U 1 1 61AD99B5
 P 1600 9500
 AR Path="/61AD99B5" Ref="JP115"  Part="1" 
