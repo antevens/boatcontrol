@@ -386,7 +386,7 @@ F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:LED_Dual_ACA-Device D?
+L Device:LED_Dual_AKA D?
 U 1 1 E13B21BC
 P 6850 4450
 AR Path="/E13B21BC" Ref="D?"  Part="1" 

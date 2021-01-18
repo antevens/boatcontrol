@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L boatcontrol-rescue:LED_Dual_ACA-Device D?
+L Device:LED_Dual_AKA D?
 U 1 1 D2F4DB55
 P 5050 4350
 AR Path="/D2F4DB55" Ref="D?"  Part="1" 

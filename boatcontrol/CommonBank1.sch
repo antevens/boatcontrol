@@ -99,7 +99,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3000 750 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP?
+L BoatControl:Jumper_NO_Small JP?
 U 1 1 5FA17DEB
 P 1850 6100
 AR Path="/5FA17DEB" Ref="JP?"  Part="1" 
@@ -292,7 +292,7 @@ Wire Wire Line
 	950  7100 1450 7100
 Connection ~ 1450 7100
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP?
+L BoatControl:Jumper_NO_Small JP?
 U 1 1 5FA17E60
 P 1850 1950
 AR Path="/5FA17E60" Ref="JP?"  Part="1" 
@@ -841,7 +841,7 @@ I2C Address 0x20
 Text Notes 2550 6200 3    50   ~ 0
 I2C Address 0x21
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6915E1
 P 1800 2300
 AR Path="/5F6915E1" Ref="JP?"  Part="1" 
@@ -854,7 +854,7 @@ F 3 "~" H 1800 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6A218F
 P 1250 2400
 AR Path="/5F6A218F" Ref="JP?"  Part="1" 
@@ -867,7 +867,7 @@ F 3 "~" H 1250 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6A292D
 P 750 2500
 AR Path="/5F6A292D" Ref="JP?"  Part="1" 
@@ -880,7 +880,7 @@ F 3 "~" H 750 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6A5A05
 P 1800 6450
 AR Path="/5F6A5A05" Ref="JP?"  Part="1" 
@@ -893,7 +893,7 @@ F 3 "~" H 1800 6450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6AA0A1
 P 1250 6550
 AR Path="/5F6AA0A1" Ref="JP?"  Part="1" 
@@ -906,7 +906,7 @@ F 3 "~" H 1250 6550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5F6AA8E1
 P 750 6650
 AR Path="/5F6AA8E1" Ref="JP?"  Part="1" 
@@ -1011,7 +1011,7 @@ F 6 "Infineon Technologies" H 8450 6600 50  0001 C CNN "Infineon Technologies"
 	0    1    1    0   
 $EndComp
 $Comp
-L boatcontrol-rescue:LED_Dual_2pin-Device D?
+L Device:LED_Dual_Bidirectional D?
 U 1 1 5FECB36F
 P 9000 5850
 AR Path="/5FECB36F" Ref="D?"  Part="1" 
@@ -1164,7 +1164,7 @@ $EndComp
 Wire Wire Line
 	8700 6050 8700 6100
 $Comp
-L boatcontrol-rescue:Jumper_NC_Small-Device JP?
+L BoatControl:Jumper_NC_Small JP?
 U 1 1 617F409D
 P 9400 5850
 AR Path="/617F409D" Ref="JP?"  Part="1" 

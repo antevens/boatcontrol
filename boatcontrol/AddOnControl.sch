@@ -71,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4450 6050 4450
 $Comp
-L boatcontrol-rescue:Jumper_NO_Small-Device JP?
+L BoatControl:Jumper_NO_Small JP?
 U 1 1 E142CC74
 P 3000 3950
 AR Path="/E142CC74" Ref="JP?"  Part="1" 
@@ -637,7 +637,7 @@ ADDON_C5_OFF
 Text HLabel 5000 4400 2    50   Input ~ 0
 ADDON_C5_ON
 $Comp
-L boatcontrol-rescue:SolderJumper_3_Bridged12_Output-Jumper JP?
+L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 60593EAA
 P 9800 3850
 AR Path="/60593EAA" Ref="JP?"  Part="1" 

@@ -820,7 +820,7 @@ OFF_TO_ON
 Text Label 3900 5350 2    50   ~ 0
 ON_TO_OFF
 $Comp
-L boatcontrol-rescue:LED_Dual_ACA-Device D?
+L Device:LED_Dual_AKA D?
 U 1 1 5FFCB425
 P 5400 4200
 AR Path="/5FFCB425" Ref="D?"  Part="1" 

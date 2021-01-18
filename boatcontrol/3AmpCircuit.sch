@@ -316,7 +316,7 @@ Connection ~ 6650 4000
 Wire Wire Line
 	6650 4000 6400 4000
 $Comp
-L boatcontrol-rescue:LED_Dual_ACA-Device D?
+L Device:LED_Dual_AKA D?
 U 1 1 E14E2027
 P 6100 4000
 AR Path="/E14E2027" Ref="D?"  Part="1" 
