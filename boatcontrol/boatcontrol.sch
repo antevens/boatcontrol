@@ -3395,8 +3395,6 @@ Wire Notes Line
 	12850 8200 15850 8200
 Wire Notes Line
 	7300 7050 9300 7050
-Text Notes 2300 11650 0    79   ~ 16
-Ground is only for logic level only and should never\nbe tied to negative or neutral on curcuits being switched!
 $Comp
 L BoatControl:Jumper_NC_Small JP115
 U 1 1 61AD99B5
