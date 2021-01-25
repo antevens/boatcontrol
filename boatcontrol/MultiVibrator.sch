@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 68 97
+Sheet 10 97
 Title "Boat Control Hat"
 Date ""
 Rev "3"
@@ -14,11 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 3900 3450 0    50   ~ 0
-Analogue signals can be either momentary or latching.\nDigital signals are required to be momentary for analogue signals on the other input to keep working.\nBoth analogue and digital inputs are pulled up using 10k resistors.\nAnalogue signals trigger on "pull down" event when the input is pulled to ground.\nDigital signals trigger on "pull up" when the signal is alloved to rise to +5v.\nThe "on" multivibrator reset is triggered by the inverse "mux output" of the off multivibrator and vice versa.\n\nFor more information see TruthTable.ods spreadsheet
-Wire Wire Line
-	4400 4250 4400 4850
-Wire Wire Line
-	4850 4250 4400 4250
+Analogue signals can be either momentary or latching.\nDigital signals are required to be momentary for analogue signals on the other input to keep working.\nBoth analogue and digital inputs are pulled low using 100k resistors.\nAnalogue signals trigger on "pull up" event/edge when the input is pulled to +5V.\nDigital signals trigger on "pull down"event/edge when the signal is pulled to ground.\nThe  "ON" multivibrator reset is triggered by the inverse "mux output" of the "OFF" multivibrator and vice versa.\n\nFor more information see TruthTable.ods spreadsheet
 Wire Wire Line
 	4650 4050 4850 4050
 Wire Wire Line
@@ -103,7 +99,7 @@ AR Path="/D1BB8DB4/5F75E923/604747CD/5FD2B9DE" Ref="IC7101"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604747E7/5FD2B9DE" Ref="IC7201"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747F3/5FD2B9DE" Ref="IC7301"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747FF/5FD2B9DE" Ref="IC7401"  Part="1" 
-F 0 "IC8001" H 5450 4215 50  0000 C CNN
+F 0 "IC401" H 5450 4215 50  0000 C CNN
 F 1 "CD74HCT221E" H 5450 4124 50  0000 C CNN
 F 2 "DIP794W53P254L1930H508Q16N" H 5900 4050 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct221.pdf" H 5900 3950 50  0001 L CNN
@@ -213,12 +209,12 @@ AR Path="/D1BB8DB4/5F75E923/604747CD/5FDA22CD" Ref="#PWR07102"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604747E7/5FDA22CD" Ref="#PWR07202"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747F3/5FDA22CD" Ref="#PWR07302"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747FF/5FDA22CD" Ref="#PWR07402"  Part="1" 
-F 0 "#PWR08002" H 4850 4400 50  0001 C CNN
-F 1 "GND" V 4950 4600 50  0000 C CNN
+F 0 "#PWR0402" H 4850 4400 50  0001 C CNN
+F 1 "GND" H 4700 4600 50  0000 C CNN
 F 2 "" H 4850 4650 50  0001 C CNN
 F 3 "" H 4850 4650 50  0001 C CNN
 	1    4850 4650
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
@@ -303,7 +299,7 @@ AR Path="/D1BB8DB4/5F75E923/604747CD/5FD9FC74" Ref="#PWR07101"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604747E7/5FD9FC74" Ref="#PWR07201"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747F3/5FD9FC74" Ref="#PWR07301"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/604747FF/5FD9FC74" Ref="#PWR07401"  Part="1" 
-F 0 "#PWR08001" H 6050 3800 50  0001 C CNN
+F 0 "#PWR0401" H 6050 3800 50  0001 C CNN
 F 1 "+5V" V 6000 4050 50  0000 L CNN
 F 2 "" H 6050 3950 50  0001 C CNN
 F 3 "" H 6050 3950 50  0001 C CNN
@@ -326,10 +322,6 @@ Text HLabel 6250 4550 2    50   Input ~ 0
 AN_OFF
 Text HLabel 6250 4650 2    50   Input ~ 0
 DIG_OFF
-Wire Wire Line
-	4350 4900 4350 4150
-Wire Wire Line
-	4350 4150 4850 4150
 Connection ~ 6050 3950
 $Comp
 L power:GND #PWR0155
@@ -367,7 +359,7 @@ AR Path="/D1BB8DB4/5F75E923/604747F3/61CAF5C8" Ref="#PWR0181"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604747FF/61CAF5C8" Ref="#PWR0182"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B0F/61CAF5C8" Ref="#PWR0183"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B35/61CAF5C8" Ref="#PWR0185"  Part="1" 
-F 0 "#PWR0183" H 6050 3500 50  0001 C CNN
+F 0 "#PWR0155" H 6050 3500 50  0001 C CNN
 F 1 "GND" V 6055 3622 50  0000 R CNN
 F 2 "" H 6050 3750 50  0001 C CNN
 F 3 "" H 6050 3750 50  0001 C CNN
@@ -412,7 +404,7 @@ AR Path="/D1BB8DB4/5F75E923/604747F3/61CAE2AB" Ref="C7301"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604747FF/61CAE2AB" Ref="C7401"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B0F/61CAE2AB" Ref="C8001"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B35/61CAE2AB" Ref="C8201"  Part="1" 
-F 0 "C8001" H 5900 3650 50  0000 L CNN
+F 0 "C401" H 5900 3650 50  0000 L CNN
 F 1 "0.1μF" H 6141 3805 50  0001 L CNN
 F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 6050 3850 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/212/KEM_C1050_GOLDMAX_X7R-1518817.pdf" H 6050 3850 50  0001 C CNN
@@ -422,13 +414,11 @@ F 5 "C320C104K3R5TA" V 6050 3850 50  0001 C CNN "Model"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4650 4050 4650 4100
-Wire Wire Line
-	4650 3950 4650 3800
+	4650 3950 4650 3850
 $Comp
 L Diode:1N4148 D703
 U 1 1 6050CE68
-P 6700 4650
+P 6700 4600
 AR Path="/D16552B4/5FA17F38/61B95A95/6050CE68" Ref="D703"  Part="1" 
 AR Path="/D16552B4/5FA17F38/61B8E927/6050CE68" Ref="D603"  Part="1" 
 AR Path="/D16552B4/5FA17F38/5FC6571E/6050CE68" Ref="D403"  Part="1" 
@@ -461,17 +451,17 @@ AR Path="/D1BB8DB4/5F317CB5/60365B0F/6050CE68" Ref="D8003"  Part="1"
 AR Path="/D1BB8DB4/5F317CB5/60365B29/6050CE68" Ref="D8103"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B35/6050CE68" Ref="D8202"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B41/6050CE68" Ref="D8302"  Part="1" 
-F 0 "D8003" V 6654 4570 50  0000 R CNN
-F 1 "1N4148" V 6745 4570 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6700 4475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 4650 50  0001 C CNN
-	1    6700 4650
+F 0 "D403" V 6654 4520 50  0000 R CNN
+F 1 "1N4148" V 6745 4520 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6700 4425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 4600 50  0001 C CNN
+	1    6700 4600
 	0    -1   1    0   
 $EndComp
 $Comp
 L Diode:1N4148 D702
 U 1 1 604FEDB2
-P 4250 3950
+P 4250 4000
 AR Path="/D16552B4/5FA17F38/61B95A95/604FEDB2" Ref="D702"  Part="1" 
 AR Path="/D16552B4/5FA17F38/61B8E927/604FEDB2" Ref="D602"  Part="1" 
 AR Path="/D16552B4/5FA17F38/5FC6571E/604FEDB2" Ref="D402"  Part="1" 
@@ -504,35 +494,122 @@ AR Path="/D1BB8DB4/5F317CB5/60365B0F/604FEDB2" Ref="D8002"  Part="1"
 AR Path="/D1BB8DB4/5F317CB5/60365B29/604FEDB2" Ref="D8102"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B35/604FEDB2" Ref="D8201"  Part="1" 
 AR Path="/D1BB8DB4/5F317CB5/60365B41/604FEDB2" Ref="D8301"  Part="1" 
-F 0 "D8002" V 4296 3870 50  0000 R CNN
-F 1 "1N4148" V 4205 3870 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 3775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 3950 50  0001 C CNN
-	1    4250 3950
+F 0 "D402" V 4296 3920 50  0000 R CNN
+F 1 "1N4148" V 4205 3920 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 3825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 4000 50  0001 C CNN
+	1    4250 4000
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4650 4100 4250 4100
+	4650 4150 4250 4150
 Wire Wire Line
-	4650 3800 4250 3800
+	4650 3850 4250 3850
 Wire Wire Line
-	6250 4550 6250 4500
+	6250 4450 6700 4450
 Wire Wire Line
-	6250 4500 6700 4500
+	6700 4750 6250 4750
 Wire Wire Line
-	6700 4800 6250 4800
+	6250 4750 6250 4650
 Wire Wire Line
-	6250 4800 6250 4650
+	6250 4450 6250 4550
 Wire Wire Line
-	7100 4450 7100 4850
+	4650 4050 4650 4150
+$Comp
+L Device:C_Small C?
+U 1 1 602120C6
+P 6800 4450
+AR Path="/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/602120C6" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/5FC6571E/602120C6" Ref="C?"  Part="1" 
+F 0 "C?" V 6900 4350 50  0000 L CNN
+F 1 "1µF" H 5950 4350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 6800 4450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 6800 4450 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 6800 4450 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 6800 4450 50  0001 C CNN "Description"
+	1    6800 4450
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602124D8
+P 7200 4450
+F 0 "#PWR?" H 7200 4200 50  0001 C CNN
+F 1 "GND" H 7205 4277 50  0000 C CNN
+F 2 "" H 7200 4450 50  0001 C CNN
+F 3 "" H 7200 4450 50  0001 C CNN
+	1    7200 4450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7100 4850 4400 4850
+	7200 4450 6900 4450
+$Comp
+L Device:C_Small C?
+U 1 1 6021685A
+P 4150 4150
+AR Path="/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D2B5CDA9/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1EE/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/D1AAA1CA/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F38/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6021685A" Ref="C?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6021685A" Ref="C?"  Part="1" 
+F 0 "C?" V 4250 4150 50  0000 L CNN
+F 1 "1µF" H 3300 4050 50  0001 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4150 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C330C105K5R5TA7301/3726162" H 4150 4150 50  0001 C CNN
+F 4 "C330C105K5R5TA7301" V 4150 4150 50  0001 C CNN "Type"
+F 5 "1µF ±10% 50V Ceramic Capacitor X7R Radial" V 4150 4150 50  0001 C CNN "Description"
+	1    4150 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60216860
+P 3750 4150
+F 0 "#PWR?" H 3750 3900 50  0001 C CNN
+F 1 "GND" H 3755 3977 50  0000 C CNN
+F 2 "" H 3750 4150 50  0001 C CNN
+F 3 "" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6050 4450 7100 4450
+	3750 4150 4050 4150
 Wire Wire Line
-	4350 4900 7150 4900
+	6050 4450 6100 4450
 Wire Wire Line
-	7150 4900 7150 4350
+	6100 4450 6100 4850
 Wire Wire Line
-	6050 4350 7150 4350
+	6100 4850 4400 4850
+Wire Wire Line
+	4400 4850 4400 4250
+Wire Wire Line
+	4400 4250 4850 4250
+Wire Wire Line
+	6150 4350 6150 4900
+Wire Wire Line
+	6150 4900 4350 4900
+Wire Wire Line
+	4350 4900 4350 4200
+Wire Wire Line
+	4350 4200 4800 4200
+Wire Wire Line
+	4800 4200 4800 4150
+Wire Wire Line
+	4800 4150 4850 4150
+Wire Wire Line
+	6050 4350 6150 4350
+Text Notes 4750 3800 0    50   ~ 0
+ON side
+Text Notes 6250 4900 0    50   ~ 0
+OFF side
 $EndSCHEMATC

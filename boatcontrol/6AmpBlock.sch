@@ -242,23 +242,6 @@ Wire Wire Line
 	5700 4750 5700 4050
 Wire Wire Line
 	5700 4050 5900 4050
-$Comp
-L power:+5V #PWR?
-U 1 1 60365B8C
-P 2250 5300
-AR Path="/D16552B4/5FA17F38/60365B8C" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60365B8C" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60365B8C" Ref="#PWR?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60365B8C" Ref="#PWR?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/60365B8C" Ref="#PWR07903"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/60365B8C" Ref="#PWR05203"  Part="1" 
-F 0 "#PWR07903" H 2250 5150 50  0001 C CNN
-F 1 "+5V" H 2265 5473 50  0000 C CNN
-F 2 "" H 2250 5300 50  0001 C CNN
-F 3 "" H 2250 5300 50  0001 C CNN
-	1    2250 5300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6700 3850 6950 3850
 Wire Wire Line
@@ -566,9 +549,6 @@ F 5 "4609X-101-105LF" H 2450 4100 50  0001 C CNN "Type"
 	1    2450 4100
 	0    -1   1    0   
 $EndComp
-Connection ~ 2250 3700
-Wire Wire Line
-	2250 3700 2250 4600
 $Comp
 L Device:R_Network08 RN?
 U 1 1 62F1D24C
@@ -589,8 +569,6 @@ F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100pp
 	1    2450 5000
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2250 2800 2250 3700
 $Comp
 L Device:R_Network08 RN?
 U 1 1 62F2A731
@@ -611,9 +589,6 @@ F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100pp
 	1    2450 3200
 	0    -1   1    0   
 $EndComp
-Connection ~ 2250 4600
-Wire Wire Line
-	2250 4600 2250 5300
 Wire Wire Line
 	9350 2400 10350 2400
 Wire Wire Line
@@ -1071,4 +1046,41 @@ Wire Wire Line
 	6950 3150 6950 3850
 Wire Wire Line
 	7000 3250 7000 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 6027D066
+P 2250 3700
+AR Path="/D16552B4/5FA17F38/6027D066" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6027D066" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6027D066" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6027D066" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 3550 50  0001 C CNN
+F 1 "+5V" H 2400 3750 50  0000 C CNN
+F 2 "" H 2250 3700 50  0001 C CNN
+F 3 "" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6027D06C
+P 2250 2800
+F 0 "#PWR?" H 2250 2550 50  0001 C CNN
+F 1 "GND" H 2100 2750 50  0000 C CNN
+F 2 "" H 2250 2800 50  0001 C CNN
+F 3 "" H 2250 2800 50  0001 C CNN
+	1    2250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6027D072
+P 2250 4600
+F 0 "#PWR?" H 2250 4350 50  0001 C CNN
+F 1 "GND" H 2100 4550 50  0000 C CNN
+F 2 "" H 2250 4600 50  0001 C CNN
+F 3 "" H 2250 4600 50  0001 C CNN
+	1    2250 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

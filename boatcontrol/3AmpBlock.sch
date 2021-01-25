@@ -147,16 +147,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0303
 U 1 1 5FF7A29F
-P 1950 4950
+P 1950 3350
 AR Path="/D16552B4/5FA17F38/5FF7A29F" Ref="#PWR0303"  Part="1" 
 AR Path="/D16552B4/5FA17F52/5FF7A29F" Ref="#PWR01203"  Part="1" 
 AR Path="/D16552B4/5FA17F6C/5FF7A29F" Ref="#PWR02103"  Part="1" 
 AR Path="/D16552B4/5FA17F86/5FF7A29F" Ref="#PWR03003"  Part="1" 
-F 0 "#PWR0303" H 1950 4800 50  0001 C CNN
-F 1 "+5V" H 1965 5123 50  0000 C CNN
-F 2 "" H 1950 4950 50  0001 C CNN
-F 3 "" H 1950 4950 50  0001 C CNN
-	1    1950 4950
+F 0 "#PWR0303" H 1950 3200 50  0001 C CNN
+F 1 "+5V" H 2100 3400 50  0000 C CNN
+F 2 "" H 1950 3350 50  0001 C CNN
+F 3 "" H 1950 3350 50  0001 C CNN
+	1    1950 3350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -279,7 +279,6 @@ F 5 "4609X-101-105LF" H 2150 3750 50  0001 C CNN "Type"
 	1    2150 3750
 	0    -1   1    0   
 $EndComp
-Connection ~ 1950 3350
 $Comp
 L Device:R_Network08 RN301
 U 1 1 5FD52518
@@ -298,10 +297,6 @@ F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100pp
 	1    2150 2850
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	1950 2450 1950 3350
-Wire Wire Line
-	1950 3350 1950 4250
 $Comp
 L Device:R_Network08 RN304
 U 1 1 62E7DB4C
@@ -320,9 +315,6 @@ F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100pp
 	1    2150 4650
 	0    -1   1    0   
 $EndComp
-Connection ~ 1950 4250
-Wire Wire Line
-	1950 4250 1950 4950
 Wire Wire Line
 	10050 3200 10000 3200
 Wire Wire Line
@@ -1040,4 +1032,32 @@ Wire Wire Line
 	6650 2800 6650 3500
 Wire Wire Line
 	6700 2900 6700 3600
+$Comp
+L power:GND #PWR?
+U 1 1 6023C2C8
+P 1950 2450
+AR Path="/D16552B4/5FA17F38/6023C2C8" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6023C2C8" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6023C2C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 2200 50  0001 C CNN
+F 1 "GND" H 1800 2400 50  0000 C CNN
+F 2 "" H 1950 2450 50  0001 C CNN
+F 3 "" H 1950 2450 50  0001 C CNN
+	1    1950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6023CA9A
+P 1950 4250
+AR Path="/D16552B4/5FA17F38/6023CA9A" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6023CA9A" Ref="#PWR?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6023CA9A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 4000 50  0001 C CNN
+F 1 "GND" H 1800 4200 50  0000 C CNN
+F 2 "" H 1950 4250 50  0001 C CNN
+F 3 "" H 1950 4250 50  0001 C CNN
+	1    1950 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
