@@ -3382,10 +3382,6 @@ Wire Notes Line
 Wire Notes Line
 	9350 3150 9350 600 
 Wire Notes Line
-	9350 600  5900 600 
-Wire Notes Line
-	5900 600  5900 650 
-Wire Notes Line
 	12850 550  12850 8200
 Wire Notes Line
 	15850 8200 15850 550 
@@ -3523,4 +3519,6 @@ F 6 "Infineon Technologies" H 2500 9250 50  0001 C CNN "Infineon Technologies"
 	1    2000 8850
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	6000 600  9350 600 
 $EndSCHEMATC

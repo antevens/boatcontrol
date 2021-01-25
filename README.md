@@ -17,6 +17,12 @@ platforms. Note that these boards need to carry significant amounts of current
 (up to 660 Amperes!) and voltage (max 277V) and as such PCB thickness and
 clearances are critical along with proper thermal management.
 
+Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
+chance of surges or high voltages these should be isolated from the board using
+digital isolators or optocouplers and transient voltage suppressors. For the
+Raspberry Pi inputs you might also want to add debounce and and provide 3v from
+the isolated source.
+
 Special care has been taken to limit power consumption as much as possible, on
 it's own the board will only consume {INSERT_WATTS} watts when idle, if a
 Raspberry Pi (Rpi) Zero is mated it will add 80mA, a fully fledged RPi 4
