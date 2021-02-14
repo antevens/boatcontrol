@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 85 97
+Sheet 89 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -146,7 +146,7 @@ AR Path="/626FD005/E15855D9/E14BA326/E13B21A8" Ref="SW?"  Part="1"
 AR Path="/626FD005/E15855D9/E150D6D7/E13B21A8" Ref="SW?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150FD51/E13B21A8" Ref="SW?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150AEB9/E13B21A8" Ref="SW?"  Part="1" 
-F 0 "SW?" H 5500 3900 50  0000 C CNN
+F 0 "SW4102" H 5500 3900 50  0000 C CNN
 F 1 " ESB30" H 5550 4000 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 4150 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 4150 50  0001 C CNN
@@ -286,7 +286,7 @@ AR Path="/626FD005/E15855D9/E14BA326/E13B21AE" Ref="#PWR?"  Part="1"
 AR Path="/626FD005/E15855D9/E150D6D7/E13B21AE" Ref="#PWR?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150FD51/E13B21AE" Ref="#PWR?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150AEB9/E13B21AE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4300 4300 50  0001 C CNN
+F 0 "#PWR04101" H 4300 4300 50  0001 C CNN
 F 1 "+12P" V 4300 4700 50  0000 C CNN
 F 2 "" H 4300 4450 50  0001 C CNN
 F 3 "" H 4300 4450 50  0001 C CNN
@@ -426,7 +426,7 @@ AR Path="/626FD005/E15855D9/E14BA326/E13B21B4" Ref="SW?"  Part="1"
 AR Path="/626FD005/E15855D9/E150D6D7/E13B21B4" Ref="SW?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150FD51/E13B21B4" Ref="SW?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150AEB9/E13B21B4" Ref="SW?"  Part="1" 
-F 0 "SW?" H 5450 5050 50  0000 C CNN
+F 0 "SW4101" H 5450 5050 50  0000 C CNN
 F 1 " ESB30" H 5500 4950 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5750 5200 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5750 5200 50  0001 C CNN
@@ -566,7 +566,7 @@ AR Path="/626FD005/E15855D9/E14BA326/E13B21BC" Ref="D?"  Part="1"
 AR Path="/626FD005/E15855D9/E150D6D7/E13B21BC" Ref="D?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150FD51/E13B21BC" Ref="D?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150AEB9/E13B21BC" Ref="D?"  Part="1" 
-F 0 "D?" H 6650 4250 50  0000 C CNN
+F 0 "D4101" H 6650 4250 50  0000 C CNN
 F 1 "20mA R/G CC" H 6800 4150 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6850 4450 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW.pdf" H 6850 4450 50  0001 C CNN
@@ -613,15 +613,13 @@ AR Path="/626FD005/E15855D9/E14BA326/5F521E18" Ref="#PWR?"  Part="1"
 AR Path="/626FD005/E15855D9/E150D6D7/5F521E18" Ref="#PWR?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150FD51/5F521E18" Ref="#PWR?"  Part="1" 
 AR Path="/626FD005/E15855D9/E150AEB9/5F521E18" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7250 4200 50  0001 C CNN
+F 0 "#PWR04102" H 7250 4200 50  0001 C CNN
 F 1 "GND" V 7255 4322 50  0000 R CNN
 F 2 "" H 7250 4450 50  0001 C CNN
 F 3 "" H 7250 4450 50  0001 C CNN
 	1    7250 4450
 	1    0    0    -1  
 $EndComp
-Text Notes 2700 3100 0    50   ~ 0
-Buttons offer manual overide of relays using direct 12V.\n\nThere is no timing/pulse  circuit when operating  the switches so care should be taken not to energise relay coils for more than a few seconds.\n\nSetting each coil to "on" will disable the opposing coil to prevent both coils from being energnized at the same time.\n\nMomentary switches are easy to use and recommended.\n\nNon-momentary (latching) switches can be used by "double-clicking" and the advantage of these is that the relay can be disabled completely by setting both swtiches to the "on" position.\n\n
 Text HLabel 6550 4350 0    50   Input ~ 0
 ON_LED
 Text HLabel 6550 4550 0    50   Input ~ 0
@@ -671,4 +669,6 @@ Wire Wire Line
 	5200 3500 5950 3500
 Wire Wire Line
 	5200 4700 5550 4700
+Text Notes 2700 3100 0    50   ~ 0
+Buttons offer manual overide of relays using direct 12V.\n\nThere is no timing/pulse  circuit when operating  the switches so care should be taken not to energise relay coils for more than a few seconds.\n\nSetting each coil to "on" will disable the opposing coil to prevent both coils from being energnized at the same time.\n\nMomentary switches are easy to use and recommended.\n\nNon-momentary (latching) switches can be used by "double-clicking" and the advantage of these is that the relay can be disabled completely by setting both swtiches to the "on" position.\n\n
 $EndSCHEMATC

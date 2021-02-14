@@ -762,8 +762,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 4500 7100 6800
 Wire Wire Line
-	5950 6800 7100 6800
-Wire Wire Line
 	7050 4400 7050 6550
 Wire Wire Line
 	5950 6550 7050 6550

@@ -1228,7 +1228,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 7800 750  7800
 Connection ~ 7350 2250
-Text Notes 4800 1150 0    50   ~ 0
+Text Notes 4800 1100 0    50   ~ 0
 Dual current mirrors, only one should be enabled at any given time.\nIndicator LED will show any disparity,\nfaults can be bypassed using the jumpers to switch the active mirror.
 $Comp
 L power:GND #PWR0236
@@ -1605,7 +1605,7 @@ F 6 "Infineon Technologies" H 7100 1850 50  0001 C CNN "Infineon Technologies"
 	1    6600 1450
 	0    -1   -1   0   
 $EndComp
-Text Notes 5750 800  0    59   ~ 12
+Text Notes 5750 750  0    59   ~ 12
 5V Powered HAT Protection
 $Comp
 L power:GND #PWR0102
@@ -2576,7 +2576,7 @@ Text Label 6350 4100 1    50   ~ 0
 RPiBCM19_MISO
 Text Label 6450 4100 1    50   ~ 0
 RPiGND
-Text Notes 5650 3150 0    59   ~ 12
+Text Notes 5700 3250 0    59   ~ 12
 Addon board Relay Control and\nIO breakout for RPi pins over Cat5/RJ45
 Text Notes 9050 950  3    50   ~ 0
 I2C Address 0x24

@@ -9,6 +9,18 @@ D Bourns Isolated Resistor Array 10k +/-2% 8 Resistors, 2.25W Total, DIP package
 F http://www.bourns.com/pdfs/4100R.pdf
 $ENDCMP
 #
+$CMP 74HCT08
+D Quad 2-input AND
+K CMOS AND
+F https://www.ti.com/lit/ds/symlink/cd74hct08.pdf
+$ENDCMP
+#
+$CMP CD74HCT08E
+D Quad 2-input AND
+K CMOS AND
+F https://www.ti.com/lit/ds/symlink/cd74hct08.pdf
+$ENDCMP
+#
 $CMP CD74HCT221E
 D CD74HCT221E, Dual Monostable Multivibrator, HCT, 4mA 4.5  5.5 V 16-Pin PDIP
 F http://www.ti.com/lit/ds/symlink/cd74hct221.pdf
