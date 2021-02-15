@@ -3058,17 +3058,6 @@ Text GLabel 14350 4150 2    50   Input ~ 0
 12V_DC_C24_ON
 Text GLabel 14350 4350 2    50   Input ~ 0
 12V_DC_C24_OFF
-$Comp
-L power:GND #PWR0118
-U 1 1 612D9AE2
-P 11600 6850
-F 0 "#PWR0118" H 11600 6600 50  0001 C CNN
-F 1 "GND" H 11500 6850 50  0000 C CNN
-F 2 "" H 11600 6850 50  0001 C CNN
-F 3 "" H 11600 6850 50  0001 C CNN
-	1    11600 6850
-	1    0    0    -1  
-$EndComp
 Text GLabel 12900 5250 0    50   Input ~ 0
 12V_DC_C10_OFF
 Text GLabel 12900 5750 0    50   Input ~ 0
@@ -3203,11 +3192,11 @@ AR Path="/D16552B4/5FA17F6C/60BF4FAD" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/60BF4FAD" Ref="RN?"  Part="1" 
 AR Path="/60BF4FAD" Ref="RN101"  Part="1" 
 F 0 "RN101" V 11300 1850 50  0000 C CNN
-F 1 "100KΩ" V 11600 1550 50  0001 C CNN
+F 1 "10KΩ" V 11600 1550 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 12550 1950 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 1850 50  0001 L CNN
 F 4 "Bourns" H 12550 1550 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 12550 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 12550 1450 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 1850 50  0001 C CNN "Description"
 	1    11800 1850
 	0    -1   1    0   
@@ -3277,11 +3266,11 @@ AR Path="/D16552B4/5FA17F6C/6186F1F0" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/6186F1F0" Ref="RN?"  Part="1" 
 AR Path="/6186F1F0" Ref="RN102"  Part="1" 
 F 0 "RN102" V 11300 3650 50  0000 C CNN
-F 1 "100KΩ" V 11600 3350 50  0001 C CNN
+F 1 "10KΩ" V 11600 3350 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 12550 3750 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 3650 50  0001 L CNN
 F 4 "Bourns" H 12550 3350 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 12550 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 12550 3250 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 3650 50  0001 C CNN "Description"
 	1    11800 3650
 	0    -1   1    0   
@@ -3338,11 +3327,11 @@ AR Path="/D16552B4/5FA17F6C/618AC43B" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/618AC43B" Ref="RN?"  Part="1" 
 AR Path="/618AC43B" Ref="RN103"  Part="1" 
 F 0 "RN103" V 11300 5450 50  0000 C CNN
-F 1 "100KΩ" V 11600 5150 50  0001 C CNN
+F 1 "10KΩ" V 11600 5150 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 12550 5550 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 5450 50  0001 L CNN
 F 4 "Bourns" H 12550 5150 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 12550 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 12550 5050 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 5450 50  0001 C CNN "Description"
 	1    11800 5450
 	0    -1   1    0   
@@ -3399,11 +3388,11 @@ AR Path="/D16552B4/5FA17F6C/618F38D4" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/618F38D4" Ref="RN?"  Part="1" 
 AR Path="/618F38D4" Ref="RN104"  Part="1" 
 F 0 "RN104" V 11300 7250 50  0000 C CNN
-F 1 "100KΩ" V 11600 6950 50  0001 C CNN
+F 1 "10KΩ" V 11600 6950 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 12550 7350 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 7250 50  0001 L CNN
 F 4 "Bourns" H 12550 6950 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 12550 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 12550 6850 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 7250 50  0001 C CNN "Description"
 	1    11800 7250
 	0    -1   1    0   
@@ -3502,11 +3491,11 @@ AR Path="/D16552B4/5FA17F6C/619442CC" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/619442CC" Ref="RN?"  Part="1" 
 AR Path="/619442CC" Ref="RN105"  Part="1" 
 F 0 "RN105" V 14950 1850 50  0000 C CNN
-F 1 "100KΩ" V 15250 1550 50  0001 C CNN
+F 1 "10KΩ" V 15250 1550 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 16200 1950 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 1850 50  0001 L CNN
 F 4 "Bourns" H 16200 1550 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 16200 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 16200 1450 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 1850 50  0001 C CNN "Description"
 	1    15450 1850
 	0    1    1    0   
@@ -3563,11 +3552,11 @@ AR Path="/D16552B4/5FA17F6C/61B5F004" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/61B5F004" Ref="RN?"  Part="1" 
 AR Path="/61B5F004" Ref="RN106"  Part="1" 
 F 0 "RN106" V 14950 3650 50  0000 C CNN
-F 1 "100KΩ" V 15250 3350 50  0001 C CNN
+F 1 "10KΩ" V 15250 3350 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 16200 3750 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 3650 50  0001 L CNN
 F 4 "Bourns" H 16200 3350 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 16200 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 16200 3250 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 3650 50  0001 C CNN "Description"
 	1    15450 3650
 	0    1    1    0   
@@ -3624,11 +3613,11 @@ AR Path="/D16552B4/5FA17F6C/61BA4A89" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/61BA4A89" Ref="RN?"  Part="1" 
 AR Path="/61BA4A89" Ref="RN107"  Part="1" 
 F 0 "RN107" V 14950 5450 50  0000 C CNN
-F 1 "100KΩ" V 15250 5150 50  0001 C CNN
+F 1 "10KΩ" V 15250 5150 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 16200 5550 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 5450 50  0001 L CNN
 F 4 "Bourns" H 16200 5150 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 16200 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 16200 5050 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 5450 50  0001 C CNN "Description"
 	1    15450 5450
 	0    1    1    0   
@@ -3685,11 +3674,11 @@ AR Path="/D16552B4/5FA17F6C/61BF9881" Ref="RN?"  Part="1"
 AR Path="/D16552B4/5FA17F86/61BF9881" Ref="RN?"  Part="1" 
 AR Path="/61BF9881" Ref="RN108"  Part="1" 
 F 0 "RN108" V 14950 7250 50  0000 C CNN
-F 1 "100KΩ" V 15250 6950 50  0001 C CNN
+F 1 "10KΩ" V 15250 6950 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" H 16200 7350 50  0001 L CNN
 F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 7250 50  0001 L CNN
 F 4 "Bourns" H 16200 6950 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 16200 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "4609X-101-103LF" H 16200 6850 50  0001 L CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 7250 50  0001 C CNN "Description"
 	1    15450 7250
 	0    1    1    0   
@@ -3698,83 +3687,6 @@ Wire Notes Line
 	12700 8300 11400 8300
 Wire Notes Line
 	11400 8300 11400 650 
-$Comp
-L power:GND #PWR0116
-U 1 1 61FEBFB0
-P 11600 5050
-F 0 "#PWR0116" H 11600 4800 50  0001 C CNN
-F 1 "GND" H 11500 5050 50  0000 C CNN
-F 2 "" H 11600 5050 50  0001 C CNN
-F 3 "" H 11600 5050 50  0001 C CNN
-	1    11600 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0239
-U 1 1 620640EF
-P 11600 3250
-F 0 "#PWR0239" H 11600 3000 50  0001 C CNN
-F 1 "GND" H 11500 3250 50  0000 C CNN
-F 2 "" H 11600 3250 50  0001 C CNN
-F 3 "" H 11600 3250 50  0001 C CNN
-	1    11600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0240
-U 1 1 620B8419
-P 11600 1450
-F 0 "#PWR0240" H 11600 1200 50  0001 C CNN
-F 1 "GND" H 11500 1450 50  0000 C CNN
-F 2 "" H 11600 1450 50  0001 C CNN
-F 3 "" H 11600 1450 50  0001 C CNN
-	1    11600 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0241
-U 1 1 62117EF5
-P 15650 1450
-F 0 "#PWR0241" H 15650 1200 50  0001 C CNN
-F 1 "GND" H 15750 1450 50  0000 C CNN
-F 2 "" H 15650 1450 50  0001 C CNN
-F 3 "" H 15650 1450 50  0001 C CNN
-	1    15650 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0242
-U 1 1 621CBE66
-P 15650 3250
-F 0 "#PWR0242" H 15650 3000 50  0001 C CNN
-F 1 "GND" H 15750 3250 50  0000 C CNN
-F 2 "" H 15650 3250 50  0001 C CNN
-F 3 "" H 15650 3250 50  0001 C CNN
-	1    15650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0243
-U 1 1 6222950E
-P 15650 5050
-F 0 "#PWR0243" H 15650 4800 50  0001 C CNN
-F 1 "GND" H 15750 5050 50  0000 C CNN
-F 2 "" H 15650 5050 50  0001 C CNN
-F 3 "" H 15650 5050 50  0001 C CNN
-	1    15650 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0244
-U 1 1 622CF623
-P 15650 6850
-F 0 "#PWR0244" H 15650 6600 50  0001 C CNN
-F 1 "GND" H 15750 6850 50  0000 C CNN
-F 2 "" H 15650 6850 50  0001 C CNN
-F 3 "" H 15650 6850 50  0001 C CNN
-	1    15650 6850
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	12750 8300 15850 8300
 Wire Notes Line
@@ -3872,4 +3784,92 @@ Wire Notes Line
 	3700 550  500  550 
 Wire Notes Line
 	500  550  500  3350
+$Comp
+L power:+5V #PWR?
+U 1 1 60AFFDAB
+P 11600 1450
+F 0 "#PWR?" H 11600 1300 50  0001 C CNN
+F 1 "+5V" H 11615 1623 50  0000 C CNN
+F 2 "" H 11600 1450 50  0001 C CNN
+F 3 "" H 11600 1450 50  0001 C CNN
+	1    11600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60BE5976
+P 11600 3250
+F 0 "#PWR?" H 11600 3100 50  0001 C CNN
+F 1 "+5V" H 11615 3423 50  0000 C CNN
+F 2 "" H 11600 3250 50  0001 C CNN
+F 3 "" H 11600 3250 50  0001 C CNN
+	1    11600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60C49495
+P 11600 5050
+F 0 "#PWR?" H 11600 4900 50  0001 C CNN
+F 1 "+5V" H 11615 5223 50  0000 C CNN
+F 2 "" H 11600 5050 50  0001 C CNN
+F 3 "" H 11600 5050 50  0001 C CNN
+	1    11600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60CBEE87
+P 11600 6850
+F 0 "#PWR?" H 11600 6700 50  0001 C CNN
+F 1 "+5V" H 11615 7023 50  0000 C CNN
+F 2 "" H 11600 6850 50  0001 C CNN
+F 3 "" H 11600 6850 50  0001 C CNN
+	1    11600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D2B573
+P 15650 6850
+F 0 "#PWR?" H 15650 6700 50  0001 C CNN
+F 1 "+5V" H 15665 7023 50  0000 C CNN
+F 2 "" H 15650 6850 50  0001 C CNN
+F 3 "" H 15650 6850 50  0001 C CNN
+	1    15650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D875B2
+P 15650 5050
+F 0 "#PWR?" H 15650 4900 50  0001 C CNN
+F 1 "+5V" H 15665 5223 50  0000 C CNN
+F 2 "" H 15650 5050 50  0001 C CNN
+F 3 "" H 15650 5050 50  0001 C CNN
+	1    15650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60DE48AF
+P 15650 3250
+F 0 "#PWR?" H 15650 3100 50  0001 C CNN
+F 1 "+5V" H 15665 3423 50  0000 C CNN
+F 2 "" H 15650 3250 50  0001 C CNN
+F 3 "" H 15650 3250 50  0001 C CNN
+	1    15650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60E4A5C6
+P 15650 1450
+F 0 "#PWR?" H 15650 1300 50  0001 C CNN
+F 1 "+5V" H 15665 1623 50  0000 C CNN
+F 2 "" H 15650 1450 50  0001 C CNN
+F 3 "" H 15650 1450 50  0001 C CNN
+	1    15650 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
