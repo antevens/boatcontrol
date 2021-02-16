@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name BoatControl)(type Legacy)(uri ${KIPRJMOD}/../../boatcontrol/BoatControl.lib)(options "")(descr ""))
-)

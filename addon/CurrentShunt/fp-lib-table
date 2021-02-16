@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name CurrentShunt)(type KiCad)(uri ${KIPRJMOD}/CurrentShunt.pretty)(options "")(descr ""))
-  (lib (name BoatControl)(type KiCad)(uri ${KIPRJMOD}/../../boatcontrol/BoatControl.pretty)(options "")(descr ""))
-)
