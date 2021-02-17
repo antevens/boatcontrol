@@ -3182,33 +3182,12 @@ Text GLabel 12900 1050 0    50   Input ~ 0
 12V_DC_C1_ON
 Wire Notes Line
 	15850 8300 15850 650 
-$Comp
-L Device:R_Network08 RN?
-U 1 1 60BF4FAD
-P 11800 1850
-AR Path="/D16552B4/5FA17F38/60BF4FAD" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/60BF4FAD" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/60BF4FAD" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/60BF4FAD" Ref="RN?"  Part="1" 
-AR Path="/60BF4FAD" Ref="RN101"  Part="1" 
-F 0 "RN101" V 11300 1850 50  0000 C CNN
-F 1 "10KΩ" V 11600 1550 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 12550 1950 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 1850 50  0001 L CNN
-F 4 "Bourns" H 12550 1550 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 12550 1450 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 1850 50  0001 C CNN "Description"
-	1    11800 1850
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	12150 1650 12000 1650
 Wire Wire Line
 	12100 1550 12000 1550
 Wire Wire Line
 	12050 1150 12050 1450
-Wire Wire Line
-	12050 1450 12000 1450
 Wire Wire Line
 	12000 1950 12100 1950
 Wire Wire Line
@@ -3228,8 +3207,6 @@ F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-
 	1    13000 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12000 2150 12000 2650
 Wire Wire Line
 	12000 2650 12900 2650
 Wire Wire Line
@@ -3256,25 +3233,6 @@ Wire Wire Line
 	12150 1650 12150 1550
 Wire Wire Line
 	12150 1550 12900 1550
-$Comp
-L Device:R_Network08 RN?
-U 1 1 6186F1F0
-P 11800 3650
-AR Path="/D16552B4/5FA17F38/6186F1F0" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/6186F1F0" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/6186F1F0" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/6186F1F0" Ref="RN?"  Part="1" 
-AR Path="/6186F1F0" Ref="RN102"  Part="1" 
-F 0 "RN102" V 11300 3650 50  0000 C CNN
-F 1 "10KΩ" V 11600 3350 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 12550 3750 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 3650 50  0001 L CNN
-F 4 "Bourns" H 12550 3350 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 12550 3250 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 3650 50  0001 C CNN "Description"
-	1    11800 3650
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	12150 3450 12000 3450
 Wire Wire Line
@@ -3289,8 +3247,6 @@ Wire Wire Line
 	12000 3850 12050 3850
 Wire Wire Line
 	12050 3850 12050 4250
-Wire Wire Line
-	12000 3950 12000 4450
 Wire Wire Line
 	12000 4450 12900 4450
 Wire Wire Line
@@ -3317,25 +3273,6 @@ Wire Wire Line
 	12150 3450 12150 3350
 Wire Wire Line
 	12150 3350 12900 3350
-$Comp
-L Device:R_Network08 RN?
-U 1 1 618AC43B
-P 11800 5450
-AR Path="/D16552B4/5FA17F38/618AC43B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/618AC43B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/618AC43B" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/618AC43B" Ref="RN?"  Part="1" 
-AR Path="/618AC43B" Ref="RN103"  Part="1" 
-F 0 "RN103" V 11300 5450 50  0000 C CNN
-F 1 "10KΩ" V 11600 5150 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 12550 5550 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 5450 50  0001 L CNN
-F 4 "Bourns" H 12550 5150 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 12550 5050 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 5450 50  0001 C CNN "Description"
-	1    11800 5450
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	12150 5250 12000 5250
 Wire Wire Line
@@ -3350,8 +3287,6 @@ Wire Wire Line
 	12000 5650 12050 5650
 Wire Wire Line
 	12050 5650 12050 6050
-Wire Wire Line
-	12000 5750 12000 6250
 Wire Wire Line
 	12000 6250 12900 6250
 Wire Wire Line
@@ -3378,25 +3313,6 @@ Wire Wire Line
 	12150 5250 12150 5150
 Wire Wire Line
 	12150 5150 12900 5150
-$Comp
-L Device:R_Network08 RN?
-U 1 1 618F38D4
-P 11800 7250
-AR Path="/D16552B4/5FA17F38/618F38D4" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/618F38D4" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/618F38D4" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/618F38D4" Ref="RN?"  Part="1" 
-AR Path="/618F38D4" Ref="RN104"  Part="1" 
-F 0 "RN104" V 11300 7250 50  0000 C CNN
-F 1 "10KΩ" V 11600 6950 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 12550 7350 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 12550 7250 50  0001 L CNN
-F 4 "Bourns" H 12550 6950 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 12550 6850 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 11800 7250 50  0001 C CNN "Description"
-	1    11800 7250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	12150 7050 12000 7050
 Wire Wire Line
@@ -3411,8 +3327,6 @@ Wire Wire Line
 	12000 7450 12050 7450
 Wire Wire Line
 	12050 7450 12050 7850
-Wire Wire Line
-	12000 7550 12000 8050
 Wire Wire Line
 	12000 8050 12900 8050
 Wire Wire Line
@@ -3466,8 +3380,6 @@ Wire Wire Line
 Wire Wire Line
 	15250 2650 14350 2650
 Wire Wire Line
-	15250 2150 15250 2650
-Wire Wire Line
 	15200 2050 15200 2450
 Wire Wire Line
 	15250 2050 15200 2050
@@ -3481,25 +3393,6 @@ Wire Wire Line
 	15150 1550 15250 1550
 Wire Wire Line
 	15100 1650 15250 1650
-$Comp
-L Device:R_Network08 RN?
-U 1 1 619442CC
-P 15450 1850
-AR Path="/D16552B4/5FA17F38/619442CC" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/619442CC" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/619442CC" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/619442CC" Ref="RN?"  Part="1" 
-AR Path="/619442CC" Ref="RN105"  Part="1" 
-F 0 "RN105" V 14950 1850 50  0000 C CNN
-F 1 "10KΩ" V 15250 1550 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 16200 1950 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 1850 50  0001 L CNN
-F 4 "Bourns" H 16200 1550 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 16200 1450 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 1850 50  0001 C CNN "Description"
-	1    15450 1850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	15100 3350 14350 3350
 Wire Wire Line
@@ -3542,25 +3435,6 @@ Wire Wire Line
 	15150 3350 15250 3350
 Wire Wire Line
 	15100 3450 15250 3450
-$Comp
-L Device:R_Network08 RN?
-U 1 1 61B5F004
-P 15450 3650
-AR Path="/D16552B4/5FA17F38/61B5F004" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/61B5F004" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/61B5F004" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/61B5F004" Ref="RN?"  Part="1" 
-AR Path="/61B5F004" Ref="RN106"  Part="1" 
-F 0 "RN106" V 14950 3650 50  0000 C CNN
-F 1 "10KΩ" V 15250 3350 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 16200 3750 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 3650 50  0001 L CNN
-F 4 "Bourns" H 16200 3350 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 16200 3250 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 3650 50  0001 C CNN "Description"
-	1    15450 3650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	15100 5150 14350 5150
 Wire Wire Line
@@ -3588,8 +3462,6 @@ Wire Wire Line
 Wire Wire Line
 	15250 6250 14350 6250
 Wire Wire Line
-	15250 5750 15250 6250
-Wire Wire Line
 	15200 5650 15200 6050
 Wire Wire Line
 	15250 5650 15200 5650
@@ -3603,25 +3475,6 @@ Wire Wire Line
 	15150 5150 15250 5150
 Wire Wire Line
 	15100 5250 15250 5250
-$Comp
-L Device:R_Network08 RN?
-U 1 1 61BA4A89
-P 15450 5450
-AR Path="/D16552B4/5FA17F38/61BA4A89" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/61BA4A89" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/61BA4A89" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/61BA4A89" Ref="RN?"  Part="1" 
-AR Path="/61BA4A89" Ref="RN107"  Part="1" 
-F 0 "RN107" V 14950 5450 50  0000 C CNN
-F 1 "10KΩ" V 15250 5150 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 16200 5550 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 5450 50  0001 L CNN
-F 4 "Bourns" H 16200 5150 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 16200 5050 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 5450 50  0001 C CNN "Description"
-	1    15450 5450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	15100 6950 14350 6950
 Wire Wire Line
@@ -3649,8 +3502,6 @@ Wire Wire Line
 Wire Wire Line
 	15250 8050 14350 8050
 Wire Wire Line
-	15250 7550 15250 8050
-Wire Wire Line
 	15200 7450 15200 7850
 Wire Wire Line
 	15250 7450 15200 7450
@@ -3664,25 +3515,6 @@ Wire Wire Line
 	15150 6950 15250 6950
 Wire Wire Line
 	15100 7050 15250 7050
-$Comp
-L Device:R_Network08 RN?
-U 1 1 61BF9881
-P 15450 7250
-AR Path="/D16552B4/5FA17F38/61BF9881" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/61BF9881" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/61BF9881" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/61BF9881" Ref="RN?"  Part="1" 
-AR Path="/61BF9881" Ref="RN108"  Part="1" 
-F 0 "RN108" V 14950 7250 50  0000 C CNN
-F 1 "10KΩ" V 15250 6950 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 16200 7350 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 16200 7250 50  0001 L CNN
-F 4 "Bourns" H 16200 6950 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-103LF" H 16200 6850 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 15450 7250 50  0001 C CNN "Description"
-	1    15450 7250
-	0    1    1    0   
-$EndComp
 Wire Notes Line
 	12700 8300 11400 8300
 Wire Notes Line
@@ -3785,69 +3617,14 @@ Wire Notes Line
 Wire Notes Line
 	500  550  500  3350
 $Comp
-L power:+5V #PWR0116
-U 1 1 60AFFDAB
-P 11600 1450
-F 0 "#PWR0116" H 11600 1300 50  0001 C CNN
-F 1 "+5V" H 11615 1623 50  0000 C CNN
-F 2 "" H 11600 1450 50  0001 C CNN
-F 3 "" H 11600 1450 50  0001 C CNN
-	1    11600 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0118
-U 1 1 60BE5976
-P 11600 3250
-F 0 "#PWR0118" H 11600 3100 50  0001 C CNN
-F 1 "+5V" H 11615 3423 50  0000 C CNN
-F 2 "" H 11600 3250 50  0001 C CNN
-F 3 "" H 11600 3250 50  0001 C CNN
-	1    11600 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0239
-U 1 1 60C49495
-P 11600 5050
-F 0 "#PWR0239" H 11600 4900 50  0001 C CNN
-F 1 "+5V" H 11615 5223 50  0000 C CNN
-F 2 "" H 11600 5050 50  0001 C CNN
-F 3 "" H 11600 5050 50  0001 C CNN
-	1    11600 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0240
-U 1 1 60CBEE87
-P 11600 6850
-F 0 "#PWR0240" H 11600 6700 50  0001 C CNN
-F 1 "+5V" H 11615 7023 50  0000 C CNN
-F 2 "" H 11600 6850 50  0001 C CNN
-F 3 "" H 11600 6850 50  0001 C CNN
-	1    11600 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0241
-U 1 1 60D2B573
-P 15650 6850
-F 0 "#PWR0241" H 15650 6700 50  0001 C CNN
-F 1 "+5V" H 15665 7023 50  0000 C CNN
-F 2 "" H 15650 6850 50  0001 C CNN
-F 3 "" H 15650 6850 50  0001 C CNN
-	1    15650 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0242
-U 1 1 60D875B2
-P 15650 5050
-F 0 "#PWR0242" H 15650 4900 50  0001 C CNN
-F 1 "+5V" H 15665 5223 50  0000 C CNN
-F 2 "" H 15650 5050 50  0001 C CNN
-F 3 "" H 15650 5050 50  0001 C CNN
-	1    15650 5050
+L power:+5V #PWR0244
+U 1 1 60E4A5C6
+P 15650 1450
+F 0 "#PWR0244" H 15650 1300 50  0001 C CNN
+F 1 "+5V" H 15665 1623 50  0000 C CNN
+F 2 "" H 15650 1450 50  0001 C CNN
+F 3 "" H 15650 1450 50  0001 C CNN
+	1    15650 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3862,14 +3639,405 @@ F 3 "" H 15650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0244
-U 1 1 60E4A5C6
-P 15650 1450
-F 0 "#PWR0244" H 15650 1300 50  0001 C CNN
-F 1 "+5V" H 15665 1623 50  0000 C CNN
-F 2 "" H 15650 1450 50  0001 C CNN
-F 3 "" H 15650 1450 50  0001 C CNN
-	1    15650 1450
+L power:+5V #PWR0242
+U 1 1 60D875B2
+P 15650 5050
+F 0 "#PWR0242" H 15650 4900 50  0001 C CNN
+F 1 "+5V" H 15665 5223 50  0000 C CNN
+F 2 "" H 15650 5050 50  0001 C CNN
+F 3 "" H 15650 5050 50  0001 C CNN
+	1    15650 5050
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR0241
+U 1 1 60D2B573
+P 15650 6850
+F 0 "#PWR0241" H 15650 6700 50  0001 C CNN
+F 1 "+5V" H 15665 7023 50  0000 C CNN
+F 2 "" H 15650 6850 50  0001 C CNN
+F 3 "" H 15650 6850 50  0001 C CNN
+	1    15650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0240
+U 1 1 60CBEE87
+P 11600 6850
+F 0 "#PWR0240" H 11600 6700 50  0001 C CNN
+F 1 "+5V" H 11615 7023 50  0000 C CNN
+F 2 "" H 11600 6850 50  0001 C CNN
+F 3 "" H 11600 6850 50  0001 C CNN
+	1    11600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0239
+U 1 1 60C49495
+P 11600 5050
+F 0 "#PWR0239" H 11600 4900 50  0001 C CNN
+F 1 "+5V" H 11615 5223 50  0000 C CNN
+F 2 "" H 11600 5050 50  0001 C CNN
+F 3 "" H 11600 5050 50  0001 C CNN
+	1    11600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0118
+U 1 1 60BE5976
+P 11600 3250
+F 0 "#PWR0118" H 11600 3100 50  0001 C CNN
+F 1 "+5V" H 11615 3423 50  0000 C CNN
+F 2 "" H 11600 3250 50  0001 C CNN
+F 3 "" H 11600 3250 50  0001 C CNN
+	1    11600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 2150 15250 2650
+Wire Wire Line
+	15250 5750 15250 6250
+Wire Wire Line
+	15250 7550 15250 8050
+Wire Wire Line
+	12000 7550 12000 8050
+Wire Wire Line
+	12000 5750 12000 6250
+Wire Wire Line
+	12000 3950 12000 4450
+Wire Wire Line
+	12000 2150 12000 2650
+Wire Wire Line
+	12050 1450 12000 1450
+$Comp
+L power:+5V #PWR0116
+U 1 1 60AFFDAB
+P 11600 1450
+F 0 "#PWR0116" H 11600 1300 50  0001 C CNN
+F 1 "+5V" H 11615 1623 50  0000 C CNN
+F 2 "" H 11600 1450 50  0001 C CNN
+F 3 "" H 11600 1450 50  0001 C CNN
+	1    11600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 60BF4FAD
+P 11800 1850
+AR Path="/D16552B4/5FA17F38/60BF4FAD" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/60BF4FAD" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/60BF4FAD" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/60BF4FAD" Ref="RN?"  Part="1" 
+AR Path="/60BF4FAD" Ref="RN101"  Part="1" 
+F 0 "RN101" V 11300 1850 50  0000 C CNN
+F 1 "10KΩ" V 11600 1550 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 12550 1950 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 12550 1850 50  0001 L CNN
+F 4 "Bourns" H 12550 1550 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 12550 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 11800 1850 50  0001 C CNN "Description"
+	1    11800 1850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 61E2AC9A
+P 11800 3650
+AR Path="/D16552B4/5FA17F38/61E2AC9A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/61E2AC9A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/61E2AC9A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/61E2AC9A" Ref="RN?"  Part="1" 
+AR Path="/61E2AC9A" Ref="RN102"  Part="1" 
+F 0 "RN102" V 11300 3650 50  0000 C CNN
+F 1 "10KΩ" V 11600 3350 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 12550 3750 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 12550 3650 50  0001 L CNN
+F 4 "Bourns" H 12550 3350 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 12550 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 11800 3650 50  0001 C CNN "Description"
+	1    11800 3650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 61EEC6B3
+P 11800 5450
+AR Path="/D16552B4/5FA17F38/61EEC6B3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/61EEC6B3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/61EEC6B3" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/61EEC6B3" Ref="RN?"  Part="1" 
+AR Path="/61EEC6B3" Ref="RN103"  Part="1" 
+F 0 "RN103" V 11300 5450 50  0000 C CNN
+F 1 "10KΩ" V 11600 5150 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 12550 5550 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 12550 5450 50  0001 L CNN
+F 4 "Bourns" H 12550 5150 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 12550 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 11800 5450 50  0001 C CNN "Description"
+	1    11800 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 61F4151A
+P 11800 7250
+AR Path="/D16552B4/5FA17F38/61F4151A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/61F4151A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/61F4151A" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/61F4151A" Ref="RN?"  Part="1" 
+AR Path="/61F4151A" Ref="RN104"  Part="1" 
+F 0 "RN104" V 11300 7250 50  0000 C CNN
+F 1 "10KΩ" V 11600 6950 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 12550 7350 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 12550 7250 50  0001 L CNN
+F 4 "Bourns" H 12550 6950 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 12550 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 11800 7250 50  0001 C CNN "Description"
+	1    11800 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 620B92FA
+P 15450 1850
+AR Path="/D16552B4/5FA17F38/620B92FA" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/620B92FA" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/620B92FA" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/620B92FA" Ref="RN?"  Part="1" 
+AR Path="/620B92FA" Ref="RN105"  Part="1" 
+F 0 "RN105" V 14950 1850 50  0000 C CNN
+F 1 "10KΩ" V 15250 1550 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 16200 1950 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 16200 1850 50  0001 L CNN
+F 4 "Bourns" H 16200 1550 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 16200 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 15450 1850 50  0001 C CNN "Description"
+	1    15450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 6211DA31
+P 15450 3650
+AR Path="/D16552B4/5FA17F38/6211DA31" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6211DA31" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6211DA31" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6211DA31" Ref="RN?"  Part="1" 
+AR Path="/6211DA31" Ref="RN106"  Part="1" 
+F 0 "RN106" V 14950 3650 50  0000 C CNN
+F 1 "10KΩ" V 15250 3350 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 16200 3750 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 16200 3650 50  0001 L CNN
+F 4 "Bourns" H 16200 3350 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 16200 3250 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 15450 3650 50  0001 C CNN "Description"
+	1    15450 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 6217FCF0
+P 15450 5450
+AR Path="/D16552B4/5FA17F38/6217FCF0" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/6217FCF0" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/6217FCF0" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/6217FCF0" Ref="RN?"  Part="1" 
+AR Path="/6217FCF0" Ref="RN107"  Part="1" 
+F 0 "RN107" V 14950 5450 50  0000 C CNN
+F 1 "10KΩ" V 15250 5150 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 16200 5550 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 16200 5450 50  0001 L CNN
+F 4 "Bourns" H 16200 5150 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 16200 5050 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 15450 5450 50  0001 C CNN "Description"
+	1    15450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN?
+U 1 1 621E282D
+P 15450 7250
+AR Path="/D16552B4/5FA17F38/621E282D" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/621E282D" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/621E282D" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/621E282D" Ref="RN?"  Part="1" 
+AR Path="/621E282D" Ref="RN108"  Part="1" 
+F 0 "RN108" V 14950 7250 50  0000 C CNN
+F 1 "10KΩ" V 15250 6950 50  0001 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 16200 7350 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4800P.pdf" H 16200 7250 50  0001 L CNN
+F 4 "Bourns" H 16200 6950 50  0001 L CNN "Manufacturer_Name"
+F 5 "4816P-103LF-ND" H 16200 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "10k Ohm ±2% 160mW Power Per Element Isolated 8 Resistor Network/Array" V 15450 7250 50  0001 C CNN "Description"
+	1    15450 7250
+	0    1    1    0   
+$EndComp
+Connection ~ 15650 6850
+Connection ~ 15650 6950
+Wire Wire Line
+	15650 6950 15650 6850
+Connection ~ 15650 7050
+Wire Wire Line
+	15650 7050 15650 6950
+Connection ~ 15650 7150
+Wire Wire Line
+	15650 7150 15650 7050
+Connection ~ 15650 7250
+Wire Wire Line
+	15650 7250 15650 7150
+Connection ~ 15650 7350
+Wire Wire Line
+	15650 7350 15650 7250
+Connection ~ 15650 7450
+Wire Wire Line
+	15650 7450 15650 7350
+Wire Wire Line
+	15650 7450 15650 7550
+Wire Wire Line
+	11600 7550 11600 7450
+Connection ~ 11600 6850
+Connection ~ 11600 6950
+Wire Wire Line
+	11600 6950 11600 6850
+Connection ~ 11600 7050
+Wire Wire Line
+	11600 7050 11600 6950
+Connection ~ 11600 7150
+Wire Wire Line
+	11600 7150 11600 7050
+Connection ~ 11600 7250
+Wire Wire Line
+	11600 7250 11600 7150
+Connection ~ 11600 7350
+Wire Wire Line
+	11600 7350 11600 7250
+Connection ~ 11600 7450
+Wire Wire Line
+	11600 7450 11600 7350
+Wire Wire Line
+	11600 5750 11600 5650
+Connection ~ 11600 5050
+Connection ~ 11600 5150
+Wire Wire Line
+	11600 5150 11600 5050
+Connection ~ 11600 5250
+Wire Wire Line
+	11600 5250 11600 5150
+Connection ~ 11600 5350
+Wire Wire Line
+	11600 5350 11600 5250
+Connection ~ 11600 5450
+Wire Wire Line
+	11600 5450 11600 5350
+Connection ~ 11600 5550
+Wire Wire Line
+	11600 5550 11600 5450
+Connection ~ 11600 5650
+Wire Wire Line
+	11600 5650 11600 5550
+Wire Wire Line
+	11600 3950 11600 3850
+Connection ~ 11600 3250
+Connection ~ 11600 3350
+Wire Wire Line
+	11600 3350 11600 3250
+Connection ~ 11600 3450
+Wire Wire Line
+	11600 3450 11600 3350
+Connection ~ 11600 3550
+Wire Wire Line
+	11600 3550 11600 3450
+Connection ~ 11600 3650
+Wire Wire Line
+	11600 3650 11600 3550
+Connection ~ 11600 3750
+Wire Wire Line
+	11600 3750 11600 3650
+Connection ~ 11600 3850
+Wire Wire Line
+	11600 3850 11600 3750
+Wire Wire Line
+	11600 2150 11600 2050
+Connection ~ 11600 1450
+Connection ~ 11600 1550
+Wire Wire Line
+	11600 1550 11600 1450
+Connection ~ 11600 1650
+Wire Wire Line
+	11600 1650 11600 1550
+Connection ~ 11600 1750
+Wire Wire Line
+	11600 1750 11600 1650
+Connection ~ 11600 1850
+Wire Wire Line
+	11600 1850 11600 1750
+Connection ~ 11600 1950
+Wire Wire Line
+	11600 1950 11600 1850
+Connection ~ 11600 2050
+Wire Wire Line
+	11600 2050 11600 1950
+Wire Wire Line
+	15650 2150 15650 2050
+Connection ~ 15650 1450
+Connection ~ 15650 1550
+Wire Wire Line
+	15650 1550 15650 1450
+Connection ~ 15650 1650
+Wire Wire Line
+	15650 1650 15650 1550
+Connection ~ 15650 1750
+Wire Wire Line
+	15650 1750 15650 1650
+Connection ~ 15650 1850
+Wire Wire Line
+	15650 1850 15650 1750
+Connection ~ 15650 1950
+Wire Wire Line
+	15650 1950 15650 1850
+Connection ~ 15650 2050
+Wire Wire Line
+	15650 2050 15650 1950
+Wire Wire Line
+	15650 3950 15650 3850
+Connection ~ 15650 3250
+Connection ~ 15650 3350
+Wire Wire Line
+	15650 3350 15650 3250
+Connection ~ 15650 3450
+Wire Wire Line
+	15650 3450 15650 3350
+Connection ~ 15650 3550
+Wire Wire Line
+	15650 3550 15650 3450
+Connection ~ 15650 3650
+Wire Wire Line
+	15650 3650 15650 3550
+Connection ~ 15650 3750
+Wire Wire Line
+	15650 3750 15650 3650
+Connection ~ 15650 3850
+Wire Wire Line
+	15650 3850 15650 3750
+Wire Wire Line
+	15650 5750 15650 5650
+Connection ~ 15650 5050
+Connection ~ 15650 5150
+Wire Wire Line
+	15650 5150 15650 5050
+Connection ~ 15650 5250
+Wire Wire Line
+	15650 5250 15650 5150
+Connection ~ 15650 5350
+Wire Wire Line
+	15650 5350 15650 5250
+Connection ~ 15650 5450
+Wire Wire Line
+	15650 5450 15650 5350
+Connection ~ 15650 5550
+Wire Wire Line
+	15650 5550 15650 5450
+Connection ~ 15650 5650
+Wire Wire Line
+	15650 5650 15650 5550
 $EndSCHEMATC
