@@ -774,8 +774,6 @@ Wire Wire Line
 	6700 3250 6700 3550
 Connection ~ 6450 3250
 Connection ~ 6700 3550
-Text Notes 1550 2600 0    50   ~ 0
-Resistors for multivibrator pull-up\nand timer circuits for relay pulses.\n\nThese can be swapped for higher/lower\nvalues as needed for longer pulses or\nmore noise resistance.
 Text HLabel 4550 5350 0    50   Output ~ 0
 DIG_OFF_C4
 Text HLabel 4550 3450 0    50   Output ~ 0
@@ -911,16 +909,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 5450 4500 5500
 Wire Wire Line
-	3200 2800 3200 2200
-Wire Wire Line
-	2650 2800 3200 2800
-Wire Wire Line
-	2650 3200 4500 3200
-Wire Wire Line
-	2650 2900 3250 2900
-Wire Wire Line
-	2650 3000 3300 3000
-Wire Wire Line
 	3500 4100 2650 4100
 Wire Wire Line
 	3500 4100 3500 4850
@@ -949,19 +937,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 2350 4550 2350
 Wire Wire Line
-	3250 2300 3250 2900
-Wire Wire Line
-	3300 2400 3300 3000
-Wire Wire Line
 	4550 2450 4500 2450
 Wire Wire Line
 	4500 2450 4500 2500
 Wire Wire Line
 	4500 2500 3350 2500
-Wire Wire Line
-	3350 2500 3350 3100
-Wire Wire Line
-	2650 3100 3350 3100
 Text HLabel 4550 3350 0    50   Output ~ 0
 DIG_OFF_C2
 Wire Wire Line
@@ -969,19 +949,13 @@ Wire Wire Line
 Wire Wire Line
 	4500 3250 4500 3300
 Wire Wire Line
-	2650 3300 4500 3300
-Wire Wire Line
 	4550 3350 4500 3350
 Wire Wire Line
 	4500 3350 4500 3400
 Wire Wire Line
-	2650 3400 4500 3400
-Wire Wire Line
 	4550 3450 4500 3450
 Wire Wire Line
 	4500 3450 4500 3500
-Wire Wire Line
-	2650 3500 4500 3500
 Wire Wire Line
 	4550 4250 4500 4250
 Wire Wire Line
@@ -1257,4 +1231,44 @@ Wire Wire Line
 	2650 5300 4500 5300
 Wire Wire Line
 	2650 5200 4500 5200
+Wire Wire Line
+	3250 2300 3250 3500
+Wire Wire Line
+	3250 3500 2650 3500
+Wire Wire Line
+	3200 3400 2650 3400
+Wire Wire Line
+	4500 3500 3500 3500
+Wire Wire Line
+	3500 3500 3500 3300
+Wire Wire Line
+	3500 3300 2650 3300
+Wire Wire Line
+	4500 3400 3550 3400
+Wire Wire Line
+	3550 3400 3550 3200
+Wire Wire Line
+	3550 3200 2650 3200
+Wire Wire Line
+	4500 3300 3600 3300
+Wire Wire Line
+	4500 3200 3650 3200
+Wire Wire Line
+	3200 2200 3200 3400
+Wire Wire Line
+	3350 3000 2650 3000
+Wire Wire Line
+	3350 2500 3350 3000
+Wire Wire Line
+	2650 3100 3300 3100
+Wire Wire Line
+	3300 2400 3300 3100
+Wire Wire Line
+	3600 2800 2650 2800
+Wire Wire Line
+	3600 2800 3600 3300
+Wire Wire Line
+	2650 2900 3650 2900
+Wire Wire Line
+	3650 2900 3650 3200
 $EndSCHEMATC
