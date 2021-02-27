@@ -90,7 +90,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 20 20)
     (grid_origin 20 20)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x0d0f0_ffffffff)
       (usegerberextensions false)
@@ -4207,7 +4207,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F36D)
-    (at 914.745 489.249999 90)
+    (at 558.911664 757.2 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F317CB5/60365B41/5FD2B9DE)
@@ -4271,7 +4271,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F3CA)
-    (at 914.745 478.949999 90)
+    (at 558.911664 746.900001 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F317CB5/60365B35/603A29DF)
@@ -4335,7 +4335,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD02C)
-    (at 862.355 477.250001 270)
+    (at 511.088336 746.900001 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F317CB5/60365B29/5FD2B9DE)
@@ -4399,14 +4399,14 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD4C1)
-    (at 860.355 490.650001 270)
+    (at 511.088336 757.2 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F317CB5/60365B0F/603A29DF)
     (fp_text reference IC8001 (at 0 -11.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value CD74HCT221E (at 1.27 0) (layer F.SilkS) hide
+    (fp_text value CD74HCT221E (at -10.830001 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text user %R (at -1.27 0) (layer F.Fab)
@@ -4719,7 +4719,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F427)
-    (at 909.22167 436.950001 270)
+    (at 553.255 722.747499 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F76AF55/604747FF/5FD2B9DE)
@@ -4783,7 +4783,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F484)
-    (at 909.22167 425.250001 270)
+    (at 553.255 712.599999 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F76AF55/604747F3/603A29DF)
@@ -4847,11 +4847,11 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD308)
-    (at 861.97833 422.749999 90)
+    (at 516.795 712.599999 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F76AF55/604747E7/5FD2B9DE)
-    (fp_text reference IC6301 (at 0 -11.43 90) (layer F.SilkS)
+    (fp_text reference IC6301 (at -12.55 -11.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value CD74HCT221E (at 1.27 0) (layer F.SilkS) hide
@@ -4911,7 +4911,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD0E6)
-    (at 861.97833 436.349999 90)
+    (at 516.795 722.747499 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D1BB8DB4/5F76AF55/604747CD/603A29DF)
@@ -5231,7 +5231,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F4E1)
-    (at 794.595 487.549999 90)
+    (at 558.911664 650.6 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F86/61B95A95/5FD2B9DE)
@@ -5295,7 +5295,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F53E)
-    (at 794.595 477.249999 90)
+    (at 558.911664 640.300001 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F86/61B8E927/603A29DF)
@@ -5359,7 +5359,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 60402083)
-    (at 733.204999 475.750001 270)
+    (at 511.088336 640.300001 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F86/61B577C5/5FD2B9DE)
@@ -5423,7 +5423,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 60402026)
-    (at 732.205 488.150001 270)
+    (at 511.088336 650.6 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F86/5FC6571E/603A29DF)
@@ -5487,14 +5487,14 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037EDEE)
-    (at 780.888335 441.250001 270)
+    (at 553.255 616.147499 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F6C/61B95A95/5FD2B9DE)
     (fp_text reference IC2501 (at 0 -11.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value CD74HCT221E (at 1.27 0) (layer F.SilkS) hide
+    (fp_text value CD74HCT221E (at 1.27 -0.548571) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text user %R (at -1.27 0) (layer F.Fab)
@@ -5551,7 +5551,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037D0FF)
-    (at 780.888335 429.550001 270)
+    (at 553.255 605.999999 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F6C/61B8E927/603A29DF)
@@ -5615,7 +5615,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD42E)
-    (at 733.711665 426.949999 90)
+    (at 516.795 605.999999 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F6C/61B577C5/5FD2B9DE)
@@ -5679,7 +5679,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD6E6)
-    (at 733.711665 440.549999 90)
+    (at 516.795 616.147499 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F6C/5FC6571E/603A29DF)
@@ -5743,7 +5743,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F256)
-    (at 670.461666 486.249999 90)
+    (at 558.911664 558 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F52/61B95A95/5FD2B9DE)
@@ -5807,7 +5807,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 60405BC9)
-    (at 670.461666 475.949999 90)
+    (at 558.911664 547.700001 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F52/61B8E927/603A29DF)
@@ -5871,7 +5871,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 604019C8)
-    (at 614.538335 474.650001 270)
+    (at 511.088336 547.700001 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F52/61B577C5/5FD2B9DE)
@@ -5935,7 +5935,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 60401A25)
-    (at 614.538334 486.050002 270)
+    (at 511.088336 558 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F52/5FC6571E/603A29DF)
@@ -5999,7 +5999,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037EF05)
-    (at 668.733932 443.021069 270)
+    (at 553.255 523.547499 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F38/61B95A95/5FD2B9DE)
@@ -6063,7 +6063,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 6037F2B3)
-    (at 668.805 432.25 270)
+    (at 553.255 513.399999 270)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F38/61B8E927/603A29DF)
@@ -6127,7 +6127,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD58A)
-    (at 622.595 431.649999 90)
+    (at 516.795 513.399999 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F38/61B577C5/5FD2B9DE)
@@ -6191,7 +6191,7 @@
   )
 
   (module BoatControl:DIP794W53P254L1930H508Q16N (layer F.Cu) (tedit 5FF7E596) (tstamp 603FD8E1)
-    (at 622.595 442.249999 90)
+    (at 516.795 523.547499 90)
     (descr "N (R-PDIP-T)")
     (tags "Integrated Circuit")
     (path /D16552B4/5FA17F38/5FC6571E/603A29DF)
@@ -7125,8 +7125,8 @@
     )
   )
 
-  (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD76C)
-    (at 871.250001 505.45 90)
+  (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603995B3)
+    (at 524.1 769.95 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/603F1A80)
@@ -7163,7 +7163,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037ED18)
-    (at 901.849999 497.05 270)
+    (at 545.95 764.95 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/603BAEE0)
@@ -7237,7 +7237,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037EC76)
-    (at 922.15 452.15 90)
+    (at 566.25 735.45 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/6042CB84)
@@ -7274,7 +7274,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD5DA)
-    (at 851.05 446.55 270)
+    (at 503.8 730.45 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604194C2)
@@ -7385,7 +7385,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037EB9E)
-    (at 781.65 495.35 270)
+    (at 545.95 658.35 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/60373028)
@@ -7422,7 +7422,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD6A3)
-    (at 744.15 502.95 90)
+    (at 524.1 663.35 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/60337AF6)
@@ -7459,7 +7459,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037EB32)
-    (at 791.8 456.45 90)
+    (at 566.25 628.85 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/60373028)
@@ -7496,7 +7496,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD136)
-    (at 722.8 450.75 270)
+    (at 503.8 623.85 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/60337AF6)
@@ -7533,7 +7533,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60401985)
-    (at 627.45 499.85 90)
+    (at 524.1 570.75 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/60373028)
@@ -7570,7 +7570,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037EAC6)
-    (at 657.55 494.05 270)
+    (at 545.95 565.75 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/60337AF6)
@@ -7607,7 +7607,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FCF86)
-    (at 610.65 450.45 270)
+    (at 503.8 531.25 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/60373028)
@@ -7644,7 +7644,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037EA5A)
-    (at 679.75 456.15 90)
+    (at 566.25 536.25 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/60337AF6)
@@ -7681,11 +7681,11 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037EA06)
-    (at 906.2 503.35 90)
+    (at 550.366664 771.25 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D1BB8DB4/5F317CB5/6036F096)
-    (fp_text reference U7903 (at 3.81 -2.33 90) (layer F.SilkS)
+    (fp_text reference U7903 (at 3.81 -4.484164 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 74HC86 (at 3.81 17.57 90) (layer F.Fab)
@@ -7744,8 +7744,8 @@
     )
   )
 
-  (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 603FD976)
-    (at 866.9 499.15 270)
+  (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6036CBED)
+    (at 519.633336 763.65 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D1BB8DB4/5F317CB5/60382869)
@@ -7937,7 +7937,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037E87A)
-    (at 917.766669 445.85 270)
+    (at 561.8 729.15 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D1BB8DB4/5F76AF55/6047FE8D)
@@ -8001,7 +8001,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 603FD271)
-    (at 855.43333 452.85 90)
+    (at 508.25 736.75 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D1BB8DB4/5F76AF55/60492E10)
@@ -8193,7 +8193,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037E751)
-    (at 786.05 501.65 90)
+    (at 550.366664 664.65 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F86/6038F064)
@@ -8257,7 +8257,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 604020E2)
-    (at 739.75 496.65 270)
+    (at 519.633336 657.05 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F86/603260D8)
@@ -8321,7 +8321,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037E68B)
-    (at 787.433335 450.15 270)
+    (at 561.8 622.55 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F6C/6038F064)
@@ -8385,7 +8385,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 603FCFCB)
-    (at 727.166665 457.05 90)
+    (at 508.25 630.15 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F6C/603260D8)
@@ -8449,7 +8449,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 60401ABA)
-    (at 623.083334 493.55 270)
+    (at 519.633336 564.45 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F52/6038F064)
@@ -8513,7 +8513,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037F0D8)
-    (at 661.916666 500.35 90)
+    (at 550.366664 572.05 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F52/603260D8)
@@ -8577,7 +8577,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 603FD880)
-    (at 615.05 456.75 90)
+    (at 508.25 537.55 90)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F38/6038F064)
@@ -8641,7 +8641,7 @@
   )
 
   (module Package_DIP:DIP-14_W7.62mm (layer F.Cu) (tedit 5A02E8C5) (tstamp 6037E493)
-    (at 675.349999 449.85 270)
+    (at 561.8 529.95 270)
     (descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /D16552B4/5FA17F38/603260D8)
@@ -8705,7 +8705,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E44E)
-    (at 890.5 496.3)
+    (at 536.6 760)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B41/602120C6)
@@ -8742,7 +8742,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E418)
-    (at 933.7 496.1 180)
+    (at 575.6 760 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B41/6021685A)
@@ -8779,7 +8779,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603A332E)
-    (at 934.1 503.2 180)
+    (at 575.6 765.6 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B35/60314A10)
@@ -8816,7 +8816,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E3AC)
-    (at 890.4 504.3)
+    (at 536.6 765.6)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B35/60314A12)
@@ -8853,7 +8853,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60367C32)
-    (at 876.8 504.9)
+    (at 533.5 765.6 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B29/602120C6)
@@ -8878,9 +8878,9 @@
     (fp_line (start 6.25 2.5) (end 6.25 -2.5) (layer F.Fab) (width 0.1))
     (fp_line (start -1.25 2.5) (end 6.25 2.5) (layer F.Fab) (width 0.1))
     (fp_line (start -1.25 -2.5) (end -1.25 2.5) (layer F.Fab) (width 0.1))
-    (pad 2 thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 5 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 531 230V_AC_C2_OFF))
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 GND))
     (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl
       (at (xyz 0 0 0))
@@ -8890,7 +8890,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E340)
-    (at 839 508.1)
+    (at 494.4 765.6)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B29/6021685A)
@@ -8926,8 +8926,8 @@
     )
   )
 
-  (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60367BFC)
-    (at 838.4 501.6)
+  (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60399801)
+    (at 494.4 760)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B0F/60314A10)
@@ -8964,7 +8964,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E2D4)
-    (at 877.1 498.6)
+    (at 533.5 760 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B0F/60314A12)
@@ -8989,9 +8989,9 @@
     (fp_line (start 6.25 2.5) (end 6.25 -2.5) (layer F.Fab) (width 0.1))
     (fp_line (start -1.25 2.5) (end 6.25 2.5) (layer F.Fab) (width 0.1))
     (fp_line (start -1.25 -2.5) (end -1.25 2.5) (layer F.Fab) (width 0.1))
-    (pad 2 thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 5 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 518 230V_AC_C1_ON))
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 3 GND))
     (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl
       (at (xyz 0 0 0))
@@ -9297,7 +9297,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E124)
-    (at 932.7 452.1 180)
+    (at 575.6 730.85 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747FF/602120C6)
@@ -9334,7 +9334,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E0EE)
-    (at 892.5 454.1)
+    (at 536.6 730.85)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747FF/6021685A)
@@ -9371,7 +9371,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E0B8)
-    (at 892.1 445.5)
+    (at 536.6 725.25625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747F3/60314A10)
@@ -9408,7 +9408,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E082)
-    (at 929.3 445.4)
+    (at 570.6 725.25625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747F3/60314A12)
@@ -9445,7 +9445,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E04C)
-    (at 841 444.6)
+    (at 494.4 725.25625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747E7/602120C6)
@@ -9482,7 +9482,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E016)
-    (at 881.3 444.8 180)
+    (at 533.5 725.25625 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747E7/6021685A)
@@ -9519,7 +9519,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DFE0)
-    (at 848.9 473.7 180)
+    (at 533.5 730.85 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747CD/60314A10)
@@ -9556,7 +9556,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DFAA)
-    (at 840.6 451.8)
+    (at 494.4 730.85)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747CD/60314A12)
@@ -9889,7 +9889,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DDC4)
-    (at 753.8 501.8 180)
+    (at 533.5 659 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B577C5/602120C6)
@@ -9926,7 +9926,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DD8E)
-    (at 712.7 502.6)
+    (at 494.4 659)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B577C5/6021685A)
@@ -9963,7 +9963,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DD58)
-    (at 712.7 497)
+    (at 494.4 653.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/5FC6571E/60314A10)
@@ -10000,7 +10000,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DD22)
-    (at 753.8 496.3 180)
+    (at 533.5 653.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/5FC6571E/60314A12)
@@ -10037,7 +10037,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DCEC)
-    (at 813.4 499.4 180)
+    (at 575.6 659 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B8E927/60314A10)
@@ -10074,7 +10074,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DCB6)
-    (at 769.9 501)
+    (at 536.6 659)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B8E927/60314A12)
@@ -10111,7 +10111,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DC80)
-    (at 769.9 494.9)
+    (at 536.6 653.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B95A95/602120C6)
@@ -10148,7 +10148,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DC4A)
-    (at 812.7 492.4 180)
+    (at 575.6 653.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B95A95/6021685A)
@@ -10185,7 +10185,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DC14)
-    (at 712.7 450.5)
+    (at 489.3 618.65625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B577C5/602120C6)
@@ -10222,7 +10222,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DBDE)
-    (at 751.2 449.2 180)
+    (at 533.5 618.65625 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B577C5/6021685A)
@@ -10259,7 +10259,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DBA8)
-    (at 751.1 455.4 180)
+    (at 533.5 624.25 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/5FC6571E/60314A10)
@@ -10296,7 +10296,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DB72)
-    (at 712.5 456.2)
+    (at 494.4 624.25)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/5FC6571E/60314A12)
@@ -10333,7 +10333,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DB3C)
-    (at 762.6 449.9)
+    (at 536.6 618.65625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B8E927/60314A10)
@@ -10370,7 +10370,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DB06)
-    (at 802.7 450.1 180)
+    (at 575.6 618.65625 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B8E927/60314A12)
@@ -10407,7 +10407,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DAD0)
-    (at 802.6 455.6 180)
+    (at 575.6 624.25 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B95A95/602120C6)
@@ -10444,7 +10444,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DA9A)
-    (at 762.5 456.5)
+    (at 536.6 624.25)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B95A95/6021685A)
@@ -10481,7 +10481,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037DA64)
-    (at 648 484.9)
+    (at 536.6 560.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B577C5/602120C6)
@@ -10518,7 +10518,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60364DFE)
-    (at 688.6 493.6 180)
+    (at 575.6 560.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B577C5/6021685A)
@@ -10555,7 +10555,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D9F8)
-    (at 688.6 499.1 180)
+    (at 575.6 566.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/5FC6571E/60314A10)
@@ -10592,7 +10592,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D9C2)
-    (at 648 490.8)
+    (at 536.6 566.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/5FC6571E/60314A12)
@@ -10629,7 +10629,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D98C)
-    (at 597.7 493.7)
+    (at 494.4 560.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B8E927/60314A10)
@@ -10666,7 +10666,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D956)
-    (at 637.3 493.6 180)
+    (at 533.5 560.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B8E927/60314A12)
@@ -10703,7 +10703,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D920)
-    (at 636.6 499.5 180)
+    (at 533.5 566.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B95A95/602120C6)
@@ -10740,7 +10740,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D8EA)
-    (at 597.7 499.1)
+    (at 494.4 566.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B95A95/6021685A)
@@ -10777,7 +10777,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D8B4)
-    (at 692 455.2 180)
+    (at 575.6 531.65 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B577C5/602120C6)
@@ -10814,7 +10814,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D87E)
-    (at 651.2 457.1)
+    (at 536.6 531.65)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B577C5/6021685A)
@@ -10851,7 +10851,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D848)
-    (at 651.1 451.6)
+    (at 536.6 526.05625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/5FC6571E/60314A10)
@@ -10888,7 +10888,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D812)
-    (at 692 449.7 180)
+    (at 575.6 526.05625 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/5FC6571E/60314A12)
@@ -10925,7 +10925,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D7DC)
-    (at 639.3 449.4 180)
+    (at 533.5 526.05625 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B8E927/60314A10)
@@ -10962,7 +10962,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D7A6)
-    (at 639.3 455 180)
+    (at 533.5 531.65 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B8E927/60314A12)
@@ -10999,7 +10999,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D770)
-    (at 598.6 450.8)
+    (at 494.4 531.65)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B95A95/602120C6)
@@ -11036,7 +11036,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D73A)
-    (at 598.6 444.8)
+    (at 494.4 526.05625)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B95A95/6021685A)
@@ -11073,7 +11073,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D704)
-    (at 901.849999 476.449999 270)
+    (at 545.95 744.400001 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B35/603A29E8)
@@ -11110,7 +11110,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD47E)
-    (at 873.250001 493.150001 90)
+    (at 524.1 759.7 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B0F/603A29E8)
@@ -11184,7 +11184,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D62C)
-    (at 922.15 427.750001 90)
+    (at 566.25 715.099999 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747F3/603A29E8)
@@ -11221,7 +11221,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD1C9)
-    (at 849.05 433.849999 270)
+    (at 503.8 720.247499 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747CD/603A29E8)
@@ -11332,7 +11332,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D554)
-    (at 781.65 474.749999 270)
+    (at 545.95 637.800001 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B8E927/603A29E8)
@@ -11369,7 +11369,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD511)
-    (at 745.149999 490.650001 90)
+    (at 524.1 653.1 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/5FC6571E/603A29E8)
@@ -11406,7 +11406,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D4E8)
-    (at 793.8 432.050001 90)
+    (at 566.25 608.499999 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B8E927/603A29E8)
@@ -11443,7 +11443,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD3B5)
-    (at 720.8 438.049999 270)
+    (at 503.8 613.647499 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/5FC6571E/603A29E8)
@@ -11480,7 +11480,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60405C19)
-    (at 657.55 473.449999 270)
+    (at 545.95 545.200001 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B8E927/603A29E8)
@@ -11517,7 +11517,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60401A75)
-    (at 627.45 488.550001 90)
+    (at 524.1 560.5 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/5FC6571E/603A29E8)
@@ -11554,7 +11554,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037D410)
-    (at 681.75 434.750001 90)
+    (at 566.25 515.899999 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B8E927/603A29E8)
@@ -11591,7 +11591,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD547)
-    (at 609.65 439.749999 270)
+    (at 503.8 521.047499 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/5FC6571E/603A29E8)
@@ -13973,7 +13973,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CFA5)
-    (at 933.7 471.8)
+    (at 570.6 748.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62AF81A3)
@@ -14010,7 +14010,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037CF5D)
-    (at 636.7 462.55)
+    (at 527.8 540.65)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F38/62CD48E4)
@@ -14519,7 +14519,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CF1E)
-    (at 687 442.5)
+    (at 570.6 520.4125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A8D3E3)
@@ -16316,7 +16316,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CDDD)
-    (at 775.6 483.7 180)
+    (at 541.6 647.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A8D3E3)
@@ -16353,7 +16353,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CDA7)
-    (at 683.5 486.1)
+    (at 570.6 555.2)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A9ABFC)
@@ -16390,7 +16390,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CD71)
-    (at 717.9 489.1 180)
+    (at 499.4 647.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A48DDB)
@@ -16427,7 +16427,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CD3B)
-    (at 768.2 428.1 180)
+    (at 541.6 607.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A7FBFF)
@@ -16464,7 +16464,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CD05)
-    (at 876.2 437.3)
+    (at 528.5 719.6125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62B76848)
@@ -20090,7 +20090,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CCCF)
-    (at 901.849999 486.749999 270)
+    (at 545.95 754.7 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B41/61CAE2AB)
@@ -20127,7 +20127,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD2C5)
-    (at 875.250001 479.750002 90)
+    (at 524.1 749.400001 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/60365B29/61CAE2AB)
@@ -20201,7 +20201,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CBF7)
-    (at 922.15 439.450001 90)
+    (at 566.25 725.247499 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747FF/61CAE2AB)
@@ -20238,11 +20238,11 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD805)
-    (at 849.05 420.249999 270)
+    (at 503.8 710.099999 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/604747E7/61CAE2AB)
-    (fp_text reference C6301 (at 2.6 1.8 90) (layer F.SilkS)
+    (fp_text reference C6301 (at 15.05 1.8 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1μF (at 2.500001 0 180) (layer F.Fab)
@@ -20497,7 +20497,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CAB3)
-    (at 781.65 485.049999 270)
+    (at 545.95 648.1 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B95A95/61CAE2AB)
@@ -20534,7 +20534,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD3EB)
-    (at 746.15 478.250001 90)
+    (at 524.1 642.800001 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/61B577C5/61CAE2AB)
@@ -20608,7 +20608,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037CA47)
-    (at 793.8 443.750001 90)
+    (at 566.25 614.450001 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B95A95/61CAE2AB)
@@ -20645,7 +20645,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD66D)
-    (at 720.8 424.449999 270)
+    (at 503.8 603.499999 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/61B577C5/61CAE2AB)
@@ -20756,7 +20756,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C9DB)
-    (at 657.55 483.749999 270)
+    (at 545.95 555.5 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B95A95/61CAE2AB)
@@ -20793,7 +20793,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60401B0E)
-    (at 627.45 477.150001 90)
+    (at 524.1 550.200001 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/61B577C5/61CAE2AB)
@@ -20904,7 +20904,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C96F)
-    (at 681.678932 445.521069 90)
+    (at 566.25 526.047499 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B95A95/61CAE2AB)
@@ -20941,7 +20941,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603FD83B)
-    (at 609.65 429.149999 270)
+    (at 503.8 510.899999 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/61B577C5/61CAE2AB)
@@ -21274,7 +21274,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C82B)
-    (at 634.3 438.4)
+    (at 528.5 514.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A63FCE)
@@ -21421,7 +21421,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C7E3)
-    (at 609.7 462.55)
+    (at 503.4 540.65)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F38/62E7DB4C)
@@ -21474,7 +21474,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C792)
-    (at 663.46 462.55)
+    (at 551.35 540.65)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F38/5FD52518)
@@ -21527,7 +21527,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C753)
-    (at 656.5 440.6 180)
+    (at 541.6 520.4125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A9ABFC)
@@ -21564,7 +21564,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C71D)
-    (at 656.5 435.1 180)
+    (at 541.6 514.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A7FBFF)
@@ -21601,7 +21601,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E580)
-    (at 687.5 433.8)
+    (at 570.6 514.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A7259E)
@@ -21638,7 +21638,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037E54A)
-    (at 603.6 433.4 180)
+    (at 499.4 514.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A56D48)
@@ -21675,7 +21675,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C6E7)
-    (at 634.3 443.9)
+    (at 528.5 520.4125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/62A48DDB)
@@ -21712,7 +21712,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037C6B1)
-    (at 603.6 439.1 180)
+    (at 499.4 520.4125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/5F542D59)
@@ -26465,7 +26465,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C5DC)
-    (at 734.7 462.55)
+    (at 511.3 633.25)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F6C/5FD52518)
@@ -26518,7 +26518,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C58B)
-    (at 915.6 520.6)
+    (at 551.35 797.9)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F317CB5/62F1D24C)
@@ -26571,7 +26571,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C53A)
-    (at 884.6 520.6)
+    (at 527.4 797.9)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F317CB5/62C7A7CE)
@@ -26624,7 +26624,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C4E9)
-    (at 857.6 519.6)
+    (at 503.4 796.9)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F317CB5/62F2A731)
@@ -26836,7 +26836,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C3F6)
-    (at 854.6 462.55)
+    (at 501.8 739.85)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F76AF55/63015012)
@@ -26889,7 +26889,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C3A5)
-    (at 883.6 462.55)
+    (at 527.4 739.85)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F76AF55/62CB5764)
@@ -26942,7 +26942,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C354)
-    (at 913.6 462.55)
+    (at 551.35 739.85)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D1BB8DB4/5F76AF55/630078FE)
@@ -27154,7 +27154,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C210)
-    (at 796.7 517.9)
+    (at 551.35 688.6)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F86/62E7DB4C)
@@ -27207,7 +27207,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C1BF)
-    (at 766.7 516.9)
+    (at 527.4 687.6)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F86/62CD48E4)
@@ -27260,7 +27260,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C16E)
-    (at 736.7 516.9)
+    (at 503.4 687.6)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F86/5FD52518)
@@ -27313,7 +27313,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C11D)
-    (at 789.7 462.55)
+    (at 551.35 633.25)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F6C/62E7DB4C)
@@ -27366,7 +27366,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C0CC)
-    (at 760.7 462.55)
+    (at 537.3 633.25)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F6C/62CD48E4)
@@ -27419,7 +27419,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C07B)
-    (at 611.7 507.6)
+    (at 503.4 585.7)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F52/62E7DB4C)
@@ -27472,7 +27472,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6037C02A)
-    (at 640.7 508.6)
+    (at 527.4 586.7)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F52/62CD48E4)
@@ -27525,7 +27525,7 @@
   )
 
   (module Resistor_THT:R_Array_SIP9 (layer F.Cu) (tedit 5A14249F) (tstamp 6038951E)
-    (at 670.7 507.6)
+    (at 551.35 585.7)
     (descr "9-pin Resistor SIP pack")
     (tags R)
     (path /D16552B4/5FA17F52/5FD52518)
@@ -27578,7 +27578,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BF9A)
-    (at 934 488.3)
+    (at 570.6 754.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62ADD9A6)
@@ -27615,7 +27615,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BF64)
-    (at 895.6 480.3 180)
+    (at 541.6 754.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62AEACF8)
@@ -27652,7 +27652,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BF2E)
-    (at 895.4 472.3 180)
+    (at 541.6 748.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62B05762)
@@ -27689,7 +27689,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BEF8)
-    (at 848.9 467.2 180)
+    (at 499.4 748.8 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62B4996D)
@@ -27726,7 +27726,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BEC2)
-    (at 880.8 479.6)
+    (at 528.5 748.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62B3C5BA)
@@ -27763,11 +27763,11 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BE8C)
-    (at 848.3 481.7 180)
+    (at 499.4 754.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62AC1E93)
-    (fp_text reference C7902 (at 2.600001 1.800001 180) (layer F.SilkS)
+    (fp_text reference C7902 (at 2.5 1.800001 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1µF (at 2.500001 0.000001 90) (layer F.Fab)
@@ -27800,7 +27800,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BE56)
-    (at 878.5 490.2)
+    (at 528.5 754.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F317CB5/62AB509B)
@@ -28133,7 +28133,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BC70)
-    (at 896.5 436 180)
+    (at 541.6 719.6125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62BC8A92)
@@ -28170,7 +28170,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603A3733)
-    (at 930 438.1)
+    (at 570.6 719.6125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62BBBC28)
@@ -28207,7 +28207,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BC04)
-    (at 894.2 423.8 180)
+    (at 541.6 714 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62BAE342)
@@ -28244,7 +28244,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603A36FD)
-    (at 928.6 427.9)
+    (at 570.6 714)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62BA14CE)
@@ -28281,7 +28281,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037BB98)
-    (at 875.4 424.3)
+    (at 528.5 714)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62B939DB)
@@ -28318,7 +28318,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603A36C7)
-    (at 840.6 421.3 180)
+    (at 499.4 714 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62B86A50)
@@ -28355,7 +28355,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 603A3691)
-    (at 841 427.2 180)
+    (at 499.4 719.6125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D1BB8DB4/5F76AF55/62B5C7B5)
@@ -28688,7 +28688,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B946)
-    (at 809.3 485.8)
+    (at 570.6 647.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A9ABFC)
@@ -28725,7 +28725,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B910)
-    (at 809.7 478.5)
+    (at 570.6 642.2)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A7FBFF)
@@ -28762,7 +28762,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B8DA)
-    (at 775.9 476.7 180)
+    (at 541.6 642.2 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A7259E)
@@ -28799,7 +28799,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B8A4)
-    (at 719 476 180)
+    (at 499.4 642.2 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A63FCE)
@@ -28836,7 +28836,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B86E)
-    (at 750.8 483.7)
+    (at 528.5 642.2)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/62A56D48)
@@ -28873,7 +28873,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B838)
-    (at 750.5 489.7)
+    (at 528.5 647.8)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F86/5F542D59)
@@ -28910,7 +28910,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60366C54)
-    (at 768.2 434 180)
+    (at 541.6 613.0125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A9ABFC)
@@ -28947,7 +28947,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B7CC)
-    (at 801.4 440.5)
+    (at 570.6 613.0125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A8D3E3)
@@ -28984,7 +28984,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B796)
-    (at 804.7 421.2)
+    (at 570.6 607.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A7259E)
@@ -29021,7 +29021,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B760)
-    (at 746.4 437.1)
+    (at 528.5 607.4)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A63FCE)
@@ -29058,7 +29058,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B72A)
-    (at 713.7 429.5 180)
+    (at 499.4 607.4 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A56D48)
@@ -29095,7 +29095,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B6F4)
-    (at 746.1 443.4)
+    (at 528.5 613.0125)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/62A48DDB)
@@ -29132,7 +29132,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60366E89)
-    (at 713.9 440.3 180)
+    (at 499.4 613.0125 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F6C/5F542D59)
@@ -29169,7 +29169,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B688)
-    (at 653 479.4 180)
+    (at 541.6 555.2 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A8D3E3)
@@ -29206,7 +29206,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B652)
-    (at 683.8 477.4)
+    (at 570.6 549.6)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A7FBFF)
@@ -29243,7 +29243,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 60364C7F)
-    (at 653 473.8 180)
+    (at 541.6 549.6 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A7259E)
@@ -29280,7 +29280,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B5E6)
-    (at 602.2 473 180)
+    (at 499.4 549.6 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A63FCE)
@@ -29317,7 +29317,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B5B0)
-    (at 633.9 476.6)
+    (at 528.5 549.6)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A56D48)
@@ -29354,7 +29354,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B57A)
-    (at 602.5 481.8 180)
+    (at 499.4 555.2 180)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/62A48DDB)
@@ -29391,7 +29391,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 6037B544)
-    (at 633.6 482.7)
+    (at 528.5 555.2)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F52/5F542D59)
