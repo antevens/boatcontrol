@@ -549,26 +549,6 @@ F 5 "4609X-101-105LF" H 2450 4100 50  0001 C CNN "Type"
 $EndComp
 $Comp
 L Device:R_Network08 RN?
-U 1 1 62F1D24C
-P 2450 5000
-AR Path="/D16552B4/5FA17F38/62F1D24C" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F52/62F1D24C" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F6C/62F1D24C" Ref="RN?"  Part="1" 
-AR Path="/D16552B4/5FA17F86/62F1D24C" Ref="RN?"  Part="1" 
-AR Path="/D1BB8DB4/5F317CB5/62F1D24C" Ref="RN7904"  Part="1" 
-AR Path="/D1BB8DB4/5F746103/62F1D24C" Ref="RN5204"  Part="1" 
-F 0 "RN5204" V 1950 5000 50  0000 C CNN
-F 1 "100KΩ" V 2250 4700 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 3200 5100 50  0001 L CNN
-F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3200 5000 50  0001 L CNN
-F 4 "Bourns" H 3200 4700 50  0001 L CNN "Manufacturer_Name"
-F 5 "4609X-101-105LF" H 3200 4600 50  0001 L CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 2450 5000 50  0001 C CNN "Description"
-	1    2450 5000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Network08 RN?
 U 1 1 62F2A731
 P 2450 3200
 AR Path="/D16552B4/5FA17F38/62F2A731" Ref="RN?"  Part="1" 
@@ -1212,14 +1192,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 4300 3950 4600
 Wire Wire Line
-	3200 4900 2650 4900
-Wire Wire Line
-	3200 4900 3200 5500
-Wire Wire Line
-	3250 4800 2650 4800
-Wire Wire Line
-	3250 4800 3250 5400
-Wire Wire Line
 	2650 5000 4000 5000
 Wire Wire Line
 	4000 4400 4000 5000
@@ -1229,8 +1201,6 @@ Wire Wire Line
 	4050 4500 4050 5100
 Wire Wire Line
 	2650 5300 4500 5300
-Wire Wire Line
-	2650 5200 4500 5200
 Wire Wire Line
 	3250 2300 3250 3500
 Wire Wire Line
@@ -1271,4 +1241,34 @@ Wire Wire Line
 	2650 2900 3650 2900
 Wire Wire Line
 	3650 2900 3650 3200
+Wire Wire Line
+	3200 4800 3200 5500
+Wire Wire Line
+	2650 5200 4500 5200
+Wire Wire Line
+	2650 4800 3200 4800
+$Comp
+L Device:R_Network08 RN?
+U 1 1 62F1D24C
+P 2450 5000
+AR Path="/D16552B4/5FA17F38/62F1D24C" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F52/62F1D24C" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F6C/62F1D24C" Ref="RN?"  Part="1" 
+AR Path="/D16552B4/5FA17F86/62F1D24C" Ref="RN?"  Part="1" 
+AR Path="/D1BB8DB4/5F317CB5/62F1D24C" Ref="RN7904"  Part="1" 
+AR Path="/D1BB8DB4/5F746103/62F1D24C" Ref="RN5204"  Part="1" 
+F 0 "RN5204" V 1950 5000 50  0000 C CNN
+F 1 "100KΩ" V 2250 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" H 3200 5100 50  0001 L CNN
+F 3 "http://www.bourns.com/pdfs/4100R.pdf" H 3200 5000 50  0001 L CNN
+F 4 "Bourns" H 3200 4700 50  0001 L CNN "Manufacturer_Name"
+F 5 "4609X-101-105LF" H 3200 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" V 2450 5000 50  0001 C CNN "Description"
+	1    2450 5000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 4900 3250 4900
+Wire Wire Line
+	3250 4900 3250 5400
 $EndSCHEMATC
