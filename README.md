@@ -9,7 +9,7 @@ WORK IN PROGRESS, NOT PRODUCTION READY!
 This is an open hardware design for a electrical panel and boat controller.
 
 You can think of this as a giant latching relay board with a socket to act like
-a regular Raspberry Pi HAT.
+a regular Raspberry Pi HAT or an Nvidia Jetson (Nano/Xavier NX)
 
 All critical parts are designed to be field servicable, components using
 through-holes are used where possible for better durability on mobile marine
@@ -20,20 +20,21 @@ clearances are critical along with proper thermal management.
 IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
 chance of surges or high voltages these should be isolated from the board using
 digital isolators or optocouplers and transient voltage suppressors. For the
-Raspberry Pi inputs you might also want to add debounce and and provide 3v from
-the isolated source.
+Raspberry Pi/Jetson inputs you might also want to add debounce and and provide
+3v from the isolated source.
 
 Special care has been taken to limit power consumption as much as possible, on
 it's own the board will only consume {INSERT_WATTS} watts when idle, if a
 Raspberry Pi (Rpi) Zero is mated it will add 80mA, a fully fledged RPi 4
-with all the bells and whistles will ad up to 3.4 Watts.
+with all the bells and whistles will ad up to 3.4 Watts, a Jetson Xavier NX
+will bring the total to 10-15 Watts depending on configuration.
 
 Effort was taken to make the boards as reliable as possible and enable them to
 be operated in emergencies and under failure conditions. All circuits can be
 operated manually on the board as long as the board has a power source over 6v
 and below 30v depending on configuration (see optional 12V vs 24V operation and
 PSU). Operation using external 5V TTL inputs is available regardless of the
-state or presence of the RPi.
+state or presence of the RPi/Jetson.
 
 The board can be configured to run either in 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU option is in place and
