@@ -1,6 +1,6 @@
 WORK IN PROGRESS, NOT PRODUCTION READY!
 
-![alt text](http://url/to/img.png)
+![Boatcontrol Rendering](images/boatcontrol_pcb.png)
 
 {INSERT_LINKS_TO_PCB_MANUFACTURER_SITES/PROJECTS}
 {INSERT_LINK_TO_DIGIKEY}
