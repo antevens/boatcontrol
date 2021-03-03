@@ -6,10 +6,10 @@ WORK IN PROGRESS, NOT PRODUCTION READY!
 {INSERT_LINK_TO_DIGIKEY}
 {INSERT_LINK_TO_MOUSER}
 
-This is an open hardware design for a electrical panel and boat controller.
+This is an open hardware design for an electrical panel and boat controller.
 
 You can think of this as a giant latching relay board with a socket to act like
-a regular Raspberry Pi HAT or an Nvidia Jetson (Nano/Xavier NX)
+a regular Raspberry Pi HAT or an Nvidia Jetson (Nano/Xavier NX) breakout
 
 All critical parts are designed to be field servicable, components using
 through-holes are used where possible for better durability on mobile marine
@@ -21,9 +21,9 @@ IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if the
 chance of surges or high voltages these should be isolated from the board using
 digital isolators or optocouplers and transient voltage suppressors. For the
 Raspberry Pi/Jetson inputs you might also want to add debounce and and provide
-3v from the isolated source.
+3v from an isolated source.
 
-Special care has been taken to limit power consumption as much as possible, on
+Special care has been taken to limit power consumption wherever possible, on
 it's own the board will only consume {INSERT_WATTS} watts when idle, if a
 Raspberry Pi (Rpi) Zero is mated it will add 80mA, a fully fledged RPi 4
 with all the bells and whistles will ad up to 3.4 Watts, a Jetson Xavier NX
@@ -88,14 +88,14 @@ Each channel/circuit can be controlled using three different methods:
     1. Using the onboard switches (these directly energize the relay coils)
 
     2. Using two external switch signals wired up using CAT5/6 with RJ45
-       connectors. The signals use 5V TTL logic and are active LOW.
+       connectors. The signals use 5V TTL logic and are active HIGH.
        The signals are filtered for noise and duration to protect the relays,
        this ensures that only one coil can be energized at any given time and
        only for a period of 1 second. Due to this filtering these can be safely
        wired to 3-way "Latching" wall/panel switches or momentary push buttons.
 
     3. Using I2C via the 2x20 Header, typically this would be done using a
-       Raspberri Pi (RPi), for power efficency consider using a RPi Zero.
+       Raspberri Pi (RPi) or Nvidia Jetson, for power efficency consider using a RPi Zero.
 
 An onboard bi-colour LED indicate coil energy state and pulses to both "ON" and
 "OFF" coils, RED indicates the circuit being turned ON while GREEN indicates
@@ -103,8 +103,8 @@ the circuit being turned OFF.
 
 Technically this can be considered to be a Raspberry (RPi) HAT which I believe would make
 it the largest one in existence but the board does not require an RPi to
-operate. Note that the board will act as a power supply for the RPi and
-eliminates the need for a separete PSU to power the RPi.
+operate. Note that the board will act as a power supply for the RPi and Jetson
+Nano and eliminates the need for a separete PSU to power the RPi/Nano.
 
 All communication between the RPi and the board is done using I2C, this only
 requires 2 wires and makes it safe to use in combination with most if not all
@@ -153,14 +153,14 @@ require also upgrading current sensors if they are installed.
 
 # Key features
 * All components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
-* All relays can be controlled from either the RPi or using analog control signals via RJ45/CAT5/6 connectors/cables.
+* All relays can be controlled from either the RPi/Nvidia  or using analog control signals via RJ45/CAT5/6 connectors/cables.
 * All relays are latching dual coil with individual control circuits.
 * All analog input channels have pulse generators for the relays to protect them from overheating.
-* Built-in high efficiency 5/12v step down converers to power the RPi and logic components and supply current for analog control.
+* Built-in high efficiency 5/12v step down converers to power the RPi/Nano and logic components and supply current for analog control.
 * 8x 60A 277V AC individual unprotected circuits
 * 8x 3-16A 250V AC shared bus protected circuits
-* 24x 3-16A 12V DC shared bus protected circuits
-* 32x 12V 500mA DC Logic/Relay breakout via RJ45
+* 24x 3-16A 12-24V DC shared bus protected circuits
+* 32x 12-24V 500mA DC Logic/Relay breakout via RJ45
 * All DC channels are polarity protected with high efficiency PFETs
 
-Protection is provided using thermal circuit breakers, the permitted amperage can be changed by switching out breakers, no breakers are provided for the 60A circuits.
+Protection is provided using thermal circuit breakers, the permitted amperage can be changed by switching out breakers, no breakers are provided for the 60A circuits, suggest using external breakers.
