@@ -1888,13 +1888,13 @@ F 3 "" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	0    1    -1   0   
 $EndComp
-Text Label 7450 5550 3    50   ~ 0
+Text Label 6450 5550 3    50   ~ 0
 RPiBCM17
 Text Label 7350 5550 3    50   ~ 0
 RPiBCM16
-Text Label 7250 5550 3    50   ~ 0
+Text Label 6550 5550 3    50   ~ 0
 RPiBCM15_RXD
-Text Label 7150 5550 3    50   ~ 0
+Text Label 6350 5550 3    50   ~ 0
 RPiBCM14_TXD
 Text Label 5850 5550 3    50   ~ 0
 RPi3.3V
@@ -1931,17 +1931,17 @@ Text Label 6150 4100 1    50   ~ 0
 RPiBCM21_SCLK
 Text Label 6950 5550 3    50   ~ 0
 RPiBCM12
-Text Label 6350 5550 3    50   ~ 0
+Text Label 7150 5550 3    50   ~ 0
 RPIBCM1_ID_SC
 Text Label 6850 5550 3    50   ~ 0
 RPiGND
-Text Label 5850 4100 1    50   ~ 0
+Text Label 7150 4100 1    50   ~ 0
 RPiBCM25
 Text Label 7350 4100 1    50   ~ 0
 RPiGND
 Text Label 6550 4100 1    50   ~ 0
 RPi3.3V
-Text Label 6550 5550 3    50   ~ 0
+Text Label 6850 4100 1    50   ~ 0
 RPiBCM23
 Text Label 6750 5550 3    50   ~ 0
 RPi3.3V
@@ -1949,25 +1949,25 @@ Text Label 5950 4100 1    50   ~ 0
 RPiBCM26
 Text Label 7050 5550 3    50   ~ 0
 RPiBCM13
-Text Label 6750 4100 1    50   ~ 0
+Text Label 7450 5550 3    50   ~ 0
 RPiBCM6
-Text Label 6850 4100 1    50   ~ 0
+Text Label 7250 5550 3    50   ~ 0
 RPiBCM5
-Text Label 6250 5550 3    50   ~ 0
+Text Label 6050 4100 1    50   ~ 0
 RPiBCM0_ID_SD
-Text Label 7050 4100 1    50   ~ 0
+Text Label 5850 4100 1    50   ~ 0
 RPiBCM11_SCLK
 Text Label 7250 4100 1    50   ~ 0
 RPiBCM9_MISO
-Text Label 7150 4100 1    50   ~ 0
+Text Label 7050 4100 1    50   ~ 0
 RPiBCM10_MOSI
-Text Label 6450 5550 3    50   ~ 0
+Text Label 6950 4100 1    50   ~ 0
 RPiBCM22
-Text Label 6050 4100 1    50   ~ 0
+Text Label 6750 4100 1    50   ~ 0
 RPiBCM27_PCM_D
 Text Label 5950 5550 3    50   ~ 0
 RPiGND
-Text Label 6950 4100 1    50   ~ 0
+Text Label 6250 5550 3    50   ~ 0
 RPiBCM4_GPCLK0
 Text Label 6150 5550 3    50   ~ 0
 RPiBCM3_SCL
@@ -2091,8 +2091,6 @@ Wire Wire Line
 	9950 4850 9950 5550
 Wire Wire Line
 	10150 4850 10150 5550
-Wire Wire Line
-	7750 4100 7750 4650
 Wire Wire Line
 	10850 4100 10850 4650
 Connection ~ 10850 4650
@@ -2934,8 +2932,6 @@ F 3 "~" H 1600 9500 50  0001 C CNN
 	1    1600 9500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7650 4400 7650 4150
 NoConn ~ 10300 10850
 NoConn ~ 10400 10850
 $Comp
@@ -4040,4 +4036,32 @@ Wire Wire Line
 Connection ~ 15650 5650
 Wire Wire Line
 	15650 5650 15650 5550
+$Comp
+L power:+12P #PWR0380
+U 1 1 60624C3D
+P 5650 4850
+F 0 "#PWR0380" H 5650 4700 50  0001 C CNN
+F 1 "+12P" V 5665 4978 50  0000 L CNN
+F 2 "" H 5650 4850 50  0001 C CNN
+F 3 "" H 5650 4850 50  0001 C CNN
+	1    5650 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 4650 7750 4100
+Text Label 1350 1950 2    50   ~ 0
+RPi3.3V
+$Comp
+L power:GND #PWR0381
+U 1 1 624F00DC
+P 2900 2050
+F 0 "#PWR0381" H 2900 1800 50  0001 C CNN
+F 1 "GND" V 2905 1922 50  0000 R CNN
+F 2 "" H 2900 2050 50  0001 C CNN
+F 3 "" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2900 2050 2550 2050
 $EndSCHEMATC
