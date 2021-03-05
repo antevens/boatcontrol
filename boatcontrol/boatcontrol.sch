@@ -1925,9 +1925,9 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2400 3800 
 	1    2200 4900
 	1    0    0    -1  
 $EndComp
-Text Label 6950 5550 3    50   ~ 0
+Text Label 7150 5550 3    50   ~ 0
 RPIBCM20_MOSI
-Text Label 7250 5550 3    50   ~ 0
+Text Label 7050 5550 3    50   ~ 0
 RPiBCM21_SCLK
 Text Label 6250 4100 1    50   ~ 0
 RPiBCM12
@@ -1945,9 +1945,9 @@ Text Label 6850 4100 1    50   ~ 0
 RPiBCM23
 Text Label 6750 5550 3    50   ~ 0
 RPi3.3V
-Text Label 7050 5550 3    50   ~ 0
-RPiBCM13
 Text Label 7450 5550 3    50   ~ 0
+RPiBCM13
+Text Label 6350 4100 1    50   ~ 0
 RPiBCM6
 Text Label 6150 4100 1    50   ~ 0
 RPiBCM5
@@ -2566,7 +2566,7 @@ Text Notes 8850 7950 3    50   ~ 0
 I2C Address 0x26
 Text Label 6050 5550 3    50   ~ 0
 RPiBCM2_SDA
-Text Label 6350 4100 1    50   ~ 0
+Text Label 7250 5550 3    50   ~ 0
 RPiBCM19_MISO
 Text Label 6450 4100 1    50   ~ 0
 RPiGND
@@ -4062,6 +4062,8 @@ Wire Wire Line
 	2900 2050 2550 2050
 Text Label 6050 4100 1    50   ~ 0
 RPiBCM0_ID_SD
-Text Label 7150 5550 3    50   ~ 0
+Text Label 6950 5550 3    50   ~ 0
 RPiBCM26
+Text Label 1500 9850 3    50   ~ 0
+GND_RAW
 $EndSCHEMATC
