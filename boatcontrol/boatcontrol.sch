@@ -1229,7 +1229,7 @@ Wire Wire Line
 	1050 7800 750  7800
 Connection ~ 7350 2250
 Text Notes 4800 1100 0    50   ~ 0
-Dual current mirrors, only one should be enabled at any given time.\nIndicator LED will show any disparity,\nfaults can be bypassed using the jumpers to switch the active mirror.
+Dual current mirrors, only one should be enabled at any given time.\nIndicator LED will show any disparity.\nFaults can be bypassed using the jumpers to switch the active mirror.
 $Comp
 L power:GND #PWR0236
 U 1 1 67D1287D
@@ -2965,7 +2965,7 @@ F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs
 	1    11200 10850
 	0    -1   -1   0   
 $EndComp
-Text Notes 10600 10200 0    50   ~ 0
+Text Notes 10600 10200 0    59   ~ 12
 Heatsinks
 $Comp
 L BoatControl:LM2679T-5.0 U107
@@ -3044,22 +3044,10 @@ Wire Notes Line
 	4650 550  8000 550 
 Text Notes 13000 800  0    59   ~ 12
 Onboard Relay Analog Control
-Text GLabel 14350 3750 2    50   Input ~ 0
+Text GLabel 12900 1650 0    50   Input ~ 0
 12V_DC_C23_ON
-Text GLabel 14350 4150 2    50   Input ~ 0
+Text GLabel 12900 1250 0    50   Input ~ 0
 12V_DC_C24_ON
-Text GLabel 14350 4350 2    50   Input ~ 0
-12V_DC_C24_OFF
-Text GLabel 12900 5250 0    50   Input ~ 0
-12V_DC_C10_OFF
-Text GLabel 12900 5750 0    50   Input ~ 0
-12V_DC_C11_OFF
-Text GLabel 12900 6150 0    50   Input ~ 0
-12V_DC_C12_OFF
-Text GLabel 12900 7550 0    50   Input ~ 0
-12V_DC_C15_OFF
-Text GLabel 12900 7950 0    50   Input ~ 0
-12V_DC_C16_OFF
 Text GLabel 14350 7950 2    50   Input ~ 0
 230V_AC_C8_OFF
 Text GLabel 14350 7750 2    50   Input ~ 0
@@ -3072,9 +3060,9 @@ Text GLabel 14350 7050 2    50   Input ~ 0
 230V_AC_C6_OFF
 Text GLabel 14350 6850 2    50   Input ~ 0
 230V_AC_C6_ON
-Text GLabel 14350 5250 2    50   Input ~ 0
+Text GLabel 12900 6150 0    50   Input ~ 0
 230V_AC_C2_OFF
-Text GLabel 14350 5050 2    50   Input ~ 0
+Text GLabel 12900 5950 0    50   Input ~ 0
 230V_AC_C2_ON
 Text GLabel 14350 6150 2    50   Input ~ 0
 230V_AC_C4_OFF
@@ -3088,19 +3076,19 @@ Text GLabel 14350 5750 2    50   Input ~ 0
 230V_AC_C3_OFF
 Text GLabel 14350 5550 2    50   Input ~ 0
 230V_AC_C3_ON
-Text GLabel 14350 4850 2    50   Input ~ 0
+Text GLabel 12900 5750 0    50   Input ~ 0
 230V_AC_C1_OFF
-Text GLabel 14350 4650 2    50   Input ~ 0
+Text GLabel 12900 5550 0    50   Input ~ 0
 230V_AC_C1_ON
-Text GLabel 14350 3950 2    50   Input ~ 0
+Text GLabel 12900 1450 0    50   Input ~ 0
 12V_DC_C23_OFF
-Text GLabel 14350 3450 2    50   Input ~ 0
+Text GLabel 12900 2550 0    50   Input ~ 0
 12V_DC_C22_OFF
-Text GLabel 14350 3250 2    50   Input ~ 0
+Text GLabel 12900 2350 0    50   Input ~ 0
 12V_DC_C22_ON
-Text GLabel 14350 3050 2    50   Input ~ 0
+Text GLabel 12900 2150 0    50   Input ~ 0
 12V_DC_C21_OFF
-Text GLabel 14350 2850 2    50   Input ~ 0
+Text GLabel 12900 1950 0    50   Input ~ 0
 12V_DC_C21_ON
 Text GLabel 14350 2550 2    50   Input ~ 0
 12V_DC_C20_OFF
@@ -3110,64 +3098,26 @@ Text GLabel 14350 2150 2    50   Input ~ 0
 12V_DC_C19_OFF
 Text GLabel 14350 1950 2    50   Input ~ 0
 12V_DC_C19_ON
-Text GLabel 14350 1650 2    50   Input ~ 0
-12V_DC_C18_OFF
-Text GLabel 14350 1450 2    50   Input ~ 0
-12V_DC_C18_ON
-Text GLabel 14350 1250 2    50   Input ~ 0
-12V_DC_C17_OFF
-Text GLabel 14350 1050 2    50   Input ~ 0
-12V_DC_C17_ON
-Text GLabel 12900 7750 0    50   Input ~ 0
-12V_DC_C16_ON
-Text GLabel 12900 7350 0    50   Input ~ 0
-12V_DC_C15_ON
 Text GLabel 12900 6850 0    50   Input ~ 0
 12V_DC_C14_ON
 Text GLabel 12900 6450 0    50   Input ~ 0
 12V_DC_C13_ON
-Text GLabel 12900 5950 0    50   Input ~ 0
-12V_DC_C12_ON
-Text GLabel 12900 5550 0    50   Input ~ 0
-12V_DC_C11_ON
-Text GLabel 12900 5050 0    50   Input ~ 0
-12V_DC_C10_ON
-Text GLabel 12900 4850 0    50   Input ~ 0
-12V_DC_C9_OFF
-Text GLabel 12900 4650 0    50   Input ~ 0
-12V_DC_C9_ON
-Text GLabel 12900 4350 0    50   Input ~ 0
-12V_DC_C8_OFF
-Text GLabel 12900 4150 0    50   Input ~ 0
-12V_DC_C8_ON
-Text GLabel 12900 3950 0    50   Input ~ 0
-12V_DC_C7_OFF
-Text GLabel 12900 3750 0    50   Input ~ 0
-12V_DC_C7_ON
-Text GLabel 12900 3450 0    50   Input ~ 0
+Text GLabel 14350 4350 2    50   Input ~ 0
 12V_DC_C6_OFF
-Text GLabel 12900 3250 0    50   Input ~ 0
+Text GLabel 14350 4150 2    50   Input ~ 0
 12V_DC_C6_ON
-Text GLabel 12900 3050 0    50   Input ~ 0
+Text GLabel 14350 3950 2    50   Input ~ 0
 12V_DC_C5_OFF
-Text GLabel 12900 2850 0    50   Input ~ 0
+Text GLabel 14350 3750 2    50   Input ~ 0
 12V_DC_C5_ON
-Text GLabel 12900 2550 0    50   Input ~ 0
+Text GLabel 12900 3450 0    50   Input ~ 0
 12V_DC_C4_OFF
-Text GLabel 12900 2350 0    50   Input ~ 0
+Text GLabel 12900 3250 0    50   Input ~ 0
 12V_DC_C4_ON
-Text GLabel 12900 2150 0    50   Input ~ 0
+Text GLabel 12900 3050 0    50   Input ~ 0
 12V_DC_C3_OFF
-Text GLabel 12900 1950 0    50   Input ~ 0
+Text GLabel 12900 2850 0    50   Input ~ 0
 12V_DC_C3_ON
-Text GLabel 12900 1650 0    50   Input ~ 0
-12V_DC_C2_OFF
-Text GLabel 12900 1450 0    50   Input ~ 0
-12V_DC_C2_ON
-Text GLabel 12900 1250 0    50   Input ~ 0
-12V_DC_C1_OFF
-Text GLabel 12900 1050 0    50   Input ~ 0
-12V_DC_C1_ON
 Wire Notes Line
 	15850 8300 15850 650 
 Wire Notes Line
@@ -3720,36 +3670,28 @@ $EndComp
 $Comp
 L BoatControl:SS73100-047F J108
 U 1 1 A8523A49
-P 13000 4150
-F 0 "J108" H 13500 7450 50  0000 L CNN
-F 1 "SS73100-047F" H 15250 7550 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 13150 3850 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 13350 3700 50  0001 L BNN
-F 4 "Stewart Connector" H 13200 3500 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 13000 4150 50  0001 C CNN "Dimensions"
-	1    13000 4150
-	1    0    0    -1  
+P 14250 4950
+F 0 "J108" H 14750 8250 50  0000 L CNN
+F 1 "SS73100-047F" H 16500 8350 50  0000 L CNN
+F 2 "BoatControl:STEWART_SS73100-047F" H 14400 4650 50  0001 L BNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 14600 4500 50  0001 L BNN
+F 4 "Stewart Connector" H 14450 4300 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 14250 4950 50  0001 C CNN "Dimensions"
+	1    14250 4950
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	14350 1750 15250 1750
 Wire Wire Line
 	15250 1650 15050 1650
 Wire Wire Line
 	15050 1650 15050 1550
 Wire Wire Line
-	15050 1550 14350 1550
-Wire Wire Line
 	15250 1550 15100 1550
 Wire Wire Line
 	15100 1550 15100 1350
 Wire Wire Line
-	15100 1350 14350 1350
-Wire Wire Line
 	15250 1450 15150 1450
 Wire Wire Line
 	15150 1450 15150 1150
-Wire Wire Line
-	15150 1150 14350 1150
 Wire Wire Line
 	15250 2650 14350 2650
 Wire Wire Line
@@ -3771,65 +3713,39 @@ Wire Wire Line
 Wire Wire Line
 	15150 2050 14350 2050
 Wire Wire Line
-	15250 3550 14350 3550
-Wire Wire Line
-	15250 3450 15050 3450
-Wire Wire Line
 	15050 3450 15050 3350
-Wire Wire Line
-	15050 3350 14350 3350
 Wire Wire Line
 	15250 3350 15100 3350
 Wire Wire Line
 	15100 3350 15100 3150
 Wire Wire Line
-	15100 3150 14350 3150
-Wire Wire Line
 	15250 3250 15150 3250
 Wire Wire Line
 	15150 3250 15150 2950
-Wire Wire Line
-	15150 2950 14350 2950
-Wire Wire Line
-	15250 4450 14350 4450
 Wire Wire Line
 	15250 4350 15050 4350
 Wire Wire Line
 	15050 4350 15050 4250
 Wire Wire Line
-	15050 4250 14350 4250
-Wire Wire Line
 	15250 4250 15100 4250
 Wire Wire Line
 	15100 4250 15100 4050
-Wire Wire Line
-	15100 4050 14350 4050
 Wire Wire Line
 	15250 4150 15150 4150
 Wire Wire Line
 	15150 4150 15150 3850
 Wire Wire Line
-	15150 3850 14350 3850
-Wire Wire Line
-	15250 5350 14350 5350
-Wire Wire Line
 	15250 5250 15050 5250
 Wire Wire Line
 	15050 5250 15050 5150
-Wire Wire Line
-	15050 5150 14350 5150
 Wire Wire Line
 	15250 5150 15100 5150
 Wire Wire Line
 	15100 5150 15100 4950
 Wire Wire Line
-	15100 4950 14350 4950
-Wire Wire Line
 	15250 5050 15150 5050
 Wire Wire Line
 	15150 5050 15150 4750
-Wire Wire Line
-	15150 4750 14350 4750
 Wire Wire Line
 	15250 6250 14350 6250
 Wire Wire Line
@@ -4122,22 +4038,6 @@ Text Label 13500 7650 2    50   ~ 0
 H3
 Text Label 13500 7450 2    50   ~ 0
 H4
-Wire Bus Line
-	13600 950  13600 1750
-Wire Bus Line
-	13600 1850 13600 2650
-Wire Bus Line
-	13600 2750 13600 3550
-Wire Bus Line
-	13600 3650 13600 4450
-Wire Bus Line
-	13600 4550 13600 5350
-Wire Bus Line
-	13600 5450 13600 6250
-Wire Bus Line
-	13600 6350 13600 7150
-Wire Bus Line
-	13600 7250 13600 8050
 Text Label 15250 1950 2    50   ~ 0
 B1
 Text Label 15250 2050 2    50   ~ 0
@@ -4194,4 +4094,104 @@ Text Label 15250 7550 2    50   ~ 0
 H3
 Text Label 15250 7650 2    50   ~ 0
 H4
+Text GLabel 12900 1050 0    50   Input ~ 0
+12V_DC_C24_OFF
+Text GLabel 14350 4650 2    50   Input ~ 0
+12V_DC_C9_ON
+Text GLabel 14350 4850 2    50   Input ~ 0
+12V_DC_C9_OFF
+Text GLabel 14350 5050 2    50   Input ~ 0
+12V_DC_C10_ON
+Text GLabel 14350 5250 2    50   Input ~ 0
+12V_DC_C10_OFF
+Wire Wire Line
+	15250 3450 15050 3450
+Wire Wire Line
+	15250 4450 14350 4450
+Wire Wire Line
+	15100 4050 14350 4050
+Wire Wire Line
+	15150 3850 14350 3850
+Wire Wire Line
+	15050 4250 14350 4250
+Wire Wire Line
+	15150 2950 14350 2950
+Wire Wire Line
+	15100 3150 14350 3150
+Wire Wire Line
+	15050 3350 14350 3350
+Wire Wire Line
+	14350 3550 15250 3550
+Text GLabel 14350 2850 2    50   Input ~ 0
+12V_DC_C7_ON
+Text GLabel 14350 3050 2    50   Input ~ 0
+12V_DC_C7_OFF
+Text GLabel 14350 3250 2    50   Input ~ 0
+12V_DC_C8_ON
+Text GLabel 14350 3450 2    50   Input ~ 0
+12V_DC_C8_OFF
+Text GLabel 12900 5250 0    50   Input ~ 0
+12V_DC_C2_OFF
+Text GLabel 12900 5050 0    50   Input ~ 0
+12V_DC_C2_ON
+Text GLabel 12900 4850 0    50   Input ~ 0
+12V_DC_C1_OFF
+Text GLabel 12900 4650 0    50   Input ~ 0
+12V_DC_C1_ON
+Text GLabel 12900 3750 0    50   Input ~ 0
+12V_DC_C11_ON
+Text GLabel 12900 4150 0    50   Input ~ 0
+12V_DC_C12_ON
+Text GLabel 12900 4350 0    50   Input ~ 0
+12V_DC_C12_OFF
+Text GLabel 12900 3950 0    50   Input ~ 0
+12V_DC_C11_OFF
+Wire Wire Line
+	15150 4750 14350 4750
+Wire Wire Line
+	15100 4950 14350 4950
+Wire Wire Line
+	15050 5150 14350 5150
+Wire Wire Line
+	15250 5350 14350 5350
+Text GLabel 12900 7350 0    50   Input ~ 0
+12V_DC_C15_ON
+Text GLabel 12900 7750 0    50   Input ~ 0
+12V_DC_C16_ON
+Text GLabel 12900 7950 0    50   Input ~ 0
+12V_DC_C16_OFF
+Text GLabel 12900 7550 0    50   Input ~ 0
+12V_DC_C15_OFF
+Wire Wire Line
+	14350 1750 15250 1750
+Wire Wire Line
+	15150 1150 14350 1150
+Wire Wire Line
+	15100 1350 14350 1350
+Wire Wire Line
+	15050 1550 14350 1550
+Text GLabel 14350 1050 2    50   Input ~ 0
+12V_DC_C17_ON
+Text GLabel 14350 1250 2    50   Input ~ 0
+12V_DC_C17_OFF
+Text GLabel 14350 1450 2    50   Input ~ 0
+12V_DC_C18_ON
+Text GLabel 14350 1650 2    50   Input ~ 0
+12V_DC_C18_OFF
+Wire Bus Line
+	13600 7250 13600 8050
+Wire Bus Line
+	13600 6350 13600 7150
+Wire Bus Line
+	13600 5450 13600 6250
+Wire Bus Line
+	13600 4550 13600 5350
+Wire Bus Line
+	13600 3650 13600 4450
+Wire Bus Line
+	13600 2750 13600 3550
+Wire Bus Line
+	13600 1850 13600 2650
+Wire Bus Line
+	13600 950  13600 1750
 $EndSCHEMATC
