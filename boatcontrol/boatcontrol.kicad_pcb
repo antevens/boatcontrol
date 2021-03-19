@@ -92,7 +92,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 20 20)
     (grid_origin 20 20)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x0d0f0_ffffffff)
       (usegerberextensions false)
@@ -13844,7 +13844,7 @@
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 5.0mm Capacitor")
     (path /D16552B4/5FA17F38/60373028)
-    (fp_text reference C6701 (at 2.55 1.8 90) (layer F.SilkS)
+    (fp_text reference C6702 (at 2.55 1.8 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0.1uF (at 2.5 3.75 90) (layer F.Fab)
