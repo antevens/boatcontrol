@@ -4144,31 +4144,31 @@ Text GLabel 18250 1150 0    50   Input ~ 0
 12V_DC_C24_ON
 Text GLabel 18250 1550 0    50   Input ~ 0
 12V_DC_C23_ON
-Text GLabel 14350 3450 2    50   Input ~ 0
+Text GLabel 11950 4100 2    50   Input ~ 0
 230V_AC_C1_ON
-Text GLabel 14350 3250 2    50   Input ~ 0
+Text GLabel 11950 3950 2    50   Input ~ 0
 230V_AC_C1_OFF
-Text GLabel 14350 3050 2    50   Input ~ 0
+Text GLabel 11950 3800 2    50   Input ~ 0
 230V_AC_C2_ON
-Text GLabel 14350 2850 2    50   Input ~ 0
+Text GLabel 11900 3650 2    50   Input ~ 0
 230V_AC_C2_OFF
-Text GLabel 14350 3750 2    50   Input ~ 0
+Text GLabel 12150 4700 2    50   Input ~ 0
 12V_DC_C2_OFF
-Text GLabel 14350 3950 2    50   Input ~ 0
+Text GLabel 12150 4850 2    50   Input ~ 0
 12V_DC_C2_ON
-Text GLabel 14350 4150 2    50   Input ~ 0
+Text GLabel 12100 4950 2    50   Input ~ 0
 12V_DC_C1_OFF
-Text GLabel 14350 4350 2    50   Input ~ 0
+Text GLabel 12150 5100 2    50   Input ~ 0
 12V_DC_C1_ON
 Text GLabel 18250 4250 0    50   Input ~ 0
 12V_DC_C12_OFF
-Text GLabel 14350 1950 2    50   Input ~ 0
+Text GLabel 11900 2800 2    50   Input ~ 0
 230V_AC_C4_OFF
-Text GLabel 14350 2150 2    50   Input ~ 0
+Text GLabel 11900 2950 2    50   Input ~ 0
 230V_AC_C4_ON
-Text GLabel 14350 2350 2    50   Input ~ 0
+Text GLabel 11900 3100 2    50   Input ~ 0
 230V_AC_C3_OFF
-Text GLabel 14350 2550 2    50   Input ~ 0
+Text GLabel 11900 3250 2    50   Input ~ 0
 230V_AC_C3_ON
 Text GLabel 12900 1050 0    50   Input ~ 0
 230V_AC_C6_OFF
