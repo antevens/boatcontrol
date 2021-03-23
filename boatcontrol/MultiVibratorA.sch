@@ -310,7 +310,7 @@ Text HLabel 4850 4350 0    50   Output ~ 0
 MUX_OFF
 Text HLabel 6050 4250 2    50   Output ~ 0
 MUX_ON
-Text HLabel 6900 4650 2    50   Input ~ 0
+Text HLabel 6850 4650 2    50   Input ~ 0
 AN_OFF
 Text HLabel 6850 4450 2    50   Input ~ 0
 DIG_OFF
@@ -603,9 +603,6 @@ Wire Wire Line
 	4350 4150 4850 4150
 Wire Wire Line
 	6050 4550 6250 4550
-Wire Wire Line
-	6900 4650 6850 4650
-Connection ~ 6850 4650
 Wire Wire Line
 	6250 4650 6250 4850
 Wire Wire Line
