@@ -3052,33 +3052,33 @@ Text GLabel 12900 2150 0    50   Input ~ 0
 230V_AC_C7_OFF
 Text GLabel 12900 2350 0    50   Input ~ 0
 230V_AC_C7_ON
-Text GLabel 18250 2450 0    50   Input ~ 0
+Text GLabel 12900 6150 0    50   Input ~ 0
 12V_DC_C22_OFF
-Text GLabel 18250 2250 0    50   Input ~ 0
+Text GLabel 12900 5950 0    50   Input ~ 0
 12V_DC_C22_ON
-Text GLabel 18250 2050 0    50   Input ~ 0
+Text GLabel 12900 5550 0    50   Input ~ 0
 12V_DC_C21_OFF
-Text GLabel 18250 1850 0    50   Input ~ 0
+Text GLabel 12900 5750 0    50   Input ~ 0
 12V_DC_C21_ON
-Text GLabel 16600 2450 2    50   Input ~ 0
+Text GLabel 12900 7950 0    50   Input ~ 0
 12V_DC_C20_OFF
-Text GLabel 16600 2300 2    50   Input ~ 0
+Text GLabel 12900 7550 0    50   Input ~ 0
 12V_DC_C20_ON
-Text GLabel 16600 2150 2    50   Input ~ 0
+Text GLabel 12900 7350 0    50   Input ~ 0
 12V_DC_C19_OFF
-Text GLabel 16600 2000 2    50   Input ~ 0
+Text GLabel 12900 7750 0    50   Input ~ 0
 12V_DC_C19_ON
-Text GLabel 18250 6750 0    50   Input ~ 0
+Text GLabel 14350 7550 2    50   Input ~ 0
 12V_DC_C14_ON
-Text GLabel 18250 6350 0    50   Input ~ 0
+Text GLabel 14350 7750 2    50   Input ~ 0
 12V_DC_C13_ON
-Text GLabel 18050 3150 0    50   Input ~ 0
+Text GLabel 12900 3450 0    50   Input ~ 0
 12V_DC_C6_OFF
-Text GLabel 18050 3550 0    50   Input ~ 0
+Text GLabel 12900 2850 0    50   Input ~ 0
 12V_DC_C6_ON
-Text GLabel 18050 3350 0    50   Input ~ 0
+Text GLabel 12900 3050 0    50   Input ~ 0
 12V_DC_C5_OFF
-Text GLabel 18050 2950 0    50   Input ~ 0
+Text GLabel 12900 3250 0    50   Input ~ 0
 12V_DC_C5_ON
 Text GLabel 14350 2350 2    50   Input ~ 0
 12V_DC_C4_ON
@@ -3221,9 +3221,9 @@ Text Label 6950 5550 3    50   ~ 0
 RPiBCM26
 Text Label 1500 9850 3    50   ~ 0
 GND_RAW
-Text GLabel 18250 6950 0    50   Input ~ 0
+Text GLabel 14350 7950 2    50   Input ~ 0
 12V_DC_C14_OFF
-Text GLabel 18250 6550 0    50   Input ~ 0
+Text GLabel 14350 7350 2    50   Input ~ 0
 12V_DC_C13_OFF
 Connection ~ 15650 1950
 Connection ~ 15650 2850
@@ -4009,13 +4009,13 @@ Text Label 15250 7550 2    50   ~ 0
 H3
 Text Label 15250 7650 2    50   ~ 0
 H4
-Text GLabel 12100 1900 0    50   Input ~ 0
+Text GLabel 12900 5250 0    50   Input ~ 0
 12V_DC_C9_ON
-Text GLabel 12100 2500 0    50   Input ~ 0
+Text GLabel 12900 4650 0    50   Input ~ 0
 12V_DC_C9_OFF
-Text GLabel 12100 2300 0    50   Input ~ 0
+Text GLabel 12900 4850 0    50   Input ~ 0
 12V_DC_C10_ON
-Text GLabel 12100 2100 0    50   Input ~ 0
+Text GLabel 12900 5050 0    50   Input ~ 0
 12V_DC_C10_OFF
 Wire Wire Line
 	15250 3450 15050 3450
@@ -4035,19 +4035,19 @@ Wire Wire Line
 	15050 3350 14350 3350
 Wire Wire Line
 	14350 3550 15250 3550
-Text GLabel 17450 5000 0    50   Input ~ 0
+Text GLabel 14350 4150 2    50   Input ~ 0
 12V_DC_C7_ON
-Text GLabel 17450 5600 0    50   Input ~ 0
+Text GLabel 14350 3750 2    50   Input ~ 0
 12V_DC_C7_OFF
-Text GLabel 17450 5400 0    50   Input ~ 0
+Text GLabel 14350 3950 2    50   Input ~ 0
 12V_DC_C8_ON
-Text GLabel 17450 5200 0    50   Input ~ 0
+Text GLabel 14350 4350 2    50   Input ~ 0
 12V_DC_C8_OFF
-Text GLabel 12200 4700 0    50   Input ~ 0
+Text GLabel 14350 5950 2    50   Input ~ 0
 12V_DC_C11_ON
-Text GLabel 12200 5100 0    50   Input ~ 0
+Text GLabel 14350 5750 2    50   Input ~ 0
 12V_DC_C12_ON
-Text GLabel 12200 5300 0    50   Input ~ 0
+Text GLabel 14350 5550 2    50   Input ~ 0
 12V_DC_C11_OFF
 Wire Wire Line
 	15150 4750 14350 4750
@@ -4057,13 +4057,9 @@ Wire Wire Line
 	15050 5150 14350 5150
 Wire Wire Line
 	15250 5350 14350 5350
-Text GLabel 18250 7250 0    50   Input ~ 0
+Text GLabel 12900 6850 0    50   Input ~ 0
 12V_DC_C15_ON
-Text GLabel 18250 7650 0    50   Input ~ 0
-12V_DC_C16_ON
-Text GLabel 18250 7850 0    50   Input ~ 0
-12V_DC_C16_OFF
-Text GLabel 18250 7450 0    50   Input ~ 0
+Text GLabel 12900 6450 0    50   Input ~ 0
 12V_DC_C15_OFF
 Wire Wire Line
 	14350 1750 15250 1750
@@ -4073,11 +4069,11 @@ Wire Wire Line
 	15100 1350 14350 1350
 Wire Wire Line
 	15050 1550 14350 1550
-Text GLabel 16600 1300 2    50   Input ~ 0
+Text GLabel 14350 7050 2    50   Input ~ 0
 12V_DC_C17_OFF
-Text GLabel 16600 1450 2    50   Input ~ 0
+Text GLabel 14350 6650 2    50   Input ~ 0
 12V_DC_C18_ON
-Text GLabel 16600 1600 2    50   Input ~ 0
+Text GLabel 14350 6450 2    50   Input ~ 0
 12V_DC_C18_OFF
 $Comp
 L power:+5V #PWR0116
@@ -4130,15 +4126,15 @@ Connection ~ 15650 1150
 Wire Wire Line
 	15650 1150 15650 1250
 Connection ~ 15650 1050
-Text GLabel 16600 1150 2    50   Input ~ 0
+Text GLabel 14350 6850 2    50   Input ~ 0
 12V_DC_C17_ON
-Text GLabel 18250 950  0    50   Input ~ 0
+Text GLabel 14350 5250 2    50   Input ~ 0
 12V_DC_C24_OFF
-Text GLabel 18250 1350 0    50   Input ~ 0
+Text GLabel 14350 4650 2    50   Input ~ 0
 12V_DC_C23_OFF
-Text GLabel 18250 1150 0    50   Input ~ 0
+Text GLabel 14350 4850 2    50   Input ~ 0
 12V_DC_C24_ON
-Text GLabel 18250 1550 0    50   Input ~ 0
+Text GLabel 14350 5050 2    50   Input ~ 0
 12V_DC_C23_ON
 Text GLabel 12900 1250 0    50   Input ~ 0
 12V_DC_C2_OFF
@@ -4148,7 +4144,7 @@ Text GLabel 12900 1450 0    50   Input ~ 0
 12V_DC_C1_OFF
 Text GLabel 12900 1050 0    50   Input ~ 0
 12V_DC_C1_ON
-Text GLabel 12200 4900 0    50   Input ~ 0
+Text GLabel 14350 6150 2    50   Input ~ 0
 12V_DC_C12_OFF
 Text GLabel 14350 1450 2    50   Input ~ 0
 230V_AC_C5_ON
@@ -4158,26 +4154,30 @@ Text GLabel 14350 1050 2    50   Input ~ 0
 230V_AC_C5_OFF
 Text GLabel 14350 1250 2    50   Input ~ 0
 230V_AC_C6_ON
-Text GLabel 12150 1050 0    50   Input ~ 0
+Text GLabel 12900 3750 0    50   Input ~ 0
 230V_AC_C3_ON
-Text GLabel 12150 1450 0    50   Input ~ 0
+Text GLabel 12900 4350 0    50   Input ~ 0
 230V_AC_C3_OFF
-Text GLabel 12150 1650 0    50   Input ~ 0
+Text GLabel 12900 4150 0    50   Input ~ 0
 230V_AC_C4_ON
-Text GLabel 12150 1250 0    50   Input ~ 0
+Text GLabel 12900 3950 0    50   Input ~ 0
 230V_AC_C4_OFF
-Text GLabel 12150 3000 0    50   Input ~ 0
-230V_AC_C2_OFF
-Text GLabel 12150 3400 0    50   Input ~ 0
-230V_AC_C2_ON
-Text GLabel 12150 3200 0    50   Input ~ 0
-230V_AC_C1_OFF
-Text GLabel 12150 2800 0    50   Input ~ 0
-230V_AC_C1_ON
 Text GLabel 14350 1950 2    50   Input ~ 0
 12V_DC_C4_OFF
 Text GLabel 14350 2150 2    50   Input ~ 0
 12V_DC_C3_ON
+Text GLabel 14350 3450 2    50   Input ~ 0
+230V_AC_C1_OFF
+Text GLabel 14350 3250 2    50   Input ~ 0
+230V_AC_C2_ON
+Text GLabel 14350 2850 2    50   Input ~ 0
+230V_AC_C2_OFF
+Text GLabel 14350 3050 2    50   Input ~ 0
+230V_AC_C1_ON
+Text GLabel 12900 7050 0    50   Input ~ 0
+12V_DC_C16_OFF
+Text GLabel 12900 6650 0    50   Input ~ 0
+12V_DC_C16_ON
 Wire Bus Line
 	13600 7250 13600 8050
 Wire Bus Line
