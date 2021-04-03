@@ -2243,8 +2243,6 @@ F 5 "C320C104K3R5TA" V 2050 3700 50  0001 C CNN "Model"
 	1    2050 3700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	12900 10250 12950 10250
 Connection ~ 2050 3800
 Wire Wire Line
 	2050 3800 1800 3800
