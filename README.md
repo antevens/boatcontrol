@@ -36,6 +36,10 @@ and below 30v depending on configuration (see optional 12V vs 24V operation and
 PSU). Operation using external 5V TTL inputs is available regardless of the
 state or presence of the RPi/Jetson.
 
+The board has 4 layers, two internal layers are used for signal routing and
+power delivery for some logic compoents while all power routing is done on the
+external layers, care is taken to maximize separation for safety.
+
 The board can be configured to run either in 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU option is in place and
 configured. For 12V operation make sure the 12V bypass jumper/solder pads are

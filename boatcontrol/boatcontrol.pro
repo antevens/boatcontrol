@@ -1,4 +1,4 @@
-update=Wed 03 Mar 2021 01:38:26 AM
+update=Mon 05 Apr 2021 11:25:53 PM
 version=1
 last_client=kicad
 [general]
@@ -26,8 +26,8 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
-BoardThickness=2.4
+CopperLayerCount=4
+BoardThickness=3.2
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -101,16 +101,16 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -225,7 +225,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
