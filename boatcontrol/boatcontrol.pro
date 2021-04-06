@@ -1,4 +1,4 @@
-update=Mon 05 Apr 2021 11:25:53 PM
+update=Tue 06 Apr 2021 03:21:06 AM
 version=1
 last_client=kicad
 [general]
@@ -279,7 +279,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Up to 16A 12V DC
-Clearance=0.25
+Clearance=0.508
 TrackWidth=2.5
 ViaDiameter=8
 ViaDrill=6
@@ -290,7 +290,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Up to 16A 230V
-Clearance=1.2
+Clearance=0.508
 TrackWidth=2.5
 ViaDiameter=8
 ViaDrill=6
@@ -301,7 +301,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Up to 32A 12V DC
-Clearance=0.25
+Clearance=0.508
 TrackWidth=4
 ViaDiameter=9
 ViaDrill=7
@@ -323,7 +323,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=Up to 5A 12V DC
-Clearance=0.25
+Clearance=0.508
 TrackWidth=0.5
 ViaDiameter=2
 ViaDrill=1.6
@@ -334,7 +334,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/6]
 Name=Up to 60A 12V DC
-Clearance=0.25
+Clearance=0.508
 TrackWidth=8
 ViaDiameter=9
 ViaDrill=7
