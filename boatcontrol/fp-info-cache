@@ -1,4 +1,4 @@
-19102621724553068
+19104247011348068
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -468,6 +468,13 @@ Schurter_Circuit_Breaker
 0
 2
 2
+BoatControl
+SolderJumper-3_LargeGap_Bridged12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+solder jumper open
+0
+3
+3
 BoatControl
 SolderJumper-3_P1.3mm_Open_RoundedPad3.0x4.5mm_NumberLabels
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers

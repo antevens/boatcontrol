@@ -36,19 +36,26 @@ and below 30v depending on configuration (see optional 12V vs 24V operation and
 PSU). Operation using external 5V TTL inputs is available regardless of the
 state or presence of the RPi/Jetson.
 
-The board has 4 layers, two internal layers are used for signal routing and
-power delivery for some logic compoents while all power routing is done on the
-external layers, care is taken to maximize separation for safety.
-
 The board can be configured to run either in 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU option is in place and
 configured. For 12V operation make sure the 12V bypass jumper/solder pads are
 connected.
 
-The design includes a main board and two optional addon boards:
-    The primary board is designed for 2.4-3.2mm PCBs with 6oz (200um) copper
-    The high current daughter board is designed for 3.4mm+ 13oz (450um) copper.
-    The non-latching daughter board is designed for 2.4mm+ 6oz (200um) copper.
+The design includes a main board and two optional addon boards, the primary
+board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
+
+    Front Power, 6oz (220um) copper, min spacing 0.500mm)
+    First Signal, 1ox (35um) copper, min spacing 0.250mm)
+    Second Signal, 1ox (35um) copper, min spacing 0.250mm)
+    Back Power, 6oz (220um) copper, min spacing 0.500mm)
+
+    The high current daughter board is designed for 2 layer 13oz (450um) copper.
+    The non-latching daughter board is designed for 2 layer 6oz (200um) copper.
+
+    Thicknesses of daughter boards can very as long as they are over 1mm
+
+It's important that the power layers are on the outside for cooling purposes,
+internal layers would require substancially thicker copper layers.
 
 This layout includes:
 

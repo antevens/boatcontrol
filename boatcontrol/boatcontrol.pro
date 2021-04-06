@@ -1,4 +1,4 @@
-update=Tue 06 Apr 2021 03:21:06 AM
+update=Tue 06 Apr 2021 04:52:04 AM
 version=1
 last_client=kicad
 [general]
@@ -39,21 +39,24 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.7
-TrackWidth3=0.8
-TrackWidth4=1
-TrackWidth5=1.8
-TrackWidth6=2
-TrackWidth7=2.4
-TrackWidth8=2.5
-TrackWidth9=3
-TrackWidth10=3.5
-TrackWidth11=4
-TrackWidth12=5
-TrackWidth13=6
-TrackWidth14=7
-TrackWidth15=8
-TrackWidth16=10
+TrackWidth2=0.508
+TrackWidth3=0.7
+TrackWidth4=0.8
+TrackWidth5=1
+TrackWidth6=1.8
+TrackWidth7=2
+TrackWidth8=2.4
+TrackWidth9=2.5
+TrackWidth10=3
+TrackWidth11=3.4
+TrackWidth12=3.5
+TrackWidth13=3.8
+TrackWidth14=4
+TrackWidth15=5
+TrackWidth16=6
+TrackWidth17=7
+TrackWidth18=8
+TrackWidth19=10
 ViaDiameter1=0.8
 ViaDrill1=0.5
 ViaDiameter2=0.5
@@ -278,6 +281,17 @@ dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Inner Layers
+Clearance=0.25
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.5
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.25
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Up to 16A 12V DC
 Clearance=0.508
 TrackWidth=2.5
@@ -288,7 +302,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=Up to 16A 230V
 Clearance=0.508
 TrackWidth=2.5
@@ -299,7 +313,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=Up to 32A 12V DC
 Clearance=0.508
 TrackWidth=4
@@ -310,7 +324,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/5]
 Name=Up to 32A 230V AC
 Clearance=1.25
 TrackWidth=4
@@ -321,7 +335,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/6]
 Name=Up to 5A 12V DC
 Clearance=0.508
 TrackWidth=0.5
@@ -332,7 +346,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/6]
+[pcbnew/Netclasses/7]
 Name=Up to 60A 12V DC
 Clearance=0.508
 TrackWidth=8
@@ -343,7 +357,7 @@ uViaDrill=0.1
 dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/7]
+[pcbnew/Netclasses/8]
 Name=Up to 60A 230V AC
 Clearance=1.25
 TrackWidth=8
