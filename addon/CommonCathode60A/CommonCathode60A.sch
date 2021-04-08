@@ -731,69 +731,69 @@ F 3 "" H 2650 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7200 4400 0    50   ~ 0
-K1_IN
-Text Label 6150 4400 0    50   ~ 0
-K5_IN
-Text Label 8250 4600 0    50   ~ 0
-K6_IN
-Text Label 9300 4600 0    50   ~ 0
 K2_IN
-Text Label 10350 4600 0    50   ~ 0
-K7_IN
-Text Label 11400 4600 0    50   ~ 0
+Text Label 6150 4400 0    50   ~ 0
+K1_IN
+Text Label 8250 4600 0    50   ~ 0
 K3_IN
-Text Label 12450 4600 0    50   ~ 0
-K8_IN
-Text Label 13500 4600 0    50   ~ 0
+Text Label 9300 4600 0    50   ~ 0
 K4_IN
+Text Label 10350 4600 0    50   ~ 0
+K5_IN
+Text Label 11400 4600 0    50   ~ 0
+K6_IN
+Text Label 12450 4600 0    50   ~ 0
+K7_IN
+Text Label 13500 4600 0    50   ~ 0
+K8_IN
 Text Label 6150 5900 0    50   ~ 0
-K5_OUT
-Text Label 7200 5900 0    50   ~ 0
 K1_OUT
-Text Label 8250 5850 0    50   ~ 0
-K6_OUT
-Text Label 9300 5700 0    50   ~ 0
+Text Label 7200 5900 0    50   ~ 0
 K2_OUT
-Text Label 10350 5700 0    50   ~ 0
-K7_OUT
-Text Label 11400 5700 0    50   ~ 0
+Text Label 8250 5850 0    50   ~ 0
 K3_OUT
-Text Label 12450 5700 0    50   ~ 0
-K8_OUT
-Text Label 13500 5700 0    50   ~ 0
+Text Label 9300 5700 0    50   ~ 0
 K4_OUT
+Text Label 10350 5700 0    50   ~ 0
+K5_OUT
+Text Label 11400 5700 0    50   ~ 0
+K6_OUT
+Text Label 12450 5700 0    50   ~ 0
+K7_OUT
+Text Label 13500 5700 0    50   ~ 0
+K8_OUT
 Text Label 6850 5550 2    50   ~ 0
-K1_COIL_ON
-Text Label 7900 5550 2    50   ~ 0
-K6_COIL_ON
-Text Label 8950 5550 2    50   ~ 0
-K4_COIL_ON
-Text Label 6850 4750 2    50   ~ 0
 K2_COIL_OFF
-Text Label 7900 4750 2    50   ~ 0
-K6_COIL_OFF
-Text Label 8950 4750 2    50   ~ 0
-K4_COIL_OFF
-Text Label 10000 4750 2    50   ~ 0
-K7_COIL_OFF
-Text Label 10000 5550 2    50   ~ 0
-K7_COIL_ON
-Text Label 11050 5550 2    50   ~ 0
-K3_COIL_ON
-Text Label 11050 4750 2    50   ~ 0
+Text Label 7900 5550 2    50   ~ 0
 K3_COIL_OFF
-Text Label 12100 5550 2    50   ~ 0
-K8_COIL_ON
-Text Label 12100 4750 2    50   ~ 0
-K8_COIL_OFF
-Text Label 13150 4750 2    50   ~ 0
+Text Label 8950 5550 2    50   ~ 0
 K4_COIL_OFF
-Text Label 13150 5550 2    50   ~ 0
-K8_COIL_ON
-Text Label 5800 4700 2    50   ~ 0
-K5_COIL_OFF
-Text Label 5800 5500 2    50   ~ 0
+Text Label 6850 4750 2    50   ~ 0
+K2_COIL_ON
+Text Label 7900 4750 2    50   ~ 0
+K3_COIL_ON
+Text Label 8950 4750 2    50   ~ 0
+K4_COIL_ON
+Text Label 10000 4750 2    50   ~ 0
 K5_COIL_ON
+Text Label 10000 5550 2    50   ~ 0
+K5_COIL_OFF
+Text Label 11050 5550 2    50   ~ 0
+K6_COIL_OFF
+Text Label 11050 4750 2    50   ~ 0
+K6_COIL_ON
+Text Label 12100 5550 2    50   ~ 0
+K7_COIL_OFF
+Text Label 12100 4750 2    50   ~ 0
+K7_COIL_ON
+Text Label 13150 4750 2    50   ~ 0
+K8_COIL_ON
+Text Label 13150 5550 2    50   ~ 0
+K8_COIL_OFF
+Text Label 5800 4700 2    50   ~ 0
+K1_COIL_ON
+Text Label 5800 5500 2    50   ~ 0
+K1_COIL_OFF
 $Comp
 L BoatControl:LOGO_ANT G102
 U 1 1 5FEDC7A5

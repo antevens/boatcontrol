@@ -52,6 +52,8 @@ board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
 
     The high current daughter board is designed for 2 layer 13oz (450um) copper.
     The non-latching daughter board is designed for 2 layer 6oz (200um) copper.
+    The non-existent current sensing daughter board .. will probably use 6oz
+    The non-existent ESD optocoupler/isolator board .. will probably use 1oz
 
     Thicknesses of daughter boards can very as long as they are over 1mm
 
@@ -64,7 +66,6 @@ This layout includes:
     Input polarity protection and indicator LED
     Latching relay rated for 24V DC
     Thermally fused to 3A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 0-24V DC Common input channels/circuits with the following:
@@ -73,7 +74,6 @@ This layout includes:
     4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 100-250V AC Common input channels/circuits with the following:
@@ -82,7 +82,6 @@ This layout includes:
     4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
     2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Individual channel current sensor (optional TBD)
     Total current of these circuits should not exceed 60A
 
 8 x 0-277V AC/DC Individual input/output channels/circuits
@@ -137,12 +136,6 @@ I2C interface and addresses
     0x25 Additional IO #1 to RJ45 Cat5/6
     0x26 Additional IO #2 to RJ45 Cat5/6
 
-    Optionally Each of the 3/6/10/16A channels has it's own current sensor sized for
-    optimal accuracy of the particular channel/circuit. These values are are
-    available on the following I2C channels
-
-    {INSERT ACCURACY NUMBER}
-    {INSERT I2C ADDRESSES and ADC bits}
 
 Extra pins/IO on Cat5/6 via the RJ45 Connectors
     In addition to the 5V TTL active-low signals to control the relays there
@@ -160,8 +153,7 @@ For examples of how to use Node Red to control this board see
 
 Feel free to modify this to suit your own needs or have it made as it's
 currently configured. Be careful when upgrading circuit breakers to not exceed the
-current/thermal capacity of the board, and note that upgrading circuits may
-require also upgrading current sensors if they are installed.
+current/thermal capacity of the board.
 
 # Key features
 * All components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
