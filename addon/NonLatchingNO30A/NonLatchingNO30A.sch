@@ -111,21 +111,21 @@ $EndComp
 $Comp
 L BoatControl:ALFG2PF121 K112
 U 1 1 607DB701
-P 12550 8000
-F 0 "K112" H 13150 8203 50  0000 C CNN
-F 1 "ALFG2PF121" H 13150 8294 50  0000 C CNN
-F 2 "BoatControl:ALFG2PF121" H 13600 8100 50  0001 L CNN
-F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf" H 13600 8000 50  0001 L CNN
-F 4 "General Purpose Relays LF-G relay 1.8mm High cap type: 12V" H 13600 7900 50  0001 L CNN "Description"
-F 5 "23.3" H 13600 7800 50  0001 L CNN "Height"
-F 6 "Panasonic" H 13600 7700 50  0001 L CNN "Manufacturer_Name"
-F 7 "ALFG2PF121" H 13600 7600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "769-ALFG2PF121" H 13600 7500 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ALFG2PF121?qs=WkdRfq4wf1O9EasQCWNl9Q%3D%3D" H 13600 7400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ALFG2PF121" H 13600 7300 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/alfg2pf121/panasonic" H 13600 7200 50  0001 L CNN "Arrow Price/Stock"
-	1    12550 8000
-	-1   0    0    1   
+P 11350 8000
+F 0 "K112" H 11950 8203 50  0000 C CNN
+F 1 "ALFG2PF121" H 11950 8294 50  0000 C CNN
+F 2 "BoatControl:ALFG2PF121" H 12400 8100 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf" H 12400 8000 50  0001 L CNN
+F 4 "General Purpose Relays LF-G relay 1.8mm High cap type: 12V" H 12400 7900 50  0001 L CNN "Description"
+F 5 "23.3" H 12400 7800 50  0001 L CNN "Height"
+F 6 "Panasonic" H 12400 7700 50  0001 L CNN "Manufacturer_Name"
+F 7 "ALFG2PF121" H 12400 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "769-ALFG2PF121" H 12400 7500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ALFG2PF121?qs=WkdRfq4wf1O9EasQCWNl9Q%3D%3D" H 12400 7400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ALFG2PF121" H 12400 7300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/alfg2pf121/panasonic" H 12400 7200 50  0001 L CNN "Arrow Price/Stock"
+	1    11350 8000
+	1    0    0    1   
 $EndComp
 $Comp
 L BoatControl:ALFG2PF121 K114
@@ -344,21 +344,21 @@ $EndComp
 $Comp
 L BoatControl:ALFG2PF121 K115
 U 1 1 607E30FE
-P 13350 6550
-F 0 "K115" H 13950 6846 50  0000 C CNN
-F 1 "ALFG2PF121" H 13950 6755 50  0000 C CNN
-F 2 "BoatControl:ALFG2PF121" H 14400 6650 50  0001 L CNN
-F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf" H 14400 6550 50  0001 L CNN
-F 4 "General Purpose Relays LF-G relay 1.8mm High cap type: 12V" H 14400 6450 50  0001 L CNN "Description"
-F 5 "23.3" H 14400 6350 50  0001 L CNN "Height"
-F 6 "Panasonic" H 14400 6250 50  0001 L CNN "Manufacturer_Name"
-F 7 "ALFG2PF121" H 14400 6150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "769-ALFG2PF121" H 14400 6050 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ALFG2PF121?qs=WkdRfq4wf1O9EasQCWNl9Q%3D%3D" H 14400 5950 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ALFG2PF121" H 14400 5850 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/alfg2pf121/panasonic" H 14400 5750 50  0001 L CNN "Arrow Price/Stock"
-	1    13350 6550
-	1    0    0    -1  
+P 14550 6550
+F 0 "K115" H 15150 6846 50  0000 C CNN
+F 1 "ALFG2PF121" H 15150 6755 50  0000 C CNN
+F 2 "BoatControl:ALFG2PF121" H 15600 6650 50  0001 L CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf" H 15600 6550 50  0001 L CNN
+F 4 "General Purpose Relays LF-G relay 1.8mm High cap type: 12V" H 15600 6450 50  0001 L CNN "Description"
+F 5 "23.3" H 15600 6350 50  0001 L CNN "Height"
+F 6 "Panasonic" H 15600 6250 50  0001 L CNN "Manufacturer_Name"
+F 7 "ALFG2PF121" H 15600 6150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "769-ALFG2PF121" H 15600 6050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ALFG2PF121?qs=WkdRfq4wf1O9EasQCWNl9Q%3D%3D" H 15600 5950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ALFG2PF121" H 15600 5850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/alfg2pf121/panasonic" H 15600 5750 50  0001 L CNN "Arrow Price/Stock"
+	1    14550 6550
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	15100 7050 14550 7050
