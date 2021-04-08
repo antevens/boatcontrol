@@ -3,10 +3,6 @@ WORK IN PROGRESS, NOT PRODUCTION READY!
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
 
-{INSERT_LINKS_TO_PCB_MANUFACTURER_SITES/PROJECTS}
-{INSERT_LINK_TO_DIGIKEY}
-{INSERT_LINK_TO_MOUSER}
-
 This is an open hardware design for an electrical panel and boat controller.
 
 You can think of this as a giant latching relay board with a socket to act like
@@ -59,6 +55,26 @@ board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
 
 It's important that the power layers are on the outside for cooling purposes,
 internal layers would require substancially thicker copper layers.
+
+There aren't very many PCB manufacturers around that will/can produce a board
+like this, especially in small quantities and the tooling fee will be a
+substancial part of the total cost.
+
+At the time of this writing I would estimate at least $400 USD for the tooling
+setup and then $350 USD for each board manufactured. The two manufacturers that
+have online order forms for 4 layer heavy copper PCBs are:
+
+https://www.pcbcart.com
+https://www.pcbway.com
+https://pcbgogo.com
+
+{ADD NOTES AND LINK FOR DAUGHTER BOARDS}
+
+The components required fully populate the board will typically cost around
+{INSERT_BOM_COST}, here are full BOM carts from Mouser and DigiKey.
+
+{INSERT_LINK_TO_DIGIKEY}
+{INSERT_LINK_TO_MOUSER}
 
 This layout includes:
 
