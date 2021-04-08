@@ -80,6 +80,30 @@ X 9 9 900 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# ALFG2PF121
+#
+DEF ALFG2PF121 K 0 30 Y Y 1 F N
+F0 "K" 500 200 50 H V L CNN
+F1 "ALFG2PF121" 1100 -350 50 H V L CNN
+F2 "BoatControl:ALFG2PF121" 1100 -450 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "General Purpose Relays LF-G relay 1.8mm High cap type: 12V" 1100 -650 50 H I L CNN "Description"
+F5 "23.3" 1100 -750 50 H I L CNN "Height"
+F6 "Panasonic" 1100 -850 50 H I L CNN "Manufacturer_Name"
+F7 "ALFG2PF121" 1100 -950 50 H I L CNN "Manufacturer_Part_Number"
+F8 "769-ALFG2PF121" 1100 -1050 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ALFG2PF121?qs=WkdRfq4wf1O9EasQCWNl9Q%3D%3D" 1100 -1150 50 H I L CNN "Mouser Price/Stock"
+F10 "ALFG2PF121" 1100 -1250 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/alfg2pf121/panasonic" 1100 -1350 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X NO 1 0 -50 200 R 50 50 0 0 P
+X COM 2 1200 -50 200 L 50 50 0 0 P
+X COIL_1 3 450 -400 200 U 50 50 0 0 P
+X COIL_2 4 750 -400 200 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # CD74HCT08E
 #
 DEF CD74HCT08E U 0 40 Y Y 5 L N

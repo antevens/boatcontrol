@@ -21,6 +21,11 @@ K CMOS AND
 F https://www.ti.com/lit/ds/symlink/cd74hct08.pdf
 $ENDCMP
 #
+$CMP ALFG2PF121
+D General Purpose Relays LF-G relay 1.8mm High cap type: 12V
+F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf
+$ENDCMP
+#
 $CMP CD74HCT08E
 D Quad 2-input AND
 K CMOS AND
