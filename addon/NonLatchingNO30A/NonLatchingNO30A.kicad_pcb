@@ -47,7 +47,7 @@
   )
 
   (setup
-    (last_trace_width 2.4)
+    (last_trace_width 1)
     (user_trace_width 2)
     (user_trace_width 2.4)
     (user_trace_width 3)
@@ -85,7 +85,7 @@
     (grid_origin 50 23)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x210fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -108,9 +108,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "parent/"))
   )
 
   (net 0 "")
@@ -3275,7 +3275,7 @@
   (segment (start 63.1 120.7) (end 63.4 121) (width 2.4) (layer B.Cu) (net 49))
   (segment (start 55.5 120.7) (end 63.1 120.7) (width 2.4) (layer B.Cu) (net 49))
 
-  (zone (net 22) (net_name "Net-(J102-Pad5)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 22) (net_name "Net-(J102-Pad5)") (layer F.Cu) (tstamp 606FD9C3) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3))
@@ -3336,7 +3336,7 @@
       )
     )
   )
-  (zone (net 22) (net_name "Net-(J102-Pad5)") (layer B.Cu) (tstamp 60706839) (hatch edge 0.508)
+  (zone (net 22) (net_name "Net-(J102-Pad5)") (layer B.Cu) (tstamp 606FD9C0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3))

@@ -47,7 +47,7 @@
   )
 
   (setup
-    (last_trace_width 6)
+    (last_trace_width 1)
     (user_trace_width 2)
     (user_trace_width 4)
     (user_trace_width 6)
@@ -105,9 +105,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "parent/"))
   )
 
   (net 0 "")
@@ -2402,7 +2402,7 @@
   (segment (start 150.72 37.6) (end 150.72 40.14) (width 1) (layer In1.Cu) (net 33))
   (segment (start 150.72 37.6) (end 150.72 40.14) (width 1) (layer In2.Cu) (net 33))
 
-  (zone (net 1) (net_name GND) (layer In2.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer In2.Cu) (tstamp 606FDA01) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3))
@@ -2689,7 +2689,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 6080AC7F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer In1.Cu) (tstamp 606FD9FE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3))
