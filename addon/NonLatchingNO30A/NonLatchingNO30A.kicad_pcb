@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 72)
+    (drawings 76)
     (tracks 499)
     (zones 0)
     (modules 27)
@@ -722,7 +722,7 @@
   (module BoatControl:CUI_TBP01R2W-508-16BE (layer F.Cu) (tedit 5FEB8620) (tstamp 606F035E)
     (at 55.5 44.5 270)
     (path /60807C63)
-    (fp_text reference J103 (at -4.175 -6.489 90) (layer F.SilkS)
+    (fp_text reference J103 (at -8.5 -6 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value TBP01R2W-508-16BE (at 11.43 5.261 90) (layer F.Fab)
@@ -1922,7 +1922,7 @@
   )
 
   (module BoatControl:Ant_Logo_SilkScreen (layer F.Cu) (tedit 5FEB85C7) (tstamp 606F163E)
-    (at 75 128)
+    (at 77.5 128)
     (path /5FEDC7A5)
     (attr virtual)
     (fp_text reference G102 (at 0 5.08) (layer F.SilkS) hide
@@ -2589,6 +2589,18 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   )
 
+  (gr_text "#16" (at 189 126.25) (layer F.SilkS) (tstamp 60706C7F)
+    (effects (font (size 2 2) (thickness 0.2)))
+  )
+  (gr_text "#16" (at 63.5 126.5) (layer F.SilkS) (tstamp 60706AE0)
+    (effects (font (size 2 2) (thickness 0.2)))
+  )
+  (gr_text "#1" (at 191 42) (layer F.SilkS) (tstamp 60706AE0)
+    (effects (font (size 2 2) (thickness 0.2)))
+  )
+  (gr_text "#1" (at 62.5 40) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.2)))
+  )
   (dimension 114 (width 0.15) (layer F.Fab)
     (gr_text "114.000 mm" (at 210.3 80 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
