@@ -18,6 +18,7 @@
     (comment 1 "16x 30A NO  Relay Addon board for Boatcontrol")
     (comment 2 https://github.com/antevens/boatcontrol/addon/CommonCathode60A)
     (comment 3 a@ant.st)
+    (comment 4 e4a15c7d5454532087f6000c5f26d57cda012915)
   )
 
   (layers
@@ -2618,7 +2619,7 @@
   (gr_text "Boatcontrol Addon Board" (at 126.5 28.5) (layer F.SilkS)
     (effects (font (size 4 4) (thickness 0.5)))
   )
-  (gr_text "Revision 3\n{HASH}" (at 55 33) (layer F.SilkS)
+  (gr_text "Revision 3\ne4a15c7" (at 55 33) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (dimension 145 (width 0.15) (layer F.Fab)
