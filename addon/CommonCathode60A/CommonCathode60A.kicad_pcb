@@ -10,6 +10,17 @@
   )
 
   (page A4)
+  (title_block
+    (title BoatControl)
+    (date 2021-04-09)
+    (rev 2)
+    (company Rugludallur)
+    (comment 1 "8x 60A Latching Relay Addon board for Boatcontrol")
+    (comment 2 https://github.com/antevens/boatcontrol/addon/CommonCathode60A)
+    (comment 3 a@ant.st)
+    (comment 4 70683ce0ebce79e47096088a795a31fc68ff9315)
+  )
+
   (layers
     (0 F.Cu power)
     (1 In1.Cu signal)
@@ -1891,7 +1902,7 @@
     (arrow2a (pts (xy 205 133) (xy 205.586421 131.873496)))
     (arrow2b (pts (xy 205 133) (xy 204.413579 131.873496)))
   )
-  (gr_text "Revision 2\n{HASH HERE}" (at 200 39 90) (layer F.SilkS)
+  (gr_text "Revision 2\n70683ce" (at 200 39 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "#8" (at 65 132) (layer F.SilkS) (tstamp 60726078)
