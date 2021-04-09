@@ -1,4 +1,4 @@
-(module CUI_TBP01R2W-508-16BE (layer F.Cu) (tedit 5FEB8620)
+(module CUI_TBP01R2W-508-16BE (layer F.Cu) (tedit 607050B9)
   (fp_text reference REF** (at -4.175 -6.489) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -36,6 +36,11 @@
   (pad 2 thru_hole circle (at 5.08 0) (size 2.55 2.55) (drill 1.7) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.55 2.55) (drill 1.7) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/CUI_DEVICES_TBP01R2W-508-16BE/CUI_DEVICES_TBP01R2W-508-16BE.step
+    (offset (xyz 0 -3.8 21))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
+  (model ${KIPRJMOD}/../../boatcontrol/CUI_DEVICES_TBP01R2W-508-16BE/CUI_DEVICES_TBP01R2W-508-16BE.step
     (offset (xyz 0 -3.8 21))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))
