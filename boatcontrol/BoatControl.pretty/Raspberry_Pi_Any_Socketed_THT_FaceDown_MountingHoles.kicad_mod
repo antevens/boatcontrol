@@ -1,4 +1,4 @@
-(module Raspberry_Pi_Any_Socketed_THT_FaceDown_MountingHoles (layer F.Cu) (tedit 603D9E23)
+(module Raspberry_Pi_Any_Socketed_THT_FaceDown_MountingHoles (layer F.Cu) (tedit 60706956)
   (fp_text reference REF** (at -1.27 3.81 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -320,4 +320,9 @@
     (solder_mask_margin 1.625))
   (pad "" np_thru_hole circle (at 89.75 3.75 90) (size 2.75 2.75) (drill 2.75) (layers *.Cu *.Mask)
     (solder_mask_margin 1.625))
+  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl
+    (offset (xyz 5 -8.6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
