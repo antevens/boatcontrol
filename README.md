@@ -83,7 +83,7 @@ Note that these costs are only for the PCB, not for assembly or parts.
 ## Enclosure
 
 Any reasonably sized enclosure will work but this board was designed to fit in
-the *Fibox PC 5638 18T* with the optional steel mounting plate (which will need
+the **Fibox PC 5638 18T** with the optional steel mounting plate (which will need
 to be drilled).
 
 This should give a rating of IP65/IK09
@@ -104,7 +104,7 @@ The components required to fully populate the board will typically cost around
 
 ### Switches
 Onboard switches can be either momentary or locking depending on
-preference and application. *Be careful when using locking switches with
+preference and application. **Be careful when using locking switches with
 latching relays since most latching relay coils can't withstand being energized
 for too long and ideally should only be energized for less than a second*
 All DPDT E3 series switches from Panasonic should work such as the ESB30 and ESB33
@@ -190,7 +190,7 @@ While the scale is disproportionate the main board is really just a rather large
 Raspberry Pi HAT though it board does not require an RPi to operate.
 __ Note that the board will act as a power supply for the RPi and Jetson
 Nano and eliminates the need for a separete PSU to power the RPi/Nano.__
-__Nvidia Jetson products such as the NX and AGX will still need a separate (19V)
+__Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
 power source.__
 
 All communication between the RPi and the board is done using I2C, this only
@@ -211,16 +211,16 @@ value.
 
 Half of the bottom/left RJ45 connector is used to remotely control addon boards.
 Each RJ45 socket can control 4 channels, typically controlling 2 latching relays
-or 2 non-latching relay pairs (4). *Note that there are no resistors so current
+or 2 non-latching relay pairs (4). **Note that there are no resistors so current
 is only limited by what the onboard PSU can supply and shorting this can
-de-power the RPi/Jetson!*
+de-power the RPi/Jetson!**
 
 ![RJ45 Port 2 pinout](images/rj45_port2.png)
 ![RJ45 Port 2 pinout](images/rj45_port2_pinout.png)
 
-*Note that pairing is important for all RJ45CAT5/6 wiring, it's highly
+**Note that pairing is important for all RJ45CAT5/6 wiring, it's highly
 recommended that the source/sink to control each relay uses a twisted pair,
-this will minimize loss and interference. Pairs are typically colored as shown here*
+this will minimize loss and interference. Pairs are typically colored as shown here**
 
 ![Cat5/6 Twisted pairs](https://upload.wikimedia.org/wikipedia/commons/b/b4/RJ-45_plug_and_jack.svg)
 
@@ -254,9 +254,14 @@ with all devices on the main or addon boards_
 The board has a regular GPIO header, there are two ways to connect an RPi
 or Nvidia Jetson device to the board.
 1. Install female pin header on the Boatcontrol, mount the device directly in
-   the upside down position.
+the upside down position, if you choose this option make sure the particular board you are mounting has
+enough clearance.*
 2. Install a male pin header on the Boatcontrol, mount the device using a
    ribbon cable.
+
+*While the RPi Zero is guaranteed to fit and with long headers all the
+Pi/Pi2/Pi2/Pi4s should fit you should make sure your device fits before
+choosing this mounting method.
 
 _If using a Jetson NX or AGX make sure you use the horizontal inductors for the
 PSU since the vertical arrangement can block one of the mounting holes._
