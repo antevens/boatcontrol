@@ -693,7 +693,7 @@ OFF_TO_ON
 Text Label 3550 5500 2    50   ~ 0
 ON_TO_OFF
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:T9-818 Q?
 U 1 1 D2F4DB58
 P 6100 3650
 AR Path="/D2F4DB58" Ref="Q?"  Part="1" 

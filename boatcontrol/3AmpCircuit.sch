@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:T9-818 Q?
 U 1 1 6283485A
 P 7150 3300
 AR Path="/6283485A" Ref="Q?"  Part="1" 

@@ -252,7 +252,7 @@ F 3 "Omron" H 7100 4500 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker Q?
+L BoatControl:T9-818 Q?
 U 1 1 D2F4D9AA
 P 6650 3550
 AR Path="/D2F4D9AA" Ref="Q?"  Part="1" 

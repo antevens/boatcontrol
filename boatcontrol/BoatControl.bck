@@ -111,9 +111,4 @@ $CMP TBP02R2W-381-02BE
 F https://www.cuidevices.com/product/resource/digikeypdf/tbp02r2w-381.pdf
 $ENDCMP
 #
-$CMP ‎OMNI-220-18-25-1C‎
-D Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized
-F http://www.mouser.com/datasheet/2/433/omniKlip_Wakefield_Vette_Data_Sheet-1500651.pdf
-$ENDCMP
-#
 #End Doc Library

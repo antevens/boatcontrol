@@ -170,11 +170,11 @@ Wire Wire Line
 Wire Wire Line
 	2900 9000 2900 9400
 $Comp
-L BoatControl:SchurterCircuitBreaker CB101
+L BoatControl:T9-818 CB101
 U 1 1 72FBD2F1
 P 1700 9200
 F 0 "CB101" V 1500 8850 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 3a" H 2600 9250 50  0001 R CNN
+F 1 "T9-818 3a" H 2600 9250 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 1700 9200 50  0001 C CNN
 F 3 "" H 1700 9200 50  0001 C CNN
 F 4 "4404.0096" V 1700 9200 50  0001 C CNN "Manufacturer ID"
@@ -803,11 +803,11 @@ F 3 "" H 15400 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BoatControl:SchurterCircuitBreaker CB102
+L BoatControl:T9-818 CB102
 U 1 1 63E4071D
 P 1850 9650
 F 0 "CB102" H 1950 9100 50  0000 R CNN
-F 1 "SchurterCircuitBreaker 3a" H 2750 9700 50  0001 R CNN
+F 1 "T9-818 3a" H 2750 9700 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 1850 9650 50  0001 C CNN
 F 3 "" H 1850 9650 50  0001 C CNN
 F 4 "4404.0096" V 1850 9650 50  0001 C CNN "Manufacturer ID"

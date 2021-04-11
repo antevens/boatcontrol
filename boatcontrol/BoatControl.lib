@@ -3204,7 +3204,7 @@ ENDDEF
 DEF T9-818 CB 0 40 Y Y 1 F N
 F0 "CB" 0 0 50 H V C CNN
 F1 "T9-818" 0 0 50 H V C CNN
-F2 "BoatControl:SchurterCurcuitBreaker" 0 0 50 H I C CNN
+F2 "BoatControl:Schurter_Circuit_Breaker" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Schurter" 0 0 50 H V C CNN "Manufacturer"
 DRAW
