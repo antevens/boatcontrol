@@ -13,12 +13,12 @@ a regular Raspberry Pi HAT or an Nvidia Jetson (Nano/Xavier NX) breakout
 
 All critical parts are designed to be field servicable, components using
 through-holes are used where possible for better durability in mobile marine
-environments. Note that these boards need to carry significant amounts of current
+environment. Note that these boards need to carry significant amounts of current
 (up to 660 Amperes!) and voltage (max 277V) and as such PCB thickness and
 clearances are CRITICAL along with proper thermal management.
 
-Special care has been taken to limit power consumption wherever possible, on
-it's own the board will only consume {INSERT_WATTS} watts when idle, if a
+Special care has been taken to limit idle power consumption wherever possible, on
+it's own the board will only consume {INSERT_WATTS} watts while idling, if a
 Raspberry Pi (RPi) Zero is mated it will add 80mA, a fully fledged RPi 4
 with all the bells and whistles will add up to 3.4 Watts, a Jetson Xavier NX
 will bring the total to 10-15 Watts depending on configuration. Jumpers are
@@ -45,13 +45,15 @@ and provide 3v from an isolated source.
 # PCB Stack & Manufacturing
 
 The design includes a main board and (at the time of launch) two optional addon
-boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
+boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the following sizes/layers:
 
+    536mm x 308mm (just over 21" x 12")
     Front Power, 6oz (220um) copper, min spacing 0.500mm)
     First Signal, 1oz (35um) copper, min spacing 0.250mm)
     Second Signal, 1oz (35um) copper, min spacing 0.250mm)
     Back Power, 6oz (220um) copper, min spacing 0.500mm)
 
+    153mm x 106mm (just over 5" x 4")
     The high current daughter board is designed for 4 layer 1/13oz (35/450um) copper.
     The non-latching daughter board is designed for 4 layer 1/6oz (35/200um) copper.
     The non-existent current sensing daughter board .. will probably use 6oz copper.
@@ -74,6 +76,17 @@ have online order forms for 4 layer heavy copper PCBs are:
     * https://pcbgogo.com
 
 Note that these costs are only for the PCB, not for assembly or parts.
+
+# Enclosure
+
+The main board with two addon boards is designed to fit in the following
+enclosure, note that the optional steel mounting plate is required and will
+need to be drilled for mounting holes.
+
+This gives a rating of IP65/IK09
+
+Fibox PC 5638 18 T
+https://www.fibox.com/catalog/product/2393/2539557_ENG3.pdf
 
 # Components, features and Bill of Materials
 
