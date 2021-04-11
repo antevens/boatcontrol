@@ -114,8 +114,6 @@ The main (base) board layout includes sockets/circuits for:
     * 2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
     * Total current of these circuits should not exceed 60A
 
-2 x Addon boards
-
 # Addon boards
 
 Latching Relay Addon Board:
@@ -197,18 +195,20 @@ Extra pins/IO on Cat5/6 via the RJ45 Connectors
 
     Two Extra MCP23017 TTL outputs
 
+Feel free to modify this to suit your own needs or have it made as it's
+currently configured. Be careful when upgrading circuit breakers to not exceed the
+current/thermal capacity of the board. If you use thinner copper than 6oz make
+sure to appropriately downgrade the thermal breakers to reduce maximum current.
+
 # Software
 
 For examples of how to use Node Red to control this board see
     {INSERT_NODE_RED_LINK_HERE}
     {INSERT_NODE_RED_DEMO_HERE}
 
-Feel free to modify this to suit your own needs or have it made as it's
-currently configured. Be careful when upgrading circuit breakers to not exceed the
-current/thermal capacity of the board. If you use thinner copper than 6oz make
-sure to appropriately downgrade the thermal breakers to reduce maximum current.
 
-# Key features
+# Key design decisions and parameters
+
 * All critical components are through-hole for field maintenance on moving platforms and secure attachment for vibration and G loads.
 * All relays can be controlled from either the RPi/Nvidia or using analog control signals via RJ45/CAT5/6 connectors/cables.
 * All onboard relays are latching dual coil with individual control circuits.
@@ -219,7 +219,5 @@ sure to appropriately downgrade the thermal breakers to reduce maximum current.
 * 32x 12-24V 500mA DC Logic/Relay breakout via RJ45
 * Optional 16x 250V AC non-latching unprotected add-on board
 * Optional 8x 60A 277V AC latching individual unprotected add-on board
-
 * All onboard DC channels are polarity protected with high efficiency PFETs
-
-Protection is provided using thermal circuit breakers, the permitted amperage can be changed by switching out breakers, no breakers are provided for the 60A circuits, suggest using external breakers.
+* Protection is provided using thermal circuit breakers, the permitted amperage can be changed by switching out breakers, no breakers are provided for the 60A circuits, suggest using external breakers.
