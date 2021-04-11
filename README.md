@@ -3,14 +3,14 @@ WORK IN PROGRESS, NOT PRODUCTION READY!
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
 
-This is an open hardware design for an electrical distribution panel and smart
-marine platform (boat) controller.
+This is an open hardware design for a marine grade smart/IoT electrical
+distribution panel and electronics platform (boat) controller.
 
 You can think of this as a giant latching relay board with a socket to act like
 a regular Raspberry Pi HAT or an Nvidia Jetson (Nano/Xavier NX) breakout
 
 All critical parts are designed to be field servicable, components using
-through-holes are used where possible for better durability in mobile marine 
+through-holes are used where possible for better durability in mobile marine
 environments. Note that these boards need to carry significant amounts of current
 (up to 660 Amperes!) and voltage (max 277V) and as such PCB thickness and
 clearances are CRITICAL along with proper thermal management.
@@ -18,13 +18,13 @@ clearances are CRITICAL along with proper thermal management.
 IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
 chance of surges or high voltages these should be isolated from the board using
 digital isolators or optocouplers and transient voltage suppressors. For remote
-installations of the Raspberry Pi/Jetson you might also want to add debounce and
+installations of the Raspberry Pi/Jetson you might also want to add debounce
 and provide 3v from an isolated source.
 
 Special care has been taken to limit power consumption wherever possible, on
 it's own the board will only consume {INSERT_WATTS} watts when idle, if a
-Raspberry Pi (Rpi) Zero is mated it will add 80mA, a fully fledged RPi 4
-with all the bells and whistles will ad up to 3.4 Watts, a Jetson Xavier NX
+Raspberry Pi (RPi) Zero is mated it will add 80mA, a fully fledged RPi 4
+with all the bells and whistles will add up to 3.4 Watts, a Jetson Xavier NX
 will bring the total to 10-15 Watts depending on configuration. Jumpers are
 provided where applicable to disable LEDs to reduce power consumtion when idle.
 
@@ -32,20 +32,20 @@ Effort was taken to make the boards as reliable as possible and enable them to
 be operated in emergencies and under failure conditions. All circuits can be
 operated manually on the board as long as the board has a power source over 6v
 and below 30v depending on configuration (see optional 12V vs 24V operation and
-PSU). Operation using external 5V TTL inputs is available regardless of the
-state or presence of the RPi/Jetson.
+PSU). Operation using external 5V TTL inputs via the RJ45 connectors is 
+available regardless of the state or presence of the RPi/Jetson.
 
 The board can be configured to run in either 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU option is in place and
 configured. For 12V operation make sure the 12V bypass jumper/solder pads are
 connected.
 
-The design includes a main board and two optional addon boards, the primary
-board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
+The design includes a main board and (at the time of launch) two optional addon
+boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
 
     Front Power, 6oz (220um) copper, min spacing 0.500mm)
-    First Signal, 1ox (35um) copper, min spacing 0.250mm)
-    Second Signal, 1ox (35um) copper, min spacing 0.250mm)
+    First Signal, 1oz (35um) copper, min spacing 0.250mm)
+    Second Signal, 1oz (35um) copper, min spacing 0.250mm)
     Back Power, 6oz (220um) copper, min spacing 0.500mm)
 
     The high current daughter board is designed for 4 layer 1/13oz (35/450um) copper.
@@ -53,7 +53,7 @@ board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
     The non-existent current sensing daughter board .. will probably use 6oz copper.
     The non-existent ESD optocoupler/isolator board .. will probably use 1oz copper.
 
-    PCB Stack Thickness of daughter boards can very as long as they are over 1mm
+    PCB Stack Thickness of daughter boards can vary as long as they are over 1mm
 
 It's important that the power layers are on the outside for cooling purposes,
 internal layers would require substancially thicker copper layers.
@@ -62,55 +62,77 @@ There aren't very many PCB manufacturers around that will/can produce a board
 like this, especially in small quantities and the tooling fee will be a
 substancial part of the total cost.
 
-At the time of this writing I would estimate at least $400 USD for the tooling
+At the time of writing I would estimate at least $400 USD for tooling
 setup and then $350 USD for each board manufactured. The manufacturers that
 have online order forms for 4 layer heavy copper PCBs are:
+    * https://www.pcbcart.com
+    * https://www.pcbway.com
+    * https://pcbgogo.com
 
-https://www.pcbcart.com
-https://www.pcbway.com
-https://pcbgogo.com
+Note that these costs are only for the PCB, not for assembly or parts.
 
-The components required fully populate the board will typically cost around
+The components required to fully populate the board will typically cost around
 {INSERT_BOM_COST}, here are full BOM carts from Mouser and DigiKey.
 
-{INSERT_LINK_TO_DIGIKEY}
-{INSERT_LINK_TO_MOUSER}
+    * {INSERT_LINK_TO_DIGIKEY}
+    * {INSERT_LINK_TO_MOUSER}
 
-This layout includes:
+Note that there is no requirement to fully populate the board and a partially
+populated board is a great way to plan for future expansions given that the
+board is field servicable.
+
+The main (base) board layout includes sockets/circuits for:
 
 16 x 0-24V DC Common input channels/circuits with the following:
-    Input polarity protection and indicator LED
-    Latching relay rated for 24V DC
-    Thermally fused to 3A (can be swapped for 6A, 10A and 16A)
-    Total current of these circuits should not exceed 60A
+
+    * Input polarity protection and indicator LED
+    * Latching relay rated for 24V DC
+    * Thermally fused to 3A (can be swapped for 6A, 10A and 16A)
+    * Total current of these circuits should not exceed 60A
 
 8 x 0-24V DC Common input channels/circuits with the following:
-    Input polarity protection and indicator LED
-    Latching relay rated for 24V DC
-    4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
-    2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
-    2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Total current of these circuits should not exceed 60A
+
+    * Input polarity protection and indicator LED
+    * Latching relay rated for 24V DC
+    * 4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
+    * 2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
+    * 2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
+    * Total current of these circuits should not exceed 60A
 
 8 x 100-250V AC Common input channels/circuits with the following:
-    AC Live/Neutral indicator LED
-    Latching relay rated for 24V DC
-    4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
-    2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
-    2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
-    Total current of these circuits should not exceed 60A
 
-Latching Relay Addon Board
+    * AC Live/Neutral indicator LED
+    * Latching relay rated for 24V DC
+    * 4 x thermally fused to 6A (can be swapped for 6A, 10A and 16A)
+    * 2 x thermally fused to 10A (can be swapped for 6A, 10A and 16A)
+    * 2 x thermally fused to 16A (can be swapped for 6A, 10A and 16A)
+    * Total current of these circuits should not exceed 60A
+
+2 x Addon boards
+
+
+
+Latching Relay Addon Board:
+
 8 x 0-277V AC/DC Individual input/output channels/circuits
-    Individual channel current should not exceed 60A
-    No circuit breakers, polarity indicators or protection
+    * Individual channel current should not exceed 60A
+    * No circuit breakers, polarity indicators or protection
 
-Non Latching Paired NO Addon Board
+Non Latching Paired NO Addon Board:
+
 16 (8 pairs) x 12V DC non latching input/output channels/circuits
-    Individual channel current should not exceed 32A
-    No circuit breakers, polarity indicators or protection
-    NOTE, relays are paired and only one of a pair can be powered
-    at any given time.
+    * Individual channel current should not exceed 32A
+    * No circuit breakers, polarity indicators or protection
+    * NOTE, relays are paired and only one of a pair can be powered
+    * at any given time.
+
+Note that while each addon board has 16 individual control signals they are
+grouped in 8 pairs and all pairs share a common "Anode"/"Cathode", make sure to
+adjust the solder-jumpers on the backside for the type of relays used so that
+the relay polarity is correct.
+
+there is a solder-jumper on the backside which
+configures the common Anode/Cathode for relay
 
 Each channel/circuit can be controlled using three different methods:
 
@@ -133,10 +155,13 @@ For latching relays RED indicates the circuit being turned ON while GREEN indica
 For non-latching relays RED and GREEN each represent a separate relay in a
 pair.
 
-Technically this can be considered to be a Raspberry (RPi) HAT which I believe would make
-it the largest one in existence but the board does not require an RPi to
-operate. Note that the board will act as a power supply for the RPi and Jetson
+
+This might also be considered a Raspberry Pi hat making it the largest one in
+existence but the board does not require an RPi to operate.
+Note that the board will act as a power supply for the RPi and Jetson
 Nano and eliminates the need for a separete PSU to power the RPi/Nano.
+Nvidia Jetson products such as the NX and AGX will still need a separate (19V)
+power source.
 
 All communication between the RPi and the board is done using I2C, this only
 requires 2 wires and makes it safe to use in combination with most if not all
@@ -145,9 +170,8 @@ might want to run your chart-plotting or navigation software on a separate
 RPi/Jetson NX and have a dedicaded micro-computer for controlling your electrical system.
 
 I2C interface and addresses
-    Channels/Circuits are grouped up in banks of 8 for a total of 16 signals,
-    ON/OFF for each relay. The I2C addresses can be modified using solder
-    jumpers next to the IO Expanders but the defaults are:
+    The I2C addresses of the IO Expanders can be modified using solder
+    jumpers on the backside of the PCB but the defaults are:
 
     0x20 3A Common Input DC #1-8
     0x21 3A Common Input DC #9-16
@@ -164,7 +188,7 @@ Extra pins/IO on Cat5/6 via the RJ45 Connectors
     All the RPI pins
     {INSERT_PINOUT_HERE}
 
-    Two MCP23017 TTL outputs
+    Two Extra MCP23017 TTL outputs
 
 For examples of how to use Node Red to control this board see
     {INSERT_NODE_RED_LINK_HERE}
