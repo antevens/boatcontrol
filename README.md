@@ -3,6 +3,8 @@ WORK IN PROGRESS, NOT PRODUCTION READY!
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
 
+# About
+
 This is an open hardware design for a marine grade smart/IoT electrical
 distribution panel and electronics platform (boat) controller.
 
@@ -14,12 +16,6 @@ through-holes are used where possible for better durability in mobile marine
 environments. Note that these boards need to carry significant amounts of current
 (up to 660 Amperes!) and voltage (max 277V) and as such PCB thickness and
 clearances are CRITICAL along with proper thermal management.
-
-IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
-chance of surges or high voltages these should be isolated from the board using
-digital isolators or optocouplers and transient voltage suppressors. For remote
-installations of the Raspberry Pi/Jetson you might also want to add debounce
-and provide 3v from an isolated source.
 
 Special care has been taken to limit power consumption wherever possible, on
 it's own the board will only consume {INSERT_WATTS} watts when idle, if a
@@ -39,6 +35,14 @@ The board can be configured to run in either 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU option is in place and
 configured. For 12V operation make sure the 12V bypass jumper/solder pads are
 connected.
+
+IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
+chance of surges or high voltages these should be isolated from the board using
+digital isolators or optocouplers and transient voltage suppressors. For remote
+installations of the Raspberry Pi/Jetson you might also want to add debounce
+and provide 3v from an isolated source.
+
+# PCB Stack & Manufacturing
 
 The design includes a main board and (at the time of launch) two optional addon
 boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the following layers:
@@ -70,6 +74,8 @@ have online order forms for 4 layer heavy copper PCBs are:
     * https://pcbgogo.com
 
 Note that these costs are only for the PCB, not for assembly or parts.
+
+# Components, features and Bill of Materials
 
 The components required to fully populate the board will typically cost around
 {INSERT_BOM_COST}, here are full BOM carts from Mouser and DigiKey.
@@ -110,7 +116,7 @@ The main (base) board layout includes sockets/circuits for:
 
 2 x Addon boards
 
-
+# Addon boards
 
 Latching Relay Addon Board:
 
@@ -131,8 +137,7 @@ grouped in 8 pairs and all pairs share a common "Anode"/"Cathode", make sure to
 adjust the solder-jumpers on the backside for the type of relays used so that
 the relay polarity is correct.
 
-there is a solder-jumper on the backside which
-configures the common Anode/Cathode for relay
+# Modes of operation
 
 Each channel/circuit can be controlled using three different methods:
 
@@ -155,6 +160,8 @@ For latching relays RED indicates the circuit being turned ON while GREEN indica
 For non-latching relays RED and GREEN each represent a separate relay in a
 pair.
 
+
+# Technical details
 
 This might also be considered a Raspberry Pi hat making it the largest one in
 existence but the board does not require an RPi to operate.
@@ -189,6 +196,8 @@ Extra pins/IO on Cat5/6 via the RJ45 Connectors
     {INSERT_PINOUT_HERE}
 
     Two Extra MCP23017 TTL outputs
+
+# Software
 
 For examples of how to use Node Red to control this board see
     {INSERT_NODE_RED_LINK_HERE}
