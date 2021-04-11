@@ -1,7 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 2000-100-V-H-RC‎
-F Bourns
+F https://www.bourns.com/docs/Product-Datasheets/2000_series.pdf
+$ENDCMP
+#
+$CMP 2103-V-H-RC‎
+F https://www.bourns.com/docs/Product-Datasheets/2100_series.pdf
 $ENDCMP
 #
 $CMP 4116R-1-103LF
@@ -43,14 +47,28 @@ K CMOS XOR2
 F https://www.ti.com/lit/ds/symlink/cd74hc86.pdf
 $ENDCMP
 #
-$CMP Current_Sensor
-D Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
+$CMP ESB-33133
+F https://eu.mouser.com/datasheet/2/315/sw_pu_eng_esb33-1889626.pdf
+$ENDCMP
+#
+$CMP EW60-1A3-CL12D04
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP G5RL-K1A-E-DC12
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5rl_uk.pdf
 $ENDCMP
 #
 $CMP IPP120P04P4L-03
 F https://www.infineon.com/dgdl/Infineon-I80P03P4L_04-DS-v01_01-en.pdf?folderId=db3a304314dca3890114ef902baa05f9&fileId=db3a30431ddc9372011e07e95eb827d7&ack=t
+$ENDCMP
+#
+$CMP LM2679T-12
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679
+$ENDCMP
+#
+$CMP LM2679T-5.0
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679
 $ENDCMP
 #
 $CMP OMNI-220-18-75-3C
@@ -64,8 +82,33 @@ K transistor PNP
 F ~
 $ENDCMP
 #
+$CMP T9-818
+D PCB Mounted Circuit breaker, comes in 3-16A sizes
+F http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_T9-818.pdf
+$ENDCMP
+#
+$CMP TB007-508-16BE
+F https://www.cuidevices.com/product/resource/digikeypdf/tb007-508.pdf
+$ENDCMP
+#
+$CMP TBL008V-1000-02BE
+F https://www.cuidevices.com/product/resource/digikeypdf/tbl008v-1000.pdf
+$ENDCMP
+#
+$CMP TBL008V-1000-08BE
+F https://www.cuidevices.com/product/resource/digikeypdf/tbl008v-1000.pdf
+$ENDCMP
+#
+$CMP TBP01R2W-508-08BE
+F https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf
+$ENDCMP
+#
+$CMP TBP01R2W-508-16BE
+F https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf
+$ENDCMP
+#
 $CMP TBP02R2W-381-02BE
-F CUI
+F https://www.cuidevices.com/product/resource/digikeypdf/tbp02r2w-381.pdf
 $ENDCMP
 #
 $CMP ‎OMNI-220-18-25-1C‎

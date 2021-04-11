@@ -102,7 +102,19 @@ The components required to fully populate the board will typically cost around
 * {INSERT_LINK_TO_DIGIKEY}
 * {INSERT_LINK_TO_MOUSER}
 
-Note that there is no requirement to fully populate the board and a partially
+### Switches
+Onboard switches can be either momentary or locking depending on
+preference and application. *Be careful when using locking switches with
+latching relays since most latching relay coils can't withstand being energized
+for too long and ideally should only be energized for less than a second*
+All DPDT E3 series switches from Panasonic should work such as the ESB30 and ESB33
+series, note that locking ESB30 switches can be converted to momentary
+operation very easily even after soldering.
+
+### Circuit breakers
+mix and match
+
+Keep in mind that there is no requirement to fully populate the board and a partially
 populated board is a great way to plan for future expansions given that the
 board is field servicable.
 
