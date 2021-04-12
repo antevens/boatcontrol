@@ -274,7 +274,7 @@ to minimize signal degredation or distortion._
 _Note that this includes the I2C bus which can be used to communicate directly
 with all devices on the main or addon boards_
 
-![Raspberry_Pi_Pinout](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)
+![Raspberry_Pi_Pinout](images/GPIO-Pinout-Diagram-2.png)
 
 ### RPi HAT / Jetson GPIO Interface
 The board has a regular GPIO header, there are two ways to connect an RPi
