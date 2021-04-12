@@ -112,6 +112,8 @@ series, note that locking ESB30 switches can be converted to momentary
 operation very easily even after soldering.
 
 ### Circuit breakers
+
+Schurter makes a
 mix and match
 
 Keep in mind that there is no requirement to fully populate the board and a partially
@@ -282,10 +284,23 @@ the backside of the PCB but the defaults are:
     0x26 (38) Additional IO #2 to RJ45 Cat5/6
 
 # Software
+One of the primary advantages of having the GPIO interface and using a
+Raspberry Pi or Nvidia Jetson to interface with the board is the simplicity and
+ease of use allowing each installation to be customized for the particular boat
+and users, changes can be made in realtime using a web browser and all the
+functionality and features are accessible from any web enabled device onboard
+or remote.
 
-For examples of how to use Node Red to control this board see
-    {INSERT_NODE_RED_LINK_HERE}
-    {INSERT_NODE_RED_DEMO_HERE}
+The following are screenshots from development UIs used to debug and test the
+hardware, they show some of the functionality that's possible even though the
+user interface and graphics need a lot more work and polish.
+
+This particular interface is built using Node-Red and is running on an RPi 4.
+![Node-Red Engine](images/node-red-engine.png)
+![Node-Red Electrical](images/node-red-electrical.png)
+![Node-Red Climate](images/node-red-climate.png)
+![Node-Red Fluids](images/node-red-fluids.png)
+
 
 # Open Hardware
 
