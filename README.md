@@ -347,7 +347,7 @@ for you to use laser cut copper bus bars or solder wires on the back of your PCB
 avoid the expensive 6oz copper layers.
 
 The PCB was architected to facilitate 1oz / 2 layer construction, there is a
-git branch called ![2layer](tree/2layer) which is the last version supporting 2 layers. *In
+git branch called [2layer](../..//2layer) which is the last version supporting 2 layers. *In
 theory* this could be made with 1oz copper and used with bus bars or jumper
 wires but it's not been kept up to date. Let me know if you want to use this
 and we can probably work together to merge relevant changes.
