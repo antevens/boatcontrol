@@ -11,13 +11,13 @@ Boatcontrol is an open hardware design for a marine grade smart/IoT electrical
 distribution panel and electronics platform (boat) controller.
 
 It's an I/O breakout board capable of switching up to 48 Latching relays or 32
-Latching relays and 32 regular relays with invividual circuits up to 60A and
+Latching relays and 32 regular relays with individual circuits up to 60A and
 compatible with both DC and AC current.
 
 The "smart" part is provided by either a **Raspberry Pi** HAT or an
 **Nvidia Jetson** (Nano/Xavier NX) either of which can be mounted on the board.
 
-All critical parts are designed to be field servicable, components using
+All critical parts are designed to be field serviceable, components using
 through-holes are used where possible for better durability in mobile marine
 environment. Note that these boards need to carry significant amounts of current
 and high voltage and as such PCB thickness and clearances are CRITICAL along
@@ -28,7 +28,7 @@ it's own the board will only consume {INSERT_WATTS} watts while idle, if a
 Raspberry Pi (RPi) Zero is mated it will add 400 Milliwatts, a fully fledged RPi 4
 with all the bells and whistles will add up to 3.4 Watts, a Jetson Xavier NX
 will bring the total to 10-15 Watts depending on configuration. Jumpers are
-provided where applicable to disable LEDs to reduce power consumtion when idle.
+provided where applicable to disable LEDs to reduce power consumption when idle.
 
 Effort was taken to make the boards as reliable as possible and enable them to
 be operated in emergencies and under failure conditions. All circuits can be
@@ -39,7 +39,7 @@ available regardless of the state or presence of the RPi/Jetson.
 
 The board can be set to run in either 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU components are in place and
-the appopriate solder jumpers bridged.
+the appropriate solder jumpers bridged.
 For 12V operation make sure the 12V bypass jumper/solder pads are bridged.
 
 ## PCB Stack & Manufacturing
@@ -62,11 +62,11 @@ boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the follow
 PCB Stack Thickness of daughter boards can vary as long as they are over 1mm
 
 It's important that the power layers are on the outside for cooling purposes,
-internal layers would require substancially thicker copper layers.
+internal layers would require substantially thicker copper layers.
 
 There aren't very many PCB manufacturers around that will/can produce a board
 like this, especially in small quantities and the tooling fee will be a
-substancial part of the total cost.
+substantial part of the total cost.
 
 At the time of writing I would estimate at least $400 USD for tooling
 setup and then $350 USD for each board manufactured. The manufacturers that
@@ -111,7 +111,7 @@ If for some reason locking switches are used with latching relays care must be
 taken since most latching relay coils can't withstand being energized for long
 periods and ideally should only be energized for less than a second*
 
-The onboard switches are primaraly for use in emergencies and debugging and while
+The onboard switches are primarily for use in emergencies and debugging and while
 they do provide protection against powering two coils in the same relay at the
 same time they do not restrict the time a coil is energized unlike the RJ45 or
 GPIO inputs.
@@ -185,7 +185,7 @@ the relay polarity is correct. and that the correct transistor array chosen
 
 Keep in mind that there is no requirement to fully populate the board and a partially
 populated board is a great way to plan for future expansions given that the
-board is field servicable.
+board is field serviceable.
 
 ## Modes of operation
 Each channel/circuit can be controlled using three different methods:
@@ -200,7 +200,7 @@ only for a period of 1 second. Due to this filtering these can be safely
 wired to 3-way "Latching" wall/panel switches or momentary push buttons.
 
 3. Using I2C via the 2x20 Header, typically this would be done using a
-Raspberri Pi (RPi) or Nvidia Jetson, for power efficency consider using a RPi Zero.
+Raspberry Pi (RPi) or Nvidia Jetson, for power efficiency consider using a RPi Zero.
 See Node-Red source for IoT web based interfaces that can run on these platforms.
 
 * Onboard bi-colour LEDs indicate coil energy state and pulses to "ON"/"OFF" coils.
@@ -212,7 +212,7 @@ See Node-Red source for IoT web based interfaces that can run on these platforms
 While the scale is disproportionate the main board is really just a rather large
 Raspberry Pi HAT though it does not require an RPi to operate.
 __ Note that the board will act as a power supply for the RPi and Jetson
-Nano and eliminates the need for a separete PSU to power the RPi/Nano.__
+Nano and eliminates the need for a separate PSU to power the RPi/Nano.__
 __Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
 power source.__
 
@@ -220,7 +220,7 @@ All communication between the RPi and the board is done using I2C, this only
 requires 2 wires and makes it safe to use in combination with most if not all
 other hats. In particular it can co-exist with the Moitessier HATs though you
 might want to run your chart-plotting or navigation software on a separate
-RPi/Jetson NX and have a dedicaded micro-computer for controlling your electrical system.
+RPi/Jetson NX and have a dedicated micro-computer for controlling your electrical system.
 
 
 ### RJ45 Connectors & Remote I/O
@@ -271,7 +271,7 @@ the RPi design not the Boatcontrol._
 
 _Note that no additional protection or filtering is provided, the pins are
 simply mapped from the RPi GPIO header directly to RJ45 without any provision
-to minimize signal degredation or distortion._
+to minimize signal degradation or distortion._
 
 _Note that this includes the I2C bus which can be used to communicate directly
 with all devices on the main or addon boards_
@@ -313,7 +313,7 @@ the backside of the PCB but the defaults are:
 One of the primary advantages of having the GPIO interface and using a
 Raspberry Pi or Nvidia Jetson to interface with the board is the simplicity and
 ease of use allowing each installation to be customized for the particular boat
-and users, changes can be made in realtime using a web browser and all the
+and users, changes can be made in real-time using a web browser and all the
 functionality and features are accessible from any web enabled device onboard
 or remote.
 
@@ -341,7 +341,7 @@ sure to appropriately downgrade the thermal breakers to reduce maximum current.
 * All relays can be controlled from either the RPi/Nvidia or using analog control signals via RJ45/CAT5/6 connectors/cables.
 * All onboard relays are latching dual coil with individual control circuits.
 * All analog input channels have pulse generators for the relays to protect them from overheating.
-* Built-in high efficiency 5/12v step down converers to power the RPi/Nano and logic components and supply current for analog control.
+* Built-in high efficiency 5/12v step down converters to power the RPi/Nano and logic components and supply current for analog control.
 * 8x 3-16A 250V AC shared bus protected circuits
 * 24x 3-16A 12-24V DC shared bus protected circuits
 * 32x 12-24V 500mA DC Logic/Relay breakout via RJ45
