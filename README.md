@@ -59,6 +59,9 @@ boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the follow
 * The non-existent current sensing daughter board .. will probably use 6oz copper.
 * The non-existent ESD optocoupler/isolator board .. will probably use 1oz copper.
 
+![Boatcontrol Non Latching Relay Addon](images/NonLatchingNO30A.png)
+![Boatcontrol Latching Relay Board](images/CommonCathode60A.png)
+
 PCB Stack Thickness of daughter boards can vary as long as they are over 1mm
 
 It's important that the power layers are on the outside for cooling purposes,
