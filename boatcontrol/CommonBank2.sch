@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SP U?
 U 1 1 D2B4FEF0
 P 2850 6100
 AR Path="/D2B4FEF0" Ref="U?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3050 5000 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SP U?
 U 1 1 D2B4FEF2
 P 2850 1950
 AR Path="/D2B4FEF2" Ref="U?"  Part="1" 

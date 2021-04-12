@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 77 97
+Sheet 93 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -40,10 +40,13 @@ AR Path="/626FCFE3/E142CD30/D2F31428" Ref="U?"  Part="1"
 AR Path="/626FCFE3/E15855D9/D2F31428" Ref="U?"  Part="1" 
 AR Path="/626FD005/E142CD30/D2F31428" Ref="U?"  Part="1" 
 AR Path="/626FD005/E15855D9/D2F31428" Ref="U?"  Part="1" 
-F 0 "U8802" V 4100 3250 50  0000 L CNN
+F 0 "U4501" V 4100 3250 50  0000 L CNN
 F 1 "TBD62783APG" V 3850 3100 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 4050 2750 50  0001 L CNN
-F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783AFG" H 4100 3200 50  0001 C CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783APG" H 4100 3200 50  0001 C CNN
+F 4 "TBD62783APG-ND" H 4000 3400 50  0001 C CNN "DigiKey Part Number"
+F 5 "Toshiba" H 4000 3400 50  0001 C CNN "Manufacturer"
+F 6 "757-TBD62783APG" H 4000 3400 50  0001 C CNN "Mouser Part Number"
 	1    4000 3400
 	1    0    0    -1  
 $EndComp
@@ -388,7 +391,7 @@ AR Path="/626FCFE3/E142CD30/D2B5CDA1" Ref="RN?"  Part="1"
 AR Path="/626FCFE3/E15855D9/D2B5CDA1" Ref="RN?"  Part="1" 
 AR Path="/626FD005/E142CD30/D2B5CDA1" Ref="RN?"  Part="1" 
 AR Path="/626FD005/E15855D9/D2B5CDA1" Ref="RN?"  Part="1" 
-F 0 "RN8801" V 6850 3350 50  0000 L CNN
+F 0 "RN4501" V 6850 3350 50  0000 L CNN
 F 1 "4116R-1-471" H 7100 3050 50  0000 L CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 7875 3500 50  0001 C CNN
 F 3 "~" H 7400 3500 50  0001 C CNN

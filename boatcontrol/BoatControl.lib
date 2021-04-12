@@ -498,7 +498,7 @@ F2 "TO127P457X1016X2052-7P" -550 100 50 H I L BNN
 F3 "" -450 -200 50 H I L BNN
 F4 "TO220-7" -200 -300 50 H I L BNN "Package"
 F5 "Texas Instruments" -400 -100 50 H I L BNN "Manufacturer"
-F6 "https://www.digikey.ca/en/products/detail/texas-instruments/LM2679T-12-NOPB/363834" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "296-43514-5-ND" 0 0 50 H V C CNN "DigiKey Part Number"
 F7 "926-LM2679T-12/NOPB" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 16 -700 -500 700 -500 N
@@ -723,8 +723,10 @@ F0 "J" 150 421 50 H V L BNN
 F1 "SS73100-047F" 150 -430 50 H V L BNN
 F2 "STEWART_SS73100-047F" 150 1500 50 H I L BNN
 F3 "" 350 -450 50 H I L BNN
-F4 "Stewart Connector" 200 250 50 H I L BNN "Field6"
+F4 "Stewart Connector" 200 250 50 H I L BNN "Manufacturer"
 F5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" 850 -4300 50 H I C CNN "Dimensions"
+F6 "380-1164-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F7 "530-SS73100-047F" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 1 0 5 -15 -4000 10 -4000 N
 P 2 1 0 5 -15 -3920 -15 -4000 N

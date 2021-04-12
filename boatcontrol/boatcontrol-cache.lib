@@ -74,7 +74,8 @@ F0 "L" 100 201 50 H V L BNN
 F1 "BoatControl_2000-100-V-H-RC‎" 100 -200 50 H V L BNN
 F2 "BoatControl:L_Toroid_Horizontal_Vertical_2000-100-RC_P14.244mm_Bourns_2000" 0 0 50 H I L BNN
 F3 "" 100 100 50 H I L BNN
-F4 "FIXED IND 10UH 6.6A 15 MOHM TH" 0 0 50 H V C CNN
+F4 "FIXED IND 10UH 6.6A 15 MOHM TH" 0 0 50 H V C CNN "Description"
+F5 "Bourns" 0 0 50 H V C CNN "Manufacturer"
 DRAW
 A 0 -150 50 900 0 0 0 10 N 0 -100 50 -150
 A 0 -150 50 -900 0 0 0 10 N 0 -200 50 -150
@@ -91,11 +92,12 @@ ENDDEF
 #
 # BoatControl_2103-V-H-RC‎
 #
-DEF BoatControl_2103-V-H-RC‎ L 0 40 Y N 1 L N
+DEF BoatControl_2103-V-H-RC‎ L 0 40 Y N 1 F N
 F0 "L" 100 201 50 H V L BNN
 F1 "BoatControl_2103-V-H-RC‎" 100 -200 50 H V L BNN
 F2 "BoatControl:L_Toroid_Horizontal_Vertical_2103-RC_P19.403mm_Bourns_2100" 0 0 50 H I L BNN
-F3 "Bourns" 100 100 50 H I L BNN
+F3 "" 100 100 50 H I L BNN
+F4 "Bourns" 0 0 50 H V C CNN "Manufacturer"
 DRAW
 A 0 -150 50 900 0 0 0 10 N 0 -100 50 -150
 A 0 -150 50 -900 0 0 0 10 N 0 -200 50 -150
@@ -116,15 +118,16 @@ DEF BoatControl_CD74HCT221E IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
 F1 "BoatControl_CD74HCT221E" 1050 200 50 H V L CNN
 F2 "DIP794W53P254L1930H508Q16N" 1050 100 50 H I L CNN
-F3 "http://www.ti.com/lit/ds/symlink/cd74hct221.pdf" 1050 0 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
 F4 "CD74HCT221E, Dual Monostable Multivibrator, HCT, 4mA 4.5  5.5 V 16-Pin PDIP" 1050 -100 50 H I L CNN "Description"
 F5 "5.08" 1050 -200 50 H I L CNN "Height"
-F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer"
 F7 "CD74HCT221E" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
 F8 "CD74HCT221E" 1050 -500 50 H I L CNN "Arrow Part Number"
 F9 "https://www.arrow.com/en/products/cd74hct221e/texas-instruments" 1050 -600 50 H I L CNN "Arrow Price/Stock"
 F10 "595-CD74HCT221E" 1050 -700 50 H I L CNN "Mouser Part Number"
 F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD74HCT221E" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+F12 "296-26022-5-ND" 0 0 50 H V C CNN "DigiKey Part Number"
 DRAW
 P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
 X ~1A 1 0 0 200 R 50 50 0 0 P
@@ -153,6 +156,9 @@ F0 "K" 250 150 50 H V L BNN
 F1 "BoatControl_G5RL-K1A-E-DC12" 400 -150 50 H V L BNN
 F2 "RELAY_G5RL-K1A-E-DC12" 400 150 50 H I L BNN
 F3 "" 400 250 50 H I L BNN
+F4 "Omron" 0 0 50 H V C CNN "Manufacturer"
+F5 "Z4393-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "653-G5RLK1AEDC12" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 C 100 -100 14 0 0 10 N
 C 100 100 14 0 0 10 N
@@ -207,7 +213,9 @@ F2 "Package_TO_SOT_THT:TO-220-3_Vertical" -350 550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "P-Channel 30V 80A (Tc) 137W (Tc) Through Hole PG-TO220-3-1" -150 650 50 H I C CNN "Description"
 F5 "OptiMOS" 600 300 50 H I C CNN "Series"
-F6 "Infineon Technologies" 500 400 50 H I C CNN "Infineon Technologies"
+F6 "Infineon Technologies" 500 400 50 H I C CNN "Manufacturer"
+F7 "IPP120P04P4L03AKSA1-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F8 "726-IPP120P04P4L-03" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 C -35 0 110 1 1 10 N
 C 0 -70 10 1 1 0 F
@@ -274,14 +282,15 @@ ENDDEF
 #
 # BoatControl_LM2679T-12
 #
-DEF BoatControl_LM2679T-12 U 0 40 Y Y 1 L N
+DEF BoatControl_LM2679T-12 U 0 40 Y Y 1 F N
 F0 "U" -181 248 50 H V L BNN
 F1 "BoatControl_LM2679T-12" -211 -616 50 H V L BNN
 F2 "TO127P457X1016X2052-7P" -550 100 50 H I L BNN
-F3 "LM2679T-12/NOPB" -450 -200 50 H I L BNN
-F4 "83F4664" -150 0 50 H I L BNN
-F5 "TO220-7" -200 -300 50 H I L BNN
-F6 "National Semiconductor" -400 -100 50 H I L BNN
+F3 "" -450 -200 50 H I L BNN
+F4 "TO220-7" -200 -300 50 H I L BNN "Package"
+F5 "Texas Instruments" -400 -100 50 H I L BNN "Manufacturer"
+F6 "296-43514-5-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F7 "926-LM2679T-12/NOPB" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 16 -700 -500 700 -500 N
 P 2 0 0 16 -700 200 -700 -500 N
@@ -299,15 +308,15 @@ ENDDEF
 #
 # BoatControl_LM2679T-5.0
 #
-DEF BoatControl_LM2679T-5.0 U 0 40 Y Y 1 L N
+DEF BoatControl_LM2679T-5.0 U 0 40 Y Y 1 F N
 F0 "U" -181 248 50 H V L BNN
 F1 "BoatControl_LM2679T-5.0" -211 -616 50 H V L BNN
 F2 "TO127P457X1016X2052-7P" -500 100 50 H I L BNN
-F3 "LM2679T-5.0/NOPB" -300 -100 50 H I L BNN
-F4 "-" 0 0 50 H I L BNN
-F5 "41K4228" -150 -300 50 H I L BNN
-F6 "TO220-7" -150 -200 50 H I L BNN
-F7 "National Semiconductor" -400 0 50 H I L BNN
+F3 "" -300 -100 50 H I L BNN
+F4 "Texas Instruments" 0 0 50 H I L BNN "Manufacturer"
+F5 "TO220-7" -150 -200 50 H I L BNN "Package"
+F6 "LM2679T-5.0/NOPB-ND" -400 0 50 H I L BNN "DigiKey Part Number"
+F7 "926-LM2679T-50/NOPB" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 16 -700 -500 700 -500 N
 P 2 0 0 16 -700 200 -700 -500 N
@@ -386,10 +395,11 @@ F2 "BoatControl:OMNI22018753C" 650 100 50 H I L CNN
 F3 "" 650 0 50 H I L CNN
 F4 "Heat Sinks omniKlip Heatsink for TO-220, 3 Clip, 18mm Wide, 75mm Long, Aluminum, Black Anodized" 650 -100 50 H I L CNN "Description"
 F5 "38" 650 -200 50 H I L CNN "Height"
-F6 "Wakefield-Vette" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "Wakefield-Vette" 650 -300 50 H I L CNN "Manufacturer"
 F7 "OMNI-220-18-75-3C" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
 F8 "567-OMNI220-18-75-3C" 650 -500 50 H I L CNN "Mouser Part Number"
 F9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "345-1492-ND" 0 0 50 H V C CNN "DigiKey Part Number"
 DRAW
 P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 X 1 1 0 -100 200 R 50 50 0 0 P
@@ -504,8 +514,10 @@ F0 "J" 150 421 50 H V L BNN
 F1 "BoatControl_SS73100-047F" 150 -430 50 H V L BNN
 F2 "STEWART_SS73100-047F" 150 1500 50 H I L BNN
 F3 "" 350 -450 50 H I L BNN
-F4 "Stewart Connector" 200 250 50 H I L BNN "Field6"
+F4 "Stewart Connector" 200 250 50 H I L BNN "Manufacturer"
 F5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" 850 -4300 50 H I C CNN "Dimensions"
+F6 "380-1164-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F7 "530-SS73100-047F" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 1 0 5 -15 -4000 10 -4000 N
 P 2 1 0 5 -15 -3920 -15 -4000 N
@@ -2980,13 +2992,14 @@ X 8 L_8 1350 -300 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BoatControl_SchurterCircuitBreaker
+# BoatControl_T9-818
 #
-DEF BoatControl_SchurterCircuitBreaker CB 0 40 Y Y 1 F N
+DEF BoatControl_T9-818 CB 0 40 Y Y 1 F N
 F0 "CB" 0 0 50 H V C CNN
-F1 "BoatControl_SchurterCircuitBreaker" 0 0 50 H V C CNN
-F2 "BoatControl:SchurterCurcuitBreaker" 0 0 50 H I C CNN
+F1 "BoatControl_T9-818" 0 0 50 H V C CNN
+F2 "BoatControl:Schurter_Circuit_Breaker" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "Schurter" 0 0 50 H V C CNN "Manufacturer"
 DRAW
 S -150 -100 150 -500 0 1 0 f
 P 2 0 1 0 -100 -200 100 -150 N
@@ -3001,12 +3014,14 @@ ENDDEF
 #
 # BoatControl_TB007-508-16BE
 #
-DEF BoatControl_TB007-508-16BE J 0 40 Y Y 1 L N
+DEF BoatControl_TB007-508-16BE J 0 40 Y Y 1 F N
 F0 "J" -220 900 50 H V L BNN
 F1 "BoatControl_TB007-508-16BE" -200 -900 50 H V L BNN
 F2 "CUI_TB007-508-16BE" 0 0 50 H I L BNN
-F3 "Manufacturer Recommendations" 0 0 50 H I L BNN
-F4 "CUI" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "CUI Devices" 0 0 50 H I L BNN "Manufacturer"
+F5 "102-6212-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "490-TB007-508-16BE" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 10 -200 -800 -200 900 N
 P 2 0 0 10 -200 900 200 900 N
@@ -3033,13 +3048,14 @@ ENDDEF
 #
 # BoatControl_TBL008V-1000-02BE
 #
-DEF BoatControl_TBL008V-1000-02BE J 0 40 Y Y 1 L N
+DEF BoatControl_TBL008V-1000-02BE J 0 40 Y Y 1 F N
 F0 "J" -200 230 50 H V L BNN
 F1 "BoatControl_TBL008V-1000-02BE" -200 -200 50 H V L BNN
 F2 "CUI_TBL008V-1000-02BE" 0 0 50 H I L BNN
-F3 "CUI" 0 0 50 H I L BNN
-F4 "31.3mm" 0 0 50 H I L BNN
-F5 "Manufacturer recommendations" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "CUI Devices" 0 0 50 H I L BNN "Manufacturer"
+F5 "102-TBL008V-1000-02BE-ND" 0 0 50 H I L BNN "DigiKey Part Number"
+F6 "102-TBL008V-1000-02BE-ND" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 6 -200 -100 200 -100 N
 P 2 0 0 6 -200 200 -200 -100 N
@@ -3056,12 +3072,14 @@ ENDDEF
 #
 # BoatControl_TBP01R2W-508-08BE
 #
-DEF BoatControl_TBP01R2W-508-08BE J 0 40 Y Y 1 L N
+DEF BoatControl_TBP01R2W-508-08BE J 0 40 Y Y 1 F N
 F0 "J" -220 500 50 H V L BNN
 F1 "BoatControl_TBP01R2W-508-08BE" -200 -500 50 H V L BNN
 F2 "CUI_TBP01R2W-508-08BE" 0 0 50 H I L BNN
-F3 "CUI" 0 0 50 H I L BNN
-F4 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "CUI Devices" 0 0 50 H I L BNN "Manufacturer"
+F5 "102-6463-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "490-TBP01R2W-50808BE" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 10 -200 -400 -200 500 N
 P 2 0 0 10 -200 500 200 500 N
@@ -3085,8 +3103,9 @@ F0 "J" -200 230 50 H V L BNN
 F1 "BoatControl_TBP02R2W-381-02BE" -400 -200 50 H V L BNN
 F2 "BoatControl:CUI_TBP02R2W-381-02BE" -350 350 50 H I L BNN
 F3 "" 250 100 50 H I L BNN
-F4 "31.3mm" 250 0 50 H I L BNN
-F5 "Manufacturer recommendations" -550 -350 50 H I L BNN
+F4 "CUI Devices" 250 0 50 H I L BNN "Manufacturer"
+F5 "102-6522-ND" -550 -350 50 H I L BNN "DigiKey Part Number"
+F6 "490-TBP02R2W-38102BE" 0 0 50 H V C CNN "Mouser Part Number"
 DRAW
 P 2 0 0 6 -200 -100 200 -100 N
 P 2 0 0 6 -200 200 -200 -100 N
@@ -3491,15 +3510,18 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# Interface_Expansion_MCP23017_SO
+# Interface_Expansion_MCP23017_SP
 #
-DEF Interface_Expansion_MCP23017_SO U 0 40 Y Y 1 F N
+DEF Interface_Expansion_MCP23017_SP U 0 40 Y Y 1 F N
 F0 "U" -450 950 50 H V C CNN
-F1 "Interface_Expansion_MCP23017_SO" 0 0 50 H V C CNN
-F2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" 200 -1000 50 H I L CNN
+F1 "Interface_Expansion_MCP23017_SP" 0 0 50 H V C CNN
+F2 "Package_DIP:DIP-28_W7.62mm" 200 -1000 50 H I L CNN
 F3 "" 200 -1100 50 H I L CNN
+F4 "Microchip" 0 0 50 H V C CNN "Manufacturer"
+F5 "579-MCP23017-E/SP" 0 0 50 H V C CNN "Mouser Part Number"
+F6 "MCP23017-E/SP-ND" 0 0 50 H V C CNN "DigiKey Part Number"
 $FPLIST
- SOIC*7.5x17.9mm*P1.27mm*
+ DIP*W7.62mm*
 $ENDFPLIST
 DRAW
 S -500 900 500 -900 0 1 10 f
@@ -3666,8 +3688,11 @@ ENDDEF
 DEF Transistor_Array_TBD62783A U 0 20 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
 F1 "Transistor_Array_TBD62783A" 50 450 50 H V L CNN
-F2 "" 0 -550 50 H I C CNN
+F2 "Package_DIP:DIP-18_W7.62mm" 0 -550 50 H I C CNN
 F3 "" -300 400 50 H I C CNN
+F4 "Toshiba" 0 0 50 H V C CNN "Manufacturer"
+F5 "TBD62783APG-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "757-TBD62783APG" 0 0 50 H V C CNN "Mouser Part Number"
 $FPLIST
  DIP*W7.62mm*
  SOP*7.0x12.5mm*P1.27mm*
@@ -3715,8 +3740,11 @@ ENDDEF
 DEF Transistor_Array_ULN2803A U 0 20 Y Y 1 F N
 F0 "U" 0 525 50 H V C CNN
 F1 "Transistor_Array_ULN2803A" 0 450 50 H V C CNN
-F2 "" 50 -650 50 H I L CNN
+F2 "Package_DIP:DIP-18_W7.62mm" 50 -650 50 H I L CNN
 F3 "" 100 -200 50 H I C CNN
+F4 "Texas Instruments" 0 0 50 H V C CNN "Manufacturer"
+F5 "497-2356-5-ND" 0 0 50 H V C CNN "DigiKey Part Number"
+F6 "511-ULN2803A" 0 0 50 H V C CNN "Mouser Part Number"
 ALIAS ULN2802A ULN2801A ULN2804A ULN2805A
 $FPLIST
  DIP*W7.62mm*

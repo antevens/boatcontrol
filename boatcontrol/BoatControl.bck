@@ -82,6 +82,10 @@ K transistor PNP
 F ~
 $ENDCMP
 #
+$CMP SS73100-047F
+F https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf
+$ENDCMP
+#
 $CMP T9-818
 D PCB Mounted Circuit breaker, comes in 3-16A sizes
 F http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_T9-818.pdf

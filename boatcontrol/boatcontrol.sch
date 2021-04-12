@@ -20,8 +20,11 @@ P 5750 10400
 F 0 "L102" V 5850 10250 50  0000 L CNN
 F 1 "10µH" V 5850 10050 50  0001 L CNN
 F 2 "BoatControl:L_Toroid_Horizontal_Vertical_2000-100-RC_P14.244mm_Bourns_2000" H 5750 10400 50  0001 L BNN
-F 3 "Bourns" H 5750 10400 50  0001 L BNN
-F 4 "FIXED IND 10UH 6.6A 15 MOHM TH" V 5750 10400 50  0001 C CNN "Field4"
+F 3 "https://www.bourns.com/docs/Product-Datasheets/2000_series.pdf" H 5750 10400 50  0001 L BNN
+F 4 "FIXED IND 10UH 6.6A 15 MOHM TH" H 5750 10400 50  0001 C CNN "Description"
+F 5 "Bourns" H 5750 10400 50  0001 C CNN "Manufacturer"
+F 6 "2000-100-V-RC-ND" V 5750 10400 50  0001 C CNN "DigiKey Part Number"
+F 7 "542-2000-100-V-RC" V 5750 10400 50  0001 C CNN "Mouser Part Number"
 	1    5750 10400
 	0    -1   -1   0   
 $EndComp
@@ -32,8 +35,11 @@ P 5750 9300
 F 0 "L101" V 5850 9350 50  0000 R CNN
 F 1 "15µH" V 5850 9550 50  0001 R CNN
 F 2 "BoatControl:L_Toroid_Horizontal_Vertical_2103-RC_P19.403mm_Bourns_2100" H 5750 9300 50  0001 L BNN
-F 3 "Bourns" H 5850 9400 50  0001 L BNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/2100_series.pdf" H 5850 9400 50  0001 L BNN
 F 4 "FIXED IND 15UH 7.7A 12 MOHM TH" V 5750 9300 50  0001 C CNN "Field4"
+F 5 "Bourns" H 5750 9300 50  0001 C CNN "Manufacturer"
+F 6 "2103-V-RC-ND" V 5750 9300 50  0001 C CNN "DigiKey Part Number"
+F 7 "2103-V-RC" V 5750 9300 50  0001 C CNN "Mouser Part Number"
 	1    5750 9300
 	0    -1   -1   0   
 $EndComp
@@ -176,8 +182,9 @@ P 1700 9200
 F 0 "CB101" V 1500 8850 50  0000 R CNN
 F 1 "T9-818 3a" H 2600 9250 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 1700 9200 50  0001 C CNN
-F 3 "" H 1700 9200 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_T9-818.pdf" H 1700 9200 50  0001 C CNN
 F 4 "4404.0096" V 1700 9200 50  0001 C CNN "Manufacturer ID"
+F 5 "Schurter" H 1700 9200 50  0001 C CNN "Manufacturer"
 	1    1700 9200
 	0    1    -1   0   
 $EndComp
@@ -188,8 +195,11 @@ P 1050 9750
 F 0 "J111" H 1150 9550 50  0000 R CNN
 F 1 "TBL008V-1000-02BE" H 1450 9450 50  0001 R CNN
 F 2 "BoatControl:CUI_TBP02R2W-381-02BE" H 1050 9750 50  0001 L BNN
-F 3 "CUI" H 1050 9750 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp02r2w-381.pdf" H 1050 9750 50  0001 L BNN
 F 4 "12VDC (OR 15-30V with 12V PSU)" V 1400 9350 50  0000 C CNN "Type"
+F 5 "102-6522-ND" H 1050 9750 50  0001 C CNN "DigiKey Part Number"
+F 6 "CUI Devices" H 1050 9750 50  0001 C CNN "Manufacturer"
+F 7 "490-TBP02R2W-38102BE" H 1050 9750 50  0001 C CNN "Mouser Part Number"
 	1    1050 9750
 	-1   0    0    1   
 $EndComp
@@ -809,8 +819,9 @@ P 1850 9650
 F 0 "CB102" H 1950 9100 50  0000 R CNN
 F 1 "T9-818 3a" H 2750 9700 50  0001 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 1850 9650 50  0001 C CNN
-F 3 "" H 1850 9650 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_T9-818.pdf" H 1850 9650 50  0001 C CNN
 F 4 "4404.0096" V 1850 9650 50  0001 C CNN "Manufacturer ID"
+F 5 "Schurter" H 1850 9650 50  0001 C CNN "Manufacturer"
 	1    1850 9650
 	1    0    0    -1  
 $EndComp
@@ -1151,7 +1162,9 @@ P 1450 7800
 F 0 "U104" H 1800 8150 50  0000 C CNN
 F 1 "24FC128-I/P" H 1150 8150 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 1450 7800 50  0001 C CNN
-F 3 "" H 1450 7800 50  0000 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011851" H 1450 7800 50  0000 C CNN
+F 4 "24FC128-I/P-ND" H 1450 7800 50  0001 C CNN "DigiKey Part Number"
+F 5 "579-24FC128-I/P" H 1450 7800 50  0001 C CNN "Mouser Part Number"
 	1    1450 7800
 	1    0    0    -1  
 $EndComp
@@ -1837,7 +1850,7 @@ U 1 1 978B709A
 P 2750 2250
 F 0 "J105" H 2750 2200 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 2550 2200 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 2750 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2750 2250 50  0001 C CNN
 F 3 "~" H 2750 2250 50  0001 C CNN
 	1    2750 2250
 	-1   0    0    -1  
@@ -1850,7 +1863,7 @@ U 1 1 9991B387
 P 2750 1650
 F 0 "J103" H 2650 1650 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2200 1650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2750 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2750 1650 50  0001 C CNN
 F 3 "~" H 2750 1650 50  0001 C CNN
 	1    2750 1650
 	-1   0    0    -1  
@@ -1861,7 +1874,7 @@ U 1 1 99922547
 P 2750 1950
 F 0 "J106" H 2650 1950 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 2200 1950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical" H 2750 1950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2750 1950 50  0001 C CNN
 F 3 "~" H 2750 1950 50  0001 C CNN
 	1    2750 1950
 	-1   0    0    -1  
@@ -1915,13 +1928,16 @@ Wire Wire Line
 Wire Wire Line
 	2900 5000 3100 5650
 $Comp
-L Interface_Expansion:MCP23017_SO U102
+L Interface_Expansion:MCP23017_SP U102
 U 1 1 781075BB
 P 2200 4900
 F 0 "U102" V 2100 4850 50  0000 L CNN
 F 1 "MCP23017-E/SP" V 2200 4650 50  0000 L CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 2400 3900 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2400 3800 50  0001 L CNN
+F 4 "MCP23017-E/SP-ND" H 2200 4900 50  0001 C CNN "DigiKey Part Number"
+F 5 "Microchip" H 2200 4900 50  0001 C CNN "Manufacturer"
+F 6 "579-MCP23017-E/SP" H 2200 4900 50  0001 C CNN "Mouser Part Number"
 	1    2200 4900
 	1    0    0    -1  
 $EndComp
@@ -2212,6 +2228,9 @@ F 0 "U103" V 3400 5750 50  0000 L CNN
 F 1 "ULN2803A" V 3550 5600 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 3550 5200 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 3600 5650 50  0001 C CNN
+F 4 "497-2356-5-ND" H 3500 5850 50  0001 C CNN "DigiKey Part Number"
+F 5 "Texas Instruments" H 3500 5850 50  0001 C CNN "Manufacturer"
+F 6 "511-ULN2803A" H 3500 5850 50  0001 C CNN "Mouser Part Number"
 	1    3500 5850
 	1    0    0    -1  
 $EndComp
@@ -2691,10 +2710,11 @@ U 1 1 5FA709FC
 P 7150 4200
 F 0 "J107" H 7700 7500 50  0000 L CNN
 F 1 "SS73100-047F" H 7500 7400 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 7300 3900 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 7500 3750 50  0001 L BNN
-F 4 "Stewart Connector" H 7350 3550 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 7150 4200 50  0001 C CNN "Dimensions"
+F 2 "STEWART_SS73100-047F" H 7300 3900 50  0001 L BNN
+F 3 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 7500 3750 50  0001 L BNN
+F 4 "380-1164-ND" H 7150 4200 50  0001 C CNN "DigiKey Part Number"
+F 5 "Stewart Connector" H 7150 4200 50  0001 C CNN "Manufacturer"
+F 6 "530-SS73100-047F" H 7150 4200 50  0001 C CNN "Mouser Part Number"
 	1    7150 4200
 	0    -1   1    0   
 $EndComp
@@ -2761,6 +2781,9 @@ F 0 "U101" V 3400 3400 50  0000 L CNN
 F 1 "ULN2803A" V 3550 3250 50  0000 L CNN
 F 2 "Package_DIP:DIP-18_W7.62mm" H 3550 2850 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 3600 3300 50  0001 C CNN
+F 4 "497-2356-5-ND" H 3500 3500 50  0001 C CNN "DigiKey Part Number"
+F 5 "Texas Instruments" H 3500 3500 50  0001 C CNN "Manufacturer"
+F 6 "511-ULN2803A" H 3500 3500 50  0001 C CNN "Mouser Part Number"
 	1    3500 3500
 	1    0    0    -1  
 $EndComp
@@ -2932,11 +2955,13 @@ U 1 1 5F41B45D
 P 4050 10400
 F 0 "U108" H 4050 10450 50  0000 C CNN
 F 1 "LM2679T-12" H 4100 10250 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 4050 10400 50  0001 L BNN
+F 2 "TO127P457X1016X2052-7P" H 4050 10400 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 4050 10400 50  0001 L BNN
-F 4 "83F4664" H 4050 10400 50  0001 L BNN "Field4"
-F 5 "TO220-7" H 4050 10400 50  0001 L BNN "Footprint"
-F 6 "National Semiconductor" H 4050 10400 50  0001 L BNN "Manufacturer"
+F 4 "TO220-7" H 4050 10400 50  0001 L BNN "Package"
+F 5 "Texas Instruments" H 4050 10400 50  0001 L BNN "Manufacturer"
+F 6 "296-43514-5-ND" H 4050 10400 50  0001 C CNN "DigiKey Part Number"
+F 7 "926-LM2679T-12/NOPB" H 4050 10400 50  0001 C CNN "Mouser Part Number"
+F 8 "TO220-7" H 4050 10400 50  0001 C CNN "Package"
 	1    4050 10400
 	1    0    0    -1  
 $EndComp
@@ -2958,6 +2983,7 @@ F 6 "Wakefield-Vette" H 11900 10550 50  0001 L CNN "Manufacturer_Name"
 F 7 "OMNI-220-18-75-3C" H 11900 10450 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "567-OMNI220-18-75-3C" H 11900 10350 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" H 11900 10250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "345-1492-ND" V 11250 10850 50  0001 C CNN "DigiKey Part Number"
 	1    11250 10850
 	0    -1   -1   0   
 $EndComp
@@ -2969,11 +2995,13 @@ U 1 1 EE27C3B8
 P 4000 9300
 F 0 "U107" H 4050 9350 50  0000 C CNN
 F 1 "LM2679T-5.0" H 4000 9150 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 3500 9400 50  0001 L BNN
+F 2 "TO127P457X1016X2052-7P" H 3500 9400 50  0001 L BNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2679" H 3700 9200 50  0001 L BNN
 F 4 "41K4228" H 3850 9000 50  0001 L BNN "Field5"
-F 5 "TO220-7" H 3850 9100 50  0001 L BNN "Footprint"
-F 6 "National Semiconductor" H 3600 9300 50  0001 L BNN "Manufacturer"
+F 5 "TO220-7" H 3850 9100 50  0001 L BNN "Package"
+F 6 "Texas Instruments" H 3600 9300 50  0001 L BNN "Manufacturer"
+F 7 "LM2679T-5.0/NOPB-ND" H 4000 9300 50  0001 C CNN "DigiKey Part Number"
+F 8 "926-LM2679T-50/NOPB" H 4000 9300 50  0001 C CNN "Mouser Part Number"
 	1    4000 9300
 	1    0    0    -1  
 $EndComp
@@ -3565,10 +3593,11 @@ U 1 1 A8523A49
 P 14250 4950
 F 0 "J108" H 14750 8250 50  0000 L CNN
 F 1 "SS73100-047F" H 16500 8350 50  0000 L CNN
-F 2 "BoatControl:STEWART_SS73100-047F" H 14400 4650 50  0001 L BNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stewart%20Connector%20PDFs/Modular_Product_Spec.pdf" H 14600 4500 50  0001 L BNN
-F 4 "Stewart Connector" H 14450 4300 50  0001 L BNN "Field6"
-F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 14250 4950 50  0001 C CNN "Dimensions"
+F 2 "STEWART_SS73100-047F" H 14400 4650 50  0001 L BNN
+F 3 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 14600 4500 50  0001 L BNN
+F 4 "380-1164-ND" H 14250 4950 50  0001 C CNN "DigiKey Part Number"
+F 5 "Stewart Connector" H 14250 4950 50  0001 C CNN "Manufacturer"
+F 6 "530-SS73100-047F" H 14250 4950 50  0001 C CNN "Mouser Part Number"
 	1    14250 4950
 	-1   0    0    1   
 $EndComp
@@ -4173,9 +4202,12 @@ F 6 "Wakefield-Vette" H 10950 10550 50  0001 L CNN "Manufacturer_Name"
 F 7 "OMNI-220-18-75-3C" H 10950 10450 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "567-OMNI220-18-75-3C" H 10950 10350 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs=u4fy%2FsgLU9NceOlzTE913A%3D%3D" H 10950 10250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "345-1492-ND" V 10300 10850 50  0001 C CNN "DigiKey Part Number"
 	1    10300 10850
 	0    -1   -1   0   
 $EndComp
+Text Notes 10350 10200 0    39   ~ 0
+(optional depending on current)
 Wire Bus Line
 	13600 7250 13600 8050
 Wire Bus Line
@@ -4192,6 +4224,4 @@ Wire Bus Line
 	13600 1850 13600 2650
 Wire Bus Line
 	13600 950  13600 1750
-Text Notes 10350 10200 0    39   ~ 0
-(optional depending on current)
 $EndSCHEMATC

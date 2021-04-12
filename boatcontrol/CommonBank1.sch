@@ -22,9 +22,11 @@ AR Path="/D16552B4/D1AAA194" Ref="J203"  Part="1"
 AR Path="/D1BB8DB4/D1AAA194" Ref="J?"  Part="1" 
 F 0 "J203" H 7750 4850 50  0000 R CNN
 F 1 "TBP01R2W-508-16BE" V 7650 4250 50  0001 R CNN
-F 2 "BoatControl:CUI_TBP01R2W-508-16BE" H 7550 3900 50  0001 L BNN
-F 3 "Manufacturer Recommendations" H 7550 3900 50  0001 L BNN
-F 4 "CUI" H 7550 3900 50  0001 L BNN "Field4"
+F 2 "CUI_TB007-508-16BE" H 7550 3900 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tb007-508.pdf" H 7550 3900 50  0001 L BNN
+F 4 "102-6212-ND" H 7550 3900 50  0001 C CNN "DigiKey Part Number"
+F 5 "CUI Devices" H 7550 3900 50  0001 C CNN "Manufacturer"
+F 6 "490-TB007-508-16BE" H 7550 3900 50  0001 C CNN "Mouser Part Number"
 	1    7550 3900
 	1    0    0    -1  
 $EndComp
@@ -71,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4400 7050 4400
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SP U?
 U 1 1 5FA17DDF
 P 2800 6000
 AR Path="/5FA17DDF" Ref="U?"  Part="1" 
@@ -85,7 +87,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 3000 4900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion:MCP23017_SO U?
+L Interface_Expansion:MCP23017_SP U?
 U 1 1 5FA17DE5
 P 2800 1850
 AR Path="/5FA17DE5" Ref="U?"  Part="1" 
@@ -959,8 +961,11 @@ AR Path="/D1BB8DB4/D1AAA18D" Ref="J?"  Part="1"
 F 0 "J206" H 11000 5850 50  0000 R CNN
 F 1 "TBL008V-1000-02BE" H 11150 5850 50  0001 R CNN
 F 2 "CUI_TBL008V-1000-02BE" H 10800 6000 50  0001 L BNN
-F 3 "CUI" H 10800 6000 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbl008v-1000.pdf" H 10800 6000 50  0001 L BNN
 F 4 "DC 12V Common Bank 1" H 10800 6300 50  0000 C CNN "Type"
+F 5 "102-TBL008V-1000-02BE-ND" H 10800 6000 50  0001 C CNN "DigiKey Part Number"
+F 6 "CUI Devices" H 10800 6000 50  0001 C CNN "Manufacturer"
+F 7 "102-TBL008V-1000-02BE-ND" H 10800 6000 50  0001 C CNN "Mouser Part Number"
 	1    10800 6000
 	1    0    0    1   
 $EndComp
