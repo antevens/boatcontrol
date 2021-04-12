@@ -10,14 +10,18 @@
 Boatcontrol is an open hardware design for a marine grade smart/IoT electrical
 distribution panel and electronics platform (boat) controller.
 
-You can think of this as a giant latching relay board with a socket to act like
-a regular **Raspberry Pi** HAT or an **Nvidia Jetson** (Nano/Xavier NX) breakout
+It's an I/O breakout board capable of switching up to 48 Latching relays or 32
+Latching relays and 32 regular relays with invividual circuits up to 60A and
+compatible with both DC and DC current.
+
+The smart part is provided by either a **Raspberry Pi** HAT or an
+**Nvidia Jetson** (Nano/Xavier NX) either of which can be mounted on the board.
 
 All critical parts are designed to be field servicable, components using
 through-holes are used where possible for better durability in mobile marine
 environment. Note that these boards need to carry significant amounts of current
-(up to 660 Amperes!) and voltage (max 277V) and as such PCB thickness and
-clearances are CRITICAL along with proper thermal management.
+and high voltage and as such PCB thickness and clearances are CRITICAL along
+with proper thermal management.
 
 Special care has been taken to limit idle power consumption wherever possible, on
 it's own the board will only consume {INSERT_WATTS} watts while idle, if a
@@ -37,12 +41,6 @@ The board can be set to run in either 12V or 24V mode, for operation
 over 13V please make sure the optional 12V PSU components are in place and
 the appopriate solder jumpers bridged.
 For 12V operation make sure the 12V bypass jumper/solder pads are bridged.
-
-IMPORTANT - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
-chance of surges or high voltages these should be isolated from the board using
-digital isolators or optocouplers and transient voltage suppressors. For remote
-installations of the Raspberry Pi/Jetson you might also want to add debounce
-and provide 3v from an isolated source.
 
 ## PCB Stack & Manufacturing
 
@@ -103,22 +101,38 @@ The components required to fully populate the board will typically cost around
 * {INSERT_LINK_TO_MOUSER}
 
 ### Switches
-Onboard switches can be either momentary or locking depending on
-preference and application. **Be careful when using locking switches with
-latching relays since most latching relay coils can't withstand being energized
-for too long and ideally should only be energized for less than a second*
+Onboard switches can be momentary or locking depending on preference and application.
+Typically one would use momentary switches for latching relays and locking
+switches for non-latching relays.*
+
+If for some reason locking switches are used with latching relays care must be
+taken since most latching relay coils can't withstand being energized for long
+periods and ideally should only be energized for less than a second*
+
+The onboard switches are primaraly for use in emergencies and debugging and while
+they do provide protection against powering more than one relay coil at the
+same time they do not restrict the time a coil is energized unlike the RJ45 or
+GPIO inputs.
+
 All DPDT E3 series switches from Panasonic should work such as the ESB30 and ESB33
 series, note that locking ESB30 switches can be converted to momentary
 operation very easily even after soldering.
 
+*The only exception to this would be if a user wants
+to be able to physically disable a particular relay/circuit in which case two
+locking relays can be used, if both of them are engaged at the same time they
+will prevent all signals from reaching a latching relay behind them and at the
+same time prevent each other from energizing the relay.
+
 ### Circuit breakers
 
-Schurter makes a
-mix and match
+The Schurter T9-818 breakers are  available in 3-15A current ratings and can
+handle up to 48VDC and up to 240VAC.
 
-Keep in mind that there is no requirement to fully populate the board and a partially
-populated board is a great way to plan for future expansions given that the
-board is field servicable.
+The main board has a total of 32 breakers in 3 bank configurations, the board
+can be outfitted with any configuration of breakers as long as the total does
+not exceed 60A per bank or if a bank exceeds 60A then it should be protected by an
+external 60A AC or DC breaker.
 
 ### The main (base) board layout includes sockets/circuits for:
 
@@ -160,11 +174,16 @@ an addon-board header.
 * Individual channel current should not exceed 32A
 * No circuit breakers, polarity indicators or protection
 
-_Relays are paired and only one of a pair can be powered at any given time._
+_Non-latching Relays are paired and only one of a pair can be powered at any given time._
 
-_All pairs share a common "Anode"/"Cathode", make sure to
+_All relays on a board share a common "Anode"/"Cathode", make sure to
 adjust the solder-jumpers on the backside for the type of relays used so that
-the relay polarity is correct._
+the relay polarity is correct. and that the correct transistor array chosen
+(ULN2803A vs. TBD62783APG)
+
+Keep in mind that there is no requirement to fully populate the board and a partially
+populated board is a great way to plan for future expansions given that the
+board is field servicable.
 
 ## Modes of operation
 Each channel/circuit can be controlled using three different methods:
@@ -189,7 +208,7 @@ See Node-Red source for IoT web based interfaces that can run on these platforms
 ## Technical details
 
 While the scale is disproportionate the main board is really just a rather large
-Raspberry Pi HAT though it board does not require an RPi to operate.
+Raspberry Pi HAT though it does not require an RPi to operate.
 __ Note that the board will act as a power supply for the RPi and Jetson
 Nano and eliminates the need for a separete PSU to power the RPi/Nano.__
 __Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
@@ -204,8 +223,8 @@ RPi/Jetson NX and have a dedicaded micro-computer for controlling your electrica
 
 ### RJ45 Connectors & Remote I/O
 The top/right RJ45 connector is used to remotely control relays on the main
-board. Each RJ45 socket controls 2 latching relays or 2 non-latching relay pairs (4). Every
-socket consists of 4 separate 5V supply pins supplied via a 10KΩ resistor.
+board. Each RJ45 socket controls 2 latching relays or 2 non-latching relay pairs (4).
+Every socket consists of 4 separate 5V supply pins supplied via a 10KΩ resistor.
 For long cable run the resistor banks on the back can be replaced with a lower
 value.
 
@@ -228,10 +247,15 @@ this will minimize loss and interference. Pairs are typically colored as shown h
 
 _Advanced uses may also include shielding but this is beyond the scope of this document._
 
+*IMPORTANT* - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
+chance of surges or high voltages these should be isolated from the board using
+digital isolators or optocouplers and transient voltage suppressors. For remote
+installations of the Raspberry Pi/Jetson you might also want to add debounce
+and provide 3v from an isolated source.
 
 #### 12V "High Voltage/Current" Pins
 There are 16 extra IO pins that can provide up to 500mA each, this is provided
-using a MCP23017 and a ULN2803* with a clamp diode. Examples of use cases would
+using an MCP23017 and a ULN2803* with a clamp diode. Examples of use cases would
 be external relays, solenoids, small motors, high power LEDs, Cameras, etc.
 
 _*can be substituted with a TBD62783APG to swap polarity_
@@ -265,7 +289,7 @@ enough clearance.*
 Pi/Pi2/Pi2/Pi4s should fit you should make sure your device fits before
 choosing this mounting method.
 
-_If using a Jetson NX or AGX make sure you use the horizontal inductors for the
+_If using a Jetson Xavier NX or AGX make sure you use the horizontal inductors for the
 PSU since the vertical arrangement can block one of the mounting holes._
 
 ### Addon cards
