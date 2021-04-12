@@ -174,7 +174,7 @@ an addon-board header.
 * Individual channel current should not exceed 60A
 * No circuit breakers, polarity indicators or protection
 
-### Non Latching Paired NO Addon Board:
+### Non Latching Paired Addon Board:
 * 16 (8 pairs*) x 12V DC non latching input/output channels/circuits
 * Individual channel current should not exceed 32A
 * No circuit breakers, polarity indicators or protection
@@ -184,11 +184,11 @@ _Non-latching Relays are paired and only one of a pair can be powered at any giv
 _All relays on a board share a common "Anode"/"Cathode", make sure to
 adjust the solder-jumpers on the backside for the type of relays used so that
 the relay polarity is correct. and that the correct transistor array chosen
-(ULN2803A vs. TBD62783APG)
+(ULN2803A vs. TBD62783APG)_
 
 Keep in mind that there is no requirement to fully populate the board and a partially
 populated board is a great way to plan for future expansions given that the
-board is field serviceable.
+board is field serviceable assuming the heavy copper soldering is done.
 
 ## Modes of operation
 Each channel/circuit can be controlled using three different methods:
@@ -214,14 +214,14 @@ See Node-Red source for IoT web based interfaces that can run on these platforms
 
 While the scale is disproportionate the main board is really just a rather large
 Raspberry Pi HAT though it does not require an RPi to operate.
-__ Note that the board will act as a power supply for the RPi and Jetson
+__Note that the board will act as a power supply for the RPi and Jetson
 Nano and eliminates the need for a separate PSU to power the RPi/Nano.__
 __Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
 power source.__
 
 All communication between the RPi and the board is done using I2C, this only
-requires 2 wires and makes it safe to use in combination with most if not all
-other hats. In particular it can co-exist with the Moitessier HATs though you
+requires 2 pins/wires and makes it safe to use in combination with most if not all
+other HATs. In particular it can co-exist with the Moitessier HAT though you
 might want to run your chart-plotting or navigation software on a separate
 RPi/Jetson NX and have a dedicated micro-computer for controlling your electrical system.
 
@@ -230,8 +230,8 @@ RPi/Jetson NX and have a dedicated micro-computer for controlling your electrica
 The top/right RJ45 connector is used to remotely control relays on the main
 board. Each RJ45 socket controls 2 latching relays or 2 non-latching relay pairs (4).
 Every socket consists of 4 separate 5V supply pins supplied via a 10KΩ resistor.
-For long cable run the resistor banks on the back can be replaced with a lower
-value.
+For long cable runs the resistor banks on the back can be replaced with lower
+resistance values.
 
 ![RJ45 Port 1 pinout](images/rj45_port1_pinout.png)
 
@@ -277,13 +277,13 @@ simply mapped from the RPi GPIO header directly to RJ45 without any provision
 to minimize signal degradation or distortion._
 
 _Note that this includes the I2C bus which can be used to communicate directly
-with all devices on the main or addon boards_
+with all devices on the main and addon boards_
 
 ![Raspberry_Pi_Pinout](images/GPIO-Pinout-Diagram-2.png)
 
 ### RPi HAT / Jetson GPIO Interface
-The board has a regular GPIO header, there are two ways to connect an RPi
-or Nvidia Jetson device to the board.
+Using the GPIO header there are two ways to connect an RPi or Nvidia Jetson
+device to the board.
 1. Install female pin header on the Boatcontrol, mount the device directly in
 the upside down position, if you choose this option make sure the particular board you are mounting has
 enough clearance.*
@@ -301,7 +301,7 @@ PSU since the vertical arrangement can block one of the mounting holes._
 ![RJ45 Port 2 pinout](images/boatcontrol_addon_pinout.png)
 
 ### I2C interface and addresses
-The I2C addresses of the IO Expanders can be modified using solder jumpers on
+The I2C addresses of the IO Expanders can be modified* using solder jumpers on
 the backside of the PCB but the defaults are:
 
     0x20 (32) 3A Common Input DC #1-8
@@ -311,6 +311,8 @@ the backside of the PCB but the defaults are:
     0x24 (36) 60A Individual AC/DC
     0x25 (37) Additional IO #1 to RJ45 Cat5/6
     0x26 (38) Additional IO #2 to RJ45 Cat5/6
+
+*Bring plenty of watts, it's a 6oz PCB!
 
 # Software
 One of the primary advantages of having the GPIO interface and using a
@@ -337,6 +339,18 @@ Feel free to modify this to suit your own needs or have it made as it's
 currently configured. Be careful when upgrading circuit breakers to not exceed the
 current/thermal capacity of the board. If you use thinner copper than 6oz make
 sure to appropriately downgrade the thermal breakers to reduce maximum current.
+
+## Bus bars, jumper wires and 2 layer boards
+
+Depending on where you live and your requirements it might make more sense
+for you to use laser cut copper bus bars or solder wires on the back of your PCB to
+avoid the expensive 6oz copper layers.
+
+The PCB was architected to facilitate 1oz / 2 layer construction, there is a
+git branch called ![2layer](tree/2layer) which is the last version supporting 2 layers. *In
+theory* this could be made with 1oz copper and used with bus bars or jumper
+wires but it's not been kept up to date. Let me know if you want to use this
+and we can probably work together to merge relevant changes.
 
 ## Key design decisions and parameters
 
