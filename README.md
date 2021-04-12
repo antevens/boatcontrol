@@ -12,9 +12,9 @@ distribution panel and electronics platform (boat) controller.
 
 It's an I/O breakout board capable of switching up to 48 Latching relays or 32
 Latching relays and 32 regular relays with invividual circuits up to 60A and
-compatible with both DC and DC current.
+compatible with both DC and AC current.
 
-The smart part is provided by either a **Raspberry Pi** HAT or an
+The "smart" part is provided by either a **Raspberry Pi** HAT or an
 **Nvidia Jetson** (Nano/Xavier NX) either of which can be mounted on the board.
 
 All critical parts are designed to be field servicable, components using
@@ -33,7 +33,7 @@ provided where applicable to disable LEDs to reduce power consumtion when idle.
 Effort was taken to make the boards as reliable as possible and enable them to
 be operated in emergencies and under failure conditions. All circuits can be
 operated manually on the board as long as the board has a power source over 6v
-and below 30v depending (see optional 12V vs 24V operation and PSU).
+and below 30v (see optional 12V vs 24V operation and PSU).
 Operation using external 5V TTL inputs via the RJ45 connectors is
 available regardless of the state or presence of the RPi/Jetson.
 
@@ -103,14 +103,16 @@ The components required to fully populate the board will typically cost around
 ### Switches
 Onboard switches can be momentary or locking depending on preference and application.
 Typically one would use momentary switches for latching relays and locking
-switches for non-latching relays.*
+switches for non-latching relays.* For operating things like bilge pumps or
+other devices that should only be turned on momentarily it might be beneficial
+to use a non-latching relay with a momentary push button.
 
 If for some reason locking switches are used with latching relays care must be
 taken since most latching relay coils can't withstand being energized for long
 periods and ideally should only be energized for less than a second*
 
 The onboard switches are primaraly for use in emergencies and debugging and while
-they do provide protection against powering more than one relay coil at the
+they do provide protection against powering two coils in the same relay at the
 same time they do not restrict the time a coil is energized unlike the RJ45 or
 GPIO inputs.
 
