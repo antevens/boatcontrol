@@ -1,4 +1,4 @@
-(module SolderJumper-3_P1.3mm_Open_RoundedPad3.0x4.5mm_NumberLabels (layer F.Cu) (tedit 606BDAAD)
+(module SolderJumper-3_P1.3mm_Open_RoundedPad3.0x4.5mm_NumberLabels (layer F.Cu) (tedit 6079DB36)
   (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
   (tags "solder jumper open")
   (attr virtual)
@@ -27,22 +27,6 @@
   (fp_line (start 4 3) (end -4 3) (layer F.SilkS) (width 0.12))
   (fp_line (start -4.7 2.3) (end -4.7 -2.3) (layer F.SilkS) (width 0.12))
   (pad 2 smd rect (at 0 0) (size 3 4.5) (layers F.Cu F.Mask))
-  (pad 3 smd custom (at 3.1 0) (size 2 4.5) (layers F.Cu F.Mask)
-    (zone_connect 2)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0))
-      (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0))
-      (gr_poly (pts
-         (xy -0.55 -0.75) (xy 0 -0.75) (xy 0 0.75) (xy -0.55 0.75)) (width 0))
-    ))
-  (pad 1 smd custom (at -3.1 0) (size 2 4.5) (layers F.Cu F.Mask)
-    (zone_connect 2)
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0))
-      (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0))
-      (gr_poly (pts
-         (xy 0.55 -0.75) (xy 0 -0.75) (xy 0 0.75) (xy 0.55 0.75)) (width 0))
-    ))
+  (pad 3 smd rect (at 3.1 0) (size 2 4.5) (layers F.Cu F.Mask))
+  (pad 1 smd rect (at -3.1 0) (size 2 4.5) (layers F.Cu F.Mask))
 )
