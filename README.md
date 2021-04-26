@@ -57,7 +57,7 @@ boards, the primary board is designed for 4 layer 2.4-3.2mm PCBs with the follow
 * The high current daughter board is designed for 4 layer 1/13oz (35/450um) copper.
 * The non-latching daughter board is designed for 4 layer 1/6oz (35/200um) copper.
 * The non-existent current sensing daughter board .. will probably use 6oz copper.
-* The non-existent ESD optocoupler/isolator board .. will probably use 1oz copper.
+* The non-existent Full ESD optocoupler/isolator board .. will probably use 1oz copper.
 
 ![Boatcontrol Non Latching Relay Addon](images/NonLatchingNO30A.png)
 ![Boatcontrol Latching Relay Board](images/CommonCathode60A.png)
@@ -227,36 +227,42 @@ RPi/Jetson NX and have a dedicated micro-computer for controlling your electrica
 
 
 ### RJ45 Connectors & Remote I/O
-The top/right RJ45 connector is used to remotely control relays on the main
+The top/right (J108) RJ45 connector is used to remotely control relays on the main
 board. Each RJ45 socket controls 2 latching relays or 2 non-latching relay pairs (4).
 Every socket consists of 4 separate 5V supply pins supplied via a 10KΩ resistor.
+
+All J108 (top connector)inputs are ESD protected using clamp diodes in the
+74HCT86 packs to the following standards:
+* HBM JESD22-A114F exceeds 2000 V
+* MM JESD22-A115-A exceeds 200 V
+
 For long cable runs the resistor banks on the back can be replaced with lower
 resistance values.
 
 ![RJ45 Port 1 pinout](images/rj45_port1_pinout.png)
 
-Half of the bottom/left RJ45 connector is used to remotely control addon boards.
+Half of the bottom/left (J107) RJ45 connector is used to remotely control addon
+boards.
+
 Each RJ45 socket can control 4 channels, typically controlling 2 latching relays
-or 2 non-latching relay pairs (4). **Note that there are no resistors so current
-is only limited by what the onboard PSU can supply and shorting this can
-de-power the RPi/Jetson!**
+or 2 non-latching relay pairs (4).
+
+**Note that for these connectors there are no current limiting resistors so
+current is only limited by what the onboard PSU can supply and shorting this
+can de-power the RPi/Jetson!**
+
 
 ![RJ45 Port 2 pinout](images/rj45_port2.png)
 ![RJ45 Port 2 pinout](images/rj45_port2_pinout.png)
 
-**Note that pairing is important for all RJ45CAT5/6 wiring, it's highly
+
+**Pairing is important for all RJ45CAT5/6 wiring, it's highly
 recommended that the source/sink to control each relay uses a twisted pair,
 this will minimize loss and interference. Pairs are typically colored as shown here**
 
 ![Cat5/6 Twisted pairs](https://upload.wikimedia.org/wikipedia/commons/b/b4/RJ-45_plug_and_jack.svg)
 
 _Advanced uses may also include shielding but this is beyond the scope of this document._
-
-*IMPORTANT* - Note that RJ45 Inputs are not isolated or protected from ESD, if there is any
-chance of surges or high voltages these should be isolated from the board using
-digital isolators or optocouplers and transient voltage suppressors. For remote
-installations of the Raspberry Pi/Jetson you might also want to add debounce
-and provide 3v from an isolated source.
 
 #### 12V "High Voltage/Current" Pins
 There are 16 extra IO pins that can provide up to 500mA each, this is provided
@@ -272,12 +278,21 @@ expansion and remote mounting of devices such as GPS and AIS devices.
 _Note that the 5V pins are shared with the RPi and maximum currents governed by
 the RPi design not the Boatcontrol._
 
-_Note that no additional protection or filtering is provided, the pins are
+*_Note that no additional protection or filtering is provided, the pins are
 simply mapped from the RPi GPIO header directly to RJ45 without any provision
 to minimize signal degradation or distortion._
 
 _Note that this includes the I2C bus which can be used to communicate directly
 with all devices on the main and addon boards_
+
+
+**IMPORTANT** - Since no extra ESD filtering or opto-isolaion is provided for
+thes GPIO ports if there there is any chance of surges or high voltages these
+should be isolated from the board using digital isolators or optocouplers
+and transient voltage suppressors. For remote installations of the
+Raspberry Pi/Jetson you might also want to add debounce and provide 3v from an
+isolated source.
+
 
 ![Raspberry_Pi_Pinout](images/GPIO-Pinout-Diagram-2.png)
 
