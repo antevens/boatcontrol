@@ -81,6 +81,11 @@ have online order forms for 4 layer heavy copper PCBs are:
 
 Note that these costs are only for the PCB, not for assembly or parts.
 
+Note that a regular PCB panel is 457 x 610 (18" x 24"), each panel therefor can
+acomidate 1 main board and 3 addon boards, consider this when ordering boards
+and possibly create your own panel if your addon boards can use the same layer
+stack as the primary board.
+
 ## Enclosure
 
 Any reasonably sized enclosure will work but this board was designed to fit in
