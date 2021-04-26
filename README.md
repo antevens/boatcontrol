@@ -7,7 +7,7 @@
 
 ## About
 
-Boatcontrol is an open hardware design for a marine grade smart/IoT electrical
+Boatcontrol is an open hardware design for a marine grade SMART/IoT electrical
 distribution panel and electronics platform (boat) controller.
 
 It's an I/O breakout board capable of switching up to 48 Latching relays or 32
@@ -269,7 +269,8 @@ There are 16 extra IO pins that can provide up to 500mA each, this is provided
 using an MCP23017 and a ULN2803* with a clamp diode. Examples of use cases would
 be external relays, solenoids, small motors, high power LEDs, Cameras, etc.
 
-_*can be substituted with a TBD62783APG to swap polarity_
+_*can be substituted with a TBD62783APG to swap polarity form 12V source to GND
+sink._
 
 #### Raspberry Pi / Jetson  I/O
 All pins from the GPIO header are made available via RJ45 to allow easy
