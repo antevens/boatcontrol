@@ -4176,6 +4176,8 @@ F 9 "https://www.mouser.co.uk/ProductDetail/Wakefield-Vette/OMNI-220-18-75-3C?qs
 	1    10300 10850
 	0    -1   -1   0   
 $EndComp
+Text Notes 10350 10200 0    39   ~ 0
+(optional depending on current)
 Wire Bus Line
 	13600 7250 13600 8050
 Wire Bus Line
@@ -4192,6 +4194,4 @@ Wire Bus Line
 	13600 1850 13600 2650
 Wire Bus Line
 	13600 950  13600 1750
-Text Notes 10350 10200 0    39   ~ 0
-(optional depending on current)
 $EndSCHEMATC

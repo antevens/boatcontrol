@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 97
+Sheet 33 97
 Title "Boat Control Hat"
 Date "2020-07-09"
 Rev "3"
@@ -156,7 +156,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/6283485A" Ref="Q?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/6283485A" Ref="Q?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/6283485A" Ref="Q?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/6283485A" Ref="Q?"  Part="1" 
-F 0 "CB3501" V 7200 2750 50  0000 R CNN
+F 0 "CB801" V 7200 2750 50  0000 R CNN
 F 1 "T9-818 3" V 7100 2750 50  0000 R CNN
 F 2 "BoatControl:Schurter_Circuit_Breaker" H 7150 3300 50  0001 C CNN
 F 3 "https://eu.mouser.com/datasheet/2/358/typ_T9-818-1276014.pdf" H 7150 3300 50  0001 C CNN
@@ -290,7 +290,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/D2B5CDA0" Ref="#PWR?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/D2B5CDA0" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/D2B5CDA0" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/D2B5CDA0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03502" H 6650 3850 50  0001 C CNN
+F 0 "#PWR0802" H 6650 3850 50  0001 C CNN
 F 1 "+12P" H 6665 4173 50  0000 C CNN
 F 2 "" H 6650 4000 50  0001 C CNN
 F 3 "" H 6650 4000 50  0001 C CNN
@@ -442,7 +442,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/E14E2027" Ref="D?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/E14E2027" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/E14E2027" Ref="D?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/E14E2027" Ref="D?"  Part="1" 
-F 0 "D3501" H 5850 3850 50  0000 C CNN
+F 0 "D801" H 5850 3850 50  0000 C CNN
 F 1 "20mA R/G CA" H 6050 3750 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm-3" H 6100 4000 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP59EGW-CA.pdf" H 6100 4000 50  0001 C CNN
@@ -594,7 +594,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/D2F4D9A8" Ref="K?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/D2F4D9A8" Ref="K?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/D2F4D9A8" Ref="K?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/D2F4D9A8" Ref="K?"  Part="1" 
-F 0 "K3501" H 7600 4100 50  0000 L CNN
+F 0 "K801" H 7600 4100 50  0000 L CNN
 F 1 "G5RL-K1A-E-DC12" H 7600 4000 50  0000 L CNN
 F 2 "RELAY_G5RL-K1A-E-DC12" H 7600 4150 50  0001 L BNN
 F 3 "https://www.mouser.ca/datasheet/2/307/en-g5rl_uk-1061771.pdf" H 7600 4250 50  0001 L BNN
@@ -730,7 +730,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/63ED7D79" Ref="#PWR?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/63ED7D79" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/63ED7D79" Ref="#PWR?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/63ED7D79" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03501" H 4450 4600 50  0001 C CNN
+F 0 "#PWR0801" H 4450 4600 50  0001 C CNN
 F 1 "GND" H 4455 4677 50  0000 C CNN
 F 2 "" H 4450 4850 50  0001 C CNN
 F 3 "" H 4450 4850 50  0001 C CNN
@@ -884,7 +884,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/D2B5CD9C" Ref="SW?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/D2B5CD9C" Ref="SW?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/D2B5CD9C" Ref="SW?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/D2B5CD9C" Ref="SW?"  Part="1" 
-F 0 "SW3502" H 4800 4600 50  0000 C CNN
+F 0 "SW802" H 4800 4600 50  0000 C CNN
 F 1 " ESB30" H 4850 4500 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5000 4750 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5000 4750 50  0001 C CNN
@@ -1034,7 +1034,7 @@ AR Path="/D1BB8DB4/5F75E923/604748F7/63E25899" Ref="SW?"  Part="1"
 AR Path="/D1BB8DB4/5F75E923/604748FF/63E25899" Ref="SW?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474907/63E25899" Ref="SW?"  Part="1" 
 AR Path="/D1BB8DB4/5F75E923/60474911/63E25899" Ref="SW?"  Part="1" 
-F 0 "SW3501" H 4800 3450 50  0000 C CNN
+F 0 "SW801" H 4800 3450 50  0000 C CNN
 F 1 " ESB30" H 4850 3550 50  0000 C CNN
 F 2 "BoatControl:SW_PUSH_ESB30_DPDT" H 5000 3700 50  0001 C CNN
 F 3 "https://www.mouser.ca/datasheet/2/315/sw_pu_eng_esb30-1511162.pdf" H 5000 3700 50  0001 C CNN
@@ -1089,7 +1089,7 @@ OFF_TO_ON
 Text Label 4600 5150 2    50   ~ 0
 ON_TO_OFF
 Text Notes 3400 2650 0    50   ~ 0
-Buttons offer manual overide of relays using direct 12V.\n\nThere is no timing/pulse  circuit when operating  the switches so care should be taken not to energise relay coils for more than a few seconds.\n\nSetting each coil to "on" will disable the opposing coil to prevent both coils from being energnized at the same time.\n\nMomentary switches are easy to use and recommended.\n\nNon-momentary (latching) switches can be used by "double-clicking" and the advantage of these is that the relay can be disabled completely by setting both swtiches to the "on" position.\n\n
+Buttons offer manual overide of relays using direct 12V.\n\nThere is no timing/pulse  circuit when operating  the switches so care should be taken not to energise relay coils for more than a few seconds.\n\nSetting each coil to "on" will disable the opposing coil to prevent both coils from being energnized at the same time.\n\nMomentary switches are easy to use and recommended.\n\nNon-momentary (latching) switches can be used with the "double-click" method, the only advantage being that relays can be disabled completely by setting both switches to the "on" position.\n\n
 Text HLabel 7350 3050 1    50   Output ~ 0
 OUT
 $EndSCHEMATC
