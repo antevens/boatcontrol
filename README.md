@@ -10,8 +10,8 @@
 Boatcontrol is an open hardware design for a marine grade SMART/IoT electrical
 distribution panel and electronics platform (boat) controller.
 
-It's an I/O breakout board capable of switching 32 onboard laching relays and
-optionally 32 momentary/laching relays using addon boards switchnig  up to 60A
+It's an I/O breakout board capable of switching 32 onboard latching relays and
+optionally 32 momentary/latching relays using addon boards switchnig  up to 60A
 AC/DC 0-400V per circuit.
 
 The "smart" part is provided by either a **Raspberry Pi** HAT or a
