@@ -1,9 +1,11 @@
-# WORK IN PROGRESS, NOT PRODUCTION READY!
+# Prototyping still in progress, not ready for production
 
 # Boatcontrol
 
+![Boatcontrol Rendering_Front](images/prototype.jpg)
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
+![Boatcontrol Rendering_Front](images/node-red-mobile.png)
 
 ## About
 
