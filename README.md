@@ -229,7 +229,7 @@ power source.__
 
 All communication between the RPi and the board is done using I2C, this only
 requires 2 pins/wires and makes it safe to use in combination with most if not all
-other HATs. In particular it can co-exist with the Moitessier HAT though you
+other HATs. In particular it can co-exist with AIS and GPS hats like the dAISy though you
 might want to run your chart-plotting or navigation software on a separate
 RPi/Jetson NX and have a dedicated micro-computer for controlling your electrical system.
 

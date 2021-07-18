@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name BoatControl)(type Legacy)(uri ${KIPRJMOD}/BoatControl.lib)(options "")(descr ""))
+  (lib (name boatcontrol-rescue)(type Legacy)(uri ${KIPRJMOD}/boatcontrol-rescue.lib)(options "")(descr ""))
 )
