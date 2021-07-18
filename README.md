@@ -1,11 +1,11 @@
 # Prototyping still in progress, not ready for production
 
+![Boatcontrol Rendering_Front](images/prototype.jpg)
+
 # Boatcontrol
 
-![Boatcontrol Rendering_Front](images/prototype.jpg)
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
-![Boatcontrol Rendering_Front](images/node-red-mobile.png)
 
 ## About
 
@@ -355,6 +355,8 @@ This particular interface is built using Node-Red and is running on an RPi 4.
 ![Node-Red Electrical](images/node-red-electrical.png)
 ![Node-Red Climate](images/node-red-climate.png)
 ![Node-Red Fluids](images/node-red-fluids.png)
+
+![Node-Red Mobile Interface](images/node-red-mobile.png)
 
 
 # Open Hardware
