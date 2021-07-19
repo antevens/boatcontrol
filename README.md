@@ -223,8 +223,8 @@ See Node-Red source for IoT web based interfaces that can run on these platforms
 While the scale is disproportionate the main board is really just a rather large
 Raspberry Pi HAT though it does not require an RPi to operate.
 __Note that the board will act as a power supply for the RPi and Jetson
-Nano and eliminates the need for a separate PSU to power the RPi/Nano.__
-__Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
+Nano eliminating the need for a separate PSU.__
+__The Nvidia JetsonXavier products such as the NX and AGX will still need a separate (19V)
 power source.__
 
 All communication between the RPi and the board is done using I2C, this only
