@@ -1,11 +1,11 @@
 # Prototyping still in progress, not ready for production
 
+![Boatcontrol Rendering_Front](images/prototype.jpg)
+
 # Boatcontrol
 
-![Boatcontrol Rendering_Front](images/prototype.jpg)
 ![Boatcontrol Rendering_Front](images/boatcontrol-front.png)
 ![Boatcontrol Rendering_Front](images/boatcontrol-back.png)
-![Boatcontrol Rendering_Front](images/node-red-mobile.png)
 
 ## About
 
@@ -223,8 +223,8 @@ See Node-Red source for IoT web based interfaces that can run on these platforms
 While the scale is disproportionate the main board is really just a rather large
 Raspberry Pi HAT though it does not require an RPi to operate.
 __Note that the board will act as a power supply for the RPi and Jetson
-Nano and eliminates the need for a separate PSU to power the RPi/Nano.__
-__Nvidia Jetson Xavie Xavier products such as the NX and AGX will still need a separate (19V)
+Nano eliminating the need for a separate PSU.__
+__The Nvidia JetsonXavier products such as the NX and AGX will still need a separate (19V)
 power source.__
 
 All communication between the RPi and the board is done using I2C, this only
@@ -355,6 +355,8 @@ This particular interface is built using Node-Red and is running on an RPi 4.
 ![Node-Red Electrical](images/node-red-electrical.png)
 ![Node-Red Climate](images/node-red-climate.png)
 ![Node-Red Fluids](images/node-red-fluids.png)
+
+![Node-Red Mobile Interface](images/node-red-mobile.png)
 
 
 # Open Hardware
