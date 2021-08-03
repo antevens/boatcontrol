@@ -233,6 +233,12 @@ other HATs. In particular it can co-exist with AIS and GPS hats like the dAISy t
 might want to run your chart-plotting or navigation software on a separate
 RPi/Jetson NX and have a dedicated micro-computer for controlling your electrical system.
 
+The Sailor Hat or PICAN-M HATs might be of particular interest to allow the
+Boatcontrol board to act as an NMEA 0183/2000 or Seatalk device.
+
+* https://hatlabs.fi/product-category/sh-rpi/sh-rpi-devices
+* https://www.skpang.co.uk/collections/hats/products/pican-m-with-can-bus-micro-c-and-rs422-connector-3a-smps
+* https://copperhilltech.com/pican-m-nmea-0183-nmea-2000-hat-for-raspberry-pi/
 
 ### RJ45 Connectors & Remote I/O
 The top/right (J108) RJ45 connector is used to remotely control relays on the main
