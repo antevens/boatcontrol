@@ -94,8 +94,8 @@ stack as the primary board.
 ## Enclosure
 
 Any reasonably sized enclosure will work but this board was designed to fit in
-the **Fibox PC 5638 18T** with the optional steel mounting plate (which will need
-to be drilled).
+the **Fibox PC 5638 18T** (a custom mount plate will be needed since PCB standoffs don't
+line up with the box attachment points).
 
 This should give a rating of IP65/IK09
 
@@ -184,7 +184,7 @@ an addon-board header.
 * Individual channel current should not exceed 60A
 * No circuit breakers, polarity indicators or protection
 
-### Non Latching Paired Addon Board:
+### Momentary (Non Latching) Paired Addon Board:
 * 16 (8 pairs*) x 12V DC non latching input/output channels/circuits
 * Individual channel current should not exceed 32A
 * No circuit breakers, polarity indicators or protection
@@ -193,7 +193,7 @@ _Non-latching Relays are paired and only one of a pair can be powered at any giv
 
 _All relays on a board share a common "Anode"/"Cathode", make sure to
 adjust the solder-jumpers on the backside for the type of relays used so that
-the relay polarity is correct. and that the correct transistor array chosen
+the relay polarity is correct. and that the correct driver array is chosen
 (ULN2803A vs. TBD62783APG)_
 
 Keep in mind that there is no requirement to fully populate the board and a partially
@@ -285,7 +285,7 @@ There are 16 extra IO pins that can provide up to 500mA each, this is provided
 using an MCP23017 and a ULN2803* with a clamp diode. Examples of use cases would
 be external relays, solenoids, small motors, high power LEDs, Cameras, etc.
 
-_*can be substituted with a TBD62783APG to swap polarity form 12V source to GND
+_*can be substituted with a TBD62783APG to swap polarity from 12V source to GND
 sink._
 
 #### Raspberry Pi / Jetson  I/O
