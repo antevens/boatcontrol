@@ -26,12 +26,14 @@ and high voltage and as such PCB thickness and clearances are CRITICAL along
 with proper thermal management.
 
 Special care has been taken to limit idle power consumption wherever possible, on
-it's own the board will only consume 15 Milliwatts, if a Raspberry Pi (RPi) Zero is
+it's own the board will only consume 15 Milliwatts when idle, if a Raspberry Pi (RPi) Zero is
 mated it will add 400 Milliwatts, a fully fledged RPi 4 with all the bells and
 whistles will add up to 3.4 Watts, a Jetson Xavier NX will bring the total to
 10-15 Watts depending on configuration. Jumpers are provided where applicable
 to disable LEDs to reduce power consumption when idle. Each active indicator LED
-will likely consume 10-20 Milliwatts.
+will likely consume 10-20 Milliwatts. Note that using a momentary add-on board can increase
+the power consumption substancially depending on which relays are used and how
+much time they spend on the "ON" position.
 
 Effort was taken to make the boards as reliable as possible and enable them to
 be operated in emergencies and under failure conditions. All circuits can be
