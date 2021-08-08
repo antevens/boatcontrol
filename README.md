@@ -355,14 +355,15 @@ functionality and features are accessible from any web enabled device onboard
 or remote.
 
 The following are screenshots from development UIs used to debug and test the
-hardware, they show some of the functionality that's possible even though the
-user interface and graphics need a lot more work and polish.
+hardware, they show some of the functionality that's possible including
+day/night views, automated alerts and functionality.
 
 This particular interface is built using Node-Red and is running on an RPi 4.
 ![Node-Red Engine](images/node-red-engine.png)
 ![Node-Red Electrical](images/node-red-electrical.png)
 ![Node-Red Climate](images/node-red-climate.png)
 ![Node-Red Fluids](images/node-red-fluids.png)
+![Node-Red Fluids](images/node-red-dark.png)
 
 ![Node-Red Mobile Interface](images/node-red-mobile.png)
 
