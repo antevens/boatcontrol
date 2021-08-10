@@ -27,7 +27,7 @@ with proper thermal management.
 
 Special care has been taken to limit idle power consumption wherever possible, on
 it's own the board will only consume 15 Milliwatts when idle, if a Raspberry Pi (RPi) Zero is
-mated it will add 400 Milliwatts, a fully fledged RPi 4 with all the bells and
+mated it will add 80-120 Milliwatts, a fully fledged RPi 4 with all the bells and
 whistles will add up to 3.4 Watts, a Jetson Xavier NX will bring the total to
 10-15 Watts depending on configuration. Jumpers are provided where applicable
 to disable LEDs to reduce power consumption when idle. Each active indicator LED
