@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name BoatControl)(type Legacy)(uri ${KIPRJMOD}/../../boatcontrol/BoatControl.lib)(options "")(descr ""))
   (lib (name CurrentSensor)(type Legacy)(uri ${KIPRJMOD}/CurrentSensor.lib)(options "")(descr ""))
+  (lib (name CurrentSensor-rescue)(type Legacy)(uri ${KIPRJMOD}/CurrentSensor-rescue.lib)(options "")(descr ""))
 )
