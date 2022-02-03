@@ -1,4 +1,4 @@
-# Prototyping still in progress, not ready for production
+# Prototype, use at your own risk
 
 ![Boatcontrol Rendering_Front](images/prototype.jpg)
 
