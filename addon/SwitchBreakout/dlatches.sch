@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 2 21
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/62AF242B/62B44E61" Ref="RN1"  Part="1"
 AR Path="/638586E3/62B44E61" Ref="RN3"  Part="1" 
 AR Path="/641410EA/62B44E61" Ref="RN5"  Part="1" 
 AR Path="/64141124/62B44E61" Ref="RN7"  Part="1" 
-F 0 "RN7" V 3833 2100 50  0000 C CNN
+F 0 "RN1" V 3833 2100 50  0000 C CNN
 F 1 "100KΩ" V 3924 2100 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4925 2100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 4450 2100 50  0001 C CNN
@@ -31,22 +31,6 @@ F 5 "4609X-101-105LF" H 4450 2100 50  0001 C CNN "Manufacturer_Part_Number"
 F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" H 4450 2100 50  0001 C CNN "Description"
 	1    4450 2100
 	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_Pack08 RN2
-U 1 1 62BAB44F
-P 4450 4000
-AR Path="/62AF242B/62BAB44F" Ref="RN2"  Part="1" 
-AR Path="/638586E3/62BAB44F" Ref="RN4"  Part="1" 
-AR Path="/641410EA/62BAB44F" Ref="RN6"  Part="1" 
-AR Path="/64141124/62BAB44F" Ref="RN8"  Part="1" 
-F 0 "RN8" V 3833 4000 50  0000 C CNN
-F 1 "1KΩ" V 3924 4000 50  0000 C CNN
-F 2 "BoatControl:DIP254P762X432-16P" V 4925 4000 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 4450 4000 50  0001 C CNN
-F 4 "4116R-1-102LF" H 4450 4000 50  0001 C CNN "Product"
-	1    4450 4000
-	0    1    1    0   
 $EndComp
 $Sheet
 S 5550 2550 650  550 
@@ -261,7 +245,7 @@ AR Path="/62AF242B/62CB2A8A/62CD87D9" Ref="#PWR?"  Part="1"
 AR Path="/638586E3/62CD87D9" Ref="#PWR0166"  Part="1" 
 AR Path="/641410EA/62CD87D9" Ref="#PWR0195"  Part="1" 
 AR Path="/64141124/62CD87D9" Ref="#PWR0224"  Part="1" 
-F 0 "#PWR0224" H 4100 1550 50  0001 C CNN
+F 0 "#PWR0137" H 4100 1550 50  0001 C CNN
 F 1 "VCC" H 4117 1873 50  0000 C CNN
 F 2 "" H 4100 1700 50  0001 C CNN
 F 3 "" H 4100 1700 50  0001 C CNN
@@ -270,4 +254,20 @@ F 3 "" H 4100 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 1700 4250 1700
+$Comp
+L Device:R_Pack08 RN2
+U 1 1 62BAB44F
+P 4450 4000
+AR Path="/62AF242B/62BAB44F" Ref="RN2"  Part="1" 
+AR Path="/638586E3/62BAB44F" Ref="RN4"  Part="1" 
+AR Path="/641410EA/62BAB44F" Ref="RN6"  Part="1" 
+AR Path="/64141124/62BAB44F" Ref="RN8"  Part="1" 
+F 0 "RN2" V 3833 4000 50  0000 C CNN
+F 1 "1KΩ" V 3924 4000 50  0000 C CNN
+F 2 "BoatControl:DIP254P762X432-16P" V 4925 4000 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 4450 4000 50  0001 C CNN
+F 4 "4116R-1-102LF" H 4450 4000 50  0001 C CNN "Product"
+	1    4450 4000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
