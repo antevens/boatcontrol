@@ -1,0 +1,2211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 21
+Title "Switch Breakout (toggle) for BoatControl32"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BoatControl:SS73100-047F J1
+U 1 1 6263A030
+P 7450 10550
+F 0 "J1" H 8075 13865 50  0000 C CNN
+F 1 "SS73100-047F" H 8075 13774 50  0000 C CNN
+F 2 "STEWART_SS73100-047F" H 7600 12050 50  0001 L BNN
+F 3 "" H 7800 10100 50  0001 L BNN
+F 4 "Stewart Connector" H 7650 10800 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 8300 6250 50  0001 C CNN "Dimensions"
+	1    7450 10550
+	0    1    1    0   
+$EndComp
+$Sheet
+S 10700 8700 1100 1650
+U 62AF242B
+F0 "D-Latch 0-7" 50
+F1 "dlatches.sch" 50
+F2 "ON1" I R 11800 8850 50 
+F3 "OFF1" I R 11800 8750 50 
+F4 "ON2" I R 11800 9050 50 
+F5 "OFF2" I R 11800 8950 50 
+F6 "ON3" I R 11800 9250 50 
+F7 "OFF3" I R 11800 9150 50 
+F8 "ON4" I R 11800 9450 50 
+F9 "OFF4" I R 11800 9350 50 
+F10 "ON5" I R 11800 9650 50 
+F11 "OFF5" I R 11800 9550 50 
+F12 "ON6" I R 11800 9850 50 
+F13 "OFF6" I R 11800 9750 50 
+F14 "ON7" I R 11800 10050 50 
+F15 "OFF7" I R 11800 9950 50 
+F16 "ON8" I R 11800 10250 50 
+F17 "OFF8" I R 11800 10150 50 
+F18 "BTN1" I L 10700 8750 50 
+F19 "BTN2" I L 10700 8950 50 
+F20 "BTN3" I L 10700 9150 50 
+F21 "BTN4" I L 10700 9350 50 
+F22 "BTN5" I L 10700 9550 50 
+F23 "BTN6" I L 10700 9750 50 
+F24 "BTN7" I L 10700 9950 50 
+F25 "BTN8" I L 10700 10150 50 
+$EndSheet
+$Comp
+L BoatControl:SS73100-047F J?
+U 1 1 62F47411
+P 15050 8600
+F 0 "J?" H 15675 11915 50  0000 C CNN
+F 1 "SS73100-047F" H 15675 11824 50  0000 C CNN
+F 2 "STEWART_SS73100-047F" H 15200 10100 50  0001 L BNN
+F 3 "" H 15400 8150 50  0001 L BNN
+F 4 "Stewart Connector" H 15250 8850 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 15900 4300 50  0001 C CNN "Dimensions"
+	1    15050 8600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11800 8750 12050 8750
+Wire Wire Line
+	12050 8750 12050 8700
+Wire Wire Line
+	11800 8850 12250 8850
+Wire Wire Line
+	12250 8850 12250 8700
+Wire Wire Line
+	11800 8950 12450 8950
+Wire Wire Line
+	12450 8950 12450 8700
+Wire Wire Line
+	11800 9050 12650 9050
+Wire Wire Line
+	12650 9050 12650 8700
+Wire Wire Line
+	11800 9150 12950 9150
+Wire Wire Line
+	12950 9150 12950 8700
+Wire Wire Line
+	11800 9350 13350 9350
+Wire Wire Line
+	13350 9350 13350 8700
+Wire Wire Line
+	13150 9250 13150 8700
+Wire Wire Line
+	11800 9250 13150 9250
+Wire Wire Line
+	11800 9450 13550 9450
+Wire Wire Line
+	13550 9450 13550 8700
+Wire Wire Line
+	11800 9550 13850 9550
+Wire Wire Line
+	13850 9550 13850 8700
+Wire Wire Line
+	14050 9650 14050 8700
+Wire Wire Line
+	11800 9650 14050 9650
+Wire Wire Line
+	11800 9750 14250 9750
+Wire Wire Line
+	14250 9750 14250 8700
+Wire Wire Line
+	11800 9850 14450 9850
+Wire Wire Line
+	14450 9850 14450 8700
+Wire Wire Line
+	11800 9950 14750 9950
+Wire Wire Line
+	14750 9950 14750 8700
+Wire Wire Line
+	11800 10050 14950 10050
+Wire Wire Line
+	14950 10050 14950 8700
+Wire Wire Line
+	11800 10150 15150 10150
+Wire Wire Line
+	15150 10150 15150 8700
+Wire Wire Line
+	11800 10250 15350 10250
+Wire Wire Line
+	15350 10250 15350 8700
+$Sheet
+S 10700 12000 1100 1650
+U 638586E3
+F0 "sheet638586C9" 50
+F1 "dlatches.sch" 50
+F2 "ON1" I R 11800 12150 50 
+F3 "OFF1" I R 11800 12050 50 
+F4 "ON2" I R 11800 12350 50 
+F5 "OFF2" I R 11800 12250 50 
+F6 "ON3" I R 11800 12550 50 
+F7 "OFF3" I R 11800 12450 50 
+F8 "ON4" I R 11800 12750 50 
+F9 "OFF4" I R 11800 12650 50 
+F10 "ON5" I R 11800 12950 50 
+F11 "OFF5" I R 11800 12850 50 
+F12 "ON6" I R 11800 13150 50 
+F13 "OFF6" I R 11800 13050 50 
+F14 "ON7" I R 11800 13350 50 
+F15 "OFF7" I R 11800 13250 50 
+F16 "ON8" I R 11800 13550 50 
+F17 "OFF8" I R 11800 13450 50 
+F18 "BTN1" I L 10700 12050 50 
+F19 "BTN2" I L 10700 12250 50 
+F20 "BTN3" I L 10700 12450 50 
+F21 "BTN4" I L 10700 12650 50 
+F22 "BTN5" I L 10700 12850 50 
+F23 "BTN6" I L 10700 13050 50 
+F24 "BTN7" I L 10700 13250 50 
+F25 "BTN8" I L 10700 13450 50 
+$EndSheet
+Wire Wire Line
+	10700 12250 9650 12250
+Wire Wire Line
+	9650 12250 9650 11900
+Wire Wire Line
+	10700 12050 10550 12050
+Wire Wire Line
+	10550 12050 10550 11900
+Wire Wire Line
+	10700 12450 8750 12450
+Wire Wire Line
+	8750 12450 8750 11900
+Wire Wire Line
+	10700 12650 7850 12650
+Wire Wire Line
+	7850 12650 7850 11900
+Wire Wire Line
+	10700 12850 6950 12850
+Wire Wire Line
+	6950 12850 6950 11900
+Wire Wire Line
+	10700 13050 6050 13050
+Wire Wire Line
+	6050 13050 6050 11900
+Wire Wire Line
+	10700 13250 5150 13250
+Wire Wire Line
+	5150 13250 5150 11900
+Wire Wire Line
+	10700 13450 4250 13450
+Wire Wire Line
+	4250 13450 4250 11900
+Wire Wire Line
+	11800 12050 15650 12050
+Wire Wire Line
+	15650 12050 15650 8700
+Wire Wire Line
+	11800 12150 15850 12150
+Wire Wire Line
+	15850 12150 15850 8700
+Wire Wire Line
+	11800 12250 16050 12250
+Wire Wire Line
+	16050 12250 16050 8700
+Wire Wire Line
+	11800 12350 16250 12350
+Wire Wire Line
+	16250 12350 16250 8700
+Wire Wire Line
+	11800 12450 16550 12450
+Wire Wire Line
+	16550 12450 16550 8700
+Wire Wire Line
+	11800 12550 16750 12550
+Wire Wire Line
+	16750 12550 16750 8700
+Wire Wire Line
+	11800 12650 16950 12650
+Wire Wire Line
+	16950 12650 16950 8700
+Wire Wire Line
+	11800 12750 17150 12750
+Wire Wire Line
+	17150 12750 17150 8700
+Wire Wire Line
+	11800 12850 17450 12850
+Wire Wire Line
+	17450 12850 17450 8700
+Wire Wire Line
+	17650 8700 17650 12950
+Wire Wire Line
+	17650 12950 11800 12950
+Wire Wire Line
+	11800 13050 17850 13050
+Wire Wire Line
+	17850 13050 17850 8700
+Wire Wire Line
+	18050 8700 18050 13150
+Wire Wire Line
+	18050 13150 11800 13150
+Wire Wire Line
+	11800 13250 18350 13250
+Wire Wire Line
+	18350 13250 18350 8700
+Wire Wire Line
+	18550 8700 18550 13350
+Wire Wire Line
+	18550 13350 11800 13350
+Wire Wire Line
+	18950 8700 18950 13550
+Wire Wire Line
+	18950 13550 11800 13550
+Wire Wire Line
+	11800 13450 18750 13450
+Wire Wire Line
+	18750 13450 18750 8700
+Wire Wire Line
+	10700 9950 9650 9950
+Wire Wire Line
+	9650 9950 9650 10450
+Wire Wire Line
+	10700 10150 10550 10150
+Wire Wire Line
+	10550 10150 10550 10450
+Wire Wire Line
+	10700 9750 8750 9750
+Wire Wire Line
+	8750 9750 8750 10450
+Wire Wire Line
+	10700 9550 7850 9550
+Wire Wire Line
+	7850 9550 7850 10450
+Wire Wire Line
+	10700 9350 6950 9350
+Wire Wire Line
+	6950 9350 6950 10450
+Wire Wire Line
+	10700 9150 6050 9150
+Wire Wire Line
+	6050 9150 6050 10450
+Wire Wire Line
+	10700 8950 5150 8950
+Wire Wire Line
+	5150 8950 5150 10450
+Wire Wire Line
+	10700 8750 4250 8750
+Wire Wire Line
+	4250 8750 4250 10450
+$Comp
+L BoatControl:SS73100-047F J?
+U 1 1 641410D0
+P 7450 5400
+F 0 "J?" H 8075 8715 50  0000 C CNN
+F 1 "SS73100-047F" H 8075 8624 50  0000 C CNN
+F 2 "STEWART_SS73100-047F" H 7600 6900 50  0001 L BNN
+F 3 "" H 7800 4950 50  0001 L BNN
+F 4 "Stewart Connector" H 7650 5650 50  0001 L BNN "Field6"
+F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-047f.pdf" H 8300 1100 50  0001 C CNN "Dimensions"
+	1    7450 5400
+	0    1    -1   0   
+$EndComp
+$Sheet
+S 10700 5600 1100 1650
+U 641410EA
+F0 "sheet641410C7" 50
+F1 "dlatches.sch" 50
+F2 "ON1" I R 11800 7100 50 
+F3 "OFF1" I R 11800 7200 50 
+F4 "ON2" I R 11800 6900 50 
+F5 "OFF2" I R 11800 7000 50 
+F6 "ON3" I R 11800 6700 50 
+F7 "OFF3" I R 11800 6800 50 
+F8 "ON4" I R 11800 6500 50 
+F9 "OFF4" I R 11800 6600 50 
+F10 "ON5" I R 11800 6300 50 
+F11 "OFF5" I R 11800 6400 50 
+F12 "ON6" I R 11800 6100 50 
+F13 "OFF6" I R 11800 6200 50 
+F14 "ON7" I R 11800 5900 50 
+F15 "OFF7" I R 11800 6000 50 
+F16 "ON8" I R 11800 5700 50 
+F17 "OFF8" I R 11800 5800 50 
+F18 "BTN1" I L 10700 7200 50 
+F19 "BTN2" I L 10700 7000 50 
+F20 "BTN3" I L 10700 6800 50 
+F21 "BTN4" I L 10700 6600 50 
+F22 "BTN5" I L 10700 6400 50 
+F23 "BTN6" I L 10700 6200 50 
+F24 "BTN7" I L 10700 6000 50 
+F25 "BTN8" I L 10700 5800 50 
+$EndSheet
+Wire Wire Line
+	11800 7200 12050 7200
+Wire Wire Line
+	12050 7200 12050 7250
+Wire Wire Line
+	11800 7100 12250 7100
+Wire Wire Line
+	12250 7100 12250 7250
+Wire Wire Line
+	11800 7000 12450 7000
+Wire Wire Line
+	12450 7000 12450 7250
+Wire Wire Line
+	11800 6900 12650 6900
+Wire Wire Line
+	12650 6900 12650 7250
+Wire Wire Line
+	11800 6800 12950 6800
+Wire Wire Line
+	12950 6800 12950 7250
+Wire Wire Line
+	11800 6600 13350 6600
+Wire Wire Line
+	13350 6600 13350 7250
+Wire Wire Line
+	13150 6700 13150 7250
+Wire Wire Line
+	11800 6700 13150 6700
+Wire Wire Line
+	11800 6500 13550 6500
+Wire Wire Line
+	13550 6500 13550 7250
+Wire Wire Line
+	11800 6400 13850 6400
+Wire Wire Line
+	13850 6400 13850 7250
+Wire Wire Line
+	14050 6300 14050 7250
+Wire Wire Line
+	11800 6300 14050 6300
+Wire Wire Line
+	11800 6200 14250 6200
+Wire Wire Line
+	14250 6200 14250 7250
+Wire Wire Line
+	11800 6100 14450 6100
+Wire Wire Line
+	14450 6100 14450 7250
+Wire Wire Line
+	11800 6000 14750 6000
+Wire Wire Line
+	14750 6000 14750 7250
+Wire Wire Line
+	11800 5900 14950 5900
+Wire Wire Line
+	14950 5900 14950 7250
+Wire Wire Line
+	11800 5800 15150 5800
+Wire Wire Line
+	15150 5800 15150 7250
+Wire Wire Line
+	11800 5700 15350 5700
+Wire Wire Line
+	15350 5700 15350 7250
+$Sheet
+S 10700 2300 1100 1650
+U 64141124
+F0 "sheet641410C8" 50
+F1 "dlatches.sch" 50
+F2 "ON1" I R 11800 3800 50 
+F3 "OFF1" I R 11800 3900 50 
+F4 "ON2" I R 11800 3600 50 
+F5 "OFF2" I R 11800 3700 50 
+F6 "ON3" I R 11800 3400 50 
+F7 "OFF3" I R 11800 3500 50 
+F8 "ON4" I R 11800 3200 50 
+F9 "OFF4" I R 11800 3300 50 
+F10 "ON5" I R 11800 3000 50 
+F11 "OFF5" I R 11800 3100 50 
+F12 "ON6" I R 11800 2800 50 
+F13 "OFF6" I R 11800 2900 50 
+F14 "ON7" I R 11800 2600 50 
+F15 "OFF7" I R 11800 2700 50 
+F16 "ON8" I R 11800 2400 50 
+F17 "OFF8" I R 11800 2500 50 
+F18 "BTN1" I L 10700 3900 50 
+F19 "BTN2" I L 10700 3700 50 
+F20 "BTN3" I L 10700 3500 50 
+F21 "BTN4" I L 10700 3300 50 
+F22 "BTN5" I L 10700 3100 50 
+F23 "BTN6" I L 10700 2900 50 
+F24 "BTN7" I L 10700 2700 50 
+F25 "BTN8" I L 10700 2500 50 
+$EndSheet
+Wire Wire Line
+	10700 3700 9650 3700
+Wire Wire Line
+	9650 3700 9650 4050
+Wire Wire Line
+	10700 3900 10550 3900
+Wire Wire Line
+	10550 3900 10550 4050
+Wire Wire Line
+	10700 3500 8750 3500
+Wire Wire Line
+	8750 3500 8750 4050
+Wire Wire Line
+	10700 3300 7850 3300
+Wire Wire Line
+	7850 3300 7850 4050
+Wire Wire Line
+	10700 3100 6950 3100
+Wire Wire Line
+	6950 3100 6950 4050
+Wire Wire Line
+	10700 2900 6050 2900
+Wire Wire Line
+	6050 2900 6050 4050
+Wire Wire Line
+	5150 2700 5150 4050
+Wire Wire Line
+	10700 2500 4250 2500
+Wire Wire Line
+	11800 3900 15650 3900
+Wire Wire Line
+	15650 3900 15650 7250
+Wire Wire Line
+	11800 3800 15850 3800
+Wire Wire Line
+	15850 3800 15850 7250
+Wire Wire Line
+	11800 3700 16050 3700
+Wire Wire Line
+	16050 3700 16050 7250
+Wire Wire Line
+	11800 3600 16250 3600
+Wire Wire Line
+	16250 3600 16250 7250
+Wire Wire Line
+	11800 3500 16550 3500
+Wire Wire Line
+	16550 3500 16550 7250
+Wire Wire Line
+	11800 3400 16750 3400
+Wire Wire Line
+	16750 3400 16750 7250
+Wire Wire Line
+	11800 3300 16950 3300
+Wire Wire Line
+	16950 3300 16950 7250
+Wire Wire Line
+	11800 3200 17150 3200
+Wire Wire Line
+	17150 3200 17150 7250
+Wire Wire Line
+	11800 3100 17450 3100
+Wire Wire Line
+	17450 3100 17450 7250
+Wire Wire Line
+	17650 7250 17650 3000
+Wire Wire Line
+	17650 3000 11800 3000
+Wire Wire Line
+	11800 2900 17850 2900
+Wire Wire Line
+	17850 2900 17850 7250
+Wire Wire Line
+	18050 7250 18050 2800
+Wire Wire Line
+	18050 2800 11800 2800
+Wire Wire Line
+	11800 2700 18350 2700
+Wire Wire Line
+	18350 2700 18350 7250
+Wire Wire Line
+	18550 7250 18550 2600
+Wire Wire Line
+	18550 2600 11800 2600
+Wire Wire Line
+	18950 7250 18950 2400
+Wire Wire Line
+	18950 2400 11800 2400
+Wire Wire Line
+	11800 2500 18750 2500
+Wire Wire Line
+	18750 2500 18750 7250
+Wire Wire Line
+	10700 6000 9650 6000
+Wire Wire Line
+	9650 6000 9650 5500
+Wire Wire Line
+	10700 5800 10550 5800
+Wire Wire Line
+	10550 5800 10550 5500
+Wire Wire Line
+	10700 6200 8750 6200
+Wire Wire Line
+	8750 6200 8750 5500
+Wire Wire Line
+	10700 6400 7850 6400
+Wire Wire Line
+	7850 6400 7850 5500
+Wire Wire Line
+	10700 6600 6950 6600
+Wire Wire Line
+	6950 6600 6950 5500
+Wire Wire Line
+	10700 6800 6050 6800
+Wire Wire Line
+	6050 6800 6050 5500
+Wire Wire Line
+	10700 7000 5150 7000
+Wire Wire Line
+	5150 7000 5150 5500
+Wire Wire Line
+	10700 7200 4250 7200
+Wire Wire Line
+	4250 4050 4250 2500
+Wire Wire Line
+	4250 7200 4250 5500
+$Comp
+L power:GND #PWR?
+U 1 1 6467C3F4
+P 8050 11900
+F 0 "#PWR?" H 8050 11650 50  0001 C CNN
+F 1 "GND" H 8000 11750 50  0000 C CNN
+F 2 "" H 8050 11900 50  0001 C CNN
+F 3 "" H 8050 11900 50  0001 C CNN
+	1    8050 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64690E25
+P 7150 11900
+F 0 "#PWR?" H 7150 11650 50  0001 C CNN
+F 1 "GND" H 7100 11750 50  0000 C CNN
+F 2 "" H 7150 11900 50  0001 C CNN
+F 3 "" H 7150 11900 50  0001 C CNN
+	1    7150 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 646AA5F0
+P 6250 11900
+F 0 "#PWR?" H 6250 11650 50  0001 C CNN
+F 1 "GND" H 6200 11750 50  0000 C CNN
+F 2 "" H 6250 11900 50  0001 C CNN
+F 3 "" H 6250 11900 50  0001 C CNN
+	1    6250 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 646B67A7
+P 5350 11900
+F 0 "#PWR?" H 5350 11650 50  0001 C CNN
+F 1 "GND" H 5300 11750 50  0000 C CNN
+F 2 "" H 5350 11900 50  0001 C CNN
+F 3 "" H 5350 11900 50  0001 C CNN
+	1    5350 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 646C2926
+P 4450 11900
+F 0 "#PWR?" H 4450 11650 50  0001 C CNN
+F 1 "GND" H 4400 11750 50  0000 C CNN
+F 2 "" H 4450 11900 50  0001 C CNN
+F 3 "" H 4450 11900 50  0001 C CNN
+	1    4450 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 646D7428
+P 3550 11900
+F 0 "#PWR?" H 3550 11650 50  0001 C CNN
+F 1 "GND" H 3500 11750 50  0000 C CNN
+F 2 "" H 3550 11900 50  0001 C CNN
+F 3 "" H 3550 11900 50  0001 C CNN
+	1    3550 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6470F158
+P 4450 5500
+F 0 "#PWR?" H 4450 5250 50  0001 C CNN
+F 1 "GND" H 4400 5350 50  0000 C CNN
+F 2 "" H 4450 5500 50  0001 C CNN
+F 3 "" H 4450 5500 50  0001 C CNN
+	1    4450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6471B38D
+P 5350 5500
+F 0 "#PWR?" H 5350 5250 50  0001 C CNN
+F 1 "GND" H 5300 5350 50  0000 C CNN
+F 2 "" H 5350 5500 50  0001 C CNN
+F 3 "" H 5350 5500 50  0001 C CNN
+	1    5350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6472EBD7
+P 6250 5500
+F 0 "#PWR?" H 6250 5250 50  0001 C CNN
+F 1 "GND" H 6200 5350 50  0000 C CNN
+F 2 "" H 6250 5500 50  0001 C CNN
+F 3 "" H 6250 5500 50  0001 C CNN
+	1    6250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6473AE62
+P 7150 5500
+F 0 "#PWR?" H 7150 5250 50  0001 C CNN
+F 1 "GND" H 7100 5350 50  0000 C CNN
+F 2 "" H 7150 5500 50  0001 C CNN
+F 3 "" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64750DE0
+P 8050 5500
+F 0 "#PWR?" H 8050 5250 50  0001 C CNN
+F 1 "GND" H 8000 5350 50  0000 C CNN
+F 2 "" H 8050 5500 50  0001 C CNN
+F 3 "" H 8050 5500 50  0001 C CNN
+	1    8050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6475D0FA
+P 8950 5500
+F 0 "#PWR?" H 8950 5250 50  0001 C CNN
+F 1 "GND" H 8900 5350 50  0000 C CNN
+F 2 "" H 8950 5500 50  0001 C CNN
+F 3 "" H 8950 5500 50  0001 C CNN
+	1    8950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 647768A2
+P 9850 5500
+F 0 "#PWR?" H 9850 5250 50  0001 C CNN
+F 1 "GND" H 9800 5350 50  0000 C CNN
+F 2 "" H 9850 5500 50  0001 C CNN
+F 3 "" H 9850 5500 50  0001 C CNN
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6485E2C8
+P 4350 3800
+F 0 "#PWR?" H 4350 3550 50  0001 C CNN
+F 1 "GND" H 4355 3627 50  0000 C CNN
+F 2 "" H 4350 3800 50  0001 C CNN
+F 3 "" H 4350 3800 50  0001 C CNN
+	1    4350 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3800 4450 3800
+Wire Wire Line
+	4450 3800 4450 4050
+$Comp
+L power:GND #PWR?
+U 1 1 6488B571
+P 3450 3800
+F 0 "#PWR?" H 3450 3550 50  0001 C CNN
+F 1 "GND" H 3455 3627 50  0000 C CNN
+F 2 "" H 3450 3800 50  0001 C CNN
+F 3 "" H 3450 3800 50  0001 C CNN
+	1    3450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3800 3550 3800
+Wire Wire Line
+	3550 3800 3550 4050
+$Comp
+L power:GND #PWR?
+U 1 1 64898089
+P 5250 3800
+F 0 "#PWR?" H 5250 3550 50  0001 C CNN
+F 1 "GND" H 5255 3627 50  0000 C CNN
+F 2 "" H 5250 3800 50  0001 C CNN
+F 3 "" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3800 5350 3800
+Wire Wire Line
+	5350 3800 5350 4050
+$Comp
+L power:GND #PWR?
+U 1 1 648AC577
+P 6150 3800
+F 0 "#PWR?" H 6150 3550 50  0001 C CNN
+F 1 "GND" H 6155 3627 50  0000 C CNN
+F 2 "" H 6150 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0001 C CNN
+	1    6150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3800 6250 3800
+Wire Wire Line
+	6250 3800 6250 4050
+$Comp
+L power:GND #PWR?
+U 1 1 648B9B1A
+P 7050 3800
+F 0 "#PWR?" H 7050 3550 50  0001 C CNN
+F 1 "GND" H 7055 3627 50  0000 C CNN
+F 2 "" H 7050 3800 50  0001 C CNN
+F 3 "" H 7050 3800 50  0001 C CNN
+	1    7050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3800 7150 3800
+Wire Wire Line
+	7150 3800 7150 4050
+$Comp
+L power:GND #PWR?
+U 1 1 648D1100
+P 7950 3800
+F 0 "#PWR?" H 7950 3550 50  0001 C CNN
+F 1 "GND" H 7955 3627 50  0000 C CNN
+F 2 "" H 7950 3800 50  0001 C CNN
+F 3 "" H 7950 3800 50  0001 C CNN
+	1    7950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3800 8050 3800
+Wire Wire Line
+	8050 3800 8050 4050
+$Comp
+L power:GND #PWR?
+U 1 1 648DEE14
+P 8850 3800
+F 0 "#PWR?" H 8850 3550 50  0001 C CNN
+F 1 "GND" H 8855 3627 50  0000 C CNN
+F 2 "" H 8850 3800 50  0001 C CNN
+F 3 "" H 8850 3800 50  0001 C CNN
+	1    8850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3800 8950 3800
+Wire Wire Line
+	8950 3800 8950 4050
+$Comp
+L power:GND #PWR?
+U 1 1 648F57E6
+P 9750 3800
+F 0 "#PWR?" H 9750 3550 50  0001 C CNN
+F 1 "GND" H 9755 3627 50  0000 C CNN
+F 2 "" H 9750 3800 50  0001 C CNN
+F 3 "" H 9750 3800 50  0001 C CNN
+	1    9750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3800 9850 3800
+Wire Wire Line
+	9850 3800 9850 4050
+$Comp
+L power:GND #PWR?
+U 1 1 649371F3
+P 3450 10200
+F 0 "#PWR?" H 3450 9950 50  0001 C CNN
+F 1 "GND" H 3455 10027 50  0000 C CNN
+F 2 "" H 3450 10200 50  0001 C CNN
+F 3 "" H 3450 10200 50  0001 C CNN
+	1    3450 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 10200 3550 10200
+Wire Wire Line
+	3550 10200 3550 10450
+$Comp
+L power:GND #PWR?
+U 1 1 64945C00
+P 4350 10200
+F 0 "#PWR?" H 4350 9950 50  0001 C CNN
+F 1 "GND" H 4355 10027 50  0000 C CNN
+F 2 "" H 4350 10200 50  0001 C CNN
+F 3 "" H 4350 10200 50  0001 C CNN
+	1    4350 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 10200 4450 10200
+Wire Wire Line
+	4450 10200 4450 10450
+$Comp
+L power:GND #PWR?
+U 1 1 64954B76
+P 5250 10200
+F 0 "#PWR?" H 5250 9950 50  0001 C CNN
+F 1 "GND" H 5255 10027 50  0000 C CNN
+F 2 "" H 5250 10200 50  0001 C CNN
+F 3 "" H 5250 10200 50  0001 C CNN
+	1    5250 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 10200 5350 10200
+Wire Wire Line
+	5350 10200 5350 10450
+$Comp
+L power:GND #PWR?
+U 1 1 6496B516
+P 6150 10200
+F 0 "#PWR?" H 6150 9950 50  0001 C CNN
+F 1 "GND" H 6155 10027 50  0000 C CNN
+F 2 "" H 6150 10200 50  0001 C CNN
+F 3 "" H 6150 10200 50  0001 C CNN
+	1    6150 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 10200 6250 10200
+Wire Wire Line
+	6250 10200 6250 10450
+$Comp
+L power:GND #PWR?
+U 1 1 6497AD92
+P 7050 10200
+F 0 "#PWR?" H 7050 9950 50  0001 C CNN
+F 1 "GND" H 7055 10027 50  0000 C CNN
+F 2 "" H 7050 10200 50  0001 C CNN
+F 3 "" H 7050 10200 50  0001 C CNN
+	1    7050 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 10200 7150 10200
+Wire Wire Line
+	7150 10200 7150 10450
+$Comp
+L power:GND #PWR?
+U 1 1 6499925C
+P 8850 10200
+F 0 "#PWR?" H 8850 9950 50  0001 C CNN
+F 1 "GND" H 8855 10027 50  0000 C CNN
+F 2 "" H 8850 10200 50  0001 C CNN
+F 3 "" H 8850 10200 50  0001 C CNN
+	1    8850 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 10200 8950 10200
+Wire Wire Line
+	8950 10200 8950 10450
+$Comp
+L power:GND #PWR?
+U 1 1 649AA72E
+P 9750 10200
+F 0 "#PWR?" H 9750 9950 50  0001 C CNN
+F 1 "GND" H 9755 10027 50  0000 C CNN
+F 2 "" H 9750 10200 50  0001 C CNN
+F 3 "" H 9750 10200 50  0001 C CNN
+	1    9750 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 10200 9850 10200
+Wire Wire Line
+	9850 10200 9850 10450
+$Comp
+L power:GND #PWR?
+U 1 1 649C83BB
+P 7950 10200
+F 0 "#PWR?" H 7950 9950 50  0001 C CNN
+F 1 "GND" H 7955 10027 50  0000 C CNN
+F 2 "" H 7950 10200 50  0001 C CNN
+F 3 "" H 7950 10200 50  0001 C CNN
+	1    7950 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 10200 8050 10200
+Wire Wire Line
+	8050 10200 8050 10450
+$Comp
+L power:GND #PWR?
+U 1 1 64702EDD
+P 3550 5500
+F 0 "#PWR?" H 3550 5250 50  0001 C CNN
+F 1 "GND" H 3500 5350 50  0000 C CNN
+F 2 "" H 3550 5500 50  0001 C CNN
+F 3 "" H 3550 5500 50  0001 C CNN
+	1    3550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 64ACAE33
+P 3650 10300
+F 0 "F?" V 3700 10500 50  0000 L CNN
+F 1 "Polyfuse" V 3600 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3700 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 3650 10300 50  0001 C CNN
+F 4 "Kemet" H 3650 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 3650 10300 50  0001 C CNN "Model"
+	1    3650 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 653240C7
+P 4550 10300
+F 0 "F?" V 4600 10500 50  0000 L CNN
+F 1 "Polyfuse" V 4500 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4600 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4550 10300 50  0001 C CNN
+F 4 "Kemet" H 4550 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 4550 10300 50  0001 C CNN "Model"
+	1    4550 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65334CB1
+P 5450 10300
+F 0 "F?" V 5500 10500 50  0000 L CNN
+F 1 "Polyfuse" V 5400 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5500 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5450 10300 50  0001 C CNN
+F 4 "Kemet" H 5450 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 5450 10300 50  0001 C CNN "Model"
+	1    5450 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6534E3AE
+P 6350 10300
+F 0 "F?" V 6400 10500 50  0000 L CNN
+F 1 "Polyfuse" V 6300 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6400 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6350 10300 50  0001 C CNN
+F 4 "Kemet" H 6350 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 6350 10300 50  0001 C CNN "Model"
+	1    6350 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6535EEF4
+P 7250 10300
+F 0 "F?" V 7300 10500 50  0000 L CNN
+F 1 "Polyfuse" V 7200 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7300 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7250 10300 50  0001 C CNN
+F 4 "Kemet" H 7250 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 7250 10300 50  0001 C CNN "Model"
+	1    7250 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6536FAD0
+P 8150 10300
+F 0 "F?" V 8200 10500 50  0000 L CNN
+F 1 "Polyfuse" V 8100 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8200 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8150 10300 50  0001 C CNN
+F 4 "Kemet" H 8150 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 8150 10300 50  0001 C CNN "Model"
+	1    8150 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6538DF20
+P 9050 10300
+F 0 "F?" V 9100 10500 50  0000 L CNN
+F 1 "Polyfuse" V 9000 10450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9100 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9050 10300 50  0001 C CNN
+F 4 "Kemet" H 9050 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9050 10300 50  0001 C CNN "Model"
+	1    9050 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 653A7491
+P 9950 10300
+F 0 "F?" V 10000 10450 50  0000 L CNN
+F 1 "Polyfuse" H 9700 10600 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10000 10100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9950 10300 50  0001 C CNN
+F 4 "Kemet" H 9950 10300 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9950 10300 50  0001 C CNN "Model"
+	1    9950 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 653F77DF
+P 4550 3900
+F 0 "F?" V 4600 4100 50  0000 L CNN
+F 1 "Polyfuse" V 4500 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4600 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4550 3900 50  0001 C CNN
+F 4 "Kemet" H 4550 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 4550 3900 50  0001 C CNN "Model"
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 654083A8
+P 5450 3900
+F 0 "F?" V 5500 4100 50  0000 L CNN
+F 1 "Polyfuse" V 5400 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5500 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5450 3900 50  0001 C CNN
+F 4 "Kemet" H 5450 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 5450 3900 50  0001 C CNN "Model"
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6541CBF4
+P 6350 3900
+F 0 "F?" V 6400 4100 50  0000 L CNN
+F 1 "Polyfuse" V 6300 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6400 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6350 3900 50  0001 C CNN
+F 4 "Kemet" H 6350 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 6350 3900 50  0001 C CNN "Model"
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 654326CB
+P 7250 3900
+F 0 "F?" V 7300 4100 50  0000 L CNN
+F 1 "Polyfuse" V 7200 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7300 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7250 3900 50  0001 C CNN
+F 4 "Kemet" H 7250 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 7250 3900 50  0001 C CNN "Model"
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 654432CD
+P 8150 3900
+F 0 "F?" V 8200 4100 50  0000 L CNN
+F 1 "Polyfuse" V 8100 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8200 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8150 3900 50  0001 C CNN
+F 4 "Kemet" H 8150 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 8150 3900 50  0001 C CNN "Model"
+	1    8150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6545C7E8
+P 9050 3900
+F 0 "F?" V 9100 4100 50  0000 L CNN
+F 1 "Polyfuse" H 8900 4250 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9100 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9050 3900 50  0001 C CNN
+F 4 "Kemet" H 9050 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9050 3900 50  0001 C CNN "Model"
+	1    9050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6546D47A
+P 9950 3900
+F 0 "F?" V 10000 4100 50  0000 L CNN
+F 1 "Polyfuse" H 9750 4250 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10000 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9950 3900 50  0001 C CNN
+F 4 "Kemet" H 9950 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9950 3900 50  0001 C CNN "Model"
+	1    9950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64670106
+P 8950 11900
+F 0 "#PWR?" H 8950 11650 50  0001 C CNN
+F 1 "GND" H 8900 11750 50  0000 C CNN
+F 2 "" H 8950 11900 50  0001 C CNN
+F 3 "" H 8950 11900 50  0001 C CNN
+	1    8950 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6464A871
+P 9850 11900
+F 0 "#PWR?" H 9850 11650 50  0001 C CNN
+F 1 "GND" H 9800 11750 50  0000 C CNN
+F 2 "" H 9850 11900 50  0001 C CNN
+F 3 "" H 9850 11900 50  0001 C CNN
+	1    9850 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 655C694A
+P 9950 12050
+F 0 "F?" V 10000 12250 50  0000 L CNN
+F 1 "Polyfuse" H 9800 12400 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10000 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9950 12050 50  0001 C CNN
+F 4 "Kemet" H 9950 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9950 12050 50  0001 C CNN "Model"
+	1    9950 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 656641D5
+P 9050 12050
+F 0 "F?" V 9100 12250 50  0000 L CNN
+F 1 "Polyfuse" H 8900 12400 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9100 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9050 12050 50  0001 C CNN
+F 4 "Kemet" H 9050 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9050 12050 50  0001 C CNN "Model"
+	1    9050 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 656FD564
+P 8150 12050
+F 0 "F?" V 8200 12250 50  0000 L CNN
+F 1 "Polyfuse" V 8100 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8200 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8150 12050 50  0001 C CNN
+F 4 "Kemet" H 8150 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 8150 12050 50  0001 C CNN "Model"
+	1    8150 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65716CAE
+P 7250 12050
+F 0 "F?" V 7300 12250 50  0000 L CNN
+F 1 "Polyfuse" V 7200 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7300 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7250 12050 50  0001 C CNN
+F 4 "Kemet" H 7250 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 7250 12050 50  0001 C CNN "Model"
+	1    7250 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65727955
+P 6350 12050
+F 0 "F?" V 6400 12250 50  0000 L CNN
+F 1 "Polyfuse" V 6300 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6400 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6350 12050 50  0001 C CNN
+F 4 "Kemet" H 6350 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 6350 12050 50  0001 C CNN "Model"
+	1    6350 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65751D95
+P 5450 12050
+F 0 "F?" V 5500 12250 50  0000 L CNN
+F 1 "Polyfuse" V 5400 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5500 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5450 12050 50  0001 C CNN
+F 4 "Kemet" H 5450 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 5450 12050 50  0001 C CNN "Model"
+	1    5450 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 657629F6
+P 4550 12050
+F 0 "F?" V 4600 12250 50  0000 L CNN
+F 1 "Polyfuse" V 4500 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4600 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4550 12050 50  0001 C CNN
+F 4 "Kemet" H 4550 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 4550 12050 50  0001 C CNN "Model"
+	1    4550 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6577AE5E
+P 3650 12050
+F 0 "F?" V 3700 12250 50  0000 L CNN
+F 1 "Polyfuse" V 3600 12200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3700 11850 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 3650 12050 50  0001 C CNN
+F 4 "Kemet" H 3650 12050 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 3650 12050 50  0001 C CNN "Model"
+	1    3650 12050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 657F7656
+P 3650 5650
+F 0 "F?" V 3700 5850 50  0000 L CNN
+F 1 "Polyfuse" V 3600 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3700 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 3650 5650 50  0001 C CNN
+F 4 "Kemet" H 3650 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 3650 5650 50  0001 C CNN "Model"
+	1    3650 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6580F5D3
+P 4550 5650
+F 0 "F?" V 4600 5850 50  0000 L CNN
+F 1 "Polyfuse" V 4500 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4600 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4550 5650 50  0001 C CNN
+F 4 "Kemet" H 4550 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 4550 5650 50  0001 C CNN "Model"
+	1    4550 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65823B11
+P 5450 5650
+F 0 "F?" V 5500 5850 50  0000 L CNN
+F 1 "Polyfuse" V 5400 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5500 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5450 5650 50  0001 C CNN
+F 4 "Kemet" H 5450 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 5450 5650 50  0001 C CNN "Model"
+	1    5450 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 658345AF
+P 6350 5650
+F 0 "F?" V 6400 5850 50  0000 L CNN
+F 1 "Polyfuse" V 6300 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6400 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6350 5650 50  0001 C CNN
+F 4 "Kemet" H 6350 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 6350 5650 50  0001 C CNN "Model"
+	1    6350 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6585409D
+P 7250 5650
+F 0 "F?" V 7300 5850 50  0000 L CNN
+F 1 "Polyfuse" V 7200 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7300 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7250 5650 50  0001 C CNN
+F 4 "Kemet" H 7250 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 7250 5650 50  0001 C CNN "Model"
+	1    7250 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65864DE6
+P 8150 5650
+F 0 "F?" V 8200 5850 50  0000 L CNN
+F 1 "Polyfuse" V 8100 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8200 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8150 5650 50  0001 C CNN
+F 4 "Kemet" H 8150 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 8150 5650 50  0001 C CNN "Model"
+	1    8150 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65882076
+P 9050 5650
+F 0 "F?" V 9100 5850 50  0000 L CNN
+F 1 "Polyfuse" V 9000 5800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9100 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9050 5650 50  0001 C CNN
+F 4 "Kemet" H 9050 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9050 5650 50  0001 C CNN "Model"
+	1    9050 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 65892AB9
+P 9950 5650
+F 0 "F?" V 10000 5850 50  0000 L CNN
+F 1 "Polyfuse" H 9750 6050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10000 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9950 5650 50  0001 C CNN
+F 4 "Kemet" H 9950 5650 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 9950 5650 50  0001 C CNN "Model"
+	1    9950 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 653E6C78
+P 3650 3900
+F 0 "F?" V 3700 4100 50  0000 L CNN
+F 1 "Polyfuse" V 3600 4050 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3700 3700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 3650 3900 50  0001 C CNN
+F 4 "Kemet" H 3650 3900 50  0001 C CNN "Manufacturer"
+F 5 "C333C105K5R5TA" H 3650 3900 50  0001 C CNN "Model"
+	1    3650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3750 9050 3750
+Connection ~ 4550 3750
+Wire Wire Line
+	4550 3750 3650 3750
+Connection ~ 5450 3750
+Wire Wire Line
+	5450 3750 4550 3750
+Connection ~ 6350 3750
+Wire Wire Line
+	6350 3750 5450 3750
+Connection ~ 7250 3750
+Wire Wire Line
+	7250 3750 6350 3750
+Connection ~ 8150 3750
+Wire Wire Line
+	8150 3750 7250 3750
+Connection ~ 9050 3750
+Wire Wire Line
+	9050 3750 8150 3750
+Wire Wire Line
+	9950 5800 9050 5800
+Connection ~ 4550 5800
+Wire Wire Line
+	4550 5800 3650 5800
+Connection ~ 5450 5800
+Wire Wire Line
+	5450 5800 4550 5800
+Connection ~ 6350 5800
+Wire Wire Line
+	6350 5800 5450 5800
+Connection ~ 7250 5800
+Wire Wire Line
+	7250 5800 6350 5800
+Connection ~ 8150 5800
+Wire Wire Line
+	8150 5800 7250 5800
+Connection ~ 9050 5800
+Wire Wire Line
+	9050 5800 8150 5800
+Wire Wire Line
+	3650 3750 3350 3750
+Wire Wire Line
+	3350 5800 3650 5800
+Connection ~ 3650 3750
+Connection ~ 3650 5800
+Wire Wire Line
+	9950 10150 9050 10150
+Connection ~ 4550 10150
+Wire Wire Line
+	4550 10150 3650 10150
+Connection ~ 5450 10150
+Wire Wire Line
+	5450 10150 4550 10150
+Connection ~ 6350 10150
+Wire Wire Line
+	6350 10150 5450 10150
+Connection ~ 7250 10150
+Wire Wire Line
+	7250 10150 6350 10150
+Connection ~ 8150 10150
+Wire Wire Line
+	8150 10150 7250 10150
+Connection ~ 9050 10150
+Wire Wire Line
+	9050 10150 8150 10150
+Wire Wire Line
+	9950 12200 9050 12200
+Connection ~ 4550 12200
+Wire Wire Line
+	4550 12200 3650 12200
+Connection ~ 5450 12200
+Wire Wire Line
+	5450 12200 4550 12200
+Connection ~ 6350 12200
+Wire Wire Line
+	6350 12200 5450 12200
+Connection ~ 7250 12200
+Wire Wire Line
+	7250 12200 6350 12200
+Connection ~ 8150 12200
+Wire Wire Line
+	8150 12200 7250 12200
+Connection ~ 9050 12200
+Wire Wire Line
+	9050 12200 8150 12200
+Wire Wire Line
+	3650 10150 3350 10150
+Wire Wire Line
+	3350 12200 3650 12200
+Connection ~ 3650 10150
+Connection ~ 3650 12200
+$Comp
+L power:VCC #PWR?
+U 1 1 66082B49
+P 3350 4750
+F 0 "#PWR?" H 3350 4600 50  0001 C CNN
+F 1 "VCC" H 3367 4923 50  0000 C CNN
+F 2 "" H 3350 4750 50  0001 C CNN
+F 3 "" H 3350 4750 50  0001 C CNN
+	1    3350 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 660B3EC4
+P 3350 11200
+F 0 "#PWR?" H 3350 11050 50  0001 C CNN
+F 1 "VCC" H 3367 11373 50  0000 C CNN
+F 2 "" H 3350 11200 50  0001 C CNN
+F 3 "" H 3350 11200 50  0001 C CNN
+	1    3350 11200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 10150 3350 11200
+Connection ~ 3350 11200
+Wire Wire Line
+	3350 11200 3350 12200
+Wire Wire Line
+	3350 3750 3350 4750
+Connection ~ 3350 4750
+Wire Wire Line
+	3350 4750 3350 5800
+Text Label 12250 8850 3    50   ~ 0
+A4
+Text Label 12650 9050 0    50   ~ 0
+A8
+Text Label 12450 8950 0    50   ~ 0
+A6
+Text Label 12050 8750 3    50   ~ 0
+A2
+Text Label 11950 8700 2    50   ~ 0
+A1
+Text Label 12350 8700 3    50   ~ 0
+A5
+Text Label 12950 9150 0    50   ~ 0
+B2
+Text Label 13150 9250 0    50   ~ 0
+B4
+Text Label 13350 9350 0    50   ~ 0
+B6
+Text Label 13550 9450 0    50   ~ 0
+B8
+Text Label 13850 9550 0    50   ~ 0
+C2
+Text Label 14050 9650 0    50   ~ 0
+C4
+Text Label 14250 9750 0    50   ~ 0
+C6
+Text Label 14450 9850 0    50   ~ 0
+C8
+Text Label 14750 9950 0    50   ~ 0
+D2
+Text Label 14950 10050 0    50   ~ 0
+D4
+Text Label 15150 10150 0    50   ~ 0
+D6
+Text Label 15350 10250 0    50   ~ 0
+D8
+Text Label 12850 8700 3    50   ~ 0
+B1
+Text Label 13250 8700 3    50   ~ 0
+B5
+Text Label 13750 8700 3    50   ~ 0
+C1
+Text Label 14150 8700 3    50   ~ 0
+C5
+Text Label 14650 8700 3    50   ~ 0
+D1
+Text Label 15050 8700 3    50   ~ 0
+D5
+Text Label 15550 8700 3    50   ~ 0
+E1
+Text Label 15950 8700 3    50   ~ 0
+E5
+Text Label 16450 8700 3    50   ~ 0
+F1
+Text Label 16850 8700 3    50   ~ 0
+F5
+Text Label 17350 8700 3    50   ~ 0
+G1
+Text Label 17750 8700 3    50   ~ 0
+G5
+Text Label 18250 8700 3    50   ~ 0
+H1
+Text Label 18650 8700 3    50   ~ 0
+H5
+Text Label 15650 12050 0    50   ~ 0
+E2
+Text Label 15850 12150 0    50   ~ 0
+E4
+Text Label 16050 12250 0    50   ~ 0
+E6
+Text Label 16250 12350 0    50   ~ 0
+E8
+Text Label 16550 12450 0    50   ~ 0
+F2
+Text Label 16750 12550 0    50   ~ 0
+F4
+Text Label 16950 12650 0    50   ~ 0
+F6
+Text Label 17150 12750 0    50   ~ 0
+F8
+Text Label 17450 12850 0    50   ~ 0
+G2
+Text Label 17650 12950 0    50   ~ 0
+G4
+Text Label 17850 13050 0    50   ~ 0
+G6
+Text Label 18050 13150 0    50   ~ 0
+G8
+Text Label 18350 13200 0    50   ~ 0
+H2
+Text Label 18550 13350 0    50   ~ 0
+H4
+Text Label 18750 13450 0    50   ~ 0
+H6
+Text Label 18950 13550 0    50   ~ 0
+H8
+Text Label 11950 7250 2    50   ~ 0
+I1
+Text Label 12050 7200 0    50   ~ 0
+I2
+Text Label 12250 7100 0    50   ~ 0
+I4
+Text Label 12450 7000 0    50   ~ 0
+I6
+Text Label 12650 6900 0    50   ~ 0
+I8
+Text Label 12950 6800 0    50   ~ 0
+J2
+Text Label 13150 6700 0    50   ~ 0
+J4
+Text Label 13350 6600 0    50   ~ 0
+J6
+Text Label 13550 6500 0    50   ~ 0
+J8
+Text Label 13850 6400 0    50   ~ 0
+K2
+Text Label 14050 6300 0    50   ~ 0
+K4
+Text Label 14250 6200 0    50   ~ 0
+K6
+Text Label 14450 6100 0    50   ~ 0
+K8
+Text Label 14750 6000 0    50   ~ 0
+L2
+Text Label 14950 5900 0    50   ~ 0
+L4
+Text Label 15150 5800 0    50   ~ 0
+L6
+Text Label 15350 5700 0    50   ~ 0
+L8
+Text Label 15650 3900 0    50   ~ 0
+M2
+Text Label 15850 3800 0    50   ~ 0
+M4
+Text Label 16050 3700 0    50   ~ 0
+M6
+Text Label 16250 3600 0    50   ~ 0
+M8
+Text Label 16550 3500 0    50   ~ 0
+N2
+Text Label 16750 3400 0    50   ~ 0
+N4
+Text Label 16950 3300 0    50   ~ 0
+N6
+Text Label 17150 3200 0    50   ~ 0
+N8
+Text Label 17450 3100 0    50   ~ 0
+O2
+Text Label 17650 3000 0    50   ~ 0
+O4
+Text Label 17850 2900 0    50   ~ 0
+O6
+Text Label 18050 2800 0    50   ~ 0
+O8
+Text Label 18350 2700 0    50   ~ 0
+P2
+Text Label 18550 2600 0    50   ~ 0
+P4
+Text Label 18750 2500 0    50   ~ 0
+P6
+Text Label 18950 2400 0    50   ~ 0
+P8
+Text Label 12350 7250 1    50   ~ 0
+I5
+Text Label 12850 7250 1    50   ~ 0
+J1
+Text Label 13250 7250 1    50   ~ 0
+J5
+Text Label 13750 7250 1    50   ~ 0
+K1
+Text Label 14150 7250 1    50   ~ 0
+K5
+Text Label 14650 7250 1    50   ~ 0
+L1
+Text Label 15050 7250 1    50   ~ 0
+L5
+Text Label 15550 7250 1    50   ~ 0
+M1
+Text Label 15950 7250 1    50   ~ 0
+M5
+Text Label 16450 7250 1    50   ~ 0
+N1
+Text Label 16850 7250 1    50   ~ 0
+N5
+Text Label 17350 7250 1    50   ~ 0
+O1
+Text Label 17750 7250 1    50   ~ 0
+O5
+Text Label 18250 7250 1    50   ~ 0
+P1
+Text Label 18650 7250 1    50   ~ 0
+P5
+Text Label 10450 10450 1    50   ~ 0
+A1
+Text Label 10350 10450 1    50   ~ 0
+A2
+Text Label 10250 10450 1    50   ~ 0
+A4
+Text Label 9550 10450 1    50   ~ 0
+A5
+Text Label 9450 10450 1    50   ~ 0
+A6
+Text Label 9350 10450 1    50   ~ 0
+A8
+Text Label 8650 10450 1    50   ~ 0
+B1
+Text Label 8550 10450 1    50   ~ 0
+B2
+Text Label 8450 10450 1    50   ~ 0
+B4
+Text Label 7750 10450 1    50   ~ 0
+B5
+Text Label 7650 10450 1    50   ~ 0
+B6
+Text Label 7550 10450 1    50   ~ 0
+B8
+Text Label 6850 10450 1    50   ~ 0
+C1
+Text Label 6750 10450 1    50   ~ 0
+C2
+Text Label 6650 10450 1    50   ~ 0
+C4
+Text Label 5950 10450 1    50   ~ 0
+C5
+Text Label 5850 10450 1    50   ~ 0
+C6
+Text Label 5750 10450 1    50   ~ 0
+C8
+Text Label 5050 10450 1    50   ~ 0
+D1
+Text Label 4950 10450 1    50   ~ 0
+D2
+Text Label 4850 10450 1    50   ~ 0
+D4
+Text Label 4150 10450 1    50   ~ 0
+D5
+Text Label 4050 10450 1    50   ~ 0
+D6
+Text Label 3950 10450 1    50   ~ 0
+D8
+Text Label 10450 11900 3    50   ~ 0
+E1
+Text Label 10350 11900 3    50   ~ 0
+E2
+Text Label 10250 11900 3    50   ~ 0
+E4
+Text Label 9550 11900 3    50   ~ 0
+E5
+Text Label 9450 11900 3    50   ~ 0
+E6
+Text Label 9350 11900 3    50   ~ 0
+E8
+Text Label 8650 11900 3    50   ~ 0
+F1
+Text Label 8550 11900 3    50   ~ 0
+F2
+Text Label 8450 11900 3    50   ~ 0
+F4
+Text Label 7750 11900 3    50   ~ 0
+F5
+Text Label 7650 11900 3    50   ~ 0
+F6
+Text Label 7550 11900 3    50   ~ 0
+F8
+Text Label 6850 11900 3    50   ~ 0
+G1
+Text Label 6750 11900 3    50   ~ 0
+G2
+Text Label 6650 11900 3    50   ~ 0
+G4
+Text Label 5950 11900 3    50   ~ 0
+G5
+Text Label 5850 11900 3    50   ~ 0
+G6
+Text Label 5750 11900 3    50   ~ 0
+G8
+Text Label 5050 11900 3    50   ~ 0
+H1
+Text Label 4950 11900 3    50   ~ 0
+H2
+Text Label 4850 11900 3    50   ~ 0
+H4
+Text Label 4150 11900 3    50   ~ 0
+H5
+Text Label 4050 11900 3    50   ~ 0
+H6
+Text Label 3950 11900 3    50   ~ 0
+H8
+Text Label 10450 5500 3    50   ~ 0
+I1
+Text Label 10350 5500 3    50   ~ 0
+I2
+Text Label 10250 5500 3    50   ~ 0
+I4
+Text Label 9550 5500 3    50   ~ 0
+I5
+Text Label 9450 5500 3    50   ~ 0
+I6
+Text Label 9350 5500 3    50   ~ 0
+I8
+Text Label 8650 5500 3    50   ~ 0
+J1
+Text Label 8550 5500 3    50   ~ 0
+J2
+Text Label 8450 5500 3    50   ~ 0
+J4
+Text Label 7750 5500 3    50   ~ 0
+J5
+Text Label 7650 5500 3    50   ~ 0
+J6
+Text Label 7550 5500 3    50   ~ 0
+J8
+Text Label 6850 5500 3    50   ~ 0
+K1
+Text Label 6750 5500 3    50   ~ 0
+K2
+Text Label 6650 5500 3    50   ~ 0
+K4
+Text Label 5950 5500 3    50   ~ 0
+K5
+Text Label 5850 5500 3    50   ~ 0
+K6
+Text Label 5750 5500 3    50   ~ 0
+K8
+Text Label 5050 5500 3    50   ~ 0
+L1
+Text Label 4950 5500 3    50   ~ 0
+L2
+Text Label 4850 5500 3    50   ~ 0
+L4
+Text Label 4150 5500 3    50   ~ 0
+L5
+Text Label 4050 5500 3    50   ~ 0
+L6
+Text Label 3950 5500 3    50   ~ 0
+L8
+Text Label 10450 4050 1    50   ~ 0
+M1
+Text Label 10350 4050 1    50   ~ 0
+M2
+Text Label 10250 4050 1    50   ~ 0
+M4
+Text Label 9550 4050 1    50   ~ 0
+M5
+Text Label 9450 4050 1    50   ~ 0
+M6
+Text Label 9350 4050 1    50   ~ 0
+M8
+Text Label 8650 4050 1    50   ~ 0
+N1
+Text Label 8550 4050 1    50   ~ 0
+N2
+Text Label 8450 4050 1    50   ~ 0
+N4
+Text Label 7750 4050 1    50   ~ 0
+N5
+Text Label 7650 4050 1    50   ~ 0
+N6
+Text Label 7550 4050 1    50   ~ 0
+N8
+Text Label 6850 4050 1    50   ~ 0
+O1
+Text Label 6750 4050 1    50   ~ 0
+O2
+Text Label 6650 4050 1    50   ~ 0
+O4
+Text Label 5950 4050 1    50   ~ 0
+O5
+Text Label 5850 4050 1    50   ~ 0
+O6
+Text Label 5750 4050 1    50   ~ 0
+O8
+Text Label 5050 4050 1    50   ~ 0
+P1
+Text Label 4950 4050 1    50   ~ 0
+P2
+Text Label 4850 4050 1    50   ~ 0
+P4
+Text Label 4150 4050 1    50   ~ 0
+P5
+Text Label 4050 4050 1    50   ~ 0
+P6
+Text Label 3950 4050 1    50   ~ 0
+P8
+$Comp
+L BoatControl:TBP01R2W-508-16BE J?
+U 1 1 68A60354
+P 2950 2650
+F 0 "J?" H 2843 3899 50  0000 C CNN
+F 1 "TBP01R2W-508-16BE" H 2843 3808 50  0000 C CNN
+F 2 "CUI_TBP01R2W-508-16BE" H 2950 2650 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 2950 2650 50  0001 L BNN
+F 4 "CUI Devices" H 2950 2650 50  0001 L BNN "Manufacturer"
+F 5 "102-6466-ND" H 2843 3717 50  0000 C CNN "DigiKey Part Number"
+F 6 "490-TBP01R2W-50816BE" H 2843 3626 50  0000 C CNN "Mouser Part Number"
+	1    2950 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BoatControl:TBP01R2W-508-16BE J?
+U 1 1 68B969C5
+P 2950 9100
+F 0 "J?" H 3700 9150 50  0000 C CNN
+F 1 "TBP01R2W-508-16BE" H 3650 9050 50  0000 C CNN
+F 2 "CUI_TBP01R2W-508-16BE" H 2950 9100 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 2950 9100 50  0001 L BNN
+F 4 "CUI Devices" H 2950 9100 50  0001 L BNN "Manufacturer"
+F 5 "102-6466-ND" H 2843 10167 50  0000 C CNN "DigiKey Part Number"
+F 6 "490-TBP01R2W-50816BE" H 2843 10076 50  0000 C CNN "Mouser Part Number"
+	1    2950 9100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BoatControl:TBP01R2W-508-16BE J?
+U 1 1 68C6F4C2
+P 2950 13300
+F 0 "J?" H 2843 14549 50  0000 C CNN
+F 1 "TBP01R2W-508-16BE" H 2843 14458 50  0000 C CNN
+F 2 "CUI_TBP01R2W-508-16BE" H 2950 13300 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 2950 13300 50  0001 L BNN
+F 4 "CUI Devices" H 2950 13300 50  0001 L BNN "Manufacturer"
+F 5 "102-6466-ND" H 2843 14367 50  0000 C CNN "DigiKey Part Number"
+F 6 "490-TBP01R2W-50816BE" H 2843 14276 50  0000 C CNN "Mouser Part Number"
+	1    2950 13300
+	-1   0    0    1   
+$EndComp
+$Comp
+L BoatControl:TBP01R2W-508-16BE J?
+U 1 1 68D9C216
+P 2950 6950
+F 0 "J?" H 3650 6900 50  0000 C CNN
+F 1 "TBP01R2W-508-16BE" H 3650 7000 50  0000 C CNN
+F 2 "CUI_TBP01R2W-508-16BE" H 2950 6950 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 2950 6950 50  0001 L BNN
+F 4 "CUI Devices" H 2950 6950 50  0001 L BNN "Manufacturer"
+F 5 "102-6466-ND" H 2843 8017 50  0000 C CNN "DigiKey Part Number"
+F 6 "490-TBP01R2W-50816BE" H 2843 7926 50  0000 C CNN "Mouser Part Number"
+	1    2950 6950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9800 3750 9800
+Wire Wire Line
+	3750 9800 3750 10450
+Wire Wire Line
+	3350 9700 3850 9700
+Wire Wire Line
+	3850 9700 3850 10450
+Wire Wire Line
+	3350 9600 4650 9600
+Wire Wire Line
+	4650 9600 4650 10450
+Wire Wire Line
+	4750 9500 4750 10450
+Wire Wire Line
+	3350 9500 4750 9500
+Wire Wire Line
+	3350 9400 5550 9400
+Wire Wire Line
+	5550 9400 5550 10450
+Wire Wire Line
+	3350 9300 5650 9300
+Wire Wire Line
+	5650 9300 5650 10450
+Wire Wire Line
+	6450 9200 6450 10450
+Wire Wire Line
+	3350 9100 6550 9100
+Wire Wire Line
+	6550 9100 6550 10450
+Wire Wire Line
+	3350 9200 6450 9200
+Wire Wire Line
+	3350 9000 7350 9000
+Wire Wire Line
+	7350 9000 7350 10450
+Wire Wire Line
+	3350 8900 7450 8900
+Wire Wire Line
+	7450 8900 7450 10450
+Wire Wire Line
+	3350 8800 8250 8800
+Wire Wire Line
+	8250 8800 8250 10450
+Wire Wire Line
+	3350 8700 8350 8700
+Wire Wire Line
+	8350 8700 8350 10450
+Wire Wire Line
+	3350 8600 9150 8600
+Wire Wire Line
+	9150 8600 9150 10450
+Wire Wire Line
+	3350 8500 9250 8500
+Wire Wire Line
+	9250 8500 9250 10450
+Wire Wire Line
+	3350 8400 10050 8400
+Wire Wire Line
+	10050 8400 10050 10450
+Wire Wire Line
+	3350 8300 10150 8300
+Wire Wire Line
+	10150 8300 10150 10450
+Wire Wire Line
+	3350 6150 3750 6150
+Wire Wire Line
+	3750 6150 3750 5500
+Wire Wire Line
+	3350 6250 3850 6250
+Wire Wire Line
+	3850 6250 3850 5500
+Wire Wire Line
+	3350 6350 4650 6350
+Wire Wire Line
+	4650 6350 4650 5500
+Wire Wire Line
+	3350 6450 4750 6450
+Wire Wire Line
+	4750 6450 4750 5500
+Wire Wire Line
+	3350 6550 5550 6550
+Wire Wire Line
+	5550 6550 5550 5500
+Wire Wire Line
+	3350 6650 5650 6650
+Wire Wire Line
+	5650 6650 5650 5500
+Wire Wire Line
+	3350 6750 6450 6750
+Wire Wire Line
+	6450 6750 6450 5500
+Wire Wire Line
+	3350 6850 6550 6850
+Wire Wire Line
+	6550 6850 6550 5500
+Wire Wire Line
+	3350 6950 7350 6950
+Wire Wire Line
+	7350 6950 7350 5500
+Wire Wire Line
+	7450 7050 7450 5500
+Wire Wire Line
+	3350 7050 7450 7050
+Wire Wire Line
+	3350 7150 8250 7150
+Wire Wire Line
+	8250 7150 8250 5500
+Wire Wire Line
+	8350 7250 8350 5500
+Wire Wire Line
+	3350 7250 8350 7250
+Wire Wire Line
+	3350 7350 9150 7350
+Wire Wire Line
+	9150 7350 9150 5500
+Wire Wire Line
+	3350 7450 9250 7450
+Wire Wire Line
+	9250 7450 9250 5500
+Wire Wire Line
+	3350 7550 10050 7550
+Wire Wire Line
+	10050 7550 10050 5500
+Wire Wire Line
+	3350 7650 10150 7650
+Wire Wire Line
+	10150 7650 10150 5500
+Wire Wire Line
+	3350 12600 3750 12600
+Wire Wire Line
+	3750 12600 3750 11900
+Wire Wire Line
+	3850 11900 3850 12700
+Wire Wire Line
+	3850 12700 3350 12700
+Wire Wire Line
+	3350 12800 4650 12800
+Wire Wire Line
+	4650 12800 4650 11900
+Wire Wire Line
+	3350 12900 4750 12900
+Wire Wire Line
+	4750 12900 4750 11900
+Wire Wire Line
+	3350 13000 5550 13000
+Wire Wire Line
+	5550 13000 5550 11900
+Wire Wire Line
+	3350 13100 5650 13100
+Wire Wire Line
+	5650 13100 5650 11900
+Wire Wire Line
+	3350 13200 6450 13200
+Wire Wire Line
+	6450 13200 6450 11900
+Wire Wire Line
+	3350 13300 6550 13300
+Wire Wire Line
+	6550 13300 6550 11900
+Wire Wire Line
+	3350 13400 7350 13400
+Wire Wire Line
+	7350 13400 7350 11900
+Wire Wire Line
+	3350 13500 7450 13500
+Wire Wire Line
+	7450 13500 7450 11900
+Wire Wire Line
+	3350 13600 8250 13600
+Wire Wire Line
+	8250 13600 8250 11900
+Wire Wire Line
+	8350 11900 8350 13700
+Wire Wire Line
+	8350 13700 3350 13700
+Wire Wire Line
+	3350 13800 9150 13800
+Wire Wire Line
+	9150 13800 9150 11900
+Wire Wire Line
+	9250 11900 9250 13900
+Wire Wire Line
+	9250 13900 3350 13900
+Wire Wire Line
+	3350 14000 10050 14000
+Wire Wire Line
+	10050 14000 10050 11900
+Wire Wire Line
+	10150 11900 10150 14100
+Wire Wire Line
+	10150 14100 3350 14100
+Wire Wire Line
+	10700 2700 5150 2700
+Wire Wire Line
+	3350 3350 3750 3350
+Wire Wire Line
+	3750 3350 3750 4050
+Wire Wire Line
+	3350 3250 3850 3250
+Wire Wire Line
+	3850 3250 3850 4050
+Wire Wire Line
+	3350 3150 4650 3150
+Wire Wire Line
+	4650 3150 4650 4050
+Wire Wire Line
+	3350 3050 4750 3050
+Wire Wire Line
+	4750 3050 4750 4050
+Wire Wire Line
+	3350 2950 5550 2950
+Wire Wire Line
+	5550 2950 5550 4050
+Wire Wire Line
+	3350 2850 5650 2850
+Wire Wire Line
+	5650 2850 5650 4050
+Wire Wire Line
+	3350 2750 6450 2750
+Wire Wire Line
+	6450 2750 6450 4050
+Wire Wire Line
+	3350 2650 6550 2650
+Wire Wire Line
+	6550 2650 6550 4050
+Wire Wire Line
+	7350 2550 7350 4050
+Wire Wire Line
+	3350 2550 7350 2550
+Wire Wire Line
+	3350 2450 7450 2450
+Wire Wire Line
+	7450 2450 7450 4050
+Wire Wire Line
+	3350 2350 8250 2350
+Wire Wire Line
+	8250 2350 8250 4050
+Wire Wire Line
+	3350 2250 8350 2250
+Wire Wire Line
+	8350 2250 8350 4050
+Wire Wire Line
+	3350 2150 9150 2150
+Wire Wire Line
+	9150 2150 9150 4050
+Wire Wire Line
+	3350 2050 9250 2050
+Wire Wire Line
+	9250 2050 9250 4050
+Wire Wire Line
+	3350 1950 10050 1950
+Wire Wire Line
+	10050 1950 10050 4050
+Wire Wire Line
+	3350 1850 10150 1850
+Wire Wire Line
+	10150 1850 10150 4050
+$EndSCHEMATC
