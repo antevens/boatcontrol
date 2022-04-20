@@ -26,21 +26,21 @@ F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-
 	1    16350 12450
 	0    -1   -1   0   
 $EndComp
-Text Label 13250 12550 3    50   ~ 0
+Text Label 19550 11100 1    50   ~ 0
 A1
-Text Label 13650 12550 3    50   ~ 0
+Text Label 19950 11100 1    50   ~ 0
 A5
-Text Label 14150 12550 3    50   ~ 0
+Text Label 18650 11100 1    50   ~ 0
 B1
-Text Label 14550 12550 3    50   ~ 0
+Text Label 19050 11100 1    50   ~ 0
 B5
-Text Label 15050 12550 3    50   ~ 0
+Text Label 17750 11100 1    50   ~ 0
 C1
-Text Label 15450 12550 3    50   ~ 0
+Text Label 18150 11100 1    50   ~ 0
 C5
-Text Label 15950 12550 3    50   ~ 0
+Text Label 16850 11100 1    50   ~ 0
 D1
-Text Label 16350 12550 3    50   ~ 0
+Text Label 17250 11100 1    50   ~ 0
 D5
 Text Label 16850 12550 3    50   ~ 0
 E1
@@ -76,21 +76,21 @@ Text Label 15950 11100 1    50   ~ 0
 L1
 Text Label 16350 11100 1    50   ~ 0
 L5
-Text Label 16850 11100 1    50   ~ 0
+Text Label 15950 12550 3    50   ~ 0
 M1
-Text Label 17250 11100 1    50   ~ 0
+Text Label 16350 12550 3    50   ~ 0
 M5
-Text Label 17750 11100 1    50   ~ 0
+Text Label 15050 12550 3    50   ~ 0
 N1
-Text Label 18150 11100 1    50   ~ 0
+Text Label 15450 12550 3    50   ~ 0
 N5
-Text Label 18650 11100 1    50   ~ 0
+Text Label 14150 12550 3    50   ~ 0
 O1
-Text Label 19050 11100 1    50   ~ 0
+Text Label 14550 12550 3    50   ~ 0
 O5
-Text Label 19550 11100 1    50   ~ 0
+Text Label 13250 12550 3    50   ~ 0
 P1
-Text Label 19950 11100 1    50   ~ 0
+Text Label 13650 12550 3    50   ~ 0
 P5
 $Comp
 L BoatControl:TBP02R2W-381-02BE J8
@@ -428,31 +428,31 @@ Text Label 17150 12550 3    50   ~ 0
 E4
 Text Label 16950 12550 3    50   ~ 0
 E2
-Text Label 16650 12550 3    50   ~ 0
+Text Label 17550 11100 1    50   ~ 0
 D8
-Text Label 16450 12550 3    50   ~ 0
+Text Label 17350 11100 1    50   ~ 0
 D6
-Text Label 16250 12550 3    50   ~ 0
+Text Label 17150 11100 1    50   ~ 0
 D4
-Text Label 16050 12550 3    50   ~ 0
+Text Label 16950 11100 1    50   ~ 0
 D2
-Text Label 15750 12550 3    50   ~ 0
+Text Label 18450 11100 1    50   ~ 0
 C8
-Text Label 15550 12550 3    50   ~ 0
+Text Label 18250 11100 1    50   ~ 0
 C6
-Text Label 15350 12550 3    50   ~ 0
+Text Label 18050 11100 1    50   ~ 0
 C4
-Text Label 15150 12550 3    50   ~ 0
+Text Label 17850 11100 1    50   ~ 0
 C2
-Text Label 14850 12550 3    50   ~ 0
+Text Label 19350 11100 1    50   ~ 0
 B8
-Text Label 14650 12550 3    50   ~ 0
+Text Label 19150 11100 1    50   ~ 0
 B6
-Text Label 14450 12550 3    50   ~ 0
+Text Label 18950 11100 1    50   ~ 0
 B4
-Text Label 14250 12550 3    50   ~ 0
+Text Label 18750 11100 1    50   ~ 0
 B2
-Text Label 13950 12550 3    50   ~ 0
+Text Label 20250 11100 1    50   ~ 0
 A8
 Wire Wire Line
 	28900 11800 28900 10800
@@ -1279,37 +1279,37 @@ Text Label 11650 12550 3    50   ~ 0
 I2
 Text Label 11750 12550 3    50   ~ 0
 I1
-Text Label 20250 11100 1    50   ~ 0
+Text Label 13950 12550 3    50   ~ 0
 P8
-Text Label 20050 11100 1    50   ~ 0
+Text Label 13750 12550 3    50   ~ 0
 P6
-Text Label 19850 11100 1    50   ~ 0
+Text Label 13550 12550 3    50   ~ 0
 P4
-Text Label 19650 11100 1    50   ~ 0
+Text Label 13350 12550 3    50   ~ 0
 P2
-Text Label 19350 11100 1    50   ~ 0
+Text Label 14850 12550 3    50   ~ 0
 O8
-Text Label 19150 11100 1    50   ~ 0
+Text Label 14650 12550 3    50   ~ 0
 O6
-Text Label 18950 11100 1    50   ~ 0
+Text Label 14450 12550 3    50   ~ 0
 O4
-Text Label 18750 11100 1    50   ~ 0
+Text Label 14250 12550 3    50   ~ 0
 O2
-Text Label 18450 11100 1    50   ~ 0
+Text Label 15750 12550 3    50   ~ 0
 N8
-Text Label 18250 11100 1    50   ~ 0
+Text Label 15550 12550 3    50   ~ 0
 N6
-Text Label 18050 11100 1    50   ~ 0
+Text Label 15350 12550 3    50   ~ 0
 N4
-Text Label 17850 11100 1    50   ~ 0
+Text Label 15150 12550 3    50   ~ 0
 N2
-Text Label 17550 11100 1    50   ~ 0
+Text Label 16650 12550 3    50   ~ 0
 M8
-Text Label 17350 11100 1    50   ~ 0
+Text Label 16450 12550 3    50   ~ 0
 M6
-Text Label 17150 11100 1    50   ~ 0
+Text Label 16250 12550 3    50   ~ 0
 M4
-Text Label 16950 11100 1    50   ~ 0
+Text Label 16050 12550 3    50   ~ 0
 M2
 Text Label 16650 11100 1    50   ~ 0
 L8
@@ -1880,36 +1880,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 10750 10950 10750
 $Sheet
-S 12000 9350 1100 1650
-U 64141124
-F0 "D-Latch 25-32" 50
-F1 "dlatches.sch" 50
-F2 "ON1" I R 13100 10850 50 
-F3 "OFF1" I R 13100 10950 50 
-F4 "ON2" I R 13100 10650 50 
-F5 "OFF2" I R 13100 10750 50 
-F6 "ON3" I R 13100 10450 50 
-F7 "OFF3" I R 13100 10550 50 
-F8 "ON4" I R 13100 10250 50 
-F9 "OFF4" I R 13100 10350 50 
-F10 "ON5" I R 13100 10050 50 
-F11 "OFF5" I R 13100 10150 50 
-F12 "ON6" I R 13100 9850 50 
-F13 "OFF6" I R 13100 9950 50 
-F14 "ON7" I R 13100 9650 50 
-F15 "OFF7" I R 13100 9750 50 
-F16 "ON8" I R 13100 9450 50 
-F17 "OFF8" I R 13100 9550 50 
-F18 "BTN1" I L 12000 10950 50 
-F19 "BTN2" I L 12000 10750 50 
-F20 "BTN3" I L 12000 10550 50 
-F21 "BTN4" I L 12000 10350 50 
-F22 "BTN5" I L 12000 10150 50 
-F23 "BTN6" I L 12000 9950 50 
-F24 "BTN7" I L 12000 9750 50 
-F25 "BTN8" I L 12000 9550 50 
-$EndSheet
-$Sheet
 S 12000 12650 1100 1650
 U 641410EA
 F0 "D-Latch 17-24" 50
@@ -1952,7 +1922,7 @@ F 5 "https://www.belfuse.com/resources/drawings/stewartconnector/dr-stw-ss73100-
 	1    8750 12450
 	0    1    -1   0   
 $EndComp
-Text Label 13350 12550 3    50   ~ 0
+Text Label 19650 11100 1    50   ~ 0
 A2
 Wire Wire Line
 	24000 14200 28900 14200
@@ -1984,9 +1954,9 @@ Wire Wire Line
 	11350 14600 4650 14600
 Wire Wire Line
 	11450 14700 4650 14700
-Text Label 13550 12550 3    50   ~ 0
+Text Label 19850 11100 1    50   ~ 0
 A4
-Text Label 13750 12550 3    50   ~ 0
+Text Label 20050 11100 1    50   ~ 0
 A6
 Wire Wire Line
 	13350 11100 13350 10950
@@ -2244,4 +2214,34 @@ Wire Wire Line
 	20450 9450 16950 9450
 Wire Wire Line
 	16950 9450 16950 11100
+$Sheet
+S 12000 9350 1100 1650
+U 64141124
+F0 "D-Latch 25-32" 50
+F1 "dlatches.sch" 50
+F2 "ON1" I R 13100 10850 50 
+F3 "OFF1" I R 13100 10950 50 
+F4 "ON2" I R 13100 10650 50 
+F5 "OFF2" I R 13100 10750 50 
+F6 "ON3" I R 13100 10450 50 
+F7 "OFF3" I R 13100 10550 50 
+F8 "ON4" I R 13100 10250 50 
+F9 "OFF4" I R 13100 10350 50 
+F10 "ON5" I R 13100 10050 50 
+F11 "OFF5" I R 13100 10150 50 
+F12 "ON6" I R 13100 9850 50 
+F13 "OFF6" I R 13100 9950 50 
+F14 "ON7" I R 13100 9650 50 
+F15 "OFF7" I R 13100 9750 50 
+F16 "ON8" I R 13100 9450 50 
+F17 "OFF8" I R 13100 9550 50 
+F18 "BTN1" I L 12000 10950 50 
+F19 "BTN2" I L 12000 10750 50 
+F20 "BTN3" I L 12000 10550 50 
+F21 "BTN4" I L 12000 10350 50 
+F22 "BTN5" I L 12000 10150 50 
+F23 "BTN6" I L 12000 9950 50 
+F24 "BTN7" I L 12000 9750 50 
+F25 "BTN8" I L 12000 9550 50 
+$EndSheet
 $EndSCHEMATC
