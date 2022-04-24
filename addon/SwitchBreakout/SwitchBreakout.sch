@@ -235,43 +235,23 @@ Wire Wire Line
 Wire Wire Line
 	24800 14100 24800 12550
 Wire Wire Line
-	28900 14100 24800 14100
-Wire Wire Line
 	24900 14000 24900 12550
 Wire Wire Line
-	28900 14000 24900 14000
-Wire Wire Line
-	28900 13800 25800 13800
-Wire Wire Line
 	25700 13900 25700 12550
-Wire Wire Line
-	28900 13900 25700 13900
 Wire Wire Line
 	25800 13800 25800 12550
 Wire Wire Line
 	26600 13700 26600 12550
 Wire Wire Line
-	28900 13700 26600 13700
-Wire Wire Line
 	26700 13600 26700 12550
-Wire Wire Line
-	28900 13600 26700 13600
-Wire Wire Line
-	28900 13500 27500 13500
 Wire Wire Line
 	27500 13500 27500 12550
 Wire Wire Line
 	27600 13400 27600 12550
 Wire Wire Line
-	28900 13400 27600 13400
-Wire Wire Line
 	28400 13300 28400 12550
 Wire Wire Line
-	28900 13300 28400 13300
-Wire Wire Line
 	28500 13200 28500 12550
-Wire Wire Line
-	28900 13200 28500 13200
 $Comp
 L BoatControl:TBP01R2W-508-16BE J5
 U 1 1 68C6F4C2
@@ -523,9 +503,9 @@ P 28600 10950
 F 0 "F4" V 28650 11150 50  0000 L CNN
 F 1 "Polyfuse" V 28550 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 28650 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 28600 10950 50  0001 C CNN
-F 4 "Kemet" H 28600 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 28600 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 28600 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 28600 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 28600 10950 50  0001 C CNN "Model"
 	1    28600 10950
 	-1   0    0    -1  
 $EndComp
@@ -536,9 +516,9 @@ P 27700 10950
 F 0 "F8" V 27750 11150 50  0000 L CNN
 F 1 "Polyfuse" V 27650 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 27750 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 27700 10950 50  0001 C CNN
-F 4 "Kemet" H 27700 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 27700 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 27700 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 27700 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 27700 10950 50  0001 C CNN "Model"
 	1    27700 10950
 	-1   0    0    -1  
 $EndComp
@@ -549,9 +529,9 @@ P 26800 10950
 F 0 "F12" V 26850 11150 50  0000 L CNN
 F 1 "Polyfuse" V 26750 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 26850 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 26800 10950 50  0001 C CNN
-F 4 "Kemet" H 26800 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 26800 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 26800 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 26800 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 26800 10950 50  0001 C CNN "Model"
 	1    26800 10950
 	-1   0    0    -1  
 $EndComp
@@ -562,9 +542,9 @@ P 25900 10950
 F 0 "F16" V 25950 11150 50  0000 L CNN
 F 1 "Polyfuse" V 25850 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 25950 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 25900 10950 50  0001 C CNN
-F 4 "Kemet" H 25900 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 25900 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 25900 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 25900 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 25900 10950 50  0001 C CNN "Model"
 	1    25900 10950
 	-1   0    0    -1  
 $EndComp
@@ -575,9 +555,9 @@ P 25000 10950
 F 0 "F20" V 25050 11150 50  0000 L CNN
 F 1 "Polyfuse" V 24950 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 25050 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 25000 10950 50  0001 C CNN
-F 4 "Kemet" H 25000 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 25000 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 25000 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 25000 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 25000 10950 50  0001 C CNN "Model"
 	1    25000 10950
 	-1   0    0    -1  
 $EndComp
@@ -588,9 +568,9 @@ P 24100 10950
 F 0 "F24" V 24150 11150 50  0000 L CNN
 F 1 "Polyfuse" V 24050 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 24150 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 24100 10950 50  0001 C CNN
-F 4 "Kemet" H 24100 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 24100 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 24100 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 24100 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 24100 10950 50  0001 C CNN "Model"
 	1    24100 10950
 	-1   0    0    -1  
 $EndComp
@@ -601,9 +581,9 @@ P 23200 10950
 F 0 "F28" V 23250 11150 50  0000 L CNN
 F 1 "Polyfuse" H 23050 11300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 23250 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 23200 10950 50  0001 C CNN
-F 4 "Kemet" H 23200 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 23200 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 23200 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 23200 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 23200 10950 50  0001 C CNN "Model"
 	1    23200 10950
 	-1   0    0    -1  
 $EndComp
@@ -614,9 +594,9 @@ P 22300 10950
 F 0 "F32" V 22350 11150 50  0000 L CNN
 F 1 "Polyfuse" H 22150 11300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 22350 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 22300 10950 50  0001 C CNN
-F 4 "Kemet" H 22300 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 22300 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 22300 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 22300 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 22300 10950 50  0001 C CNN "Model"
 	1    22300 10950
 	-1   0    0    -1  
 $EndComp
@@ -649,9 +629,9 @@ P 22300 12700
 F 0 "F31" V 22350 12850 50  0000 L CNN
 F 1 "Polyfuse" H 22050 13000 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 22350 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 22300 12700 50  0001 C CNN
-F 4 "Kemet" H 22300 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 22300 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 22300 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 22300 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 22300 12700 50  0001 C CNN "Model"
 	1    22300 12700
 	-1   0    0    1   
 $EndComp
@@ -662,9 +642,9 @@ P 23200 12700
 F 0 "F27" V 23250 12900 50  0000 L CNN
 F 1 "Polyfuse" V 23150 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 23250 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 23200 12700 50  0001 C CNN
-F 4 "Kemet" H 23200 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 23200 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 23200 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 23200 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 23200 12700 50  0001 C CNN "Model"
 	1    23200 12700
 	-1   0    0    1   
 $EndComp
@@ -675,9 +655,9 @@ P 24100 12700
 F 0 "F23" V 24150 12900 50  0000 L CNN
 F 1 "Polyfuse" V 24050 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 24150 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 24100 12700 50  0001 C CNN
-F 4 "Kemet" H 24100 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 24100 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 24100 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 24100 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 24100 12700 50  0001 C CNN "Model"
 	1    24100 12700
 	-1   0    0    1   
 $EndComp
@@ -688,9 +668,9 @@ P 25000 12700
 F 0 "F19" V 25050 12900 50  0000 L CNN
 F 1 "Polyfuse" V 24950 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 25050 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 25000 12700 50  0001 C CNN
-F 4 "Kemet" H 25000 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 25000 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 25000 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 25000 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 25000 12700 50  0001 C CNN "Model"
 	1    25000 12700
 	-1   0    0    1   
 $EndComp
@@ -701,9 +681,9 @@ P 25900 12700
 F 0 "F15" V 25950 12900 50  0000 L CNN
 F 1 "Polyfuse" V 25850 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 25950 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 25900 12700 50  0001 C CNN
-F 4 "Kemet" H 25900 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 25900 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 25900 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 25900 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 25900 12700 50  0001 C CNN "Model"
 	1    25900 12700
 	-1   0    0    1   
 $EndComp
@@ -714,9 +694,9 @@ P 26800 12700
 F 0 "F11" V 26850 12900 50  0000 L CNN
 F 1 "Polyfuse" V 26750 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 26850 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 26800 12700 50  0001 C CNN
-F 4 "Kemet" H 26800 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 26800 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 26800 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 26800 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 26800 12700 50  0001 C CNN "Model"
 	1    26800 12700
 	-1   0    0    1   
 $EndComp
@@ -727,9 +707,9 @@ P 27700 12700
 F 0 "F7" V 27750 12900 50  0000 L CNN
 F 1 "Polyfuse" V 27650 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 27750 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 27700 12700 50  0001 C CNN
-F 4 "Kemet" H 27700 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 27700 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 27700 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 27700 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 27700 12700 50  0001 C CNN "Model"
 	1    27700 12700
 	-1   0    0    1   
 $EndComp
@@ -740,9 +720,9 @@ P 28600 12700
 F 0 "F3" V 28650 12900 50  0000 L CNN
 F 1 "Polyfuse" V 28550 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 28650 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 28600 12700 50  0001 C CNN
-F 4 "Kemet" H 28600 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 28600 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 28600 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 28600 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 28600 12700 50  0001 C CNN "Model"
 	1    28600 12700
 	-1   0    0    1   
 $EndComp
@@ -1410,9 +1390,9 @@ P 4950 10950
 F 0 "F1" V 5000 11150 50  0000 L CNN
 F 1 "Polyfuse" V 4900 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5000 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4950 10950 50  0001 C CNN
-F 4 "Kemet" H 4950 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 4950 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4950 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 4950 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4950 10950 50  0001 C CNN "Model"
 	1    4950 10950
 	1    0    0    -1  
 $EndComp
@@ -1423,9 +1403,9 @@ P 11250 12700
 F 0 "F30" V 11300 12900 50  0000 L CNN
 F 1 "Polyfuse" H 11050 13100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 11300 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 11250 12700 50  0001 C CNN
-F 4 "Kemet" H 11250 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 11250 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 11250 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 11250 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 11250 12700 50  0001 C CNN "Model"
 	1    11250 12700
 	1    0    0    1   
 $EndComp
@@ -1436,9 +1416,9 @@ P 10350 12700
 F 0 "F26" V 10400 12900 50  0000 L CNN
 F 1 "Polyfuse" V 10300 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10400 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 10350 12700 50  0001 C CNN
-F 4 "Kemet" H 10350 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 10350 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 10350 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 10350 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 10350 12700 50  0001 C CNN "Model"
 	1    10350 12700
 	1    0    0    1   
 $EndComp
@@ -1449,9 +1429,9 @@ P 9450 12700
 F 0 "F22" V 9500 12900 50  0000 L CNN
 F 1 "Polyfuse" V 9400 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9500 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9450 12700 50  0001 C CNN
-F 4 "Kemet" H 9450 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 9450 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 9450 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 9450 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 9450 12700 50  0001 C CNN "Model"
 	1    9450 12700
 	1    0    0    1   
 $EndComp
@@ -1462,9 +1442,9 @@ P 8550 12700
 F 0 "F18" V 8600 12900 50  0000 L CNN
 F 1 "Polyfuse" V 8500 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8600 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8550 12700 50  0001 C CNN
-F 4 "Kemet" H 8550 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 8550 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 8550 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 8550 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 8550 12700 50  0001 C CNN "Model"
 	1    8550 12700
 	1    0    0    1   
 $EndComp
@@ -1475,9 +1455,9 @@ P 7650 12700
 F 0 "F14" V 7700 12900 50  0000 L CNN
 F 1 "Polyfuse" V 7600 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7700 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7650 12700 50  0001 C CNN
-F 4 "Kemet" H 7650 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 7650 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 7650 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 7650 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 7650 12700 50  0001 C CNN "Model"
 	1    7650 12700
 	1    0    0    1   
 $EndComp
@@ -1488,9 +1468,9 @@ P 6750 12700
 F 0 "F10" V 6800 12900 50  0000 L CNN
 F 1 "Polyfuse" V 6700 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6800 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6750 12700 50  0001 C CNN
-F 4 "Kemet" H 6750 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 6750 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 6750 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 6750 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 6750 12700 50  0001 C CNN "Model"
 	1    6750 12700
 	1    0    0    1   
 $EndComp
@@ -1501,9 +1481,9 @@ P 5850 12700
 F 0 "F6" V 5900 12900 50  0000 L CNN
 F 1 "Polyfuse" V 5800 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5900 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5850 12700 50  0001 C CNN
-F 4 "Kemet" H 5850 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 5850 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 5850 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 5850 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 5850 12700 50  0001 C CNN "Model"
 	1    5850 12700
 	1    0    0    1   
 $EndComp
@@ -1514,9 +1494,9 @@ P 4950 12700
 F 0 "F2" V 5000 12900 50  0000 L CNN
 F 1 "Polyfuse" V 4900 12850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5000 12500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 4950 12700 50  0001 C CNN
-F 4 "Kemet" H 4950 12700 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 4950 12700 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4950 12700 50  0001 C CNN
+F 4 "Bel Fuse" H 4950 12700 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4950 12700 50  0001 C CNN "Model"
 	1    4950 12700
 	1    0    0    1   
 $EndComp
@@ -1527,9 +1507,9 @@ P 11250 10950
 F 0 "F29" V 11300 11150 50  0000 L CNN
 F 1 "Polyfuse" H 11050 11300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 11300 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 11250 10950 50  0001 C CNN
-F 4 "Kemet" H 11250 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 11250 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 11250 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 11250 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 11250 10950 50  0001 C CNN "Model"
 	1    11250 10950
 	1    0    0    -1  
 $EndComp
@@ -1540,9 +1520,9 @@ P 10350 10950
 F 0 "F25" V 10400 11150 50  0000 L CNN
 F 1 "Polyfuse" H 10200 11300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 10400 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 10350 10950 50  0001 C CNN
-F 4 "Kemet" H 10350 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 10350 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 10350 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 10350 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 10350 10950 50  0001 C CNN "Model"
 	1    10350 10950
 	1    0    0    -1  
 $EndComp
@@ -1553,9 +1533,9 @@ P 9450 10950
 F 0 "F21" V 9500 11150 50  0000 L CNN
 F 1 "Polyfuse" V 9400 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 9500 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 9450 10950 50  0001 C CNN
-F 4 "Kemet" H 9450 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 9450 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 9450 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 9450 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 9450 10950 50  0001 C CNN "Model"
 	1    9450 10950
 	1    0    0    -1  
 $EndComp
@@ -1566,9 +1546,9 @@ P 8550 10950
 F 0 "F17" V 8600 11150 50  0000 L CNN
 F 1 "Polyfuse" V 8500 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 8600 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 8550 10950 50  0001 C CNN
-F 4 "Kemet" H 8550 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 8550 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 8550 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 8550 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 8550 10950 50  0001 C CNN "Model"
 	1    8550 10950
 	1    0    0    -1  
 $EndComp
@@ -1579,9 +1559,9 @@ P 7650 10950
 F 0 "F13" V 7700 11150 50  0000 L CNN
 F 1 "Polyfuse" V 7600 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 7700 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 7650 10950 50  0001 C CNN
-F 4 "Kemet" H 7650 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 7650 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 7650 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 7650 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 7650 10950 50  0001 C CNN "Model"
 	1    7650 10950
 	1    0    0    -1  
 $EndComp
@@ -1592,9 +1572,9 @@ P 6750 10950
 F 0 "F9" V 6800 11150 50  0000 L CNN
 F 1 "Polyfuse" V 6700 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 6800 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 6750 10950 50  0001 C CNN
-F 4 "Kemet" H 6750 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 6750 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 6750 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 6750 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 6750 10950 50  0001 C CNN "Model"
 	1    6750 10950
 	1    0    0    -1  
 $EndComp
@@ -1605,9 +1585,9 @@ P 5850 10950
 F 0 "F5" V 5900 11150 50  0000 L CNN
 F 1 "Polyfuse" V 5800 11100 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 5900 10750 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C333C105K5R5TA.pdf" H 5850 10950 50  0001 C CNN
-F 4 "Kemet" H 5850 10950 50  0001 C CNN "Manufacturer"
-F 5 "C333C105K5R5TA" H 5850 10950 50  0001 C CNN "Model"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 5850 10950 50  0001 C CNN
+F 4 "Bel Fuse" H 5850 10950 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 5850 10950 50  0001 C CNN "Model"
 	1    5850 10950
 	1    0    0    -1  
 $EndComp
@@ -1925,19 +1905,7 @@ $EndComp
 Text Label 19650 11100 1    50   ~ 0
 A2
 Wire Wire Line
-	24000 14200 28900 14200
-Wire Wire Line
 	28000 14250 21550 14250
-Wire Wire Line
-	23900 14300 28900 14300
-Wire Wire Line
-	23100 14400 28900 14400
-Wire Wire Line
-	23000 14500 28900 14500
-Wire Wire Line
-	22200 14600 28900 14600
-Wire Wire Line
-	22100 14700 28900 14700
 Wire Wire Line
 	22100 8900 28900 8900
 Wire Wire Line
@@ -2244,4 +2212,36 @@ F23 "BTN6" I L 12000 9950 50
 F24 "BTN7" I L 12000 9750 50 
 F25 "BTN8" I L 12000 9550 50 
 $EndSheet
+Wire Wire Line
+	28900 13200 28500 13200
+Wire Wire Line
+	28900 13400 27600 13400
+Wire Wire Line
+	28900 13500 27500 13500
+Wire Wire Line
+	28900 13600 26700 13600
+Wire Wire Line
+	28900 13700 26600 13700
+Wire Wire Line
+	28900 13900 25700 13900
+Wire Wire Line
+	28900 13800 25800 13800
+Wire Wire Line
+	22100 14700 28900 14700
+Wire Wire Line
+	22200 14600 28900 14600
+Wire Wire Line
+	23000 14500 28900 14500
+Wire Wire Line
+	23100 14400 28900 14400
+Wire Wire Line
+	23900 14300 28900 14300
+Wire Wire Line
+	24000 14200 28900 14200
+Wire Wire Line
+	28900 14000 24900 14000
+Wire Wire Line
+	28900 14100 24800 14100
+Wire Wire Line
+	28900 13300 28400 13300
 $EndSCHEMATC
