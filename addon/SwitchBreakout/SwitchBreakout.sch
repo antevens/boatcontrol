@@ -2061,32 +2061,32 @@ F24 "BTN7" I L 12000 9750 50
 F25 "BTN8" I L 12000 9550 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J?
+L Connector_Generic:Conn_02x20_Odd_Even J3
 U 1 1 68823188
 P 30150 11850
-F 0 "J?" V 30500 12900 50  0000 L CNN
+F 0 "J3" V 30500 12900 50  0000 L CNN
 F 1 "Conn_02x20_Odd_Even" V 30200 9850 50  0000 L CNN
-F 2 "" H 30150 11850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 30150 11850 50  0001 C CNN
 F 3 "~" H 30150 11850 50  0001 C CNN
 	1    30150 11850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J?
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 68986A82
 P 3400 11850
-F 0 "J?" V 3800 10750 50  0000 R CNN
+F 0 "J2" V 3800 10750 50  0000 R CNN
 F 1 "Conn_02x20_Odd_Even" V 3405 10763 50  0000 R CNN
-F 2 "" H 3400 11850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3400 11850 50  0001 C CNN
 F 3 "~" H 3400 11850 50  0001 C CNN
 	1    3400 11850
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F65
 U 1 1 68C5AA4B
 P 29250 11400
-F 0 "F?" V 29200 11550 50  0000 L CNN
+F 0 "F65" V 29200 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29200 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29300 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29250 11400 50  0001 C CNN
@@ -2096,10 +2096,10 @@ F 5 "0ZRR0005FF2E" H 29250 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F67
 U 1 1 68D01DE6
 P 29350 11400
-F 0 "F?" V 29300 11550 50  0000 L CNN
+F 0 "F67" V 29300 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29300 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29400 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29350 11400 50  0001 C CNN
@@ -2109,10 +2109,10 @@ F 5 "0ZRR0005FF2E" H 29350 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F69
 U 1 1 68D2DBFB
 P 29450 11400
-F 0 "F?" V 29400 11550 50  0000 L CNN
+F 0 "F69" V 29400 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29400 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29500 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29450 11400 50  0001 C CNN
@@ -2122,10 +2122,10 @@ F 5 "0ZRR0005FF2E" H 29450 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F71
 U 1 1 68D5989F
 P 29550 11400
-F 0 "F?" V 29500 11550 50  0000 L CNN
+F 0 "F71" V 29500 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29500 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29600 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29550 11400 50  0001 C CNN
@@ -2135,10 +2135,10 @@ F 5 "0ZRR0005FF2E" H 29550 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F73
 U 1 1 68D854A9
 P 29650 11400
-F 0 "F?" V 29600 11550 50  0000 L CNN
+F 0 "F73" V 29600 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29600 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29700 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29650 11400 50  0001 C CNN
@@ -2148,10 +2148,10 @@ F 5 "0ZRR0005FF2E" H 29650 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F75
 U 1 1 68DB10BC
 P 29750 11400
-F 0 "F?" V 29700 11550 50  0000 L CNN
+F 0 "F75" V 29700 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29700 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29800 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29750 11400 50  0001 C CNN
@@ -2161,10 +2161,10 @@ F 5 "0ZRR0005FF2E" H 29750 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F77
 U 1 1 68DDCCF4
 P 29850 11400
-F 0 "F?" V 29800 11550 50  0000 L CNN
+F 0 "F77" V 29800 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29800 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29900 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29850 11400 50  0001 C CNN
@@ -2174,10 +2174,10 @@ F 5 "0ZRR0005FF2E" H 29850 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F79
 U 1 1 68E08868
 P 29950 11400
-F 0 "F?" V 29900 11550 50  0000 L CNN
+F 0 "F79" V 29900 11550 50  0000 L CNN
 F 1 "Polyfuse" V 29900 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30000 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29950 11400 50  0001 C CNN
@@ -2187,10 +2187,10 @@ F 5 "0ZRR0005FF2E" H 29950 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F81
 U 1 1 68E34371
 P 30050 11400
-F 0 "F?" V 30000 11550 50  0000 L CNN
+F 0 "F81" V 30000 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30000 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30100 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30050 11400 50  0001 C CNN
@@ -2200,10 +2200,10 @@ F 5 "0ZRR0005FF2E" H 30050 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F83
 U 1 1 68E6001C
 P 30150 11400
-F 0 "F?" V 30100 11550 50  0000 L CNN
+F 0 "F83" V 30100 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30100 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30200 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30150 11400 50  0001 C CNN
@@ -2213,10 +2213,10 @@ F 5 "0ZRR0005FF2E" H 30150 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F85
 U 1 1 68E924C8
 P 30250 11400
-F 0 "F?" V 30200 11550 50  0000 L CNN
+F 0 "F85" V 30200 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30200 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30300 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30250 11400 50  0001 C CNN
@@ -2226,10 +2226,10 @@ F 5 "0ZRR0005FF2E" H 30250 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F87
 U 1 1 68EBE14C
 P 30350 11400
-F 0 "F?" V 30300 11550 50  0000 L CNN
+F 0 "F87" V 30300 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30300 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30400 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30350 11400 50  0001 C CNN
@@ -2239,10 +2239,10 @@ F 5 "0ZRR0005FF2E" H 30350 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F89
 U 1 1 68EE9C1F
 P 30450 11400
-F 0 "F?" V 30400 11550 50  0000 L CNN
+F 0 "F89" V 30400 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30400 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30500 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30450 11400 50  0001 C CNN
@@ -2252,10 +2252,10 @@ F 5 "0ZRR0005FF2E" H 30450 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F91
 U 1 1 68F157D4
 P 30550 11400
-F 0 "F?" V 30500 11550 50  0000 L CNN
+F 0 "F91" V 30500 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30500 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30600 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30550 11400 50  0001 C CNN
@@ -2265,10 +2265,10 @@ F 5 "0ZRR0005FF2E" H 30550 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F93
 U 1 1 68F413F9
 P 30650 11400
-F 0 "F?" V 30600 11550 50  0000 L CNN
+F 0 "F93" V 30600 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30600 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30700 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30650 11400 50  0001 C CNN
@@ -2278,10 +2278,10 @@ F 5 "0ZRR0005FF2E" H 30650 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F95
 U 1 1 68F6D0BF
 P 30750 11400
-F 0 "F?" V 30700 11550 50  0000 L CNN
+F 0 "F95" V 30700 11550 50  0000 L CNN
 F 1 "Polyfuse" V 30700 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30800 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30750 11400 50  0001 C CNN
@@ -2291,10 +2291,10 @@ F 5 "0ZRR0005FF2E" H 30750 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F66
 U 1 1 68F9FD8C
 P 29250 12200
-F 0 "F?" V 29200 12350 50  0000 L CNN
+F 0 "F66" V 29200 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29200 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29300 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29250 12200 50  0001 C CNN
@@ -2304,10 +2304,10 @@ F 5 "0ZRR0005FF2E" H 29250 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F68
 U 1 1 6900082A
 P 29350 12200
-F 0 "F?" V 29300 12350 50  0000 L CNN
+F 0 "F68" V 29300 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29300 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29400 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29350 12200 50  0001 C CNN
@@ -2317,10 +2317,10 @@ F 5 "0ZRR0005FF2E" H 29350 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F70
 U 1 1 6902C4BE
 P 29450 12200
-F 0 "F?" V 29400 12350 50  0000 L CNN
+F 0 "F70" V 29400 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29400 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29500 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29450 12200 50  0001 C CNN
@@ -2330,10 +2330,10 @@ F 5 "0ZRR0005FF2E" H 29450 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F72
 U 1 1 69057F9B
 P 29550 12200
-F 0 "F?" V 29500 12350 50  0000 L CNN
+F 0 "F72" V 29500 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29500 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29600 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29550 12200 50  0001 C CNN
@@ -2343,10 +2343,10 @@ F 5 "0ZRR0005FF2E" H 29550 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F74
 U 1 1 69083ABF
 P 29650 12200
-F 0 "F?" V 29600 12350 50  0000 L CNN
+F 0 "F74" V 29600 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29600 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29700 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29650 12200 50  0001 C CNN
@@ -2356,10 +2356,10 @@ F 5 "0ZRR0005FF2E" H 29650 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F76
 U 1 1 690AF5CF
 P 29750 12200
-F 0 "F?" V 29700 12350 50  0000 L CNN
+F 0 "F76" V 29700 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29700 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29800 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29750 12200 50  0001 C CNN
@@ -2369,10 +2369,10 @@ F 5 "0ZRR0005FF2E" H 29750 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F78
 U 1 1 690DB13B
 P 29850 12200
-F 0 "F?" V 29800 12350 50  0000 L CNN
+F 0 "F78" V 29800 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29800 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29900 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29850 12200 50  0001 C CNN
@@ -2382,10 +2382,10 @@ F 5 "0ZRR0005FF2E" H 29850 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F80
 U 1 1 69133FE4
 P 29950 12200
-F 0 "F?" V 29900 12350 50  0000 L CNN
+F 0 "F80" V 29900 12350 50  0000 L CNN
 F 1 "Polyfuse" V 29900 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30000 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29950 12200 50  0001 C CNN
@@ -2395,10 +2395,10 @@ F 5 "0ZRR0005FF2E" H 29950 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F82
 U 1 1 6915FCC9
 P 30050 12200
-F 0 "F?" V 30000 12350 50  0000 L CNN
+F 0 "F82" V 30000 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30000 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30100 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30050 12200 50  0001 C CNN
@@ -2408,10 +2408,10 @@ F 5 "0ZRR0005FF2E" H 30050 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F84
 U 1 1 6918B8D7
 P 30150 12200
-F 0 "F?" V 30100 12350 50  0000 L CNN
+F 0 "F84" V 30100 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30100 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30200 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30150 12200 50  0001 C CNN
@@ -2421,10 +2421,10 @@ F 5 "0ZRR0005FF2E" H 30150 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F86
 U 1 1 691B7578
 P 30250 12200
-F 0 "F?" V 30200 12350 50  0000 L CNN
+F 0 "F86" V 30200 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30200 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30300 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30250 12200 50  0001 C CNN
@@ -2434,10 +2434,10 @@ F 5 "0ZRR0005FF2E" H 30250 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F88
 U 1 1 691E687B
 P 30350 12200
-F 0 "F?" V 30300 12350 50  0000 L CNN
+F 0 "F88" V 30300 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30300 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30400 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30350 12200 50  0001 C CNN
@@ -2447,10 +2447,10 @@ F 5 "0ZRR0005FF2E" H 30350 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F90
 U 1 1 6921127C
 P 30450 12200
-F 0 "F?" V 30400 12350 50  0000 L CNN
+F 0 "F90" V 30400 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30400 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30500 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30450 12200 50  0001 C CNN
@@ -2460,10 +2460,10 @@ F 5 "0ZRR0005FF2E" H 30450 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F92
 U 1 1 6923BB6E
 P 30550 12200
-F 0 "F?" V 30500 12350 50  0000 L CNN
+F 0 "F92" V 30500 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30500 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30600 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30550 12200 50  0001 C CNN
@@ -2473,10 +2473,10 @@ F 5 "0ZRR0005FF2E" H 30550 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F94
 U 1 1 6929137D
 P 30650 12200
-F 0 "F?" V 30600 12350 50  0000 L CNN
+F 0 "F94" V 30600 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30600 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30700 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30650 12200 50  0001 C CNN
@@ -2486,10 +2486,10 @@ F 5 "0ZRR0005FF2E" H 30650 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F96
 U 1 1 692BBC81
 P 30750 12200
-F 0 "F?" V 30700 12350 50  0000 L CNN
+F 0 "F96" V 30700 12350 50  0000 L CNN
 F 1 "Polyfuse" V 30700 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30800 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30750 12200 50  0001 C CNN
@@ -2627,10 +2627,10 @@ Wire Wire Line
 Wire Wire Line
 	22100 8900 30750 8900
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F34
 U 1 1 69A474DB
 P 2800 12200
-F 0 "F?" V 2750 12350 50  0000 L CNN
+F 0 "F34" V 2750 12350 50  0000 L CNN
 F 1 "Polyfuse" V 2750 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2850 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2800 12200 50  0001 C CNN
@@ -2640,10 +2640,10 @@ F 5 "0ZRR0005FF2E" H 2800 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F36
 U 1 1 69A474E3
 P 2900 12200
-F 0 "F?" V 2850 12350 50  0000 L CNN
+F 0 "F36" V 2850 12350 50  0000 L CNN
 F 1 "Polyfuse" V 2850 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2950 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2900 12200 50  0001 C CNN
@@ -2653,10 +2653,10 @@ F 5 "0ZRR0005FF2E" H 2900 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F38
 U 1 1 69A474EB
 P 3000 12200
-F 0 "F?" V 2950 12350 50  0000 L CNN
+F 0 "F38" V 2950 12350 50  0000 L CNN
 F 1 "Polyfuse" V 2950 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3050 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3000 12200 50  0001 C CNN
@@ -2666,10 +2666,10 @@ F 5 "0ZRR0005FF2E" H 3000 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F40
 U 1 1 69A474F3
 P 3100 12200
-F 0 "F?" V 3050 12350 50  0000 L CNN
+F 0 "F40" V 3050 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3050 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3150 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3100 12200 50  0001 C CNN
@@ -2679,10 +2679,10 @@ F 5 "0ZRR0005FF2E" H 3100 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F42
 U 1 1 69A474FB
 P 3200 12200
-F 0 "F?" V 3150 12350 50  0000 L CNN
+F 0 "F42" V 3150 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3150 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3250 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3200 12200 50  0001 C CNN
@@ -2692,10 +2692,10 @@ F 5 "0ZRR0005FF2E" H 3200 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F44
 U 1 1 69A47503
 P 3300 12200
-F 0 "F?" V 3250 12350 50  0000 L CNN
+F 0 "F44" V 3250 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3250 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3350 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3300 12200 50  0001 C CNN
@@ -2705,10 +2705,10 @@ F 5 "0ZRR0005FF2E" H 3300 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F46
 U 1 1 69A4750B
 P 3400 12200
-F 0 "F?" V 3350 12350 50  0000 L CNN
+F 0 "F46" V 3350 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3350 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3450 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3400 12200 50  0001 C CNN
@@ -2718,10 +2718,10 @@ F 5 "0ZRR0005FF2E" H 3400 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F48
 U 1 1 69A47513
 P 3500 12200
-F 0 "F?" V 3450 12350 50  0000 L CNN
+F 0 "F48" V 3450 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3450 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3550 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3500 12200 50  0001 C CNN
@@ -2731,10 +2731,10 @@ F 5 "0ZRR0005FF2E" H 3500 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F50
 U 1 1 69A4751B
 P 3600 12200
-F 0 "F?" V 3550 12350 50  0000 L CNN
+F 0 "F50" V 3550 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3550 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3650 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3600 12200 50  0001 C CNN
@@ -2744,10 +2744,10 @@ F 5 "0ZRR0005FF2E" H 3600 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F52
 U 1 1 69A47523
 P 3700 12200
-F 0 "F?" V 3650 12350 50  0000 L CNN
+F 0 "F52" V 3650 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3650 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3750 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3700 12200 50  0001 C CNN
@@ -2757,10 +2757,10 @@ F 5 "0ZRR0005FF2E" H 3700 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F54
 U 1 1 69A4752B
 P 3800 12200
-F 0 "F?" V 3750 12350 50  0000 L CNN
+F 0 "F54" V 3750 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3750 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3850 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3800 12200 50  0001 C CNN
@@ -2770,10 +2770,10 @@ F 5 "0ZRR0005FF2E" H 3800 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F56
 U 1 1 69A47533
 P 3900 12200
-F 0 "F?" V 3850 12350 50  0000 L CNN
+F 0 "F56" V 3850 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3850 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3950 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3900 12200 50  0001 C CNN
@@ -2783,10 +2783,10 @@ F 5 "0ZRR0005FF2E" H 3900 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F58
 U 1 1 69A4753B
 P 4000 12200
-F 0 "F?" V 3950 12350 50  0000 L CNN
+F 0 "F58" V 3950 12350 50  0000 L CNN
 F 1 "Polyfuse" V 3950 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4050 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4000 12200 50  0001 C CNN
@@ -2796,10 +2796,10 @@ F 5 "0ZRR0005FF2E" H 4000 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F60
 U 1 1 69A47543
 P 4100 12200
-F 0 "F?" V 4050 12350 50  0000 L CNN
+F 0 "F60" V 4050 12350 50  0000 L CNN
 F 1 "Polyfuse" V 4050 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4150 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4100 12200 50  0001 C CNN
@@ -2809,10 +2809,10 @@ F 5 "0ZRR0005FF2E" H 4100 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F62
 U 1 1 69A4754B
 P 4200 12200
-F 0 "F?" V 4150 12350 50  0000 L CNN
+F 0 "F62" V 4150 12350 50  0000 L CNN
 F 1 "Polyfuse" V 4150 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4250 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4200 12200 50  0001 C CNN
@@ -2822,10 +2822,10 @@ F 5 "0ZRR0005FF2E" H 4200 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F64
 U 1 1 69A47553
 P 4300 12200
-F 0 "F?" V 4250 12350 50  0000 L CNN
+F 0 "F64" V 4250 12350 50  0000 L CNN
 F 1 "Polyfuse" V 4250 12350 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4350 12000 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4300 12200 50  0001 C CNN
@@ -2835,10 +2835,10 @@ F 5 "0ZRR0005FF2E" H 4300 12200 50  0001 C CNN "Model"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F33
 U 1 1 69AE791A
 P 2800 11400
-F 0 "F?" V 2750 11550 50  0000 L CNN
+F 0 "F33" V 2750 11550 50  0000 L CNN
 F 1 "Polyfuse" V 2750 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2850 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2800 11400 50  0001 C CNN
@@ -2848,10 +2848,10 @@ F 5 "0ZRR0005FF2E" H 2800 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F35
 U 1 1 69AE7922
 P 2900 11400
-F 0 "F?" V 2850 11550 50  0000 L CNN
+F 0 "F35" V 2850 11550 50  0000 L CNN
 F 1 "Polyfuse" V 2850 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2950 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2900 11400 50  0001 C CNN
@@ -2861,10 +2861,10 @@ F 5 "0ZRR0005FF2E" H 2900 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F37
 U 1 1 69AE792A
 P 3000 11400
-F 0 "F?" V 2950 11550 50  0000 L CNN
+F 0 "F37" V 2950 11550 50  0000 L CNN
 F 1 "Polyfuse" V 2950 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3050 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3000 11400 50  0001 C CNN
@@ -2874,10 +2874,10 @@ F 5 "0ZRR0005FF2E" H 3000 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F39
 U 1 1 69AE7932
 P 3100 11400
-F 0 "F?" V 3050 11550 50  0000 L CNN
+F 0 "F39" V 3050 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3050 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3150 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3100 11400 50  0001 C CNN
@@ -2887,10 +2887,10 @@ F 5 "0ZRR0005FF2E" H 3100 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F41
 U 1 1 69AE793A
 P 3200 11400
-F 0 "F?" V 3150 11550 50  0000 L CNN
+F 0 "F41" V 3150 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3150 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3250 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3200 11400 50  0001 C CNN
@@ -2900,10 +2900,10 @@ F 5 "0ZRR0005FF2E" H 3200 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F43
 U 1 1 69AE7942
 P 3300 11400
-F 0 "F?" V 3250 11550 50  0000 L CNN
+F 0 "F43" V 3250 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3250 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3350 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3300 11400 50  0001 C CNN
@@ -2913,10 +2913,10 @@ F 5 "0ZRR0005FF2E" H 3300 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F45
 U 1 1 69AE794A
 P 3400 11400
-F 0 "F?" V 3350 11550 50  0000 L CNN
+F 0 "F45" V 3350 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3350 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3450 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3400 11400 50  0001 C CNN
@@ -2926,10 +2926,10 @@ F 5 "0ZRR0005FF2E" H 3400 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F47
 U 1 1 69AE7952
 P 3500 11400
-F 0 "F?" V 3450 11550 50  0000 L CNN
+F 0 "F47" V 3450 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3450 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3550 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3500 11400 50  0001 C CNN
@@ -2939,10 +2939,10 @@ F 5 "0ZRR0005FF2E" H 3500 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F49
 U 1 1 69AE795A
 P 3600 11400
-F 0 "F?" V 3550 11550 50  0000 L CNN
+F 0 "F49" V 3550 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3550 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3650 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3600 11400 50  0001 C CNN
@@ -2952,10 +2952,10 @@ F 5 "0ZRR0005FF2E" H 3600 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F51
 U 1 1 69AE7962
 P 3700 11400
-F 0 "F?" V 3650 11550 50  0000 L CNN
+F 0 "F51" V 3650 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3650 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3750 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3700 11400 50  0001 C CNN
@@ -2965,10 +2965,10 @@ F 5 "0ZRR0005FF2E" H 3700 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F53
 U 1 1 69AE796A
 P 3800 11400
-F 0 "F?" V 3750 11550 50  0000 L CNN
+F 0 "F53" V 3750 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3750 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3850 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3800 11400 50  0001 C CNN
@@ -2978,10 +2978,10 @@ F 5 "0ZRR0005FF2E" H 3800 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F55
 U 1 1 69AE7972
 P 3900 11400
-F 0 "F?" V 3850 11550 50  0000 L CNN
+F 0 "F55" V 3850 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3850 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3950 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3900 11400 50  0001 C CNN
@@ -2991,10 +2991,10 @@ F 5 "0ZRR0005FF2E" H 3900 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F57
 U 1 1 69AE797A
 P 4000 11400
-F 0 "F?" V 3950 11550 50  0000 L CNN
+F 0 "F57" V 3950 11550 50  0000 L CNN
 F 1 "Polyfuse" V 3950 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4050 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4000 11400 50  0001 C CNN
@@ -3004,10 +3004,10 @@ F 5 "0ZRR0005FF2E" H 4000 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F59
 U 1 1 69AE7982
 P 4100 11400
-F 0 "F?" V 4050 11550 50  0000 L CNN
+F 0 "F59" V 4050 11550 50  0000 L CNN
 F 1 "Polyfuse" V 4050 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4150 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4100 11400 50  0001 C CNN
@@ -3017,10 +3017,10 @@ F 5 "0ZRR0005FF2E" H 4100 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F61
 U 1 1 69AE798A
 P 4200 11400
-F 0 "F?" V 4150 11550 50  0000 L CNN
+F 0 "F61" V 4150 11550 50  0000 L CNN
 F 1 "Polyfuse" V 4150 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4250 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4200 11400 50  0001 C CNN
@@ -3030,10 +3030,10 @@ F 5 "0ZRR0005FF2E" H 4200 11400 50  0001 C CNN "Model"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F63
 U 1 1 69AE7992
 P 4300 11400
-F 0 "F?" V 4250 11550 50  0000 L CNN
+F 0 "F63" V 4250 11550 50  0000 L CNN
 F 1 "Polyfuse" V 4250 11550 50  0001 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4350 11200 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4300 11400 50  0001 C CNN
