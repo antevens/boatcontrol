@@ -13,38 +13,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R_Network08 RN?
-U 1 1 62B44E61
-P 4450 2100
-AR Path="/62B44E61" Ref="RN?"  Part="1" 
-AR Path="/62AF242B/62B44E61" Ref="RN1"  Part="1" 
-AR Path="/638586E3/62B44E61" Ref="RN3"  Part="1" 
-AR Path="/641410EA/62B44E61" Ref="RN5"  Part="1" 
-AR Path="/64141124/62B44E61" Ref="RN7"  Part="1" 
-AR Path="/637A5066/62B44E61" Ref="RN?"  Part="1" 
-F 0 "RN7" V 3833 2100 50  0000 C CNN
-F 1 "100KΩ" V 3924 2100 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 4925 2100 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 4450 2100 50  0001 C CNN
-F 4 "Bourns" H 4450 2100 50  0001 C CNN "Manufacturer_Name "
-F 5 "4609X-101-105LF" H 4450 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" H 4450 2100 50  0001 C CNN "Description"
-	1    4450 2100
-	0    -1   1    0   
-$EndComp
 $Sheet
 S 5550 2550 650  550 
 U 62BFCA2B
 F0 "D-Latch 0" 50
 F1 "dlatch.sch" 50
-F2 "CLK2" I L 5550 3000 50 
+F2 "CLK2" I L 5550 2900 50 
 F3 "BTN1" I L 5550 2650 50 
 F4 "BTN2" I L 5550 2750 50 
 F5 "ON1" I R 6200 2650 50 
 F6 "ON2" I R 6200 2900 50 
 F7 "OFF2" I R 6200 3000 50 
-F8 "CLK1" I L 5550 2900 50 
+F8 "CLK1" I L 5550 3000 50 
 F9 "OFF1" I R 6200 2750 50 
 $EndSheet
 $Sheet
@@ -52,13 +32,13 @@ S 5550 3350 650  550
 U 62CB12A4
 F0 "D-Latch 1" 50
 F1 "dlatch.sch" 50
-F2 "CLK2" I L 5550 3800 50 
+F2 "CLK2" I L 5550 3700 50 
 F3 "BTN1" I L 5550 3450 50 
 F4 "BTN2" I L 5550 3550 50 
 F5 "ON1" I R 6200 3450 50 
 F6 "ON2" I R 6200 3700 50 
 F7 "OFF2" I R 6200 3800 50 
-F8 "CLK1" I L 5550 3700 50 
+F8 "CLK1" I L 5550 3800 50 
 F9 "OFF1" I R 6200 3550 50 
 $EndSheet
 $Sheet
@@ -66,13 +46,13 @@ S 5550 4150 650  550
 U 62CB2A80
 F0 "D-Latch 2" 50
 F1 "dlatch.sch" 50
-F2 "CLK2" I L 5550 4600 50 
+F2 "CLK2" I L 5550 4500 50 
 F3 "BTN1" I L 5550 4250 50 
 F4 "BTN2" I L 5550 4350 50 
 F5 "ON1" I R 6200 4250 50 
 F6 "ON2" I R 6200 4500 50 
 F7 "OFF2" I R 6200 4600 50 
-F8 "CLK1" I L 5550 4500 50 
+F8 "CLK1" I L 5550 4600 50 
 F9 "OFF1" I R 6200 4350 50 
 $EndSheet
 $Sheet
@@ -80,13 +60,13 @@ S 5550 4950 650  550
 U 62CB2A8A
 F0 "D-Latch 4" 50
 F1 "dlatch.sch" 50
-F2 "CLK2" I L 5550 5400 50 
+F2 "CLK2" I L 5550 5300 50 
 F3 "BTN1" I L 5550 5050 50 
 F4 "BTN2" I L 5550 5150 50 
 F5 "ON1" I R 6200 5050 50 
 F6 "ON2" I R 6200 5300 50 
 F7 "OFF2" I R 6200 5400 50 
-F8 "CLK1" I L 5550 5300 50 
+F8 "CLK1" I L 5550 5400 50 
 F9 "OFF1" I R 6200 5150 50 
 $EndSheet
 Wire Wire Line
@@ -272,5 +252,25 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 4450 3900 50  0
 F 4 "4116R-1-102LF" H 4450 3900 50  0001 C CNN "Product"
 	1    4450 3900
 	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 62B44E61
+P 4450 2100
+AR Path="/62B44E61" Ref="RN?"  Part="1" 
+AR Path="/62AF242B/62B44E61" Ref="RN1"  Part="1" 
+AR Path="/638586E3/62B44E61" Ref="RN3"  Part="1" 
+AR Path="/641410EA/62B44E61" Ref="RN5"  Part="1" 
+AR Path="/64141124/62B44E61" Ref="RN7"  Part="1" 
+AR Path="/637A5066/62B44E61" Ref="RN?"  Part="1" 
+F 0 "RN7" V 3833 2100 50  0000 C CNN
+F 1 "100KΩ" V 3924 2100 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4925 2100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 4450 2100 50  0001 C CNN
+F 4 "Bourns" H 4450 2100 50  0001 C CNN "Manufacturer_Name "
+F 5 "4609X-101-105LF" H 4450 2100 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "100k Ohm ±2% 200mW Power Per Element Bussed Resistor Network/Array ±100ppm/°C 9-SIP" H 4450 2100 50  0001 C CNN "Description"
+	1    4450 2100
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
