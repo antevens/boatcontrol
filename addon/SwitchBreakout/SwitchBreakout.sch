@@ -95,37 +95,37 @@ P5
 $Comp
 L BoatControl:TBP02R2W-381-02BE J8
 U 1 1 69E571BA
-P 21650 16100
-F 0 "J8" H 21878 16241 50  0000 L CNN
-F 1 "TBP02R2W-381-02BE" H 21878 16150 50  0000 L CNN
-F 2 "BoatControl:CUI_TBP02R2W-381-02BE" H 21300 16450 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp02r2w-381.pdf" H 21900 16200 50  0001 L BNN
-F 4 "CUI Devices" H 21900 16100 50  0001 L BNN "Manufacturer"
-F 5 "102-6522-ND" H 21100 15750 50  0001 L BNN "DigiKey Part Number"
-F 6 "490-TBP02R2W-38102BE" H 21878 16059 50  0000 L CNN "Mouser Part Number"
-	1    21650 16100
+P 16550 14800
+F 0 "J8" H 16778 14941 50  0000 L CNN
+F 1 "TBP02R2W-381-02BE" H 16778 14850 50  0000 L CNN
+F 2 "BoatControl:CUI_TBP02R2W-381-02BE" H 16200 15150 50  0001 L BNN
+F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp02r2w-381.pdf" H 16800 14900 50  0001 L BNN
+F 4 "CUI Devices" H 16800 14800 50  0001 L BNN "Manufacturer"
+F 5 "102-6522-ND" H 16000 14450 50  0001 L BNN "DigiKey Part Number"
+F 6 "490-TBP02R2W-38102BE" H 16778 14759 50  0000 L CNN "Mouser Part Number"
+	1    16550 14800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0135
 U 1 1 69EC1EC6
-P 21250 16000
-F 0 "#PWR0135" H 21250 15750 50  0001 C CNN
-F 1 "GND" H 21100 15900 50  0000 C CNN
-F 2 "" H 21250 16000 50  0001 C CNN
-F 3 "" H 21250 16000 50  0001 C CNN
-	1    21250 16000
+P 16150 14700
+F 0 "#PWR0135" H 16150 14450 50  0001 C CNN
+F 1 "GND" H 16000 14600 50  0000 C CNN
+F 2 "" H 16150 14700 50  0001 C CNN
+F 3 "" H 16150 14700 50  0001 C CNN
+	1    16150 14700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR0136
 U 1 1 69F8042E
-P 21250 16100
-F 0 "#PWR0136" H 21250 15950 50  0001 C CNN
-F 1 "VCC" H 21100 16200 50  0000 C CNN
-F 2 "" H 21250 16100 50  0001 C CNN
-F 3 "" H 21250 16100 50  0001 C CNN
-	1    21250 16100
+P 16150 14800
+F 0 "#PWR0136" H 16150 14650 50  0001 C CNN
+F 1 "VCC" H 16000 14900 50  0000 C CNN
+F 2 "" H 16150 14800 50  0001 C CNN
+F 3 "" H 16150 14800 50  0001 C CNN
+	1    16150 14800
 	0    -1   -1   0   
 $EndComp
 $Sheet
@@ -163,63 +163,33 @@ Wire Wire Line
 Wire Wire Line
 	22200 9000 22200 11100
 Wire Wire Line
-	28900 9000 22200 9000
-Wire Wire Line
-	23000 9100 28900 9100
-Wire Wire Line
 	23000 11100 23000 9100
 Wire Wire Line
 	23100 9200 23100 11100
-Wire Wire Line
-	28900 9200 23100 9200
-Wire Wire Line
-	23900 9300 28900 9300
 Wire Wire Line
 	23900 11100 23900 9300
 Wire Wire Line
 	24000 9400 24000 11100
 Wire Wire Line
-	28900 9400 24000 9400
-Wire Wire Line
 	24800 9500 24800 11100
-Wire Wire Line
-	28900 9500 24800 9500
 Wire Wire Line
 	24900 9600 24900 11100
 Wire Wire Line
-	28900 9600 24900 9600
-Wire Wire Line
 	25700 9700 25700 11100
-Wire Wire Line
-	28900 9700 25700 9700
 Wire Wire Line
 	25800 9800 25800 11100
 Wire Wire Line
-	28900 9800 25800 9800
-Wire Wire Line
 	26600 9900 26600 11100
-Wire Wire Line
-	28900 9900 26600 9900
 Wire Wire Line
 	26700 10000 26700 11100
 Wire Wire Line
-	28900 10000 26700 10000
-Wire Wire Line
 	27500 10100 27500 11100
 Wire Wire Line
-	28900 10100 27500 10100
-Wire Wire Line
 	27600 10200 27600 11100
-Wire Wire Line
-	28900 10200 27600 10200
-Wire Wire Line
-	28400 10300 28900 10300
 Wire Wire Line
 	28400 11100 28400 10300
 Wire Wire Line
 	28500 10400 28500 11100
-Wire Wire Line
-	28900 10400 28500 10400
 Wire Wire Line
 	22100 14700 22100 12550
 Wire Wire Line
@@ -252,34 +222,6 @@ Wire Wire Line
 	28400 13300 28400 12550
 Wire Wire Line
 	28500 13200 28500 12550
-$Comp
-L BoatControl:TBP01R2W-508-16BE J5
-U 1 1 68C6F4C2
-P 29300 9700
-F 0 "J5" H 29193 10949 50  0000 C CNN
-F 1 "TBP01R2W-508-16BE" H 29193 10858 50  0000 C CNN
-F 2 "CUI_TBP01R2W-508-16BE" H 29300 9700 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 29300 9700 50  0001 L BNN
-F 4 "CUI Devices" H 29300 9700 50  0001 L BNN "Manufacturer"
-F 5 "102-6466-ND" H 29193 10767 50  0000 C CNN "DigiKey Part Number"
-F 6 "490-TBP01R2W-50816BE" H 29193 10676 50  0000 C CNN "Mouser Part Number"
-	1    29300 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L BoatControl:TBP01R2W-508-16BE J4
-U 1 1 68B969C5
-P 29300 13900
-F 0 "J4" H 30050 13950 50  0000 C CNN
-F 1 "TBP01R2W-508-16BE" H 30000 13850 50  0000 C CNN
-F 2 "CUI_TBP01R2W-508-16BE" H 29300 13900 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 29300 13900 50  0001 L BNN
-F 4 "CUI Devices" H 29300 13900 50  0001 L BNN "Manufacturer"
-F 5 "102-6466-ND" H 29193 14967 50  0000 C CNN "DigiKey Part Number"
-F 6 "490-TBP01R2W-50816BE" H 29193 14876 50  0000 C CNN "Mouser Part Number"
-	1    29300 13900
-	1    0    0    1   
-$EndComp
 Text Label 28300 11100 1    50   ~ 0
 H8
 Text Label 28200 11100 1    50   ~ 0
@@ -1020,67 +962,35 @@ $EndComp
 Wire Wire Line
 	11450 8900 11450 11100
 Wire Wire Line
-	4650 8900 11450 8900
-Wire Wire Line
 	11350 9000 11350 11100
-Wire Wire Line
-	4650 9000 11350 9000
 Wire Wire Line
 	10550 9100 10550 11100
 Wire Wire Line
-	4650 9100 10550 9100
-Wire Wire Line
 	10450 9200 10450 11100
-Wire Wire Line
-	4650 9200 10450 9200
 Wire Wire Line
 	9650 9300 9650 11100
 Wire Wire Line
-	4650 9300 9650 9300
-Wire Wire Line
 	9550 9400 9550 11100
 Wire Wire Line
-	4650 9400 9550 9400
-Wire Wire Line
 	8750 9500 8750 11100
-Wire Wire Line
-	4650 9500 8750 9500
-Wire Wire Line
-	4650 9600 8650 9600
 Wire Wire Line
 	8650 9600 8650 11100
 Wire Wire Line
 	7850 9700 7850 11100
 Wire Wire Line
-	4650 9700 7850 9700
-Wire Wire Line
 	7750 9800 7750 11100
-Wire Wire Line
-	4650 9800 7750 9800
 Wire Wire Line
 	6950 9900 6950 11100
 Wire Wire Line
-	4650 9900 6950 9900
-Wire Wire Line
 	6850 10000 6850 11100
-Wire Wire Line
-	4650 10000 6850 10000
 Wire Wire Line
 	6050 10100 6050 11100
 Wire Wire Line
-	4650 10100 6050 10100
-Wire Wire Line
 	5950 10200 5950 11100
-Wire Wire Line
-	4650 10200 5950 10200
 Wire Wire Line
 	5150 10300 5150 11100
 Wire Wire Line
-	4650 10300 5150 10300
-Wire Wire Line
 	5050 10400 5050 11100
-Wire Wire Line
-	4650 10400 5050 10400
 Wire Wire Line
 	12000 9750 6450 9750
 Wire Wire Line
@@ -1096,73 +1006,25 @@ Wire Wire Line
 Wire Wire Line
 	9550 14200 9550 12550
 Wire Wire Line
-	4650 14100 8750 14100
-Wire Wire Line
 	8750 14100 8750 12550
 Wire Wire Line
 	8650 14000 8650 12550
 Wire Wire Line
-	4650 14000 8650 14000
-Wire Wire Line
 	7850 13900 7850 12550
-Wire Wire Line
-	4650 13900 7850 13900
 Wire Wire Line
 	7750 13800 7750 12550
 Wire Wire Line
-	4650 13800 7750 13800
-Wire Wire Line
 	6950 13700 6950 12550
-Wire Wire Line
-	4650 13700 6950 13700
 Wire Wire Line
 	6850 13600 6850 12550
 Wire Wire Line
-	4650 13600 6850 13600
-Wire Wire Line
 	6050 13500 6050 12550
-Wire Wire Line
-	4650 13500 6050 13500
 Wire Wire Line
 	5950 13400 5950 12550
 Wire Wire Line
-	4650 13400 5950 13400
-Wire Wire Line
 	5150 13300 5150 12550
 Wire Wire Line
-	4650 13300 5150 13300
-Wire Wire Line
 	5050 13200 5050 12550
-Wire Wire Line
-	4650 13200 5050 13200
-$Comp
-L BoatControl:TBP01R2W-508-16BE J3
-U 1 1 68D9C216
-P 4250 13900
-F 0 "J3" H 4950 13850 50  0000 C CNN
-F 1 "TBP01R2W-508-16BE" H 4950 13950 50  0000 C CNN
-F 2 "CUI_TBP01R2W-508-16BE" H 4250 13900 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 4250 13900 50  0001 L BNN
-F 4 "CUI Devices" H 4250 13900 50  0001 L BNN "Manufacturer"
-F 5 "102-6466-ND" H 4143 14967 50  0000 C CNN "DigiKey Part Number"
-F 6 "490-TBP01R2W-50816BE" H 4143 14876 50  0000 C CNN "Mouser Part Number"
-	1    4250 13900
-	-1   0    0    1   
-$EndComp
-$Comp
-L BoatControl:TBP01R2W-508-16BE J2
-U 1 1 68A60354
-P 4250 9700
-F 0 "J2" H 4143 10949 50  0000 C CNN
-F 1 "TBP01R2W-508-16BE" H 4143 10858 50  0000 C CNN
-F 2 "CUI_TBP01R2W-508-16BE" H 4250 9700 50  0001 L BNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/tbp01r2w-508.pdf" H 4250 9700 50  0001 L BNN
-F 4 "CUI Devices" H 4250 9700 50  0001 L BNN "Manufacturer"
-F 5 "102-6466-ND" H 4143 10767 50  0000 C CNN "DigiKey Part Number"
-F 6 "490-TBP01R2W-50816BE" H 4143 10676 50  0000 C CNN "Mouser Part Number"
-	1    4250 9700
-	-1   0    0    -1  
-$EndComp
 Text Label 5250 11100 1    50   ~ 0
 P8
 Text Label 5350 11100 1    50   ~ 0
@@ -1907,21 +1769,7 @@ A2
 Wire Wire Line
 	28000 14250 21550 14250
 Wire Wire Line
-	22100 8900 28900 8900
-Wire Wire Line
-	9550 14200 4650 14200
-Wire Wire Line
 	5550 14250 12000 14250
-Wire Wire Line
-	9650 14300 4650 14300
-Wire Wire Line
-	10450 14400 4650 14400
-Wire Wire Line
-	10550 14500 4650 14500
-Wire Wire Line
-	11350 14600 4650 14600
-Wire Wire Line
-	11450 14700 4650 14700
 Text Label 19850 11100 1    50   ~ 0
 A4
 Text Label 20050 11100 1    50   ~ 0
@@ -2212,36 +2060,1114 @@ F23 "BTN6" I L 12000 9950 50
 F24 "BTN7" I L 12000 9750 50 
 F25 "BTN8" I L 12000 9550 50 
 $EndSheet
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 68823188
+P 30150 11850
+F 0 "J?" V 30500 12900 50  0000 L CNN
+F 1 "Conn_02x20_Odd_Even" V 30200 9850 50  0000 L CNN
+F 2 "" H 30150 11850 50  0001 C CNN
+F 3 "~" H 30150 11850 50  0001 C CNN
+	1    30150 11850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 68986A82
+P 3400 11850
+F 0 "J?" V 3800 10750 50  0000 R CNN
+F 1 "Conn_02x20_Odd_Even" V 3405 10763 50  0000 R CNN
+F 2 "" H 3400 11850 50  0001 C CNN
+F 3 "~" H 3400 11850 50  0001 C CNN
+	1    3400 11850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68C5AA4B
+P 29250 11400
+F 0 "F?" V 29200 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29200 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29300 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29250 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29250 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29250 11400 50  0001 C CNN "Model"
+	1    29250 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68D01DE6
+P 29350 11400
+F 0 "F?" V 29300 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29300 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29400 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29350 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29350 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29350 11400 50  0001 C CNN "Model"
+	1    29350 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68D2DBFB
+P 29450 11400
+F 0 "F?" V 29400 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29400 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29500 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29450 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29450 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29450 11400 50  0001 C CNN "Model"
+	1    29450 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68D5989F
+P 29550 11400
+F 0 "F?" V 29500 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29500 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29600 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29550 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29550 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29550 11400 50  0001 C CNN "Model"
+	1    29550 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68D854A9
+P 29650 11400
+F 0 "F?" V 29600 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29600 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29700 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29650 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29650 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29650 11400 50  0001 C CNN "Model"
+	1    29650 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68DB10BC
+P 29750 11400
+F 0 "F?" V 29700 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29700 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29800 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29750 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29750 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29750 11400 50  0001 C CNN "Model"
+	1    29750 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68DDCCF4
+P 29850 11400
+F 0 "F?" V 29800 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29800 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29900 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29850 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29850 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29850 11400 50  0001 C CNN "Model"
+	1    29850 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68E08868
+P 29950 11400
+F 0 "F?" V 29900 11550 50  0000 L CNN
+F 1 "Polyfuse" V 29900 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30000 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29950 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 29950 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29950 11400 50  0001 C CNN "Model"
+	1    29950 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68E34371
+P 30050 11400
+F 0 "F?" V 30000 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30000 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30100 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30050 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30050 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30050 11400 50  0001 C CNN "Model"
+	1    30050 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68E6001C
+P 30150 11400
+F 0 "F?" V 30100 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30100 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30200 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30150 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30150 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30150 11400 50  0001 C CNN "Model"
+	1    30150 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68E924C8
+P 30250 11400
+F 0 "F?" V 30200 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30200 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30300 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30250 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30250 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30250 11400 50  0001 C CNN "Model"
+	1    30250 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68EBE14C
+P 30350 11400
+F 0 "F?" V 30300 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30300 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30400 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30350 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30350 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30350 11400 50  0001 C CNN "Model"
+	1    30350 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68EE9C1F
+P 30450 11400
+F 0 "F?" V 30400 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30400 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30500 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30450 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30450 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30450 11400 50  0001 C CNN "Model"
+	1    30450 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68F157D4
+P 30550 11400
+F 0 "F?" V 30500 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30500 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30600 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30550 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30550 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30550 11400 50  0001 C CNN "Model"
+	1    30550 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68F413F9
+P 30650 11400
+F 0 "F?" V 30600 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30600 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30700 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30650 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30650 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30650 11400 50  0001 C CNN "Model"
+	1    30650 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68F6D0BF
+P 30750 11400
+F 0 "F?" V 30700 11550 50  0000 L CNN
+F 1 "Polyfuse" V 30700 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30800 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30750 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 30750 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30750 11400 50  0001 C CNN "Model"
+	1    30750 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 68F9FD8C
+P 29250 12200
+F 0 "F?" V 29200 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29200 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29300 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29250 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29250 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29250 12200 50  0001 C CNN "Model"
+	1    29250 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6900082A
+P 29350 12200
+F 0 "F?" V 29300 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29300 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29400 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29350 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29350 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29350 12200 50  0001 C CNN "Model"
+	1    29350 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6902C4BE
+P 29450 12200
+F 0 "F?" V 29400 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29400 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29500 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29450 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29450 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29450 12200 50  0001 C CNN "Model"
+	1    29450 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69057F9B
+P 29550 12200
+F 0 "F?" V 29500 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29500 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29600 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29550 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29550 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29550 12200 50  0001 C CNN "Model"
+	1    29550 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69083ABF
+P 29650 12200
+F 0 "F?" V 29600 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29600 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29700 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29650 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29650 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29650 12200 50  0001 C CNN "Model"
+	1    29650 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 690AF5CF
+P 29750 12200
+F 0 "F?" V 29700 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29700 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29800 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29750 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29750 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29750 12200 50  0001 C CNN "Model"
+	1    29750 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 690DB13B
+P 29850 12200
+F 0 "F?" V 29800 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29800 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 29900 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29850 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29850 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29850 12200 50  0001 C CNN "Model"
+	1    29850 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69133FE4
+P 29950 12200
+F 0 "F?" V 29900 12350 50  0000 L CNN
+F 1 "Polyfuse" V 29900 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30000 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 29950 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 29950 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 29950 12200 50  0001 C CNN "Model"
+	1    29950 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6915FCC9
+P 30050 12200
+F 0 "F?" V 30000 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30000 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30100 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30050 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30050 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30050 12200 50  0001 C CNN "Model"
+	1    30050 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6918B8D7
+P 30150 12200
+F 0 "F?" V 30100 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30100 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30200 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30150 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30150 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30150 12200 50  0001 C CNN "Model"
+	1    30150 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 691B7578
+P 30250 12200
+F 0 "F?" V 30200 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30200 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30300 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30250 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30250 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30250 12200 50  0001 C CNN "Model"
+	1    30250 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 691E687B
+P 30350 12200
+F 0 "F?" V 30300 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30300 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30400 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30350 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30350 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30350 12200 50  0001 C CNN "Model"
+	1    30350 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6921127C
+P 30450 12200
+F 0 "F?" V 30400 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30400 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30500 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30450 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30450 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30450 12200 50  0001 C CNN "Model"
+	1    30450 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6923BB6E
+P 30550 12200
+F 0 "F?" V 30500 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30500 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30600 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30550 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30550 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30550 12200 50  0001 C CNN "Model"
+	1    30550 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 6929137D
+P 30650 12200
+F 0 "F?" V 30600 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30600 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30700 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30650 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30650 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30650 12200 50  0001 C CNN "Model"
+	1    30650 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 692BBC81
+P 30750 12200
+F 0 "F?" V 30700 12350 50  0000 L CNN
+F 1 "Polyfuse" V 30700 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 30800 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 30750 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 30750 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 30750 12200 50  0001 C CNN "Model"
+	1    30750 12200
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	28900 13200 28500 13200
+	29250 12350 29250 13200
 Wire Wire Line
-	28900 13400 27600 13400
+	28500 13200 29250 13200
 Wire Wire Line
-	28900 13500 27500 13500
+	29350 12350 29350 13300
 Wire Wire Line
-	28900 13600 26700 13600
+	28400 13300 29350 13300
 Wire Wire Line
-	28900 13700 26600 13700
+	29450 12350 29450 13400
 Wire Wire Line
-	28900 13900 25700 13900
+	27600 13400 29450 13400
 Wire Wire Line
-	28900 13800 25800 13800
+	29550 12350 29550 13500
 Wire Wire Line
-	22100 14700 28900 14700
+	27500 13500 29550 13500
 Wire Wire Line
-	22200 14600 28900 14600
+	29650 12350 29650 13600
 Wire Wire Line
-	23000 14500 28900 14500
+	26700 13600 29650 13600
 Wire Wire Line
-	23100 14400 28900 14400
+	29750 13700 29750 12350
 Wire Wire Line
-	23900 14300 28900 14300
+	26600 13700 29750 13700
 Wire Wire Line
-	24000 14200 28900 14200
+	29850 12350 29850 13800
 Wire Wire Line
-	28900 14000 24900 14000
+	25800 13800 29850 13800
 Wire Wire Line
-	28900 14100 24800 14100
+	29950 13900 29950 12350
 Wire Wire Line
-	28900 13300 28400 13300
+	25700 13900 29950 13900
+Wire Wire Line
+	30050 12350 30050 14000
+Wire Wire Line
+	24900 14000 30050 14000
+Wire Wire Line
+	30150 14100 30150 12350
+Wire Wire Line
+	24800 14100 30150 14100
+Wire Wire Line
+	30250 12350 30250 14200
+Wire Wire Line
+	24000 14200 30250 14200
+Wire Wire Line
+	30350 14300 30350 12350
+Wire Wire Line
+	23900 14300 30350 14300
+Wire Wire Line
+	30450 12350 30450 14400
+Wire Wire Line
+	23100 14400 30450 14400
+Wire Wire Line
+	30550 14500 30550 12350
+Wire Wire Line
+	30650 12350 30650 14600
+Wire Wire Line
+	22200 14600 30650 14600
+Wire Wire Line
+	23000 14500 30550 14500
+Wire Wire Line
+	30750 14700 30750 12350
+Wire Wire Line
+	22100 14700 30750 14700
+Wire Wire Line
+	29250 10400 29250 11250
+Wire Wire Line
+	28500 10400 29250 10400
+Wire Wire Line
+	29350 10300 29350 11250
+Wire Wire Line
+	28400 10300 29350 10300
+Wire Wire Line
+	29450 10200 29450 11250
+Wire Wire Line
+	27600 10200 29450 10200
+Wire Wire Line
+	29550 10100 29550 11250
+Wire Wire Line
+	27500 10100 29550 10100
+Wire Wire Line
+	29650 10000 29650 11250
+Wire Wire Line
+	26700 10000 29650 10000
+Wire Wire Line
+	29750 9900 29750 11250
+Wire Wire Line
+	26600 9900 29750 9900
+Wire Wire Line
+	29850 9800 29850 11250
+Wire Wire Line
+	25800 9800 29850 9800
+Wire Wire Line
+	29950 9700 29950 11250
+Wire Wire Line
+	25700 9700 29950 9700
+Wire Wire Line
+	30050 9600 30050 11250
+Wire Wire Line
+	24900 9600 30050 9600
+Wire Wire Line
+	30150 9500 30150 11250
+Wire Wire Line
+	24800 9500 30150 9500
+Wire Wire Line
+	30250 9400 30250 11250
+Wire Wire Line
+	24000 9400 30250 9400
+Wire Wire Line
+	30350 9300 30350 11250
+Wire Wire Line
+	23900 9300 30350 9300
+Wire Wire Line
+	30450 9200 30450 11250
+Wire Wire Line
+	23100 9200 30450 9200
+Wire Wire Line
+	30550 9100 30550 11250
+Wire Wire Line
+	23000 9100 30550 9100
+Wire Wire Line
+	30650 9000 30650 11250
+Wire Wire Line
+	22200 9000 30650 9000
+Wire Wire Line
+	30750 8900 30750 11250
+Wire Wire Line
+	22100 8900 30750 8900
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A474DB
+P 2800 12200
+F 0 "F?" V 2750 12350 50  0000 L CNN
+F 1 "Polyfuse" V 2750 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2850 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2800 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 2800 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 2800 12200 50  0001 C CNN "Model"
+	1    2800 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A474E3
+P 2900 12200
+F 0 "F?" V 2850 12350 50  0000 L CNN
+F 1 "Polyfuse" V 2850 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2950 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2900 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 2900 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 2900 12200 50  0001 C CNN "Model"
+	1    2900 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A474EB
+P 3000 12200
+F 0 "F?" V 2950 12350 50  0000 L CNN
+F 1 "Polyfuse" V 2950 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3050 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3000 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3000 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3000 12200 50  0001 C CNN "Model"
+	1    3000 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A474F3
+P 3100 12200
+F 0 "F?" V 3050 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3050 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3150 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3100 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3100 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3100 12200 50  0001 C CNN "Model"
+	1    3100 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A474FB
+P 3200 12200
+F 0 "F?" V 3150 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3150 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3250 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3200 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3200 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3200 12200 50  0001 C CNN "Model"
+	1    3200 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47503
+P 3300 12200
+F 0 "F?" V 3250 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3250 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3350 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3300 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3300 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3300 12200 50  0001 C CNN "Model"
+	1    3300 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A4750B
+P 3400 12200
+F 0 "F?" V 3350 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3350 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3450 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3400 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3400 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3400 12200 50  0001 C CNN "Model"
+	1    3400 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47513
+P 3500 12200
+F 0 "F?" V 3450 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3450 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3550 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3500 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3500 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3500 12200 50  0001 C CNN "Model"
+	1    3500 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A4751B
+P 3600 12200
+F 0 "F?" V 3550 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3550 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3650 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3600 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3600 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3600 12200 50  0001 C CNN "Model"
+	1    3600 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47523
+P 3700 12200
+F 0 "F?" V 3650 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3650 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3750 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3700 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3700 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3700 12200 50  0001 C CNN "Model"
+	1    3700 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A4752B
+P 3800 12200
+F 0 "F?" V 3750 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3750 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3850 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3800 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3800 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3800 12200 50  0001 C CNN "Model"
+	1    3800 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47533
+P 3900 12200
+F 0 "F?" V 3850 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3850 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3950 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3900 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 3900 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3900 12200 50  0001 C CNN "Model"
+	1    3900 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A4753B
+P 4000 12200
+F 0 "F?" V 3950 12350 50  0000 L CNN
+F 1 "Polyfuse" V 3950 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4050 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4000 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 4000 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4000 12200 50  0001 C CNN "Model"
+	1    4000 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47543
+P 4100 12200
+F 0 "F?" V 4050 12350 50  0000 L CNN
+F 1 "Polyfuse" V 4050 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4150 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4100 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 4100 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4100 12200 50  0001 C CNN "Model"
+	1    4100 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A4754B
+P 4200 12200
+F 0 "F?" V 4150 12350 50  0000 L CNN
+F 1 "Polyfuse" V 4150 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4250 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4200 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 4200 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4200 12200 50  0001 C CNN "Model"
+	1    4200 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69A47553
+P 4300 12200
+F 0 "F?" V 4250 12350 50  0000 L CNN
+F 1 "Polyfuse" V 4250 12350 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4350 12000 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4300 12200 50  0001 C CNN
+F 4 "Bel Fuse" H 4300 12200 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4300 12200 50  0001 C CNN "Model"
+	1    4300 12200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE791A
+P 2800 11400
+F 0 "F?" V 2750 11550 50  0000 L CNN
+F 1 "Polyfuse" V 2750 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2850 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2800 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 2800 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 2800 11400 50  0001 C CNN "Model"
+	1    2800 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7922
+P 2900 11400
+F 0 "F?" V 2850 11550 50  0000 L CNN
+F 1 "Polyfuse" V 2850 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 2950 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 2900 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 2900 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 2900 11400 50  0001 C CNN "Model"
+	1    2900 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE792A
+P 3000 11400
+F 0 "F?" V 2950 11550 50  0000 L CNN
+F 1 "Polyfuse" V 2950 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3050 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3000 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3000 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3000 11400 50  0001 C CNN "Model"
+	1    3000 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7932
+P 3100 11400
+F 0 "F?" V 3050 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3050 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3150 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3100 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3100 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3100 11400 50  0001 C CNN "Model"
+	1    3100 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE793A
+P 3200 11400
+F 0 "F?" V 3150 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3150 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3250 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3200 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3200 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3200 11400 50  0001 C CNN "Model"
+	1    3200 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7942
+P 3300 11400
+F 0 "F?" V 3250 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3250 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3350 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3300 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3300 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3300 11400 50  0001 C CNN "Model"
+	1    3300 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE794A
+P 3400 11400
+F 0 "F?" V 3350 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3350 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3450 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3400 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3400 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3400 11400 50  0001 C CNN "Model"
+	1    3400 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7952
+P 3500 11400
+F 0 "F?" V 3450 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3450 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3550 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3500 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3500 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3500 11400 50  0001 C CNN "Model"
+	1    3500 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE795A
+P 3600 11400
+F 0 "F?" V 3550 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3550 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3650 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3600 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3600 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3600 11400 50  0001 C CNN "Model"
+	1    3600 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7962
+P 3700 11400
+F 0 "F?" V 3650 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3650 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3750 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3700 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3700 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3700 11400 50  0001 C CNN "Model"
+	1    3700 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE796A
+P 3800 11400
+F 0 "F?" V 3750 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3750 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3850 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3800 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3800 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3800 11400 50  0001 C CNN "Model"
+	1    3800 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7972
+P 3900 11400
+F 0 "F?" V 3850 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3850 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 3950 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 3900 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 3900 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 3900 11400 50  0001 C CNN "Model"
+	1    3900 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE797A
+P 4000 11400
+F 0 "F?" V 3950 11550 50  0000 L CNN
+F 1 "Polyfuse" V 3950 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4050 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4000 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 4000 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4000 11400 50  0001 C CNN "Model"
+	1    4000 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7982
+P 4100 11400
+F 0 "F?" V 4050 11550 50  0000 L CNN
+F 1 "Polyfuse" V 4050 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4150 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4100 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 4100 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4100 11400 50  0001 C CNN "Model"
+	1    4100 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE798A
+P 4200 11400
+F 0 "F?" V 4150 11550 50  0000 L CNN
+F 1 "Polyfuse" V 4150 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4250 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4200 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 4200 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4200 11400 50  0001 C CNN "Model"
+	1    4200 11400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse F?
+U 1 1 69AE7992
+P 4300 11400
+F 0 "F?" V 4250 11550 50  0000 L CNN
+F 1 "Polyfuse" V 4250 11550 50  0001 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4350 11200 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Bel%20Fuse%20PDFs/0ZRR_Series.pdf" H 4300 11400 50  0001 C CNN
+F 4 "Bel Fuse" H 4300 11400 50  0001 C CNN "Manufacturer"
+F 5 "0ZRR0005FF2E" H 4300 11400 50  0001 C CNN "Model"
+	1    4300 11400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 10400 4300 11250
+Wire Wire Line
+	4300 10400 5050 10400
+Wire Wire Line
+	4200 11250 4200 10300
+Wire Wire Line
+	4200 10300 5150 10300
+Wire Wire Line
+	4100 10200 4100 11250
+Wire Wire Line
+	4100 10200 5950 10200
+Wire Wire Line
+	4000 11250 4000 10100
+Wire Wire Line
+	4000 10100 6050 10100
+Wire Wire Line
+	3900 10000 3900 11250
+Wire Wire Line
+	3900 10000 6850 10000
+Wire Wire Line
+	3800 11250 3800 9900
+Wire Wire Line
+	3800 9900 6950 9900
+Wire Wire Line
+	3700 9800 3700 11250
+Wire Wire Line
+	3700 9800 7750 9800
+Wire Wire Line
+	3600 9700 3600 11250
+Wire Wire Line
+	3600 9700 7850 9700
+Wire Wire Line
+	3500 9600 3500 11250
+Wire Wire Line
+	3500 9600 8650 9600
+Wire Wire Line
+	3400 9500 3400 11250
+Wire Wire Line
+	3400 9500 8750 9500
+Wire Wire Line
+	3300 9400 3300 11250
+Wire Wire Line
+	3300 9400 9550 9400
+Wire Wire Line
+	3200 9300 3200 11250
+Wire Wire Line
+	3200 9300 9650 9300
+Wire Wire Line
+	3100 9200 3100 11250
+Wire Wire Line
+	3100 9200 10450 9200
+Wire Wire Line
+	3000 9100 3000 11250
+Wire Wire Line
+	3000 9100 10550 9100
+Wire Wire Line
+	2900 9000 2900 11250
+Wire Wire Line
+	2900 9000 11350 9000
+Wire Wire Line
+	2800 8900 2800 11250
+Wire Wire Line
+	2800 8900 11450 8900
+Wire Wire Line
+	4300 12350 4300 13200
+Wire Wire Line
+	4300 13200 5050 13200
+Wire Wire Line
+	4200 12350 4200 13300
+Wire Wire Line
+	4200 13300 5150 13300
+Wire Wire Line
+	4100 13400 4100 12350
+Wire Wire Line
+	4100 13400 5950 13400
+Wire Wire Line
+	4000 12350 4000 13500
+Wire Wire Line
+	4000 13500 6050 13500
+Wire Wire Line
+	3900 12350 3900 13600
+Wire Wire Line
+	3900 13600 6850 13600
+Wire Wire Line
+	3800 12350 3800 13700
+Wire Wire Line
+	3800 13700 6950 13700
+Wire Wire Line
+	3700 13800 3700 12350
+Wire Wire Line
+	3700 13800 7750 13800
+Wire Wire Line
+	3600 12350 3600 13900
+Wire Wire Line
+	3600 13900 7850 13900
+Wire Wire Line
+	3500 14000 3500 12350
+Wire Wire Line
+	3500 14000 8650 14000
+Wire Wire Line
+	3400 12350 3400 14100
+Wire Wire Line
+	3400 14100 8750 14100
+Wire Wire Line
+	3300 12350 3300 14200
+Wire Wire Line
+	3300 14200 9550 14200
+Wire Wire Line
+	3200 12350 3200 14300
+Wire Wire Line
+	3200 14300 9650 14300
+Wire Wire Line
+	3100 12350 3100 14400
+Wire Wire Line
+	3100 14400 10450 14400
+Wire Wire Line
+	3000 14500 3000 12350
+Wire Wire Line
+	3000 14500 10550 14500
+Wire Wire Line
+	2900 12350 2900 14600
+Wire Wire Line
+	2900 14600 11350 14600
+Wire Wire Line
+	2800 14700 2800 12350
+Wire Wire Line
+	2800 14700 11450 14700
 $EndSCHEMATC
