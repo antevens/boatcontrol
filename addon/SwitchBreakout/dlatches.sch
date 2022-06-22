@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 21
+Sheet 7 21
 Title ""
 Date ""
 Rev ""
@@ -245,7 +245,7 @@ AR Path="/638586E3/62BAB44F" Ref="RN4"  Part="1"
 AR Path="/641410EA/62BAB44F" Ref="RN6"  Part="1" 
 AR Path="/64141124/62BAB44F" Ref="RN8"  Part="1" 
 AR Path="/637A5066/62BAB44F" Ref="RN?"  Part="1" 
-F 0 "RN4" V 3833 3900 50  0000 C CNN
+F 0 "RN8" V 3833 3900 50  0000 C CNN
 F 1 "1KΩ" V 3924 3900 50  0000 C CNN
 F 2 "BoatControl:DIP254P762X432-16P" V 4925 3900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4100R.pdf" H 4450 3900 50  0001 C CNN
@@ -263,7 +263,7 @@ AR Path="/638586E3/62B44E61" Ref="RN3"  Part="1"
 AR Path="/641410EA/62B44E61" Ref="RN5"  Part="1" 
 AR Path="/64141124/62B44E61" Ref="RN7"  Part="1" 
 AR Path="/637A5066/62B44E61" Ref="RN?"  Part="1" 
-F 0 "RN3" V 3833 2100 50  0000 C CNN
+F 0 "RN7" V 3833 2100 50  0000 C CNN
 F 1 "100KΩ" V 3924 2100 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 4925 2100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 4450 2100 50  0001 C CNN

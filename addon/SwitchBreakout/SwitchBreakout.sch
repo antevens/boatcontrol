@@ -5,9 +5,9 @@ $Descr A1 33110 23386
 encoding utf-8
 Sheet 1 21
 Title "Switch Breakout (toggle) for BoatControl32"
-Date ""
-Rev ""
-Comp ""
+Date "2022-06-22"
+Rev "0.1"
+Comp "Brak"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -3248,6 +3248,50 @@ F 1 "MountingHole" H 16100 14405 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 16000 14450 50  0001 C CNN
 F 3 "~" H 16000 14450 50  0001 C CNN
 	1    16000 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:LOGO_ANT #G1
+U 1 1 63481739
+P 17200 14750
+F 0 "#G1" H 17200 14420 60  0001 C CNN
+F 1 "LOGO_ANT" H 17200 15080 60  0001 C CNN
+F 2 "BoatControl:Ant_Logo_SilkScreen" H 17197 15173 50  0001 C CNN
+F 3 "" H 17200 14750 50  0001 C CNN
+	1    17200 14750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BoatControl:LOGO_RUGLUDALLUR #G2
+U 1 1 634896E1
+P 18050 14800
+F 0 "#G2" H 18050 14490 60  0001 C CNN
+F 1 "LOGO_RUGLUDALLUR" H 18050 15110 60  0001 C CNN
+F 2 "BoatControl:Rugludallur-Logo_SilkScreen" H 18050 14800 50  0001 C CNN
+F 3 "" H 18050 14800 50  0001 C CNN
+	1    18050 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 634A6F1A
+P 18950 14800
+F 0 "#LOGO1" H 18950 15300 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 18950 14400 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_48.7x40mm_SilkScreen" H 18950 14800 50  0001 C CNN
+F 3 "~" H 18950 14800 50  0001 C CNN
+	1    18950 14800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO2
+U 1 1 6350B1E1
+P 19950 14800
+F 0 "#LOGO2" H 19950 15300 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 19950 14400 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo_40mm_SilkScreen" H 19950 15316 50  0001 C CNN
+F 3 "~" H 19950 14800 50  0001 C CNN
+	1    19950 14800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
